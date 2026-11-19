@@ -100,6 +100,7 @@ function loadState() {
         existing.stadium = initCol.stadium;
       }
     });
+    migrateCollegeData(savedColleges);
     // Women's programs were removed from the database; drop saved ones unless a pipeline entry still uses them
     const savedPipelineIds = new Set(
       (Array.isArray(readStored(STORAGE_KEYS.PIPELINE)) ? readStored(STORAGE_KEYS.PIPELINE) : []).map(p => p.collegeId)
@@ -116,6 +117,7 @@ function loadState() {
     savedPipeline.forEach(p => {
       if (p.collegeId === "grandviewuniversity-mens") p.collegeId = "grandview-mens";
     });
+    remapPipelineCollegeIds(savedPipeline);
     state.pipeline = savedPipeline;
     saveState("pipeline");
   } else {
@@ -137,6 +139,38 @@ function loadState() {
   if (savedCalc && typeof savedCalc === "object" && !Array.isArray(savedCalc)) {
     state.calculator = { ...state.calculator, ...savedCalc };
   }
+}
+
+// Apply database corrections to colleges already saved in the browser (or imported from a backup).
+// - Merged duplicate entries are dropped (their pipeline references are remapped separately).
+// - A field is only corrected while it still holds the old default value, so user edits are never overwritten.
+function migrateCollegeData(colleges) {
+  Object.entries(DUPLICATE_COLLEGE_ID_MAP).forEach(([removedId, keptId]) => {
+    const idx = colleges.findIndex(c => c.id === removedId);
+    if (idx === -1) return;
+    colleges.splice(idx, 1);
+    if (!colleges.some(c => c.id === keptId)) {
+      const kept = INITIAL_COLLEGES.find(c => c.id === keptId);
+      if (kept) colleges.push(cloneData(kept));
+    }
+  });
+
+  colleges.forEach(col => {
+    const fixes = COLLEGE_DATA_FIXES[col.id];
+    if (!fixes) return;
+    Object.entries(fixes).forEach(([field, [from, to]]) => {
+      const current = col[field] === undefined ? null : col[field];
+      if (JSON.stringify(current) !== JSON.stringify(from)) return;
+      if (to === null) delete col[field];
+      else col[field] = to;
+    });
+  });
+}
+
+function remapPipelineCollegeIds(pipeline) {
+  pipeline.forEach(p => {
+    if (DUPLICATE_COLLEGE_ID_MAP[p.collegeId]) p.collegeId = DUPLICATE_COLLEGE_ID_MAP[p.collegeId];
+  });
 }
 
 // Save state to localStorage
@@ -850,7 +884,7 @@ function renderExplorer() {
             </div>
             <div>
               <span class="text-slate-500 block">Estimated Tuition</span>
-              <span class="font-semibold text-emerald-400">$${(col.annualTuitionUSD || 0).toLocaleString()}/yr</span>
+              <span class="font-semibold text-emerald-400">${col.annualTuitionUSD ? "$" + col.annualTuitionUSD.toLocaleString() + "/yr" : "要確認"}</span>
             </div>
             <div>
               <span class="text-slate-500 block">Target GPA / TOEFL</span>
@@ -949,7 +983,7 @@ function openCollegeDetailModal(collegeId) {
         </div>
         <div class="text-right">
           <span class="text-xs text-slate-400 block">Annual Tuition</span>
-          <span class="text-xl font-black text-emerald-400">$${(col.annualTuitionUSD || 0).toLocaleString()}</span>
+          <span class="text-xl font-black text-emerald-400">${col.annualTuitionUSD ? "$" + col.annualTuitionUSD.toLocaleString() : "要確認"}</span>
         </div>
       </div>
 
@@ -958,7 +992,7 @@ function openCollegeDetailModal(collegeId) {
           <span class="text-xs font-bold text-slate-400 uppercase">Coaching Staff (HC & CC)</span>
           <div>
             <span class="text-[10px] text-slate-400 block font-semibold">Head Coach (To):</span>
-            <p class="font-semibold text-white text-xs">${esc(col.headCoach || 'Head Coach')}</p>
+            <p class="font-semibold text-white text-xs">${esc(col.headCoach || 'Head Coach')}${col.coachVerified ? ' <span class="ml-1 px-1.5 py-0.5 text-[9px] rounded bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold align-middle">公式サイト確認済</span>' : ' <span class="ml-1 px-1.5 py-0.5 text-[9px] rounded bg-amber-950 text-amber-300 border border-amber-700 font-bold align-middle">要確認</span>'}</p>
             <p class="text-xs text-sky-400 break-all"><i data-lucide="mail" class="w-3 h-3 inline mr-1"></i>${esc(col.coachEmail || 'Not Listed')}</p>
           </div>
           <div class="pt-1 border-t border-slate-700/60">
@@ -971,7 +1005,7 @@ function openCollegeDetailModal(collegeId) {
           <span class="text-xs font-bold text-slate-400 uppercase">Academic & Admission</span>
           <p class="text-xs text-slate-300">• Target GPA: <strong class="text-white">${esc(col.targetGPA || '3.2')}</strong></p>
           <p class="text-xs text-slate-300">• Min TOEFL: <strong class="text-white">${esc(col.minTOEFL || '80')}</strong></p>
-          <p class="text-xs text-slate-300">• Room & Board: <strong class="text-white">$${(col.roomAndBoardUSD || 0).toLocaleString()}</strong></p>
+          <p class="text-xs text-slate-300">• Room & Board: <strong class="text-white">${col.roomAndBoardUSD ? "$" + col.roomAndBoardUSD.toLocaleString() : "要確認"}</strong></p>
         </div>
       </div>
 
@@ -985,9 +1019,9 @@ function openCollegeDetailModal(collegeId) {
       <div class="p-3.5 bg-gradient-to-r ${(col.japanesePlayers && (col.japanesePlayers.includes('1名') || col.japanesePlayers.includes('2名') || col.japanesePlayers.includes('3名') || col.japanesePlayers.includes('4名') || col.japanesePlayers.includes('5名') || col.japanesePlayers.includes('在籍'))) ? 'from-red-950/40 via-amber-950/30 to-slate-900 border-red-500/60' : 'from-amber-950/40 to-slate-900 border-amber-500/50'} rounded-xl border text-xs space-y-1.5 shadow-md">
         <div class="flex items-center justify-between">
           <span class="font-extrabold text-amber-300 flex items-center gap-1.5 uppercase text-xs">
-            <span class="text-base">🇯🇵</span> 日本人選手の在籍状況 (公式Roster検証データ)
+            <span class="text-base">🇯🇵</span> 日本人選手の在籍状況
           </span>
-          <span class="text-[10px] px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold">公式ロスター検証済</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold">${(col.japanesePlayers || '').includes('未確認') ? '要確認 (公式ロスターで確認)' : '公式ロスター確認データ'}</span>
         </div>
         <p class="text-slate-100 font-medium leading-relaxed pl-1">${esc(col.japanesePlayers || col.japaneseRosterInfo || '日本人選手受入実績あり（留学生枠・一般枠双方でオープン / 英語・学業基準クリアで積極スカウト対象）')}</p>
       </div>
@@ -1993,8 +2027,14 @@ function importDataJSON(event) {
       if (!confirm("現在のデータをバックアップの内容で上書きします。よろしいですか？")) return;
 
       if (isPlainObject(data.profile)) state.profile = { ...cloneData(DEFAULT_ATHLETE_PROFILE), ...data.profile };
-      if (Array.isArray(data.colleges)) state.colleges = data.colleges;
-      if (Array.isArray(data.pipeline)) state.pipeline = data.pipeline;
+      if (Array.isArray(data.colleges)) {
+        state.colleges = data.colleges;
+        migrateCollegeData(state.colleges);
+      }
+      if (Array.isArray(data.pipeline)) {
+        state.pipeline = data.pipeline;
+        remapPipelineCollegeIds(state.pipeline);
+      }
       if (Array.isArray(data.roadmap)) state.roadmap = data.roadmap;
       if (isPlainObject(data.calculator)) state.calculator = { ...state.calculator, ...data.calculator };
 

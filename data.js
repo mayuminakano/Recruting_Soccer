@@ -1,6 +1,6 @@
 // ==========================================
 // US College Soccer Database & Knowledge Base
-// (Complete Dataset: 363 Men's Colleges across NCAA D1, D2, D3, NAIA, NJCAA)
+// (Complete Dataset: 374 Men's Colleges across NCAA D1, D2, D3, NAIA, NJCAA)
 // ==========================================
 
 const INITIAL_COLLEGES = [
@@ -23,7 +23,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "62% (18/29名)",
     "notes": "2021 & 2023 National Champions. Pro MLS pipeline.",
     "tags": [
       "ACC",
@@ -31,12 +31,14 @@ const INITIAL_COLLEGES = [
       "Tigers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生18名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://clemsontigers.com/sports/mens-soccer/recruits",
     "campUrl": "https://clemsonsoccercamp.com/",
     "assistantCoach": "Phil Jones (Associate HC)",
-    "assistantCoachEmail": "philj@clemson.edu"
+    "assistantCoachEmail": "philj@clemson.edu",
+    "strengthLevel": 5,
+    "strengthNote": "平均18位 (2026年 4位 / 2025年 38位 / 2024年 12位)"
   },
   {
     "id": "wakeforestuniversity-mens",
@@ -49,7 +51,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Demon Deacons",
     "headCoach": "Bobby Muuss",
-    "coachEmail": "muussb@wfu.edu",
+    "coachEmail": "muussrp@wfu.edu",
     "stadium": "W. Dennie Spry Soccer Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -57,7 +59,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17290,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "30% (9/30名)",
     "notes": "Top 5 national rank. High technical possession.",
     "tags": [
       "ACC",
@@ -65,12 +67,15 @@ const INITIAL_COLLEGES = [
       "Demon Deacons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生9名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://godeacs.com/sports/mens-soccer/recruits",
     "campUrl": "https://wakesoccercamp.com/",
-    "assistantCoach": "Dane Brenner (Associate HC)",
-    "assistantCoachEmail": "brennerd@wfu.edu"
+    "assistantCoach": "Dane Brenner",
+    "assistantCoachEmail": "brennerd@wfu.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均29位 (2026年 29位 / 2025年 48位 / 2024年 9位)"
   },
   {
     "id": "universityofvirginia-mens",
@@ -91,7 +96,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14750,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "7x NCAA Champions. Elite historic dynasty.",
     "tags": [
       "ACC",
@@ -99,12 +104,14 @@ const INITIAL_COLLEGES = [
       "Cavaliers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://virginiasports.com/sports/mens-soccer/recruits",
     "campUrl": "https://virginiasoccercamp.com/",
     "assistantCoach": "Matt Chulis (Associate HC)",
-    "assistantCoachEmail": "mchulis@virginia.edu"
+    "assistantCoachEmail": "mchulis@virginia.edu",
+    "strengthLevel": 5,
+    "strengthNote": "平均23位 (2026年 51位 / 2025年 5位 / 2024年 14位)"
   },
   {
     "id": "stanforduniversity-mens",
@@ -138,7 +145,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://gostanford.com/sports/mens-soccer/recruits",
     "campUrl": "https://stanfordmenssoccercamp.com/",
     "assistantCoach": "Ben Newby / Christian Meza",
-    "assistantCoachEmail": "bnewby@stanford.edu"
+    "assistantCoachEmail": "bnewby@stanford.edu",
+    "strengthLevel": 5,
+    "strengthNote": "平均16位 (2026年 20位 / 2025年 17位 / 2024年 11位)"
   },
   {
     "id": "syracuseuniversity-mens",
@@ -151,7 +160,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Orange",
     "headCoach": "Ian McIntyre",
-    "coachEmail": "suathletics@syr.edu",
+    "coachEmail": "ismcinty@syr.edu",
     "stadium": "SU Soccer Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -159,7 +168,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18050,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "37% (10/27名)",
     "notes": "2022 National Champions. High intensity pressing.",
     "tags": [
       "ACC",
@@ -167,12 +176,15 @@ const INITIAL_COLLEGES = [
       "Orange",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全27名 / 留学生10名 / MF 13名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://cuse.com/sports/mens-soccer/recruits",
     "campUrl": "https://syracusesoccercamp.com/",
-    "assistantCoach": "Jukka Masalin (Associate HC)",
-    "assistantCoachEmail": "jmasalin@syr.edu"
+    "assistantCoach": "Jukka Masalin",
+    "assistantCoachEmail": "jmasalin@syr.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均44位 (2026年 34位 / 2025年 36位 / 2024年 61位)"
   },
   {
     "id": "southernmethodistuni-mens",
@@ -185,15 +197,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Mustangs",
     "headCoach": "Kevin Hudson",
-    "coachEmail": "smusoccer@smu.edu",
-    "stadium": "Mustangs Stadium / Field",
+    "coachEmail": "khudson@smu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 64460,
     "roomAndBoardUSD": 18500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "19% (6/32名)",
     "notes": "Texas powerhouse. Multi-million stadium & pro draft output.",
     "tags": [
       "ACC",
@@ -201,12 +212,15 @@ const INITIAL_COLLEGES = [
       "Mustangs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生6名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Methodist+Univ+(SMU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southern+Methodist+Univ+(SMU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@smu.edu"
+    "assistantCoach": "Michael King",
+    "assistantCoachEmail": "mjking@smu.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均8位 (2026年 3位 / 2025年 7位 / 2024年 15位)"
   },
   {
     "id": "uncchapelhill-mens",
@@ -219,7 +233,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Tar Heels",
     "headCoach": "Carlos Somoano",
-    "coachEmail": "msoccer@unc.edu",
+    "coachEmail": "csomoano@uncaa.unc.edu",
     "stadium": "Dorrance Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -227,7 +241,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "45% (14/31名)",
     "notes": "2x National Champions (2001, 2011). Dorrance Field.",
     "tags": [
       "ACC",
@@ -235,12 +249,15 @@ const INITIAL_COLLEGES = [
       "Tar Heels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全31名 / 留学生14名 / MF 10名 (Sr・Gr 1名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Chapel+Hill+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Chapel+Hill+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@unc.edu"
+    "assistantCoach": "Michael Callahan",
+    "assistantCoachEmail": "mbcallah@unc.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均18位 (2026年 7位 / 2025年 25位 / 2024年 22位)"
   },
   {
     "id": "universityofnotredam-mens",
@@ -261,7 +278,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17320,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "0% (0/29名)",
     "notes": "2013 Champions & 2023 National Finalists.",
     "tags": [
       "ACC",
@@ -269,12 +286,12 @@ const INITIAL_COLLEGES = [
       "Fighting Irish",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生0名 / MF 11名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Notre+Dame+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Notre+Dame+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@nd.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均41位 (2026年 37位 / 2025年 39位 / 2024年 48位)"
   },
   {
     "id": "universityofpittsbur-mens",
@@ -287,7 +304,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Panthers",
     "headCoach": "Jay Vidovich",
-    "coachEmail": "pittmsoccer@athletics.pitt.edu",
+    "coachEmail": "msoccer@athletics.pitt.edu",
     "stadium": "Ambrose Urbanic Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -295,7 +312,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "65%",
+    "intlRosterPct": "36% (9/25名)",
     "notes": "College Cup regular. High European style passing.",
     "tags": [
       "ACC",
@@ -303,12 +320,15 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約65%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生9名 / MF 11名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Pittsburgh+(Pitt)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Pittsburgh+(Pitt)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@athletics.pitt.edu"
+    "assistantCoach": "Bryce Cregan",
+    "assistantCoachEmail": "bcregan@athletics.pitt.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均25位 (2026年 9位 / 2025年 63位 / 2024年 4位)"
   },
   {
     "id": "dukeuniversity-mens",
@@ -321,7 +341,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Blue Devils",
     "headCoach": "John Kerr",
-    "coachEmail": "dukesoccer@duke.edu",
+    "coachEmail": "jjk21@duke.edu",
     "stadium": "Koskinen Stadium",
     "targetGPA": 3.7,
     "minTOEFL": 100,
@@ -329,7 +349,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18484,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "36% (10/28名)",
     "notes": "1986 National Champions. Top academic brand.",
     "tags": [
       "ACC",
@@ -337,12 +357,15 @@ const INITIAL_COLLEGES = [
       "Blue Devils",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生10名 / MF 13名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Duke+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Duke+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@duke.edu"
+    "assistantCoach": "Michael Brady",
+    "assistantCoachEmail": "michael.brady@duke.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均30位 (2026年 60位 / 2025年 21位 / 2024年 10位)"
   },
   {
     "id": "ucberkeleycal-mens",
@@ -356,14 +379,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Golden Bears",
     "headCoach": "Leonard Griffin",
     "coachEmail": "calsoccer@berkeley.edu",
-    "stadium": "Golden Bears Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 48465,
     "roomAndBoardUSD": 22500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "30%",
+    "intlRosterPct": "17% (5/30名)",
     "notes": "全米屈指の州立名門。2024年秋よりACC所属。サンフランシスコ・ベイエリア。",
     "tags": [
       "ACC",
@@ -371,12 +393,14 @@ const INITIAL_COLLEGES = [
       "Golden Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (過去受け入れ実績あり)",
-    "rosterStats": "部員32名中 留学生約10名 (約30%) / 欧州, 中南米",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生5名 / MF 15名 (Sr・Gr 8名)",
     "questionnaireUrl": "https://calbears.com/sports/mens-soccer/recruits",
     "campUrl": "https://calsoccercamps.com/",
     "assistantCoach": "Henry Foulk / Ricardo Gutierrez",
-    "assistantCoachEmail": "hfoulk@berkeley.edu"
+    "assistantCoachEmail": "hfoulk@berkeley.edu",
+    "strengthLevel": 4,
+    "strengthNote": "平均40位 (2026年 33位 / 2025年 53位 / 2024年 33位)"
   },
   {
     "id": "universityoflouisvil-mens",
@@ -389,15 +413,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Cardinals",
     "headCoach": "John Michael Hayden",
-    "coachEmail": "cardsoccer@louisville.edu",
-    "stadium": "Cardinals Stadium / Field",
+    "coachEmail": "johnh@GoCards.com",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 29194,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "37% (10/27名)",
     "notes": "Lynn Stadium is one of the premier soccer stadiums in USA.",
     "tags": [
       "ACC",
@@ -405,12 +428,15 @@ const INITIAL_COLLEGES = [
       "Cardinals",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生10名 / MF 9名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Louisville+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Louisville+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@louisville.edu"
+    "coachVerified": true,
+    "assistantCoach": "Stephen Lunney",
+    "assistantCoachEmail": "slunney@GoCards.com",
+    "strengthLevel": 4,
+    "strengthNote": "平均55位 (2026年 15位 / 2025年 77位 / 2024年 72位)"
   },
   {
     "id": "ncstateuniversity-mens",
@@ -424,14 +450,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Wolfpack",
     "headCoach": "Marc Hubbard",
     "coachEmail": "wolfpacksoccer@ncsu.edu",
-    "stadium": "Wolfpack Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 30869,
     "roomAndBoardUSD": 13600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "48% (15/31名)",
     "notes": "New era under national champion coach Marc Hubbard.",
     "tags": [
       "ACC",
@@ -439,12 +464,12 @@ const INITIAL_COLLEGES = [
       "Wolfpack",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Hayato Takayama",
+    "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=NC+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=NC+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@ncsu.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均23位 (2026年 30位 / 2025年 3位 / 2024年 36位)"
   },
   {
     "id": "virginiatech-mens",
@@ -458,14 +483,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Hokies",
     "headCoach": "Mike Brizendine",
     "coachEmail": "hokiesoccer@vt.edu",
-    "stadium": "Hokies Stadium / Field",
     "targetGPA": 3.7,
     "minTOEFL": 100,
     "annualTuitionUSD": 35450,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Thompson Field. Regular NCAA tournament contenders.",
     "tags": [
       "ACC",
@@ -473,12 +497,12 @@ const INITIAL_COLLEGES = [
       "Hokies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Virginia+Tech+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Virginia+Tech+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@vt.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均51位 (2026年 53位 / 2025年 56位 / 2024年 44位)"
   },
   {
     "id": "bostoncollege-mens",
@@ -490,16 +514,15 @@ const INITIAL_COLLEGES = [
     "conference": "ACC",
     "gender": "Men",
     "mascot": "Eagles",
-    "headCoach": "Bob Thompson",
-    "coachEmail": "eaglessoccer@bc.edu",
-    "stadium": "Eagles Stadium / Field",
+    "headCoach": "Francesco D'Agostino",
+    "coachEmail": "msoccer@bc.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 67450,
     "roomAndBoardUSD": 17200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "36% (10/28名)",
     "notes": "Boston metro. Strong international recruiting.",
     "tags": [
       "ACC",
@@ -507,12 +530,13 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生10名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Boston+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Boston+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bc.edu"
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均67位 (2026年 56位 / 2025年 86位 / 2024年 60位)"
   },
   {
     "id": "indianauniversityblo-mens",
@@ -533,7 +557,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "17% (5/30名)",
     "notes": "8x NCAA Champions. Iconic soccer tradition.",
     "tags": [
       "Big Ten",
@@ -541,12 +565,15 @@ const INITIAL_COLLEGES = [
       "Hoosiers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生5名 / MF 7名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+University+Bloomington+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Indiana+University+Bloomington+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@indiana.edu"
+    "assistantCoach": "Christian Lomeli",
+    "assistantCoachEmail": "clomeli@iu.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均15位 (2026年 5位 / 2025年 18位 / 2024年 21位)"
   },
   {
     "id": "universityofmaryland-mens",
@@ -567,7 +594,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15300,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "61% (17/28名)",
     "notes": "4x National Champions. Ludwig Field The Crew fan section.",
     "tags": [
       "Big Ten",
@@ -575,12 +602,12 @@ const INITIAL_COLLEGES = [
       "Terrapins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生17名 / MF 11名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Maryland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Maryland+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@umd.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均14位 (2026年 6位 / 2025年 8位 / 2024年 27位)"
   },
   {
     "id": "ucla-mens",
@@ -601,7 +628,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 19230,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "30%",
+    "intlRosterPct": "53% (16/30名)",
     "notes": "全米王者4回。2024年秋よりBig Ten所属。ロサンゼルス・ウェストウッドの最高峰環境。",
     "tags": [
       "Big Ten",
@@ -609,12 +636,14 @@ const INITIAL_COLLEGES = [
       "Bruins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (過去受け入れ実績あり)",
-    "rosterStats": "部員29名中 留学生約9名 (約30%) / 欧州, 南米",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生16名 / MF 11名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://uclabruins.com/sports/mens-soccer/recruiting-questionnaire",
     "campUrl": "https://uclasoccercamps.com/",
     "assistantCoach": "Paul Snape / Nick Howard",
-    "assistantCoachEmail": "psnape@athletics.ucla.edu"
+    "assistantCoachEmail": "psnape@athletics.ucla.edu",
+    "strengthLevel": 4,
+    "strengthNote": "平均30位 (2026年 22位 / 2025年 30位 / 2024年 39位)"
   },
   {
     "id": "universityofwashingt-mens",
@@ -628,14 +657,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Huskies",
     "headCoach": "Jamie Clark",
     "coachEmail": "clarkj8@uw.edu",
-    "stadium": "Huskies Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41997,
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "0% (0/30名)",
     "notes": "2021 National Runner-up. Top West Coast powerhouse.",
     "tags": [
       "Big Ten",
@@ -643,12 +671,15 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生0名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Washington+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Washington+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uw.edu"
+    "assistantCoach": "Mark Collings",
+    "assistantCoachEmail": "markcoll@uw.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均15位 (2026年 16位 / 2025年 1位 / 2024年 28位)"
   },
   {
     "id": "ohiostateuniversity-mens",
@@ -661,7 +692,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Buckeyes",
     "headCoach": "Brian Maisonneuve",
-    "coachEmail": "buckeyesoccer@osu.edu",
+    "coachEmail": "maisonneuve.2@osu.edu",
     "stadium": "Jesse Owens Memorial Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -669,7 +700,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14350,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "21% (6/29名)",
     "notes": "Jesse Owens Memorial Stadium. Massive Big Ten network.",
     "tags": [
       "Big Ten",
@@ -677,12 +708,15 @@ const INITIAL_COLLEGES = [
       "Buckeyes",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生6名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Ohio+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Ohio+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@osu.edu"
+    "assistantCoach": "Matt Foldesy",
+    "assistantCoachEmail": "foldesy.1@osu.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均48位 (2026年 45位 / 2025年 98位 / 2024年 1位)"
   },
   {
     "id": "pennstateuniversity-mens",
@@ -703,7 +737,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13420,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Jeffrey Field. Rich soccer history & passionate fans.",
     "tags": [
       "Big Ten",
@@ -711,12 +745,12 @@ const INITIAL_COLLEGES = [
       "Nittany Lions",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Penn+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Penn+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@psu.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均87位 (2026年 81位 / 2025年 103位 / 2024年 77位)"
   },
   {
     "id": "universityofmichigan-mens",
@@ -737,7 +771,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14450,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "9% (3/32名)",
     "notes": "U-M Soccer Stadium. Elite academic public university.",
     "tags": [
       "Big Ten",
@@ -745,12 +779,15 @@ const INITIAL_COLLEGES = [
       "Wolverines",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生3名 / MF 12名 (Sr・Gr 7名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Michigan+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Michigan+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@umich.edu"
+    "assistantCoach": "Kevin Anderson",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均50位 (2026年 88位 / 2025年 31位 / 2024年 31位)"
   },
   {
     "id": "michiganstateunivers-mens",
@@ -763,15 +800,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Spartans",
     "headCoach": "Damon Rensing",
-    "coachEmail": "spartansoccer@msu.edu",
-    "stadium": "Spartans Stadium / Field",
+    "coachEmail": "rensingd@ath.msu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 43372,
     "roomAndBoardUSD": 11754,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "4% (1/26名)",
     "notes": "DeMartin Stadium. Historic Big Ten pro pipeline.",
     "tags": [
       "Big Ten",
@@ -779,12 +815,15 @@ const INITIAL_COLLEGES = [
       "Spartans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生1名 / MF 9名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Michigan+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Michigan+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@msu.edu"
+    "assistantCoach": "Reid Friedrichs",
+    "assistantCoachEmail": "rfriedrichs@ath.msu.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均64位 (2026年 17位 / 2025年 92位 / 2024年 83位)"
   },
   {
     "id": "universityofwisconsi-mens",
@@ -797,15 +836,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Badgers",
     "headCoach": "Neil Jones",
-    "coachEmail": "badgersoccer@uwbadgers.com",
-    "stadium": "Badgers Stadium / Field",
+    "coachEmail": "wisconsinmsoc@athletics.wisc.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 40603,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "19% (5/27名)",
     "notes": "1995 Champions. McClimon Track/Soccer Complex.",
     "tags": [
       "Big Ten",
@@ -813,12 +851,13 @@ const INITIAL_COLLEGES = [
       "Badgers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全27名 / 留学生5名 / MF 7名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Wisconsin-Madison+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Wisconsin-Madison+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uwbadgers.com"
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均40位 (2026年 18位 / 2025年 57位 / 2024年 46位)"
   },
   {
     "id": "rutgersuniversity-mens",
@@ -832,14 +871,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Scarlet Knights",
     "headCoach": "Jim McElderry",
     "coachEmail": "scarletsoccer@rutgers.edu",
-    "stadium": "Scarlet Knights Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 35350,
     "roomAndBoardUSD": 15100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "27% (9/33名)",
     "notes": "2022 Big Ten Tournament Champions. NYC metro area.",
     "tags": [
       "Big Ten",
@@ -847,12 +885,12 @@ const INITIAL_COLLEGES = [
       "Scarlet Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生9名 / MF 10名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Rutgers+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rutgers+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@rutgers.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均46位 (2026年 11位 / 2025年 41位 / 2024年 86位)"
   },
   {
     "id": "georgetownuniversity-mens",
@@ -865,7 +903,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Hoyas",
     "headCoach": "Brian Wiese",
-    "coachEmail": "bwiese@georgetown.edu",
+    "coachEmail": "gumenssoccer@georgetown.edu",
     "stadium": "Shaw Field",
     "targetGPA": 3.7,
     "minTOEFL": 100,
@@ -873,7 +911,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 19478,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "29% (8/28名)",
     "notes": "2019 National Champions. Exceptional possession soccer.",
     "tags": [
       "Big East",
@@ -881,12 +919,15 @@ const INITIAL_COLLEGES = [
       "Hoyas",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生8名 / MF 18名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Georgetown+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgetown+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@georgetown.edu"
+    "assistantCoach": "Mike Montross",
+    "assistantCoachEmail": "mm5289@georgetown.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均5位 (2026年 1位 / 2025年 11位 / 2024年 3位)"
   },
   {
     "id": "universityofakron-mens",
@@ -899,7 +940,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Zips",
     "headCoach": "Jared Embick",
-    "coachEmail": "jembick@uakron.edu",
+    "coachEmail": "menssoccer@uakron.edu",
     "stadium": "FirstEnergy Stadium - Cub Cadet Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -907,7 +948,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "31% (9/29名)",
     "notes": "2010 National Champions. Premier possession & MLS factory.",
     "tags": [
       "Big East",
@@ -915,12 +956,15 @@ const INITIAL_COLLEGES = [
       "Zips",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生9名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Akron+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Akron+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uakron.edu"
+    "assistantCoach": "Ger Coppinger",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均17位 (2026年 2位 / 2025年 16位 / 2024年 34位)"
   },
   {
     "id": "creightonuniversity-mens",
@@ -933,7 +977,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Bluejays",
     "headCoach": "Johnny Torres",
-    "coachEmail": "bluejaysoccer@creighton.edu",
+    "coachEmail": "creightonsocceracademy@creighton.edu",
     "stadium": "Michael G. Morrison, S.J., Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -941,7 +985,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "31% (9/29名)",
     "notes": "Morrison Stadium (Top 5 stadium). 6x College Cup appearances.",
     "tags": [
       "Big East",
@@ -949,12 +993,15 @@ const INITIAL_COLLEGES = [
       "Bluejays",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生9名 / MF 13名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Creighton+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Creighton+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@creighton.edu"
+    "assistantCoach": "Mitch Kavanagh",
+    "assistantCoachEmail": "mitchkavanagh@creighton.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均40位 (2026年 14位 / 2025年 50位 / 2024年 55位)"
   },
   {
     "id": "providencecollege-mens",
@@ -975,7 +1022,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17150,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "26% (7/27名)",
     "notes": "Chapey Field at Anderson Stadium. NCAA sweet 16 regular.",
     "tags": [
       "Big East",
@@ -983,12 +1030,12 @@ const INITIAL_COLLEGES = [
       "Friars",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生7名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Providence+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Providence+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@providence.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均54位 (2026年 70位 / 2025年 74位 / 2024年 18位)"
   },
   {
     "id": "stjohnsuniversity-mens",
@@ -1002,14 +1049,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Red Storm",
     "headCoach": "Dr. Dave Masur",
     "coachEmail": "redstormsoccer@stjohns.edu",
-    "stadium": "Red Storm Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 49160,
     "roomAndBoardUSD": 19200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "47% (16/34名)",
     "notes": "1996 National Champions. NYC Queens location with global roster.",
     "tags": [
       "Big East",
@@ -1017,12 +1063,12 @@ const INITIAL_COLLEGES = [
       "Red Storm",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生16名 / MF 15名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=St.+John's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+John's+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@stjohns.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均65位 (2026年 77位 / 2025年 45位 / 2024年 73位)"
   },
   {
     "id": "uconnuniversityofcon-mens",
@@ -1043,7 +1089,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14750,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "3x Champions (1948, 1981, 2000). Morrone Stadium.",
     "tags": [
       "Big East",
@@ -1051,12 +1097,12 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UConn+(University+of+Connecticut)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UConn+(University+of+Connecticut)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uconn.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均49位 (2026年 52位 / 2025年 19位 / 2024年 75位)"
   },
   {
     "id": "butleruniversity-mens",
@@ -1070,14 +1116,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bulldogs",
     "headCoach": "Paul Snape",
     "coachEmail": "butlersoccer@butler.edu",
-    "stadium": "Bulldogs Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 46280,
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Sellick Bowl. Technical program with strong European pipeline.",
     "tags": [
       "Big East",
@@ -1085,12 +1130,12 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Butler+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Butler+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@butler.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均138位 (2026年 109位 / 2025年 159位 / 2024年 147位)"
   },
   {
     "id": "xavieruniversity-mens",
@@ -1104,14 +1149,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Musketeers",
     "headCoach": "John Higgins",
     "coachEmail": "musketeersoccer@xavier.edu",
-    "stadium": "Musketeers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 46400,
     "roomAndBoardUSD": 14350,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "38% (11/29名)",
     "notes": "Corcoran Field. Midwest Big East competitor.",
     "tags": [
       "Big East",
@@ -1119,12 +1163,12 @@ const INITIAL_COLLEGES = [
       "Musketeers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生11名 / MF 10名 (Sr・Gr 1名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Xavier+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Xavier+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@xavier.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均83位 (2026年 32位 / 2025年 116位 / 2024年 101位)"
   },
   {
     "id": "setonhalluniversity-mens",
@@ -1138,14 +1182,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Pirates",
     "headCoach": "Andreas Lindberg",
     "coachEmail": "piratessoccer@shu.edu",
-    "stadium": "Pirates Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 49830,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "46% (13/28名)",
     "notes": "2020 Big East Champions. Heavily European & international roster.",
     "tags": [
       "Big East",
@@ -1153,12 +1196,15 @@ const INITIAL_COLLEGES = [
       "Pirates",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生13名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Seton+Hall+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Seton+Hall+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@shu.edu"
+    "coachVerified": true,
+    "assistantCoach": "Jeff Matteo",
+    "assistantCoachEmail": "jeffrey.matteo@shu.edu",
+    "strengthLevel": 4,
+    "strengthNote": "平均58位 (2026年 58位 / 2025年 26位 / 2024年 89位)"
   },
   {
     "id": "marquetteuniversity-mens",
@@ -1172,14 +1218,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Golden Eagles",
     "headCoach": "Louis Bennett",
     "coachEmail": "marquettesoccer@marquette.edu",
-    "stadium": "Golden Eagles Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 48700,
     "roomAndBoardUSD": 15200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "39% (11/28名)",
     "notes": "Valley Fields in Milwaukee. Technical possession style.",
     "tags": [
       "Big East",
@@ -1187,12 +1232,12 @@ const INITIAL_COLLEGES = [
       "Golden Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生11名 / MF 8名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Marquette+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Marquette+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@marquette.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均102位 (2026年 47位 / 2025年 131位 / 2024年 128位)"
   },
   {
     "id": "villanovauniversity-mens",
@@ -1206,14 +1251,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Wildcats",
     "headCoach": "Mark Fetrow",
     "coachEmail": "villanovasoccer@villanova.edu",
-    "stadium": "Wildcats Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 63585,
     "roomAndBoardUSD": 16400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "8% (2/25名)",
     "notes": "Higgins Soccer Complex. Top Philadelphia Catholic university.",
     "tags": [
       "Big East",
@@ -1221,12 +1265,15 @@ const INITIAL_COLLEGES = [
       "Wildcats",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明3名)",
+    "rosterStats": "公式ロスター全25名 / 留学生2名 / MF 10名 (Sr・Gr 3名) / 出身地不明3名",
     "questionnaireUrl": "https://www.google.com/search?q=Villanova+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Villanova+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@villanova.edu"
+    "coachVerified": true,
+    "assistantCoach": "Alex Balog",
+    "assistantCoachEmail": "abalog@villanova.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均126位 (2026年 119位 / 2025年 89位 / 2024年 171位)"
   },
   {
     "id": "depauluniversity-mens",
@@ -1239,15 +1286,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Blue Demons",
     "headCoach": "Mark Plotkin",
-    "coachEmail": "depaulsoccer@depaul.edu",
-    "stadium": "Blue Demons Stadium / Field",
+    "coachEmail": "mplotkin@depaul.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 43905,
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "3% (1/29名)",
     "notes": "Wish Field in Lincoln Park Chicago.",
     "tags": [
       "Big East",
@@ -1255,12 +1301,15 @@ const INITIAL_COLLEGES = [
       "Blue Demons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生1名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=DePaul+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=DePaul+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@depaul.edu"
+    "coachVerified": true,
+    "assistantCoach": "Scott Bratt",
+    "assistantCoachEmail": "sbratt@depaul.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均126位 (2026年 95位 / 2025年 182位 / 2024年 100位)"
   },
   {
     "id": "marshalluniversity-mens",
@@ -1273,7 +1322,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Thundering Herd",
     "headCoach": "Chris Grassie",
-    "coachEmail": "grassie@marshall.edu",
+    "coachEmail": "msoccer@marshall.edu",
     "stadium": "Hoops Family Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -1281,7 +1330,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "65%",
+    "intlRosterPct": "81% (22/27名)",
     "notes": "2020 National Champions. International heavy recruiting.",
     "tags": [
       "Sun Belt",
@@ -1289,12 +1338,15 @@ const INITIAL_COLLEGES = [
       "Thundering Herd",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約65%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生22名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://herdzone.com/sports/mens-soccer/recruits",
     "campUrl": "https://marshallsoccercamps.com/",
-    "assistantCoach": "Petsa Radivojevic",
-    "assistantCoachEmail": "radivojevic@marshall.edu"
+    "assistantCoach": "Josh Faga",
+    "assistantCoachEmail": "faga@marshall.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均16位 (2026年 19位 / 2025年 22位 / 2024年 8位)"
   },
   {
     "id": "westvirginiauniversi-mens",
@@ -1315,7 +1367,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "55% (17/31名)",
     "notes": "2023 College Cup Semifinalist. Dick Dlesk Stadium.",
     "tags": [
       "Sun Belt",
@@ -1323,12 +1375,15 @@ const INITIAL_COLLEGES = [
       "Mountaineers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Kanta Ishii",
+    "rosterStats": "公式ロスター全31名 / 留学生17名 / MF 9名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=West+Virginia+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=West+Virginia+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@mail.wvu.edu"
+    "assistantCoach": "Andy Wright",
+    "assistantCoachEmail": "andy.wright@mail.wvu.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均17位 (2026年 10位 / 2025年 24位 / 2024年 16位)"
   },
   {
     "id": "universityofkentucky-mens",
@@ -1349,7 +1404,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "72% (18/25名)",
     "notes": "The Bell Soccer Complex. Top 10 national ranking.",
     "tags": [
       "Sun Belt",
@@ -1357,12 +1412,12 @@ const INITIAL_COLLEGES = [
       "Wildcats",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生18名 / MF 8名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Kentucky+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Kentucky+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uky.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均75位 (2026年 115位 / 2025年 40位 / 2024年 69位)"
   },
   {
     "id": "ucfunivofcentralflor-mens",
@@ -1383,7 +1438,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Orlando Florida. Massive campus with top weather & soccer.",
     "tags": [
       "Sun Belt",
@@ -1391,12 +1446,12 @@ const INITIAL_COLLEGES = [
       "Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UCF+(Univ+of+Central+Florida)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UCF+(Univ+of+Central+Florida)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@athletics.ucf.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均45位 (2026年 48位 / 2025年 32位 / 2024年 56位)"
   },
   {
     "id": "jamesmadisonuniversi-mens",
@@ -1409,7 +1464,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Dukes",
     "headCoach": "Paul Zazenski",
-    "coachEmail": "jmusoccer@jmu.edu",
+    "coachEmail": "zazenspm@jmu.edu",
     "stadium": "Sentara Park",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -1417,7 +1472,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "59% (17/29名)",
     "notes": "Sentara Park. Regular NCAA sweet 16 participant.",
     "tags": [
       "Sun Belt",
@@ -1425,12 +1480,15 @@ const INITIAL_COLLEGES = [
       "Dukes",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生17名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=James+Madison+University+(JMU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=James+Madison+University+(JMU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@jmu.edu"
+    "assistantCoach": "Charlie Hubbard",
+    "assistantCoachEmail": "hubbarcj@jmu.edu",
+    "coachVerified": true,
+    "strengthLevel": 3,
+    "strengthNote": "平均89位 (2026年 73位 / 2025年 124位 / 2024年 71位)"
   },
   {
     "id": "universityofsouthcar-mens",
@@ -1451,7 +1509,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12300,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "63% (17/27名)",
     "notes": "Stone Stadium (The Graveyard). Top SEC soccer tradition.",
     "tags": [
       "Sun Belt",
@@ -1459,12 +1517,12 @@ const INITIAL_COLLEGES = [
       "Gamecocks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生17名 / MF 7名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+South+Carolina+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+South+Carolina+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@sc.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均59位 (2026年 8位 / 2025年 104位 / 2024年 65位)"
   },
   {
     "id": "coastalcarolinaunive-mens",
@@ -1478,14 +1536,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Chanticleers",
     "headCoach": "Shaun Docking",
     "coachEmail": "ccusoccer@coastal.edu",
-    "stadium": "Chanticleers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 29870,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "CCU Soccer Stadium. Multiple Sun Belt titles.",
     "tags": [
       "Sun Belt",
@@ -1493,12 +1550,12 @@ const INITIAL_COLLEGES = [
       "Chanticleers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@coastal.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均117位 (2026年 66位 / 2025年 153位 / 2024年 133位)"
   },
   {
     "id": "olddominionuniversit-mens",
@@ -1512,14 +1569,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Monarchs",
     "headCoach": "Tennant McVea",
     "coachEmail": "odusoccer@odu.edu",
-    "stadium": "Monarchs Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 32800,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "ODU Soccer Complex in coastal Virginia.",
     "tags": [
       "Sun Belt",
@@ -1527,12 +1583,12 @@ const INITIAL_COLLEGES = [
       "Monarchs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Old+Dominion+University+(ODU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Old+Dominion+University+(ODU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@odu.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均81位 (2026年 55位 / 2025年 97位 / 2024年 92位)"
   },
   {
     "id": "georgiastateuniversi-mens",
@@ -1546,14 +1602,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Panthers",
     "headCoach": "Brett Surrency",
     "coachEmail": "gsusoccer@gsu.edu",
-    "stadium": "Panthers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 24900,
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "36% (10/28名)",
     "notes": "Downtown Atlanta location. Strong Sun Belt competitor.",
     "tags": [
       "Sun Belt",
@@ -1561,12 +1616,12 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生10名 / MF 14名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Georgia+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgia+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@gsu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均153位 (2026年 132位 / 2025年 170位 / 2024年 156位)"
   },
   {
     "id": "georgiasouthernunive-mens",
@@ -1579,15 +1634,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Eagles",
     "headCoach": "Lee Squires",
-    "coachEmail": "gseaglesoccer@georgiasouthern.edu",
-    "stadium": "Eagles Stadium / Field",
+    "coachEmail": "gsumenssoccer@georgiasouthern.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21500,
     "roomAndBoardUSD": 11200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "61% (17/28名)",
     "notes": "Statesboro Georgia. Great training facilities.",
     "tags": [
       "Sun Belt",
@@ -1595,12 +1649,15 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生17名 / MF 10名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Georgia+Southern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgia+Southern+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@georgiasouthern.edu"
+    "coachVerified": true,
+    "assistantCoach": "James Smith",
+    "assistantCoachEmail": "jamessmith@georgiasouthern.edu",
+    "strengthLevel": 4,
+    "strengthNote": "平均65位 (2026年 68位 / 2025年 34位 / 2024年 94位)"
   },
   {
     "id": "fiufloridainternatio-mens",
@@ -1613,15 +1670,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Panthers",
     "headCoach": "Kyle Russell",
-    "coachEmail": "fiusoccer@fiu.edu",
-    "stadium": "Panthers Stadium / Field",
+    "coachEmail": "krussell@fiu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 18900,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "65%",
+    "intlRosterPct": "71% (20/28名)",
     "notes": "Miami Florida. Top 10 national rank with 75% international roster.",
     "tags": [
       "American Athletic",
@@ -1629,12 +1685,15 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約65%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生20名 / MF 7名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=FIU+(Florida+International)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=FIU+(Florida+International)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fiu.edu"
+    "assistantCoach": "Dannie Merida",
+    "assistantCoachEmail": "dmerida@fiu.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均66位 (2026年 64位 / 2025年 70位 / 2024年 64位)"
   },
   {
     "id": "unccharlotte-mens",
@@ -1647,15 +1706,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "49ers",
     "headCoach": "Kevin Langan",
-    "coachEmail": "49erssoccer@charlotte.edu",
-    "stadium": "49ers Stadium / Field",
+    "coachEmail": "klangan1@charlotte.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21800,
     "roomAndBoardUSD": 13500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "61% (17/28名)",
     "notes": "Transamerica Field. 2x College Cup Finalists. Top 20.",
     "tags": [
       "American Athletic",
@@ -1663,12 +1721,15 @@ const INITIAL_COLLEGES = [
       "49ers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Natsuki Ogata",
+    "rosterStats": "公式ロスター全28名 / 留学生17名 / MF 9名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Charlotte+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Charlotte+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@charlotte.edu"
+    "assistantCoach": "Shane Carew",
+    "assistantCoachEmail": "scarew1@charlotte.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均32位 (2026年 21位 / 2025年 49位 / 2024年 26位)"
   },
   {
     "id": "universityoftulsa-mens",
@@ -1682,14 +1743,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Golden Hurricane",
     "headCoach": "Tom McIntosh",
     "coachEmail": "tulsasoccer@utulsa.edu",
-    "stadium": "Golden Hurricane Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 46500,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "32% (9/28名)",
     "notes": "Hurricane Soccer Stadium. Multiple AAC titles & Elite 8 runs.",
     "tags": [
       "American Athletic",
@@ -1697,12 +1757,12 @@ const INITIAL_COLLEGES = [
       "Golden Hurricane",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生9名 / MF 7名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Tulsa+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Tulsa+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@utulsa.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均94位 (2026年 40位 / 2025年 111位 / 2024年 130位)"
   },
   {
     "id": "usfunivofsouthflorid-mens",
@@ -1716,14 +1776,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bulls",
     "headCoach": "Bob Butehorn",
     "coachEmail": "bullssoccer@usf.edu",
-    "stadium": "Bulls Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 17300,
     "roomAndBoardUSD": 12500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "60%",
     "notes": "Corbett Stadium in Tampa Florida. Elite grass pitch.",
     "tags": [
       "American Athletic",
@@ -1731,12 +1790,12 @@ const INITIAL_COLLEGES = [
       "Bulls",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "留学生比率 約60%",
     "questionnaireUrl": "https://www.google.com/search?q=USF+(Univ+of+South+Florida)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=USF+(Univ+of+South+Florida)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@usf.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均116位 (2026年 194位 / 2025年 55位 / 2024年 98位)"
   },
   {
     "id": "universityofmemphis-mens",
@@ -1750,14 +1809,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Tigers",
     "headCoach": "Richard Mulrooney",
     "coachEmail": "memphissoccer@memphis.edu",
-    "stadium": "Tigers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21500,
     "roomAndBoardUSD": 11200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "46% (13/28名)",
     "notes": "Track & Soccer Complex. Head Coach is 2x MLS champion.",
     "tags": [
       "American Athletic",
@@ -1765,12 +1823,12 @@ const INITIAL_COLLEGES = [
       "Tigers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Jin Tokishi",
+    "rosterStats": "公式ロスター全28名 / 留学生13名 / MF 11名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Memphis+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Memphis+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@memphis.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均107位 (2026年 72位 / 2025年 146位 / 2024年 102位)"
   },
   {
     "id": "floridaatlanticfau-mens",
@@ -1784,14 +1842,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Owls",
     "headCoach": "Joey Worthen",
     "coachEmail": "owlssoccer@fau.edu",
-    "stadium": "Owls Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 18200,
     "roomAndBoardUSD": 12900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "60% (18/30名)",
     "notes": "FAU Soccer Stadium in Boca Raton South Florida.",
     "tags": [
       "American Athletic",
@@ -1799,12 +1856,12 @@ const INITIAL_COLLEGES = [
       "Owls",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Manato Ogawa",
+    "rosterStats": "公式ロスター全30名 / 留学生18名 / MF 5名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Atlantic+(FAU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Atlantic+(FAU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fau.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均69位 (2026年 74位 / 2025年 35位 / 2024年 97位)"
   },
   {
     "id": "templeuniversity-mens",
@@ -1818,14 +1875,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Owls",
     "headCoach": "Brian Rowland",
     "coachEmail": "templesoccer@temple.edu",
-    "stadium": "Owls Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 35800,
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "40% (12/30名)",
     "notes": "Temple Sports Complex in Philadelphia PA.",
     "tags": [
       "American Athletic",
@@ -1833,12 +1889,12 @@ const INITIAL_COLLEGES = [
       "Owls",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生12名 / MF 8名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Temple+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Temple+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@temple.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均161位 (2026年 190位 / 2025年 181位 / 2024年 111位)"
   },
   {
     "id": "uabunivofalabamabirm-mens",
@@ -1852,14 +1908,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Blazers",
     "headCoach": "David Giffard / Staff",
     "coachEmail": "blazerssoccer@uab.edu",
-    "stadium": "Blazers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 26800,
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "45%",
     "notes": "BBVA Field in downtown Birmingham Alabama.",
     "tags": [
       "American Athletic",
@@ -1867,12 +1922,12 @@ const INITIAL_COLLEGES = [
       "Blazers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "留学生比率 約45%",
     "questionnaireUrl": "https://www.google.com/search?q=UAB+(Univ+of+Alabama+Birmingham)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UAB+(Univ+of+Alabama+Birmingham)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uab.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均121位 (2026年 131位 / 2025年 115位 / 2024年 117位)"
   },
   {
     "id": "princetonuniversity-mens",
@@ -1893,7 +1948,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 19380,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "7% (2/27名)",
     "notes": "Myslik Field. World top-5 academic institution with 100% need aid.",
     "tags": [
       "Ivy League",
@@ -1901,12 +1956,12 @@ const INITIAL_COLLEGES = [
       "Tigers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生2名 / MF 14名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Princeton+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Princeton+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@princeton.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均18位 (2026年 36位 / 2025年 2位 / 2024年 17位)"
   },
   {
     "id": "pennuniversityofpenn-mens",
@@ -1919,7 +1974,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Quakers",
     "headCoach": "Brian Gill",
-    "coachEmail": "pennsoccer@upenn.edu",
+    "coachEmail": "brgill@upenn.edu",
     "stadium": "Rhodes Field",
     "targetGPA": 3.7,
     "minTOEFL": 100,
@@ -1927,7 +1982,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18496,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "6% (2/32名)",
     "notes": "Rhodes Field. 2023 Ivy Champions. Top Wharton business.",
     "tags": [
       "Ivy League",
@@ -1935,12 +1990,13 @@ const INITIAL_COLLEGES = [
       "Quakers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生2名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Penn+(University+of+Pennsylvania)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Penn+(University+of+Pennsylvania)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@upenn.edu"
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均42位 (2026年 43位 / 2025年 75位 / 2024年 7位)"
   },
   {
     "id": "cornelluniversity-mens",
@@ -1961,7 +2017,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17564,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "13% (4/30名)",
     "notes": "Berman Field. Consistent Ivy title contender & NCAA sweet 16.",
     "tags": [
       "Ivy League",
@@ -1969,12 +2025,12 @@ const INITIAL_COLLEGES = [
       "Big Red",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生4名 / MF 13名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Cornell+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Cornell+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@cornell.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均22位 (2026年 12位 / 2025年 28位 / 2024年 25位)"
   },
   {
     "id": "harvarduniversity-mens",
@@ -1995,7 +2051,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 19502,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Jordan Field in Boston. Top academic institution with full need aid.",
     "tags": [
       "Ivy League",
@@ -2003,12 +2059,12 @@ const INITIAL_COLLEGES = [
       "Crimson",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Harvard+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Harvard+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fas.harvard.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均109位 (2026年 107位 / 2025年 65位 / 2024年 155位)"
   },
   {
     "id": "yaleuniversity-mens",
@@ -2029,7 +2085,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18450,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Reese Stadium in New Haven CT. 2019 Ivy League Champions.",
     "tags": [
       "Ivy League",
@@ -2037,12 +2093,12 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Yale+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Yale+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@yale.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均136位 (2026年 105位 / 2025年 138位 / 2024年 165位)"
   },
   {
     "id": "dartmouthcollege-mens",
@@ -2063,7 +2119,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Burnham Field. Multiple Ivy titles in last decade.",
     "tags": [
       "Ivy League",
@@ -2071,12 +2127,12 @@ const INITIAL_COLLEGES = [
       "Big Green",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Dartmouth+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Dartmouth+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@dartmouth.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均117位 (2026年 85位 / 2025年 130位 / 2024年 136位)"
   },
   {
     "id": "brownuniversity-mens",
@@ -2097,7 +2153,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "11% (3/28名)",
     "notes": "Stevenson-Pincince Field. Historic Ivy League soccer tradition.",
     "tags": [
       "Ivy League",
@@ -2105,12 +2161,12 @@ const INITIAL_COLLEGES = [
       "Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生3名 / MF 9名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Brown+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Brown+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@brown.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均81位 (2026年 89位 / 2025年 73位 / 2024年 80位)"
   },
   {
     "id": "columbiauniversity-mens",
@@ -2131,7 +2187,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Rocco B. Commisso Stadium in Upper Manhattan NYC.",
     "tags": [
       "Ivy League",
@@ -2139,12 +2195,12 @@ const INITIAL_COLLEGES = [
       "Lions",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Columbia+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Columbia+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@columbia.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均147位 (2026年 117位 / 2025年 120位 / 2024年 204位)"
   },
   {
     "id": "ucsantabarbaraucsb-mens",
@@ -2157,7 +2213,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Gauchos",
     "headCoach": "Tim Vom Steeg",
-    "coachEmail": "gauchossoccer@ucsb.edu",
+    "coachEmail": "menssoccer@athletics.ucsb.edu",
     "stadium": "Harder Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -2165,7 +2221,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "42.9%",
+    "intlRosterPct": "36% (10/28名)",
     "notes": "2006年全米王者。観客動員1万人超のHarder Stadium。欧州留学生を積極採用。",
     "tags": [
       "Big West",
@@ -2173,12 +2229,15 @@ const INITIAL_COLLEGES = [
       "Gauchos",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員28名中 留学生12名 (42.9%) / スウェーデン, デンマーク, イスラエル, カナダ",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生10名 / MF 11名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://ucsbgauchos.com/sports/mens-soccer/recruiting",
     "campUrl": "https://ucsbgauchossoccercamps.com/",
-    "assistantCoach": "Greg Wilson (Associate HC)",
-    "assistantCoachEmail": "gregwilson@ucsb.edu"
+    "assistantCoach": "Greg Wilson",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均52位 (2026年 39位 / 2025年 79位 / 2024年 38位)"
   },
   {
     "id": "calpolysanluisobispo-mens",
@@ -2191,15 +2250,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Mustangs",
     "headCoach": "Oige Kennedy",
-    "coachEmail": "mustangssoccer@calpoly.edu",
-    "stadium": "Mustangs Stadium / Field",
+    "coachEmail": "mensoccer@calpoly.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 29800,
     "roomAndBoardUSD": 17200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "6% (2/31名)",
     "notes": "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans.",
     "tags": [
       "Big West",
@@ -2207,12 +2265,15 @@ const INITIAL_COLLEGES = [
       "Mustangs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生2名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://gopoly.com/sports/mens-soccer/recruits",
     "campUrl": "https://calpolymenssoccercamps.com/",
-    "assistantCoach": "Milan Radovic",
-    "assistantCoachEmail": "mradovic@calpoly.edu"
+    "assistantCoach": "Zach Watson",
+    "assistantCoachEmail": "zwatso01@calpoly.edu",
+    "coachVerified": true,
+    "strengthLevel": 3,
+    "strengthNote": "平均109位 (2026年 118位 / 2025年 101位 / 2024年 108位)"
   },
   {
     "id": "ucirvine-mens",
@@ -2225,15 +2286,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Anteaters",
     "headCoach": "Yossi Raz",
-    "coachEmail": "anteatersoccer@uci.edu",
-    "stadium": "Anteaters Stadium / Field",
+    "coachEmail": "yraz@uci.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44100,
     "roomAndBoardUSD": 18200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "Anteater Stadium in Orange County California.",
     "tags": [
       "Big West",
@@ -2241,12 +2301,15 @@ const INITIAL_COLLEGES = [
       "Anteaters",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 10名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://ucirvinesports.com/sports/mens-soccer/recruits",
     "campUrl": "https://ucirvinesoccercamps.com/",
     "assistantCoach": "Matt Grosh",
-    "assistantCoachEmail": "mgrosh@uci.edu"
+    "assistantCoachEmail": "mgrosh@uci.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均61位 (2026年 49位 / 2025年 59位 / 2024年 74位)"
   },
   {
     "id": "calstatefullerton-mens",
@@ -2259,15 +2322,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Titans",
     "headCoach": "George Kuntz",
-    "coachEmail": "titansoccer@fullerton.edu",
-    "stadium": "Titans Stadium / Field",
+    "coachEmail": "gkuntz@fullerton.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "38.2%",
+    "intlRosterPct": "26% (9/34名)",
     "notes": "Titan Stadium。伝統の攻撃的サッカー。留学生の登竜門として人気。",
     "tags": [
       "Big West",
@@ -2275,12 +2337,15 @@ const INITIAL_COLLEGES = [
       "Titans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員34名中 留学生13名 (38.2%) / デンマーク, スペイン, スウェーデン",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生9名 / MF 13名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://fullertontitans.com/sports/mens-soccer/recruiting-form",
     "campUrl": "https://fullertonsoccercamps.com/",
     "assistantCoach": "Carlos Aguilar",
-    "assistantCoachEmail": "caguilar@fullerton.edu"
+    "assistantCoachEmail": "caguilar@fullerton.edu",
+    "coachVerified": true,
+    "strengthLevel": 2,
+    "strengthNote": "平均112位 (2026年 128位 / 2025年 118位 / 2024年 90位)"
   },
   {
     "id": "ucdavis-mens",
@@ -2293,15 +2358,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Aggies",
     "headCoach": "Dwayne Shaffer",
-    "coachEmail": "aggiessoccer@ucdavis.edu",
-    "stadium": "Aggies Stadium / Field",
+    "coachEmail": "ucdavissoccer@ucdavis.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44900,
     "roomAndBoardUSD": 18400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Medium",
-    "intlRosterPct": "7.1%",
+    "intlRosterPct": "4% (1/28名)",
     "notes": "北カリフォルニアの名門州立大学。アカデミック水準が高く国内選手中心の編成。",
     "tags": [
       "Big West",
@@ -2309,12 +2373,15 @@ const INITIAL_COLLEGES = [
       "Aggies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員28名中 留学生2名 (7.1%) / ブラジル",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生1名 / MF 13名 (Sr・Gr 1名) / 出身地不明1名",
     "questionnaireUrl": "https://ucdavisaggies.com/sports/mens-soccer/recruits",
     "campUrl": "https://ucdavissoccercamps.com/",
     "assistantCoach": "Chris Leer (Associate HC)",
-    "assistantCoachEmail": "cleer@ucdavis.edu"
+    "assistantCoachEmail": "cleer@ucdavis.edu",
+    "coachVerified": true,
+    "strengthLevel": 2,
+    "strengthNote": "平均138位 (2026年 206位 / 2025年 155位 / 2024年 54位)"
   },
   {
     "id": "calstatenorthridgecs-mens",
@@ -2327,15 +2394,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Matadors",
     "headCoach": "Terry Davila",
-    "coachEmail": "matadorsoccer@csun.edu",
-    "stadium": "Matadors Stadium / Field",
+    "coachEmail": "terry.davila@csun.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 16500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "16% (5/31名)",
     "notes": "Matador Soccer Field in Los Angeles. Technical Latin style.",
     "tags": [
       "Big West",
@@ -2343,12 +2409,15 @@ const INITIAL_COLLEGES = [
       "Matadors",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全31名 / 留学生5名 / MF 10名 (Sr・Gr 3名) / 出身地不明2名",
     "questionnaireUrl": "https://gomatadors.com/sports/mens-soccer/recruiting",
     "campUrl": "https://csunmatadorsoccercamp.com/",
     "assistantCoach": "Tony Davila (Associate HC)",
-    "assistantCoachEmail": "adavila@csun.edu"
+    "assistantCoachEmail": "adavila@csun.edu",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均152位 (2026年 122位 / 2025年 165位 / 2024年 169位)"
   },
   {
     "id": "ucriverside-mens",
@@ -2361,15 +2430,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Highlanders",
     "headCoach": "Tim Cupello",
-    "coachEmail": "highlandersoccer@ucr.edu",
-    "stadium": "Highlanders Stadium / Field",
+    "coachEmail": "tim.cupello@ucr.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44200,
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "16% (5/31名)",
     "notes": "2022 Big West Champions. UC Soccer Stadium.",
     "tags": [
       "Big West",
@@ -2377,12 +2445,15 @@ const INITIAL_COLLEGES = [
       "Highlanders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生5名 / MF 8名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://gohighlanders.com/sports/mens-soccer/recruiting",
     "campUrl": "https://highlandersoccercamps.com/",
     "assistantCoach": "Chris Foster",
-    "assistantCoachEmail": "cfoster@ucr.edu"
+    "assistantCoachEmail": "cfoster@ucr.edu",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均152位 (2026年 133位 / 2025年 179位 / 2024年 143位)"
   },
   {
     "id": "ucsandiegoucsd-mens",
@@ -2395,15 +2466,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Tritons",
     "headCoach": "Jon Pascale",
-    "coachEmail": "tritonssoccer@ucsd.edu",
-    "stadium": "Tritons Stadium / Field",
+    "coachEmail": "jpascale@ucsd.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44800,
     "roomAndBoardUSD": 17500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Medium",
-    "intlRosterPct": "3.4%",
+    "intlRosterPct": "3% (1/29名)",
     "notes": "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。",
     "tags": [
       "Big West",
@@ -2411,12 +2481,15 @@ const INITIAL_COLLEGES = [
       "Tritons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員29名中 留学生1名 (3.4%)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生1名 / MF 9名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://ucsdtritons.com/sports/mens-soccer/recruits",
     "campUrl": "https://tritonsoccercamps.com/",
     "assistantCoach": "Sean Teepen",
-    "assistantCoachEmail": "steepen@ucsd.edu"
+    "assistantCoachEmail": "steepen@ucsd.edu",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均157位 (2026年 124位 / 2025年 162位 / 2024年 184位)"
   },
   {
     "id": "sacramentostate-mens",
@@ -2430,14 +2503,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Hornets",
     "headCoach": "Michael Linenberger",
     "coachEmail": "hornetssoccer@csus.edu",
-    "stadium": "Hornets Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 15900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Medium-High",
-    "intlRosterPct": "10.7%",
+    "intlRosterPct": "7% (2/28名)",
     "notes": "州都サクラメント。地元カリフォルニアと一部留学生で構成。",
     "tags": [
       "Big West",
@@ -2445,12 +2517,14 @@ const INITIAL_COLLEGES = [
       "Hornets",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員28名中 留学生3名 (10.7%)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生2名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://hornetsports.com/sports/mens-soccer/recruits",
     "campUrl": "https://hornetsoccercamps.com/",
     "assistantCoach": "Matt McDougall (Associate HC)",
-    "assistantCoachEmail": "mcdougall@csus.edu"
+    "assistantCoachEmail": "mcdougall@csus.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均169位 (2026年 175位 / 2025年 195位 / 2024年 138位)"
   },
   {
     "id": "calstatebakersfield-mens",
@@ -2464,14 +2538,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Roadrunners",
     "headCoach": "Adam Buseck",
     "coachEmail": "runnersoccer@csub.edu",
-    "stadium": "Roadrunners Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 14800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "42.9%",
+    "intlRosterPct": "43% (12/28名)",
     "notes": "セントラルバレーの州立校。留学生比率が4割超と非常に高い。",
     "tags": [
       "Big West",
@@ -2479,12 +2552,14 @@ const INITIAL_COLLEGES = [
       "Roadrunners",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員28名中 留学生12名 (42.9%) / オーストラリア, カナダ, 欧州",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生12名 / MF 8名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://gorunners.com/sports/mens-soccer/recruiting",
     "campUrl": "https://csubrunnerssoccercamp.com/",
     "assistantCoach": "Christian De Luna",
-    "assistantCoachEmail": "cdeluna@csub.edu"
+    "assistantCoachEmail": "cdeluna@csub.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均115位 (2026年 65位 / 2025年 178位 / 2024年 103位)"
   },
   {
     "id": "universityofportland-mens",
@@ -2505,7 +2580,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Historic Merlo Field. Unrivaled pro output & international recruiting.",
     "tags": [
       "WCC",
@@ -2513,12 +2588,12 @@ const INITIAL_COLLEGES = [
       "Pilots",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Portland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Portland+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@up.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均39位 (2026年 26位 / 2025年 10位 / 2024年 81位)"
   },
   {
     "id": "universityofsandiego-mens",
@@ -2531,15 +2606,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Toreros",
     "headCoach": "Brian Quinn",
-    "coachEmail": "torerosoccer@sandiego.edu",
-    "stadium": "Toreros Stadium / Field",
+    "coachEmail": "brianq@sandiego.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 54800,
     "roomAndBoardUSD": 17100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "26.7%",
+    "intlRosterPct": "27% (8/30名)",
     "notes": "サンディエゴの美しい私立名門。WCC連覇実績。ブラジルや欧州からの留学生多数。",
     "tags": [
       "WCC",
@@ -2547,12 +2621,15 @@ const INITIAL_COLLEGES = [
       "Toreros",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員30名中 留学生8名 (26.7%) / ブラジル, 豪州, 欧州",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生8名 / MF 13名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://usdtoreros.com/sports/mens-soccer/recruiting",
     "campUrl": "https://sandiegosoccercamps.com/",
     "assistantCoach": "Mike Ditta (Associate HC)",
-    "assistantCoachEmail": "mditta@sandiego.edu"
+    "assistantCoachEmail": "mditta@sandiego.edu",
+    "coachVerified": true,
+    "strengthLevel": 5,
+    "strengthNote": "平均20位 (2026年 31位 / 2025年 9位 / 2024年 20位)"
   },
   {
     "id": "oregonstateuniversit-mens",
@@ -2566,14 +2643,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Beavers",
     "headCoach": "Greg Dalby",
     "coachEmail": "beaverssoccer@oregonstate.edu",
-    "stadium": "Beavers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 33900,
     "roomAndBoardUSD": 14600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks.",
     "tags": [
       "WCC",
@@ -2581,12 +2657,12 @@ const INITIAL_COLLEGES = [
       "Beavers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 11名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Oregon+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oregon+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@oregonstate.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均30位 (2026年 28位 / 2025年 29位 / 2024年 32位)"
   },
   {
     "id": "santaclarauniversity-mens",
@@ -2599,15 +2675,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Broncos",
     "headCoach": "Cam Rast",
-    "coachEmail": "broncosoccer@scu.edu",
-    "stadium": "Broncos Stadium / Field",
+    "coachEmail": "msoccer@scu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 58580,
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "44.4%",
+    "intlRosterPct": "39% (11/28名)",
     "notes": "1989年全米共同王者。シリコンバレー中心部。日本人選手(Yu Yokokawa)がディフェンスで活躍中。",
     "tags": [
       "WCC",
@@ -2615,12 +2690,15 @@ const INITIAL_COLLEGES = [
       "Broncos",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "1名 (Yu Yokokawa / 東京都 ASIJ出身 DF)",
-    "rosterStats": "部員27名中 留学生12名 (44.4%) / 日本, コスタリカ, NZ, イスラエル",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全28名 / 留学生11名 / MF 10名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://santaclarabroncos.com/sports/mens-soccer/recruits",
     "campUrl": "https://santaclarasoccercamp.com/",
     "assistantCoach": "Eric Yamamoto (Associate HC)",
-    "assistantCoachEmail": "eyamamoto@scu.edu"
+    "assistantCoachEmail": "eyamamoto@scu.edu",
+    "coachVerified": true,
+    "strengthLevel": 2,
+    "strengthNote": "平均131位 (2026年 142位 / 2025年 94位 / 2024年 156位)"
   },
   {
     "id": "saintmaryscollegeca-mens",
@@ -2633,15 +2711,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Gaels",
     "headCoach": "Adam Cooper",
-    "coachEmail": "gaelssoccer@stmarys-ca.edu",
-    "stadium": "Gaels Stadium / Field",
+    "coachEmail": "acooper@stmarys-ca.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 53900,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "36% (12/33名)",
     "notes": "Saint Mary's Stadium. Elite defense & multiple WCC titles.",
     "tags": [
       "WCC",
@@ -2649,12 +2726,15 @@ const INITIAL_COLLEGES = [
       "Gaels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全33名 / 留学生12名 / MF 10名 (Sr・Gr 0名) / 出身地不明2名",
     "questionnaireUrl": "https://smcgaels.com/sports/mens-soccer/recruiting",
     "campUrl": "https://smcgaelssoccercamps.com/",
-    "assistantCoach": "Charlie Campbell (Associate HC)",
-    "assistantCoachEmail": "ccampbell@stmarys-ca.edu"
+    "assistantCoach": "Shawn Nicklaw",
+    "assistantCoachEmail": "srn6@stmarys-ca.edu",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均159位 (2026年 180位 / 2025年 139位 / 2024年 159位)"
   },
   {
     "id": "sanfranciscousf-mens",
@@ -2667,15 +2747,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Dons",
     "headCoach": "Chris Brown",
-    "coachEmail": "donssoccer@usfca.edu",
-    "stadium": "Dons Stadium / Field",
+    "coachEmail": "cbrown14@usfca.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 55800,
     "roomAndBoardUSD": 18200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "17% (5/30名)",
     "notes": "4x National Champions. Negoesco Stadium in heart of San Francisco.",
     "tags": [
       "WCC",
@@ -2683,12 +2762,15 @@ const INITIAL_COLLEGES = [
       "Dons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全30名 / 留学生5名 / MF 8名 (Sr・Gr 3名) / 出身地不明2名",
     "questionnaireUrl": "https://usfdons.com/sports/mens-soccer/recruiting",
     "campUrl": "https://usfsoccercamps.com/",
     "assistantCoach": "Joe Donoho (Associate HC)",
-    "assistantCoachEmail": "jdonoho@usfca.edu"
+    "assistantCoachEmail": "jdonoho@usfca.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均70位 (2026年 98位 / 2025年 42位 / 2024年 70位)"
   },
   {
     "id": "gonzagauniversity-mens",
@@ -2700,16 +2782,15 @@ const INITIAL_COLLEGES = [
     "conference": "WCC",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "Aaron Lewis",
-    "coachEmail": "zagsoccer@gonzaga.edu",
-    "stadium": "Bulldogs Stadium / Field",
+    "headCoach": "Chris McGaughey",
+    "coachEmail": "mcgaughey@gonzaga.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 51200,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "11% (3/28名)",
     "notes": "Luger Field. Gonzaga national athletic brand.",
     "tags": [
       "WCC",
@@ -2717,12 +2798,15 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生3名 / MF 14名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=Gonzaga+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Gonzaga+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@gonzaga.edu"
+    "coachVerified": true,
+    "assistantCoach": "Christo Michaelson",
+    "assistantCoachEmail": "michaelsonc@gonzaga.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均139位 (2026年 127位 / 2025年 126位 / 2024年 163位)"
   },
   {
     "id": "universityofthepacif-mens",
@@ -2734,16 +2818,15 @@ const INITIAL_COLLEGES = [
     "conference": "WCC",
     "gender": "Men",
     "mascot": "Tigers",
-    "headCoach": "Adam Reeves",
-    "coachEmail": "tigerssoccer@pacific.edu",
-    "stadium": "Tigers Stadium / Field",
+    "headCoach": "Andres Ochoa",
+    "coachEmail": "pacificmsoccer@pacific.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 53500,
     "roomAndBoardUSD": 15800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "21.9%",
+    "intlRosterPct": "19% (6/32名)",
     "notes": "ストックトンの私立校。近年WCC上位へ急成長中。",
     "tags": [
       "WCC",
@@ -2751,12 +2834,15 @@ const INITIAL_COLLEGES = [
       "Tigers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名",
-    "rosterStats": "部員32名中 留学生7名 (21.9%) / 中南米, 欧州",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生6名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://pacifictigers.com/sports/mens-soccer/recruits",
     "campUrl": "https://pacificsoccercamps.com/",
     "assistantCoach": "Brian Lanoye",
-    "assistantCoachEmail": "blanoye@pacific.edu"
+    "assistantCoachEmail": "blanoye@pacific.edu",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均163位 (2026年 187位 / 2025年 177位 / 2024年 125位)"
   },
   {
     "id": "saintlouisuniversity-mens",
@@ -2769,7 +2855,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Billikens",
     "headCoach": "Kevin Kalish",
-    "coachEmail": "slusoccer@slu.edu",
+    "coachEmail": "kkalish2@slu.edu",
     "stadium": "Robert R. Hermann Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -2777,7 +2863,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "10x NCAA National Champions (All-time NCAA D1 record).",
     "tags": [
       "Atlantic 10",
@@ -2785,12 +2871,15 @@ const INITIAL_COLLEGES = [
       "Billikens",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Louis+University+(SLU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Louis+University+(SLU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@slu.edu"
+    "assistantCoach": "Kevin Stoll",
+    "assistantCoachEmail": "kevin.stoll@slu.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均31位 (2026年 44位 / 2025年 12位 / 2024年 37位)"
   },
   {
     "id": "universityofdayton-mens",
@@ -2804,14 +2893,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Flyers",
     "headCoach": "Dennis Currier",
     "coachEmail": "flyerssoccer@udayton.edu",
-    "stadium": "Flyers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 47600,
     "roomAndBoardUSD": 15100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "41% (12/29名)",
     "notes": "Baujan Field. High-scoring attacking soccer.",
     "tags": [
       "Atlantic 10",
@@ -2819,12 +2907,12 @@ const INITIAL_COLLEGES = [
       "Flyers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生12名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Dayton+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Dayton+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@udayton.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均56位 (2026年 79位 / 2025年 82位 / 2024年 6位)"
   },
   {
     "id": "vcu-mens",
@@ -2837,15 +2925,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Rams",
     "headCoach": "Dave Giffard",
-    "coachEmail": "vcusoccer@vcu.edu",
-    "stadium": "Rams Stadium / Field",
+    "coachEmail": "drgiffard@vcu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38100,
     "roomAndBoardUSD": 13500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "42% (11/26名)",
     "notes": "Sports Backers Stadium. Elite pro development & possession.",
     "tags": [
       "Atlantic 10",
@@ -2853,12 +2940,15 @@ const INITIAL_COLLEGES = [
       "Rams",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生11名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=VCU+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=VCU+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@vcu.edu"
+    "assistantCoach": "Lucas Paulini",
+    "assistantCoachEmail": "paulinil@vcu.edu",
+    "coachVerified": true,
+    "strengthLevel": 3,
+    "strengthNote": "平均79位 (2026年 125位 / 2025年 44位 / 2024年 67位)"
   },
   {
     "id": "fordhamuniversity-mens",
@@ -2871,15 +2961,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Rams",
     "headCoach": "Carlo Acquista",
-    "coachEmail": "fordhamsoccer@fordham.edu",
-    "stadium": "Rams Stadium / Field",
+    "coachEmail": "cacquista@fordham.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 60300,
     "roomAndBoardUSD": 21500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "26% (8/31名)",
     "notes": "Jack Coffey Field. NYC campus with 60% European roster.",
     "tags": [
       "Atlantic 10",
@@ -2887,12 +2976,15 @@ const INITIAL_COLLEGES = [
       "Rams",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名) Arata Mizuno",
+    "rosterStats": "公式ロスター全31名 / 留学生8名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Fordham+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fordham+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fordham.edu"
+    "assistantCoach": "Philip Bannister",
+    "assistantCoachEmail": "pbannister@fordham.edu",
+    "coachVerified": true,
+    "strengthLevel": 3,
+    "strengthNote": "平均72位 (2026年 101位 / 2025年 87位 / 2024年 29位)"
   },
   {
     "id": "umassamherst-mens",
@@ -2906,14 +2998,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Minutemen",
     "headCoach": "Fran O'Leary",
     "coachEmail": "umasssoccer@umass.edu",
-    "stadium": "Minutemen Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "22% (5/23名)",
     "notes": "Rudd Field. Consistent A-10 tournament contenders.",
     "tags": [
       "Atlantic 10",
@@ -2921,12 +3012,13 @@ const INITIAL_COLLEGES = [
       "Minutemen",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Shun Murasawa",
+    "rosterStats": "公式ロスター全23名 / 留学生5名 / MF 7名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=UMass+Amherst+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UMass+Amherst+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@umass.edu"
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均62位 (2026年 84位 / 2025年 80位 / 2024年 23位)"
   },
   {
     "id": "davidsoncollege-mens",
@@ -2940,14 +3032,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Wildcats",
     "headCoach": "Mike Babst",
     "coachEmail": "davidsonsoccer@davidson.edu",
-    "stadium": "Wildcats Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 58900,
     "roomAndBoardUSD": 16400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "4% (1/27名)",
     "notes": "Alumni Stadium. Top liberal arts academic institution.",
     "tags": [
       "Atlantic 10",
@@ -2955,12 +3046,12 @@ const INITIAL_COLLEGES = [
       "Wildcats",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生1名 / MF 11名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Davidson+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Davidson+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@davidson.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均74位 (2026年 93位 / 2025年 52位 / 2024年 78位)"
   },
   {
     "id": "duquesneuniversity-mens",
@@ -2974,14 +3065,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Dukes",
     "headCoach": "Chase Brooks",
     "coachEmail": "duquesnesoccer@duq.edu",
-    "stadium": "Dukes Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 47100,
     "roomAndBoardUSD": 15200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "20% (6/30名)",
     "notes": "Rooney Field atop campus in downtown Pittsburgh.",
     "tags": [
       "Atlantic 10",
@@ -2989,12 +3079,12 @@ const INITIAL_COLLEGES = [
       "Dukes",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生6名 / MF 10名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Duquesne+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Duquesne+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@duq.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均84位 (2026年 76位 / 2025年 122位 / 2024年 53位)"
   },
   {
     "id": "georgemasonuniversit-mens",
@@ -3008,14 +3098,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Patriots",
     "headCoach": "Rich Costanzo",
     "coachEmail": "masonsoccer@gmu.edu",
-    "stadium": "Patriots Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 37900,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "George Mason Stadium in Washington DC suburbs.",
     "tags": [
       "Atlantic 10",
@@ -3023,12 +3112,12 @@ const INITIAL_COLLEGES = [
       "Patriots",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=George+Mason+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=George+Mason+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@gmu.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均67位 (2026年 83位 / 2025年 78位 / 2024年 41位)"
   },
   {
     "id": "georgewashingtongw-mens",
@@ -3040,16 +3129,15 @@ const INITIAL_COLLEGES = [
     "conference": "Atlantic 10",
     "gender": "Men",
     "mascot": "Revolutionaries",
-    "headCoach": "Craig Jones",
-    "coachEmail": "gwsoccer@gwu.edu",
-    "stadium": "Revolutionaries Stadium / Field",
+    "headCoach": "Matt Watts",
+    "coachEmail": "m.watts1@gwu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 63500,
     "roomAndBoardUSD": 16500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "GW Soccer Field at Mount Vernon. Capital city location.",
     "tags": [
       "Atlantic 10",
@@ -3057,12 +3145,15 @@ const INITIAL_COLLEGES = [
       "Revolutionaries",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=George+Washington+(GW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=George+Washington+(GW)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@gwu.edu"
+    "coachVerified": true,
+    "assistantCoach": "Nick Conklu",
+    "assistantCoachEmail": "nicholas.conklu@gwu.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均185位 (2026年 166位 / 2025年 205位 / 2024年 183位)"
   },
   {
     "id": "lasalleuniversity-mens",
@@ -3075,15 +3166,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Explorers",
     "headCoach": "Taylor Thames",
-    "coachEmail": "lasallesoccer@lasalle.edu",
-    "stadium": "Explorers Stadium / Field",
+    "coachEmail": "thames@lasalle.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 35200,
     "roomAndBoardUSD": 16100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "41% (13/32名)",
     "notes": "McCarthy Stadium in historic Philadelphia.",
     "tags": [
       "Atlantic 10",
@@ -3091,12 +3181,15 @@ const INITIAL_COLLEGES = [
       "Explorers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生13名 / MF 14名 (Sr・Gr 8名)",
     "questionnaireUrl": "https://www.google.com/search?q=La+Salle+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=La+Salle+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lasalle.edu"
+    "coachVerified": true,
+    "assistantCoach": "Ahmed Elgayar",
+    "assistantCoachEmail": "elgayar@lasalle.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均134位 (2026年 100位 / 2025年 164位 / 2024年 139位)"
   },
   {
     "id": "rhodeislanduri-mens",
@@ -3110,14 +3203,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Rams",
     "headCoach": "Gareth Elliott",
     "coachEmail": "urisoccer@uri.edu",
-    "stadium": "Rams Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 35100,
     "roomAndBoardUSD": 14600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "URI Soccer Complex. Multiple A-10 tournament titles.",
     "tags": [
       "Atlantic 10",
@@ -3125,12 +3217,12 @@ const INITIAL_COLLEGES = [
       "Rams",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Rhode+Island+(URI)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rhode+Island+(URI)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uri.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均124位 (2026年 111位 / 2025年 135位 / 2024年 127位)"
   },
   {
     "id": "saintjosephsuniversi-mens",
@@ -3144,14 +3236,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Hawks",
     "headCoach": "Don D'Ambra",
     "coachEmail": "hawkssoccer@sju.edu",
-    "stadium": "Hawks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 51200,
     "roomAndBoardUSD": 16400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Sweeney Field. Jesuit university in Philadelphia.",
     "tags": [
       "Atlantic 10",
@@ -3159,12 +3250,12 @@ const INITIAL_COLLEGES = [
       "Hawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@sju.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均159位 (2026年 149位 / 2025年 142位 / 2024年 187位)"
   },
   {
     "id": "stbonaventureunivers-mens",
@@ -3178,14 +3269,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bonnies",
     "headCoach": "Kwame Oduro",
     "coachEmail": "bonniessoccer@sbu.edu",
-    "stadium": "Bonnies Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 39500,
     "roomAndBoardUSD": 15100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Marra Athletics Complex in Western NY.",
     "tags": [
       "Atlantic 10",
@@ -3193,12 +3283,12 @@ const INITIAL_COLLEGES = [
       "Bonnies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@sbu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均159位 (2026年 150位 / 2025年 192位 / 2024年 135位)"
   },
   {
     "id": "hofstrauniversity-mens",
@@ -3212,14 +3302,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Pride",
     "headCoach": "Richard Nuttall",
     "coachEmail": "hofstrasoccer@hofstra.edu",
-    "stadium": "Pride Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 54200,
     "roomAndBoardUSD": 18200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "59% (16/27名)",
     "notes": "Hofstra Stadium. 3-peat CAA Champions & NCAA Sweet 16.",
     "tags": [
       "CAA",
@@ -3227,12 +3316,12 @@ const INITIAL_COLLEGES = [
       "Pride",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生16名 / MF 13名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Hofstra+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Hofstra+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@hofstra.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均20位 (2026年 42位 / 2025年 13位 / 2024年 5位)"
   },
   {
     "id": "uncwilmingtonuncw-mens",
@@ -3246,14 +3335,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Seahawks",
     "headCoach": "Aidan Heaney",
     "coachEmail": "uncwsoccer@uncw.edu",
-    "stadium": "Seahawks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 23400,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "22% (6/27名)",
     "notes": "UNCW Soccer Stadium. Beach town campus & top 25 rank.",
     "tags": [
       "CAA",
@@ -3261,12 +3349,12 @@ const INITIAL_COLLEGES = [
       "Seahawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生6名 / MF 8名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Wilmington+(UNCW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Wilmington+(UNCW)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uncw.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均76位 (2026年 24位 / 2025年 128位 / 2024年 76位)"
   },
   {
     "id": "elonuniversity-mens",
@@ -3280,14 +3368,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Phoenix",
     "headCoach": "Marc Reeves",
     "coachEmail": "elonsoccer@elon.edu",
-    "stadium": "Phoenix Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 42500,
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "45% (13/29名)",
     "notes": "Rudd Field. Beautiful campus with strong European roster.",
     "tags": [
       "CAA",
@@ -3295,12 +3382,12 @@ const INITIAL_COLLEGES = [
       "Phoenix",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Kosei Sasaki",
+    "rosterStats": "公式ロスター全29名 / 留学生13名 / MF 12名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Elon+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Elon+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@elon.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均58位 (2026年 61位 / 2025年 64位 / 2024年 50位)"
   },
   {
     "id": "drexeluniversity-mens",
@@ -3312,16 +3399,15 @@ const INITIAL_COLLEGES = [
     "conference": "CAA",
     "gender": "Men",
     "mascot": "Dragons",
-    "headCoach": "Mark Heider",
-    "coachEmail": "drexelsoccer@drexel.edu",
-    "stadium": "Dragons Stadium / Field",
+    "headCoach": "David Castellanos",
+    "coachEmail": "dc3369@drexel.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 58900,
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "67% (20/30名)",
     "notes": "Vidas Field in Center City Philadelphia.",
     "tags": [
       "CAA",
@@ -3329,12 +3415,15 @@ const INITIAL_COLLEGES = [
       "Dragons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生20名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Drexel+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Drexel+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@drexel.edu"
+    "coachVerified": true,
+    "assistantCoach": "Ptah Myers",
+    "assistantCoachEmail": "pm958@drexel.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均102位 (2026年 104位 / 2025年 119位 / 2024年 84位)"
   },
   {
     "id": "campbelluniversity-mens",
@@ -3346,16 +3435,15 @@ const INITIAL_COLLEGES = [
     "conference": "CAA",
     "gender": "Men",
     "mascot": "Fighting Camels",
-    "headCoach": "Dustin Fonder",
+    "headCoach": "Ricky Davey",
     "coachEmail": "campbellsoccer@campbell.edu",
-    "stadium": "Fighting Camels Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 39800,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "18% (5/28名)",
     "notes": "Eakes Complex. Top winning percentage in US last 5 years.",
     "tags": [
       "CAA",
@@ -3363,12 +3451,13 @@ const INITIAL_COLLEGES = [
       "Fighting Camels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生5名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Campbell+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Campbell+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@campbell.edu"
+    "coachVerified": true,
+    "strengthLevel": 2,
+    "strengthNote": "平均127位 (2026年 165位 / 2025年 113位 / 2024年 104位)"
   },
   {
     "id": "universityofdelaware-mens",
@@ -3382,14 +3471,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Blue Hens",
     "headCoach": "Tommy McMenemy",
     "coachEmail": "bluehensoccer@udel.edu",
-    "stadium": "Blue Hens Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38600,
     "roomAndBoardUSD": 14800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "15% (4/27名)",
     "notes": "Grant Stadium. Mid-Atlantic flagship university.",
     "tags": [
       "CAA",
@@ -3397,12 +3485,12 @@ const INITIAL_COLLEGES = [
       "Blue Hens",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生4名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Delaware+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Delaware+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@udel.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均79位 (2026年 90位 / 2025年 43位 / 2024年 105位)"
   },
   {
     "id": "william&mary-mens",
@@ -3416,14 +3504,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Tribe",
     "headCoach": "Chris Norris",
     "coachEmail": "tribesoccer@wm.edu",
-    "stadium": "Tribe Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 48900,
     "roomAndBoardUSD": 14500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Albert-Daly Field. Top historic public Ivy academic standard.",
     "tags": [
       "CAA",
@@ -3431,12 +3518,12 @@ const INITIAL_COLLEGES = [
       "Tribe",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=William+&+Mary+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=William+&+Mary+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@wm.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均121位 (2026年 99位 / 2025年 171位 / 2024年 93位)"
   },
   {
     "id": "collegeofcharleston-mens",
@@ -3450,14 +3537,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Cougars",
     "headCoach": "Keith Wiggans",
     "coachEmail": "cougarssoccer@cofc.edu",
-    "stadium": "Cougars Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 36100,
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "43% (12/28名)",
     "notes": "Patriots Point Complex overlooking Charleston harbor.",
     "tags": [
       "CAA",
@@ -3465,12 +3551,12 @@ const INITIAL_COLLEGES = [
       "Cougars",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認) Kira Fukuda, Michiharu Takanashi",
+    "rosterStats": "公式ロスター全28名 / 留学生12名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=College+of+Charleston+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=College+of+Charleston+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@cofc.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均69位 (2026年 35位 / 2025年 106位 / 2024年 66位)"
   },
   {
     "id": "monmouthuniversity-mens",
@@ -3484,14 +3570,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Hawks",
     "headCoach": "Robert McCourt",
     "coachEmail": "hawkssoccer@monmouth.edu",
-    "stadium": "Hawks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44100,
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Hesse Field on Great Lawn. 1 mile from NJ beach.",
     "tags": [
       "CAA",
@@ -3499,12 +3584,12 @@ const INITIAL_COLLEGES = [
       "Hawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Monmouth+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Monmouth+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@monmouth.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均111位 (2026年 164位 / 2025年 125位 / 2024年 43位)"
   },
   {
     "id": "stonybrookuniversity-mens",
@@ -3518,14 +3603,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Seawolves",
     "headCoach": "Ryan Anatol",
     "coachEmail": "seawolvessoccer@stonybrook.edu",
-    "stadium": "Seawolves Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 29800,
     "roomAndBoardUSD": 16500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "34% (10/29名)",
     "notes": "LaValle Stadium. Top SUNY research university on Long Island.",
     "tags": [
       "CAA",
@@ -3533,12 +3617,12 @@ const INITIAL_COLLEGES = [
       "Seawolves",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生10名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Stony+Brook+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Stony+Brook+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@stonybrook.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均95位 (2026年 57位 / 2025年 61位 / 2024年 166位)"
   },
   {
     "id": "northeasternuniversi-mens",
@@ -3552,14 +3636,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Huskies",
     "headCoach": "Rich Weinrebe",
     "coachEmail": "northeasternsoccer@northeastern.edu",
-    "stadium": "Huskies Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 60500,
     "roomAndBoardUSD": 19200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Parsons Field. Premier Boston university with top co-op program.",
     "tags": [
       "CAA",
@@ -3567,12 +3650,12 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Northeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northeastern+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@northeastern.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均143位 (2026年 139位 / 2025年 141位 / 2024年 148位)"
   },
   {
     "id": "newhampshireunh-mens",
@@ -3586,14 +3669,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Wildcats",
     "headCoach": "Rich Weinrebe / Staff",
     "coachEmail": "unhsoccer@unh.edu",
-    "stadium": "Wildcats Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "39% (11/28名)",
     "notes": "Wildcat Stadium. Top 10 national ranking & NCAA Sweet 16.",
     "tags": [
       "America East",
@@ -3601,12 +3683,12 @@ const INITIAL_COLLEGES = [
       "Wildcats",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認 / 出身地不明1名) Kohsuke Fukudome, Ryo Miyata",
+    "rosterStats": "公式ロスター全28名 / 留学生11名 / MF 12名 (Sr・Gr 7名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=New+Hampshire+(UNH)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=New+Hampshire+(UNH)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@unh.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均78位 (2026年 80位 / 2025年 112位 / 2024年 42位)"
   },
   {
     "id": "vermontuvm-mens",
@@ -3620,14 +3702,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Catamounts",
     "headCoach": "Rob Dow",
     "coachEmail": "catamountsoccer@uvm.edu",
-    "stadium": "Catamounts Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 43800,
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "53% (16/30名)",
     "notes": "Virtue Field. 2022 NCAA National Quarterfinalists (Elite 8).",
     "tags": [
       "America East",
@@ -3635,12 +3716,12 @@ const INITIAL_COLLEGES = [
       "Catamounts",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生16名 / MF 9名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Vermont+(UVM)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Vermont+(UVM)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uvm.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均16位 (2026年 25位 / 2025年 4位 / 2024年 19位)"
   },
   {
     "id": "umbc-mens",
@@ -3654,14 +3735,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Retrievers",
     "headCoach": "Anthony Adams",
     "coachEmail": "retrieversoccer@umbc.edu",
-    "stadium": "Retrievers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 30500,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Retriever Soccer Park. 2014 College Cup semifinalists.",
     "tags": [
       "America East",
@@ -3669,12 +3749,12 @@ const INITIAL_COLLEGES = [
       "Retrievers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UMBC+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UMBC+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@umbc.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均137位 (2026年 172位 / 2025年 156位 / 2024年 82位)"
   },
   {
     "id": "bryantuniversity-mens",
@@ -3688,14 +3768,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bulldogs",
     "headCoach": "Ruben Resendes",
     "coachEmail": "bryantsoccer@bryant.edu",
-    "stadium": "Bulldogs Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 51200,
     "roomAndBoardUSD": 17200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "59% (20/34名)",
     "notes": "Beirne Stadium. Fast-rising D1 power under Ruben Resendes.",
     "tags": [
       "America East",
@@ -3703,12 +3782,12 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生20名 / MF 12名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Bryant+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bryant+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bryant.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均32位 (2026年 23位 / 2025年 6位 / 2024年 68位)"
   },
   {
     "id": "njit-mens",
@@ -3722,14 +3801,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Highlanders",
     "headCoach": "Fernando Barboto",
     "coachEmail": "njitsoccer@njit.edu",
-    "stadium": "Highlanders Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 35900,
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Lubetkin Field. Top STEM university near NYC.",
     "tags": [
       "America East",
@@ -3737,12 +3815,12 @@ const INITIAL_COLLEGES = [
       "Highlanders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=NJIT+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=NJIT+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@njit.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均120位 (2026年 59位 / 2025年 176位 / 2024年 126位)"
   },
   {
     "id": "binghamtonuniversity-mens",
@@ -3754,16 +3832,15 @@ const INITIAL_COLLEGES = [
     "conference": "America East",
     "gender": "Men",
     "mascot": "Bearcats",
-    "headCoach": "Paul Marco",
-    "coachEmail": "bearcatsoccer@binghamton.edu",
-    "stadium": "Bearcats Stadium / Field",
+    "headCoach": "Tommy Moon",
+    "coachEmail": "tmoon@binghamton.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 28900,
     "roomAndBoardUSD": 17200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "25% (7/28名)",
     "notes": "Bearcats Sports Complex. Top SUNY academic institution.",
     "tags": [
       "America East",
@@ -3771,12 +3848,15 @@ const INITIAL_COLLEGES = [
       "Bearcats",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生7名 / MF 9名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Binghamton+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Binghamton+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@binghamton.edu"
+    "coachVerified": true,
+    "assistantCoach": "Habi Darling",
+    "assistantCoachEmail": "hdarling@binghamton.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均148位 (2026年 177位 / 2025年 180位 / 2024年 88位)"
   },
   {
     "id": "ualbany-mens",
@@ -3789,15 +3869,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Great Danes",
     "headCoach": "Trevor Gorman",
-    "coachEmail": "greatdanesoccer@albany.edu",
-    "stadium": "Great Danes Stadium / Field",
+    "coachEmail": "tgorman@albany.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 28500,
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "52% (15/29名)",
     "notes": "Bob Ford Field in New York state capital.",
     "tags": [
       "America East",
@@ -3805,12 +3884,15 @@ const INITIAL_COLLEGES = [
       "Great Danes",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全29名 / 留学生15名 / MF 10名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=UAlbany+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UAlbany+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@albany.edu"
+    "coachVerified": true,
+    "assistantCoach": "Elias Ehlin",
+    "assistantCoachEmail": "eehlin@albany.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均94位 (2026年 41位 / 2025年 100位 / 2024年 142位)"
   },
   {
     "id": "umasslowell-mens",
@@ -3823,15 +3905,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "River Hawks",
     "headCoach": "Kyle Zenoni",
-    "coachEmail": "riverhawksoccer@uml.edu",
-    "stadium": "River Hawks Stadium / Field",
+    "coachEmail": "Kyle_Zenoni@uml.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 35200,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "61% (19/31名)",
     "notes": "Cushing Field. Greater Boston university.",
     "tags": [
       "America East",
@@ -3839,12 +3920,15 @@ const INITIAL_COLLEGES = [
       "River Hawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "3名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生19名 / MF 8名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=UMass+Lowell+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UMass+Lowell+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uml.edu"
+    "coachVerified": true,
+    "assistantCoach": "Jason Stanton",
+    "assistantCoachEmail": "Jason_Stanton@uml.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均124位 (2026年 143位 / 2025年 108位 / 2024年 122位)"
   },
   {
     "id": "westernmichigan-mens",
@@ -3857,15 +3941,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Broncos",
     "headCoach": "Chad Wiseman",
-    "coachEmail": "wmusoccer@wmich.edu",
-    "stadium": "Broncos Stadium / Field",
+    "coachEmail": "chad.wiseman@wmich.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 19200,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "27% (7/26名)",
     "notes": "WMU Soccer Complex. Multiple NCAA Sweet 16 & Top-15 ranks.",
     "tags": [
       "Missouri Valley",
@@ -3873,12 +3956,15 @@ const INITIAL_COLLEGES = [
       "Broncos",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Western+Michigan+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Western+Michigan+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@wmich.edu"
+    "assistantCoach": "Shane Lyons",
+    "assistantCoachEmail": "shane.e.lyons@wmich.edu",
+    "coachVerified": true,
+    "strengthLevel": 3,
+    "strengthNote": "平均80位 (2026年 141位 / 2025年 68位 / 2024年 30位)"
   },
   {
     "id": "missouristate-mens",
@@ -3891,15 +3977,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Bears",
     "headCoach": "Michael Seabolt",
-    "coachEmail": "bearssoccer@missouristate.edu",
-    "stadium": "Bears Stadium / Field",
+    "coachEmail": "mseabolt@missouristate.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 18500,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "96% (25/26名)",
     "notes": "Allison South Stadium. Consistent Top-20 ranking & NCAA team.",
     "tags": [
       "Missouri Valley",
@@ -3907,12 +3992,15 @@ const INITIAL_COLLEGES = [
       "Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生25名 / MF 13名 (Sr・Gr 7名)",
     "questionnaireUrl": "https://www.google.com/search?q=Missouri+State+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Missouri+State+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@missouristate.edu"
+    "assistantCoach": "Andrea Cattaneo",
+    "assistantCoachEmail": "ac8954s@missouristate.edu",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均41位 (2026年 27位 / 2025年 83位 / 2024年 13位)"
   },
   {
     "id": "uicunivofillinoischi-mens",
@@ -3925,15 +4013,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Flames",
     "headCoach": "Sean Phillips",
-    "coachEmail": "flamessoccer@uic.edu",
-    "stadium": "Flames Stadium / Field",
+    "coachEmail": "sephill@uic.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 30200,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "20% (5/25名)",
     "notes": "Flames Field in downtown Chicago. 55% international roster.",
     "tags": [
       "Missouri Valley",
@@ -3941,12 +4028,15 @@ const INITIAL_COLLEGES = [
       "Flames",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生5名 / MF 8名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=UIC+(Univ+of+Illinois+Chicago)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UIC+(Univ+of+Illinois+Chicago)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uic.edu"
+    "coachVerified": true,
+    "assistantCoach": "Aleksey Korol",
+    "assistantCoachEmail": "korol@uic.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均115位 (2026年 157位 / 2025年 88位 / 2024年 99位)"
   },
   {
     "id": "bowlinggreenbgsu-mens",
@@ -3960,14 +4050,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Falcons",
     "headCoach": "Eric Nichols",
     "coachEmail": "falconssoccer@bgsu.edu",
-    "stadium": "Falcons Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21800,
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "19% (5/27名)",
     "notes": "Cochrane Stadium. Strong Midwest soccer tradition.",
     "tags": [
       "Missouri Valley",
@@ -3975,12 +4064,12 @@ const INITIAL_COLLEGES = [
       "Falcons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生5名 / MF 5名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Bowling+Green+(BGSU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bowling+Green+(BGSU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bgsu.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均102位 (2026年 112位 / 2025年 137位 / 2024年 58位)"
   },
   {
     "id": "drakeuniversity-mens",
@@ -3994,14 +4083,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bulldogs",
     "headCoach": "Pat Flinn / Staff",
     "coachEmail": "drakesoccer@drake.edu",
-    "stadium": "Bulldogs Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 49800,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "7% (2/29名)",
     "notes": "Drake Stadium / Cownie Complex in Des Moines Iowa.",
     "tags": [
       "Missouri Valley",
@@ -4009,12 +4097,12 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生2名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Drake+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Drake+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@drake.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均84位 (2026年 136位 / 2025年 72位 / 2024年 45位)"
   },
   {
     "id": "universityofevansvil-mens",
@@ -4027,15 +4115,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Purple Aces",
     "headCoach": "Robbe Tarver",
-    "coachEmail": "acessoccer@evansville.edu",
-    "stadium": "Purple Aces Stadium / Field",
+    "coachEmail": "rt134@evansville.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "33% (13/39名)",
     "notes": "Arad McCutchan Stadium. Historic NCAA Final Four history.",
     "tags": [
       "Missouri Valley",
@@ -4043,12 +4130,15 @@ const INITIAL_COLLEGES = [
       "Purple Aces",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全39名 / 留学生13名 / MF 14名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Evansville+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Evansville+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@evansville.edu"
+    "coachVerified": true,
+    "assistantCoach": "Matt Melzer",
+    "assistantCoachEmail": "mm1059@evansville.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均83位 (2026年 110位 / 2025年 90位 / 2024年 49位)"
   },
   {
     "id": "belmontuniversity-mens",
@@ -4061,15 +4151,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Bruins",
     "headCoach": "David Costa",
-    "coachEmail": "belmontsoccer@belmont.edu",
-    "stadium": "Bruins Stadium / Field",
+    "coachEmail": "menssoccer@belmont.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41500,
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "15% (4/26名)",
     "notes": "E.S. Rose Park in vibrant Nashville Tennessee.",
     "tags": [
       "Missouri Valley",
@@ -4077,12 +4166,15 @@ const INITIAL_COLLEGES = [
       "Bruins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生4名 / MF 7名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Belmont+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Belmont+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@belmont.edu"
+    "coachVerified": true,
+    "assistantCoach": "Cam Olson",
+    "assistantCoachEmail": "cam.olson@belmont.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均141位 (2026年 163位 / 2025年 93位 / 2024年 167位)"
   },
   {
     "id": "bradleyuniversity-mens",
@@ -4096,14 +4188,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Braves",
     "headCoach": "Jim DeRose",
     "coachEmail": "bravessoccer@bradley.edu",
-    "stadium": "Braves Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Shea Stadium. Multiple NCAA tournament runs under Jim DeRose.",
     "tags": [
       "Missouri Valley",
@@ -4111,12 +4202,12 @@ const INITIAL_COLLEGES = [
       "Braves",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Bradley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bradley+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bradley.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均173位 (2026年 196位 / 2025年 185位 / 2024年 137位)"
   },
   {
     "id": "northernillinoisniu-mens",
@@ -4130,14 +4221,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Huskies",
     "headCoach": "Ryan Swan",
     "coachEmail": "niuhuskysoccer@niu.edu",
-    "stadium": "Huskies Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 15800,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "24% (6/25名)",
     "notes": "NIU Soccer Complex. Very affordable D1 tuition.",
     "tags": [
       "Missouri Valley",
@@ -4145,12 +4235,12 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生6名 / MF 9名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Northern+Illinois+(NIU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northern+Illinois+(NIU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@niu.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均130位 (2026年 126位 / 2025年 85位 / 2024年 179位)"
   },
   {
     "id": "seattleuniversity-mens",
@@ -4164,14 +4254,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Redhawks",
     "headCoach": "Nate Daligcon",
     "coachEmail": "seattlesoccer@seattleu.edu",
-    "stadium": "Redhawks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 52800,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "19% (5/27名)",
     "notes": "Championship Field in downtown Seattle. Multiple WAC titles.",
     "tags": [
       "WAC",
@@ -4179,12 +4268,12 @@ const INITIAL_COLLEGES = [
       "Redhawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全27名 / 留学生5名 / MF 7名 (Sr・Gr 3名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Seattle+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Seattle+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@seattleu.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均99位 (2026年 144位 / 2025年 102位 / 2024年 52位)"
   },
   {
     "id": "grandcanyongcu-mens",
@@ -4205,7 +4294,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "63% (19/30名)",
     "notes": "GCU Stadium (top soccer stadium in US with 6,000+ fans).",
     "tags": [
       "WAC",
@@ -4213,12 +4302,12 @@ const INITIAL_COLLEGES = [
       "Antelopes",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生19名 / MF 8名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Grand+Canyon+(GCU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Grand+Canyon+(GCU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@gcu.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均89位 (2026年 82位 / 2025年 33位 / 2024年 151位)"
   },
   {
     "id": "californiabaptistcbu-mens",
@@ -4231,15 +4320,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Lancers",
     "headCoach": "Coe Michaelson",
-    "coachEmail": "cbusoccer@calbaptist.edu",
-    "stadium": "Lancers Stadium / Field",
+    "coachEmail": "msoccer@calbaptist.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "59% (17/29名)",
     "notes": "CBU Soccer Stadium. 2022 WAC Champions in SoCal.",
     "tags": [
       "WAC",
@@ -4247,12 +4335,15 @@ const INITIAL_COLLEGES = [
       "Lancers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生17名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://cbulancers.com/sports/mens-soccer/recruits",
     "campUrl": "https://cbulancersoccercamps.com/",
     "assistantCoach": "Josh Greaves",
-    "assistantCoachEmail": "jgreaves@calbaptist.edu"
+    "assistantCoachEmail": "jgreaves@calbaptist.edu",
+    "coachVerified": true,
+    "strengthLevel": 3,
+    "strengthNote": "平均76位 (2026年 46位 / 2025年 54位 / 2024年 129位)"
   },
   {
     "id": "sanjosestatesjsu-mens",
@@ -4266,7 +4357,6 @@ const INITIAL_COLLEGES = [
     "mascot": "Spartans",
     "headCoach": "Simon Tobin",
     "coachEmail": "sjsusoccer@sjsu.edu",
-    "stadium": "Spartans Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 19800,
@@ -4286,7 +4376,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://sjsuspartans.com/sports/mens-soccer/recruiting",
     "campUrl": "https://sjsusoccercamps.com/",
     "assistantCoach": "Jesus Sanchez",
-    "assistantCoachEmail": "jesus.sanchez@sjsu.edu"
+    "assistantCoachEmail": "jesus.sanchez@sjsu.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均123位 (2026年 170位 / 2025年 51位 / 2024年 149位)"
   },
   {
     "id": "unlv-mens",
@@ -4300,14 +4392,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Rebels",
     "headCoach": "BJ Craig",
     "coachEmail": "unlvsoccer@unlv.edu",
-    "stadium": "Rebels Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 26800,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Peter Johann Memorial Field in Las Vegas Nevada.",
     "tags": [
       "WAC",
@@ -4315,12 +4406,12 @@ const INITIAL_COLLEGES = [
       "Rebels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UNLV+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNLV+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@unlv.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均116位 (2026年 97位 / 2025年 132位 / 2024年 120位)"
   },
   {
     "id": "airforceacademy-mens",
@@ -4334,14 +4425,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Falcons",
     "headCoach": "Doug Hill",
     "coachEmail": "airforcesoccer@afacademy.af.edu",
-    "stadium": "Falcons Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Cadet Soccer Stadium in Colorado Springs at 7,000 ft altitude.",
     "tags": [
       "WAC",
@@ -4349,12 +4439,12 @@ const INITIAL_COLLEGES = [
       "Falcons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Air+Force+Academy+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Air+Force+Academy+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@afacademy.af.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均202位 (2026年 195位 / 2025年 206位 / 2024年 205位)"
   },
   {
     "id": "utahvalleyuvu-mens",
@@ -4366,16 +4456,15 @@ const INITIAL_COLLEGES = [
     "conference": "WAC",
     "gender": "Men",
     "mascot": "Wolverines",
-    "headCoach": "Kyle Beckerman",
-    "coachEmail": "uvusoccer@uvu.edu",
-    "stadium": "Wolverines Stadium / Field",
+    "headCoach": "Michael Chesler",
+    "coachEmail": "michael.chesler@uvu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 18200,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "47% (14/30名)",
     "notes": "Clyde Field. Head coach is former World Cup star Kyle Beckerman.",
     "tags": [
       "WAC",
@@ -4383,12 +4472,15 @@ const INITIAL_COLLEGES = [
       "Wolverines",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生14名 / MF 11名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Utah+Valley+(UVU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Utah+Valley+(UVU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uvu.edu"
+    "coachVerified": true,
+    "assistantCoach": "Brett Jacobs",
+    "assistantCoachEmail": "brett.jacobs@uvu.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均78位 (2026年 38位 / 2025年 84位 / 2024年 113位)"
   },
   {
     "id": "utrgv-mens",
@@ -4402,14 +4494,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Vaqueros",
     "headCoach": "Bryheem Hancock",
     "coachEmail": "utrgvsoccer@utrgv.edu",
-    "stadium": "Vaqueros Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 19500,
     "roomAndBoardUSD": 9800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "UTRGV Soccer Complex in South Texas with rich Latin talent.",
     "tags": [
       "WAC",
@@ -4417,12 +4508,12 @@ const INITIAL_COLLEGES = [
       "Vaqueros",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UTRGV+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UTRGV+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@utrgv.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均192位 (2026年 202位 / 2025年 199位 / 2024年 175位)"
   },
   {
     "id": "incarnateworduiw-mens",
@@ -4435,15 +4526,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Cardinals",
     "headCoach": "Kiki Lara",
-    "coachEmail": "uiwsoccer@uiwtx.edu",
-    "stadium": "Cardinals Stadium / Field",
+    "coachEmail": "rlara@uiwtx.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 34800,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Benson Stadium in historic San Antonio Texas.",
     "tags": [
       "WAC",
@@ -4451,12 +4541,15 @@ const INITIAL_COLLEGES = [
       "Cardinals",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Incarnate+Word+(UIW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Incarnate+Word+(UIW)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uiwtx.edu"
+    "coachVerified": true,
+    "assistantCoach": "Marquis Muse",
+    "assistantCoachEmail": "muse@uiwtx.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均172位 (2026年 174位 / 2025年 173位 / 2024年 168位)"
   },
   {
     "id": "houstonchristian-mens",
@@ -4470,14 +4563,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Huskies",
     "headCoach": "Ryan Pratt",
     "coachEmail": "hcusoccer@hc.edu",
-    "stadium": "Huskies Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 37200,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Sorrels Field in major Houston metropolitan area.",
     "tags": [
       "WAC",
@@ -4485,12 +4577,12 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Houston+Christian+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Houston+Christian+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@hc.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均143位 (2026年 169位 / 2025年 109位 / 2024年 150位)"
   },
   {
     "id": "universityofdenver-mens",
@@ -4511,7 +4603,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "11% (3/28名)",
     "notes": "Consistently Top 10 nationally. Elite tactical defense.",
     "tags": [
       "Summit League",
@@ -4519,12 +4611,12 @@ const INITIAL_COLLEGES = [
       "Pioneers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生3名 / MF 11名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Denver+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Denver+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@du.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均36位 (2026年 86位 / 2025年 20位 / 2024年 2位)"
   },
   {
     "id": "oralrobertsoru-mens",
@@ -4538,14 +4630,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Golden Eagles",
     "headCoach": "Ryan Bush",
     "coachEmail": "orusoccer@oru.edu",
-    "stadium": "Golden Eagles Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 32900,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Case Soccer Complex. Multiple Summit League titles & 60% intl roster.",
     "tags": [
       "Summit League",
@@ -4553,12 +4644,12 @@ const INITIAL_COLLEGES = [
       "Golden Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Oral+Roberts+(ORU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oral+Roberts+(ORU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@oru.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均117位 (2026年 158位 / 2025年 133位 / 2024年 59位)"
   },
   {
     "id": "omahanebraskaomaha-mens",
@@ -4572,14 +4663,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Mavericks",
     "headCoach": "Donovan Dowling",
     "coachEmail": "omahasoccer@unomaha.edu",
-    "stadium": "Mavericks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 22800,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "26% (7/27名)",
     "notes": "Caniglia Field in downtown Omaha with rapid D1 growth.",
     "tags": [
       "Summit League",
@@ -4587,12 +4677,12 @@ const INITIAL_COLLEGES = [
       "Mavericks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Kamy Ndione",
+    "rosterStats": "公式ロスター全27名 / 留学生7名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Omaha+(Nebraska+Omaha)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Omaha+(Nebraska+Omaha)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@unomaha.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均94位 (2026年 63位 / 2025年 140位 / 2024年 79位)"
   },
   {
     "id": "kansascityumkc-mens",
@@ -4606,14 +4696,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Roos",
     "headCoach": "Ryan Pore",
     "coachEmail": "umkcsoccer@umkc.edu",
-    "stadium": "Roos Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 27500,
     "roomAndBoardUSD": 12400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "59% (19/32名)",
     "notes": "Durwood Soccer Stadium in heart of Kansas City soccer capital.",
     "tags": [
       "Summit League",
@@ -4621,12 +4710,12 @@ const INITIAL_COLLEGES = [
       "Roos",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認) Shotaro Kodama, Rihito Kaji",
+    "rosterStats": "公式ロスター全32名 / 留学生19名 / MF 12名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Kansas+City+(UMKC)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Kansas+City+(UMKC)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@umkc.edu"
+    "strengthLevel": 5,
+    "strengthNote": "平均20位 (2026年 13位 / 2025年 23位 / 2024年 24位)"
   },
   {
     "id": "stthomasminnesota-mens",
@@ -4640,14 +4729,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Tommies",
     "headCoach": "Jon Lowery",
     "coachEmail": "tommiessoccer@stthomas.edu",
-    "stadium": "Tommies Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 49800,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "South Field in Twin Cities Minnesota.",
     "tags": [
       "Summit League",
@@ -4655,12 +4743,12 @@ const INITIAL_COLLEGES = [
       "Tommies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Thomas+(Minnesota)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Thomas+(Minnesota)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@stthomas.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均144位 (2026年 167位 / 2025年 121位 / 2024年 144位)"
   },
   {
     "id": "westernillinoiswiu-mens",
@@ -4674,14 +4762,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Leathernecks",
     "headCoach": "Eric Johnson",
     "coachEmail": "wiusoccer@wiu.edu",
-    "stadium": "Leathernecks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 14900,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "MacKenzie Stadium. Highly affordable D1 program.",
     "tags": [
       "Summit League",
@@ -4689,12 +4776,12 @@ const INITIAL_COLLEGES = [
       "Leathernecks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Western+Illinois+(WIU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Western+Illinois+(WIU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@wiu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均199位 (2026年 207位 / 2025年 189位 / 2024年 200位)"
   },
   {
     "id": "bostonuniversitybu-mens",
@@ -4708,14 +4795,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Terriers",
     "headCoach": "Kevin Nylen",
     "coachEmail": "terriersoccer@bu.edu",
-    "stadium": "Terriers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 63798,
     "roomAndBoardUSD": 18420,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Nickerson Field in central Boston. 2023 Patriot League Champions.",
     "tags": [
       "Patriot League",
@@ -4723,12 +4809,12 @@ const INITIAL_COLLEGES = [
       "Terriers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Boston+University+(BU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Boston+University+(BU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bu.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均114位 (2026年 102位 / 2025年 67位 / 2024年 172位)"
   },
   {
     "id": "loyolauniversitymary-mens",
@@ -4742,14 +4828,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Greyhounds",
     "headCoach": "Steve Nichols",
     "coachEmail": "greyhoundsoccer@loyola.edu",
-    "stadium": "Greyhounds Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 54900,
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Ridley Athletic Complex in Baltimore. Multiple titles.",
     "tags": [
       "Patriot League",
@@ -4757,12 +4842,12 @@ const INITIAL_COLLEGES = [
       "Greyhounds",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@loyola.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均165位 (2026年 183位 / 2025年 157位 / 2024年 154位)"
   },
   {
     "id": "colgateuniversity-mens",
@@ -4775,15 +4860,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Raiders",
     "headCoach": "Erik Ronning",
-    "coachEmail": "raidersoccer@colgate.edu",
-    "stadium": "Raiders Stadium / Field",
+    "coachEmail": "colgatemenssoccer@colgate.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 65900,
     "roomAndBoardUSD": 17200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "9% (3/35名)",
     "notes": "Beyer-Small '76 Field. Elite academic liberal arts college.",
     "tags": [
       "Patriot League",
@@ -4791,12 +4875,15 @@ const INITIAL_COLLEGES = [
       "Raiders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生3名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Colgate+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Colgate+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@colgate.edu"
+    "coachVerified": true,
+    "assistantCoach": "Ricky Brown",
+    "assistantCoachEmail": "colgatemenssoccer@colgate.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均138位 (2026年 161位 / 2025年 134位 / 2024年 119位)"
   },
   {
     "id": "americanuniversity-mens",
@@ -4809,15 +4896,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Eagles",
     "headCoach": "Zach Samol",
-    "coachEmail": "eaglessoccer@american.edu",
-    "stadium": "Eagles Stadium / Field",
+    "coachEmail": "samol@american.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 54800,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "15% (4/27名)",
     "notes": "Reeves Field in Washington DC. Former national runner-up.",
     "tags": [
       "Patriot League",
@@ -4825,12 +4911,15 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生4名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=American+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=American+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@american.edu"
+    "coachVerified": true,
+    "assistantCoach": "Patrick Mehlert",
+    "assistantCoachEmail": "mehlertp@american.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均103位 (2026年 120位 / 2025年 69位 / 2024年 121位)"
   },
   {
     "id": "lafayettecollege-mens",
@@ -4844,14 +4933,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Leopards",
     "headCoach": "Dennis Bohn",
     "coachEmail": "leopardssoccer@lafayette.edu",
-    "stadium": "Leopards Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 59800,
     "roomAndBoardUSD": 17400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Oaks Stadium. Prestigious academic institution.",
     "tags": [
       "Patriot League",
@@ -4859,12 +4947,12 @@ const INITIAL_COLLEGES = [
       "Leopards",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Lafayette+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lafayette+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lafayette.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均151位 (2026年 192位 / 2025年 107位 / 2024年 153位)"
   },
   {
     "id": "lehighuniversity-mens",
@@ -4877,15 +4965,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Mountain Hawks",
     "headCoach": "Dean Koski",
-    "coachEmail": "mountainhawks@lehigh.edu",
-    "stadium": "Mountain Hawks Stadium / Field",
+    "coachEmail": "lehighmenssoccer@lehigh.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 61100,
     "roomAndBoardUSD": 16100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "14% (4/28名)",
     "notes": "Ulrich Sports Complex. Top engineering academic brand.",
     "tags": [
       "Patriot League",
@@ -4893,12 +4980,15 @@ const INITIAL_COLLEGES = [
       "Mountain Hawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生4名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lehigh+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lehigh+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lehigh.edu"
+    "coachVerified": true,
+    "assistantCoach": "Ryan Hess",
+    "assistantCoachEmail": "reh311@lehigh.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均125位 (2026年 136位 / 2025年 62位 / 2024年 176位)"
   },
   {
     "id": "collegeoftheholycros-mens",
@@ -4912,14 +5002,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Crusaders",
     "headCoach": "Matt Brown",
     "coachEmail": "crusadersoccer@holycross.edu",
-    "stadium": "Crusaders Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 58900,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Smith Soccer Stadium in Worcester MA.",
     "tags": [
       "Patriot League",
@@ -4927,12 +5016,12 @@ const INITIAL_COLLEGES = [
       "Crusaders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@holycross.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均182位 (2026年 191位 / 2025年 175位 / 2024年 181位)"
   },
   {
     "id": "bucknelluniversity-mens",
@@ -4946,14 +5035,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bison",
     "headCoach": "Dave Brandt",
     "coachEmail": "bisonsoccer@bucknell.edu",
-    "stadium": "Bison Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 63900,
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "4% (1/27名)",
     "notes": "Emmitt Athletic Green. Legendary coach Dave Brandt.",
     "tags": [
       "Patriot League",
@@ -4961,12 +5049,12 @@ const INITIAL_COLLEGES = [
       "Bison",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生1名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Bucknell+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bucknell+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bucknell.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均93位 (2026年 108位 / 2025年 60位 / 2024年 112位)"
   },
   {
     "id": "armywestpoint-mens",
@@ -4980,14 +5068,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Black Knights",
     "headCoach": "Brian Plotkin",
     "coachEmail": "armysoccer@westpoint.edu",
-    "stadium": "Black Knights Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Clinton Field along the Hudson River.",
     "tags": [
       "Patriot League",
@@ -4995,12 +5082,12 @@ const INITIAL_COLLEGES = [
       "Black Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Army+West+Point+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Army+West+Point+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@westpoint.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均168位 (2026年 197位 / 2025年 110位 / 2024年 196位)"
   },
   {
     "id": "navyusnavalacademy-mens",
@@ -5014,14 +5101,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Midshipmen",
     "headCoach": "Tim O'Donohue",
     "coachEmail": "navysoccer@usna.edu",
-    "stadium": "Midshipmen Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Glenn Warner Soccer Facility in Annapolis Maryland.",
     "tags": [
       "Patriot League",
@@ -5029,12 +5115,12 @@ const INITIAL_COLLEGES = [
       "Midshipmen",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Navy+(US+Naval+Academy)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Navy+(US+Naval+Academy)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@usna.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均203位 (2026年 204位 / 2025年 207位 / 2024年 197位)"
   },
   {
     "id": "oaklanduniversity-mens",
@@ -5046,16 +5132,15 @@ const INITIAL_COLLEGES = [
     "conference": "Horizon League",
     "gender": "Men",
     "mascot": "Golden Grizzlies",
-    "headCoach": "Eric Pogue",
-    "coachEmail": "grizzliessoccer@oakland.edu",
-    "stadium": "Golden Grizzlies Stadium / Field",
+    "headCoach": "Paul Doroh",
+    "coachEmail": "doroh@oakland.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 26900,
     "roomAndBoardUSD": 12100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "21% (6/28名)",
     "notes": "Oakland Soccer Field. Multiple Horizon titles & NCAA upsets.",
     "tags": [
       "Horizon League",
@@ -5063,12 +5148,15 @@ const INITIAL_COLLEGES = [
       "Golden Grizzlies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明4名)",
+    "rosterStats": "公式ロスター全28名 / 留学生6名 / MF 8名 (Sr・Gr 0名) / 出身地不明4名",
     "questionnaireUrl": "https://www.google.com/search?q=Oakland+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oakland+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@oakland.edu"
+    "coachVerified": true,
+    "assistantCoach": "Joey Tinnion",
+    "assistantCoachEmail": "jtinnion@oakland.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均150位 (2026年 162位 / 2025年 194位 / 2024年 95位)"
   },
   {
     "id": "clevelandstate-mens",
@@ -5080,16 +5168,15 @@ const INITIAL_COLLEGES = [
     "conference": "Horizon League",
     "gender": "Men",
     "mascot": "Vikings",
-    "headCoach": "Siniša Ubiparipović",
-    "coachEmail": "csusoccer@csuohio.edu",
-    "stadium": "Vikings Stadium / Field",
+    "headCoach": "Sinisa Ubiparipovic",
+    "coachEmail": "s.ubiparipovic81@csuohio.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 17800,
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "56% (15/27名)",
     "notes": "Krenzler Field. 2022 Horizon Champions in downtown Cleveland.",
     "tags": [
       "Horizon League",
@@ -5097,12 +5184,15 @@ const INITIAL_COLLEGES = [
       "Vikings",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生15名 / MF 10名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Cleveland+State+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Cleveland+State+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@csuohio.edu"
+    "coachVerified": true,
+    "assistantCoach": "Charlie Krus",
+    "assistantCoachEmail": "c.krus@csuohio.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均100位 (2026年 114位 / 2025年 96位 / 2024年 91位)"
   },
   {
     "id": "wrightstateuniversit-mens",
@@ -5116,14 +5206,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Raiders",
     "headCoach": "Alex Van der Sluijs",
     "coachEmail": "raiderssoccer@wright.edu",
-    "stadium": "Raiders Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 20800,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "39% (11/28名)",
     "notes": "Alumni Field at Rinzler Complex. 2019 NCAA second round.",
     "tags": [
       "Horizon League",
@@ -5131,12 +5220,12 @@ const INITIAL_COLLEGES = [
       "Raiders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明3名)",
+    "rosterStats": "公式ロスター全28名 / 留学生11名 / MF 10名 (Sr・Gr 0名) / 出身地不明3名",
     "questionnaireUrl": "https://www.google.com/search?q=Wright+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wright+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@wright.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均160位 (2026年 138位 / 2025年 202位 / 2024年 141位)"
   },
   {
     "id": "detroitmercy-mens",
@@ -5150,14 +5239,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Titans",
     "headCoach": "Nate Kopunek",
     "coachEmail": "titanssoccer@udmercy.edu",
-    "stadium": "Titans Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 32800,
     "roomAndBoardUSD": 11200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Titan Field in Detroit Michigan.",
     "tags": [
       "Horizon League",
@@ -5165,12 +5253,12 @@ const INITIAL_COLLEGES = [
       "Titans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Detroit+Mercy+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Detroit+Mercy+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@udmercy.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均180位 (2026年 186位 / 2025年 183位 / 2024年 170位)"
   },
   {
     "id": "uw-greenbay-mens",
@@ -5184,14 +5272,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Phoenix",
     "headCoach": "Jeremy Bonomo",
     "coachEmail": "phoenixsoccer@uwgb.edu",
-    "stadium": "Phoenix Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 18200,
     "roomAndBoardUSD": 8900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Aldo Santaga Stadium. 2023 Horizon League Champions.",
     "tags": [
       "Horizon League",
@@ -5199,12 +5286,12 @@ const INITIAL_COLLEGES = [
       "Phoenix",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UW-Green+Bay+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UW-Green+Bay+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uwgb.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均141位 (2026年 173位 / 2025年 136位 / 2024年 114位)"
   },
   {
     "id": "uw-milwaukee-mens",
@@ -5218,14 +5305,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Panthers",
     "headCoach": "Kris Kelderman",
     "coachEmail": "panthersoccer@uwm.edu",
-    "stadium": "Panthers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21800,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Engelmann Stadium on Lake Michigan in Milwaukee.",
     "tags": [
       "Horizon League",
@@ -5233,12 +5319,12 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UW-Milwaukee+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UW-Milwaukee+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uwm.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均152位 (2026年 155位 / 2025年 186位 / 2024年 115位)"
   },
   {
     "id": "northernkentuckynku-mens",
@@ -5252,14 +5338,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Norse",
     "headCoach": "Tom Poitras",
     "coachEmail": "norsesoccer@nku.edu",
-    "stadium": "Norse Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21200,
     "roomAndBoardUSD": 11400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "NKU Soccer Stadium in Cincinnati metro area.",
     "tags": [
       "Horizon League",
@@ -5267,12 +5352,12 @@ const INITIAL_COLLEGES = [
       "Norse",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Northern+Kentucky+(NKU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northern+Kentucky+(NKU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@nku.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均188位 (2026年 203位 / 2025年 187位 / 2024年 173位)"
   },
   {
     "id": "purduefortwaynepfw-mens",
@@ -5286,14 +5371,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Mastodons",
     "headCoach": "Stephen Gorton",
     "coachEmail": "mastodonsoccer@pfw.edu",
-    "stadium": "Mastodons Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 22100,
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Hefner Soccer Complex in Fort Wayne Indiana.",
     "tags": [
       "Horizon League",
@@ -5301,12 +5385,12 @@ const INITIAL_COLLEGES = [
       "Mastodons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Purdue+Fort+Wayne+(PFW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Purdue+Fort+Wayne+(PFW)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@pfw.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均136位 (2026年 121位 / 2025年 143位 / 2024年 145位)"
   },
   {
     "id": "robertmorrisuniversi-mens",
@@ -5320,14 +5404,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Colonials",
     "headCoach": "Jonathan Potter",
     "coachEmail": "colonialssoccer@rmu.edu",
-    "stadium": "Colonials Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 34900,
     "roomAndBoardUSD": 13800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "North Athletic Complex in Pittsburgh metro area.",
     "tags": [
       "Horizon League",
@@ -5335,12 +5418,12 @@ const INITIAL_COLLEGES = [
       "Colonials",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Robert+Morris+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Robert+Morris+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@rmu.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均132位 (2026年 147位 / 2025年 154位 / 2024年 96位)"
   },
   {
     "id": "uncgreensborouncg-mens",
@@ -5354,14 +5437,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Spartans",
     "headCoach": "Chris Rich",
     "coachEmail": "uncgsoccer@uncg.edu",
-    "stadium": "Spartans Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 23500,
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "50% (13/26名)",
     "notes": "UNCG Soccer Stadium. 2022 NCAA National Quarterfinalists.",
     "tags": [
       "SoCon",
@@ -5369,12 +5451,12 @@ const INITIAL_COLLEGES = [
       "Spartans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生13名 / MF 9名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Greensboro+(UNCG)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Greensboro+(UNCG)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uncg.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均50位 (2026年 87位 / 2025年 27位 / 2024年 35位)"
   },
   {
     "id": "furmanuniversity-mens",
@@ -5388,14 +5470,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Paladins",
     "headCoach": "Doug Allison",
     "coachEmail": "paladinsoccer@furman.edu",
-    "stadium": "Paladins Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 55800,
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "7% (2/30名)",
     "notes": "Stone Soccer Stadium. Produced Clint Dempsey and Ricardo Clark.",
     "tags": [
       "SoCon",
@@ -5403,12 +5484,12 @@ const INITIAL_COLLEGES = [
       "Paladins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生2名 / MF 14名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Furman+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Furman+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@furman.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均48位 (2026年 67位 / 2025年 14位 / 2024年 63位)"
   },
   {
     "id": "merceruniversity-mens",
@@ -5422,14 +5503,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bears",
     "headCoach": "Brad Ruzzo",
     "coachEmail": "mercersoccer@mercer.edu",
-    "stadium": "Bears Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 14500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Betts Stadium. 5x SoCon Champions in last decade.",
     "tags": [
       "SoCon",
@@ -5437,12 +5517,12 @@ const INITIAL_COLLEGES = [
       "Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Mercer+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mercer+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@mercer.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均159位 (2026年 200位 / 2025年 169位 / 2024年 109位)"
   },
   {
     "id": "easttennesseestateet-mens",
@@ -5456,14 +5536,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Buccaneers",
     "headCoach": "David Simonsen",
     "coachEmail": "etsusoccer@etsu.edu",
-    "stadium": "Buccaneers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 28900,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Summers-Taylor Stadium. Beautiful mountain campus & 50% intl.",
     "tags": [
       "SoCon",
@@ -5471,12 +5550,12 @@ const INITIAL_COLLEGES = [
       "Buccaneers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@etsu.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均144位 (2026年 123位 / 2025年 203位 / 2024年 106位)"
   },
   {
     "id": "woffordcollege-mens",
@@ -5488,16 +5567,15 @@ const INITIAL_COLLEGES = [
     "conference": "SoCon",
     "gender": "Men",
     "mascot": "Terriers",
-    "headCoach": "Joel Tyson",
-    "coachEmail": "woffordsoccer@wofford.edu",
-    "stadium": "Terriers Stadium / Field",
+    "headCoach": "Ryan Osborne",
+    "coachEmail": "osbornera@wofford.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 51900,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "33% (11/33名)",
     "notes": "Snyder Field. Elite academic private college in SC.",
     "tags": [
       "SoCon",
@@ -5505,12 +5583,15 @@ const INITIAL_COLLEGES = [
       "Terriers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生11名 / MF 12名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Wofford+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wofford+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@wofford.edu"
+    "coachVerified": true,
+    "assistantCoach": "Mac Thomalla",
+    "assistantCoachEmail": "thomallacf@wofford.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均120位 (2026年 92位 / 2025年 161位 / 2024年 107位)"
   },
   {
     "id": "vmi-mens",
@@ -5523,15 +5604,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Keydets",
     "headCoach": "Nick Regan",
-    "coachEmail": "vmisoccer@vmi.edu",
-    "stadium": "Keydets Stadium / Field",
+    "coachEmail": "regannj@vmi.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "17% (5/30名)",
     "notes": "Patchin Field in historic Shenandoah Valley Virginia.",
     "tags": [
       "SoCon",
@@ -5539,12 +5619,15 @@ const INITIAL_COLLEGES = [
       "Keydets",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生5名 / MF 13名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=VMI+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=VMI+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@vmi.edu"
+    "coachVerified": true,
+    "assistantCoach": "Jacob Wyrick",
+    "assistantCoachEmail": "wyrickjd@vmi.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均211位 (2026年 211位 / 2025年 211位 / 2024年 212位)"
   },
   {
     "id": "lipscombuniversity-mens",
@@ -5557,15 +5640,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Bisons",
     "headCoach": "Charles Morrow",
-    "coachEmail": "bisonsoccer@lipscomb.edu",
-    "stadium": "Bisons Stadium / Field",
+    "coachEmail": "charles.morrow@lipscomb.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 14800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "50% (17/34名)",
     "notes": "Lipscomb Complex in Nashville. 3x ASUN Champions & Top 10 rank.",
     "tags": [
       "ASUN",
@@ -5573,12 +5655,15 @@ const INITIAL_COLLEGES = [
       "Bisons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生17名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lipscomb+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lipscomb+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lipscomb.edu"
+    "coachVerified": true,
+    "assistantCoach": "Julian Lucumi",
+    "assistantCoachEmail": "jmlucumivillegas@lipscomb.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均183位 (2026年 189位 / 2025年 174位 / 2024年 186位)"
   },
   {
     "id": "stetsonuniversity-mens",
@@ -5591,15 +5676,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Hatters",
     "headCoach": "Emmett Rutkowski",
-    "coachEmail": "hatterssoccer@stetson.edu",
-    "stadium": "Hatters Stadium / Field",
+    "coachEmail": "erutkowski@stetson.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 53900,
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "44% (12/27名)",
     "notes": "ATC Field in Central Florida with 50% international roster.",
     "tags": [
       "ASUN",
@@ -5607,12 +5691,15 @@ const INITIAL_COLLEGES = [
       "Hatters",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生12名 / MF 10名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Stetson+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Stetson+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@stetson.edu"
+    "coachVerified": true,
+    "assistantCoach": "Eduardo Jimenez",
+    "assistantCoachEmail": "efjimenez@stetson.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均145位 (2026年 148位 / 2025年 123位 / 2024年 164位)"
   },
   {
     "id": "fgcufloridagulfcoast-mens",
@@ -5626,14 +5713,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Eagles",
     "headCoach": "Jesse Cormier",
     "coachEmail": "fgcusoccer@fgcu.edu",
-    "stadium": "Eagles Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 25200,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Pickering Field at FGCU Soccer Complex in sunny Fort Myers.",
     "tags": [
       "ASUN",
@@ -5641,12 +5727,12 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=FGCU+(Florida+Gulf+Coast)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=FGCU+(Florida+Gulf+Coast)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fgcu.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均142位 (2026年 140位 / 2025年 95位 / 2024年 192位)"
   },
   {
     "id": "bellarmineuniversity-mens",
@@ -5660,14 +5746,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Knights",
     "headCoach": "Tim Chastonay",
     "coachEmail": "knightsoccer@bellarmine.edu",
-    "stadium": "Knights Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 45800,
     "roomAndBoardUSD": 13500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Frazier Stadium in Louisville Kentucky.",
     "tags": [
       "ASUN",
@@ -5675,12 +5760,12 @@ const INITIAL_COLLEGES = [
       "Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Bellarmine+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bellarmine+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bellarmine.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均151位 (2026年 152位 / 2025年 114位 / 2024年 188位)"
   },
   {
     "id": "centralarkansasuca-mens",
@@ -5694,14 +5779,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bears",
     "headCoach": "Frank Kohlenstein",
     "coachEmail": "ucasoccer@uca.edu",
-    "stadium": "Bears Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 16800,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Stephens Complex. Highly affordable tuition.",
     "tags": [
       "ASUN",
@@ -5709,12 +5793,12 @@ const INITIAL_COLLEGES = [
       "Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Central+Arkansas+(UCA)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Central+Arkansas+(UCA)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uca.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均131位 (2026年 113位 / 2025年 147位 / 2024年 132位)"
   },
   {
     "id": "jacksonvilleuniversi-mens",
@@ -5728,14 +5812,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Dolphins",
     "headCoach": "Ali Simmons",
     "coachEmail": "dolphinsoccer@ju.edu",
-    "stadium": "Dolphins Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44800,
     "roomAndBoardUSD": 15900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Southern Oak Stadium in coastal Florida.",
     "tags": [
       "ASUN",
@@ -5743,12 +5826,12 @@ const INITIAL_COLLEGES = [
       "Dolphins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Jacksonville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Jacksonville+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@ju.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均155位 (2026年 159位 / 2025年 127位 / 2024年 178位)"
   },
   {
     "id": "northfloridaunf-mens",
@@ -5762,14 +5845,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Ospreys",
     "headCoach": "Derek Marinatos",
     "coachEmail": "ospreyssoccer@unf.edu",
-    "stadium": "Ospreys Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21800,
     "roomAndBoardUSD": 12100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "52% (16/31名)",
     "notes": "Hodges Stadium in Jacksonville Florida.",
     "tags": [
       "ASUN",
@@ -5777,12 +5859,12 @@ const INITIAL_COLLEGES = [
       "Ospreys",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "1名 (公式ロスター確認) Ryuta Morioka",
+    "rosterStats": "公式ロスター全31名 / 留学生16名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=North+Florida+(UNF)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=North+Florida+(UNF)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@unf.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均84位 (2026年 54位 / 2025年 46位 / 2024年 152位)"
   },
   {
     "id": "queensuniversityofch-mens",
@@ -5796,14 +5878,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Royals",
     "headCoach": "Oliver Carias",
     "coachEmail": "royalssoccer@queens.edu",
-    "stadium": "Royals Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Dickson Field in Charlotte NC.",
     "tags": [
       "ASUN",
@@ -5811,12 +5892,12 @@ const INITIAL_COLLEGES = [
       "Royals",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Queens+University+of+Charlotte+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Queens+University+of+Charlotte+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@queens.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均171位 (2026年 160位 / 2025年 163位 / 2024年 189位)"
   },
   {
     "id": "ionauniversity-mens",
@@ -5830,14 +5911,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Gaels",
     "headCoach": "James Hamilton",
     "coachEmail": "gaelssoccer@iona.edu",
-    "stadium": "Gaels Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 44200,
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Mazzella Field. 2019 & 2023 MAAC Champions. NYC suburbs.",
     "tags": [
       "MAAC",
@@ -5845,12 +5925,12 @@ const INITIAL_COLLEGES = [
       "Gaels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Iona+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Iona+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@iona.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均123位 (2026年 168位 / 2025年 117位 / 2024年 85位)"
   },
   {
     "id": "quinnipiacuniversity-mens",
@@ -5864,14 +5944,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Bobcats",
     "headCoach": "Eric Da Costa",
     "coachEmail": "bobcatssoccer@qu.edu",
-    "stadium": "Bobcats Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 53900,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Quinnipiac Soccer Stadium. 2022 MAAC Champions.",
     "tags": [
       "MAAC",
@@ -5879,12 +5958,12 @@ const INITIAL_COLLEGES = [
       "Bobcats",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Quinnipiac+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Quinnipiac+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@qu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均153位 (2026年 116位 / 2025年 149位 / 2024年 193位)"
   },
   {
     "id": "rideruniversity-mens",
@@ -5896,16 +5975,15 @@ const INITIAL_COLLEGES = [
     "conference": "MAAC",
     "gender": "Men",
     "mascot": "Broncs",
-    "headCoach": "Charlie Inverso",
-    "coachEmail": "broncssoccer@rider.edu",
-    "stadium": "Broncs Stadium / Field",
+    "headCoach": "Chad Duernberger",
+    "coachEmail": "mduernberger@rider.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "30% (8/27名)",
     "notes": "Ben Cohen Field. 2023 MAAC Champions in NJ.",
     "tags": [
       "MAAC",
@@ -5913,12 +5991,15 @@ const INITIAL_COLLEGES = [
       "Broncs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生8名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Rider+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rider+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@rider.edu"
+    "coachVerified": true,
+    "assistantCoach": "Reilly Fuller",
+    "assistantCoachEmail": "rfuller@rider.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均129位 (2026年 103位 / 2025年 197位 / 2024年 87位)"
   },
   {
     "id": "maristcollege-mens",
@@ -5932,14 +6013,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Red Foxes",
     "headCoach": "Matt Viggiano",
     "coachEmail": "redfoxessoccer@marist.edu",
-    "stadium": "Red Foxes Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 45800,
     "roomAndBoardUSD": 17500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "44% (12/27名)",
     "notes": "Tenney Stadium along the Hudson River in NY.",
     "tags": [
       "MAAC",
@@ -5947,12 +6027,12 @@ const INITIAL_COLLEGES = [
       "Red Foxes",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生12名 / MF 19名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Marist+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Marist+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@marist.edu"
+    "strengthLevel": 3,
+    "strengthNote": "平均110位 (2026年 91位 / 2025年 76位 / 2024年 162位)"
   },
   {
     "id": "sienacollege-mens",
@@ -5966,14 +6046,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Saints",
     "headCoach": "Graciano Brito",
     "coachEmail": "saintssoccer@siena.edu",
-    "stadium": "Saints Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 43500,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Hickey Field in Capital District New York.",
     "tags": [
       "MAAC",
@@ -5981,12 +6060,12 @@ const INITIAL_COLLEGES = [
       "Saints",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Siena+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Siena+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@siena.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均114位 (2026年 145位 / 2025年 58位 / 2024年 140位)"
   },
   {
     "id": "fairfielduniversity-mens",
@@ -6000,14 +6079,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Stags",
     "headCoach": "Carl Rees",
     "coachEmail": "stagssoccer@fairfield.edu",
-    "stadium": "Stags Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 55800,
     "roomAndBoardUSD": 17500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Lessing Field. Top Jesuit university in coastal Connecticut.",
     "tags": [
       "MAAC",
@@ -6015,12 +6093,12 @@ const INITIAL_COLLEGES = [
       "Stags",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Fairfield+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fairfield+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fairfield.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均117位 (2026年 75位 / 2025年 81位 / 2024年 194位)"
   },
   {
     "id": "manhattanuniversity-mens",
@@ -6034,14 +6112,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Jaspers",
     "headCoach": "Jorden Scott",
     "coachEmail": "jaspersoccer@manhattan.edu",
-    "stadium": "Jaspers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 48900,
     "roomAndBoardUSD": 18900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Gaelic Park in New York City. Heavy international roster.",
     "tags": [
       "MAAC",
@@ -6049,12 +6126,12 @@ const INITIAL_COLLEGES = [
       "Jaspers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Manhattan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Manhattan+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@manhattan.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均175位 (2026年 193位 / 2025年 172位 / 2024年 160位)"
   },
   {
     "id": "mountstmarys-mens",
@@ -6068,14 +6145,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Mountaineers",
     "headCoach": "Brett Teach",
     "coachEmail": "mountsoccer@msmary.edu",
-    "stadium": "Mountaineers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 46800,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Waldron Family Stadium in Maryland.",
     "tags": [
       "MAAC",
@@ -6083,12 +6159,12 @@ const INITIAL_COLLEGES = [
       "Mountaineers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Mount+St.+Mary's+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mount+St.+Mary's+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@msmary.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均196位 (2026年 198位 / 2025年 191位 / 2024年 198位)"
   },
   {
     "id": "niagarauniversity-mens",
@@ -6101,15 +6177,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Purple Eagles",
     "headCoach": "Bill Boyle",
-    "coachEmail": "eaglessoccer@niagara.edu",
-    "stadium": "Purple Eagles Stadium / Field",
+    "coachEmail": "wboyle@niagara.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 37900,
     "roomAndBoardUSD": 14500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "56% (15/27名)",
     "notes": "Niagara Field near Niagara Falls and Canadian border.",
     "tags": [
       "MAAC",
@@ -6117,12 +6192,15 @@ const INITIAL_COLLEGES = [
       "Purple Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "3名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全27名 / 留学生15名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Niagara+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Niagara+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@niagara.edu"
+    "coachVerified": true,
+    "assistantCoach": "David Hesch",
+    "assistantCoachEmail": "dhesch@niagara.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均171位 (2026年 156位 / 2025年 150位 / 2024年 208位)"
   },
   {
     "id": "canisiusuniversity-mens",
@@ -6136,14 +6214,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Golden Griffins",
     "headCoach": "Michael Tanke",
     "coachEmail": "griffinssoccer@canisius.edu",
-    "stadium": "Golden Griffins Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 33900,
     "roomAndBoardUSD": 14800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Demske Sports Complex in Buffalo NY.",
     "tags": [
       "MAAC",
@@ -6151,12 +6228,12 @@ const INITIAL_COLLEGES = [
       "Golden Griffins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Canisius+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Canisius+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@canisius.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均201位 (2026年 208位 / 2025年 196位 / 2024年 199位)"
   },
   {
     "id": "saintpetersuniversit-mens",
@@ -6169,15 +6246,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Peacocks",
     "headCoach": "Julian Richens",
-    "coachEmail": "peacockssoccer@saintpeters.edu",
-    "stadium": "Peacocks Stadium / Field",
+    "coachEmail": "jrichens@saintpeters.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 40500,
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "59% (16/27名)",
     "notes": "Jaroschak Field in Jersey City, 5 mins from Manhattan.",
     "tags": [
       "MAAC",
@@ -6185,12 +6261,15 @@ const INITIAL_COLLEGES = [
       "Peacocks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生16名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Peter's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Peter's+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@saintpeters.edu"
+    "coachVerified": true,
+    "assistantCoach": "Tom Coulson",
+    "assistantCoachEmail": "tcoulson17@saintpeters.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均185位 (2026年 154位 / 2025年 193位 / 2024年 209位)"
   },
   {
     "id": "saintfrancisuniversi-mens",
@@ -6202,16 +6281,15 @@ const INITIAL_COLLEGES = [
     "conference": "NEC",
     "gender": "Men",
     "mascot": "Red Flash",
-    "headCoach": "Mads Kaiser",
-    "coachEmail": "redflashsoccer@francis.edu",
-    "stadium": "Red Flash Stadium / Field",
+    "headCoach": "Shelby Edwards",
+    "coachEmail": "sedwards@francis.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "19% (3/16名)",
     "notes": "Stokes Soccerplex. Multiple NEC titles with high European pipeline.",
     "tags": [
       "NEC",
@@ -6219,12 +6297,15 @@ const INITIAL_COLLEGES = [
       "Red Flash",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全16名 / 留学生3名 / MF 5名 (Sr・Gr 1名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Francis+University+(PA)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Francis+University+(PA)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@francis.edu"
+    "coachVerified": true,
+    "assistantCoach": "Connor Oechslin",
+    "assistantCoachEmail": "coechslin@francis.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均142位 (2025年 160位 / 2024年 123位)"
   },
   {
     "id": "liulongislandunivers-mens",
@@ -6238,14 +6319,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Sharks",
     "headCoach": "Michael Mordocco",
     "coachEmail": "sharkssoccer@liu.edu",
-    "stadium": "Sharks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41500,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "LIU Post Field. 2021 & 2023 NEC Champions in NYC area.",
     "tags": [
       "NEC",
@@ -6253,12 +6333,12 @@ const INITIAL_COLLEGES = [
       "Sharks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=LIU+(Long+Island+University)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=LIU+(Long+Island+University)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@liu.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均125位 (2026年 135位 / 2025年 129位 / 2024年 110位)"
   },
   {
     "id": "fairleighdickinsonfd-mens",
@@ -6270,16 +6350,15 @@ const INITIAL_COLLEGES = [
     "conference": "NEC",
     "gender": "Men",
     "mascot": "Knights",
-    "headCoach": "Seth Roland",
-    "coachEmail": "knightssoccer@fdu.edu",
-    "stadium": "Knights Stadium / Field",
+    "headCoach": "Jaymee Highcock",
+    "coachEmail": "j.highcock@fdu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 15800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "19% (6/32名)",
     "notes": "University Stadium. 9x NEC Champions under Seth Roland.",
     "tags": [
       "NEC",
@@ -6287,12 +6366,15 @@ const INITIAL_COLLEGES = [
       "Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生6名 / MF 14名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Fairleigh+Dickinson+(FDU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fairleigh+Dickinson+(FDU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fdu.edu"
+    "coachVerified": true,
+    "assistantCoach": "Max Aken-Tyers",
+    "assistantCoachEmail": "m.akentyers@fdu.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均91位 (2026年 71位 / 2025年 71位 / 2024年 131位)"
   },
   {
     "id": "sacredheartuniversit-mens",
@@ -6304,16 +6386,15 @@ const INITIAL_COLLEGES = [
     "conference": "NEC",
     "gender": "Men",
     "mascot": "Pioneers",
-    "headCoach": "Paul Gilbert",
-    "coachEmail": "pioneerssoccer@sacredheart.edu",
-    "stadium": "Pioneers Stadium / Field",
+    "headCoach": "Anthony Anzevui",
+    "coachEmail": "msoccer@sacredheart.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 48900,
     "roomAndBoardUSD": 17200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "41% (12/29名)",
     "notes": "Park Avenue Field in coastal Connecticut.",
     "tags": [
       "NEC",
@@ -6321,12 +6402,15 @@ const INITIAL_COLLEGES = [
       "Pioneers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生12名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Sacred+Heart+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Sacred+Heart+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@sacredheart.edu"
+    "coachVerified": true,
+    "assistantCoach": "Oscar Curras",
+    "assistantCoachEmail": "msoccer@sacredheart.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均100位 (2026年 62位 / 2025年 47位 / 2024年 191位)"
   },
   {
     "id": "centralconnecticutst-mens",
@@ -6340,14 +6424,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Blue Devils",
     "headCoach": "David Kelly",
     "coachEmail": "ccsusoccer@ccsu.edu",
-    "stadium": "Blue Devils Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 26800,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "CCSU Soccer Field. Affordable Northeast D1 education.",
     "tags": [
       "NEC",
@@ -6355,12 +6438,12 @@ const INITIAL_COLLEGES = [
       "Blue Devils",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Central+Connecticut+State+(CCSU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Central+Connecticut+State+(CCSU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@ccsu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均199位 (2026年 178位 / 2025年 213位 / 2024年 207位)"
   },
   {
     "id": "lemoynecollege-mens",
@@ -6373,15 +6456,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Dolphins",
     "headCoach": "Callum Donnelly",
-    "coachEmail": "dolphinssoccer@lemoyne.edu",
-    "stadium": "Dolphins Stadium / Field",
+    "coachEmail": "donncal@lemoyne.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 15200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "40% (12/30名)",
     "notes": "Ted Grant Field in Syracuse NY. New D1 transition program.",
     "tags": [
       "NEC",
@@ -6389,12 +6471,15 @@ const INITIAL_COLLEGES = [
       "Dolphins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生12名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Le+Moyne+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Le+Moyne+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lemoyne.edu"
+    "coachVerified": true,
+    "assistantCoach": "Casey Murphy",
+    "assistantCoachEmail": "murphca@lemoyne.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均177位 (2026年 185位 / 2025年 184位 / 2024年 161位)"
   },
   {
     "id": "stonehillcollege-mens",
@@ -6408,14 +6493,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Skyhawks",
     "headCoach": "Jim Reddish",
     "coachEmail": "skyhawkssoccer@stonehill.edu",
-    "stadium": "Skyhawks Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 51200,
     "roomAndBoardUSD": 17500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "W.B. Mason Stadium near Boston.",
     "tags": [
       "NEC",
@@ -6423,12 +6507,12 @@ const INITIAL_COLLEGES = [
       "Skyhawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Stonehill+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Stonehill+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@stonehill.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均196位 (2026年 199位 / 2025年 200位 / 2024年 190位)"
   },
   {
     "id": "howarduniversity-mens",
@@ -6441,15 +6525,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Bison",
     "headCoach": "Phillip Gyau",
-    "coachEmail": "bisonsoccer@howard.edu",
-    "stadium": "Bison Stadium / Field",
+    "coachEmail": "phillip.gyau@howard.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 32800,
     "roomAndBoardUSD": 15900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "14% (4/28名)",
     "notes": "Greene Stadium. Historic HBCU with 2x National Championships.",
     "tags": [
       "NEC",
@@ -6457,12 +6540,15 @@ const INITIAL_COLLEGES = [
       "Bison",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全28名 / 留学生4名 / MF 13名 (Sr・Gr 4名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Howard+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Howard+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@howard.edu"
+    "coachVerified": true,
+    "assistantCoach": "Jason Gross",
+    "assistantCoachEmail": "jason.gross@howard.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均207位 (2026年 210位 / 2025年 208位 / 2024年 202位)"
   },
   {
     "id": "mercyhurstuniversity-mens",
@@ -6476,14 +6562,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Lakers",
     "headCoach": "Austin Solomon",
     "coachEmail": "lakerssoccer@mercyhurst.edu",
-    "stadium": "Lakers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 42500,
     "roomAndBoardUSD": 14900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Saxon Stadium in Erie PA.",
     "tags": [
       "NEC",
@@ -6491,12 +6576,12 @@ const INITIAL_COLLEGES = [
       "Lakers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Mercyhurst+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mercyhurst+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@mercyhurst.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均167位 (2026年 176位 / 2025年 209位 / 2024年 116位)"
   },
   {
     "id": "chicagostateuniversi-mens",
@@ -6510,14 +6595,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Cougars",
     "headCoach": "Norris Howze",
     "coachEmail": "cougarssoccer@csu.edu",
-    "stadium": "Cougars Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 18900,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Gwendolyn Brooks Field in Chicago Illinois.",
     "tags": [
       "NEC",
@@ -6525,12 +6609,12 @@ const INITIAL_COLLEGES = [
       "Cougars",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Chicago+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Chicago+State+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@csu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均208位 (2026年 212位 / 2025年 212位 / 2024年 201位)"
   },
   {
     "id": "siuedwardsvillesiue-mens",
@@ -6544,14 +6628,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Cougars",
     "headCoach": "Cale Wassermann",
     "coachEmail": "siuesoccer@siue.edu",
-    "stadium": "Cougars Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 13900,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Korte Stadium. 1979 National Champions. 2023 undefeated OVC.",
     "tags": [
       "OVC",
@@ -6559,12 +6642,12 @@ const INITIAL_COLLEGES = [
       "Cougars",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=SIU+Edwardsville+(SIUE)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=SIU+Edwardsville+(SIUE)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@siue.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均136位 (2026年 181位 / 2025年 166位 / 2024年 62位)"
   },
   {
     "id": "libertyuniversity-mens",
@@ -6578,14 +6661,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Flames",
     "headCoach": "Kelly Findley",
     "coachEmail": "flamessoccer@liberty.edu",
-    "stadium": "Flames Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 24900,
     "roomAndBoardUSD": 12200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Osborne Stadium. Multi-million dollar campus facilities.",
     "tags": [
       "OVC",
@@ -6593,12 +6675,12 @@ const INITIAL_COLLEGES = [
       "Flames",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Liberty+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Liberty+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@liberty.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均137位 (2026年 94位 / 2025年 144位 / 2024年 174位)"
   },
   {
     "id": "lindenwooduniversity-mens",
@@ -6612,14 +6694,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Lions",
     "headCoach": "Kris Bertsch",
     "coachEmail": "lionssoccer@lindenwood.edu",
-    "stadium": "Lions Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Hunter Stadium in St. Louis metropolitan area.",
     "tags": [
       "OVC",
@@ -6627,12 +6708,12 @@ const INITIAL_COLLEGES = [
       "Lions",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Lindenwood+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lindenwood+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lindenwood.edu"
+    "strengthLevel": 2,
+    "strengthNote": "平均132位 (2026年 171位 / 2025年 91位 / 2024年 134位)"
   },
   {
     "id": "easternillinoisunive-mens",
@@ -6646,14 +6727,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Panthers",
     "headCoach": "Josh Oakley",
     "coachEmail": "eiusoccer@eiu.edu",
-    "stadium": "Panthers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 15800,
     "roomAndBoardUSD": 10800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Lakeside Field. Historic collegiate soccer program.",
     "tags": [
       "OVC",
@@ -6661,12 +6741,12 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@eiu.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均193位 (2026年 201位 / 2025年 167位 / 2024年 210位)"
   },
   {
     "id": "southernindianausi-mens",
@@ -6680,14 +6760,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Screaming Eagles",
     "headCoach": "Mat Santoro",
     "coachEmail": "usisoccer@usi.edu",
-    "stadium": "Screaming Eagles Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 21500,
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Strassweg Field in Evansville Indiana.",
     "tags": [
       "OVC",
@@ -6695,12 +6774,12 @@ const INITIAL_COLLEGES = [
       "Screaming Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Indiana+(USI)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southern+Indiana+(USI)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@usi.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均203位 (2026年 209位 / 2025年 190位 / 2024年 211位)"
   },
   {
     "id": "highpointuniversity-mens",
@@ -6714,14 +6793,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Panthers",
     "headCoach": "Zach Haines",
     "coachEmail": "hpusoccer@highpoint.edu",
-    "stadium": "Panthers Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 42900,
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "15% (4/26名)",
     "notes": "Vert Stadium. 4x Big South Champions with Top 25 national ranking.",
     "tags": [
       "Big South",
@@ -6729,12 +6807,12 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生4名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=High+Point+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=High+Point+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@highpoint.edu"
+    "strengthLevel": 4,
+    "strengthNote": "平均41位 (2026年 69位 / 2025年 15位 / 2024年 40位)"
   },
   {
     "id": "winthropuniversity-mens",
@@ -6748,14 +6826,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Eagles",
     "headCoach": "Daniel Ridenhour",
     "coachEmail": "eaglessoccer@winthrop.edu",
-    "stadium": "Eagles Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 30500,
     "roomAndBoardUSD": 10800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Eagle Field in Rock Hill South Carolina.",
     "tags": [
       "Big South",
@@ -6763,12 +6840,12 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Winthrop+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Winthrop+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@winthrop.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均181位 (2026年 151位 / 2025年 210位 / 2024年 182位)"
   },
   {
     "id": "gardner-webbuniversi-mens",
@@ -6780,16 +6857,15 @@ const INITIAL_COLLEGES = [
     "conference": "Big South",
     "gender": "Men",
     "mascot": "Runnin' Bulldogs",
-    "headCoach": "Scott Wells",
-    "coachEmail": "bulldogssoccer@gardner-webb.edu",
-    "stadium": "Runnin' Bulldogs Stadium / Field",
+    "headCoach": "Jonathan Lagos",
+    "coachEmail": "msoccer@gardner-webb.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 32800,
     "roomAndBoardUSD": 11400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "58% (19/33名)",
     "notes": "Greene-Harbison Stadium in North Carolina.",
     "tags": [
       "Big South",
@@ -6797,12 +6873,15 @@ const INITIAL_COLLEGES = [
       "Runnin' Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全33名 / 留学生19名 / MF 10名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Gardner-Webb+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Gardner-Webb+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@gardner-webb.edu"
+    "coachVerified": true,
+    "assistantCoach": "Josh Nakayama",
+    "assistantCoachEmail": "msoccer@gardner-webb.edu",
+    "strengthLevel": 4,
+    "strengthNote": "平均55位 (2026年 78位 / 2025年 37位 / 2024年 51位)"
   },
   {
     "id": "longwooduniversity-mens",
@@ -6815,15 +6894,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Lancers",
     "headCoach": "Paul Gilbert",
-    "coachEmail": "lancersoccer@longwood.edu",
-    "stadium": "Lancers Stadium / Field",
+    "coachEmail": "gilbertpe@longwood.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 31200,
     "roomAndBoardUSD": 12500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "Athletics Complex in Virginia.",
     "tags": [
       "Big South",
@@ -6831,12 +6909,15 @@ const INITIAL_COLLEGES = [
       "Lancers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Longwood+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Longwood+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@longwood.edu"
+    "coachVerified": true,
+    "assistantCoach": "Yuriy Sadula",
+    "assistantCoachEmail": "sadulay@longwood.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均155位 (2026年 96位 / 2025年 188位 / 2024年 180位)"
   },
   {
     "id": "presbyteriancollege-mens",
@@ -6849,15 +6930,14 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Blue Hose",
     "headCoach": "Nick Finotti",
-    "coachEmail": "bluehosesoccer@presby.edu",
-    "stadium": "Blue Hose Stadium / Field",
+    "coachEmail": "nafinotti@presby.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41500,
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "38% (14/37名)",
     "notes": "Martin Stadium in Clinton South Carolina.",
     "tags": [
       "Big South",
@@ -6865,12 +6945,15 @@ const INITIAL_COLLEGES = [
       "Blue Hose",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全37名 / 留学生14名 / MF 16名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Presbyterian+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Presbyterian+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@presby.edu"
+    "coachVerified": true,
+    "assistantCoach": "Paul Jones",
+    "assistantCoachEmail": "pjones@presby.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均181位 (2026年 213位 / 2025年 145位 / 2024年 185位)"
   },
   {
     "id": "uncasheville-mens",
@@ -6882,16 +6965,15 @@ const INITIAL_COLLEGES = [
     "conference": "Big South",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "Mick Giordano",
-    "coachEmail": "bulldogssoccer@unca.edu",
-    "stadium": "Bulldogs Stadium / Field",
+    "headCoach": "Danny Frid",
+    "coachEmail": "dfrid@unca.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 23900,
     "roomAndBoardUSD": 11200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "55% (16/29名)",
     "notes": "Greenwood Field in beautiful Asheville NC mountain region.",
     "tags": [
       "Big South",
@@ -6899,12 +6981,15 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "2名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生16名 / MF 11名 (Sr・Gr 6名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Asheville+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Asheville+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@unca.edu"
+    "coachVerified": true,
+    "assistantCoach": "Derek Neidlinger",
+    "assistantCoachEmail": "dneidlin@unca.edu",
+    "strengthLevel": 2,
+    "strengthNote": "平均141位 (2026年 130位 / 2025年 148位 / 2024年 146位)"
   },
   {
     "id": "radforduniversity-mens",
@@ -6916,16 +7001,15 @@ const INITIAL_COLLEGES = [
     "conference": "Big South",
     "gender": "Men",
     "mascot": "Highlanders",
-    "headCoach": "Chris Barrett",
-    "coachEmail": "highlandersoccer@radford.edu",
-    "stadium": "Highlanders Stadium / Field",
+    "headCoach": "Andy Cormack",
+    "coachEmail": "acormack1@radford.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 25800,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "38% (9/24名)",
     "notes": "Cupp Stadium in southwestern Virginia.",
     "tags": [
       "Big South",
@@ -6933,12 +7017,15 @@ const INITIAL_COLLEGES = [
       "Highlanders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全24名 / 留学生9名 / MF 8名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Radford+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Radford+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@radford.edu"
+    "coachVerified": true,
+    "assistantCoach": "Ryan Palmbaum",
+    "assistantCoachEmail": "rpalmbaum@radford.edu",
+    "strengthLevel": 1,
+    "strengthNote": "平均199位 (2026年 188位 / 2025年 204位 / 2024年 206位)"
   },
   {
     "id": "uscupstate-mens",
@@ -6952,14 +7039,13 @@ const INITIAL_COLLEGES = [
     "mascot": "Spartans",
     "headCoach": "Scott Halkett",
     "coachEmail": "spartanssoccer@uscupstate.edu",
-    "stadium": "Spartans Stadium / Field",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 24500,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "County University Soccer Stadium in Spartanburg SC.",
     "tags": [
       "Big South",
@@ -6967,253 +7053,12 @@ const INITIAL_COLLEGES = [
       "Spartans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=USC+Upstate+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=USC+Upstate+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uscupstate.edu"
-  },
-  {
-    "id": "fiu-mens",
-    "name": "Florida International University (FIU)",
-    "location": "Miami, Florida",
-    "state": "FL",
-    "region": "South",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Panthers",
-    "headCoach": "Kyle Russell",
-    "coachEmail": "fiusoccer@fiu.edu",
-    "annualTuitionUSD": 18900,
-    "roomAndBoardUSD": 11800,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
-    "notes": "FIU Soccer Stadium in Miami Florida. Top 10 national ranking with elite Latin and European international roster.",
-    "tags": [
-      "AAC",
-      "Miami Florida",
-      "Top 10",
-      "High International"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約75%",
-    "questionnaireUrl": "https://www.google.com/search?q=Florida+International+University+(FIU)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Florida+International+University+(FIU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fiu.edu"
-  },
-  {
-    "id": "charlotte-mens",
-    "name": "UNC Charlotte",
-    "location": "Charlotte, North Carolina",
-    "state": "NC",
-    "region": "South",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "49ers",
-    "headCoach": "Kevin Langan",
-    "coachEmail": "49erssoccer@charlotte.edu",
-    "annualTuitionUSD": 21800,
-    "roomAndBoardUSD": 13500,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Very High",
-    "intlRosterPct": "50%",
-    "notes": "Transamerica Field. 2x College Cup Finalists (2011 runner-up). Consistently in Top 20.",
-    "tags": [
-      "AAC",
-      "Charlotte NC",
-      "College Cup Finalist"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約50%",
-    "questionnaireUrl": "https://www.google.com/search?q=UNC+Charlotte+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=UNC+Charlotte+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@charlotte.edu"
-  },
-  {
-    "id": "tulsa-mens",
-    "name": "University of Tulsa",
-    "location": "Tulsa, Oklahoma",
-    "state": "OK",
-    "region": "Midwest",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Golden Hurricane",
-    "headCoach": "Tom McIntosh",
-    "coachEmail": "tulsasoccer@utulsa.edu",
-    "annualTuitionUSD": 46500,
-    "roomAndBoardUSD": 12800,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Very High",
-    "intlRosterPct": "50%",
-    "notes": "Hurricane Soccer Stadium. Multiple AAC Championships and NCAA Elite Eight runs.",
-    "tags": [
-      "AAC",
-      "Tulsa OK",
-      "Golden Hurricane"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約50%",
-    "questionnaireUrl": "https://www.google.com/search?q=University+of+Tulsa+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Tulsa+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@utulsa.edu"
-  },
-  {
-    "id": "usf-fl-mens",
-    "name": "University of South Florida (USF)",
-    "location": "Tampa, Florida",
-    "state": "FL",
-    "region": "South",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Bulls",
-    "headCoach": "Bob Butehorn",
-    "coachEmail": "bullssoccer@usf.edu",
-    "annualTuitionUSD": 17300,
-    "roomAndBoardUSD": 12500,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "60%",
-    "notes": "Corbett Stadium in Tampa Florida (elite grass pitch). High international recruiting.",
-    "tags": [
-      "AAC",
-      "Tampa FL",
-      "Corbett Stadium"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約60%",
-    "questionnaireUrl": "https://www.google.com/search?q=University+of+South+Florida+(USF)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+South+Florida+(USF)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@usf.edu"
-  },
-  {
-    "id": "memphis-mens",
-    "name": "University of Memphis",
-    "location": "Memphis, Tennessee",
-    "state": "TN",
-    "region": "South",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Tigers",
-    "headCoach": "Richard Mulrooney",
-    "coachEmail": "memphissoccer@memphis.edu",
-    "annualTuitionUSD": 21500,
-    "roomAndBoardUSD": 11200,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Very High",
-    "intlRosterPct": "50%",
-    "notes": "Track & Soccer Complex in Memphis. Head Coach is 2x MLS Cup champion Richard Mulrooney.",
-    "tags": [
-      "AAC",
-      "Memphis TN",
-      "Tigers"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約50%",
-    "questionnaireUrl": "https://www.google.com/search?q=University+of+Memphis+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Memphis+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@memphis.edu"
-  },
-  {
-    "id": "fau-mens",
-    "name": "Florida Atlantic University (FAU)",
-    "location": "Boca Raton, Florida",
-    "state": "FL",
-    "region": "South",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Owls",
-    "headCoach": "Joey Worthen",
-    "coachEmail": "owlssoccer@fau.edu",
-    "annualTuitionUSD": 18200,
-    "roomAndBoardUSD": 12900,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "65%",
-    "notes": "FAU Soccer Stadium in sunny Boca Raton South Florida.",
-    "tags": [
-      "AAC",
-      "Boca Raton FL",
-      "Owls"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約65%",
-    "questionnaireUrl": "https://www.google.com/search?q=Florida+Atlantic+University+(FAU)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Florida+Atlantic+University+(FAU)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@fau.edu"
-  },
-  {
-    "id": "temple-mens",
-    "name": "Temple University",
-    "location": "Philadelphia, Pennsylvania",
-    "state": "PA",
-    "region": "Northeast",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Owls",
-    "headCoach": "Brian Rowland",
-    "coachEmail": "templesoccer@temple.edu",
-    "annualTuitionUSD": 35800,
-    "roomAndBoardUSD": 15400,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "40%",
-    "notes": "Temple Sports Complex in Philadelphia PA.",
-    "tags": [
-      "AAC",
-      "Philadelphia",
-      "Owls"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約40%",
-    "questionnaireUrl": "https://www.google.com/search?q=Temple+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Temple+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@temple.edu"
-  },
-  {
-    "id": "uab-mens",
-    "name": "UAB (University of Alabama at Birmingham)",
-    "location": "Birmingham, Alabama",
-    "state": "AL",
-    "region": "South",
-    "division": "NCAA D1",
-    "conference": "American Athletic (AAC)",
-    "gender": "Men",
-    "mascot": "Blazers",
-    "headCoach": "David Giffard / Staff",
-    "coachEmail": "blazerssoccer@uab.edu",
-    "annualTuitionUSD": 26800,
-    "roomAndBoardUSD": 11900,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlFriendlyRating": "Very High",
-    "intlRosterPct": "45%",
-    "notes": "BBVA Field in downtown Birmingham Alabama.",
-    "tags": [
-      "AAC",
-      "Birmingham AL",
-      "Blazers"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約45%",
-    "questionnaireUrl": "https://www.google.com/search?q=UAB+(University+of+Alabama+at+Birmingham)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=UAB+(University+of+Alabama+at+Birmingham)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uab.edu"
+    "strengthLevel": 1,
+    "strengthNote": "平均162位 (2026年 134位 / 2025年 158位 / 2024年 195位)"
   },
   {
     "id": "sdsu-mens",
@@ -7231,19 +7076,21 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "35%",
+    "intlRosterPct": "要確認",
     "notes": "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse.",
     "tags": [
       "WAC",
       "San Diego",
       "Aztecs"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約35%",
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://goaztecs.com/sports/mens-soccer/recruiting",
     "campUrl": "https://aztecsoccercamps.com/",
     "assistantCoach": "Adrian Gomez",
-    "assistantCoachEmail": "agomez@sdsu.edu"
+    "assistantCoachEmail": "agomez@sdsu.edu",
+    "strengthLevel": 3,
+    "strengthNote": "平均95位 (2026年 129位 / 2025年 99位 / 2024年 57位)"
   },
   {
     "id": "franklinpierce-mens",
@@ -7255,13 +7102,13 @@ const INITIAL_COLLEGES = [
     "conference": "NE10",
     "gender": "Men",
     "mascot": "Ravens",
-    "headCoach": "Travis Brent",
-    "coachEmail": "brentt@franklinpierce.edu",
+    "headCoach": "Diego Thielen",
+    "coachEmail": "thielend@franklinpierce.edu",
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 14800,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
+    "intlRosterPct": "40% (20/50名)",
     "notes": "2022・2023 D2全米連覇（無敗優勝）。留学生に手厚い奨学金を支給する全米屈指のD2最強校。",
     "tags": [
       "D2 Champion",
@@ -7269,12 +7116,13 @@ const INITIAL_COLLEGES = [
       "High Scholarships",
       "Japan Pipeline"
     ],
-    "japanesePlayers": "1〜2名在籍 (全国大会優勝・プロ輩出)",
-    "rosterStats": "部員32名中 留学生24名 (75%) / 欧州, 日本, 南米",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全50名 / 留学生20名 / MF 16名 (Sr・Gr 5名) / 出身地不明2名",
     "questionnaireUrl": "https://fpuravens.com/sports/mens-soccer/recruits",
     "campUrl": "https://ravenssoccercamps.com/",
-    "assistantCoach": "Liam O'Brien",
-    "assistantCoachEmail": "msoccer@franklinpierce.edu"
+    "assistantCoach": "Scotty Murray",
+    "assistantCoachEmail": "murrays@franklinpierce.edu",
+    "coachVerified": true
   },
   {
     "id": "charleston-mens",
@@ -7286,13 +7134,13 @@ const INITIAL_COLLEGES = [
     "conference": "MEC",
     "gender": "Men",
     "mascot": "Golden Eagles",
-    "headCoach": "Dan Stratford",
-    "coachEmail": "msoccer@ucwv.edu",
+    "headCoach": "Daniel Smee",
+    "coachEmail": "ucmenssoccer@ucwv.edu",
     "annualTuitionUSD": 32500,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
+    "intlRosterPct": "64% (34/53名)",
     "notes": "2回全米制覇（2017, 2019）。MECカンファレンス圧倒的王者。プロ輩出率が極めて高い。",
     "tags": [
       "2x D2 Champion",
@@ -7300,12 +7148,13 @@ const INITIAL_COLLEGES = [
       "High Pro Output",
       "High International"
     ],
-    "japanesePlayers": "1〜2名在籍 (日本人主力選手活躍)",
-    "rosterStats": "部員30名中 留学生24名 (80%) / 欧州, 日本",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全53名 / 留学生34名 / MF 14名 (Sr・Gr 5名) / 出身地不明1名",
     "questionnaireUrl": "https://ucgoldeneagles.com/sports/mens-soccer/recruiting",
     "campUrl": "https://charlestonsoccercamps.com/",
-    "assistantCoach": "Nick West",
-    "assistantCoachEmail": "nickwest@ucwv.edu"
+    "assistantCoach": "Corbin Bowers",
+    "assistantCoachEmail": "",
+    "coachVerified": true
   },
   {
     "id": "calpolypomona-mens",
@@ -7318,12 +7167,12 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Broncos",
     "headCoach": "Matt O'Sullivan",
-    "coachEmail": "mosullivan@cpp.edu",
+    "coachEmail": "mjosullivan@cpp.edu",
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 16500,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "20%",
+    "intlRosterPct": "19% (6/32名)",
     "notes": "西海岸トップD2。2015年全米準優勝。工学・ビジネス専攻に強く奨学金枠あり。",
     "tags": [
       "CCAA",
@@ -7331,12 +7180,13 @@ const INITIAL_COLLEGES = [
       "West Top 5",
       "Great Academics"
     ],
-    "japanesePlayers": "過去受け入れ実績あり",
-    "rosterStats": "部員32名中 留学生6名 (18.8%) / 欧州, メキシコ",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生6名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://broncoathletics.com/sports/mens-soccer/recruiting",
     "campUrl": "https://cppbroncosoccercamp.com/",
     "assistantCoach": "Eddie Hurtado",
-    "assistantCoachEmail": "ehurtado@cpp.edu"
+    "assistantCoachEmail": "ehurtado@cpp.edu",
+    "coachVerified": true
   },
   {
     "id": "lynn-mens",
@@ -7367,7 +7217,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://lynnknights.com/sports/mens-soccer/recruiting",
     "campUrl": "https://lynnsoccercamps.com/",
     "assistantCoach": "Anthony Desperito",
-    "assistantCoachEmail": "adesperito@lynn.edu"
+    "assistantCoachEmail": "adesperito@lynn.edu",
+    "coachVerified": true
   },
   {
     "id": "tampa-mens",
@@ -7411,12 +7262,12 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Bulldogs",
     "headCoach": "Gary Hamill",
-    "coachEmail": "bulldogssoccer@wingate.edu",
+    "coachEmail": "hamill@wingate.edu",
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 13500,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
+    "intlRosterPct": "55% (16/29名)",
     "notes": "2016年 NCAA D2 全米王者。サウス・アトランティック・カンファレンス(SAC)の強豪。",
     "tags": [
       "2016 D2 Champion",
@@ -7424,12 +7275,13 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "High Scholarships"
     ],
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員30名中 留学生22名 (75%) / 欧州, アジア",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生16名 / MF 13名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://wingatebulldogs.com/sports/mens-soccer/recruiting",
     "campUrl": "https://wingatesoccercamps.com/",
     "assistantCoach": "Joey Calandra",
-    "assistantCoachEmail": "jcalandra@wingate.edu"
+    "assistantCoachEmail": "jcalandra@wingate.edu",
+    "coachVerified": true
   },
   {
     "id": "tufts-mens",
@@ -7455,12 +7307,10 @@ const INITIAL_COLLEGES = [
       "Boston",
       "Ivy Caliber"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約20%",
     "questionnaireUrl": "https://www.google.com/search?q=Tufts+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Tufts+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@tufts.edu"
+    "campUrl": "https://www.google.com/search?q=Tufts+University+Soccer+ID+Camp"
   },
   {
     "id": "chicago-mens",
@@ -7485,12 +7335,10 @@ const INITIAL_COLLEGES = [
       "D3 Champion",
       "UAA"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約25%",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Chicago+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@uchicago.edu"
+    "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp"
   },
   {
     "id": "messiah-mens",
@@ -7515,12 +7363,10 @@ const INITIAL_COLLEGES = [
       "D3 Legend",
       "Great Culture"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約15%",
     "questionnaireUrl": "https://www.google.com/search?q=Messiah+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Messiah+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@messiah.edu"
+    "campUrl": "https://www.google.com/search?q=Messiah+University+Soccer+ID+Camp"
   },
   {
     "id": "williams-mens",
@@ -7545,12 +7391,10 @@ const INITIAL_COLLEGES = [
       "US #1 Liberal Arts",
       "Need Aid"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約20%",
     "questionnaireUrl": "https://www.google.com/search?q=Williams+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Williams+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@williams.edu"
+    "campUrl": "https://www.google.com/search?q=Williams+College+Soccer+ID+Camp"
   },
   {
     "id": "grandview-mens",
@@ -7568,8 +7412,8 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 12.0 full athletic scholarships (NAIA)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
-    "notes": "全米最大の日本人拠点。All-American選出実績多数。手厚い奨学金。",
+    "intlRosterPct": "62% (21/34名)",
+    "notes": "NAIAの強豪。ロスターに日本人選手4名(公式確認)、留学生比率62%。All-American選出実績多数。手厚い奨学金。",
     "tags": [
       "NAIA Powerhouse",
       "Heart Conference",
@@ -7577,12 +7421,13 @@ const INITIAL_COLLEGES = [
       "High Scholarships",
       "Japan Friendly"
     ],
-    "japanesePlayers": "3〜5名在籍 (帝京長岡, 星稜, Jユース出身等)",
-    "rosterStats": "部員約35名中 留学生約26名 (75%) / 日本, 欧州, 南米",
+    "japanesePlayers": "4名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生21名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://gvvikings.com/sports/mens-soccer/recruiting",
     "campUrl": "https://gvvikingsoccercamps.com/",
-    "assistantCoach": "Daniel Rutter",
-    "assistantCoachEmail": "drutter@grandview.edu"
+    "assistantCoach": "Jonathan Rivera",
+    "assistantCoachEmail": "jrivera@grandview.edu",
+    "coachVerified": true
   },
   {
     "id": "keiser-mens",
@@ -7600,7 +7445,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 12.0 full athletic scholarships (NAIA)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "85%",
+    "intlRosterPct": "90% (28/31名)",
     "notes": "2021年NAIA全米王者。留学生比率85%のフロリダ強豪。手厚いフルスカラシップ枠。",
     "tags": [
       "NAIA Champion",
@@ -7608,12 +7453,13 @@ const INITIAL_COLLEGES = [
       "High Scholarships",
       "Japanese Friendly"
     ],
-    "japanesePlayers": "2〜3名在籍",
-    "rosterStats": "部員約30名中 留学生約25名 (85%) / 日本, ドイツ, ブラジル等",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全31名 / 留学生28名 / MF 15名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://kuseahawks.com/sports/mens-soccer/recruits",
     "campUrl": "https://keisersoccercamps.com/",
     "assistantCoach": "Sam McNutt",
-    "assistantCoachEmail": "smcnutt@keiseruniversity.edu"
+    "assistantCoachEmail": "smcnutt@keiseruniversity.edu",
+    "coachVerified": true
   },
   {
     "id": "lindseywilson-mens",
@@ -7625,25 +7471,26 @@ const INITIAL_COLLEGES = [
     "conference": "Mid-South",
     "gender": "Men",
     "mascot": "Blue Raiders",
-    "headCoach": "Ray Wells",
-    "coachEmail": "wellsr@lindsey.edu",
+    "headCoach": "Sicelo Buthelezi",
+    "coachEmail": "buthelezis@lindsey.edu",
     "annualTuitionUSD": 26800,
     "roomAndBoardUSD": 9900,
     "scholarshipMax": "Max 12.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
+    "intlRosterPct": "84% (21/25名)",
     "notes": "9x NAIA National Champions. Renowned for developing international student-athletes into professionals.",
     "tags": [
       "9x NAIA Champion",
       "Pro Development",
       "High International"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約80%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全25名 / 留学生21名 / MF 7名 (Sr・Gr 1名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Lindsey+Wilson+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lindsey+Wilson+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@lindsey.edu"
+    "coachVerified": true,
+    "assistantCoach": "Jack Cousin",
+    "assistantCoachEmail": "cousinj@lindsey.edu"
   },
   {
     "id": "midamerica-mens",
@@ -7656,24 +7503,25 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Pioneers",
     "headCoach": "Kevin Wardlaw",
-    "coachEmail": "kwardlaw@mnu.edu",
+    "coachEmail": "kpwardlaw@mnu.edu",
     "annualTuitionUSD": 25900,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 12.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "70%",
+    "intlRosterPct": "35% (18/52名)",
     "notes": "2023年NAIA全米王者！日本人選手が主力として全米制覇を牽引。",
     "tags": [
       "2023 NAIA Champion",
       "Kansas City Area",
       "Japanese Roster"
     ],
-    "japanesePlayers": "4〜6名在籍 (全米制覇メンバー)",
-    "rosterStats": "部員約32名中 留学生約22名 (70%) / 日本, 欧州",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全52名 / 留学生18名 / MF 20名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://mnusports.com/sports/mens-soccer/recruits",
     "campUrl": "https://mnusoccercamps.com/",
-    "assistantCoach": "Bryan Perez",
-    "assistantCoachEmail": "bperez@mnu.edu"
+    "assistantCoach": "Atanas Karagyaurov",
+    "assistantCoachEmail": "apkaragyaurov@mnu.edu",
+    "coachVerified": true
   },
   {
     "id": "oklahomawesleyan-mens",
@@ -7698,12 +7546,10 @@ const INITIAL_COLLEGES = [
       "Oklahoma",
       "High Scholarships"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約80%",
     "questionnaireUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@okwu.edu"
+    "campUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Soccer+ID+Camp"
   },
   {
     "id": "riogrande-mens",
@@ -7728,12 +7574,10 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "High International"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約85%",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@rio.edu"
+    "campUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Soccer+ID+Camp"
   },
   {
     "id": "iowawestern-mens",
@@ -7758,7 +7602,7 @@ const INITIAL_COLLEGES = [
       "Full Scholarships",
       "Top D1 Transfer Route"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約80%",
     "questionnaireUrl": "https://goreivers.com/sports/mens-soccer/recruiting",
     "campUrl": "https://reiversoccercamp.com/",
@@ -7787,14 +7631,13 @@ const INITIAL_COLLEGES = [
       "6x National Champion",
       "Texas",
       "Low Cost",
-      "Elite Gateway"
+      "Elite Gateway",
+      "NJCAA全米大会出場"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約75%",
     "questionnaireUrl": "https://www.google.com/search?q=Tyler+Junior+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Tyler+Junior+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@tjc.edu"
+    "campUrl": "https://www.google.com/search?q=Tyler+Junior+College+Soccer+ID+Camp"
   },
   {
     "id": "monroe-mens",
@@ -7807,24 +7650,25 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Mustangs",
     "headCoach": "Marcus DiBernardo",
-    "coachEmail": "mdibernardo@monroecollege.edu",
+    "coachEmail": "mdibernardo@monroeu.edu",
     "annualTuitionUSD": 16500,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "85%",
+    "intlRosterPct": "65% (39/60名)",
     "notes": "2x NJCAA D1 National Champions (2019, 2022). Located just outside Manhattan NYC with world-renowned tactical coaching.",
     "tags": [
       "NYC Metro",
       "NJCAA Champion",
       "High Pro Output"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "留学生比率 約85%",
+    "japanesePlayers": "3名 (公式ロスター確認 / 出身地不明5名)",
+    "rosterStats": "公式ロスター全60名 / 留学生39名 / MF 23名 (Sr・Gr 2名) / 出身地不明5名",
     "questionnaireUrl": "https://www.google.com/search?q=Monroe+College+(New+York)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Monroe+College+(New+York)+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@monroecollege.edu"
+    "coachVerified": true,
+    "assistantCoach": "Jay Myers",
+    "assistantCoachEmail": "jmyers@monroeu.edu"
   },
   {
     "id": "saltlake-mens",
@@ -7847,14 +7691,13 @@ const INITIAL_COLLEGES = [
     "tags": [
       "Utah",
       "MLS Partnership",
-      "NJCAA Champion"
+      "NJCAA Champion",
+      "NJCAA全米大会出場"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約70%",
     "questionnaireUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@slcc.edu"
+    "campUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Soccer+ID+Camp"
   },
   {
     "id": "barton-mens",
@@ -7878,14 +7721,13 @@ const INITIAL_COLLEGES = [
       "NJCAA Elite",
       "Kansas",
       "Low Cost",
-      "High Scholarships"
+      "High Scholarships",
+      "NJCAA全米大会出場"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "留学生比率 約80%",
     "questionnaireUrl": "https://www.google.com/search?q=Barton+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Barton+Community+College+Soccer+ID+Camp",
-    "assistantCoach": "Scotty Murray (Assistant Coach)",
-    "assistantCoachEmail": "soccer-recruiting@bartonccc.edu"
+    "campUrl": "https://www.google.com/search?q=Barton+Community+College+Soccer+ID+Camp"
   },
   {
     "id": "calstatela-mens",
@@ -7916,7 +7758,8 @@ const INITIAL_COLLEGES = [
       "California D2"
     ],
     "questionnaireUrl": "https://lagoldeneagles.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://calstatelasoccercamp.com/"
+    "campUrl": "https://calstatelasoccercamp.com/",
+    "coachVerified": true
   },
   {
     "id": "barry-mens",
@@ -7928,17 +7771,17 @@ const INITIAL_COLLEGES = [
     "conference": "SSC",
     "gender": "Men",
     "mascot": "Buccaneers",
-    "headCoach": "Steve McCrath",
-    "coachEmail": "smccrath@barry.edu",
+    "headCoach": "Petsa Ivanovic",
+    "coachEmail": "pivanovic@barry.edu",
     "assistantCoach": "David Viana",
     "assistantCoachEmail": "dviana@barry.edu",
     "annualTuitionUSD": 33900,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "70%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員28名中 留学生20名 (70%) / 欧州, 中南米",
+    "intlRosterPct": "58% (19/33名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全33名 / 留学生19名 / MF 12名 (Sr・Gr 2名)",
     "notes": "2018年 NCAA D2 全米王者！マイアミ近郊の私立名門。テクニカルなポゼッションサッカー。",
     "tags": [
       "2018 D2 Champion",
@@ -7947,7 +7790,8 @@ const INITIAL_COLLEGES = [
       "Technical Style"
     ],
     "questionnaireUrl": "https://gobarrybucs.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://barrysoccercamps.com/"
+    "campUrl": "https://barrysoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "midwesternstate-mens",
@@ -7967,9 +7811,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "50%",
-    "japanesePlayers": "受入実績あり (手頃な学費)",
-    "rosterStats": "部員30名中 留学生15名 (50%) / 欧州, 南米",
+    "intlRosterPct": "11% (4/35名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生4名 / MF 12名 (Sr・Gr 0名)",
     "notes": "テキサスNo.1 D2プログラム。テキサス州立で学費が非常に安価。全米Elite Eight常連。",
     "tags": [
       "Lone Star",
@@ -7978,7 +7822,8 @@ const INITIAL_COLLEGES = [
       "Elite Eight"
     ],
     "questionnaireUrl": "https://msumustangs.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://midwesternstatesoccercamps.com/"
+    "campUrl": "https://midwesternstatesoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "csupueblo-mens",
@@ -7990,17 +7835,17 @@ const INITIAL_COLLEGES = [
     "conference": "RMAC",
     "gender": "Men",
     "mascot": "ThunderWolves",
-    "headCoach": "Oliver Twelvetrees",
-    "coachEmail": "oliver.twelvetrees@csupueblo.edu",
+    "headCoach": "Thomás Pazo Tourinho",
+    "coachEmail": "t.pazotourinho@csupueblo.edu",
     "assistantCoach": "Nick Haas",
     "assistantCoachEmail": "nick.haas@csupueblo.edu",
     "annualTuitionUSD": 17800,
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "65%",
-    "japanesePlayers": "1〜2名在籍 (日本人主力DF/MF活躍)",
-    "rosterStats": "部員30名中 留学生20名 (67%) / イギリス, 日本, ドイツ等",
+    "intlRosterPct": "50% (19/38名)",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全38名 / 留学生19名 / MF 6名 (Sr・Gr 2名)",
     "notes": "2022年 NCAA D2 全米準優勝！日本人選手がレギュラーとして全米ファイナルで活躍。",
     "tags": [
       "2022 Runner-up",
@@ -8009,7 +7854,8 @@ const INITIAL_COLLEGES = [
       "Japan Strong"
     ],
     "questionnaireUrl": "https://gothunderwolves.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://csupueblosoccercamps.com/"
+    "campUrl": "https://csupueblosoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "limestone-mens",
@@ -8053,16 +7899,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Golden Knights",
     "headCoach": "Billy Colton",
-    "coachEmail": "colton001@gannon.edu",
+    "coachEmail": "colton002@gannon.edu",
     "assistantCoach": "Stuart Simons",
     "assistantCoachEmail": "simons002@gannon.edu",
     "annualTuitionUSD": 37200,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "70%",
-    "japanesePlayers": "受入実績あり (2023 全米Elite Eight)",
-    "rosterStats": "部員29名中 留学生20名 (69%) / 欧州, 日本, 南米",
+    "intlRosterPct": "47% (23/49名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明4名)",
+    "rosterStats": "公式ロスター全49名 / 留学生23名 / MF 12名 (Sr・Gr 1名) / 出身地不明4名",
     "notes": "2023年 NCAA D2 全米Elite Eight進出！PSACカンファレンス屈指の強豪。",
     "tags": [
       "PSAC",
@@ -8071,7 +7917,8 @@ const INITIAL_COLLEGES = [
       "Billy Colton"
     ],
     "questionnaireUrl": "https://gannonsports.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://gannonsoccercamps.com/"
+    "campUrl": "https://gannonsoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "simonfraser-mens",
@@ -8083,17 +7930,17 @@ const INITIAL_COLLEGES = [
     "conference": "GNAC",
     "gender": "Men",
     "mascot": "Red Leafs",
-    "headCoach": "Clint Schneider",
-    "coachEmail": "clint_schneider@sfu.ca",
+    "headCoach": "Kevin Harmse",
+    "coachEmail": "kharmse@sfu.ca",
     "assistantCoach": "Calahan Hunter",
     "assistantCoachEmail": "soccer@sfu.ca",
     "annualTuitionUSD": 23500,
     "roomAndBoardUSD": 12500,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "50%",
-    "japanesePlayers": "受入実績あり (バンクーバー近郊)",
-    "rosterStats": "部員28名中 留学生14名 (50%) / カナダ, 米国, 日本等",
+    "intlRosterPct": "100% (24/24名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全24名 / 留学生24名 / MF 6名 (Sr・Gr 0名)",
     "notes": "NCAA唯一のカナダ加盟校。全米Final Four進出2回。バンクーバー近郊の最高峰環境。",
     "tags": [
       "GNAC",
@@ -8102,7 +7949,8 @@ const INITIAL_COLLEGES = [
       "Vancouver WA"
     ],
     "questionnaireUrl": "https://athletics.sfu.ca/sports/mens-soccer/recruits",
-    "campUrl": "https://sfusoccercamps.com/"
+    "campUrl": "https://sfusoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "lenoirrhyne-mens",
@@ -8122,9 +7970,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員31名中 留学生23名 (74%) / スペイン, ドイツ, 南米",
+    "intlRosterPct": "34% (13/38名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全38名 / 留学生13名 / MF 16名 (Sr・Gr 6名)",
     "notes": "2023年 SAC王者 & 全米ランキングTop 10。スペイン・欧州のテクニカルな選手が多数集結。",
     "tags": [
       "SAC",
@@ -8153,9 +8001,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16400,
     "scholarshipMax": "Max 9.0 scholarships + 学業特待",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "40%",
-    "japanesePlayers": "受入実績あり (フロリダ屈指のリベラルアーツ)",
-    "rosterStats": "部員28名中 留学生11名 (39%) / イギリス, 欧州",
+    "intlRosterPct": "47% (16/34名)",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生16名 / MF 11名 (Sr・Gr 3名)",
     "notes": "2010年 全米準優勝。フロリダ最高峰の学術水準を誇る名門私立リベラルアーツ。",
     "tags": [
       "SSC",
@@ -8164,7 +8012,8 @@ const INITIAL_COLLEGES = [
       "Finalist"
     ],
     "questionnaireUrl": "https://rollinssports.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://rollinssoccercamps.com/"
+    "campUrl": "https://rollinssoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "fortlewis-mens",
@@ -8177,16 +8026,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Skyhawks",
     "headCoach": "David Oberholtzer",
-    "coachEmail": "oberholtzer_d@fortlewis.edu",
+    "coachEmail": "dwoberholtzer@fortlewis.edu",
     "assistantCoach": "Keane Ellis",
     "assistantCoachEmail": "soccer@fortlewis.edu",
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "45%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員29名中 留学生13名 (45%) / 欧州, 中南米",
+    "intlRosterPct": "55% (16/29名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生16名 / MF 11名 (Sr・Gr 1名)",
     "notes": "3回全米制覇（2005, 2009, 2011）。コロラドの歴史的D2強豪プログラム。",
     "tags": [
       "3x D2 Champion",
@@ -8195,7 +8044,8 @@ const INITIAL_COLLEGES = [
       "Skyhawks"
     ],
     "questionnaireUrl": "https://goskyhawks.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://fortlewissoccercamps.com/"
+    "campUrl": "https://fortlewissoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "csumontereybay-mens",
@@ -8215,9 +8065,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "25%",
-    "japanesePlayers": "受入実績あり (美しいモントレーベイ海岸)",
-    "rosterStats": "部員28名中 留学生7名 (25%) / 欧州, アジア",
+    "intlRosterPct": "10% (3/29名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明3名)",
+    "rosterStats": "公式ロスター全29名 / 留学生3名 / MF 10名 (Sr・Gr 3名) / 出身地不明3名",
     "notes": "2023年 CCAAトーナメント王者！西海岸で急成長を遂げるカリフォルニア州立大学。",
     "tags": [
       "2023 CCAA Champion",
@@ -8226,7 +8076,8 @@ const INITIAL_COLLEGES = [
       "Rising Power"
     ],
     "questionnaireUrl": "https://otterathletics.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://csumbsoccercamps.com/"
+    "campUrl": "https://csumbsoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "chicostate-mens",
@@ -8239,16 +8090,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Wildcats",
     "headCoach": "Felipe Restrepo",
-    "coachEmail": "frestrepo@csuchico.edu",
+    "coachEmail": "lrestrepo@csuchico.edu",
     "assistantCoach": "Ross Vartughian",
     "assistantCoachEmail": "rvartughian@csuchico.edu",
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "20%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員28名中 留学生6名 (21%)",
+    "intlRosterPct": "0% (0/31名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生0名 / MF 12名 (Sr・Gr 1名)",
     "notes": "CCAAの伝統校。2003年全米準優勝。熱狂的な地元ファンとハイプレッシングスタイル。",
     "tags": [
       "CCAA",
@@ -8257,7 +8108,8 @@ const INITIAL_COLLEGES = [
       "Tradition"
     ],
     "questionnaireUrl": "https://chicowildcats.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://chicostatesoccercamps.com/"
+    "campUrl": "https://chicostatesoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "csusb-mens",
@@ -8270,16 +8122,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Coyotes",
     "headCoach": "Josh Hill",
-    "coachEmail": "josh.hill@csusb.edu",
+    "coachEmail": "joshua.hill@csusb.edu",
     "assistantCoach": "Mark Platter",
     "assistantCoachEmail": "soccer@csusb.edu",
     "annualTuitionUSD": 19800,
     "roomAndBoardUSD": 15200,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "25%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員28名中 留学生7名 (25%)",
+    "intlRosterPct": "0% (0/33名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全33名 / 留学生0名 / MF 9名 (Sr・Gr 5名)",
     "notes": "2019年 NCAA D2 全米ベスト4（Final Four）。南カリフォルニアの強豪校。",
     "tags": [
       "CCAA",
@@ -8288,7 +8140,8 @@ const INITIAL_COLLEGES = [
       "Coyotes"
     ],
     "questionnaireUrl": "https://csusbathletics.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://csusbsoccercamps.com/"
+    "campUrl": "https://csusbsoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "pba-mens",
@@ -8300,17 +8153,17 @@ const INITIAL_COLLEGES = [
     "conference": "SSC",
     "gender": "Men",
     "mascot": "Sailfish",
-    "headCoach": "Brian McMahon",
-    "coachEmail": "brian_mcmahon@pba.edu",
+    "headCoach": "Lucas Martorana",
+    "coachEmail": "lucas_martorana@pba.edu",
     "assistantCoach": "Neal Rudge",
     "assistantCoachEmail": "neal_rudge@pba.edu",
     "annualTuitionUSD": 36800,
     "roomAndBoardUSD": 12900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "65%",
-    "japanesePlayers": "受入実績あり (パームビーチ高級リゾート立地)",
-    "rosterStats": "部員30名中 留学生20名 (67%) / 欧州, 南米",
+    "intlRosterPct": "67% (20/30名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生20名 / MF 12名 (Sr・Gr 7名)",
     "notes": "全米ランキングTop 5常連。Rinker Athletic Campusの最高級スタジアム。",
     "tags": [
       "SSC",
@@ -8319,7 +8172,8 @@ const INITIAL_COLLEGES = [
       "High International"
     ],
     "questionnaireUrl": "https://pbasailfish.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://pbasocceracademy.com/"
+    "campUrl": "https://pbasocceracademy.com/",
+    "coachVerified": true
   },
   {
     "id": "floridatech-mens",
@@ -8331,17 +8185,17 @@ const INITIAL_COLLEGES = [
     "conference": "SSC",
     "gender": "Men",
     "mascot": "Panthers",
-    "headCoach": "Robin Chan",
-    "coachEmail": "rchan@fit.edu",
+    "headCoach": "Nick Robinson",
+    "coachEmail": "nrobinson@fit.edu",
     "assistantCoach": "Nick Robinson",
     "assistantCoachEmail": "nrobinson@fit.edu",
     "annualTuitionUSD": 44800,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "70%",
-    "japanesePlayers": "受入実績あり (2023 全米Final Four)",
-    "rosterStats": "部員29名中 留学生20名 (69%) / 欧州, アジア",
+    "intlRosterPct": "62% (20/32名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全32名 / 留学生20名 / MF 12名 (Sr・Gr 6名) / 出身地不明1名",
     "notes": "2回全米制覇（1988, 1991）、2023年全米ベスト4。宇宙・航空工学とサッカーの融合。",
     "tags": [
       "2x D2 Champion",
@@ -8350,7 +8204,8 @@ const INITIAL_COLLEGES = [
       "STEM & Soccer"
     ],
     "questionnaireUrl": "https://floridatechsports.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://floridatechsoccercamp.com/"
+    "campUrl": "https://floridatechsoccercamp.com/",
+    "coachVerified": true
   },
   {
     "id": "pointloma-mens",
@@ -8381,7 +8236,8 @@ const INITIAL_COLLEGES = [
       "America Most Beautiful Campus"
     ],
     "questionnaireUrl": "https://plnusealions.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://pointlomasoccercamps.com/"
+    "campUrl": "https://pointlomasoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "saginawvalley-mens",
@@ -8394,16 +8250,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Cardinals",
     "headCoach": "Louis Barrow",
-    "coachEmail": "ldbarrow@svsu.edu",
+    "coachEmail": "lpbarrow@svsu.edu",
     "assistantCoach": "Tyler Channell",
     "assistantCoachEmail": "soccer@svsu.edu",
     "annualTuitionUSD": 27800,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "40%",
-    "japanesePlayers": "受入実績あり (2012 全米準優勝)",
-    "rosterStats": "部員30名中 留学生12名 (40%) / イギリス, カナダ等",
+    "intlRosterPct": "45% (13/29名)",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生13名 / MF 9名 (Sr・Gr 0名) / 出身地不明1名",
     "notes": "GLIACカンファレンス絶対王者。2012年全米準優勝。中西部のD2強豪。",
     "tags": [
       "GLIAC",
@@ -8412,7 +8268,8 @@ const INITIAL_COLLEGES = [
       "Midwest Power"
     ],
     "questionnaireUrl": "https://svsucardinals.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://svsusoccercamps.com/"
+    "campUrl": "https://svsusoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "uindy-mens",
@@ -8425,16 +8282,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Greyhounds",
     "headCoach": "Gabe Hall",
-    "coachEmail": "ghall@uindy.edu",
+    "coachEmail": "hallgm@uindy.edu",
     "assistantCoach": "Rob Simpson",
     "assistantCoachEmail": "simpsonr@uindy.edu",
     "annualTuitionUSD": 34800,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "60%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員30名中 留学生18名 (60%) / 欧州, 日本, 南米",
+    "intlRosterPct": "25% (16/63名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全63名 / 留学生16名 / MF 24名 (Sr・Gr 8名) / 出身地不明2名",
     "notes": "2回全米ベスト4（2019, 2021）。GLVCカンファレンス最強クラスのプログラム。",
     "tags": [
       "GLVC",
@@ -8443,7 +8300,8 @@ const INITIAL_COLLEGES = [
       "High Scholarships"
     ],
     "questionnaireUrl": "https://athletics.uindy.edu/sports/mens-soccer/recruiting",
-    "campUrl": "https://uindysoccercamps.com/"
+    "campUrl": "https://uindysoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "lander-mens",
@@ -8455,17 +8313,17 @@ const INITIAL_COLLEGES = [
     "conference": "Peach Belt",
     "gender": "Men",
     "mascot": "Bearcats",
-    "headCoach": "Dale White",
-    "coachEmail": "dwhite@lander.edu",
+    "headCoach": "Paul Leese",
+    "coachEmail": "pleese@lander.edu",
     "assistantCoach": "Tom Briers",
     "assistantCoachEmail": "tbriers@lander.edu",
     "annualTuitionUSD": 21800,
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員30名中 留学生23名 (77%) / イギリス, 欧州, 南米",
+    "intlRosterPct": "49% (17/35名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明3名)",
+    "rosterStats": "公式ロスター全35名 / 留学生17名 / MF 7名 (Sr・Gr 1名) / 出身地不明3名",
     "notes": "ピーチベルト・カンファレンス(PBC)の名門。全米Elite Eight常連。",
     "tags": [
       "Peach Belt",
@@ -8474,7 +8332,8 @@ const INITIAL_COLLEGES = [
       "Elite Eight"
     ],
     "questionnaireUrl": "https://landerbearcats.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://landersoccercamps.com/"
+    "campUrl": "https://landersoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "youngharris-mens",
@@ -8487,16 +8346,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Mountain Lions",
     "headCoach": "Dean Grey",
-    "coachEmail": "dgrey@yhc.edu",
+    "coachEmail": "dcgrey@yhc.edu",
     "assistantCoach": "Maciej Sliwinski",
     "assistantCoachEmail": "soccer@yhc.edu",
     "annualTuitionUSD": 31200,
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
-    "japanesePlayers": "受入実績あり (国際派)",
-    "rosterStats": "部員29名中 留学生23名 (79%) / 欧州, 南米",
+    "intlRosterPct": "55% (24/44名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全44名 / 留学生24名 / MF 23名 (Sr・Gr 2名)",
     "notes": "留学生比率約8割の超国際派チーム。高いテクニックと戦術的規律。",
     "tags": [
       "Conf Carolinas",
@@ -8505,7 +8364,8 @@ const INITIAL_COLLEGES = [
       "Scholarships"
     ],
     "questionnaireUrl": "https://yhcathletics.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://yhcsoccercamps.com/"
+    "campUrl": "https://yhcsoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "snhu-mens",
@@ -8518,16 +8378,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Penmen",
     "headCoach": "Josh Taylor",
-    "coachEmail": "j.taylor3@snhu.edu",
+    "coachEmail": "joshua.taylor@snhu.edu",
     "assistantCoach": "Keegan Campbell",
     "assistantCoachEmail": "k.campbell2@snhu.edu",
     "annualTuitionUSD": 15800,
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "60%",
-    "japanesePlayers": "受入実績あり (2013 全米王者)",
-    "rosterStats": "部員31名中 留学生19名 (61%) / 欧州, 南米",
+    "intlRosterPct": "46% (16/35名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生16名 / MF 17名 (Sr・Gr 9名)",
     "notes": "2013年 NCAA D2 全米王者！学費が非常に手頃で充実の設備を持つ北東部名門。",
     "tags": [
       "2013 D2 Champion",
@@ -8536,7 +8396,8 @@ const INITIAL_COLLEGES = [
       "New Hampshire"
     ],
     "questionnaireUrl": "https://snhupenmen.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://snhusoccercamps.com/"
+    "campUrl": "https://snhusoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "maryville-mens",
@@ -8548,17 +8409,17 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Saints",
-    "headCoach": "David Korn",
-    "coachEmail": "dkorn@maryville.edu",
+    "headCoach": "Adam Hall",
+    "coachEmail": "ahall26@maryville.edu",
     "assistantCoach": "Derek Zuniga",
     "assistantCoachEmail": "dzuniga@maryville.edu",
     "annualTuitionUSD": 27800,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "55%",
-    "japanesePlayers": "受入実績あり (サッカーの街セントルイス)",
-    "rosterStats": "部員29名中 留学生16名 (55%) / 欧州, 南米",
+    "intlRosterPct": "69% (20/29名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生20名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名",
     "notes": "GLVCカンファレンス新興強豪。サッカー熱の高いセントルイスに位置する。",
     "tags": [
       "GLVC",
@@ -8567,7 +8428,8 @@ const INITIAL_COLLEGES = [
       "Midwest"
     ],
     "questionnaireUrl": "https://maryvillesaints.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://maryvillesoccercamps.com/"
+    "campUrl": "https://maryvillesoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "tiffin-mens",
@@ -8587,9 +8449,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
-    "japanesePlayers": "1〜2名在籍 (日本人選手受入に好意的)",
-    "rosterStats": "部員32名中 留学生24名 (75%) / 欧州, 日本, 南米",
+    "intlRosterPct": "45% (24/53名)",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全53名 / 留学生24名 / MF 18名 (Sr・Gr 5名) / 出身地不明1名",
     "notes": "G-MACカンファレンス複数回優勝。留学生主体の攻撃的サッカースタイル。",
     "tags": [
       "G-MAC",
@@ -8611,16 +8473,16 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Falcons",
     "headCoach": "Kevin Sakuda",
-    "coachEmail": "sakudak@spu.edu",
+    "coachEmail": "sakudak1@spu.edu",
     "assistantCoach": "Erik Holland",
     "assistantCoachEmail": "soccer@spu.edu",
     "annualTuitionUSD": 38900,
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "30%",
-    "japanesePlayers": "受入実績あり (シアトル中心部好立地)",
-    "rosterStats": "部員28名中 留学生8名 (29%) / イギリス, 欧州",
+    "intlRosterPct": "0% (0/34名)",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生0名 / MF 13名 (Sr・Gr 3名)",
     "notes": "5回全米制覇（1978, 83, 85, 86, 93）の超名門！シアトルの洗練された環境。",
     "tags": [
       "5x D2 Champion",
@@ -8629,7 +8491,8 @@ const INITIAL_COLLEGES = [
       "Historic Giant"
     ],
     "questionnaireUrl": "https://spufalcons.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://spusoccercamps.com/"
+    "campUrl": "https://spusoccercamps.com/",
+    "coachVerified": true
   },
   {
     "id": "southeastern-mens",
@@ -8655,7 +8518,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southeastern+University+Soccer+ID+Camp"
@@ -8684,7 +8547,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Warner+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Warner+University+Soccer+ID+Camp"
@@ -8713,7 +8576,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Ave+Maria+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Ave+Maria+University+Soccer+ID+Camp"
@@ -8742,7 +8605,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Memorial+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Memorial+University+Soccer+ID+Camp"
@@ -8771,7 +8634,7 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Soccer+ID+Camp"
@@ -8800,7 +8663,7 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Thomas+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Thomas+University+Soccer+ID+Camp"
@@ -8829,7 +8692,7 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Point+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Point+University+Soccer+ID+Camp"
@@ -8858,7 +8721,7 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Soccer+ID+Camp"
@@ -8887,7 +8750,7 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Cumberland+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Cumberland+University+Soccer+ID+Camp"
@@ -8916,7 +8779,7 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Campbellsville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Campbellsville+University+Soccer+ID+Camp"
@@ -8945,7 +8808,7 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Georgetown+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgetown+College+Soccer+ID+Camp"
@@ -8960,13 +8823,13 @@ const INITIAL_COLLEGES = [
     "conference": "SSAC",
     "gender": "Men",
     "mascot": "Eagles",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Gabriel De Queiroz",
+    "coachEmail": "gqueiroz@faulkner.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "92% (33/36名)",
     "notes": "NAIA / SSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -8974,10 +8837,13 @@ const INITIAL_COLLEGES = [
       "Alabama",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全36名 / 留学生33名 / MF 9名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Faulkner+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Faulkner+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Faulkner+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Fahel Matos",
+    "assistantCoachEmail": "fmatos@faulkner.edu"
   },
   {
     "id": "williamcarey-mens",
@@ -8989,13 +8855,13 @@ const INITIAL_COLLEGES = [
     "conference": "SSAC",
     "gender": "Men",
     "mascot": "Crusaders",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Barry Farrell",
+    "coachEmail": "bfarrell@wmcarey.edu",
     "annualTuitionUSD": 17000,
     "roomAndBoardUSD": 7500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "87% (27/31名)",
     "notes": "NAIA / SSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -9003,10 +8869,11 @@ const INITIAL_COLLEGES = [
       "Mississippi",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生27名 / MF 12名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=William+Carey+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=William+Carey+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=William+Carey+University+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "tennesseewesleyan-mens",
@@ -9032,7 +8899,7 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Soccer+ID+Camp"
@@ -9061,7 +8928,7 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Reinhardt+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Reinhardt+University+Soccer+ID+Camp"
@@ -9090,7 +8957,7 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Soccer+ID+Camp"
@@ -9105,13 +8972,13 @@ const INITIAL_COLLEGES = [
     "conference": "Sooner Athletic",
     "gender": "Men",
     "mascot": "Stars",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Billy Martin",
+    "coachEmail": "wjmartin@okcu.edu",
     "annualTuitionUSD": 32000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "56% (14/25名)",
     "notes": "NAIA / Sooner Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -9119,10 +8986,13 @@ const INITIAL_COLLEGES = [
       "Oklahoma",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全25名 / 留学生14名 / MF 6名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Oklahoma+City+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Oklahoma+City+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Oklahoma+City+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Gui Grave",
+    "assistantCoachEmail": "gfgrave@okcu.edu"
   },
   {
     "id": "bellevue-mens",
@@ -9148,7 +9018,7 @@ const INITIAL_COLLEGES = [
       "Nebraska",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Bellevue+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bellevue+University+Soccer+ID+Camp"
@@ -9177,7 +9047,7 @@ const INITIAL_COLLEGES = [
       "Kansas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Benedictine+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Benedictine+College+Soccer+ID+Camp"
@@ -9206,7 +9076,7 @@ const INITIAL_COLLEGES = [
       "Kansas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Baker+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Baker+University+Soccer+ID+Camp"
@@ -9235,7 +9105,7 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Avila+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Avila+University+Soccer+ID+Camp"
@@ -9264,7 +9134,7 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Columbia+College+(Missouri)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Columbia+College+(Missouri)+Soccer+ID+Camp"
@@ -9293,7 +9163,7 @@ const INITIAL_COLLEGES = [
       "Indiana",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Soccer+ID+Camp"
@@ -9322,7 +9192,7 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Pikeville+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Pikeville+Soccer+ID+Camp"
@@ -9351,7 +9221,7 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Shawnee+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Shawnee+State+University+Soccer+ID+Camp"
@@ -9380,7 +9250,7 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Westmont+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Westmont+College+Soccer+ID+Camp"
@@ -9395,13 +9265,13 @@ const INITIAL_COLLEGES = [
     "conference": "Golden State Athletic",
     "gender": "Men",
     "mascot": "Lions",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Jesus (Chuy) Miramontes",
+    "coachEmail": "msoccer@vanguard.edu",
     "annualTuitionUSD": 38000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/34名)",
     "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -9409,10 +9279,11 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生0名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Vanguard+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Vanguard+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Vanguard+University+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "corban-mens",
@@ -9424,13 +9295,13 @@ const INITIAL_COLLEGES = [
     "conference": "Cascade Collegiate",
     "gender": "Men",
     "mascot": "Warriors",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Jordan Keegan",
+    "coachEmail": "jkeegan@corban.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "21% (7/34名)",
     "notes": "NAIA / Cascade Collegiate。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -9438,10 +9309,11 @@ const INITIAL_COLLEGES = [
       "Oregon",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生7名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Corban+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Corban+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Corban+University+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "saintleo-mens",
@@ -9453,13 +9325,13 @@ const INITIAL_COLLEGES = [
     "conference": "Sunshine State",
     "gender": "Men",
     "mascot": "Lions",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Brett Parker",
+    "coachEmail": "brett.parker@saintleo.edu",
     "annualTuitionUSD": 26000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "57% (17/30名)",
     "notes": "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9467,10 +9339,13 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生17名 / MF 9名 (Sr・Gr 1名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Leo+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Saint+Leo+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Saint+Leo+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Graham Brown",
+    "assistantCoachEmail": "graham.brown@saintleo.edu"
   },
   {
     "id": "novasoutheastern-mens",
@@ -9496,7 +9371,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Soccer+ID+Camp"
@@ -9525,7 +9400,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Southern+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Southern+College+Soccer+ID+Camp"
@@ -9554,7 +9429,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Eckerd+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Eckerd+College+Soccer+ID+Camp"
@@ -9583,7 +9458,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Flagler+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Flagler+College+Soccer+ID+Camp"
@@ -9612,7 +9487,7 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+West+Florida+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+West+Florida+Soccer+ID+Camp"
@@ -9641,7 +9516,7 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Lee+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lee+University+Soccer+ID+Camp"
@@ -9670,7 +9545,7 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Union+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Union+University+Soccer+ID+Camp"
@@ -9699,7 +9574,7 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Valdosta+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Valdosta+State+University+Soccer+ID+Camp"
@@ -9728,7 +9603,7 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Columbus+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Columbus+State+University+Soccer+ID+Camp"
@@ -9743,13 +9618,13 @@ const INITIAL_COLLEGES = [
     "conference": "Peach Belt",
     "gender": "Men",
     "mascot": "Nighthawks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Anel Lilic",
+    "coachEmail": "anel.lilic@ung.edu",
     "annualTuitionUSD": 17000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "33% (10/30名)",
     "notes": "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9757,10 +9632,13 @@ const INITIAL_COLLEGES = [
       "Georgia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生10名 / MF 10名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+North+Georgia+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+North+Georgia+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+North+Georgia+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Joel Mcilroy",
+    "assistantCoachEmail": "alexander.mcilroy@ung.edu"
   },
   {
     "id": "uscaiken-mens",
@@ -9772,13 +9650,13 @@ const INITIAL_COLLEGES = [
     "conference": "Peach Belt",
     "gender": "Men",
     "mascot": "Pacers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Nick Sakiewicz",
+    "coachEmail": "nicolaus.sakiewicz@usca.edu",
     "annualTuitionUSD": 22000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "58% (18/31名)",
     "notes": "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9786,10 +9664,11 @@ const INITIAL_COLLEGES = [
       "South Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明4名)",
+    "rosterStats": "公式ロスター全31名 / 留学生18名 / MF 16名 (Sr・Gr 3名) / 出身地不明4名",
     "questionnaireUrl": "https://www.google.com/search?q=USC+Aiken+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=USC+Aiken+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=USC+Aiken+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "francismarion-mens",
@@ -9801,13 +9680,13 @@ const INITIAL_COLLEGES = [
     "conference": "Peach Belt",
     "gender": "Men",
     "mascot": "Patriots",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Luis Rincon",
+    "coachEmail": "Luis.Rincon@fmarion.edu",
     "annualTuitionUSD": 21000,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "64% (28/44名)",
     "notes": "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9815,10 +9694,13 @@ const INITIAL_COLLEGES = [
       "South Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全44名 / 留学生28名 / MF 21名 (Sr・Gr 12名)",
     "questionnaireUrl": "https://www.google.com/search?q=Francis+Marion+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Francis+Marion+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Francis+Marion+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Nicolas Rodriguez",
+    "assistantCoachEmail": "nicolas.rodriguez@fmarion.edu"
   },
   {
     "id": "uncpembroke-mens",
@@ -9844,7 +9726,7 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Pembroke+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Pembroke+Soccer+ID+Camp"
@@ -9873,7 +9755,7 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Soccer+ID+Camp"
@@ -9902,7 +9784,7 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Soccer+ID+Camp"
@@ -9931,7 +9813,7 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Catawba+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Catawba+College+Soccer+ID+Camp"
@@ -9960,7 +9842,7 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Carson-Newman+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Carson-Newman+University+Soccer+ID+Camp"
@@ -9989,7 +9871,7 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Mars+Hill+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mars+Hill+University+Soccer+ID+Camp"
@@ -10018,7 +9900,7 @@ const INITIAL_COLLEGES = [
       "South Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Newberry+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Newberry+College+Soccer+ID+Camp"
@@ -10047,7 +9929,7 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tusculum+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Tusculum+University+Soccer+ID+Camp"
@@ -10062,13 +9944,13 @@ const INITIAL_COLLEGES = [
     "conference": "South Atlantic",
     "gender": "Men",
     "mascot": "Railsplitters",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Tom Gillette",
+    "coachEmail": "thomas.gillette@lmunet.edu",
     "annualTuitionUSD": 28000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "40% (21/52名)",
     "notes": "NCAA D2 / South Atlantic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10076,10 +9958,13 @@ const INITIAL_COLLEGES = [
       "Tennessee",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全52名 / 留学生21名 / MF 16名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Lincoln+Memorial+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Lincoln+Memorial+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Lincoln+Memorial+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "August Harp",
+    "assistantCoachEmail": "august.harp@lmunet.edu"
   },
   {
     "id": "lewisuniversity-mens",
@@ -10105,7 +9990,7 @@ const INITIAL_COLLEGES = [
       "Illinois",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Lewis+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lewis+University+Soccer+ID+Camp"
@@ -10134,7 +10019,7 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Drury+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Drury+University+Soccer+ID+Camp"
@@ -10163,7 +10048,7 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Rockhurst+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rockhurst+University+Soccer+ID+Camp"
@@ -10192,7 +10077,7 @@ const INITIAL_COLLEGES = [
       "Illinois",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Quincy+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Quincy+University+Soccer+ID+Camp"
@@ -10221,7 +10106,7 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Truman+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Truman+State+University+Soccer+ID+Camp"
@@ -10236,13 +10121,13 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Miners",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Robert Cummings",
+    "coachEmail": "cummingsrc@mst.edu",
     "annualTuitionUSD": 28000,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "32% (13/41名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10250,10 +10135,11 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全41名 / 留学生13名 / MF 16名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Missouri+S%26T+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Missouri+S%26T+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Missouri+S%26T+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "kentuckywesleyan-mens",
@@ -10279,7 +10165,7 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Soccer+ID+Camp"
@@ -10308,7 +10194,7 @@ const INITIAL_COLLEGES = [
       "Wisconsin",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UW-Parkside+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UW-Parkside+Soccer+ID+Camp"
@@ -10337,7 +10223,7 @@ const INITIAL_COLLEGES = [
       "Illinois",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Illinois+Springfield+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Illinois+Springfield+Soccer+ID+Camp"
@@ -10366,7 +10252,7 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Walsh+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Walsh+University+Soccer+ID+Camp"
@@ -10395,7 +10281,7 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Findlay+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Findlay+Soccer+ID+Camp"
@@ -10424,7 +10310,7 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Malone+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Malone+University+Soccer+ID+Camp"
@@ -10453,7 +10339,7 @@ const INITIAL_COLLEGES = [
       "Michigan",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Wayne+State+University+(Michigan)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wayne+State+University+(Michigan)+Soccer+ID+Camp"
@@ -10482,7 +10368,7 @@ const INITIAL_COLLEGES = [
       "Michigan",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Northwood+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northwood+University+Soccer+ID+Camp"
@@ -10511,7 +10397,7 @@ const INITIAL_COLLEGES = [
       "New York",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Adelphi+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Adelphi+University+Soccer+ID+Camp"
@@ -10540,7 +10426,7 @@ const INITIAL_COLLEGES = [
       "Massachusetts",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Bentley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bentley+University+Soccer+ID+Camp"
@@ -10569,39 +10455,10 @@ const INITIAL_COLLEGES = [
       "New Hampshire",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Anselm+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Anselm+College+Soccer+ID+Camp"
-  },
-  {
-    "id": "stonehill-mens",
-    "name": "Stonehill College",
-    "location": "Easton, Massachusetts",
-    "state": "MA",
-    "region": "Northeast",
-    "division": "NCAA D2",
-    "conference": "NE-10",
-    "gender": "Men",
-    "mascot": "Skyhawks",
-    "headCoach": "",
-    "coachEmail": "",
-    "annualTuitionUSD": 51000,
-    "roomAndBoardUSD": 18000,
-    "scholarshipMax": "Max 9.0 scholarships (D2)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
-    "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-    "tags": [
-      "NCAA D2",
-      "NE-10",
-      "Massachusetts",
-      "Needs Verification"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
-    "questionnaireUrl": "https://www.google.com/search?q=Stonehill+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Stonehill+College+Soccer+ID+Camp"
   },
   {
     "id": "southernct-mens",
@@ -10627,7 +10484,7 @@ const INITIAL_COLLEGES = [
       "Connecticut",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Soccer+ID+Camp"
@@ -10656,7 +10513,7 @@ const INITIAL_COLLEGES = [
       "Connecticut",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+New+Haven+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+New+Haven+Soccer+ID+Camp"
@@ -10685,7 +10542,7 @@ const INITIAL_COLLEGES = [
       "Massachusetts",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Assumption+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Assumption+University+Soccer+ID+Camp"
@@ -10700,13 +10557,13 @@ const INITIAL_COLLEGES = [
     "conference": "NE-10",
     "gender": "Men",
     "mascot": "Setters",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Edward Evans",
+    "coachEmail": "eevans@pace.edu",
     "annualTuitionUSD": 52000,
     "roomAndBoardUSD": 20000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "15% (11/71名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10714,10 +10571,11 @@ const INITIAL_COLLEGES = [
       "New York",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全71名 / 留学生11名 / MF 25名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Pace+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Pace+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Pace+University+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "saintmichaels-mens",
@@ -10743,7 +10601,7 @@ const INITIAL_COLLEGES = [
       "Vermont",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Michael's+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Michael's+College+Soccer+ID+Camp"
@@ -10772,7 +10630,7 @@ const INITIAL_COLLEGES = [
       "New York",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=New+York+Institute+of+Technology+(NYIT)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=New+York+Institute+of+Technology+(NYIT)+Soccer+ID+Camp"
@@ -10801,7 +10659,7 @@ const INITIAL_COLLEGES = [
       "New York",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Molloy+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Molloy+University+Soccer+ID+Camp"
@@ -10816,13 +10674,13 @@ const INITIAL_COLLEGES = [
     "conference": "PSAC",
     "gender": "Men",
     "mascot": "Golden Rams",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Michael Benn",
+    "coachEmail": "mbenn@wcupa.edu",
     "annualTuitionUSD": 25000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/28名)",
     "notes": "NCAA D2 / PSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10830,10 +10688,11 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生0名 / MF 7名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=West+Chester+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=West+Chester+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=West+Chester+University+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "iup-mens",
@@ -10859,7 +10718,7 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+University+of+Pennsylvania+(IUP)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Indiana+University+of+Pennsylvania+(IUP)+Soccer+ID+Camp"
@@ -10888,39 +10747,10 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Soccer+ID+Camp"
-  },
-  {
-    "id": "mercyhurst-mens",
-    "name": "Mercyhurst University",
-    "location": "Erie, Pennsylvania",
-    "state": "PA",
-    "region": "Northeast",
-    "division": "NCAA D2",
-    "conference": "PSAC",
-    "gender": "Men",
-    "mascot": "Lakers",
-    "headCoach": "",
-    "coachEmail": "",
-    "annualTuitionUSD": 38000,
-    "roomAndBoardUSD": 13000,
-    "scholarshipMax": "Max 9.0 scholarships (D2)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
-    "notes": "NCAA D2 / PSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-    "tags": [
-      "NCAA D2",
-      "PSAC",
-      "Pennsylvania",
-      "Needs Verification"
-    ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
-    "questionnaireUrl": "https://www.google.com/search?q=Mercyhurst+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Mercyhurst+University+Soccer+ID+Camp"
   },
   {
     "id": "millersville-mens",
@@ -10946,7 +10776,7 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Millersville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Millersville+University+Soccer+ID+Camp"
@@ -10975,7 +10805,7 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Seton+Hill+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Seton+Hill+University+Soccer+ID+Camp"
@@ -11004,7 +10834,7 @@ const INITIAL_COLLEGES = [
       "West Virginia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Soccer+ID+Camp"
@@ -11033,7 +10863,7 @@ const INITIAL_COLLEGES = [
       "West Virginia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Wheeling+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wheeling+University+Soccer+ID+Camp"
@@ -11062,7 +10892,7 @@ const INITIAL_COLLEGES = [
       "West Virginia",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Concord+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Concord+University+Soccer+ID+Camp"
@@ -11091,7 +10921,7 @@ const INITIAL_COLLEGES = [
       "Hawaii",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=BYU-Hawaii+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=BYU-Hawaii+Soccer+ID+Camp"
@@ -11120,7 +10950,7 @@ const INITIAL_COLLEGES = [
       "Hawaii",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Soccer+ID+Camp"
@@ -11149,7 +10979,7 @@ const INITIAL_COLLEGES = [
       "Hawaii",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Chaminade+University+of+Honolulu+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Chaminade+University+of+Honolulu+Soccer+ID+Camp"
@@ -11178,7 +11008,7 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Soccer+ID+Camp"
@@ -11193,13 +11023,13 @@ const INITIAL_COLLEGES = [
     "conference": "PacWest",
     "gender": "Men",
     "mascot": "Penguins",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "David Frank",
+    "coachEmail": "david.frank@dominican.edu",
     "annualTuitionUSD": 48000,
     "roomAndBoardUSD": 17000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "6% (2/36名)",
     "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11207,10 +11037,13 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明4名)",
+    "rosterStats": "公式ロスター全36名 / 留学生2名 / MF 15名 (Sr・Gr 2名) / 出身地不明4名",
     "questionnaireUrl": "https://www.google.com/search?q=Dominican+University+of+California+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Dominican+University+of+California+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Dominican+University+of+California+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Ricardo Martin",
+    "assistantCoachEmail": "ricardo.martin@dominican.edu"
   },
   {
     "id": "csudh-mens",
@@ -11222,8 +11055,8 @@ const INITIAL_COLLEGES = [
     "conference": "CCAA",
     "gender": "Men",
     "mascot": "Toros",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Eddie Soto",
+    "coachEmail": "esoto@csudh.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 14000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11236,10 +11069,13 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Cal+State+Dominguez+Hills+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Cal+State+Dominguez+Hills+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Cal+State+Dominguez+Hills+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Patryk Tenorio",
+    "assistantCoachEmail": "ptenorio@csudh.edu"
   },
   {
     "id": "csueastbay-mens",
@@ -11251,13 +11087,13 @@ const INITIAL_COLLEGES = [
     "conference": "CCAA",
     "gender": "Men",
     "mascot": "Pioneers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Michael Haswell",
+    "coachEmail": "michael.haswell@csueastbay.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 14000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "4% (1/27名)",
     "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11265,10 +11101,13 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生1名 / MF 8名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Cal+State+East+Bay+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Cal+State+East+Bay+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Cal+State+East+Bay+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Dannylo Ayllon",
+    "assistantCoachEmail": "dannylo.ayllon@csueastbay.edu"
   },
   {
     "id": "csusanmarcos-mens",
@@ -11280,13 +11119,13 @@ const INITIAL_COLLEGES = [
     "conference": "CCAA",
     "gender": "Men",
     "mascot": "Cougars",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Ron Pulvers",
+    "coachEmail": "rpulvers@csusm.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 13000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "3% (1/31名)",
     "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11294,10 +11133,13 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全31名 / 留学生1名 / MF 15名 (Sr・Gr 5名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Cal+State+San+Marcos+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Cal+State+San+Marcos+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Cal+State+San+Marcos+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Matt Aldama",
+    "assistantCoachEmail": "maldama@csusm.edu"
   },
   {
     "id": "sfstate-mens",
@@ -11323,7 +11165,7 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=San+Francisco+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=San+Francisco+State+University+Soccer+ID+Camp"
@@ -11338,13 +11180,13 @@ const INITIAL_COLLEGES = [
     "conference": "GNAC",
     "gender": "Men",
     "mascot": "Vikings",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Greg Brisbon",
+    "coachEmail": "wwumsoccer@wwu.edu",
     "annualTuitionUSD": 25000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "9% (2/23名)",
     "notes": "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11352,10 +11194,13 @@ const INITIAL_COLLEGES = [
       "Washington",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全23名 / 留学生2名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Western+Washington+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Western+Washington+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Western+Washington+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Chuck Pitts",
+    "assistantCoachEmail": "wwumsoccer@wwu.edu"
   },
   {
     "id": "saintmartins-mens",
@@ -11367,13 +11212,13 @@ const INITIAL_COLLEGES = [
     "conference": "GNAC",
     "gender": "Men",
     "mascot": "Saints",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Rob Walker",
+    "coachEmail": "rwalker@stmartin.edu",
     "annualTuitionUSD": 38000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/35名)",
     "notes": "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11381,10 +11226,11 @@ const INITIAL_COLLEGES = [
       "Washington",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全35名 / 留学生0名 / MF 15名 (Sr・Gr 4名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Martin's+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Saint+Martin's+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Saint+Martin's+University+Soccer+ID+Camp",
+    "coachVerified": true
   },
   {
     "id": "coloradomesa-mens",
@@ -11410,7 +11256,7 @@ const INITIAL_COLLEGES = [
       "Colorado",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Soccer+ID+Camp"
@@ -11425,13 +11271,13 @@ const INITIAL_COLLEGES = [
     "conference": "RMAC",
     "gender": "Men",
     "mascot": "Rangers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Taylor Diem",
+    "coachEmail": "tdiem@regis.edu",
     "annualTuitionUSD": 45000,
     "roomAndBoardUSD": 14000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "39% (12/31名)",
     "notes": "NCAA D2 / RMAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11439,10 +11285,13 @@ const INITIAL_COLLEGES = [
       "Colorado",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生12名 / MF 9名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Regis+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Regis+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Regis+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "assistantCoach": "Steven Cahill",
+    "assistantCoachEmail": "msoccer@regis.edu"
   },
   {
     "id": "metrostatedenver-mens",
@@ -11468,7 +11317,7 @@ const INITIAL_COLLEGES = [
       "Colorado",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Metropolitan+State+University+of+Denver+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Metropolitan+State+University+of+Denver+Soccer+ID+Camp"
@@ -11497,7 +11346,7 @@ const INITIAL_COLLEGES = [
       "Colorado",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Colorado+Christian+University+Soccer+ID+Camp"
@@ -11526,7 +11375,7 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Edward's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Edward's+University+Soccer+ID+Camp"
@@ -11555,7 +11404,7 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Mary's+University+(Texas)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Mary's+University+(Texas)+Soccer+ID+Camp"
@@ -11584,7 +11433,7 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UT+Tyler+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UT+Tyler+Soccer+ID+Camp"
@@ -11613,7 +11462,7 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UT+Permian+Basin+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UT+Permian+Basin+Soccer+ID+Camp"
@@ -11642,12 +11491,8329 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "0名 (要問合せ)",
+    "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Soccer+ID+Camp"
+  },
+  {
+    "id": "daytonastate-mens",
+    "name": "Daytona State College",
+    "location": "Daytona Beach, Florida",
+    "state": "FL",
+    "region": "South",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Falcons",
+    "headCoach": "Joe Avallone",
+    "coachEmail": "Joe.Avallone@DaytonaState.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "50% (14/28名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "FL"
+    ],
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生14名 / MF 7名 (2年生以上 2名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Daytona+State+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Daytona+State+College+Soccer+ID+Camp",
+    "assistantCoach": "Jonathan Lopez",
+    "assistantCoachEmail": "Jonathan.Lopez@DaytonaState.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "easternflorida-mens",
+    "name": "Eastern Florida State College",
+    "location": "Cocoa, Florida",
+    "state": "FL",
+    "region": "South",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Titans",
+    "headCoach": "Bart Sasnett",
+    "coachEmail": "sasnettb@easternflorida.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "72% (23/32名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "FL"
+    ],
+    "japanesePlayers": "4名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生23名 / MF 8名 (2年生以上 1名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Eastern+Florida+State+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Eastern+Florida+State+College+Soccer+ID+Camp",
+    "assistantCoach": "Adrian Moreno",
+    "assistantCoachEmail": "morenoa@easternflorida.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "arizonawestern-mens",
+    "name": "Arizona Western College",
+    "location": "Yuma, Arizona",
+    "state": "AZ",
+    "region": "West",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Matadors",
+    "headCoach": "Kenny Dale",
+    "coachEmail": "kenny.dale@azwestern.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "82% (27/33名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "AZ"
+    ],
+    "japanesePlayers": "9名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生27名 / MF 13名 (2年生以上 8名) / 出身地不明1名",
+    "questionnaireUrl": "https://www.google.com/search?q=Arizona+Western+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Arizona+Western+College+Soccer+ID+Camp",
+    "assistantCoach": "Admir Balicevac",
+    "assistantCoachEmail": "admir.balicevac@azwestern.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "lewisandclark-mens",
+    "name": "Lewis and Clark Community College",
+    "location": "Godfrey, Illinois",
+    "state": "IL",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Trailblazers",
+    "headCoach": "John Dunn",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "83% (24/29名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "IL"
+    ],
+    "japanesePlayers": "3名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生24名 / MF 7名 (2年生以上 3名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Lewis+and+Clark+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Lewis+and+Clark+Community+College+Soccer+ID+Camp",
+    "assistantCoach": "Parker Medina",
+    "assistantCoachEmail": "",
+    "coachVerified": true
+  },
+  {
+    "id": "cowley-mens",
+    "name": "Cowley College",
+    "location": "Arkansas City, Kansas",
+    "state": "KS",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Tigers",
+    "headCoach": "Marcos Vinicius Longo Ribeiro",
+    "coachEmail": "marcos.ribeiro@cowley.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "68% (19/28名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "KS"
+    ],
+    "japanesePlayers": "9名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生19名 / MF 7名 (2年生以上 3名) / 出身地不明1名",
+    "questionnaireUrl": "https://www.google.com/search?q=Cowley+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Cowley+College+Soccer+ID+Camp",
+    "assistantCoach": "Eusebio \"Chevi\" Plaza",
+    "assistantCoachEmail": "eusebio.plaza@cowley.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "northidaho-mens",
+    "name": "North Idaho College",
+    "location": "Coeur d'Alene, Idaho",
+    "state": "ID",
+    "region": "West",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Cardinals",
+    "headCoach": "Brad Williams",
+    "coachEmail": "brad.williams@nic.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "50% (16/32名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "ID"
+    ],
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生16名 / MF 11名 (2年生以上 6名)",
+    "questionnaireUrl": "https://www.google.com/search?q=North+Idaho+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=North+Idaho+College+Soccer+ID+Camp",
+    "assistantCoach": "Gunnar Skindlov",
+    "assistantCoachEmail": "gunnar.skindlov@nic.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "gardencity-mens",
+    "name": "Garden City Community College",
+    "location": "Garden City, Kansas",
+    "state": "KS",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Broncbusters",
+    "headCoach": "Oscar Zelaya",
+    "coachEmail": "oscar.zelaya@gcccks.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "80% (32/40名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "KS"
+    ],
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全40名 / 留学生32名 / MF 23名 (2年生以上 9名) / 出身地不明1名",
+    "questionnaireUrl": "https://www.google.com/search?q=Garden+City+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Garden+City+Community+College+Soccer+ID+Camp",
+    "assistantCoach": "Yahir Camacho",
+    "assistantCoachEmail": "yahir.camacho@gcccks.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "northwest-mens",
+    "name": "Northwest College",
+    "location": "Powell, Wyoming",
+    "state": "WY",
+    "region": "West",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Trappers",
+    "headCoach": "Rob Hill",
+    "coachEmail": "rob.hill@nwc.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "94% (31/33名)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "WY"
+    ],
+    "japanesePlayers": "7名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全33名 / 留学生31名 / MF 14名 (2年生以上 3名) / 出身地不明2名",
+    "questionnaireUrl": "https://www.google.com/search?q=Northwest+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Northwest+College+Soccer+ID+Camp",
+    "assistantCoach": "David Gilliatt",
+    "assistantCoachEmail": "",
+    "coachVerified": true
+  },
+  {
+    "id": "hill-mens",
+    "name": "Hill College",
+    "location": "Hillsboro, Texas",
+    "state": "TX",
+    "region": "South",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Rebels",
+    "headCoach": "Ivan Franco",
+    "coachEmail": "ifranco@hillcollege.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認 (ホームタウン非公開)",
+    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "TX"
+    ],
+    "japanesePlayers": "要確認 (ホームタウン非公開)",
+    "rosterStats": "公式ロスター全28名 / MF 9名 (2年生以上 7名) / 出身地は非公開",
+    "questionnaireUrl": "https://www.google.com/search?q=Hill+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Hill+College+Soccer+ID+Camp",
+    "assistantCoach": "Derick Gonzalez",
+    "assistantCoachEmail": "dgonzalez@hillcollege.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "ccbcessex-mens",
+    "name": "CCBC Essex",
+    "location": "Essex, Maryland",
+    "state": "MD",
+    "region": "Northeast",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Knights",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認",
+    "notes": "NJCAA D1 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "MD"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=CCBC+Essex+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=CCBC+Essex+Soccer+ID+Camp"
+  },
+  {
+    "id": "phoenixcollege-mens",
+    "name": "Phoenix College",
+    "location": "Phoenix, Arizona",
+    "state": "AZ",
+    "region": "West",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Bears",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認",
+    "notes": "NJCAA D1 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "AZ"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Phoenix+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Phoenix+College+Soccer+ID+Camp"
+  },
+  {
+    "id": "northeastcc-mens",
+    "name": "Northeast Community College",
+    "location": "Norfolk, Nebraska",
+    "state": "NE",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Hornets",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認",
+    "notes": "NJCAA D1 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "NE"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Northeast+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Northeast+Community+College+Soccer+ID+Camp"
+  },
+  {
+    "id": "iowalakes-mens",
+    "name": "Iowa Lakes Community College",
+    "location": "Estherville, Iowa",
+    "state": "IA",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Lakers",
+    "headCoach": "Ben MacRae",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "55% (26/47名)",
+    "notes": "NJCAA D1 全米大会出場校 (シード4 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "IA"
+    ],
+    "japanesePlayers": "3名 (公式ロスター確認 / 出身地不明11名)",
+    "rosterStats": "公式ロスター全47名 / 留学生26名 / MF 14名 (2年生以上 3名) / 出身地不明11名",
+    "questionnaireUrl": "https://www.google.com/search?q=Iowa+Lakes+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Iowa+Lakes+Community+College+Soccer+ID+Camp",
+    "assistantCoach": "Bryan Marshall",
+    "assistantCoachEmail": "",
+    "coachVerified": true
+  },
+  {
+    "id": "madisoncollege-mens",
+    "name": "Madison College",
+    "location": "Madison, Wisconsin",
+    "state": "WI",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Wolfpack",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認",
+    "notes": "NJCAA D1 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "WI"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Madison+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Madison+College+Soccer+ID+Camp"
+  },
+  {
+    "id": "pearlriver-mens",
+    "name": "Pearl River Community College",
+    "location": "Poplarville, Mississippi",
+    "state": "MS",
+    "region": "South",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Wildcats",
+    "headCoach": "Drew Gallant",
+    "coachEmail": "dgallant@prcc.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "25% (6/24名)",
+    "notes": "NJCAA D1 全米大会出場校 (シード6 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "MS"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全24名 / 留学生6名 / MF 7名 (2年生以上 3名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Pearl+River+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Pearl+River+Community+College+Soccer+ID+Camp",
+    "assistantCoach": "Joe Guinchard",
+    "assistantCoachEmail": "jguinchard@prcc.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "neosho-mens",
+    "name": "Neosho County Community College",
+    "location": "Chanute, Kansas",
+    "state": "KS",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Panthers",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認",
+    "notes": "NJCAA D1 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "KS"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Soccer+ID+Camp"
+  },
+  {
+    "id": "glendaleaz-mens",
+    "name": "Glendale Community College",
+    "location": "Glendale, Arizona",
+    "state": "AZ",
+    "region": "West",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Gauchos",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認",
+    "notes": "NJCAA D1 全米大会出場校 (シード8 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "AZ"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Glendale+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Glendale+Community+College+Soccer+ID+Camp"
+  },
+  {
+    "id": "pima-mens",
+    "name": "Pima Community College",
+    "location": "Tucson, Arizona",
+    "state": "AZ",
+    "region": "West",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Aztecs",
+    "headCoach": "David Cosgrove",
+    "coachEmail": "dcosgrove@pima.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "25% (7/28名)",
+    "notes": "NJCAA D1 全米大会出場校 (シード9 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "AZ"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生7名 / MF 12名 (2年生以上 6名) / 出身地不明1名",
+    "questionnaireUrl": "https://www.google.com/search?q=Pima+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Pima+Community+College+Soccer+ID+Camp",
+    "assistantCoach": "Armand Bram",
+    "assistantCoachEmail": "abrambayze@pima.edu",
+    "coachVerified": true
+  },
+  {
+    "id": "wallacestate-mens",
+    "name": "Wallace State Community College",
+    "location": "Hanceville, Alabama",
+    "state": "AL",
+    "region": "South",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Lions",
+    "headCoach": "James Fee",
+    "coachEmail": "james.fee@wallacestate.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "要確認",
+    "intlRosterPct": "要確認 (ホームタウン一部非公開)",
+    "notes": "NJCAA D1 全米大会出場校 (シード10 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "AL"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認 / 非公開19名)",
+    "rosterStats": "公式ロスター全31名 (詳細公開12名) / 留学生4名 / MF 5名 (2年生以上 5名) / 非公開19名",
+    "questionnaireUrl": "https://www.google.com/search?q=Wallace+State+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Wallace+State+Community+College+Soccer+ID+Camp",
+    "coachVerified": true
+  },
+  {
+    "id": "schoolcraft-mens",
+    "name": "Schoolcraft College",
+    "location": "Livonia, Michigan",
+    "state": "MI",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Ocelots",
+    "headCoach": "Rick Larson",
+    "coachEmail": "rlarson@schoolcraft.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "17% (5/30名)",
+    "notes": "NJCAA D1 全米大会出場校 (シード11 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "MI"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明5名)",
+    "rosterStats": "公式ロスター全30名 / 留学生5名 / MF 13名 (2年生以上 6名) / 出身地不明5名",
+    "questionnaireUrl": "https://www.google.com/search?q=Schoolcraft+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Schoolcraft+College+Soccer+ID+Camp",
+    "assistantCoach": "Ben Davis",
+    "assistantCoachEmail": "",
+    "coachVerified": true
+  },
+  {
+    "id": "heartland-mens",
+    "name": "Heartland Community College",
+    "location": "Normal, Illinois",
+    "state": "IL",
+    "region": "Midwest",
+    "division": "NJCAA D1",
+    "conference": "要確認",
+    "gender": "Men",
+    "mascot": "Hawks",
+    "headCoach": "Norman Ramos",
+    "coachEmail": "Norman.Ramos@heartland.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 18.0 scholarships",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "50% (11/22名)",
+    "notes": "NJCAA D1 全米大会出場校 (シード12 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "tags": [
+      "NJCAA全米大会出場",
+      "IL"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全22名 / 留学生11名 / MF 11名 (2年生以上 1名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Heartland+Community+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Heartland+Community+College+Soccer+ID+Camp",
+    "assistantCoach": "Marco Iniguez",
+    "assistantCoachEmail": "",
+    "coachVerified": true
   }
 ];
+
+// Corrections applied to colleges already saved in a user's browser (localStorage).
+// A field is only updated when the saved value still equals the old default ("from"), so user edits are never overwritten.
+const COLLEGE_DATA_FIXES = {
+  "clemsonuniversity-mens": {
+    "intlRosterPct": [
+      "35%",
+      "62% (18/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生18名 / MF 10名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "wakeforestuniversity-mens": {
+    "coachEmail": [
+      "muussb@wfu.edu",
+      "muussrp@wfu.edu"
+    ],
+    "assistantCoach": [
+      "Dane Brenner (Associate HC)",
+      "Dane Brenner"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "30% (9/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生9名 / MF 13名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofvirginia-mens": {
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "syracuseuniversity-mens": {
+    "coachEmail": [
+      "suathletics@syr.edu",
+      "ismcinty@syr.edu"
+    ],
+    "assistantCoach": [
+      "Jukka Masalin (Associate HC)",
+      "Jukka Masalin"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "37% (10/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生10名 / MF 13名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "southernmethodistuni-mens": {
+    "coachEmail": [
+      "smusoccer@smu.edu",
+      "khudson@smu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Michael King"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@smu.edu",
+      "mjking@smu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Mustangs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "19% (6/32名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全32名 / 留学生6名 / MF 9名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "uncchapelhill-mens": {
+    "coachEmail": [
+      "msoccer@unc.edu",
+      "csomoano@uncaa.unc.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Michael Callahan"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@unc.edu",
+      "mbcallah@unc.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "45% (14/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生14名 / MF 10名 (Sr・Gr 1名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ]
+  },
+  "universityofnotredam-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@nd.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "0% (0/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生0名 / MF 11名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofpittsbur-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Bryce Cregan"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@athletics.pitt.edu",
+      "bcregan@athletics.pitt.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "65%",
+      "36% (9/25名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約65%",
+      "公式ロスター全25名 / 留学生9名 / MF 11名 (Sr・Gr 5名)"
+    ],
+    "coachEmail": [
+      "pittmsoccer@athletics.pitt.edu",
+      "msoccer@athletics.pitt.edu"
+    ]
+  },
+  "dukeuniversity-mens": {
+    "coachEmail": [
+      "dukesoccer@duke.edu",
+      "jjk21@duke.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Michael Brady"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@duke.edu",
+      "michael.brady@duke.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "36% (10/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生10名 / MF 13名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認)"
+    ]
+  },
+  "ucberkeleycal-mens": {
+    "stadium": [
+      "Golden Bears Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "30%",
+      "17% (5/30名)"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生約10名 (約30%) / 欧州, 中南米",
+      "公式ロスター全30名 / 留学生5名 / MF 15名 (Sr・Gr 8名)"
+    ],
+    "japanesePlayers": [
+      "0名 (過去受け入れ実績あり)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityoflouisvil-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Stephen Lunney"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@louisville.edu",
+      "slunney@GoCards.com"
+    ],
+    "stadium": [
+      "Cardinals Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "37% (10/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生10名 / MF 9名 (Sr・Gr 0名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "cardsoccer@louisville.edu",
+      "johnh@GoCards.com"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "ncstateuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@ncsu.edu",
+      null
+    ],
+    "stadium": [
+      "Wolfpack Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "48% (15/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生15名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Hayato Takayama"
+    ]
+  },
+  "virginiatech-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@vt.edu",
+      null
+    ],
+    "stadium": [
+      "Hokies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "bostoncollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bc.edu",
+      null
+    ],
+    "stadium": [
+      "Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "36% (10/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生10名 / MF 11名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Bob Thompson",
+      "Francesco D'Agostino"
+    ],
+    "coachEmail": [
+      "eaglessoccer@bc.edu",
+      "msoccer@bc.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "indianauniversityblo-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Christian Lomeli"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@indiana.edu",
+      "clomeli@iu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "17% (5/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生5名 / MF 7名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofmaryland-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@umd.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "61% (17/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生17名 / MF 11名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofwashingt-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Mark Collings"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uw.edu",
+      "markcoll@uw.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Huskies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "0% (0/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生0名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "ohiostateuniversity-mens": {
+    "coachEmail": [
+      "buckeyesoccer@osu.edu",
+      "maisonneuve.2@osu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Matt Foldesy"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@osu.edu",
+      "foldesy.1@osu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "21% (6/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生6名 / MF 9名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "pennstateuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@psu.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "universityofmichigan-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Kevin Anderson"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@umich.edu",
+      ""
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "9% (3/32名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全32名 / 留学生3名 / MF 12名 (Sr・Gr 7名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "michiganstateunivers-mens": {
+    "coachEmail": [
+      "spartansoccer@msu.edu",
+      "rensingd@ath.msu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Reid Friedrichs"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@msu.edu",
+      "rfriedrichs@ath.msu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Spartans Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "4% (1/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生1名 / MF 9名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofwisconsi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uwbadgers.com",
+      null
+    ],
+    "stadium": [
+      "Badgers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "19% (5/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生5名 / MF 7名 (Sr・Gr 2名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "coachEmail": [
+      "badgersoccer@uwbadgers.com",
+      "wisconsinmsoc@athletics.wisc.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "rutgersuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@rutgers.edu",
+      null
+    ],
+    "stadium": [
+      "Scarlet Knights Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "27% (9/33名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全33名 / 留学生9名 / MF 10名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "georgetownuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Mike Montross"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@georgetown.edu",
+      "mm5289@georgetown.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "29% (8/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生8名 / MF 18名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "bwiese@georgetown.edu",
+      "gumenssoccer@georgetown.edu"
+    ]
+  },
+  "universityofakron-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Ger Coppinger"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uakron.edu",
+      ""
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "31% (9/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生9名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "jembick@uakron.edu",
+      "menssoccer@uakron.edu"
+    ]
+  },
+  "creightonuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Mitch Kavanagh"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@creighton.edu",
+      "mitchkavanagh@creighton.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "31% (9/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生9名 / MF 13名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "bluejaysoccer@creighton.edu",
+      "creightonsocceracademy@creighton.edu"
+    ]
+  },
+  "providencecollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@providence.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "26% (7/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生7名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "stjohnsuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@stjohns.edu",
+      null
+    ],
+    "stadium": [
+      "Red Storm Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "47% (16/34名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全34名 / 留学生16名 / MF 15名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "uconnuniversityofcon-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uconn.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "butleruniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@butler.edu",
+      null
+    ],
+    "stadium": [
+      "Bulldogs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "xavieruniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@xavier.edu",
+      null
+    ],
+    "stadium": [
+      "Musketeers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "38% (11/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生11名 / MF 10名 (Sr・Gr 1名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "setonhalluniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Jeff Matteo"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@shu.edu",
+      "jeffrey.matteo@shu.edu"
+    ],
+    "stadium": [
+      "Pirates Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "46% (13/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生13名 / MF 11名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "marquetteuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@marquette.edu",
+      null
+    ],
+    "stadium": [
+      "Golden Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "39% (11/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生11名 / MF 8名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "villanovauniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Alex Balog"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@villanova.edu",
+      "abalog@villanova.edu"
+    ],
+    "stadium": [
+      "Wildcats Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "8% (2/25名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全25名 / 留学生2名 / MF 10名 (Sr・Gr 3名) / 出身地不明3名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明3名)"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "depauluniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Scott Bratt"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@depaul.edu",
+      "sbratt@depaul.edu"
+    ],
+    "stadium": [
+      "Blue Demons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "3% (1/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生1名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "depaulsoccer@depaul.edu",
+      "mplotkin@depaul.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "marshalluniversity-mens": {
+    "assistantCoach": [
+      "Petsa Radivojevic",
+      "Josh Faga"
+    ],
+    "assistantCoachEmail": [
+      "radivojevic@marshall.edu",
+      "faga@marshall.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "65%",
+      "81% (22/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約65%",
+      "公式ロスター全27名 / 留学生22名 / MF 8名 (Sr・Gr 3名)"
+    ],
+    "coachEmail": [
+      "grassie@marshall.edu",
+      "msoccer@marshall.edu"
+    ]
+  },
+  "westvirginiauniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Andy Wright"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@mail.wvu.edu",
+      "andy.wright@mail.wvu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "55% (17/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生17名 / MF 9名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Kanta Ishii"
+    ]
+  },
+  "universityofkentucky-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uky.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "72% (18/25名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全25名 / 留学生18名 / MF 8名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "ucfunivofcentralflor-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@athletics.ucf.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "jamesmadisonuniversi-mens": {
+    "coachEmail": [
+      "jmusoccer@jmu.edu",
+      "zazenspm@jmu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Charlie Hubbard"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@jmu.edu",
+      "hubbarcj@jmu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "59% (17/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生17名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofsouthcar-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@sc.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "63% (17/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生17名 / MF 7名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "coastalcarolinaunive-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@coastal.edu",
+      null
+    ],
+    "stadium": [
+      "Chanticleers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "olddominionuniversit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@odu.edu",
+      null
+    ],
+    "stadium": [
+      "Monarchs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "georgiastateuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@gsu.edu",
+      null
+    ],
+    "stadium": [
+      "Panthers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "36% (10/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生10名 / MF 14名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "georgiasouthernunive-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "James Smith"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@georgiasouthern.edu",
+      "jamessmith@georgiasouthern.edu"
+    ],
+    "stadium": [
+      "Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "61% (17/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生17名 / MF 10名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "gseaglesoccer@georgiasouthern.edu",
+      "gsumenssoccer@georgiasouthern.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "fiufloridainternatio-mens": {
+    "coachEmail": [
+      "fiusoccer@fiu.edu",
+      "krussell@fiu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Dannie Merida"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fiu.edu",
+      "dmerida@fiu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Panthers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "65%",
+      "71% (20/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約65%",
+      "公式ロスター全28名 / 留学生20名 / MF 7名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "unccharlotte-mens": {
+    "coachEmail": [
+      "49erssoccer@charlotte.edu",
+      "klangan1@charlotte.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Shane Carew"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@charlotte.edu",
+      "scarew1@charlotte.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "49ers Stadium / Field",
+      null
+    ],
+    "intlFriendlyRating": [
+      "High",
+      "Very High"
+    ],
+    "intlRosterPct": [
+      "35%",
+      "61% (17/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生17名 / MF 9名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Natsuki Ogata"
+    ]
+  },
+  "universityoftulsa-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@utulsa.edu",
+      null
+    ],
+    "stadium": [
+      "Golden Hurricane Stadium / Field",
+      null
+    ],
+    "intlFriendlyRating": [
+      "High",
+      "Very High"
+    ],
+    "intlRosterPct": [
+      "35%",
+      "32% (9/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生9名 / MF 7名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "usfunivofsouthflorid-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@usf.edu",
+      null
+    ],
+    "stadium": [
+      "Bulls Stadium / Field",
+      null
+    ],
+    "intlFriendlyRating": [
+      "High",
+      "Extremely High"
+    ],
+    "intlRosterPct": [
+      "35%",
+      "60%"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "留学生比率 約60%"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "universityofmemphis-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@memphis.edu",
+      null
+    ],
+    "stadium": [
+      "Tigers Stadium / Field",
+      null
+    ],
+    "intlFriendlyRating": [
+      "High",
+      "Very High"
+    ],
+    "intlRosterPct": [
+      "35%",
+      "46% (13/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生13名 / MF 11名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Jin Tokishi"
+    ]
+  },
+  "floridaatlanticfau-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fau.edu",
+      null
+    ],
+    "stadium": [
+      "Owls Stadium / Field",
+      null
+    ],
+    "intlFriendlyRating": [
+      "High",
+      "Extremely High"
+    ],
+    "intlRosterPct": [
+      "35%",
+      "60% (18/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生18名 / MF 5名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Manato Ogawa"
+    ]
+  },
+  "templeuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@temple.edu",
+      null
+    ],
+    "stadium": [
+      "Owls Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "40% (12/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生12名 / MF 8名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ]
+  },
+  "uabunivofalabamabirm-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uab.edu",
+      null
+    ],
+    "stadium": [
+      "Blazers Stadium / Field",
+      null
+    ],
+    "intlFriendlyRating": [
+      "High",
+      "Very High"
+    ],
+    "intlRosterPct": [
+      "35%",
+      "45%"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "留学生比率 約45%"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "princetonuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@princeton.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "7% (2/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生2名 / MF 14名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "pennuniversityofpenn-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@upenn.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "6% (2/32名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全32名 / 留学生2名 / MF 11名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "pennsoccer@upenn.edu",
+      "brgill@upenn.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "cornelluniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@cornell.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "13% (4/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生4名 / MF 13名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "harvarduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fas.harvard.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "yaleuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@yale.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "dartmouthcollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@dartmouth.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "brownuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@brown.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "11% (3/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生3名 / MF 9名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "columbiauniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@columbia.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "ucsantabarbaraucsb-mens": {
+    "assistantCoach": [
+      "Greg Wilson (Associate HC)",
+      "Greg Wilson"
+    ],
+    "assistantCoachEmail": [
+      "gregwilson@ucsb.edu",
+      ""
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "42.9%",
+      "36% (10/28名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生12名 (42.9%) / スウェーデン, デンマーク, イスラエル, カナダ",
+      "公式ロスター全28名 / 留学生10名 / MF 11名 (Sr・Gr 0名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "gauchossoccer@ucsb.edu",
+      "menssoccer@athletics.ucsb.edu"
+    ]
+  },
+  "calpolysanluisobispo-mens": {
+    "assistantCoach": [
+      "Milan Radovic",
+      "Zach Watson"
+    ],
+    "assistantCoachEmail": [
+      "mradovic@calpoly.edu",
+      "zwatso01@calpoly.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Mustangs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "6% (2/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生2名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "mustangssoccer@calpoly.edu",
+      "mensoccer@calpoly.edu"
+    ]
+  },
+  "ucirvine-mens": {
+    "stadium": [
+      "Anteaters Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "24% (7/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生7名 / MF 10名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "anteatersoccer@uci.edu",
+      "yraz@uci.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "calstatefullerton-mens": {
+    "stadium": [
+      "Titans Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "38.2%",
+      "26% (9/34名)"
+    ],
+    "rosterStats": [
+      "部員34名中 留学生13名 (38.2%) / デンマーク, スペイン, スウェーデン",
+      "公式ロスター全34名 / 留学生9名 / MF 13名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "titansoccer@fullerton.edu",
+      "gkuntz@fullerton.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "ucdavis-mens": {
+    "stadium": [
+      "Aggies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "7.1%",
+      "4% (1/28名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生2名 (7.1%) / ブラジル",
+      "公式ロスター全28名 / 留学生1名 / MF 13名 (Sr・Gr 1名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "aggiessoccer@ucdavis.edu",
+      "ucdavissoccer@ucdavis.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "calstatenorthridgecs-mens": {
+    "stadium": [
+      "Matadors Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "16% (5/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生5名 / MF 10名 (Sr・Gr 3名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "coachEmail": [
+      "matadorsoccer@csun.edu",
+      "terry.davila@csun.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "ucriverside-mens": {
+    "stadium": [
+      "Highlanders Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "16% (5/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生5名 / MF 8名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "highlandersoccer@ucr.edu",
+      "tim.cupello@ucr.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "ucsandiegoucsd-mens": {
+    "stadium": [
+      "Tritons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "3.4%",
+      "3% (1/29名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生1名 (3.4%)",
+      "公式ロスター全29名 / 留学生1名 / MF 9名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "tritonssoccer@ucsd.edu",
+      "jpascale@ucsd.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "sacramentostate-mens": {
+    "stadium": [
+      "Hornets Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "10.7%",
+      "7% (2/28名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生3名 (10.7%)",
+      "公式ロスター全28名 / 留学生2名 / MF 11名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "calstatebakersfield-mens": {
+    "stadium": [
+      "Roadrunners Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "42.9%",
+      "43% (12/28名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生12名 (42.9%) / オーストラリア, カナダ, 欧州",
+      "公式ロスター全28名 / 留学生12名 / MF 8名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofportland-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@up.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "universityofsandiego-mens": {
+    "stadium": [
+      "Toreros Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "26.7%",
+      "27% (8/30名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生8名 (26.7%) / ブラジル, 豪州, 欧州",
+      "公式ロスター全30名 / 留学生8名 / MF 13名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "torerosoccer@sandiego.edu",
+      "brianq@sandiego.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "oregonstateuniversit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@oregonstate.edu",
+      null
+    ],
+    "stadium": [
+      "Beavers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "24% (7/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生7名 / MF 11名 (Sr・Gr 0名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "santaclarauniversity-mens": {
+    "stadium": [
+      "Broncos Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "44.4%",
+      "39% (11/28名)"
+    ],
+    "rosterStats": [
+      "部員27名中 留学生12名 (44.4%) / 日本, コスタリカ, NZ, イスラエル",
+      "公式ロスター全28名 / 留学生11名 / MF 10名 (Sr・Gr 2名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "1名 (Yu Yokokawa / 東京都 ASIJ出身 DF)",
+      "1名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "coachEmail": [
+      "broncosoccer@scu.edu",
+      "msoccer@scu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saintmaryscollegeca-mens": {
+    "coachEmail": [
+      "gaelssoccer@stmarys-ca.edu",
+      "acooper@stmarys-ca.edu"
+    ],
+    "assistantCoach": [
+      "Charlie Campbell (Associate HC)",
+      "Shawn Nicklaw"
+    ],
+    "assistantCoachEmail": [
+      "ccampbell@stmarys-ca.edu",
+      "srn6@stmarys-ca.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Gaels Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "36% (12/33名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全33名 / 留学生12名 / MF 10名 (Sr・Gr 0名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ]
+  },
+  "sanfranciscousf-mens": {
+    "coachEmail": [
+      "donssoccer@usfca.edu",
+      "cbrown14@usfca.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Dons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "17% (5/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生5名 / MF 8名 (Sr・Gr 3名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ]
+  },
+  "gonzagauniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Christo Michaelson"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@gonzaga.edu",
+      "michaelsonc@gonzaga.edu"
+    ],
+    "stadium": [
+      "Bulldogs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "11% (3/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生3名 / MF 14名 (Sr・Gr 6名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Aaron Lewis",
+      "Chris McGaughey"
+    ],
+    "coachEmail": [
+      "zagsoccer@gonzaga.edu",
+      "mcgaughey@gonzaga.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "universityofthepacif-mens": {
+    "stadium": [
+      "Tigers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "21.9%",
+      "19% (6/32名)"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生7名 (21.9%) / 中南米, 欧州",
+      "公式ロスター全32名 / 留学生6名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Adam Reeves",
+      "Andres Ochoa"
+    ],
+    "coachEmail": [
+      "tigerssoccer@pacific.edu",
+      "pacificmsoccer@pacific.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saintlouisuniversity-mens": {
+    "coachEmail": [
+      "slusoccer@slu.edu",
+      "kkalish2@slu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Kevin Stoll"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@slu.edu",
+      "kevin.stoll@slu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "35%",
+      "24% (7/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生7名 / MF 12名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofdayton-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@udayton.edu",
+      null
+    ],
+    "stadium": [
+      "Flyers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "41% (12/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生12名 / MF 12名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "vcu-mens": {
+    "coachEmail": [
+      "vcusoccer@vcu.edu",
+      "drgiffard@vcu.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Lucas Paulini"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@vcu.edu",
+      "paulinil@vcu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Rams Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "42% (11/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生11名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "fordhamuniversity-mens": {
+    "coachEmail": [
+      "fordhamsoccer@fordham.edu",
+      "cacquista@fordham.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Philip Bannister"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fordham.edu",
+      "pbannister@fordham.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Rams Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "26% (8/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生8名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認 / 出身地不明1名) Arata Mizuno"
+    ]
+  },
+  "umassamherst-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@umass.edu",
+      null
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Minutemen Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "22% (5/23名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全23名 / 留学生5名 / MF 7名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Shun Murasawa"
+    ]
+  },
+  "davidsoncollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@davidson.edu",
+      null
+    ],
+    "stadium": [
+      "Wildcats Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "4% (1/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生1名 / MF 11名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "duquesneuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@duq.edu",
+      null
+    ],
+    "stadium": [
+      "Dukes Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "20% (6/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生6名 / MF 10名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "georgemasonuniversit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@gmu.edu",
+      null
+    ],
+    "stadium": [
+      "Patriots Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "georgewashingtongw-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Nick Conklu"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@gwu.edu",
+      "nicholas.conklu@gwu.edu"
+    ],
+    "stadium": [
+      "Revolutionaries Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "24% (7/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生7名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Craig Jones",
+      "Matt Watts"
+    ],
+    "coachEmail": [
+      "gwsoccer@gwu.edu",
+      "m.watts1@gwu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "lasalleuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Ahmed Elgayar"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lasalle.edu",
+      "elgayar@lasalle.edu"
+    ],
+    "stadium": [
+      "Explorers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "41% (13/32名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全32名 / 留学生13名 / MF 14名 (Sr・Gr 8名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "lasallesoccer@lasalle.edu",
+      "thames@lasalle.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "rhodeislanduri-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uri.edu",
+      null
+    ],
+    "stadium": [
+      "Rams Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "saintjosephsuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@sju.edu",
+      null
+    ],
+    "stadium": [
+      "Hawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "stbonaventureunivers-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@sbu.edu",
+      null
+    ],
+    "stadium": [
+      "Bonnies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "hofstrauniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@hofstra.edu",
+      null
+    ],
+    "stadium": [
+      "Pride Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "59% (16/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生16名 / MF 13名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "uncwilmingtonuncw-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uncw.edu",
+      null
+    ],
+    "stadium": [
+      "Seahawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "22% (6/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生6名 / MF 8名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "elonuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@elon.edu",
+      null
+    ],
+    "stadium": [
+      "Phoenix Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "45% (13/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生13名 / MF 12名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Kosei Sasaki"
+    ]
+  },
+  "drexeluniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Ptah Myers"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@drexel.edu",
+      "pm958@drexel.edu"
+    ],
+    "stadium": [
+      "Dragons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "67% (20/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生20名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Mark Heider",
+      "David Castellanos"
+    ],
+    "coachEmail": [
+      "drexelsoccer@drexel.edu",
+      "dc3369@drexel.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "campbelluniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@campbell.edu",
+      null
+    ],
+    "stadium": [
+      "Fighting Camels Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "18% (5/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生5名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Dustin Fonder",
+      "Ricky Davey"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "universityofdelaware-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@udel.edu",
+      null
+    ],
+    "stadium": [
+      "Blue Hens Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "15% (4/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生4名 / MF 9名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "william&mary-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@wm.edu",
+      null
+    ],
+    "stadium": [
+      "Tribe Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "collegeofcharleston-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@cofc.edu",
+      null
+    ],
+    "stadium": [
+      "Cougars Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "43% (12/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生12名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認) Kira Fukuda, Michiharu Takanashi"
+    ]
+  },
+  "monmouthuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@monmouth.edu",
+      null
+    ],
+    "stadium": [
+      "Hawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "stonybrookuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@stonybrook.edu",
+      null
+    ],
+    "stadium": [
+      "Seawolves Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "34% (10/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生10名 / MF 8名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "northeasternuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@northeastern.edu",
+      null
+    ],
+    "stadium": [
+      "Huskies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "newhampshireunh-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@unh.edu",
+      null
+    ],
+    "stadium": [
+      "Wildcats Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "39% (11/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生11名 / MF 12名 (Sr・Gr 7名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認 / 出身地不明1名) Kohsuke Fukudome, Ryo Miyata"
+    ]
+  },
+  "vermontuvm-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uvm.edu",
+      null
+    ],
+    "stadium": [
+      "Catamounts Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "53% (16/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生16名 / MF 9名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "umbc-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@umbc.edu",
+      null
+    ],
+    "stadium": [
+      "Retrievers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "bryantuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bryant.edu",
+      null
+    ],
+    "stadium": [
+      "Bulldogs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "59% (20/34名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全34名 / 留学生20名 / MF 12名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "njit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@njit.edu",
+      null
+    ],
+    "stadium": [
+      "Highlanders Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "binghamtonuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Habi Darling"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@binghamton.edu",
+      "hdarling@binghamton.edu"
+    ],
+    "stadium": [
+      "Bearcats Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "25% (7/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生7名 / MF 9名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Paul Marco",
+      "Tommy Moon"
+    ],
+    "coachEmail": [
+      "bearcatsoccer@binghamton.edu",
+      "tmoon@binghamton.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "ualbany-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Elias Ehlin"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@albany.edu",
+      "eehlin@albany.edu"
+    ],
+    "stadium": [
+      "Great Danes Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "52% (15/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生15名 / MF 10名 (Sr・Gr 2名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "coachEmail": [
+      "greatdanesoccer@albany.edu",
+      "tgorman@albany.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "umasslowell-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Jason Stanton"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uml.edu",
+      "Jason_Stanton@uml.edu"
+    ],
+    "stadium": [
+      "River Hawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "61% (19/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生19名 / MF 8名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "3名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "riverhawksoccer@uml.edu",
+      "Kyle_Zenoni@uml.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "westernmichigan-mens": {
+    "coachEmail": [
+      "wmusoccer@wmich.edu",
+      "chad.wiseman@wmich.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Shane Lyons"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@wmich.edu",
+      "shane.e.lyons@wmich.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Broncos Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "27% (7/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "missouristate-mens": {
+    "coachEmail": [
+      "bearssoccer@missouristate.edu",
+      "mseabolt@missouristate.edu"
+    ],
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Andrea Cattaneo"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@missouristate.edu",
+      "ac8954s@missouristate.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "stadium": [
+      "Bears Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "96% (25/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生25名 / MF 13名 (Sr・Gr 7名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ]
+  },
+  "uicunivofillinoischi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Aleksey Korol"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uic.edu",
+      "korol@uic.edu"
+    ],
+    "stadium": [
+      "Flames Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "20% (5/25名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全25名 / 留学生5名 / MF 8名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "flamessoccer@uic.edu",
+      "sephill@uic.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "bowlinggreenbgsu-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bgsu.edu",
+      null
+    ],
+    "stadium": [
+      "Falcons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "19% (5/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生5名 / MF 5名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "drakeuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@drake.edu",
+      null
+    ],
+    "stadium": [
+      "Bulldogs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "7% (2/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生2名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "universityofevansvil-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Matt Melzer"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@evansville.edu",
+      "mm1059@evansville.edu"
+    ],
+    "stadium": [
+      "Purple Aces Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "33% (13/39名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全39名 / 留学生13名 / MF 14名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "acessoccer@evansville.edu",
+      "rt134@evansville.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "belmontuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Cam Olson"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@belmont.edu",
+      "cam.olson@belmont.edu"
+    ],
+    "stadium": [
+      "Bruins Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "15% (4/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生4名 / MF 7名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "belmontsoccer@belmont.edu",
+      "menssoccer@belmont.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "bradleyuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bradley.edu",
+      null
+    ],
+    "stadium": [
+      "Braves Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "northernillinoisniu-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@niu.edu",
+      null
+    ],
+    "stadium": [
+      "Huskies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "24% (6/25名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全25名 / 留学生6名 / MF 9名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "seattleuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@seattleu.edu",
+      null
+    ],
+    "stadium": [
+      "Redhawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "19% (5/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生5名 / MF 7名 (Sr・Gr 3名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ]
+  },
+  "grandcanyongcu-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@gcu.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "63% (19/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生19名 / MF 8名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "californiabaptistcbu-mens": {
+    "stadium": [
+      "Lancers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "59% (17/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生17名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "cbusoccer@calbaptist.edu",
+      "msoccer@calbaptist.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "sanjosestatesjsu-mens": {
+    "stadium": [
+      "Spartans Stadium / Field",
+      null
+    ]
+  },
+  "unlv-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@unlv.edu",
+      null
+    ],
+    "stadium": [
+      "Rebels Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "airforceacademy-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@afacademy.af.edu",
+      null
+    ],
+    "stadium": [
+      "Falcons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "utahvalleyuvu-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Brett Jacobs"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uvu.edu",
+      "brett.jacobs@uvu.edu"
+    ],
+    "stadium": [
+      "Wolverines Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "47% (14/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生14名 / MF 11名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Kyle Beckerman",
+      "Michael Chesler"
+    ],
+    "coachEmail": [
+      "uvusoccer@uvu.edu",
+      "michael.chesler@uvu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "utrgv-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@utrgv.edu",
+      null
+    ],
+    "stadium": [
+      "Vaqueros Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "incarnateworduiw-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Marquis Muse"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uiwtx.edu",
+      "muse@uiwtx.edu"
+    ],
+    "stadium": [
+      "Cardinals Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ],
+    "coachEmail": [
+      "uiwsoccer@uiwtx.edu",
+      "rlara@uiwtx.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "houstonchristian-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@hc.edu",
+      null
+    ],
+    "stadium": [
+      "Huskies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "universityofdenver-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@du.edu",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "11% (3/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生3名 / MF 11名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "oralrobertsoru-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@oru.edu",
+      null
+    ],
+    "stadium": [
+      "Golden Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "omahanebraskaomaha-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@unomaha.edu",
+      null
+    ],
+    "stadium": [
+      "Mavericks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "26% (7/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生7名 / MF 8名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Kamy Ndione"
+    ]
+  },
+  "kansascityumkc-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@umkc.edu",
+      null
+    ],
+    "stadium": [
+      "Roos Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "59% (19/32名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全32名 / 留学生19名 / MF 12名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認) Shotaro Kodama, Rihito Kaji"
+    ]
+  },
+  "stthomasminnesota-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@stthomas.edu",
+      null
+    ],
+    "stadium": [
+      "Tommies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "westernillinoiswiu-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@wiu.edu",
+      null
+    ],
+    "stadium": [
+      "Leathernecks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "bostonuniversitybu-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bu.edu",
+      null
+    ],
+    "stadium": [
+      "Terriers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "loyolauniversitymary-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@loyola.edu",
+      null
+    ],
+    "stadium": [
+      "Greyhounds Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "colgateuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Ricky Brown"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@colgate.edu",
+      "colgatemenssoccer@colgate.edu"
+    ],
+    "stadium": [
+      "Raiders Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "9% (3/35名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全35名 / 留学生3名 / MF 12名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "raidersoccer@colgate.edu",
+      "colgatemenssoccer@colgate.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "americanuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Patrick Mehlert"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@american.edu",
+      "mehlertp@american.edu"
+    ],
+    "stadium": [
+      "Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "15% (4/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生4名 / MF 11名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "eaglessoccer@american.edu",
+      "samol@american.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "lafayettecollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lafayette.edu",
+      null
+    ],
+    "stadium": [
+      "Leopards Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "lehighuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Ryan Hess"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lehigh.edu",
+      "reh311@lehigh.edu"
+    ],
+    "stadium": [
+      "Mountain Hawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "14% (4/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生4名 / MF 11名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "mountainhawks@lehigh.edu",
+      "lehighmenssoccer@lehigh.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "collegeoftheholycros-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@holycross.edu",
+      null
+    ],
+    "stadium": [
+      "Crusaders Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "bucknelluniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bucknell.edu",
+      null
+    ],
+    "stadium": [
+      "Bison Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "4% (1/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生1名 / MF 13名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "armywestpoint-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@westpoint.edu",
+      null
+    ],
+    "stadium": [
+      "Black Knights Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "navyusnavalacademy-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@usna.edu",
+      null
+    ],
+    "stadium": [
+      "Midshipmen Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "oaklanduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Joey Tinnion"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@oakland.edu",
+      "jtinnion@oakland.edu"
+    ],
+    "stadium": [
+      "Golden Grizzlies Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "21% (6/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生6名 / MF 8名 (Sr・Gr 0名) / 出身地不明4名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明4名)"
+    ],
+    "headCoach": [
+      "Eric Pogue",
+      "Paul Doroh"
+    ],
+    "coachEmail": [
+      "grizzliessoccer@oakland.edu",
+      "doroh@oakland.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "clevelandstate-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Charlie Krus"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@csuohio.edu",
+      "c.krus@csuohio.edu"
+    ],
+    "stadium": [
+      "Vikings Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "56% (15/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生15名 / MF 10名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Siniša Ubiparipović",
+      "Sinisa Ubiparipovic"
+    ],
+    "coachEmail": [
+      "csusoccer@csuohio.edu",
+      "s.ubiparipovic81@csuohio.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "wrightstateuniversit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@wright.edu",
+      null
+    ],
+    "stadium": [
+      "Raiders Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "39% (11/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生11名 / MF 10名 (Sr・Gr 0名) / 出身地不明3名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認 / 出身地不明3名)"
+    ]
+  },
+  "detroitmercy-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@udmercy.edu",
+      null
+    ],
+    "stadium": [
+      "Titans Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "uw-greenbay-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uwgb.edu",
+      null
+    ],
+    "stadium": [
+      "Phoenix Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "uw-milwaukee-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uwm.edu",
+      null
+    ],
+    "stadium": [
+      "Panthers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "northernkentuckynku-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@nku.edu",
+      null
+    ],
+    "stadium": [
+      "Norse Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "purduefortwaynepfw-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@pfw.edu",
+      null
+    ],
+    "stadium": [
+      "Mastodons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "robertmorrisuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@rmu.edu",
+      null
+    ],
+    "stadium": [
+      "Colonials Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "uncgreensborouncg-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uncg.edu",
+      null
+    ],
+    "stadium": [
+      "Spartans Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "50% (13/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生13名 / MF 9名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "furmanuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@furman.edu",
+      null
+    ],
+    "stadium": [
+      "Paladins Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "7% (2/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生2名 / MF 14名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "merceruniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@mercer.edu",
+      null
+    ],
+    "stadium": [
+      "Bears Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "easttennesseestateet-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@etsu.edu",
+      null
+    ],
+    "stadium": [
+      "Buccaneers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "woffordcollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Mac Thomalla"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@wofford.edu",
+      "thomallacf@wofford.edu"
+    ],
+    "stadium": [
+      "Terriers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "33% (11/33名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全33名 / 留学生11名 / MF 12名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Joel Tyson",
+      "Ryan Osborne"
+    ],
+    "coachEmail": [
+      "woffordsoccer@wofford.edu",
+      "osbornera@wofford.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "vmi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Jacob Wyrick"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@vmi.edu",
+      "wyrickjd@vmi.edu"
+    ],
+    "stadium": [
+      "Keydets Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "17% (5/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生5名 / MF 13名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "vmisoccer@vmi.edu",
+      "regannj@vmi.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "lipscombuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Julian Lucumi"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lipscomb.edu",
+      "jmlucumivillegas@lipscomb.edu"
+    ],
+    "stadium": [
+      "Bisons Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "50% (17/34名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全34名 / 留学生17名 / MF 12名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "bisonsoccer@lipscomb.edu",
+      "charles.morrow@lipscomb.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "stetsonuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Eduardo Jimenez"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@stetson.edu",
+      "efjimenez@stetson.edu"
+    ],
+    "stadium": [
+      "Hatters Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "44% (12/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生12名 / MF 10名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "hatterssoccer@stetson.edu",
+      "erutkowski@stetson.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "fgcufloridagulfcoast-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fgcu.edu",
+      null
+    ],
+    "stadium": [
+      "Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "bellarmineuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bellarmine.edu",
+      null
+    ],
+    "stadium": [
+      "Knights Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "centralarkansasuca-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uca.edu",
+      null
+    ],
+    "stadium": [
+      "Bears Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "jacksonvilleuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@ju.edu",
+      null
+    ],
+    "stadium": [
+      "Dolphins Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "northfloridaunf-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@unf.edu",
+      null
+    ],
+    "stadium": [
+      "Ospreys Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "52% (16/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全31名 / 留学生16名 / MF 8名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認) Ryuta Morioka"
+    ]
+  },
+  "queensuniversityofch-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@queens.edu",
+      null
+    ],
+    "stadium": [
+      "Royals Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "ionauniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@iona.edu",
+      null
+    ],
+    "stadium": [
+      "Gaels Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "quinnipiacuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@qu.edu",
+      null
+    ],
+    "stadium": [
+      "Bobcats Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "rideruniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Reilly Fuller"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@rider.edu",
+      "rfuller@rider.edu"
+    ],
+    "stadium": [
+      "Broncs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "30% (8/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生8名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Charlie Inverso",
+      "Chad Duernberger"
+    ],
+    "coachEmail": [
+      "broncssoccer@rider.edu",
+      "mduernberger@rider.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "maristcollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@marist.edu",
+      null
+    ],
+    "stadium": [
+      "Red Foxes Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "44% (12/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生12名 / MF 19名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "sienacollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@siena.edu",
+      null
+    ],
+    "stadium": [
+      "Saints Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "fairfielduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fairfield.edu",
+      null
+    ],
+    "stadium": [
+      "Stags Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "manhattanuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@manhattan.edu",
+      null
+    ],
+    "stadium": [
+      "Jaspers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "mountstmarys-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@msmary.edu",
+      null
+    ],
+    "stadium": [
+      "Mountaineers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "niagarauniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "David Hesch"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@niagara.edu",
+      "dhesch@niagara.edu"
+    ],
+    "stadium": [
+      "Purple Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "56% (15/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生15名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "3名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "eaglessoccer@niagara.edu",
+      "wboyle@niagara.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "canisiusuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@canisius.edu",
+      null
+    ],
+    "stadium": [
+      "Golden Griffins Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "saintpetersuniversit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Tom Coulson"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@saintpeters.edu",
+      "tcoulson17@saintpeters.edu"
+    ],
+    "stadium": [
+      "Peacocks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "59% (16/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全27名 / 留学生16名 / MF 12名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "peacockssoccer@saintpeters.edu",
+      "jrichens@saintpeters.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saintfrancisuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Connor Oechslin"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@francis.edu",
+      "coechslin@francis.edu"
+    ],
+    "stadium": [
+      "Red Flash Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "19% (3/16名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全16名 / 留学生3名 / MF 5名 (Sr・Gr 1名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Mads Kaiser",
+      "Shelby Edwards"
+    ],
+    "coachEmail": [
+      "redflashsoccer@francis.edu",
+      "sedwards@francis.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "liulongislandunivers-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@liu.edu",
+      null
+    ],
+    "stadium": [
+      "Sharks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "fairleighdickinsonfd-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Max Aken-Tyers"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@fdu.edu",
+      "m.akentyers@fdu.edu"
+    ],
+    "stadium": [
+      "Knights Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "19% (6/32名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全32名 / 留学生6名 / MF 14名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Seth Roland",
+      "Jaymee Highcock"
+    ],
+    "coachEmail": [
+      "knightssoccer@fdu.edu",
+      "j.highcock@fdu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "sacredheartuniversit-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Oscar Curras"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@sacredheart.edu",
+      "msoccer@sacredheart.edu"
+    ],
+    "stadium": [
+      "Pioneers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "41% (12/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生12名 / MF 9名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Paul Gilbert",
+      "Anthony Anzevui"
+    ],
+    "coachEmail": [
+      "pioneerssoccer@sacredheart.edu",
+      "msoccer@sacredheart.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "centralconnecticutst-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@ccsu.edu",
+      null
+    ],
+    "stadium": [
+      "Blue Devils Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "lemoynecollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Casey Murphy"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lemoyne.edu",
+      "murphca@lemoyne.edu"
+    ],
+    "stadium": [
+      "Dolphins Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "40% (12/30名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全30名 / 留学生12名 / MF 8名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "dolphinssoccer@lemoyne.edu",
+      "donncal@lemoyne.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "stonehillcollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@stonehill.edu",
+      null
+    ],
+    "stadium": [
+      "Skyhawks Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "howarduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Jason Gross"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@howard.edu",
+      "jason.gross@howard.edu"
+    ],
+    "stadium": [
+      "Bison Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "14% (4/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全28名 / 留学生4名 / MF 13名 (Sr・Gr 4名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "coachEmail": [
+      "bisonsoccer@howard.edu",
+      "phillip.gyau@howard.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "mercyhurstuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@mercyhurst.edu",
+      null
+    ],
+    "stadium": [
+      "Lakers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "chicagostateuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@csu.edu",
+      null
+    ],
+    "stadium": [
+      "Cougars Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "siuedwardsvillesiue-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@siue.edu",
+      null
+    ],
+    "stadium": [
+      "Cougars Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "libertyuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@liberty.edu",
+      null
+    ],
+    "stadium": [
+      "Flames Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "lindenwooduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lindenwood.edu",
+      null
+    ],
+    "stadium": [
+      "Lions Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "easternillinoisunive-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@eiu.edu",
+      null
+    ],
+    "stadium": [
+      "Panthers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "southernindianausi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@usi.edu",
+      null
+    ],
+    "stadium": [
+      "Screaming Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "highpointuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@highpoint.edu",
+      null
+    ],
+    "stadium": [
+      "Panthers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "15% (4/26名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全26名 / 留学生4名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "winthropuniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@winthrop.edu",
+      null
+    ],
+    "stadium": [
+      "Eagles Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "gardner-webbuniversi-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Josh Nakayama"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@gardner-webb.edu",
+      "msoccer@gardner-webb.edu"
+    ],
+    "stadium": [
+      "Runnin' Bulldogs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "58% (19/33名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全33名 / 留学生19名 / MF 10名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Scott Wells",
+      "Jonathan Lagos"
+    ],
+    "coachEmail": [
+      "bulldogssoccer@gardner-webb.edu",
+      "msoccer@gardner-webb.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "longwooduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Yuriy Sadula"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@longwood.edu",
+      "sadulay@longwood.edu"
+    ],
+    "stadium": [
+      "Lancers Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ],
+    "coachEmail": [
+      "lancersoccer@longwood.edu",
+      "gilbertpe@longwood.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "presbyteriancollege-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Paul Jones"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@presby.edu",
+      "pjones@presby.edu"
+    ],
+    "stadium": [
+      "Blue Hose Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "38% (14/37名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全37名 / 留学生14名 / MF 16名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "bluehosesoccer@presby.edu",
+      "nafinotti@presby.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "uncasheville-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Derek Neidlinger"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@unca.edu",
+      "dneidlin@unca.edu"
+    ],
+    "stadium": [
+      "Bulldogs Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "55% (16/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全29名 / 留学生16名 / MF 11名 (Sr・Gr 6名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "2名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Mick Giordano",
+      "Danny Frid"
+    ],
+    "coachEmail": [
+      "bulldogssoccer@unca.edu",
+      "dfrid@unca.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "radforduniversity-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Ryan Palmbaum"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@radford.edu",
+      "rpalmbaum@radford.edu"
+    ],
+    "stadium": [
+      "Highlanders Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "38% (9/24名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "公式ロスター全24名 / 留学生9名 / MF 8名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Chris Barrett",
+      "Andy Cormack"
+    ],
+    "coachEmail": [
+      "highlandersoccer@radford.edu",
+      "acormack1@radford.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "uscupstate-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uscupstate.edu",
+      null
+    ],
+    "stadium": [
+      "Spartans Stadium / Field",
+      null
+    ],
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "sdsu-mens": {
+    "intlRosterPct": [
+      "35%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約35%",
+      "要確認"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "franklinpierce-mens": {
+    "headCoach": [
+      "Travis Brent",
+      "Diego Thielen"
+    ],
+    "coachEmail": [
+      "brentt@franklinpierce.edu",
+      "thielend@franklinpierce.edu"
+    ],
+    "assistantCoach": [
+      "Liam O'Brien",
+      "Scotty Murray"
+    ],
+    "assistantCoachEmail": [
+      "msoccer@franklinpierce.edu",
+      "murrays@franklinpierce.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "75%",
+      "40% (20/50名)"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生24名 (75%) / 欧州, 日本, 南米",
+      "公式ロスター全50名 / 留学生20名 / MF 16名 (Sr・Gr 5名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "1〜2名在籍 (全国大会優勝・プロ輩出)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ]
+  },
+  "charleston-mens": {
+    "headCoach": [
+      "Dan Stratford",
+      "Daniel Smee"
+    ],
+    "coachEmail": [
+      "msoccer@ucwv.edu",
+      "ucmenssoccer@ucwv.edu"
+    ],
+    "assistantCoach": [
+      "Nick West",
+      "Corbin Bowers"
+    ],
+    "assistantCoachEmail": [
+      "nickwest@ucwv.edu",
+      ""
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "80%",
+      "64% (34/53名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生24名 (80%) / 欧州, 日本",
+      "公式ロスター全53名 / 留学生34名 / MF 14名 (Sr・Gr 5名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "1〜2名在籍 (日本人主力選手活躍)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "lynn-mens": {
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "tufts-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@tufts.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "chicago-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@uchicago.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "messiah-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@messiah.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "williams-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@williams.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "grandview-mens": {
+    "assistantCoach": [
+      "Daniel Rutter",
+      "Jonathan Rivera"
+    ],
+    "assistantCoachEmail": [
+      "drutter@grandview.edu",
+      "jrivera@grandview.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "75%",
+      "62% (21/34名)"
+    ],
+    "rosterStats": [
+      "部員約35名中 留学生約26名 (75%) / 日本, 欧州, 南米",
+      "公式ロスター全34名 / 留学生21名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "3〜5名在籍 (帝京長岡, 星稜, Jユース出身等)",
+      "4名 (公式ロスター確認)"
+    ],
+    "notes": [
+      "全米最大の日本人拠点。All-American選出実績多数。手厚い奨学金。",
+      "NAIAの強豪。ロスターに日本人選手4名(公式確認)、留学生比率62%。All-American選出実績多数。手厚い奨学金。"
+    ]
+  },
+  "keiser-mens": {
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "85%",
+      "90% (28/31名)"
+    ],
+    "rosterStats": [
+      "部員約30名中 留学生約25名 (85%) / 日本, ドイツ, ブラジル等",
+      "公式ロスター全31名 / 留学生28名 / MF 15名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "2〜3名在籍",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "lindseywilson-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Jack Cousin"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@lindsey.edu",
+      "cousinj@lindsey.edu"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "intlRosterPct": [
+      "80%",
+      "84% (21/25名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約80%",
+      "公式ロスター全25名 / 留学生21名 / MF 7名 (Sr・Gr 1名) / 出身地不明2名"
+    ],
+    "headCoach": [
+      "Ray Wells",
+      "Sicelo Buthelezi"
+    ],
+    "coachEmail": [
+      "wellsr@lindsey.edu",
+      "buthelezis@lindsey.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "midamerica-mens": {
+    "coachEmail": [
+      "kwardlaw@mnu.edu",
+      "kpwardlaw@mnu.edu"
+    ],
+    "assistantCoach": [
+      "Bryan Perez",
+      "Atanas Karagyaurov"
+    ],
+    "assistantCoachEmail": [
+      "bperez@mnu.edu",
+      "apkaragyaurov@mnu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "intlRosterPct": [
+      "70%",
+      "35% (18/52名)"
+    ],
+    "rosterStats": [
+      "部員約32名中 留学生約22名 (70%) / 日本, 欧州",
+      "公式ロスター全52名 / 留学生18名 / MF 20名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "4〜6名在籍 (全米制覇メンバー)",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "oklahomawesleyan-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@okwu.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "riogrande-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@rio.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "iowawestern-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "tylerjc-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@tjc.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "monroe-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      "Jay Myers"
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@monroecollege.edu",
+      "jmyers@monroeu.edu"
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "3名 (公式ロスター確認 / 出身地不明5名)"
+    ],
+    "intlRosterPct": [
+      "85%",
+      "65% (39/60名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約85%",
+      "公式ロスター全60名 / 留学生39名 / MF 23名 (Sr・Gr 2名) / 出身地不明5名"
+    ],
+    "coachEmail": [
+      "mdibernardo@monroecollege.edu",
+      "mdibernardo@monroeu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saltlake-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@slcc.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "barton-mens": {
+    "assistantCoach": [
+      "Scotty Murray (Assistant Coach)",
+      null
+    ],
+    "assistantCoachEmail": [
+      "soccer-recruiting@bartonccc.edu",
+      null
+    ],
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "southeastern-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "warner-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "avemaria-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "floridamemorial-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "georgiagwinnett-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "thomasuniversity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "pointuniversity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "cumberlands-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "cumberlanduniversity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "campbellsville-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "georgetowncollege-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "faulkner-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "92% (33/36名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全36名 / 留学生33名 / MF 9名 (Sr・Gr 4名)"
+    ],
+    "headCoach": [
+      "",
+      "Gabriel De Queiroz"
+    ],
+    "coachEmail": [
+      "",
+      "gqueiroz@faulkner.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Fahel Matos"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "fmatos@faulkner.edu"
+    ]
+  },
+  "williamcarey-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "87% (27/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生27名 / MF 12名 (Sr・Gr 4名)"
+    ],
+    "headCoach": [
+      "",
+      "Barry Farrell"
+    ],
+    "coachEmail": [
+      "",
+      "bfarrell@wmcarey.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "tennesseewesleyan-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "reinhardt-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "texaswesleyan-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "oklahomacity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "56% (14/25名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全25名 / 留学生14名 / MF 6名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "headCoach": [
+      "",
+      "Billy Martin"
+    ],
+    "coachEmail": [
+      "",
+      "wjmartin@okcu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Gui Grave"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "gfgrave@okcu.edu"
+    ]
+  },
+  "bellevue-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "benedictine-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "baker-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "avila-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "columbiacollegemo-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "indianawesleyan-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "pikeville-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "shawneestate-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "westmont-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "vanguard-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "0% (0/34名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全34名 / 留学生0名 / MF 9名 (Sr・Gr 2名)"
+    ],
+    "headCoach": [
+      "",
+      "Jesus (Chuy) Miramontes"
+    ],
+    "coachEmail": [
+      "",
+      "msoccer@vanguard.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "corban-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "21% (7/34名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全34名 / 留学生7名 / MF 11名 (Sr・Gr 1名)"
+    ],
+    "headCoach": [
+      "",
+      "Jordan Keegan"
+    ],
+    "coachEmail": [
+      "",
+      "jkeegan@corban.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saintleo-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "57% (17/30名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全30名 / 留学生17名 / MF 9名 (Sr・Gr 1名) / 出身地不明1名"
+    ],
+    "headCoach": [
+      "",
+      "Brett Parker"
+    ],
+    "coachEmail": [
+      "",
+      "brett.parker@saintleo.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Graham Brown"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "graham.brown@saintleo.edu"
+    ]
+  },
+  "novasoutheastern-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "floridasouthern-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "eckerd-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "flagler-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "westflorida-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "leeuniversity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "unionuniversity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "valdostastate-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "columbusstate-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "northgeorgia-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "33% (10/30名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全30名 / 留学生10名 / MF 10名 (Sr・Gr 3名)"
+    ],
+    "headCoach": [
+      "",
+      "Anel Lilic"
+    ],
+    "coachEmail": [
+      "",
+      "anel.lilic@ung.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Joel Mcilroy"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "alexander.mcilroy@ung.edu"
+    ]
+  },
+  "uscaiken-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認 / 出身地不明4名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "58% (18/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生18名 / MF 16名 (Sr・Gr 3名) / 出身地不明4名"
+    ],
+    "headCoach": [
+      "",
+      "Nick Sakiewicz"
+    ],
+    "coachEmail": [
+      "",
+      "nicolaus.sakiewicz@usca.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "francismarion-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "64% (28/44名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全44名 / 留学生28名 / MF 21名 (Sr・Gr 12名)"
+    ],
+    "headCoach": [
+      "",
+      "Luis Rincon"
+    ],
+    "coachEmail": [
+      "",
+      "Luis.Rincon@fmarion.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Nicolas Rodriguez"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "nicolas.rodriguez@fmarion.edu"
+    ]
+  },
+  "uncpembroke-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "belmontabbey-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "mountolive-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "catawba-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "carsonnewman-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "marshill-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "newberry-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "tusculum-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "lincolnmemorial-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "40% (21/52名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全52名 / 留学生21名 / MF 16名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "headCoach": [
+      "",
+      "Tom Gillette"
+    ],
+    "coachEmail": [
+      "",
+      "thomas.gillette@lmunet.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "August Harp"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "august.harp@lmunet.edu"
+    ]
+  },
+  "lewisuniversity-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "drury-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "rockhurst-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "quincy-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "trumanstate-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "missouriST-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "32% (13/41名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全41名 / 留学生13名 / MF 16名 (Sr・Gr 3名)"
+    ],
+    "headCoach": [
+      "",
+      "Robert Cummings"
+    ],
+    "coachEmail": [
+      "",
+      "cummingsrc@mst.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "kentuckywesleyan-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "uwparkside-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "illinoisspringfield-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "walsh-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "findlay-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "malone-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "waynestate-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "northwood-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "adelphi-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "bentley-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "saintanselm-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "southernct-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "newhaven-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "assumption-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "pace-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "15% (11/71名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全71名 / 留学生11名 / MF 25名 (Sr・Gr 2名) / 出身地不明2名"
+    ],
+    "headCoach": [
+      "",
+      "Edward Evans"
+    ],
+    "coachEmail": [
+      "",
+      "eevans@pace.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saintmichaels-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "nyit-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "molloy-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "westchester-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "0% (0/28名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全28名 / 留学生0名 / MF 7名 (Sr・Gr 2名)"
+    ],
+    "headCoach": [
+      "",
+      "Michael Benn"
+    ],
+    "coachEmail": [
+      "",
+      "mbenn@wcupa.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "iup-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "eaststroudsburg-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "millersville-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "setonhill-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "wvwesleyan-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "wheeling-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "concordwv-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "byuhawaii-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "hawaiipacific-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "chaminade-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "fresnopacific-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "dominicanca-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明4名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "6% (2/36名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全36名 / 留学生2名 / MF 15名 (Sr・Gr 2名) / 出身地不明4名"
+    ],
+    "headCoach": [
+      "",
+      "David Frank"
+    ],
+    "coachEmail": [
+      "",
+      "david.frank@dominican.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Ricardo Martin"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "ricardo.martin@dominican.edu"
+    ]
+  },
+  "csudh-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ],
+    "headCoach": [
+      "",
+      "Eddie Soto"
+    ],
+    "coachEmail": [
+      "",
+      "esoto@csudh.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Patryk Tenorio"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "ptenorio@csudh.edu"
+    ]
+  },
+  "csueastbay-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "4% (1/27名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全27名 / 留学生1名 / MF 8名 (Sr・Gr 2名)"
+    ],
+    "headCoach": [
+      "",
+      "Michael Haswell"
+    ],
+    "coachEmail": [
+      "",
+      "michael.haswell@csueastbay.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Dannylo Ayllon"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "dannylo.ayllon@csueastbay.edu"
+    ]
+  },
+  "csusanmarcos-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "3% (1/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生1名 / MF 15名 (Sr・Gr 5名) / 出身地不明1名"
+    ],
+    "headCoach": [
+      "",
+      "Ron Pulvers"
+    ],
+    "coachEmail": [
+      "",
+      "rpulvers@csusm.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Matt Aldama"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "maldama@csusm.edu"
+    ]
+  },
+  "sfstate-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "westernwashington-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "9% (2/23名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全23名 / 留学生2名 / MF 10名 (Sr・Gr 1名)"
+    ],
+    "headCoach": [
+      "",
+      "Greg Brisbon"
+    ],
+    "coachEmail": [
+      "",
+      "wwumsoccer@wwu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Chuck Pitts"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "wwumsoccer@wwu.edu"
+    ]
+  },
+  "saintmartins-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "0% (0/35名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全35名 / 留学生0名 / MF 15名 (Sr・Gr 4名) / 出身地不明2名"
+    ],
+    "headCoach": [
+      "",
+      "Rob Walker"
+    ],
+    "coachEmail": [
+      "",
+      "rwalker@stmartin.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "coloradomesa-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "regis-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "39% (12/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生12名 / MF 9名 (Sr・Gr 3名)"
+    ],
+    "headCoach": [
+      "",
+      "Taylor Diem"
+    ],
+    "coachEmail": [
+      "",
+      "tdiem@regis.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "assistantCoach": [
+      null,
+      "Steven Cahill"
+    ],
+    "assistantCoachEmail": [
+      null,
+      "msoccer@regis.edu"
+    ]
+  },
+  "metrostatedenver-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "coloradochristian-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "stedwards-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "stmarystx-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "uttyler-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "utpb-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "lubbockchristian-mens": {
+    "japanesePlayers": [
+      "0名 (要問合せ)",
+      "未確認 (要問合せ)"
+    ]
+  },
+  "barry-mens": {
+    "intlRosterPct": [
+      "70%",
+      "58% (19/33名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生20名 (70%) / 欧州, 中南米",
+      "公式ロスター全33名 / 留学生19名 / MF 12名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Steve McCrath",
+      "Petsa Ivanovic"
+    ],
+    "coachEmail": [
+      "smccrath@barry.edu",
+      "pivanovic@barry.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "calpolypomona-mens": {
+    "intlRosterPct": [
+      "20%",
+      "19% (6/32名)"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生6名 (18.8%) / 欧州, メキシコ",
+      "公式ロスター全32名 / 留学生6名 / MF 10名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "過去受け入れ実績あり",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "mosullivan@cpp.edu",
+      "mjosullivan@cpp.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "chicostate-mens": {
+    "intlRosterPct": [
+      "20%",
+      "0% (0/31名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生6名 (21%)",
+      "公式ロスター全31名 / 留学生0名 / MF 12名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "frestrepo@csuchico.edu",
+      "lrestrepo@csuchico.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "csumontereybay-mens": {
+    "intlRosterPct": [
+      "25%",
+      "10% (3/29名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生7名 (25%) / 欧州, アジア",
+      "公式ロスター全29名 / 留学生3名 / MF 10名 (Sr・Gr 3名) / 出身地不明3名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (美しいモントレーベイ海岸)",
+      "0名 (公式ロスター確認 / 出身地不明3名)"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "csupueblo-mens": {
+    "intlRosterPct": [
+      "65%",
+      "50% (19/38名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生20名 (67%) / イギリス, 日本, ドイツ等",
+      "公式ロスター全38名 / 留学生19名 / MF 6名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "1〜2名在籍 (日本人主力DF/MF活躍)",
+      "1名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Oliver Twelvetrees",
+      "Thomás Pazo Tourinho"
+    ],
+    "coachEmail": [
+      "oliver.twelvetrees@csupueblo.edu",
+      "t.pazotourinho@csupueblo.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "csusb-mens": {
+    "intlRosterPct": [
+      "25%",
+      "0% (0/33名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生7名 (25%)",
+      "公式ロスター全33名 / 留学生0名 / MF 9名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "josh.hill@csusb.edu",
+      "joshua.hill@csusb.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "floridatech-mens": {
+    "intlRosterPct": [
+      "70%",
+      "62% (20/32名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生20名 (69%) / 欧州, アジア",
+      "公式ロスター全32名 / 留学生20名 / MF 12名 (Sr・Gr 6名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (2023 全米Final Four)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Robin Chan",
+      "Nick Robinson"
+    ],
+    "coachEmail": [
+      "rchan@fit.edu",
+      "nrobinson@fit.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "fortlewis-mens": {
+    "intlRosterPct": [
+      "45%",
+      "55% (16/29名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生13名 (45%) / 欧州, 中南米",
+      "公式ロスター全29名 / 留学生16名 / MF 11名 (Sr・Gr 1名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "oberholtzer_d@fortlewis.edu",
+      "dwoberholtzer@fortlewis.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "gannon-mens": {
+    "intlRosterPct": [
+      "70%",
+      "47% (23/49名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生20名 (69%) / 欧州, 日本, 南米",
+      "公式ロスター全49名 / 留学生23名 / MF 12名 (Sr・Gr 1名) / 出身地不明4名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (2023 全米Elite Eight)",
+      "0名 (公式ロスター確認 / 出身地不明4名)"
+    ],
+    "coachEmail": [
+      "colton001@gannon.edu",
+      "colton002@gannon.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "lander-mens": {
+    "intlRosterPct": [
+      "75%",
+      "49% (17/35名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生23名 (77%) / イギリス, 欧州, 南米",
+      "公式ロスター全35名 / 留学生17名 / MF 7名 (Sr・Gr 1名) / 出身地不明3名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認 / 出身地不明3名)"
+    ],
+    "headCoach": [
+      "Dale White",
+      "Paul Leese"
+    ],
+    "coachEmail": [
+      "dwhite@lander.edu",
+      "pleese@lander.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "lenoirrhyne-mens": {
+    "intlRosterPct": [
+      "75%",
+      "34% (13/38名)"
+    ],
+    "rosterStats": [
+      "部員31名中 留学生23名 (74%) / スペイン, ドイツ, 南米",
+      "公式ロスター全38名 / 留学生13名 / MF 16名 (Sr・Gr 6名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認)"
+    ]
+  },
+  "maryville-mens": {
+    "intlRosterPct": [
+      "55%",
+      "69% (20/29名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生16名 (55%) / 欧州, 南米",
+      "公式ロスター全29名 / 留学生20名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (サッカーの街セントルイス)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "David Korn",
+      "Adam Hall"
+    ],
+    "coachEmail": [
+      "dkorn@maryville.edu",
+      "ahall26@maryville.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "pba-mens": {
+    "intlRosterPct": [
+      "65%",
+      "67% (20/30名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生20名 (67%) / 欧州, 南米",
+      "公式ロスター全30名 / 留学生20名 / MF 12名 (Sr・Gr 7名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (パームビーチ高級リゾート立地)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Brian McMahon",
+      "Lucas Martorana"
+    ],
+    "coachEmail": [
+      "brian_mcmahon@pba.edu",
+      "lucas_martorana@pba.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "rollins-mens": {
+    "intlRosterPct": [
+      "40%",
+      "47% (16/34名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生11名 (39%) / イギリス, 欧州",
+      "公式ロスター全34名 / 留学生16名 / MF 11名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (フロリダ屈指のリベラルアーツ)",
+      "1名 (公式ロスター確認)"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "saginawvalley-mens": {
+    "intlRosterPct": [
+      "40%",
+      "45% (13/29名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生12名 (40%) / イギリス, カナダ等",
+      "公式ロスター全29名 / 留学生13名 / MF 9名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (2012 全米準優勝)",
+      "1名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "ldbarrow@svsu.edu",
+      "lpbarrow@svsu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "simonfraser-mens": {
+    "intlRosterPct": [
+      "50%",
+      "100% (24/24名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生14名 (50%) / カナダ, 米国, 日本等",
+      "公式ロスター全24名 / 留学生24名 / MF 6名 (Sr・Gr 0名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (バンクーバー近郊)",
+      "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Clint Schneider",
+      "Kevin Harmse"
+    ],
+    "coachEmail": [
+      "clint_schneider@sfu.ca",
+      "kharmse@sfu.ca"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "snhu-mens": {
+    "intlRosterPct": [
+      "60%",
+      "46% (16/35名)"
+    ],
+    "rosterStats": [
+      "部員31名中 留学生19名 (61%) / 欧州, 南米",
+      "公式ロスター全35名 / 留学生16名 / MF 17名 (Sr・Gr 9名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (2013 全米王者)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "j.taylor3@snhu.edu",
+      "joshua.taylor@snhu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "tiffin-mens": {
+    "intlRosterPct": [
+      "75%",
+      "45% (24/53名)"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生24名 (75%) / 欧州, 日本, 南米",
+      "公式ロスター全53名 / 留学生24名 / MF 18名 (Sr・Gr 5名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "1〜2名在籍 (日本人選手受入に好意的)",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ]
+  },
+  "uindy-mens": {
+    "intlRosterPct": [
+      "60%",
+      "25% (16/63名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生18名 (60%) / 欧州, 日本, 南米",
+      "公式ロスター全63名 / 留学生16名 / MF 24名 (Sr・Gr 8名) / 出身地不明2名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "coachEmail": [
+      "ghall@uindy.edu",
+      "hallgm@uindy.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "wingate-mens": {
+    "intlRosterPct": [
+      "75%",
+      "55% (16/29名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生22名 (75%) / 欧州, アジア",
+      "公式ロスター全29名 / 留学生16名 / MF 13名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "japanesePlayers": [
+      "受入実績あり",
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "bulldogssoccer@wingate.edu",
+      "hamill@wingate.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "youngharris-mens": {
+    "intlRosterPct": [
+      "80%",
+      "55% (24/44名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生23名 (79%) / 欧州, 南米",
+      "公式ロスター全44名 / 留学生24名 / MF 23名 (Sr・Gr 2名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (国際派)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "dgrey@yhc.edu",
+      "dcgrey@yhc.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "midwesternstate-mens": {
+    "intlRosterPct": [
+      "50%",
+      "11% (4/35名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生15名 (50%) / 欧州, 南米",
+      "公式ロスター全35名 / 留学生4名 / MF 12名 (Sr・Gr 0名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (手頃な学費)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "seattlepacific-mens": {
+    "intlRosterPct": [
+      "30%",
+      "0% (0/34名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生8名 (29%) / イギリス, 欧州",
+      "公式ロスター全34名 / 留学生0名 / MF 13名 (Sr・Gr 3名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (シアトル中心部好立地)",
+      "0名 (公式ロスター確認)"
+    ],
+    "coachEmail": [
+      "sakudak@spu.edu",
+      "sakudak1@spu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "calstatela-mens": {
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "pointloma-mens": {
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "ucla-mens": {
+    "intlRosterPct": [
+      "30%",
+      "53% (16/30名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生約9名 (約30%) / 欧州, 南米",
+      "公式ロスター全30名 / 留学生16名 / MF 11名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "0名 (過去受け入れ実績あり)",
+      "0名 (公式ロスター確認)"
+    ]
+  }
+};
+
+// Duplicate college entries that were merged: removedId -> keptId
+const DUPLICATE_COLLEGE_ID_MAP = {
+  "fiu-mens": "fiufloridainternatio-mens",
+  "charlotte-mens": "unccharlotte-mens",
+  "tulsa-mens": "universityoftulsa-mens",
+  "usf-fl-mens": "usfunivofsouthflorid-mens",
+  "memphis-mens": "universityofmemphis-mens",
+  "fau-mens": "floridaatlanticfau-mens",
+  "temple-mens": "templeuniversity-mens",
+  "uab-mens": "uabunivofalabamabirm-mens",
+  "stonehill-mens": "stonehillcollege-mens",
+  "mercyhurst-mens": "mercyhurstuniversity-mens"
+};
 
 // Default Athlete Profile for Demo / Initial State
 // (Transfer track: 大学2年次終了後 -> 3年次編入)
@@ -11694,7 +19860,7 @@ const INITIAL_PIPELINE = [
     lastContactDate: "",
     offerType: "None",
     offerAmountUSD: 0,
-    coachContacted: "Alen Kudumovic",
+    coachContacted: "David Groves",
     notes: "NAIA。日本人選手の在籍実績が多い拠点校。3年次編入枠・ポジションの空き・単位認定を確認する。",
     nextAction: "編入(Rising Junior)向けの初回メールとハイライト映像を送付",
     nextActionDate: "2026-12-15"
@@ -11707,7 +19873,7 @@ const INITIAL_PIPELINE = [
     lastContactDate: "",
     offerType: "None",
     offerAmountUSD: 0,
-    coachContacted: "Coach Resendes",
+    coachContacted: "Diego Thielen",
     notes: "NCAA D2強豪。留学生の受入実績が高く奨学金枠(最大9.0)あり。編入生のロスター枠と単位認定を確認する。",
     nextAction: "現所属校の成績証明書(Transcript)の発行を依頼し、Zoom面談を打診",
     nextActionDate: "2027-01-15"
