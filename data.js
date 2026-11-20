@@ -96,7 +96,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14750,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "26% (7/27名)",
     "notes": "7x NCAA Champions. Elite historic dynasty.",
     "tags": [
       "ACC",
@@ -104,8 +104,8 @@ const INITIAL_COLLEGES = [
       "Cavaliers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生7名 / MF 10名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://virginiasports.com/sports/mens-soccer/recruits",
     "campUrl": "https://virginiasoccercamp.com/",
     "assistantCoach": "Matt Chulis (Associate HC)",
@@ -132,7 +132,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 21315,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "11.1%",
+    "intlRosterPct": "7% (2/27名)",
     "notes": "全米3連覇王者 (2015-17)。文武両道最高峰。2024年秋よりACC所属。日本人選手(Yujin Kikuchi)在籍。",
     "tags": [
       "ACC",
@@ -141,7 +141,7 @@ const INITIAL_COLLEGES = [
       "D1 Men's Soccer"
     ],
     "japanesePlayers": "1名 (Yujin Kikuchi / 千葉県出身 Freshman)",
-    "rosterStats": "部員27名中 留学生3名 (11.1%) / カナダ, 日本",
+    "rosterStats": "公式ロスター全27名 / 留学生2名 / MF 10名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://gostanford.com/sports/mens-soccer/recruits",
     "campUrl": "https://stanfordmenssoccercamp.com/",
     "assistantCoach": "Ben Newby / Christian Meza",
@@ -489,7 +489,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "45% (13/29名)",
     "notes": "Thompson Field. Regular NCAA tournament contenders.",
     "tags": [
       "ACC",
@@ -497,8 +497,8 @@ const INITIAL_COLLEGES = [
       "Hokies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生13名 / MF 13名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Virginia+Tech+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Virginia+Tech+Soccer+ID+Camp",
     "strengthLevel": 4,
@@ -737,7 +737,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13420,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "39% (9/23名)",
     "notes": "Jeffrey Field. Rich soccer history & passionate fans.",
     "tags": [
       "Big Ten",
@@ -745,8 +745,8 @@ const INITIAL_COLLEGES = [
       "Nittany Lions",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全23名 / 留学生9名 / MF 7名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=Penn+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Penn+State+University+Soccer+ID+Camp",
     "strengthLevel": 3,
@@ -1089,7 +1089,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14750,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "34% (10/29名)",
     "notes": "3x Champions (1948, 1981, 2000). Morrone Stadium.",
     "tags": [
       "Big East",
@@ -1097,8 +1097,8 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Yotaro Furutani",
+    "rosterStats": "公式ロスター全29名 / 留学生10名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=UConn+(University+of+Connecticut)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UConn+(University+of+Connecticut)+Soccer+ID+Camp",
     "strengthLevel": 4,
@@ -1122,7 +1122,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "31% (8/26名)",
     "notes": "Sellick Bowl. Technical program with strong European pipeline.",
     "tags": [
       "Big East",
@@ -1130,8 +1130,8 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Haato Efune",
+    "rosterStats": "公式ロスター全26名 / 留学生8名 / MF 9名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Butler+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Butler+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -1438,7 +1438,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "71% (17/24名)",
     "notes": "Orlando Florida. Massive campus with top weather & soccer.",
     "tags": [
       "Sun Belt",
@@ -1446,8 +1446,8 @@ const INITIAL_COLLEGES = [
       "Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "3名 (公式ロスター確認) Seiryu Ono, Sena Yamamoto, Takahiro Fujita",
+    "rosterStats": "公式ロスター全24名 / 留学生17名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=UCF+(Univ+of+Central+Florida)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UCF+(Univ+of+Central+Florida)+Soccer+ID+Camp",
     "strengthLevel": 4,
@@ -1542,7 +1542,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "36% (9/25名)",
     "notes": "CCU Soccer Stadium. Multiple Sun Belt titles.",
     "tags": [
       "Sun Belt",
@@ -1550,8 +1550,8 @@ const INITIAL_COLLEGES = [
       "Chanticleers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生9名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -1575,7 +1575,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "39% (11/28名)",
     "notes": "ODU Soccer Complex in coastal Virginia.",
     "tags": [
       "Sun Belt",
@@ -1583,8 +1583,8 @@ const INITIAL_COLLEGES = [
       "Monarchs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生11名 / MF 10名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Old+Dominion+University+(ODU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Old+Dominion+University+(ODU)+Soccer+ID+Camp",
     "strengthLevel": 3,
@@ -1782,7 +1782,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "60%",
+    "intlRosterPct": "43% (12/28名)",
     "notes": "Corbett Stadium in Tampa Florida. Elite grass pitch.",
     "tags": [
       "American Athletic",
@@ -1790,8 +1790,8 @@ const INITIAL_COLLEGES = [
       "Bulls",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約60%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全28名 / 留学生12名 / MF 7名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=USF+(Univ+of+South+Florida)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=USF+(Univ+of+South+Florida)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -1914,7 +1914,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "45%",
+    "intlRosterPct": "57% (16/28名)",
     "notes": "BBVA Field in downtown Birmingham Alabama.",
     "tags": [
       "American Athletic",
@@ -1922,8 +1922,8 @@ const INITIAL_COLLEGES = [
       "Blazers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約45%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生16名 / MF 7名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=UAB+(Univ+of+Alabama+Birmingham)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UAB+(Univ+of+Alabama+Birmingham)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -2085,7 +2085,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18450,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "14% (4/28名)",
     "notes": "Reese Stadium in New Haven CT. 2019 Ivy League Champions.",
     "tags": [
       "Ivy League",
@@ -2093,8 +2093,8 @@ const INITIAL_COLLEGES = [
       "Bulldogs",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生4名 / MF 10名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Yale+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Yale+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -2119,7 +2119,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "46% (13/28名)",
     "notes": "Burnham Field. Multiple Ivy titles in last decade.",
     "tags": [
       "Ivy League",
@@ -2127,8 +2127,8 @@ const INITIAL_COLLEGES = [
       "Big Green",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生13名 / MF 8名 (Sr・Gr 1名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Dartmouth+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Dartmouth+College+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -2187,7 +2187,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "22% (6/27名)",
     "notes": "Rocco B. Commisso Stadium in Upper Manhattan NYC.",
     "tags": [
       "Ivy League",
@@ -2195,8 +2195,8 @@ const INITIAL_COLLEGES = [
       "Lions",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生6名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Columbia+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Columbia+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -2580,7 +2580,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "15% (5/33名)",
     "notes": "Historic Merlo Field. Unrivaled pro output & international recruiting.",
     "tags": [
       "WCC",
@@ -2588,8 +2588,8 @@ const INITIAL_COLLEGES = [
       "Pilots",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生5名 / MF 8名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Portland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Portland+Soccer+ID+Camp",
     "strengthLevel": 4,
@@ -3104,7 +3104,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "48% (13/27名)",
     "notes": "George Mason Stadium in Washington DC suburbs.",
     "tags": [
       "Atlantic 10",
@@ -3112,8 +3112,8 @@ const INITIAL_COLLEGES = [
       "Patriots",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全27名 / 留学生13名 / MF 8名 (Sr・Gr 6名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=George+Mason+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=George+Mason+University+Soccer+ID+Camp",
     "strengthLevel": 4,
@@ -3209,7 +3209,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14600,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "38% (10/26名)",
     "notes": "URI Soccer Complex. Multiple A-10 tournament titles.",
     "tags": [
       "Atlantic 10",
@@ -3217,8 +3217,8 @@ const INITIAL_COLLEGES = [
       "Rams",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生10名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Rhode+Island+(URI)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rhode+Island+(URI)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -3242,7 +3242,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "16% (6/37名)",
     "notes": "Sweeney Field. Jesuit university in Philadelphia.",
     "tags": [
       "Atlantic 10",
@@ -3250,8 +3250,8 @@ const INITIAL_COLLEGES = [
       "Hawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全37名 / 留学生6名 / MF 14名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -3275,7 +3275,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15100,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "55% (16/29名)",
     "notes": "Marra Athletics Complex in Western NY.",
     "tags": [
       "Atlantic 10",
@@ -3283,8 +3283,8 @@ const INITIAL_COLLEGES = [
       "Bonnies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生16名 / MF 13名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -3510,7 +3510,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "7% (2/29名)",
     "notes": "Albert-Daly Field. Top historic public Ivy academic standard.",
     "tags": [
       "CAA",
@@ -3518,8 +3518,8 @@ const INITIAL_COLLEGES = [
       "Tribe",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生2名 / MF 11名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=William+&+Mary+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=William+&+Mary+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -3576,7 +3576,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "35% (9/26名)",
     "notes": "Hesse Field on Great Lawn. 1 mile from NJ beach.",
     "tags": [
       "CAA",
@@ -3584,8 +3584,8 @@ const INITIAL_COLLEGES = [
       "Hawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生9名 / MF 9名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Monmouth+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Monmouth+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -3642,7 +3642,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 19200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "19% (5/27名)",
     "notes": "Parsons Field. Premier Boston university with top co-op program.",
     "tags": [
       "CAA",
@@ -3650,8 +3650,8 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生5名 / MF 14名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Northeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northeastern+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -3741,7 +3741,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "37% (10/27名)",
     "notes": "Retriever Soccer Park. 2014 College Cup semifinalists.",
     "tags": [
       "America East",
@@ -3749,8 +3749,8 @@ const INITIAL_COLLEGES = [
       "Retrievers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全27名 / 留学生10名 / MF 7名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=UMBC+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UMBC+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -3807,7 +3807,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "43% (12/28名)",
     "notes": "Lubetkin Field. Top STEM university near NYC.",
     "tags": [
       "America East",
@@ -3815,8 +3815,8 @@ const INITIAL_COLLEGES = [
       "Highlanders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Harusumi Takesada",
+    "rosterStats": "公式ロスター全28名 / 留学生12名 / MF 9名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=NJIT+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=NJIT+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -4194,7 +4194,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "22% (6/27名)",
     "notes": "Shea Stadium. Multiple NCAA tournament runs under Jim DeRose.",
     "tags": [
       "Missouri Valley",
@@ -4202,8 +4202,8 @@ const INITIAL_COLLEGES = [
       "Braves",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生6名 / MF 13名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Bradley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bradley+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -4363,7 +4363,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "10.3%",
+    "intlRosterPct": "10% (3/29名)",
     "notes": "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。",
     "tags": [
       "WAC",
@@ -4372,7 +4372,7 @@ const INITIAL_COLLEGES = [
       "D1 Men's Soccer"
     ],
     "japanesePlayers": "1名 (Kazushi Shimada / 神奈川県川崎市出身)",
-    "rosterStats": "部員29名中 留学生3名 (10.3%) / 日本, イギリス, メキシコ",
+    "rosterStats": "公式ロスター全29名 / 留学生3名 / MF 10名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://sjsuspartans.com/sports/mens-soccer/recruiting",
     "campUrl": "https://sjsusoccercamps.com/",
     "assistantCoach": "Jesus Sanchez",
@@ -4398,7 +4398,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "44% (12/27名)",
     "notes": "Peter Johann Memorial Field in Las Vegas Nevada.",
     "tags": [
       "WAC",
@@ -4406,8 +4406,8 @@ const INITIAL_COLLEGES = [
       "Rebels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Yuto Oketani",
+    "rosterStats": "公式ロスター全27名 / 留学生12名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=UNLV+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNLV+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -4431,7 +4431,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/34名)",
     "notes": "Cadet Soccer Stadium in Colorado Springs at 7,000 ft altitude.",
     "tags": [
       "WAC",
@@ -4439,8 +4439,8 @@ const INITIAL_COLLEGES = [
       "Falcons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生0名 / MF 13名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Air+Force+Academy+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Air+Force+Academy+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -4500,7 +4500,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "64% (16/25名)",
     "notes": "UTRGV Soccer Complex in South Texas with rich Latin talent.",
     "tags": [
       "WAC",
@@ -4508,8 +4508,8 @@ const INITIAL_COLLEGES = [
       "Vaqueros",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生16名 / MF 9名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=UTRGV+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UTRGV+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -4533,7 +4533,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "Benson Stadium in historic San Antonio Texas.",
     "tags": [
       "WAC",
@@ -4541,8 +4541,8 @@ const INITIAL_COLLEGES = [
       "Cardinals",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Incarnate+Word+(UIW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Incarnate+Word+(UIW)+Soccer+ID+Camp",
     "coachVerified": true,
@@ -4569,7 +4569,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "52% (15/29名)",
     "notes": "Sorrels Field in major Houston metropolitan area.",
     "tags": [
       "WAC",
@@ -4577,8 +4577,8 @@ const INITIAL_COLLEGES = [
       "Huskies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生15名 / MF 10名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Houston+Christian+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Houston+Christian+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -4636,7 +4636,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "50% (13/26名)",
     "notes": "Case Soccer Complex. Multiple Summit League titles & 60% intl roster.",
     "tags": [
       "Summit League",
@@ -4644,8 +4644,8 @@ const INITIAL_COLLEGES = [
       "Golden Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生13名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Oral+Roberts+(ORU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oral+Roberts+(ORU)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -4735,7 +4735,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "54% (15/28名)",
     "notes": "South Field in Twin Cities Minnesota.",
     "tags": [
       "Summit League",
@@ -4743,8 +4743,8 @@ const INITIAL_COLLEGES = [
       "Tommies",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生15名 / MF 12名 (Sr・Gr 5名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Thomas+(Minnesota)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Thomas+(Minnesota)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -4768,7 +4768,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "38% (11/29名)",
     "notes": "MacKenzie Stadium. Highly affordable D1 program.",
     "tags": [
       "Summit League",
@@ -4776,8 +4776,8 @@ const INITIAL_COLLEGES = [
       "Leathernecks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生11名 / MF 8名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Western+Illinois+(WIU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Western+Illinois+(WIU)+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -4801,7 +4801,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18420,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "25% (7/28名)",
     "notes": "Nickerson Field in central Boston. 2023 Patriot League Champions.",
     "tags": [
       "Patriot League",
@@ -4809,8 +4809,8 @@ const INITIAL_COLLEGES = [
       "Terriers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生7名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Boston+University+(BU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Boston+University+(BU)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -4834,7 +4834,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "25% (8/32名)",
     "notes": "Ridley Athletic Complex in Baltimore. Multiple titles.",
     "tags": [
       "Patriot League",
@@ -4842,8 +4842,8 @@ const INITIAL_COLLEGES = [
       "Greyhounds",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生8名 / MF 10名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -4939,7 +4939,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "10% (3/30名)",
     "notes": "Oaks Stadium. Prestigious academic institution.",
     "tags": [
       "Patriot League",
@@ -4947,8 +4947,8 @@ const INITIAL_COLLEGES = [
       "Leopards",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生3名 / MF 14名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lafayette+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lafayette+College+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5008,7 +5008,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "14% (4/28名)",
     "notes": "Smith Soccer Stadium in Worcester MA.",
     "tags": [
       "Patriot League",
@@ -5016,8 +5016,8 @@ const INITIAL_COLLEGES = [
       "Crusaders",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生4名 / MF 13名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5074,7 +5074,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/39名)",
     "notes": "Clinton Field along the Hudson River.",
     "tags": [
       "Patriot League",
@@ -5082,8 +5082,8 @@ const INITIAL_COLLEGES = [
       "Black Knights",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全39名 / 留学生0名 / MF 14名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Army+West+Point+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Army+West+Point+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5107,7 +5107,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/30名)",
     "notes": "Glenn Warner Soccer Facility in Annapolis Maryland.",
     "tags": [
       "Patriot League",
@@ -5115,8 +5115,8 @@ const INITIAL_COLLEGES = [
       "Midshipmen",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生0名 / MF 12名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Navy+(US+Naval+Academy)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Navy+(US+Naval+Academy)+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5245,7 +5245,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "7% (2/29名)",
     "notes": "Titan Field in Detroit Michigan.",
     "tags": [
       "Horizon League",
@@ -5253,8 +5253,8 @@ const INITIAL_COLLEGES = [
       "Titans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生2名 / MF 12名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Detroit+Mercy+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Detroit+Mercy+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5278,7 +5278,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 8900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "21% (6/29名)",
     "notes": "Aldo Santaga Stadium. 2023 Horizon League Champions.",
     "tags": [
       "Horizon League",
@@ -5286,8 +5286,8 @@ const INITIAL_COLLEGES = [
       "Phoenix",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生6名 / MF 11名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=UW-Green+Bay+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UW-Green+Bay+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -5311,7 +5311,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "33% (9/27名)",
     "notes": "Engelmann Stadium on Lake Michigan in Milwaukee.",
     "tags": [
       "Horizon League",
@@ -5319,8 +5319,8 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Roy Nozawa",
+    "rosterStats": "公式ロスター全27名 / 留学生9名 / MF 8名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=UW-Milwaukee+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UW-Milwaukee+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5344,7 +5344,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11400,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "18% (5/28名)",
     "notes": "NKU Soccer Stadium in Cincinnati metro area.",
     "tags": [
       "Horizon League",
@@ -5352,8 +5352,8 @@ const INITIAL_COLLEGES = [
       "Norse",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生5名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Northern+Kentucky+(NKU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northern+Kentucky+(NKU)+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5377,7 +5377,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "4% (1/27名)",
     "notes": "Hefner Soccer Complex in Fort Wayne Indiana.",
     "tags": [
       "Horizon League",
@@ -5385,8 +5385,8 @@ const INITIAL_COLLEGES = [
       "Mastodons",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生1名 / MF 10名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Purdue+Fort+Wayne+(PFW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Purdue+Fort+Wayne+(PFW)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -5410,7 +5410,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "43% (12/28名)",
     "notes": "North Athletic Complex in Pittsburgh metro area.",
     "tags": [
       "Horizon League",
@@ -5418,8 +5418,8 @@ const INITIAL_COLLEGES = [
       "Colonials",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生12名 / MF 12名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Robert+Morris+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Robert+Morris+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -5509,7 +5509,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "20% (5/25名)",
     "notes": "Betts Stadium. 5x SoCon Champions in last decade.",
     "tags": [
       "SoCon",
@@ -5517,8 +5517,8 @@ const INITIAL_COLLEGES = [
       "Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生5名 / MF 14名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Mercer+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mercer+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5542,7 +5542,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "Summers-Taylor Stadium. Beautiful mountain campus & 50% intl.",
     "tags": [
       "SoCon",
@@ -5550,8 +5550,8 @@ const INITIAL_COLLEGES = [
       "Buccaneers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 15名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -5719,7 +5719,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "43% (12/28名)",
     "notes": "Pickering Field at FGCU Soccer Complex in sunny Fort Myers.",
     "tags": [
       "ASUN",
@@ -5727,8 +5727,8 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全28名 / 留学生12名 / MF 11名 (Sr・Gr 3名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=FGCU+(Florida+Gulf+Coast)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=FGCU+(Florida+Gulf+Coast)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -5785,7 +5785,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "56% (15/27名)",
     "notes": "Stephens Complex. Highly affordable tuition.",
     "tags": [
       "ASUN",
@@ -5793,8 +5793,8 @@ const INITIAL_COLLEGES = [
       "Bears",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名) Kaisei Matsudo",
+    "rosterStats": "公式ロスター全27名 / 留学生15名 / MF 9名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Central+Arkansas+(UCA)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Central+Arkansas+(UCA)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -5818,7 +5818,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "67% (20/30名)",
     "notes": "Southern Oak Stadium in coastal Florida.",
     "tags": [
       "ASUN",
@@ -5826,8 +5826,8 @@ const INITIAL_COLLEGES = [
       "Dolphins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全30名 / 留学生20名 / MF 10名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Jacksonville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Jacksonville+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -5917,7 +5917,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "42% (13/31名)",
     "notes": "Mazzella Field. 2019 & 2023 MAAC Champions. NYC suburbs.",
     "tags": [
       "MAAC",
@@ -5925,8 +5925,8 @@ const INITIAL_COLLEGES = [
       "Gaels",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生13名 / MF 16名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Iona+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Iona+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6052,7 +6052,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "62% (16/26名)",
     "notes": "Hickey Field in Capital District New York.",
     "tags": [
       "MAAC",
@@ -6060,8 +6060,8 @@ const INITIAL_COLLEGES = [
       "Saints",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生16名 / MF 17名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Siena+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Siena+College+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6085,7 +6085,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "7% (2/30名)",
     "notes": "Lessing Field. Top Jesuit university in coastal Connecticut.",
     "tags": [
       "MAAC",
@@ -6093,8 +6093,8 @@ const INITIAL_COLLEGES = [
       "Stags",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生2名 / MF 8名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Fairfield+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fairfield+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6118,7 +6118,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "42% (14/33名)",
     "notes": "Gaelic Park in New York City. Heavy international roster.",
     "tags": [
       "MAAC",
@@ -6126,8 +6126,8 @@ const INITIAL_COLLEGES = [
       "Jaspers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全33名 / 留学生14名 / MF 7名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Manhattan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Manhattan+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6220,7 +6220,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "21% (6/29名)",
     "notes": "Demske Sports Complex in Buffalo NY.",
     "tags": [
       "MAAC",
@@ -6228,8 +6228,8 @@ const INITIAL_COLLEGES = [
       "Golden Griffins",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生6名 / MF 13名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Canisius+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Canisius+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6325,7 +6325,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "44% (11/25名)",
     "notes": "LIU Post Field. 2021 & 2023 NEC Champions in NYC area.",
     "tags": [
       "NEC",
@@ -6333,8 +6333,8 @@ const INITIAL_COLLEGES = [
       "Sharks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生11名 / MF 7名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=LIU+(Long+Island+University)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=LIU+(Long+Island+University)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6499,7 +6499,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "19% (7/36名)",
     "notes": "W.B. Mason Stadium near Boston.",
     "tags": [
       "NEC",
@@ -6507,8 +6507,8 @@ const INITIAL_COLLEGES = [
       "Skyhawks",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全36名 / 留学生7名 / MF 14名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Stonehill+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Stonehill+College+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6601,7 +6601,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "15% (4/26名)",
     "notes": "Gwendolyn Brooks Field in Chicago Illinois.",
     "tags": [
       "NEC",
@@ -6609,8 +6609,8 @@ const INITIAL_COLLEGES = [
       "Cougars",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全26名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Chicago+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Chicago+State+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6634,7 +6634,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "44% (11/25名)",
     "notes": "Korte Stadium. 1979 National Champions. 2023 undefeated OVC.",
     "tags": [
       "OVC",
@@ -6642,8 +6642,8 @@ const INITIAL_COLLEGES = [
       "Cougars",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全25名 / 留学生11名 / MF 10名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=SIU+Edwardsville+(SIUE)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=SIU+Edwardsville+(SIUE)+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6667,7 +6667,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "60% (15/25名)",
     "notes": "Osborne Stadium. Multi-million dollar campus facilities.",
     "tags": [
       "OVC",
@@ -6675,8 +6675,8 @@ const INITIAL_COLLEGES = [
       "Flames",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Kyohei Eguchi",
+    "rosterStats": "公式ロスター全25名 / 留学生15名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Liberty+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Liberty+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6700,7 +6700,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "48% (14/29名)",
     "notes": "Hunter Stadium in St. Louis metropolitan area.",
     "tags": [
       "OVC",
@@ -6708,8 +6708,8 @@ const INITIAL_COLLEGES = [
       "Lions",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生14名 / MF 8名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lindenwood+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lindenwood+University+Soccer+ID+Camp",
     "strengthLevel": 2,
@@ -6733,7 +6733,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "65% (20/31名)",
     "notes": "Lakeside Field. Historic collegiate soccer program.",
     "tags": [
       "OVC",
@@ -6741,8 +6741,8 @@ const INITIAL_COLLEGES = [
       "Panthers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "4名 (公式ロスター確認) Kai Odagiri, Shuto Ishikawa, Sein Hatamoto, Keidin Green",
+    "rosterStats": "公式ロスター全31名 / 留学生20名 / MF 8名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6766,7 +6766,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "15% (4/26名)",
     "notes": "Strassweg Field in Evansville Indiana.",
     "tags": [
       "OVC",
@@ -6774,8 +6774,8 @@ const INITIAL_COLLEGES = [
       "Screaming Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Ahiro Nakamae",
+    "rosterStats": "公式ロスター全26名 / 留学生4名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Indiana+(USI)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southern+Indiana+(USI)+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6832,7 +6832,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10800,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "55% (16/29名)",
     "notes": "Eagle Field in Rock Hill South Carolina.",
     "tags": [
       "Big South",
@@ -6840,8 +6840,8 @@ const INITIAL_COLLEGES = [
       "Eagles",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "2名 (公式ロスター確認) Shion Hayashi, Shota Kawagoe",
+    "rosterStats": "公式ロスター全29名 / 留学生16名 / MF 11名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Winthrop+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Winthrop+University+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -6901,7 +6901,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "55% (16/29名)",
     "notes": "Athletics Complex in Virginia.",
     "tags": [
       "Big South",
@@ -6909,8 +6909,8 @@ const INITIAL_COLLEGES = [
       "Lancers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生16名 / MF 8名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Longwood+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Longwood+University+Soccer+ID+Camp",
     "coachVerified": true,
@@ -7045,7 +7045,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "52% (15/29名)",
     "notes": "County University Soccer Stadium in Spartanburg SC.",
     "tags": [
       "Big South",
@@ -7053,8 +7053,8 @@ const INITIAL_COLLEGES = [
       "Spartans",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生15名 / MF 14名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=USC+Upstate+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=USC+Upstate+Soccer+ID+Camp",
     "strengthLevel": 1,
@@ -7076,15 +7076,15 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "19% (5/26名)",
     "notes": "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse.",
     "tags": [
       "WAC",
       "San Diego",
       "Aztecs"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全26名 / 留学生5名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://goaztecs.com/sports/mens-soccer/recruiting",
     "campUrl": "https://aztecsoccercamps.com/",
     "assistantCoach": "Adrian Gomez",
@@ -7204,7 +7204,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14200,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "70%",
+    "intlRosterPct": "67% (20/30名)",
     "notes": "3回全米制覇（2003, 2012, 2014）。最激戦サンシャインステート・カンファレンス(SSC)の象徴。",
     "tags": [
       "3x D2 Champion",
@@ -7212,8 +7212,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Sunshine State"
     ],
-    "japanesePlayers": "受入実績あり (南フロリダ国際派)",
-    "rosterStats": "部員30名中 留学生21名 (70%) / ドイツ, イギリス, ブラジル等",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生20名 / MF 11名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://lynnknights.com/sports/mens-soccer/recruiting",
     "campUrl": "https://lynnsoccercamps.com/",
     "assistantCoach": "Anthony Desperito",
@@ -7236,7 +7236,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12900,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "60%",
+    "intlRosterPct": "要確認",
     "notes": "3回全米制覇（1981, 1994, 2001）。Pepin Stadiumはプロ級天然芝。フロリダ屈指の環境。",
     "tags": [
       "3x D2 Champion",
@@ -7245,7 +7245,7 @@ const INITIAL_COLLEGES = [
       "Pepin Stadium"
     ],
     "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員32名中 留学生19名 (60%) / 欧州, 南米",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://tampaspartans.com/sports/mens-soccer/recruiting",
     "campUrl": "https://tampaspartansoccercamps.com/",
     "assistantCoach": "Malcolm Stewart",
@@ -7299,7 +7299,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17800,
     "scholarshipMax": "Need-based Financial Aid Only (No Athletic)",
     "intlFriendlyRating": "Medium-High",
-    "intlRosterPct": "20%",
+    "intlRosterPct": "10% (3/31名)",
     "notes": "4x NCAA D3 Champions (2014, 2016, 2018, 2019). Top Boston academic reputation with pro soccer caliber coaching.",
     "tags": [
       "NESCAC",
@@ -7307,8 +7307,8 @@ const INITIAL_COLLEGES = [
       "Boston",
       "Ivy Caliber"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約20%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生3名 / MF 10名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Tufts+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Tufts+University+Soccer+ID+Camp"
   },
@@ -7328,15 +7328,15 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18700,
     "scholarshipMax": "Need-based Aid Only (100% need met)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "25%",
+    "intlRosterPct": "15% (4/27名)",
     "notes": "2022 NCAA D3 National Champions. World top-10 university academically with an elite soccer team.",
     "tags": [
       "World Top 10",
       "D3 Champion",
       "UAA"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約25%",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生4名 / MF 6名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Chicago+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp"
   },
@@ -7356,7 +7356,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12400,
     "scholarshipMax": "Academic Merit Scholarships up to $22k/yr",
     "intlFriendlyRating": "Medium",
-    "intlRosterPct": "15%",
+    "intlRosterPct": "要確認",
     "notes": "11x NCAA D3 National Champions. The most legendary D3 soccer program in history.",
     "tags": [
       "11x Champion",
@@ -7364,7 +7364,7 @@ const INITIAL_COLLEGES = [
       "Great Culture"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約15%",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Messiah+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Messiah+University+Soccer+ID+Camp"
   },
@@ -7384,15 +7384,15 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16900,
     "scholarshipMax": "Need-based Aid (100% Demonstrated Need)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "20%",
+    "intlRosterPct": "0% (0/28名)",
     "notes": "#1 Ranked Liberal Arts College in America. 1995 National Champions.",
     "tags": [
       "NESCAC",
       "US #1 Liberal Arts",
       "Need Aid"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約20%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全28名 / 留学生0名 / MF 10名 (Sr・Gr 5名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Williams+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Williams+College+Soccer+ID+Camp"
   },
@@ -7539,7 +7539,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9800,
     "scholarshipMax": "Max 12.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
+    "intlRosterPct": "要確認",
     "notes": "Perennial NAIA Top 5 team with multiple National Final Four appearances.",
     "tags": [
       "NAIA Elite",
@@ -7547,7 +7547,7 @@ const INITIAL_COLLEGES = [
       "High Scholarships"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約80%",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Soccer+ID+Camp"
   },
@@ -7567,7 +7567,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9200,
     "scholarshipMax": "Max 12.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "85%",
+    "intlRosterPct": "要確認",
     "notes": "2x NAIA National Champions. Famous soccer powerhouse under Scott Morrissey.",
     "tags": [
       "2x NAIA Champion",
@@ -7575,7 +7575,7 @@ const INITIAL_COLLEGES = [
       "High International"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約85%",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Soccer+ID+Camp"
   },
@@ -7595,7 +7595,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 8400,
     "scholarshipMax": "Max 18.0 full scholarships (NJCAA D1 Full Ride possible)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
+    "intlRosterPct": "要確認",
     "notes": "Multiple NJCAA National Champions (2013, 2021, 2022). #1 junior college transfer pipeline to NCAA D1 universities.",
     "tags": [
       "NJCAA D1 Powerhouse",
@@ -7603,7 +7603,7 @@ const INITIAL_COLLEGES = [
       "Top D1 Transfer Route"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約80%",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://goreivers.com/sports/mens-soccer/recruiting",
     "campUrl": "https://reiversoccercamp.com/",
     "assistantCoach": "Juan Garcia",
@@ -7625,7 +7625,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 7800,
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "75%",
+    "intlRosterPct": "要確認",
     "notes": "6x NJCAA National Champions. Unbelievable coaching legacy and direct springboard to NCAA D1 & MLS draft.",
     "tags": [
       "6x National Champion",
@@ -7635,7 +7635,7 @@ const INITIAL_COLLEGES = [
       "NJCAA全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約75%",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tyler+Junior+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Tyler+Junior+College+Soccer+ID+Camp"
   },
@@ -7686,7 +7686,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 8500,
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "70%",
+    "intlRosterPct": "52% (15/29名)",
     "notes": "2020 NJCAA D1 National Champions. High performance training facilities partnering with Real Salt Lake (MLS).",
     "tags": [
       "Utah",
@@ -7694,8 +7694,8 @@ const INITIAL_COLLEGES = [
       "NJCAA Champion",
       "NJCAA全米大会出場"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約70%",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全29名 / 留学生15名 / MF 8名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Soccer+ID+Camp"
   },
@@ -7715,7 +7715,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 6900,
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
+    "intlRosterPct": "要確認",
     "notes": "2023 NJCAA D1 National Runner-up. Jayhawk Conference powerhouse with heavy international recruitment.",
     "tags": [
       "NJCAA Elite",
@@ -7725,7 +7725,7 @@ const INITIAL_COLLEGES = [
       "NJCAA全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "留学生比率 約80%",
+    "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Barton+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Barton+Community+College+Soccer+ID+Camp"
   },
@@ -7747,9 +7747,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Very High",
-    "intlRosterPct": "45%",
-    "japanesePlayers": "受入実績あり (ロサンゼルス好立地)",
-    "rosterStats": "部員28名中 留学生12名 (43%) / 欧州, 中南米, アジア",
+    "intlRosterPct": "32% (12/38名)",
+    "japanesePlayers": "2名 (公式ロスター確認) Sho Toda, Taito Yoshihara",
+    "rosterStats": "公式ロスター全38名 / 留学生12名 / MF 8名 (Sr・Gr 4名)",
     "notes": "2021年 NCAA D2 全米王者！CCAA連覇。ロサンゼルス中心部に位置しプロスカウト注目度抜群。",
     "tags": [
       "2021 D2 Champion",
@@ -7875,9 +7875,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11200,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "80%",
+    "intlRosterPct": "要確認",
     "japanesePlayers": "受入実績あり",
-    "rosterStats": "部員32名中 留学生25名 (78%) / 欧州, 南米",
+    "rosterStats": "要確認",
     "notes": "SACカンファレンス強豪。常に全米Top 15にランクイン。留学生主体の攻撃的サッカー。",
     "tags": [
       "SAC",
@@ -8225,9 +8225,9 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13800,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "25%",
+    "intlRosterPct": "要確認",
     "japanesePlayers": "受入実績あり (太平洋を一望する絶景キャンパス)",
-    "rosterStats": "部員28名中 留学生7名 (25%)",
+    "rosterStats": "要確認",
     "notes": "2023年 NCAA D2 西部地区王者！全米一美しいと言われるサンディエゴの海岸沿いキャンパス。",
     "tags": [
       "PacWest",
@@ -8539,7 +8539,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "27% (7/26名)",
     "notes": "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -8547,8 +8547,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Warner+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Warner+University+Soccer+ID+Camp"
   },
@@ -8568,7 +8568,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "24% (8/33名)",
     "notes": "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -8576,8 +8576,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生8名 / MF 14名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Ave+Maria+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Ave+Maria+University+Soccer+ID+Camp"
   },
@@ -8771,7 +8771,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "100% (28/28名)",
     "notes": "NAIA / Mid-South。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -8779,8 +8779,8 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生28名 / MF 12名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Campbellsville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Campbellsville+University+Soccer+ID+Camp"
   },
@@ -9155,7 +9155,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "41% (12/29名)",
     "notes": "NAIA / Crossroads League。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -9163,8 +9163,8 @@ const INITIAL_COLLEGES = [
       "Indiana",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生12名 / MF 10名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Soccer+ID+Camp"
   },
@@ -9184,7 +9184,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "68% (28/41名)",
     "notes": "NAIA / River States。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NAIA",
@@ -9192,8 +9192,8 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全41名 / 留学生28名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Pikeville+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Pikeville+Soccer+ID+Camp"
   },
@@ -9363,7 +9363,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "55% (12/22名)",
     "notes": "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9371,8 +9371,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Toga Katsuma",
+    "rosterStats": "公式ロスター全22名 / 留学生12名 / MF 11名 (Sr・Gr 7名)",
     "questionnaireUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Soccer+ID+Camp"
   },
@@ -9392,7 +9392,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "48% (15/31名)",
     "notes": "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9400,8 +9400,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Southern+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Southern+College+Soccer+ID+Camp"
   },
@@ -9421,7 +9421,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "38% (15/40名)",
     "notes": "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9429,8 +9429,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全40名 / 留学生15名 / MF 14名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Eckerd+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Eckerd+College+Soccer+ID+Camp"
   },
@@ -9450,7 +9450,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "48% (15/31名)",
     "notes": "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9458,8 +9458,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Flagler+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Flagler+College+Soccer+ID+Camp"
   },
@@ -9479,7 +9479,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "30% (9/30名)",
     "notes": "NCAA D2 / Gulf South。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9487,8 +9487,8 @@ const INITIAL_COLLEGES = [
       "Florida",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全30名 / 留学生9名 / MF 6名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+West+Florida+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+West+Florida+Soccer+ID+Camp"
   },
@@ -9718,7 +9718,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "32% (6/19名)",
     "notes": "NCAA D2 / Conference Carolinas。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9726,8 +9726,8 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全19名 / 留学生6名 / MF 6名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Pembroke+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Pembroke+Soccer+ID+Camp"
   },
@@ -9776,7 +9776,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "20% (8/41名)",
     "notes": "NCAA D2 / Conference Carolinas。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9784,8 +9784,8 @@ const INITIAL_COLLEGES = [
       "North Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全41名 / 留学生8名 / MF 15名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Soccer+ID+Camp"
   },
@@ -9892,7 +9892,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "33% (13/39名)",
     "notes": "NCAA D2 / South Atlantic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9900,8 +9900,8 @@ const INITIAL_COLLEGES = [
       "South Carolina",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名) Shotaro Sekinada",
+    "rosterStats": "公式ロスター全39名 / 留学生13名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Newberry+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Newberry+College+Soccer+ID+Camp"
   },
@@ -9982,7 +9982,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "25% (11/44名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -9990,8 +9990,8 @@ const INITIAL_COLLEGES = [
       "Illinois",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全44名 / 留学生11名 / MF 17名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lewis+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lewis+University+Soccer+ID+Camp"
   },
@@ -10011,7 +10011,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "35% (17/48名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10019,8 +10019,8 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全48名 / 留学生17名 / MF 17名 (Sr・Gr 1名) / 出身地不明1名 / 掲載情報欠落2名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=Drury+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Drury+University+Soccer+ID+Camp"
   },
@@ -10040,7 +10040,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "12% (4/33名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10048,8 +10048,8 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Rockhurst+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rockhurst+University+Soccer+ID+Camp"
   },
@@ -10098,7 +10098,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "0% (0/38名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10106,8 +10106,8 @@ const INITIAL_COLLEGES = [
       "Missouri",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全38名 / 留学生0名 / MF 16名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Truman+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Truman+State+University+Soccer+ID+Camp"
   },
@@ -10157,7 +10157,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "57% (20/35名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10165,8 +10165,8 @@ const INITIAL_COLLEGES = [
       "Kentucky",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生20名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Soccer+ID+Camp"
   },
@@ -10186,7 +10186,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "29% (10/34名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10194,8 +10194,8 @@ const INITIAL_COLLEGES = [
       "Wisconsin",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全34名 / 留学生10名 / MF 14名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=UW-Parkside+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UW-Parkside+Soccer+ID+Camp"
   },
@@ -10215,7 +10215,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "37% (11/30名)",
     "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10223,8 +10223,8 @@ const INITIAL_COLLEGES = [
       "Illinois",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生11名 / MF 9名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Illinois+Springfield+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Illinois+Springfield+Soccer+ID+Camp"
   },
@@ -10273,7 +10273,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "20% (9/45名)",
     "notes": "NCAA D2 / G-MAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10281,8 +10281,8 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全45名 / 留学生9名 / MF 14名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Findlay+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Findlay+Soccer+ID+Camp"
   },
@@ -10302,7 +10302,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "15% (6/41名)",
     "notes": "NCAA D2 / G-MAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10310,8 +10310,8 @@ const INITIAL_COLLEGES = [
       "Ohio",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全41名 / 留学生6名 / MF 14名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Malone+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Malone+University+Soccer+ID+Camp"
   },
@@ -10389,7 +10389,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "58% (18/31名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10397,8 +10397,8 @@ const INITIAL_COLLEGES = [
       "New York",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全31名 / 留学生18名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Adelphi+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Adelphi+University+Soccer+ID+Camp"
   },
@@ -10418,7 +10418,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 18000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "15% (5/33名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10426,8 +10426,8 @@ const INITIAL_COLLEGES = [
       "Massachusetts",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全33名 / 留学生5名 / MF 13名 (Sr・Gr 8名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Bentley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bentley+University+Soccer+ID+Camp"
   },
@@ -10476,7 +10476,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 13000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "48% (13/27名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10484,8 +10484,8 @@ const INITIAL_COLLEGES = [
       "Connecticut",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
+    "rosterStats": "公式ロスター全27名 / 留学生13名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Soccer+ID+Camp"
   },
@@ -10505,7 +10505,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 17000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "33% (14/43名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10513,8 +10513,8 @@ const INITIAL_COLLEGES = [
       "Connecticut",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全43名 / 留学生14名 / MF 13名 (Sr・Gr 3名) / 出身地不明2名 / 掲載情報欠落4名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+New+Haven+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+New+Haven+Soccer+ID+Camp"
   },
@@ -10534,7 +10534,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 15000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "16% (7/44名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10542,8 +10542,8 @@ const INITIAL_COLLEGES = [
       "Massachusetts",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全44名 / 留学生7名 / MF 13名 (Sr・Gr 2名) / 掲載情報欠落2名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=Assumption+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Assumption+University+Soccer+ID+Camp"
   },
@@ -10593,7 +10593,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 16000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "3% (1/35名)",
     "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10601,8 +10601,8 @@ const INITIAL_COLLEGES = [
       "Vermont",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生1名 / MF 14名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Michael's+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Michael's+College+Soccer+ID+Camp"
   },
@@ -10651,7 +10651,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "24% (7/29名)",
     "notes": "NCAA D2 / East Coast Conference。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10659,8 +10659,8 @@ const INITIAL_COLLEGES = [
       "New York",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Molloy+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Molloy+University+Soccer+ID+Camp"
   },
@@ -10739,7 +10739,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "31% (12/39名)",
     "notes": "NCAA D2 / PSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10747,8 +10747,8 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全39名 / 留学生12名 / MF 10名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Soccer+ID+Camp"
   },
@@ -10768,7 +10768,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "17% (4/24名)",
     "notes": "NCAA D2 / PSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -10776,8 +10776,8 @@ const INITIAL_COLLEGES = [
       "Pennsylvania",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全24名 / 留学生4名 / MF 7名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Millersville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Millersville+University+Soccer+ID+Camp"
   },
@@ -11000,7 +11000,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "8% (3/38名)",
     "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11008,8 +11008,8 @@ const INITIAL_COLLEGES = [
       "California",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全38名 / 留学生3名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Soccer+ID+Camp"
   },
@@ -11248,7 +11248,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "34% (12/35名)",
     "notes": "NCAA D2 / RMAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11256,8 +11256,8 @@ const INITIAL_COLLEGES = [
       "Colorado",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生12名 / MF 15名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Soccer+ID+Camp"
   },
@@ -11338,7 +11338,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "16% (5/32名)",
     "notes": "NCAA D2 / RMAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11346,8 +11346,8 @@ const INITIAL_COLLEGES = [
       "Colorado",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生5名 / MF 13名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Colorado+Christian+University+Soccer+ID+Camp"
   },
@@ -11367,7 +11367,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 14000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "18% (7/38名)",
     "notes": "NCAA D2 / Lone Star。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11375,8 +11375,8 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "1名 (公式ロスター確認) Shunji Watanabe",
+    "rosterStats": "公式ロスター全38名 / 留学生7名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Edward's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Edward's+University+Soccer+ID+Camp"
   },
@@ -11425,7 +11425,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "37% (13/35名)",
     "notes": "NCAA D2 / Lone Star。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11433,8 +11433,8 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明3名)",
+    "rosterStats": "公式ロスター全35名 / 留学生13名 / MF 10名 (Sr・Gr 1名) / 出身地不明3名",
     "questionnaireUrl": "https://www.google.com/search?q=UT+Tyler+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UT+Tyler+Soccer+ID+Camp"
   },
@@ -11483,7 +11483,7 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
+    "intlRosterPct": "49% (17/35名)",
     "notes": "NCAA D2 / Lone Star。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
@@ -11491,8 +11491,8 @@ const INITIAL_COLLEGES = [
       "Texas",
       "Needs Verification"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生17名 / MF 12名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Soccer+ID+Camp"
   },
@@ -12154,15 +12154,15 @@ const COLLEGE_DATA_FIXES = {
   "universityofvirginia-mens": {
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "26% (7/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生7名 / MF 10名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "syracuseuniversity-mens": {
@@ -12430,15 +12430,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "45% (13/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生13名 / MF 13名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "bostoncollege-mens": {
@@ -12598,15 +12598,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "39% (9/23名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全23名 / 留学生9名 / MF 7名 (Sr・Gr 6名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "universityofmichigan-mens": {
@@ -12878,15 +12878,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "34% (10/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生10名 / MF 12名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Yotaro Furutani"
     ]
   },
   "butleruniversity-mens": {
@@ -12904,15 +12904,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "31% (8/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生8名 / MF 9名 (Sr・Gr 0名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Haato Efune"
     ]
   },
   "xavieruniversity-mens": {
@@ -13150,15 +13150,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "71% (17/24名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全24名 / 留学生17名 / MF 11名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "3名 (公式ロスター確認) Seiryu Ono, Sena Yamamoto, Takahiro Fujita"
     ]
   },
   "jamesmadisonuniversi-mens": {
@@ -13228,15 +13228,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "36% (9/25名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全25名 / 留学生9名 / MF 8名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "olddominionuniversit-mens": {
@@ -13254,15 +13254,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "39% (11/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生11名 / MF 10名 (Sr・Gr 5名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "georgiastateuniversi-mens": {
@@ -13446,15 +13446,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "60%"
+      "43% (12/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "留学生比率 約60%"
+      "公式ロスター全28名 / 留学生12名 / MF 7名 (Sr・Gr 2名) / 出身地不明2名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明2名)"
     ]
   },
   "universityofmemphis-mens": {
@@ -13562,15 +13562,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "45%"
+      "57% (16/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "留学生比率 約45%"
+      "公式ロスター全28名 / 留学生16名 / MF 7名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "princetonuniversity-mens": {
@@ -13680,15 +13680,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "14% (4/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生4名 / MF 10名 (Sr・Gr 2名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "dartmouthcollege-mens": {
@@ -13702,15 +13702,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "46% (13/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生13名 / MF 8名 (Sr・Gr 1名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "brownuniversity-mens": {
@@ -13746,15 +13746,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "22% (6/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生6名 / MF 11名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "ucsantabarbaraucsb-mens": {
@@ -14024,15 +14024,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "15% (5/33名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全33名 / 留学生5名 / MF 8名 (Sr・Gr 2名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "universityofsandiego-mens": {
@@ -14462,15 +14462,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "48% (13/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生13名 / MF 8名 (Sr・Gr 6名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "georgewashingtongw-mens": {
@@ -14560,15 +14560,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "38% (10/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生10名 / MF 11名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "saintjosephsuniversi-mens": {
@@ -14586,15 +14586,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "16% (6/37名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全37名 / 留学生6名 / MF 14名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "stbonaventureunivers-mens": {
@@ -14612,15 +14612,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "55% (16/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生16名 / MF 13名 (Sr・Gr 4名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "hofstrauniversity-mens": {
@@ -14814,15 +14814,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "7% (2/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生2名 / MF 11名 (Sr・Gr 4名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "collegeofcharleston-mens": {
@@ -14866,15 +14866,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "35% (9/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生9名 / MF 9名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "stonybrookuniversity-mens": {
@@ -14918,15 +14918,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "19% (5/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生5名 / MF 14名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "newhampshireunh-mens": {
@@ -14996,15 +14996,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "37% (10/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生10名 / MF 7名 (Sr・Gr 2名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "bryantuniversity-mens": {
@@ -15048,15 +15048,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "43% (12/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生12名 / MF 9名 (Sr・Gr 4名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Harusumi Takesada"
     ]
   },
   "binghamtonuniversity-mens": {
@@ -15402,15 +15402,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "22% (6/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生6名 / MF 13名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "northernillinoisniu-mens": {
@@ -15517,6 +15517,14 @@ const COLLEGE_DATA_FIXES = {
     "stadium": [
       "Spartans Stadium / Field",
       null
+    ],
+    "intlRosterPct": [
+      "10.3%",
+      "10% (3/29名)"
+    ],
+    "rosterStats": [
+      "部員29名中 留学生3名 (10.3%) / 日本, イギリス, メキシコ",
+      "公式ロスター全29名 / 留学生3名 / MF 10名 (Sr・Gr 2名)"
     ]
   },
   "unlv-mens": {
@@ -15534,15 +15542,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "44% (12/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生12名 / MF 9名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Yuto Oketani"
     ]
   },
   "airforceacademy-mens": {
@@ -15560,15 +15568,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "0% (0/34名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全34名 / 留学生0名 / MF 13名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "utahvalleyuvu-mens": {
@@ -15624,15 +15632,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "64% (16/25名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全25名 / 留学生16名 / MF 9名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "incarnateworduiw-mens": {
@@ -15650,15 +15658,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "24% (7/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 4名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ],
     "coachEmail": [
       "uiwsoccer@uiwtx.edu",
@@ -15684,15 +15692,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "52% (15/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生15名 / MF 10名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "universityofdenver-mens": {
@@ -15732,15 +15740,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "50% (13/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生13名 / MF 10名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "omahanebraskaomaha-mens": {
@@ -15810,15 +15818,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "54% (15/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生15名 / MF 12名 (Sr・Gr 5名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "westernillinoiswiu-mens": {
@@ -15836,15 +15844,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "38% (11/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生11名 / MF 8名 (Sr・Gr 3名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "bostonuniversitybu-mens": {
@@ -15862,15 +15870,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "25% (7/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生7名 / MF 11名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "loyolauniversitymary-mens": {
@@ -15888,15 +15896,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "25% (8/32名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全32名 / 留学生8名 / MF 10名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "colgateuniversity-mens": {
@@ -15982,15 +15990,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "10% (3/30名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全30名 / 留学生3名 / MF 14名 (Sr・Gr 6名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "lehighuniversity-mens": {
@@ -16042,15 +16050,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "14% (4/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生4名 / MF 13名 (Sr・Gr 5名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "bucknelluniversity-mens": {
@@ -16094,15 +16102,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "0% (0/39名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全39名 / 留学生0名 / MF 14名 (Sr・Gr 5名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "navyusnavalacademy-mens": {
@@ -16120,15 +16128,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "0% (0/30名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全30名 / 留学生0名 / MF 12名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "oaklanduniversity-mens": {
@@ -16248,15 +16256,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "7% (2/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生2名 / MF 12名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "uw-greenbay-mens": {
@@ -16274,15 +16282,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "21% (6/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生6名 / MF 11名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "uw-milwaukee-mens": {
@@ -16300,15 +16308,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "33% (9/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生9名 / MF 8名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Roy Nozawa"
     ]
   },
   "northernkentuckynku-mens": {
@@ -16326,15 +16334,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "18% (5/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生5名 / MF 8名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "purduefortwaynepfw-mens": {
@@ -16352,15 +16360,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "4% (1/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生1名 / MF 10名 (Sr・Gr 0名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "robertmorrisuniversi-mens": {
@@ -16378,15 +16386,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "43% (12/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生12名 / MF 12名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "uncgreensborouncg-mens": {
@@ -16456,15 +16464,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "20% (5/25名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全25名 / 留学生5名 / MF 14名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "easttennesseestateet-mens": {
@@ -16482,15 +16490,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "24% (7/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生7名 / MF 15名 (Sr・Gr 4名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "woffordcollege-mens": {
@@ -16648,15 +16656,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "43% (12/28名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全28名 / 留学生12名 / MF 11名 (Sr・Gr 3名) / 出身地不明2名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明2名)"
     ]
   },
   "bellarmineuniversity-mens": {
@@ -16700,15 +16708,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "56% (15/27名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全27名 / 留学生15名 / MF 9名 (Sr・Gr 0名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認 / 出身地不明1名) Kaisei Matsudo"
     ]
   },
   "jacksonvilleuniversi-mens": {
@@ -16726,15 +16734,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "67% (20/30名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全30名 / 留学生20名 / MF 10名 (Sr・Gr 4名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "northfloridaunf-mens": {
@@ -16804,15 +16812,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "42% (13/31名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全31名 / 留学生13名 / MF 16名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "quinnipiacuniversity-mens": {
@@ -16920,15 +16928,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "62% (16/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生16名 / MF 17名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "fairfielduniversity-mens": {
@@ -16946,15 +16954,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "7% (2/30名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全30名 / 留学生2名 / MF 8名 (Sr・Gr 3名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "manhattanuniversity-mens": {
@@ -16972,15 +16980,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "42% (14/33名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全33名 / 留学生14名 / MF 7名 (Sr・Gr 0名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "mountstmarys-mens": {
@@ -17058,15 +17066,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "21% (6/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生6名 / MF 13名 (Sr・Gr 5名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "saintpetersuniversit-mens": {
@@ -17156,15 +17164,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "44% (11/25名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全25名 / 留学生11名 / MF 7名 (Sr・Gr 4名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "fairleighdickinsonfd-mens": {
@@ -17318,15 +17326,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "19% (7/36名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全36名 / 留学生7名 / MF 14名 (Sr・Gr 4名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "howarduniversity-mens": {
@@ -17404,15 +17412,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "15% (4/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "siuedwardsvillesiue-mens": {
@@ -17430,15 +17438,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "44% (11/25名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全25名 / 留学生11名 / MF 10名 (Sr・Gr 0名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "libertyuniversity-mens": {
@@ -17456,15 +17464,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "60% (15/25名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全25名 / 留学生15名 / MF 10名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Kyohei Eguchi"
     ]
   },
   "lindenwooduniversity-mens": {
@@ -17482,15 +17490,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "48% (14/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生14名 / MF 8名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "easternillinoisunive-mens": {
@@ -17508,15 +17516,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "65% (20/31名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全31名 / 留学生20名 / MF 8名 (Sr・Gr 0名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "4名 (公式ロスター確認) Kai Odagiri, Shuto Ishikawa, Sein Hatamoto, Keidin Green"
     ]
   },
   "southernindianausi-mens": {
@@ -17534,15 +17542,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "15% (4/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生4名 / MF 11名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Ahiro Nakamae"
     ]
   },
   "highpointuniversity-mens": {
@@ -17586,15 +17594,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "55% (16/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生16名 / MF 11名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "2名 (公式ロスター確認) Shion Hayashi, Shota Kawagoe"
     ]
   },
   "gardner-webbuniversi-mens": {
@@ -17650,15 +17658,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "55% (16/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生16名 / MF 8名 (Sr・Gr 1名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ],
     "coachEmail": [
       "lancersoccer@longwood.edu",
@@ -17794,29 +17802,29 @@ const COLLEGE_DATA_FIXES = {
     ],
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "52% (15/29名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全29名 / 留学生15名 / MF 14名 (Sr・Gr 2名)"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
     ]
   },
   "sdsu-mens": {
     "intlRosterPct": [
       "35%",
-      "要確認"
+      "19% (5/26名)"
     ],
     "rosterStats": [
       "留学生比率 約35%",
-      "要確認"
+      "公式ロスター全26名 / 留学生5名 / MF 11名 (Sr・Gr 4名) / 出身地不明1名"
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
     ]
   },
   "franklinpierce-mens": {
@@ -17891,6 +17899,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "intlRosterPct": [
+      "70%",
+      "67% (20/30名)"
+    ],
+    "rosterStats": [
+      "部員30名中 留学生21名 (70%) / ドイツ, イギリス, ブラジル等",
+      "公式ロスター全30名 / 留学生20名 / MF 11名 (Sr・Gr 5名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (南フロリダ国際派)",
+      "0名 (公式ロスター確認)"
     ]
   },
   "tufts-mens": {
@@ -17904,7 +17924,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "20%",
+      "10% (3/31名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約20%",
+      "公式ロスター全31名 / 留学生3名 / MF 10名 (Sr・Gr 3名)"
     ]
   },
   "chicago-mens": {
@@ -17918,7 +17946,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "25%",
+      "15% (4/27名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約25%",
+      "公式ロスター全27名 / 留学生4名 / MF 6名 (Sr・Gr 1名)"
     ]
   },
   "messiah-mens": {
@@ -17933,6 +17969,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "intlRosterPct": [
+      "15%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約15%",
+      "要確認"
     ]
   },
   "williams-mens": {
@@ -17946,7 +17990,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "20%",
+      "0% (0/28名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約20%",
+      "公式ロスター全28名 / 留学生0名 / MF 10名 (Sr・Gr 5名) / 出身地不明1名"
     ]
   },
   "grandview-mens": {
@@ -18073,6 +18125,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "intlRosterPct": [
+      "80%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約80%",
+      "要確認"
     ]
   },
   "riogrande-mens": {
@@ -18087,12 +18147,28 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "intlRosterPct": [
+      "85%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約85%",
+      "要確認"
     ]
   },
   "iowawestern-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "intlRosterPct": [
+      "80%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約80%",
+      "要確認"
     ]
   },
   "tylerjc-mens": {
@@ -18107,6 +18183,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "intlRosterPct": [
+      "75%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約75%",
+      "要確認"
     ]
   },
   "monroe-mens": {
@@ -18150,7 +18234,15 @@ const COLLEGE_DATA_FIXES = {
     ],
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "70%",
+      "52% (15/29名)"
+    ],
+    "rosterStats": [
+      "留学生比率 約70%",
+      "公式ロスター全29名 / 留学生15名 / MF 8名 (Sr・Gr 0名) / 出身地不明1名"
     ]
   },
   "barton-mens": {
@@ -18165,6 +18257,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "intlRosterPct": [
+      "80%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "留学生比率 約80%",
+      "要確認"
     ]
   },
   "southeastern-mens": {
@@ -18176,13 +18276,29 @@ const COLLEGE_DATA_FIXES = {
   "warner-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "27% (7/26名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 2名)"
     ]
   },
   "avemaria-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "24% (8/33名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全33名 / 留学生8名 / MF 14名 (Sr・Gr 0名) / 出身地不明1名"
     ]
   },
   "floridamemorial-mens": {
@@ -18224,7 +18340,15 @@ const COLLEGE_DATA_FIXES = {
   "campbellsville-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "100% (28/28名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全28名 / 留学生28名 / MF 12名 (Sr・Gr 3名)"
     ]
   },
   "georgetowncollege-mens": {
@@ -18378,13 +18502,29 @@ const COLLEGE_DATA_FIXES = {
   "indianawesleyan-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "41% (12/29名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全29名 / 留学生12名 / MF 10名 (Sr・Gr 5名)"
     ]
   },
   "pikeville-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "68% (28/41名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全41名 / 留学生28名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名"
     ]
   },
   "shawneestate-mens": {
@@ -18488,31 +18628,71 @@ const COLLEGE_DATA_FIXES = {
   "novasoutheastern-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Toga Katsuma"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "55% (12/22名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全22名 / 留学生12名 / MF 11名 (Sr・Gr 7名)"
     ]
   },
   "floridasouthern-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "48% (15/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生15名 / MF 11名 (Sr・Gr 1名)"
     ]
   },
   "eckerd-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "38% (15/40名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全40名 / 留学生15名 / MF 14名 (Sr・Gr 1名)"
     ]
   },
   "flagler-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "48% (15/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生15名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名"
     ]
   },
   "westflorida-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "30% (9/30名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全30名 / 留学生9名 / MF 6名 (Sr・Gr 2名) / 出身地不明2名"
     ]
   },
   "leeuniversity-mens": {
@@ -18636,7 +18816,15 @@ const COLLEGE_DATA_FIXES = {
   "uncpembroke-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "32% (6/19名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全19名 / 留学生6名 / MF 6名 (Sr・Gr 1名)"
     ]
   },
   "belmontabbey-mens": {
@@ -18648,7 +18836,15 @@ const COLLEGE_DATA_FIXES = {
   "mountolive-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "20% (8/41名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全41名 / 留学生8名 / MF 15名 (Sr・Gr 2名) / 出身地不明2名"
     ]
   },
   "catawba-mens": {
@@ -18672,7 +18868,15 @@ const COLLEGE_DATA_FIXES = {
   "newberry-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認 / 出身地不明1名) Shotaro Sekinada"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "33% (13/39名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全39名 / 留学生13名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名"
     ]
   },
   "tusculum-mens": {
@@ -18718,19 +18922,43 @@ const COLLEGE_DATA_FIXES = {
   "lewisuniversity-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "25% (11/44名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全44名 / 留学生11名 / MF 17名 (Sr・Gr 1名)"
     ]
   },
   "drury-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "35% (17/48名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全48名 / 留学生17名 / MF 17名 (Sr・Gr 1名) / 出身地不明1名 / 掲載情報欠落2名(MFは最小値)"
     ]
   },
   "rockhurst-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "12% (4/33名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全33名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名"
     ]
   },
   "quincy-mens": {
@@ -18742,7 +18970,15 @@ const COLLEGE_DATA_FIXES = {
   "trumanstate-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "0% (0/38名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全38名 / 留学生0名 / MF 16名 (Sr・Gr 3名) / 出身地不明1名"
     ]
   },
   "missouriST-mens": {
@@ -18774,19 +19010,43 @@ const COLLEGE_DATA_FIXES = {
   "kentuckywesleyan-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "57% (20/35名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全35名 / 留学生20名 / MF 10名 (Sr・Gr 1名)"
     ]
   },
   "uwparkside-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "29% (10/34名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全34名 / 留学生10名 / MF 14名 (Sr・Gr 4名)"
     ]
   },
   "illinoisspringfield-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "37% (11/30名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全30名 / 留学生11名 / MF 9名 (Sr・Gr 6名)"
     ]
   },
   "walsh-mens": {
@@ -18798,13 +19058,29 @@ const COLLEGE_DATA_FIXES = {
   "findlay-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "20% (9/45名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全45名 / 留学生9名 / MF 14名 (Sr・Gr 3名)"
     ]
   },
   "malone-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "15% (6/41名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全41名 / 留学生6名 / MF 14名 (Sr・Gr 0名)"
     ]
   },
   "waynestate-mens": {
@@ -18822,13 +19098,29 @@ const COLLEGE_DATA_FIXES = {
   "adelphi-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "58% (18/31名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全31名 / 留学生18名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名"
     ]
   },
   "bentley-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "15% (5/33名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全33名 / 留学生5名 / MF 13名 (Sr・Gr 8名) / 出身地不明1名"
     ]
   },
   "saintanselm-mens": {
@@ -18840,19 +19132,43 @@ const COLLEGE_DATA_FIXES = {
   "southernct-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "48% (13/27名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全27名 / 留学生13名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名"
     ]
   },
   "newhaven-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "33% (14/43名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全43名 / 留学生14名 / MF 13名 (Sr・Gr 3名) / 出身地不明2名 / 掲載情報欠落4名(MFは最小値)"
     ]
   },
   "assumption-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "16% (7/44名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全44名 / 留学生7名 / MF 13名 (Sr・Gr 2名) / 掲載情報欠落2名(MFは最小値)"
     ]
   },
   "pace-mens": {
@@ -18884,7 +19200,15 @@ const COLLEGE_DATA_FIXES = {
   "saintmichaels-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "3% (1/35名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全35名 / 留学生1名 / MF 14名 (Sr・Gr 6名)"
     ]
   },
   "nyit-mens": {
@@ -18896,7 +19220,15 @@ const COLLEGE_DATA_FIXES = {
   "molloy-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "24% (7/29名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 3名)"
     ]
   },
   "westchester-mens": {
@@ -18934,13 +19266,29 @@ const COLLEGE_DATA_FIXES = {
   "eaststroudsburg-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "31% (12/39名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全39名 / 留学生12名 / MF 10名 (Sr・Gr 0名)"
     ]
   },
   "millersville-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "17% (4/24名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全24名 / 留学生4名 / MF 7名 (Sr・Gr 3名)"
     ]
   },
   "setonhill-mens": {
@@ -18988,7 +19336,15 @@ const COLLEGE_DATA_FIXES = {
   "fresnopacific-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "8% (3/38名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全38名 / 留学生3名 / MF 13名 (Sr・Gr 4名)"
     ]
   },
   "dominicanca-mens": {
@@ -19188,7 +19544,15 @@ const COLLEGE_DATA_FIXES = {
   "coloradomesa-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "34% (12/35名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全35名 / 留学生12名 / MF 15名 (Sr・Gr 5名)"
     ]
   },
   "regis-mens": {
@@ -19234,13 +19598,29 @@ const COLLEGE_DATA_FIXES = {
   "coloradochristian-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "16% (5/32名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全32名 / 留学生5名 / MF 13名 (Sr・Gr 1名)"
     ]
   },
   "stedwards-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "1名 (公式ロスター確認) Shunji Watanabe"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "18% (7/38名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全38名 / 留学生7名 / MF 10名 (Sr・Gr 4名)"
     ]
   },
   "stmarystx-mens": {
@@ -19252,7 +19632,15 @@ const COLLEGE_DATA_FIXES = {
   "uttyler-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認 / 出身地不明3名)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "37% (13/35名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全35名 / 留学生13名 / MF 10名 (Sr・Gr 1名) / 出身地不明3名"
     ]
   },
   "utpb-mens": {
@@ -19264,7 +19652,15 @@ const COLLEGE_DATA_FIXES = {
   "lubbockchristian-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "0名 (公式ロスター確認)"
+    ],
+    "intlRosterPct": [
+      "要確認",
+      "49% (17/35名)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全35名 / 留学生17名 / MF 12名 (Sr・Gr 1名)"
     ]
   },
   "barry-mens": {
@@ -19777,12 +20173,32 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "intlRosterPct": [
+      "45%",
+      "32% (12/38名)"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生12名 (43%) / 欧州, 中南米, アジア",
+      "公式ロスター全38名 / 留学生12名 / MF 8名 (Sr・Gr 4名)"
+    ],
+    "japanesePlayers": [
+      "受入実績あり (ロサンゼルス好立地)",
+      "2名 (公式ロスター確認) Sho Toda, Taito Yoshihara"
     ]
   },
   "pointloma-mens": {
     "coachVerified": [
       null,
       true
+    ],
+    "intlRosterPct": [
+      "25%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "部員28名中 留学生7名 (25%)",
+      "要確認"
     ]
   },
   "ucla-mens": {
@@ -19797,6 +20213,36 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (過去受け入れ実績あり)",
       "0名 (公式ロスター確認)"
+    ]
+  },
+  "stanforduniversity-mens": {
+    "intlRosterPct": [
+      "11.1%",
+      "7% (2/27名)"
+    ],
+    "rosterStats": [
+      "部員27名中 留学生3名 (11.1%) / カナダ, 日本",
+      "公式ロスター全27名 / 留学生2名 / MF 10名 (Sr・Gr 0名)"
+    ]
+  },
+  "tampa-mens": {
+    "intlRosterPct": [
+      "60%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生19名 (60%) / 欧州, 南米",
+      "要確認"
+    ]
+  },
+  "limestone-mens": {
+    "intlRosterPct": [
+      "80%",
+      "要確認"
+    ],
+    "rosterStats": [
+      "部員32名中 留学生25名 (78%) / 欧州, 南米",
+      "要確認"
     ]
   }
 };
