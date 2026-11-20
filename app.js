@@ -903,8 +903,8 @@ function renderExplorer() {
               <span class="font-semibold text-sky-400">${esc(col.intlFriendlyRating)} (${esc(col.intlRosterPct || '-')})</span>
             </div>
             <div class="col-span-2">
-              <span class="text-slate-500 block">MF比率 (公式ロスター)</span>
-              <span class="font-semibold text-violet-300">${(() => { const mi = mfInfo(col); return mi ? mi.pct + "% (" + mi.mf + "/" + mi.total + "名)" : "不明"; })()}</span>
+              <span class="text-slate-500 block">MF選手数 / 比率 (公式ロスター)</span>
+              <span class="font-semibold text-violet-300">${(() => { const mi = mfInfo(col); return mi ? "MF " + mi.mf + "名 / 全" + mi.total + "名 (" + mi.pct + "%)" : "不明"; })()}</span>
             </div>
           </div>
 
@@ -1025,7 +1025,7 @@ function openCollegeDetailModal(collegeId) {
         <span class="text-xs font-bold text-amber-400 uppercase">Scholarship Framework & Roster</span>
         <p class="text-xs text-slate-200">${esc(col.scholarshipMax || 'Max 28 (Roster Limit: 28 / 新ルール)')}</p>
         <p class="text-xs text-slate-400 mt-1">留学生比率: <strong class="text-slate-200">${esc(col.intlRosterPct || '35%')}</strong> | <span class="text-sky-300">${esc(col.rosterStats || col.intlFriendlyRating || 'High')}</span></p>
-        <p class="text-xs text-slate-400 mt-1">MF比率: <strong class="text-violet-300">${(() => { const mi = mfInfo(col); return mi ? mi.pct + "% (" + mi.mf + "/" + mi.total + "名)" : "不明"; })()}</strong></p>
+        <p class="text-xs text-slate-400 mt-1">MF比率: <strong class="text-violet-300">${(() => { const mi = mfInfo(col); return mi ? "MF " + mi.mf + "名 / 全" + mi.total + "名 (" + mi.pct + "%)" : "不明"; })()}</strong></p>
       </div>
 
       <!-- Japanese Player History & Recruiting Intel -->
