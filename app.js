@@ -48,6 +48,14 @@ function esc(value) {
     .replace(/'/g, "&#39;");
 }
 
+// MF count / ratio parsed from rosterStats ("公式ロスター全29名 / ... / MF 10名 (Sr・Gr 2名)"); null when the roster is not verified
+function mfInfo(col) {
+  const m = /全(\d+)名.*?MF\s*(\d+)名/.exec(col.rosterStats || "");
+  if (!m) return null;
+  const total = Number(m[1]), mf = Number(m[2]);
+  return { total, mf, pct: total ? Math.round((mf / total) * 100) : 0 };
+}
+
 // Safe string literal for use inside a double-quoted inline handler attribute, e.g. onclick="fn(${jsArg(id)})"
 function jsArg(value) {
   return esc(JSON.stringify(String(value ?? "")));
@@ -894,6 +902,10 @@ function renderExplorer() {
               <span class="text-slate-500 block">留学生比率 / 受入度</span>
               <span class="font-semibold text-sky-400">${esc(col.intlFriendlyRating)} (${esc(col.intlRosterPct || '-')})</span>
             </div>
+            <div class="col-span-2">
+              <span class="text-slate-500 block">MF比率 (公式ロスター)</span>
+              <span class="font-semibold text-violet-300">${(() => { const mi = mfInfo(col); return mi ? mi.pct + "% (" + mi.mf + "/" + mi.total + "名)" : "不明"; })()}</span>
+            </div>
           </div>
 
           <!-- Japanese Players & Alumni Strip -->
@@ -1013,6 +1025,7 @@ function openCollegeDetailModal(collegeId) {
         <span class="text-xs font-bold text-amber-400 uppercase">Scholarship Framework & Roster</span>
         <p class="text-xs text-slate-200">${esc(col.scholarshipMax || 'Max 28 (Roster Limit: 28 / 新ルール)')}</p>
         <p class="text-xs text-slate-400 mt-1">留学生比率: <strong class="text-slate-200">${esc(col.intlRosterPct || '35%')}</strong> | <span class="text-sky-300">${esc(col.rosterStats || col.intlFriendlyRating || 'High')}</span></p>
+        <p class="text-xs text-slate-400 mt-1">MF比率: <strong class="text-violet-300">${(() => { const mi = mfInfo(col); return mi ? mi.pct + "% (" + mi.mf + "/" + mi.total + "名)" : "不明"; })()}</strong></p>
       </div>
 
       <!-- Japanese Player History & Recruiting Intel -->
