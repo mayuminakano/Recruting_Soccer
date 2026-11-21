@@ -1,6 +1,6 @@
 // ==========================================
 // US College Soccer Database & Knowledge Base
-// (Complete Dataset: 374 Men's Colleges across NCAA D1, D2, D3, NAIA, NJCAA)
+// (Complete Dataset: 400 Men's Colleges across NCAA D1, D2, D3, NAIA, NJCAA)
 // ==========================================
 
 const INITIAL_COLLEGES = [
@@ -38,7 +38,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Phil Jones (Associate HC)",
     "assistantCoachEmail": "philj@clemson.edu",
     "strengthLevel": 5,
-    "strengthNote": "平均18位 (2026年 4位 / 2025年 38位 / 2024年 12位)"
+    "strengthNote": "平均18位 (2026年 4位 / 2025年 38位 / 2024年 12位)",
+    "siteUrl": "https://clemsontigers.com/sports/mens-soccer"
   },
   {
     "id": "wakeforestuniversity-mens",
@@ -75,7 +76,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "brennerd@wfu.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均29位 (2026年 29位 / 2025年 48位 / 2024年 9位)"
+    "strengthNote": "平均29位 (2026年 29位 / 2025年 48位 / 2024年 9位)",
+    "siteUrl": "https://godeacs.com/sports/mens-soccer"
   },
   {
     "id": "universityofvirginia-mens",
@@ -147,7 +149,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ben Newby / Christian Meza",
     "assistantCoachEmail": "bnewby@stanford.edu",
     "strengthLevel": 5,
-    "strengthNote": "平均16位 (2026年 20位 / 2025年 17位 / 2024年 11位)"
+    "strengthNote": "平均16位 (2026年 20位 / 2025年 17位 / 2024年 11位)",
+    "siteUrl": "https://gostanford.com/sports/mens-soccer"
   },
   {
     "id": "syracuseuniversity-mens",
@@ -184,7 +187,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jmasalin@syr.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均44位 (2026年 34位 / 2025年 36位 / 2024年 61位)"
+    "strengthNote": "平均44位 (2026年 34位 / 2025年 36位 / 2024年 61位)",
+    "siteUrl": "https://cuse.com/sports/mens-soccer"
   },
   {
     "id": "southernmethodistuni-mens",
@@ -220,7 +224,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mjking@smu.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均8位 (2026年 3位 / 2025年 7位 / 2024年 15位)"
+    "strengthNote": "平均8位 (2026年 3位 / 2025年 7位 / 2024年 15位)",
+    "siteUrl": "https://smumustangs.com/sports/mens-soccer"
   },
   {
     "id": "uncchapelhill-mens",
@@ -328,7 +333,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "bcregan@athletics.pitt.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均25位 (2026年 9位 / 2025年 63位 / 2024年 4位)"
+    "strengthNote": "平均25位 (2026年 9位 / 2025年 63位 / 2024年 4位)",
+    "siteUrl": "https://pittsburghpanthers.com/sports/mens-soccer"
   },
   {
     "id": "dukeuniversity-mens",
@@ -365,7 +371,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "michael.brady@duke.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均30位 (2026年 60位 / 2025年 21位 / 2024年 10位)"
+    "strengthNote": "平均30位 (2026年 60位 / 2025年 21位 / 2024年 10位)",
+    "siteUrl": "https://goduke.com/sports/mens-soccer"
   },
   {
     "id": "ucberkeleycal-mens",
@@ -400,7 +407,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Henry Foulk / Ricardo Gutierrez",
     "assistantCoachEmail": "hfoulk@berkeley.edu",
     "strengthLevel": 4,
-    "strengthNote": "平均40位 (2026年 33位 / 2025年 53位 / 2024年 33位)"
+    "strengthNote": "平均40位 (2026年 33位 / 2025年 53位 / 2024年 33位)",
+    "siteUrl": "https://calbears.com/sports/mens-soccer"
   },
   {
     "id": "universityoflouisvil-mens",
@@ -469,7 +477,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=NC+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=NC+State+University+Soccer+ID+Camp",
     "strengthLevel": 5,
-    "strengthNote": "平均23位 (2026年 30位 / 2025年 3位 / 2024年 36位)"
+    "strengthNote": "平均23位 (2026年 30位 / 2025年 3位 / 2024年 36位)",
+    "siteUrl": "https://gopack.com/sports/mens-soccer"
   },
   {
     "id": "virginiatech-mens",
@@ -536,7 +545,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Boston+College+Soccer+ID+Camp",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均67位 (2026年 56位 / 2025年 86位 / 2024年 60位)"
+    "strengthNote": "平均67位 (2026年 56位 / 2025年 86位 / 2024年 60位)",
+    "siteUrl": "https://bceagles.com/sports/mens-soccer"
   },
   {
     "id": "indianauniversityblo-mens",
@@ -643,7 +653,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Paul Snape / Nick Howard",
     "assistantCoachEmail": "psnape@athletics.ucla.edu",
     "strengthLevel": 4,
-    "strengthNote": "平均30位 (2026年 22位 / 2025年 30位 / 2024年 39位)"
+    "strengthNote": "平均30位 (2026年 22位 / 2025年 30位 / 2024年 39位)",
+    "siteUrl": "https://uclabruins.com/sports/mens-soccer"
   },
   {
     "id": "universityofwashingt-mens",
@@ -679,7 +690,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "markcoll@uw.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均15位 (2026年 16位 / 2025年 1位 / 2024年 28位)"
+    "strengthNote": "平均15位 (2026年 16位 / 2025年 1位 / 2024年 28位)",
+    "siteUrl": "https://gohuskies.com/sports/mens-soccer"
   },
   {
     "id": "ohiostateuniversity-mens",
@@ -787,7 +799,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均50位 (2026年 88位 / 2025年 31位 / 2024年 31位)"
+    "strengthNote": "平均50位 (2026年 88位 / 2025年 31位 / 2024年 31位)",
+    "siteUrl": "https://maizepages.umich.edu/sports/mens-soccer"
   },
   {
     "id": "michiganstateunivers-mens",
@@ -927,7 +940,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mm5289@georgetown.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均5位 (2026年 1位 / 2025年 11位 / 2024年 3位)"
+    "strengthNote": "平均5位 (2026年 1位 / 2025年 11位 / 2024年 3位)",
+    "siteUrl": "https://thehoya.com/sports/mens-soccer"
   },
   {
     "id": "universityofakron-mens",
@@ -964,7 +978,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均17位 (2026年 2位 / 2025年 16位 / 2024年 34位)"
+    "strengthNote": "平均17位 (2026年 2位 / 2025年 16位 / 2024年 34位)",
+    "siteUrl": "https://gozips.com/sports/mens-soccer"
   },
   {
     "id": "creightonuniversity-mens",
@@ -1001,7 +1016,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mitchkavanagh@creighton.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均40位 (2026年 14位 / 2025年 50位 / 2024年 55位)"
+    "strengthNote": "平均40位 (2026年 14位 / 2025年 50位 / 2024年 55位)",
+    "siteUrl": "https://gocreighton.com/sports/mens-soccer"
   },
   {
     "id": "providencecollege-mens",
@@ -1035,7 +1051,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Providence+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Providence+College+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均54位 (2026年 70位 / 2025年 74位 / 2024年 18位)"
+    "strengthNote": "平均54位 (2026年 70位 / 2025年 74位 / 2024年 18位)",
+    "siteUrl": "https://friars.com/sports/mens-soccer"
   },
   {
     "id": "stjohnsuniversity-mens",
@@ -1135,7 +1152,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Butler+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Butler+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均138位 (2026年 109位 / 2025年 159位 / 2024年 147位)"
+    "strengthNote": "平均138位 (2026年 109位 / 2025年 159位 / 2024年 147位)",
+    "siteUrl": "https://butlersports.com/sports/mens-soccer"
   },
   {
     "id": "xavieruniversity-mens",
@@ -1168,7 +1186,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Xavier+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Xavier+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均83位 (2026年 32位 / 2025年 116位 / 2024年 101位)"
+    "strengthNote": "平均83位 (2026年 32位 / 2025年 116位 / 2024年 101位)",
+    "siteUrl": "https://goxavier.com/sports/mens-soccer"
   },
   {
     "id": "setonhalluniversity-mens",
@@ -1204,7 +1223,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jeff Matteo",
     "assistantCoachEmail": "jeffrey.matteo@shu.edu",
     "strengthLevel": 4,
-    "strengthNote": "平均58位 (2026年 58位 / 2025年 26位 / 2024年 89位)"
+    "strengthNote": "平均58位 (2026年 58位 / 2025年 26位 / 2024年 89位)",
+    "siteUrl": "https://shupirates.com/sports/mens-soccer"
   },
   {
     "id": "marquetteuniversity-mens",
@@ -1237,7 +1257,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Marquette+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Marquette+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均102位 (2026年 47位 / 2025年 131位 / 2024年 128位)"
+    "strengthNote": "平均102位 (2026年 47位 / 2025年 131位 / 2024年 128位)",
+    "siteUrl": "https://gomarquette.com/sports/mens-soccer"
   },
   {
     "id": "villanovauniversity-mens",
@@ -1273,7 +1294,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Alex Balog",
     "assistantCoachEmail": "abalog@villanova.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均126位 (2026年 119位 / 2025年 89位 / 2024年 171位)"
+    "strengthNote": "平均126位 (2026年 119位 / 2025年 89位 / 2024年 171位)",
+    "siteUrl": "https://villanovan.com/3020/sports/mens-soccer-adds-transfers-and-freshmen-to-roster"
   },
   {
     "id": "depauluniversity-mens",
@@ -1346,7 +1368,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "faga@marshall.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均16位 (2026年 19位 / 2025年 22位 / 2024年 8位)"
+    "strengthNote": "平均16位 (2026年 19位 / 2025年 22位 / 2024年 8位)",
+    "siteUrl": "https://herdzone.com/sports/mens-soccer"
   },
   {
     "id": "westvirginiauniversi-mens",
@@ -1555,7 +1578,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均117位 (2026年 66位 / 2025年 153位 / 2024年 133位)"
+    "strengthNote": "平均117位 (2026年 66位 / 2025年 153位 / 2024年 133位)",
+    "siteUrl": "https://goccusports.com/sports/mens-soccer"
   },
   {
     "id": "olddominionuniversit-mens",
@@ -1588,7 +1612,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Old+Dominion+University+(ODU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Old+Dominion+University+(ODU)+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均81位 (2026年 55位 / 2025年 97位 / 2024年 92位)"
+    "strengthNote": "平均81位 (2026年 55位 / 2025年 97位 / 2024年 92位)",
+    "siteUrl": "https://odusports.com/sports/mens-soccer"
   },
   {
     "id": "georgiastateuniversi-mens",
@@ -1621,7 +1646,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Georgia+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgia+State+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均153位 (2026年 132位 / 2025年 170位 / 2024年 156位)"
+    "strengthNote": "平均153位 (2026年 132位 / 2025年 170位 / 2024年 156位)",
+    "siteUrl": "https://georgiastatesports.com/sports/mens-soccer"
   },
   {
     "id": "georgiasouthernunive-mens",
@@ -1693,7 +1719,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "dmerida@fiu.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均66位 (2026年 64位 / 2025年 70位 / 2024年 64位)"
+    "strengthNote": "平均66位 (2026年 64位 / 2025年 70位 / 2024年 64位)",
+    "siteUrl": "https://fiusports.com/sports/mens-soccer"
   },
   {
     "id": "unccharlotte-mens",
@@ -1762,7 +1789,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Tulsa+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Tulsa+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均94位 (2026年 40位 / 2025年 111位 / 2024年 130位)"
+    "strengthNote": "平均94位 (2026年 40位 / 2025年 111位 / 2024年 130位)",
+    "siteUrl": "https://tulsahurricane.com/sports/mens-soccer"
   },
   {
     "id": "usfunivofsouthflorid-mens",
@@ -1828,7 +1856,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Memphis+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Memphis+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均107位 (2026年 72位 / 2025年 146位 / 2024年 102位)"
+    "strengthNote": "平均107位 (2026年 72位 / 2025年 146位 / 2024年 102位)",
+    "siteUrl": "https://gotigersgo.com/sports/mens-soccer"
   },
   {
     "id": "floridaatlanticfau-mens",
@@ -1861,7 +1890,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Atlantic+(FAU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Atlantic+(FAU)+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均69位 (2026年 74位 / 2025年 35位 / 2024年 97位)"
+    "strengthNote": "平均69位 (2026年 74位 / 2025年 35位 / 2024年 97位)",
+    "siteUrl": "https://fausports.com/sports/mens-soccer"
   },
   {
     "id": "templeuniversity-mens",
@@ -1894,7 +1924,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Temple+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Temple+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均161位 (2026年 190位 / 2025年 181位 / 2024年 111位)"
+    "strengthNote": "平均161位 (2026年 190位 / 2025年 181位 / 2024年 111位)",
+    "siteUrl": "https://owlsports.com/sports/mens-soccer"
   },
   {
     "id": "uabunivofalabamabirm-mens",
@@ -1961,7 +1992,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Princeton+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Princeton+University+Soccer+ID+Camp",
     "strengthLevel": 5,
-    "strengthNote": "平均18位 (2026年 36位 / 2025年 2位 / 2024年 17位)"
+    "strengthNote": "平均18位 (2026年 36位 / 2025年 2位 / 2024年 17位)",
+    "siteUrl": "https://goprincetontigers.com/sports/mens-soccer"
   },
   {
     "id": "pennuniversityofpenn-mens",
@@ -2064,7 +2096,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Harvard+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Harvard+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均109位 (2026年 107位 / 2025年 65位 / 2024年 155位)"
+    "strengthNote": "平均109位 (2026年 107位 / 2025年 65位 / 2024年 155位)",
+    "siteUrl": "https://news.harvard.edu/gazette/story/2002/09/mens-soccer-dominates-hartford"
   },
   {
     "id": "yaleuniversity-mens",
@@ -2200,7 +2233,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Columbia+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Columbia+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均147位 (2026年 117位 / 2025年 120位 / 2024年 204位)"
+    "strengthNote": "平均147位 (2026年 117位 / 2025年 120位 / 2024年 204位)",
+    "siteUrl": "https://www.columbiaspectator.com/sports/mens-soccer"
   },
   {
     "id": "ucsantabarbaraucsb-mens",
@@ -2237,7 +2271,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均52位 (2026年 39位 / 2025年 79位 / 2024年 38位)"
+    "strengthNote": "平均52位 (2026年 39位 / 2025年 79位 / 2024年 38位)",
+    "siteUrl": "https://ucsbgauchos.com/sports/mens-soccer"
   },
   {
     "id": "calpolysanluisobispo-mens",
@@ -2273,7 +2308,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "zwatso01@calpoly.edu",
     "coachVerified": true,
     "strengthLevel": 3,
-    "strengthNote": "平均109位 (2026年 118位 / 2025年 101位 / 2024年 108位)"
+    "strengthNote": "平均109位 (2026年 118位 / 2025年 101位 / 2024年 108位)",
+    "siteUrl": "https://gopoly.com/sports/mens-soccer"
   },
   {
     "id": "ucirvine-mens",
@@ -2309,7 +2345,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mgrosh@uci.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均61位 (2026年 49位 / 2025年 59位 / 2024年 74位)"
+    "strengthNote": "平均61位 (2026年 49位 / 2025年 59位 / 2024年 74位)",
+    "siteUrl": "https://ucirvinesports.com/sports/mens-soccer"
   },
   {
     "id": "calstatefullerton-mens",
@@ -2345,7 +2382,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "caguilar@fullerton.edu",
     "coachVerified": true,
     "strengthLevel": 2,
-    "strengthNote": "平均112位 (2026年 128位 / 2025年 118位 / 2024年 90位)"
+    "strengthNote": "平均112位 (2026年 128位 / 2025年 118位 / 2024年 90位)",
+    "siteUrl": "https://fullertontitans.com/sports/mens-soccer"
   },
   {
     "id": "ucdavis-mens",
@@ -2381,7 +2419,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "cleer@ucdavis.edu",
     "coachVerified": true,
     "strengthLevel": 2,
-    "strengthNote": "平均138位 (2026年 206位 / 2025年 155位 / 2024年 54位)"
+    "strengthNote": "平均138位 (2026年 206位 / 2025年 155位 / 2024年 54位)",
+    "siteUrl": "https://ucdavisaggies.com/sports/mens-soccer"
   },
   {
     "id": "calstatenorthridgecs-mens",
@@ -2417,7 +2456,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "adavila@csun.edu",
     "coachVerified": true,
     "strengthLevel": 1,
-    "strengthNote": "平均152位 (2026年 122位 / 2025年 165位 / 2024年 169位)"
+    "strengthNote": "平均152位 (2026年 122位 / 2025年 165位 / 2024年 169位)",
+    "siteUrl": "https://gomatadors.com/sports/mens-soccer"
   },
   {
     "id": "ucriverside-mens",
@@ -2453,7 +2493,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "cfoster@ucr.edu",
     "coachVerified": true,
     "strengthLevel": 1,
-    "strengthNote": "平均152位 (2026年 133位 / 2025年 179位 / 2024年 143位)"
+    "strengthNote": "平均152位 (2026年 133位 / 2025年 179位 / 2024年 143位)",
+    "siteUrl": "https://gohighlanders.com/sports/mens-soccer"
   },
   {
     "id": "ucsandiegoucsd-mens",
@@ -2489,7 +2530,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "steepen@ucsd.edu",
     "coachVerified": true,
     "strengthLevel": 1,
-    "strengthNote": "平均157位 (2026年 124位 / 2025年 162位 / 2024年 184位)"
+    "strengthNote": "平均157位 (2026年 124位 / 2025年 162位 / 2024年 184位)",
+    "siteUrl": "https://ucsdtritons.com/sports/mens-soccer"
   },
   {
     "id": "sacramentostate-mens",
@@ -2524,7 +2566,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Matt McDougall (Associate HC)",
     "assistantCoachEmail": "mcdougall@csus.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均169位 (2026年 175位 / 2025年 195位 / 2024年 138位)"
+    "strengthNote": "平均169位 (2026年 175位 / 2025年 195位 / 2024年 138位)",
+    "siteUrl": "https://hornetsports.com/sports/mens-soccer"
   },
   {
     "id": "calstatebakersfield-mens",
@@ -2559,7 +2602,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Christian De Luna",
     "assistantCoachEmail": "cdeluna@csub.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均115位 (2026年 65位 / 2025年 178位 / 2024年 103位)"
+    "strengthNote": "平均115位 (2026年 65位 / 2025年 178位 / 2024年 103位)",
+    "siteUrl": "https://gorunners.com/sports/mens-soccer"
   },
   {
     "id": "universityofportland-mens",
@@ -2629,7 +2673,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mditta@sandiego.edu",
     "coachVerified": true,
     "strengthLevel": 5,
-    "strengthNote": "平均20位 (2026年 31位 / 2025年 9位 / 2024年 20位)"
+    "strengthNote": "平均20位 (2026年 31位 / 2025年 9位 / 2024年 20位)",
+    "siteUrl": "https://usdtoreros.com/sports/mens-soccer"
   },
   {
     "id": "oregonstateuniversit-mens",
@@ -2698,7 +2743,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "eyamamoto@scu.edu",
     "coachVerified": true,
     "strengthLevel": 2,
-    "strengthNote": "平均131位 (2026年 142位 / 2025年 94位 / 2024年 156位)"
+    "strengthNote": "平均131位 (2026年 142位 / 2025年 94位 / 2024年 156位)",
+    "siteUrl": "https://santaclarabroncos.com/sports/mens-soccer"
   },
   {
     "id": "saintmaryscollegeca-mens",
@@ -2734,7 +2780,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "srn6@stmarys-ca.edu",
     "coachVerified": true,
     "strengthLevel": 1,
-    "strengthNote": "平均159位 (2026年 180位 / 2025年 139位 / 2024年 159位)"
+    "strengthNote": "平均159位 (2026年 180位 / 2025年 139位 / 2024年 159位)",
+    "siteUrl": "https://smcgaels.com/sports/mens-soccer"
   },
   {
     "id": "sanfranciscousf-mens",
@@ -2770,7 +2817,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jdonoho@usfca.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均70位 (2026年 98位 / 2025年 42位 / 2024年 70位)"
+    "strengthNote": "平均70位 (2026年 98位 / 2025年 42位 / 2024年 70位)",
+    "siteUrl": "https://usfdons.com/sports/mens-soccer"
   },
   {
     "id": "gonzagauniversity-mens",
@@ -2806,7 +2854,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Christo Michaelson",
     "assistantCoachEmail": "michaelsonc@gonzaga.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均139位 (2026年 127位 / 2025年 126位 / 2024年 163位)"
+    "strengthNote": "平均139位 (2026年 127位 / 2025年 126位 / 2024年 163位)",
+    "siteUrl": "https://gozags.com/sports/mens-soccer"
   },
   {
     "id": "universityofthepacif-mens",
@@ -2842,7 +2891,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "blanoye@pacific.edu",
     "coachVerified": true,
     "strengthLevel": 1,
-    "strengthNote": "平均163位 (2026年 187位 / 2025年 177位 / 2024年 125位)"
+    "strengthNote": "平均163位 (2026年 187位 / 2025年 177位 / 2024年 125位)",
+    "siteUrl": "https://pacifictigers.com/sports/mens-soccer"
   },
   {
     "id": "saintlouisuniversity-mens",
@@ -2879,7 +2929,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "kevin.stoll@slu.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均31位 (2026年 44位 / 2025年 12位 / 2024年 37位)"
+    "strengthNote": "平均31位 (2026年 44位 / 2025年 12位 / 2024年 37位)",
+    "siteUrl": "https://slubillikens.com/sports/mens-soccer"
   },
   {
     "id": "universityofdayton-mens",
@@ -3051,7 +3102,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Davidson+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Davidson+College+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均74位 (2026年 93位 / 2025年 52位 / 2024年 78位)"
+    "strengthNote": "平均74位 (2026年 93位 / 2025年 52位 / 2024年 78位)",
+    "siteUrl": "https://davidsonwildcats.com/sports/mens-soccer"
   },
   {
     "id": "duquesneuniversity-mens",
@@ -3084,7 +3136,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Duquesne+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Duquesne+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均84位 (2026年 76位 / 2025年 122位 / 2024年 53位)"
+    "strengthNote": "平均84位 (2026年 76位 / 2025年 122位 / 2024年 53位)",
+    "siteUrl": "https://goduquesne.com/sports/mens-soccer"
   },
   {
     "id": "georgemasonuniversit-mens",
@@ -3117,7 +3170,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=George+Mason+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=George+Mason+University+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均67位 (2026年 83位 / 2025年 78位 / 2024年 41位)"
+    "strengthNote": "平均67位 (2026年 83位 / 2025年 78位 / 2024年 41位)",
+    "siteUrl": "https://gomason.com/sports/mens-soccer"
   },
   {
     "id": "georgewashingtongw-mens",
@@ -3189,7 +3243,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ahmed Elgayar",
     "assistantCoachEmail": "elgayar@lasalle.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均134位 (2026年 100位 / 2025年 164位 / 2024年 139位)"
+    "strengthNote": "平均134位 (2026年 100位 / 2025年 164位 / 2024年 139位)",
+    "siteUrl": "https://goexplorers.com/sports/mens-soccer"
   },
   {
     "id": "rhodeislanduri-mens",
@@ -3255,7 +3310,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均159位 (2026年 149位 / 2025年 142位 / 2024年 187位)"
+    "strengthNote": "平均159位 (2026年 149位 / 2025年 142位 / 2024年 187位)",
+    "siteUrl": "https://sjuhawks.com/sports/mens-soccer"
   },
   {
     "id": "stbonaventureunivers-mens",
@@ -3288,7 +3344,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均159位 (2026年 150位 / 2025年 192位 / 2024年 135位)"
+    "strengthNote": "平均159位 (2026年 150位 / 2025年 192位 / 2024年 135位)",
+    "siteUrl": "https://gobonnies.com/sports/mens-soccer"
   },
   {
     "id": "hofstrauniversity-mens",
@@ -3321,7 +3378,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Hofstra+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Hofstra+University+Soccer+ID+Camp",
     "strengthLevel": 5,
-    "strengthNote": "平均20位 (2026年 42位 / 2025年 13位 / 2024年 5位)"
+    "strengthNote": "平均20位 (2026年 42位 / 2025年 13位 / 2024年 5位)",
+    "siteUrl": "https://gohofstra.com/sports/mens-soccer"
   },
   {
     "id": "uncwilmingtonuncw-mens",
@@ -3354,7 +3412,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=UNC+Wilmington+(UNCW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UNC+Wilmington+(UNCW)+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均76位 (2026年 24位 / 2025年 128位 / 2024年 76位)"
+    "strengthNote": "平均76位 (2026年 24位 / 2025年 128位 / 2024年 76位)",
+    "siteUrl": "https://uncwsports.com/sports/mens-soccer"
   },
   {
     "id": "elonuniversity-mens",
@@ -3387,7 +3446,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Elon+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Elon+University+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均58位 (2026年 61位 / 2025年 64位 / 2024年 50位)"
+    "strengthNote": "平均58位 (2026年 61位 / 2025年 64位 / 2024年 50位)",
+    "siteUrl": "https://elonphoenix.com/sports/mens-soccer"
   },
   {
     "id": "drexeluniversity-mens",
@@ -3457,7 +3517,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Campbell+University+Soccer+ID+Camp",
     "coachVerified": true,
     "strengthLevel": 2,
-    "strengthNote": "平均127位 (2026年 165位 / 2025年 113位 / 2024年 104位)"
+    "strengthNote": "平均127位 (2026年 165位 / 2025年 113位 / 2024年 104位)",
+    "siteUrl": "https://gocamels.com/sports/mens-soccer"
   },
   {
     "id": "universityofdelaware-mens",
@@ -3556,7 +3617,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=College+of+Charleston+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=College+of+Charleston+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均69位 (2026年 35位 / 2025年 106位 / 2024年 66位)"
+    "strengthNote": "平均69位 (2026年 35位 / 2025年 106位 / 2024年 66位)",
+    "siteUrl": "https://cofcsports.com/sports/mens-soccer"
   },
   {
     "id": "monmouthuniversity-mens",
@@ -3589,7 +3651,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Monmouth+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Monmouth+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均111位 (2026年 164位 / 2025年 125位 / 2024年 43位)"
+    "strengthNote": "平均111位 (2026年 164位 / 2025年 125位 / 2024年 43位)",
+    "siteUrl": "https://monmouthhawks.com/sports/mens-soccer"
   },
   {
     "id": "stonybrookuniversity-mens",
@@ -3655,7 +3718,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Northeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northeastern+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均143位 (2026年 139位 / 2025年 141位 / 2024年 148位)"
+    "strengthNote": "平均143位 (2026年 139位 / 2025年 141位 / 2024年 148位)",
+    "siteUrl": "https://nuhuskies.com/sports/mens-soccer"
   },
   {
     "id": "newhampshireunh-mens",
@@ -3856,7 +3920,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Habi Darling",
     "assistantCoachEmail": "hdarling@binghamton.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均148位 (2026年 177位 / 2025年 180位 / 2024年 88位)"
+    "strengthNote": "平均148位 (2026年 177位 / 2025年 180位 / 2024年 88位)",
+    "siteUrl": "https://binghamtonbearcats.com/sports/mens-soccer"
   },
   {
     "id": "ualbany-mens",
@@ -3928,7 +3993,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jason Stanton",
     "assistantCoachEmail": "Jason_Stanton@uml.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均124位 (2026年 143位 / 2025年 108位 / 2024年 122位)"
+    "strengthNote": "平均124位 (2026年 143位 / 2025年 108位 / 2024年 122位)",
+    "siteUrl": "https://goriverhawks.com/sports/mens-soccer"
   },
   {
     "id": "westernmichigan-mens",
@@ -4000,7 +4066,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "ac8954s@missouristate.edu",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均41位 (2026年 27位 / 2025年 83位 / 2024年 13位)"
+    "strengthNote": "平均41位 (2026年 27位 / 2025年 83位 / 2024年 13位)",
+    "siteUrl": "https://missouristatebears.com/sports/mens-soccer"
   },
   {
     "id": "uicunivofillinoischi-mens",
@@ -4102,7 +4169,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Drake+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Drake+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均84位 (2026年 136位 / 2025年 72位 / 2024年 45位)"
+    "strengthNote": "平均84位 (2026年 136位 / 2025年 72位 / 2024年 45位)",
+    "siteUrl": "https://godrakebulldogs.com/sports/mens-soccer"
   },
   {
     "id": "universityofevansvil-mens",
@@ -4138,7 +4206,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Matt Melzer",
     "assistantCoachEmail": "mm1059@evansville.edu",
     "strengthLevel": 3,
-    "strengthNote": "平均83位 (2026年 110位 / 2025年 90位 / 2024年 49位)"
+    "strengthNote": "平均83位 (2026年 110位 / 2025年 90位 / 2024年 49位)",
+    "siteUrl": "https://gopurpleaces.com/sports/mens-soccer"
   },
   {
     "id": "belmontuniversity-mens",
@@ -4207,7 +4276,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Bradley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bradley+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均173位 (2026年 196位 / 2025年 185位 / 2024年 137位)"
+    "strengthNote": "平均173位 (2026年 196位 / 2025年 185位 / 2024年 137位)",
+    "siteUrl": "https://bradleybraves.com/sports/mens-soccer"
   },
   {
     "id": "northernillinoisniu-mens",
@@ -4273,7 +4343,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Seattle+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Seattle+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均99位 (2026年 144位 / 2025年 102位 / 2024年 52位)"
+    "strengthNote": "平均99位 (2026年 144位 / 2025年 102位 / 2024年 52位)",
+    "siteUrl": "https://goseattleu.com/sports/mens-soccer"
   },
   {
     "id": "grandcanyongcu-mens",
@@ -4343,7 +4414,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jgreaves@calbaptist.edu",
     "coachVerified": true,
     "strengthLevel": 3,
-    "strengthNote": "平均76位 (2026年 46位 / 2025年 54位 / 2024年 129位)"
+    "strengthNote": "平均76位 (2026年 46位 / 2025年 54位 / 2024年 129位)",
+    "siteUrl": "https://cbulancers.com/sports/mens-soccer"
   },
   {
     "id": "sanjosestatesjsu-mens",
@@ -4378,7 +4450,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jesus Sanchez",
     "assistantCoachEmail": "jesus.sanchez@sjsu.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均123位 (2026年 170位 / 2025年 51位 / 2024年 149位)"
+    "strengthNote": "平均123位 (2026年 170位 / 2025年 51位 / 2024年 149位)",
+    "siteUrl": "https://sjsuspartans.com/sports/mens-soccer"
   },
   {
     "id": "unlv-mens",
@@ -4513,7 +4586,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=UTRGV+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=UTRGV+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均192位 (2026年 202位 / 2025年 199位 / 2024年 175位)"
+    "strengthNote": "平均192位 (2026年 202位 / 2025年 199位 / 2024年 175位)",
+    "siteUrl": "https://goutrgv.com/sports/mens-soccer"
   },
   {
     "id": "incarnateworduiw-mens",
@@ -4847,7 +4921,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均165位 (2026年 183位 / 2025年 157位 / 2024年 154位)"
+    "strengthNote": "平均165位 (2026年 183位 / 2025年 157位 / 2024年 154位)",
+    "siteUrl": "https://loyolagreyhounds.com/sports/mens-soccer"
   },
   {
     "id": "colgateuniversity-mens",
@@ -4952,7 +5027,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Lafayette+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lafayette+College+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均151位 (2026年 192位 / 2025年 107位 / 2024年 153位)"
+    "strengthNote": "平均151位 (2026年 192位 / 2025年 107位 / 2024年 153位)",
+    "siteUrl": "https://goleopards.com/sports/mens-soccer"
   },
   {
     "id": "lehighuniversity-mens",
@@ -4988,7 +5064,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ryan Hess",
     "assistantCoachEmail": "reh311@lehigh.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均125位 (2026年 136位 / 2025年 62位 / 2024年 176位)"
+    "strengthNote": "平均125位 (2026年 136位 / 2025年 62位 / 2024年 176位)",
+    "siteUrl": "https://lehighsports.com/sports/mens-soccer"
   },
   {
     "id": "collegeoftheholycros-mens",
@@ -5021,7 +5098,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均182位 (2026年 191位 / 2025年 175位 / 2024年 181位)"
+    "strengthNote": "平均182位 (2026年 191位 / 2025年 175位 / 2024年 181位)",
+    "siteUrl": "https://goholycross.com/sports/mens-soccer"
   },
   {
     "id": "bucknelluniversity-mens",
@@ -5054,7 +5132,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Bucknell+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bucknell+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均93位 (2026年 108位 / 2025年 60位 / 2024年 112位)"
+    "strengthNote": "平均93位 (2026年 108位 / 2025年 60位 / 2024年 112位)",
+    "siteUrl": "https://bucknellbison.com/sports/mens-soccer"
   },
   {
     "id": "armywestpoint-mens",
@@ -5156,7 +5235,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Joey Tinnion",
     "assistantCoachEmail": "jtinnion@oakland.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均150位 (2026年 162位 / 2025年 194位 / 2024年 95位)"
+    "strengthNote": "平均150位 (2026年 162位 / 2025年 194位 / 2024年 95位)",
+    "siteUrl": "https://goldengrizzlies.com/sports/mens-soccer"
   },
   {
     "id": "clevelandstate-mens",
@@ -5192,7 +5272,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Charlie Krus",
     "assistantCoachEmail": "c.krus@csuohio.edu",
     "strengthLevel": 3,
-    "strengthNote": "平均100位 (2026年 114位 / 2025年 96位 / 2024年 91位)"
+    "strengthNote": "平均100位 (2026年 114位 / 2025年 96位 / 2024年 91位)",
+    "siteUrl": "https://csuvikings.com/sports/mens-soccer"
   },
   {
     "id": "wrightstateuniversit-mens",
@@ -5225,7 +5306,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Wright+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wright+State+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均160位 (2026年 138位 / 2025年 202位 / 2024年 141位)"
+    "strengthNote": "平均160位 (2026年 138位 / 2025年 202位 / 2024年 141位)",
+    "siteUrl": "https://wsuraiders.com/sports/mens-soccer"
   },
   {
     "id": "detroitmercy-mens",
@@ -5258,7 +5340,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Detroit+Mercy+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Detroit+Mercy+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均180位 (2026年 186位 / 2025年 183位 / 2024年 170位)"
+    "strengthNote": "平均180位 (2026年 186位 / 2025年 183位 / 2024年 170位)",
+    "siteUrl": "https://detroittitans.com/sports/mens-soccer"
   },
   {
     "id": "uw-greenbay-mens",
@@ -5390,7 +5473,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Purdue+Fort+Wayne+(PFW)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Purdue+Fort+Wayne+(PFW)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均136位 (2026年 121位 / 2025年 143位 / 2024年 145位)"
+    "strengthNote": "平均136位 (2026年 121位 / 2025年 143位 / 2024年 145位)",
+    "siteUrl": "https://gomastodons.com/sports/mens-soccer"
   },
   {
     "id": "robertmorrisuniversi-mens",
@@ -5423,7 +5507,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Robert+Morris+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Robert+Morris+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均132位 (2026年 147位 / 2025年 154位 / 2024年 96位)"
+    "strengthNote": "平均132位 (2026年 147位 / 2025年 154位 / 2024年 96位)",
+    "siteUrl": "https://rmucolonials.com/sports/mens-soccer"
   },
   {
     "id": "uncgreensborouncg-mens",
@@ -5489,7 +5574,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Furman+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Furman+University+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均48位 (2026年 67位 / 2025年 14位 / 2024年 63位)"
+    "strengthNote": "平均48位 (2026年 67位 / 2025年 14位 / 2024年 63位)",
+    "siteUrl": "https://furmanpaladins.com/sports/mens-soccer"
   },
   {
     "id": "merceruniversity-mens",
@@ -5555,7 +5641,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均144位 (2026年 123位 / 2025年 203位 / 2024年 106位)"
+    "strengthNote": "平均144位 (2026年 123位 / 2025年 203位 / 2024年 106位)",
+    "siteUrl": "https://etsubucs.com/sports/mens-soccer"
   },
   {
     "id": "woffordcollege-mens",
@@ -5591,7 +5678,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Mac Thomalla",
     "assistantCoachEmail": "thomallacf@wofford.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均120位 (2026年 92位 / 2025年 161位 / 2024年 107位)"
+    "strengthNote": "平均120位 (2026年 92位 / 2025年 161位 / 2024年 107位)",
+    "siteUrl": "https://woffordterriers.com/sports/mens-soccer"
   },
   {
     "id": "vmi-mens",
@@ -5663,7 +5751,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Julian Lucumi",
     "assistantCoachEmail": "jmlucumivillegas@lipscomb.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均183位 (2026年 189位 / 2025年 174位 / 2024年 186位)"
+    "strengthNote": "平均183位 (2026年 189位 / 2025年 174位 / 2024年 186位)",
+    "siteUrl": "https://lipscombsports.com/sports/mens-soccer"
   },
   {
     "id": "stetsonuniversity-mens",
@@ -5699,7 +5788,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Eduardo Jimenez",
     "assistantCoachEmail": "efjimenez@stetson.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均145位 (2026年 148位 / 2025年 123位 / 2024年 164位)"
+    "strengthNote": "平均145位 (2026年 148位 / 2025年 123位 / 2024年 164位)",
+    "siteUrl": "https://gohatters.com/sports/mens-soccer"
   },
   {
     "id": "fgcufloridagulfcoast-mens",
@@ -5732,7 +5822,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=FGCU+(Florida+Gulf+Coast)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=FGCU+(Florida+Gulf+Coast)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均142位 (2026年 140位 / 2025年 95位 / 2024年 192位)"
+    "strengthNote": "平均142位 (2026年 140位 / 2025年 95位 / 2024年 192位)",
+    "siteUrl": "https://fgcuathletics.com/sports/mens-soccer"
   },
   {
     "id": "bellarmineuniversity-mens",
@@ -5765,7 +5856,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Bellarmine+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bellarmine+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均151位 (2026年 152位 / 2025年 114位 / 2024年 188位)"
+    "strengthNote": "平均151位 (2026年 152位 / 2025年 114位 / 2024年 188位)",
+    "siteUrl": "https://athletics.bellarmine.edu/sports/mens-soccer"
   },
   {
     "id": "centralarkansasuca-mens",
@@ -5897,7 +5989,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Queens+University+of+Charlotte+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Queens+University+of+Charlotte+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均171位 (2026年 160位 / 2025年 163位 / 2024年 189位)"
+    "strengthNote": "平均171位 (2026年 160位 / 2025年 163位 / 2024年 189位)",
+    "siteUrl": "https://queensathletics.com/sports/mens-soccer"
   },
   {
     "id": "ionauniversity-mens",
@@ -5999,7 +6092,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Reilly Fuller",
     "assistantCoachEmail": "rfuller@rider.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均129位 (2026年 103位 / 2025年 197位 / 2024年 87位)"
+    "strengthNote": "平均129位 (2026年 103位 / 2025年 197位 / 2024年 87位)",
+    "siteUrl": "https://gobroncs.com/sports/mens-soccer"
   },
   {
     "id": "maristcollege-mens",
@@ -6131,7 +6225,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Manhattan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Manhattan+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均175位 (2026年 193位 / 2025年 172位 / 2024年 160位)"
+    "strengthNote": "平均175位 (2026年 193位 / 2025年 172位 / 2024年 160位)",
+    "siteUrl": "https://gojaspers.com/sports/mens-soccer"
   },
   {
     "id": "mountstmarys-mens",
@@ -6200,7 +6295,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "David Hesch",
     "assistantCoachEmail": "dhesch@niagara.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均171位 (2026年 156位 / 2025年 150位 / 2024年 208位)"
+    "strengthNote": "平均171位 (2026年 156位 / 2025年 150位 / 2024年 208位)",
+    "siteUrl": "https://purpleeagles.com/sports/mens-soccer"
   },
   {
     "id": "canisiusuniversity-mens",
@@ -6233,7 +6329,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Canisius+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Canisius+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均201位 (2026年 208位 / 2025年 196位 / 2024年 199位)"
+    "strengthNote": "平均201位 (2026年 208位 / 2025年 196位 / 2024年 199位)",
+    "siteUrl": "https://gogriffs.com/sports/mens-soccer"
   },
   {
     "id": "saintpetersuniversit-mens",
@@ -6269,7 +6366,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Tom Coulson",
     "assistantCoachEmail": "tcoulson17@saintpeters.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均185位 (2026年 154位 / 2025年 193位 / 2024年 209位)"
+    "strengthNote": "平均185位 (2026年 154位 / 2025年 193位 / 2024年 209位)",
+    "siteUrl": "https://saintpeterspeacocks.com/sports/mens-soccer"
   },
   {
     "id": "saintfrancisuniversi-mens",
@@ -6305,7 +6403,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Connor Oechslin",
     "assistantCoachEmail": "coechslin@francis.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均142位 (2025年 160位 / 2024年 123位)"
+    "strengthNote": "平均142位 (2025年 160位 / 2024年 123位)",
+    "siteUrl": "https://sfuathletics.com/sports/mens-soccer"
   },
   {
     "id": "liulongislandunivers-mens",
@@ -6410,7 +6509,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Oscar Curras",
     "assistantCoachEmail": "msoccer@sacredheart.edu",
     "strengthLevel": 3,
-    "strengthNote": "平均100位 (2026年 62位 / 2025年 47位 / 2024年 191位)"
+    "strengthNote": "平均100位 (2026年 62位 / 2025年 47位 / 2024年 191位)",
+    "siteUrl": "https://sacredheartpioneers.com/sports/mens-soccer"
   },
   {
     "id": "centralconnecticutst-mens",
@@ -6443,7 +6543,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Central+Connecticut+State+(CCSU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Central+Connecticut+State+(CCSU)+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均199位 (2026年 178位 / 2025年 213位 / 2024年 207位)"
+    "strengthNote": "平均199位 (2026年 178位 / 2025年 213位 / 2024年 207位)",
+    "siteUrl": "https://www.ccsubluedevils.com/sports/msoc/index"
   },
   {
     "id": "lemoynecollege-mens",
@@ -6479,7 +6580,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Casey Murphy",
     "assistantCoachEmail": "murphca@lemoyne.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均177位 (2026年 185位 / 2025年 184位 / 2024年 161位)"
+    "strengthNote": "平均177位 (2026年 185位 / 2025年 184位 / 2024年 161位)",
+    "siteUrl": "https://lemoynedolphins.com/sports/mens-soccer"
   },
   {
     "id": "stonehillcollege-mens",
@@ -6512,7 +6614,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Stonehill+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Stonehill+College+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均196位 (2026年 199位 / 2025年 200位 / 2024年 190位)"
+    "strengthNote": "平均196位 (2026年 199位 / 2025年 200位 / 2024年 190位)",
+    "siteUrl": "https://stonehillskyhawks.com/sports/mens-soccer"
   },
   {
     "id": "howarduniversity-mens",
@@ -6548,7 +6651,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jason Gross",
     "assistantCoachEmail": "jason.gross@howard.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均207位 (2026年 210位 / 2025年 208位 / 2024年 202位)"
+    "strengthNote": "平均207位 (2026年 210位 / 2025年 208位 / 2024年 202位)",
+    "siteUrl": "https://hubison.com/sports/mens-soccer"
   },
   {
     "id": "mercyhurstuniversity-mens",
@@ -6581,7 +6685,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Mercyhurst+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mercyhurst+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均167位 (2026年 176位 / 2025年 209位 / 2024年 116位)"
+    "strengthNote": "平均167位 (2026年 176位 / 2025年 209位 / 2024年 116位)",
+    "siteUrl": "https://hurstathletics.com/sports/mens-soccer"
   },
   {
     "id": "chicagostateuniversi-mens",
@@ -6614,7 +6719,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Chicago+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Chicago+State+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均208位 (2026年 212位 / 2025年 212位 / 2024年 201位)"
+    "strengthNote": "平均208位 (2026年 212位 / 2025年 212位 / 2024年 201位)",
+    "siteUrl": "https://www.gocsucougars.com/sports/mens-soccer"
   },
   {
     "id": "siuedwardsvillesiue-mens",
@@ -6647,7 +6753,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=SIU+Edwardsville+(SIUE)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=SIU+Edwardsville+(SIUE)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均136位 (2026年 181位 / 2025年 166位 / 2024年 62位)"
+    "strengthNote": "平均136位 (2026年 181位 / 2025年 166位 / 2024年 62位)",
+    "siteUrl": "https://siuecougars.com/sports/mens-soccer"
   },
   {
     "id": "libertyuniversity-mens",
@@ -6713,7 +6820,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Lindenwood+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lindenwood+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均132位 (2026年 171位 / 2025年 91位 / 2024年 134位)"
+    "strengthNote": "平均132位 (2026年 171位 / 2025年 91位 / 2024年 134位)",
+    "siteUrl": "https://lindenwoodlions.com/sports/mens-soccer"
   },
   {
     "id": "easternillinoisunive-mens",
@@ -6746,7 +6854,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均193位 (2026年 201位 / 2025年 167位 / 2024年 210位)"
+    "strengthNote": "平均193位 (2026年 201位 / 2025年 167位 / 2024年 210位)",
+    "siteUrl": "https://eiupanthers.com/sports/mens-soccer"
   },
   {
     "id": "southernindianausi-mens",
@@ -6812,7 +6921,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=High+Point+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=High+Point+University+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均41位 (2026年 69位 / 2025年 15位 / 2024年 40位)"
+    "strengthNote": "平均41位 (2026年 69位 / 2025年 15位 / 2024年 40位)",
+    "siteUrl": "https://highpointpanthers.com/sports/mens-soccer"
   },
   {
     "id": "winthropuniversity-mens",
@@ -6845,7 +6955,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Winthrop+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Winthrop+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均181位 (2026年 151位 / 2025年 210位 / 2024年 182位)"
+    "strengthNote": "平均181位 (2026年 151位 / 2025年 210位 / 2024年 182位)",
+    "siteUrl": "https://winthropeagles.com/sports/mens-soccer"
   },
   {
     "id": "gardner-webbuniversi-mens",
@@ -6881,7 +6992,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Josh Nakayama",
     "assistantCoachEmail": "msoccer@gardner-webb.edu",
     "strengthLevel": 4,
-    "strengthNote": "平均55位 (2026年 78位 / 2025年 37位 / 2024年 51位)"
+    "strengthNote": "平均55位 (2026年 78位 / 2025年 37位 / 2024年 51位)",
+    "siteUrl": "https://gwusports.com/sports/mens-soccer"
   },
   {
     "id": "longwooduniversity-mens",
@@ -6953,7 +7065,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Paul Jones",
     "assistantCoachEmail": "pjones@presby.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均181位 (2026年 213位 / 2025年 145位 / 2024年 185位)"
+    "strengthNote": "平均181位 (2026年 213位 / 2025年 145位 / 2024年 185位)",
+    "siteUrl": "https://gobluehose.com/sports/mens-soccer"
   },
   {
     "id": "uncasheville-mens",
@@ -6989,7 +7102,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Derek Neidlinger",
     "assistantCoachEmail": "dneidlin@unca.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均141位 (2026年 130位 / 2025年 148位 / 2024年 146位)"
+    "strengthNote": "平均141位 (2026年 130位 / 2025年 148位 / 2024年 146位)",
+    "siteUrl": "https://uncabulldogs.com/sports/mens-soccer"
   },
   {
     "id": "radforduniversity-mens",
@@ -7025,7 +7139,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ryan Palmbaum",
     "assistantCoachEmail": "rpalmbaum@radford.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均199位 (2026年 188位 / 2025年 204位 / 2024年 206位)"
+    "strengthNote": "平均199位 (2026年 188位 / 2025年 204位 / 2024年 206位)",
+    "siteUrl": "https://radfordathletics.com/sports/mens-soccer"
   },
   {
     "id": "uscupstate-mens",
@@ -7090,7 +7205,8 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Adrian Gomez",
     "assistantCoachEmail": "agomez@sdsu.edu",
     "strengthLevel": 3,
-    "strengthNote": "平均95位 (2026年 129位 / 2025年 99位 / 2024年 57位)"
+    "strengthNote": "平均95位 (2026年 129位 / 2025年 99位 / 2024年 57位)",
+    "siteUrl": "https://goaztecs.com/sports/mens-soccer"
   },
   {
     "id": "franklinpierce-mens",
@@ -7122,7 +7238,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://ravenssoccercamps.com/",
     "assistantCoach": "Scotty Murray",
     "assistantCoachEmail": "murrays@franklinpierce.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://fpuravens.com/sports/mens-soccer"
   },
   {
     "id": "charleston-mens",
@@ -7154,7 +7271,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://charlestonsoccercamps.com/",
     "assistantCoach": "Corbin Bowers",
     "assistantCoachEmail": "",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://ucgoldeneagles.com/sports/mens-soccer"
   },
   {
     "id": "calpolypomona-mens",
@@ -7186,7 +7304,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://cppbroncosoccercamp.com/",
     "assistantCoach": "Eddie Hurtado",
     "assistantCoachEmail": "ehurtado@cpp.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://broncoathletics.com/sports/mens-soccer"
   },
   {
     "id": "lynn-mens",
@@ -7249,7 +7368,8 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://tampaspartans.com/sports/mens-soccer/recruiting",
     "campUrl": "https://tampaspartansoccercamps.com/",
     "assistantCoach": "Malcolm Stewart",
-    "assistantCoachEmail": "mstewart@ut.edu"
+    "assistantCoachEmail": "mstewart@ut.edu",
+    "siteUrl": "https://tampaspartans.com/sports/mens-soccer"
   },
   {
     "id": "wingate-mens",
@@ -7281,7 +7401,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://wingatesoccercamps.com/",
     "assistantCoach": "Joey Calandra",
     "assistantCoachEmail": "jcalandra@wingate.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://wingatebulldogs.com/sports/mens-soccer"
   },
   {
     "id": "tufts-mens",
@@ -7338,7 +7459,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全27名 / 留学生4名 / MF 6名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Chicago+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp",
+    "siteUrl": "https://athletics.uchicago.edu/sports/mens-soccer"
   },
   {
     "id": "messiah-mens",
@@ -7366,7 +7488,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Messiah+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Messiah+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Messiah+University+Soccer+ID+Camp",
+    "siteUrl": "https://gomessiah.com/sports/mens-soccer"
   },
   {
     "id": "williams-mens",
@@ -7419,7 +7542,8 @@ const INITIAL_COLLEGES = [
       "Heart Conference",
       "Iowa",
       "High Scholarships",
-      "Japan Friendly"
+      "Japan Friendly",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "4名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全34名 / 留学生21名 / MF 11名 (Sr・Gr 3名)",
@@ -7427,7 +7551,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://gvvikingsoccercamps.com/",
     "assistantCoach": "Jonathan Rivera",
     "assistantCoachEmail": "jrivera@grandview.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://gvvikings.com/sports/mens-soccer"
   },
   {
     "id": "keiser-mens",
@@ -7451,7 +7576,8 @@ const INITIAL_COLLEGES = [
       "NAIA Champion",
       "Florida",
       "High Scholarships",
-      "Japanese Friendly"
+      "Japanese Friendly",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全31名 / 留学生28名 / MF 15名 (Sr・Gr 0名) / 出身地不明1名",
@@ -7459,7 +7585,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://keisersoccercamps.com/",
     "assistantCoach": "Sam McNutt",
     "assistantCoachEmail": "smcnutt@keiseruniversity.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://kuseahawks.com/sports/mens-soccer"
   },
   {
     "id": "lindseywilson-mens",
@@ -7482,7 +7609,8 @@ const INITIAL_COLLEGES = [
     "tags": [
       "9x NAIA Champion",
       "Pro Development",
-      "High International"
+      "High International",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
     "rosterStats": "公式ロスター全25名 / 留学生21名 / MF 7名 (Sr・Gr 1名) / 出身地不明2名",
@@ -7490,7 +7618,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lindsey+Wilson+College+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Jack Cousin",
-    "assistantCoachEmail": "cousinj@lindsey.edu"
+    "assistantCoachEmail": "cousinj@lindsey.edu",
+    "siteUrl": "https://lindseyathletics.com/sports/mens-soccer"
   },
   {
     "id": "midamerica-mens",
@@ -7513,7 +7642,8 @@ const INITIAL_COLLEGES = [
     "tags": [
       "2023 NAIA Champion",
       "Kansas City Area",
-      "Japanese Roster"
+      "Japanese Roster",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全52名 / 留学生18名 / MF 20名 (Sr・Gr 3名)",
@@ -7521,7 +7651,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://mnusoccercamps.com/",
     "assistantCoach": "Atanas Karagyaurov",
     "assistantCoachEmail": "apkaragyaurov@mnu.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://mnusports.com/sports/mens-soccer"
   },
   {
     "id": "oklahomawesleyan-mens",
@@ -7544,12 +7675,14 @@ const INITIAL_COLLEGES = [
     "tags": [
       "NAIA Elite",
       "Oklahoma",
-      "High Scholarships"
+      "High Scholarships",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Soccer+ID+Camp",
+    "siteUrl": "https://okwueagles.com/sports/mens-soccer"
   },
   {
     "id": "riogrande-mens",
@@ -7572,7 +7705,8 @@ const INITIAL_COLLEGES = [
     "tags": [
       "2x NAIA Champion",
       "Ohio",
-      "High International"
+      "High International",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
@@ -7668,7 +7802,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Monroe+College+(New+York)+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Jay Myers",
-    "assistantCoachEmail": "jmyers@monroeu.edu"
+    "assistantCoachEmail": "jmyers@monroeu.edu",
+    "siteUrl": "https://www.monroeumustangs.com/sports/mens-soccer"
   },
   {
     "id": "saltlake-mens",
@@ -7697,7 +7832,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全29名 / 留学生15名 / MF 8名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Soccer+ID+Camp",
+    "siteUrl": "https://slccbruins.com/sports/mens-soccer"
   },
   {
     "id": "barton-mens",
@@ -7759,7 +7895,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://lagoldeneagles.com/sports/mens-soccer/recruiting",
     "campUrl": "https://calstatelasoccercamp.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://lagoldeneagles.com/sports/mens-soccer"
   },
   {
     "id": "barry-mens",
@@ -7791,7 +7928,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://gobarrybucs.com/sports/mens-soccer/recruiting",
     "campUrl": "https://barrysoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://gobarrybucs.com/sports/mens-soccer"
   },
   {
     "id": "midwesternstate-mens",
@@ -7823,7 +7961,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://msumustangs.com/sports/mens-soccer/recruiting",
     "campUrl": "https://midwesternstatesoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://msumustangs.com/sports/mens-soccer"
   },
   {
     "id": "csupueblo-mens",
@@ -7855,7 +7994,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://gothunderwolves.com/sports/mens-soccer/recruiting",
     "campUrl": "https://csupueblosoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://gothunderwolves.com/sports/mens-soccer"
   },
   {
     "id": "limestone-mens",
@@ -7918,7 +8058,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://gannonsports.com/sports/mens-soccer/recruiting",
     "campUrl": "https://gannonsoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://gannonsports.com/sports/mens-soccer"
   },
   {
     "id": "simonfraser-mens",
@@ -7950,7 +8091,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://athletics.sfu.ca/sports/mens-soccer/recruits",
     "campUrl": "https://sfusoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://athletics.sfu.ca/sports/mens-soccer"
   },
   {
     "id": "lenoirrhyne-mens",
@@ -7981,7 +8123,8 @@ const INITIAL_COLLEGES = [
       "Spanish Pipeline"
     ],
     "questionnaireUrl": "https://lrbears.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://lrbearssoccercamps.com/"
+    "campUrl": "https://lrbearssoccercamps.com/",
+    "siteUrl": "https://lrbears.com/sports/mens-soccer"
   },
   {
     "id": "rollins-mens",
@@ -8013,7 +8156,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://rollinssports.com/sports/mens-soccer/recruiting",
     "campUrl": "https://rollinssoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://rollinssports.com/sports/mens-soccer"
   },
   {
     "id": "fortlewis-mens",
@@ -8045,7 +8189,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://goskyhawks.com/sports/mens-soccer/recruiting",
     "campUrl": "https://fortlewissoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://goskyhawks.com/sports/mens-soccer"
   },
   {
     "id": "csumontereybay-mens",
@@ -8077,7 +8222,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://otterathletics.com/sports/mens-soccer/recruiting",
     "campUrl": "https://csumbsoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://otterathletics.com/sports/mens-soccer"
   },
   {
     "id": "chicostate-mens",
@@ -8109,7 +8255,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://chicowildcats.com/sports/mens-soccer/recruiting",
     "campUrl": "https://chicostatesoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://chicowildcats.com/sports/mens-soccer"
   },
   {
     "id": "csusb-mens",
@@ -8141,7 +8288,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://csusbathletics.com/sports/mens-soccer/recruiting",
     "campUrl": "https://csusbsoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://csusbathletics.com/sports/mens-soccer"
   },
   {
     "id": "pba-mens",
@@ -8173,7 +8321,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://pbasailfish.com/sports/mens-soccer/recruiting",
     "campUrl": "https://pbasocceracademy.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://pbasailfish.com/sports/mens-soccer"
   },
   {
     "id": "floridatech-mens",
@@ -8205,7 +8354,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://floridatechsports.com/sports/mens-soccer/recruiting",
     "campUrl": "https://floridatechsoccercamp.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://floridatechsports.com/sports/mens-soccer"
   },
   {
     "id": "pointloma-mens",
@@ -8237,7 +8387,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://plnusealions.com/sports/mens-soccer/recruiting",
     "campUrl": "https://pointlomasoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://plnusealions.com/sports/mens-soccer"
   },
   {
     "id": "saginawvalley-mens",
@@ -8269,7 +8420,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://svsucardinals.com/sports/mens-soccer/recruiting",
     "campUrl": "https://svsusoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://svsucardinals.com/sports/mens-soccer"
   },
   {
     "id": "uindy-mens",
@@ -8301,7 +8453,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://athletics.uindy.edu/sports/mens-soccer/recruiting",
     "campUrl": "https://uindysoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://athletics.uindy.edu/sports/mens-soccer"
   },
   {
     "id": "lander-mens",
@@ -8333,7 +8486,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://landerbearcats.com/sports/mens-soccer/recruiting",
     "campUrl": "https://landersoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://landerbearcats.com/sports/mens-soccer"
   },
   {
     "id": "youngharris-mens",
@@ -8365,7 +8519,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://yhcathletics.com/sports/mens-soccer/recruiting",
     "campUrl": "https://yhcsoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://yhcathletics.com/sports/mens-soccer"
   },
   {
     "id": "snhu-mens",
@@ -8397,7 +8552,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://snhupenmen.com/sports/mens-soccer/recruiting",
     "campUrl": "https://snhusoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://snhupenmen.com/sports/mens-soccer"
   },
   {
     "id": "maryville-mens",
@@ -8429,7 +8585,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://maryvillesaints.com/sports/mens-soccer/recruiting",
     "campUrl": "https://maryvillesoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://maryvillesaints.com/sports/mens-soccer"
   },
   {
     "id": "tiffin-mens",
@@ -8460,7 +8617,8 @@ const INITIAL_COLLEGES = [
       "Japan Pipeline"
     ],
     "questionnaireUrl": "https://gotiffindragons.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://tiffinsoccercamps.com/"
+    "campUrl": "https://tiffinsoccercamps.com/",
+    "siteUrl": "https://gotiffindragons.com/sports/mens-soccer"
   },
   {
     "id": "seattlepacific-mens",
@@ -8492,7 +8650,8 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://spufalcons.com/sports/mens-soccer/recruiting",
     "campUrl": "https://spusoccercamps.com/",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://spufalcons.com/sports/mens-soccer"
   },
   {
     "id": "southeastern-mens",
@@ -8521,7 +8680,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Southeastern+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Southeastern+University+Soccer+ID+Camp",
+    "siteUrl": "https://fire.seu.edu/sports/mens-soccer"
   },
   {
     "id": "warner-mens",
@@ -8550,7 +8710,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Warner+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Warner+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Warner+University+Soccer+ID+Camp",
+    "siteUrl": "https://warnerroyals.com/sports/mens-soccer"
   },
   {
     "id": "avemaria-mens",
@@ -8608,7 +8769,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Memorial+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Florida+Memorial+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Florida+Memorial+University+Soccer+ID+Camp",
+    "siteUrl": "https://athletics.fmu.edu/sports/mens-soccer"
   },
   {
     "id": "georgiagwinnett-mens",
@@ -8632,12 +8794,14 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "The Sun",
       "Georgia",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Soccer+ID+Camp",
+    "siteUrl": "https://ggcathletics.com/sports/mens-soccer"
   },
   {
     "id": "thomasuniversity-mens",
@@ -8666,7 +8830,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Thomas+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Thomas+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Thomas+University+Soccer+ID+Camp",
+    "siteUrl": "https://tunighthawks.com/sports/mens-soccer"
   },
   {
     "id": "pointuniversity-mens",
@@ -8719,12 +8884,14 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "Mid-South",
       "Kentucky",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Soccer+ID+Camp",
+    "siteUrl": "https://cumberlandspatriots.com/sports/mens-soccer"
   },
   {
     "id": "cumberlanduniversity-mens",
@@ -8748,12 +8915,14 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "Mid-South",
       "Tennessee",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Cumberland+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Cumberland+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Cumberland+University+Soccer+ID+Camp",
+    "siteUrl": "https://gocumberlandathletics.com/sports/mens-soccer"
   },
   {
     "id": "campbellsville-mens",
@@ -8782,7 +8951,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全28名 / 留学生28名 / MF 12名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Campbellsville+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Campbellsville+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Campbellsville+University+Soccer+ID+Camp",
+    "siteUrl": "https://campbellsvilletigers.com/sports/mens-soccer"
   },
   {
     "id": "georgetowncollege-mens",
@@ -8811,7 +8981,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Georgetown+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Georgetown+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Georgetown+College+Soccer+ID+Camp",
+    "siteUrl": "https://www.georgetowncollegeathletics.com/sports/msoc/index"
   },
   {
     "id": "faulkner-mens",
@@ -8835,7 +9006,8 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "SSAC",
       "Alabama",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全36名 / 留学生33名 / MF 9名 (Sr・Gr 4名)",
@@ -8843,7 +9015,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Faulkner+University+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Fahel Matos",
-    "assistantCoachEmail": "fmatos@faulkner.edu"
+    "assistantCoachEmail": "fmatos@faulkner.edu",
+    "siteUrl": "https://faulknereagles.com/sports/mens-soccer"
   },
   {
     "id": "williamcarey-mens",
@@ -8867,13 +9040,15 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "SSAC",
       "Mississippi",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全31名 / 留学生27名 / MF 12名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=William+Carey+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=William+Carey+University+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://careyathletics.com/sports/mens-soccer"
   },
   {
     "id": "tennesseewesleyan-mens",
@@ -8902,7 +9077,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Soccer+ID+Camp",
+    "siteUrl": "https://www.twbulldogs.com/sports/msoc/index"
   },
   {
     "id": "reinhardt-mens",
@@ -8960,7 +9136,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Soccer+ID+Camp",
+    "siteUrl": "https://ramsports.net/sports/mens-soccer"
   },
   {
     "id": "oklahomacity-mens",
@@ -8984,7 +9161,8 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "Sooner Athletic",
       "Oklahoma",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全25名 / 留学生14名 / MF 6名 (Sr・Gr 2名) / 出身地不明1名",
@@ -8992,7 +9170,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Oklahoma+City+University+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Gui Grave",
-    "assistantCoachEmail": "gfgrave@okcu.edu"
+    "assistantCoachEmail": "gfgrave@okcu.edu",
+    "siteUrl": "https://www.ocusports.com/sports/mens-soccer"
   },
   {
     "id": "bellevue-mens",
@@ -9050,7 +9229,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Benedictine+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Benedictine+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Benedictine+College+Soccer+ID+Camp",
+    "siteUrl": "https://ravenathletics.com/sports/mens-soccer"
   },
   {
     "id": "baker-mens",
@@ -9074,12 +9254,14 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "Heart of America",
       "Kansas",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Baker+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Baker+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Baker+University+Soccer+ID+Camp",
+    "siteUrl": "https://www.bakerwildcats.com/sports/msoc/index"
   },
   {
     "id": "avila-mens",
@@ -9108,7 +9290,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Avila+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Avila+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Avila+University+Soccer+ID+Camp",
+    "siteUrl": "https://www.avila.edu/calendar_event/mens-soccer-avila-at-bethany-ks"
   },
   {
     "id": "columbiacollegemo-mens",
@@ -9161,12 +9344,14 @@ const INITIAL_COLLEGES = [
       "NAIA",
       "Crossroads League",
       "Indiana",
-      "Needs Verification"
+      "Needs Verification",
+      "NAIA 2025 全米大会出場"
     ],
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全29名 / 留学生12名 / MF 10名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Soccer+ID+Camp",
+    "siteUrl": "https://iwuwildcats.com/sports/mens-soccer"
   },
   {
     "id": "pikeville-mens",
@@ -9224,7 +9409,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Shawnee+State+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Shawnee+State+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Shawnee+State+University+Soccer+ID+Camp",
+    "siteUrl": "https://ssubears.com/sports/mens-soccer"
   },
   {
     "id": "westmont-mens",
@@ -9283,7 +9469,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全34名 / 留学生0名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Vanguard+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Vanguard+University+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://vanguardlions.com/sports/mens-soccer"
   },
   {
     "id": "corban-mens",
@@ -9313,7 +9500,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全34名 / 留学生7名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Corban+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Corban+University+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://corbanwarriors.com/sports/mens-soccer"
   },
   {
     "id": "saintleo-mens",
@@ -9345,7 +9533,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Saint+Leo+University+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Graham Brown",
-    "assistantCoachEmail": "graham.brown@saintleo.edu"
+    "assistantCoachEmail": "graham.brown@saintleo.edu",
+    "siteUrl": "https://saintleolions.com/sports/mens-soccer"
   },
   {
     "id": "novasoutheastern-mens",
@@ -9374,7 +9563,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "1名 (公式ロスター確認) Toga Katsuma",
     "rosterStats": "公式ロスター全22名 / 留学生12名 / MF 11名 (Sr・Gr 7名)",
     "questionnaireUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Soccer+ID+Camp",
+    "siteUrl": "https://nsusharks.com/sports/mens-soccer"
   },
   {
     "id": "floridasouthern-mens",
@@ -9403,7 +9593,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Southern+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Florida+Southern+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Florida+Southern+College+Soccer+ID+Camp",
+    "siteUrl": "https://fscmocs.com/sports/mens-soccer"
   },
   {
     "id": "eckerd-mens",
@@ -9461,7 +9652,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Flagler+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Flagler+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Flagler+College+Soccer+ID+Camp",
+    "siteUrl": "https://flaglerathletics.com/sports/mens-soccer"
   },
   {
     "id": "westflorida-mens",
@@ -9490,7 +9682,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
     "rosterStats": "公式ロスター全30名 / 留学生9名 / MF 6名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+West+Florida+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+West+Florida+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+West+Florida+Soccer+ID+Camp",
+    "siteUrl": "https://goargos.com/sports/mens-soccer"
   },
   {
     "id": "leeuniversity-mens",
@@ -9548,7 +9741,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Union+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Union+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Union+University+Soccer+ID+Camp",
+    "siteUrl": "https://uuathletics.com/sports/mens-soccer"
   },
   {
     "id": "valdostastate-mens",
@@ -9577,7 +9771,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Valdosta+State+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Valdosta+State+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Valdosta+State+University+Soccer+ID+Camp",
+    "siteUrl": "https://vstateblazers.com/sports/mens-soccer"
   },
   {
     "id": "columbusstate-mens",
@@ -9638,7 +9833,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+North+Georgia+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Joel Mcilroy",
-    "assistantCoachEmail": "alexander.mcilroy@ung.edu"
+    "assistantCoachEmail": "alexander.mcilroy@ung.edu",
+    "siteUrl": "https://ungathletics.com/sports/mens-soccer"
   },
   {
     "id": "uscaiken-mens",
@@ -9700,7 +9896,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Francis+Marion+University+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Nicolas Rodriguez",
-    "assistantCoachEmail": "nicolas.rodriguez@fmarion.edu"
+    "assistantCoachEmail": "nicolas.rodriguez@fmarion.edu",
+    "siteUrl": "https://fmupatriots.com/sports/mens-soccer"
   },
   {
     "id": "uncpembroke-mens",
@@ -9758,7 +9955,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Soccer+ID+Camp",
+    "siteUrl": "https://abbeyathletics.com/sports/mens-soccer"
   },
   {
     "id": "mountolive-mens",
@@ -9787,7 +9985,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
     "rosterStats": "公式ロスター全41名 / 留学生8名 / MF 15名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Soccer+ID+Camp",
+    "siteUrl": "https://umotrojans.com/sports/mens-soccer"
   },
   {
     "id": "catawba-mens",
@@ -9816,7 +10015,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Catawba+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Catawba+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Catawba+College+Soccer+ID+Camp",
+    "siteUrl": "https://catawbaathletics.com/sports/mens-soccer"
   },
   {
     "id": "carsonnewman-mens",
@@ -9845,7 +10045,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Carson-Newman+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Carson-Newman+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Carson-Newman+University+Soccer+ID+Camp",
+    "siteUrl": "https://www.cn.edu/event/mens-soccer-at-anderson-s-c"
   },
   {
     "id": "marshill-mens",
@@ -9874,7 +10075,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Mars+Hill+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Mars+Hill+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Mars+Hill+University+Soccer+ID+Camp",
+    "siteUrl": "https://www.mhu.edu/event/mens-soccer-alumni-weekend"
   },
   {
     "id": "newberry-mens",
@@ -9903,7 +10105,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "1名 (公式ロスター確認 / 出身地不明1名) Shotaro Sekinada",
     "rosterStats": "公式ロスター全39名 / 留学生13名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Newberry+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Newberry+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Newberry+College+Soccer+ID+Camp",
+    "siteUrl": "https://newberrywolves.com/sports/mens-soccer"
   },
   {
     "id": "tusculum-mens",
@@ -9964,7 +10167,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lincoln+Memorial+University+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "August Harp",
-    "assistantCoachEmail": "august.harp@lmunet.edu"
+    "assistantCoachEmail": "august.harp@lmunet.edu",
+    "siteUrl": "https://lmurailsplitters.com/sports/mens-soccer"
   },
   {
     "id": "lewisuniversity-mens",
@@ -9993,7 +10197,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全44名 / 留学生11名 / MF 17名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lewis+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Lewis+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Lewis+University+Soccer+ID+Camp",
+    "siteUrl": "https://lewisflyers.com/sports/mens-soccer"
   },
   {
     "id": "drury-mens",
@@ -10022,7 +10227,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全48名 / 留学生17名 / MF 17名 (Sr・Gr 1名) / 出身地不明1名 / 掲載情報欠落2名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=Drury+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Drury+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Drury+University+Soccer+ID+Camp",
+    "siteUrl": "https://drurypanthers.com/sports/mens-soccer"
   },
   {
     "id": "rockhurst-mens",
@@ -10051,7 +10257,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全33名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Rockhurst+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Rockhurst+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Rockhurst+University+Soccer+ID+Camp",
+    "siteUrl": "https://rockhursthawks.com/sports/mens-soccer"
   },
   {
     "id": "quincy-mens",
@@ -10080,7 +10287,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Quincy+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Quincy+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Quincy+University+Soccer+ID+Camp",
+    "siteUrl": "https://quhawks.com/sports/mens-soccer"
   },
   {
     "id": "trumanstate-mens",
@@ -10109,7 +10317,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全38名 / 留学生0名 / MF 16名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Truman+State+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Truman+State+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Truman+State+University+Soccer+ID+Camp",
+    "siteUrl": "https://trumanbulldogs.com/sports/mens-soccer"
   },
   {
     "id": "missouriST-mens",
@@ -10168,7 +10377,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全35名 / 留学生20名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Soccer+ID+Camp",
+    "siteUrl": "https://kwcpanthers.com/sports/mens-soccer"
   },
   {
     "id": "uwparkside-mens",
@@ -10255,7 +10465,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Walsh+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Walsh+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Walsh+University+Soccer+ID+Camp",
+    "siteUrl": "https://athletics.walsh.edu/sports/mens-soccer"
   },
   {
     "id": "findlay-mens",
@@ -10284,7 +10495,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全45名 / 留学生9名 / MF 14名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Findlay+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Findlay+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+Findlay+Soccer+ID+Camp",
+    "siteUrl": "https://findlayoilers.com/sports/mens-soccer"
   },
   {
     "id": "malone-mens",
@@ -10313,7 +10525,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全41名 / 留学生6名 / MF 14名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Malone+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Malone+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Malone+University+Soccer+ID+Camp",
+    "siteUrl": "https://malonepioneers.com/sports/mens-soccer"
   },
   {
     "id": "waynestate-mens",
@@ -10342,7 +10555,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Wayne+State+University+(Michigan)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Wayne+State+University+(Michigan)+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Wayne+State+University+(Michigan)+Soccer+ID+Camp",
+    "siteUrl": "https://wsuathletics.com/sports/mens-soccer"
   },
   {
     "id": "northwood-mens",
@@ -10400,7 +10614,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全31名 / 留学生18名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Adelphi+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Adelphi+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Adelphi+University+Soccer+ID+Camp",
+    "siteUrl": "https://aupanthers.com/sports/mens-soccer"
   },
   {
     "id": "bentley-mens",
@@ -10429,7 +10644,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全33名 / 留学生5名 / MF 13名 (Sr・Gr 8名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Bentley+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Bentley+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Bentley+University+Soccer+ID+Camp",
+    "siteUrl": "https://bentleyvanguard.com/sports/mens-soccer"
   },
   {
     "id": "saintanselm-mens",
@@ -10487,7 +10703,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全27名 / 留学生13名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Soccer+ID+Camp",
+    "siteUrl": "https://scsuowls.com/sports/mens-soccer"
   },
   {
     "id": "newhaven-mens",
@@ -10516,7 +10733,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明2名)",
     "rosterStats": "公式ロスター全43名 / 留学生14名 / MF 13名 (Sr・Gr 3名) / 出身地不明2名 / 掲載情報欠落4名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+New+Haven+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+New+Haven+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+New+Haven+Soccer+ID+Camp",
+    "siteUrl": "https://newhavenchargers.com/sports/mens-soccer"
   },
   {
     "id": "assumption-mens",
@@ -10575,7 +10793,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全71名 / 留学生11名 / MF 25名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Pace+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Pace+University+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://paceuathletics.com/sports/mens-soccer"
   },
   {
     "id": "saintmichaels-mens",
@@ -10604,7 +10823,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全35名 / 留学生1名 / MF 14名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Michael's+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Saint+Michael's+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Saint+Michael's+College+Soccer+ID+Camp",
+    "siteUrl": "https://smcathletics.com/sports/mens-soccer"
   },
   {
     "id": "nyit-mens",
@@ -10662,7 +10882,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Molloy+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Molloy+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Molloy+University+Soccer+ID+Camp",
+    "siteUrl": "https://molloylions.com/sports/mens-soccer"
   },
   {
     "id": "westchester-mens",
@@ -10692,7 +10913,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全28名 / 留学生0名 / MF 7名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=West+Chester+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=West+Chester+University+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://wcupagoldenrams.com/sports/mens-soccer"
   },
   {
     "id": "iup-mens",
@@ -10721,7 +10943,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+University+of+Pennsylvania+(IUP)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Indiana+University+of+Pennsylvania+(IUP)+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Indiana+University+of+Pennsylvania+(IUP)+Soccer+ID+Camp",
+    "siteUrl": "https://iupathletics.com/sports/mens-soccer"
   },
   {
     "id": "eaststroudsburg-mens",
@@ -10750,7 +10973,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全39名 / 留学生12名 / MF 10名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Soccer+ID+Camp",
+    "siteUrl": "https://esuwarriors.com/sports/mens-soccer"
   },
   {
     "id": "millersville-mens",
@@ -10779,7 +11003,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全24名 / 留学生4名 / MF 7名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Millersville+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Millersville+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Millersville+University+Soccer+ID+Camp",
+    "siteUrl": "https://millersvilleathletics.com/sports/mens-soccer"
   },
   {
     "id": "setonhill-mens",
@@ -10808,7 +11033,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Seton+Hill+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Seton+Hill+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Seton+Hill+University+Soccer+ID+Camp",
+    "siteUrl": "https://athletics.setonhill.edu/sports/mens-soccer"
   },
   {
     "id": "wvwesleyan-mens",
@@ -10837,7 +11063,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Soccer+ID+Camp",
+    "siteUrl": "https://wesleyanbobcats.com/sports/mens-soccer"
   },
   {
     "id": "wheeling-mens",
@@ -10895,7 +11122,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Concord+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Concord+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Concord+University+Soccer+ID+Camp",
+    "siteUrl": "https://cumountainlions.com/sports/mens-soccer"
   },
   {
     "id": "byuhawaii-mens",
@@ -10953,7 +11181,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Soccer+ID+Camp",
+    "siteUrl": "https://hpusharks.com/sports/mens-soccer"
   },
   {
     "id": "chaminade-mens",
@@ -11011,7 +11240,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全38名 / 留学生3名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Soccer+ID+Camp",
+    "siteUrl": "https://www.fpusunbirds.com/sports/mens-soccer"
   },
   {
     "id": "dominicanca-mens",
@@ -11043,7 +11273,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Dominican+University+of+California+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Ricardo Martin",
-    "assistantCoachEmail": "ricardo.martin@dominican.edu"
+    "assistantCoachEmail": "ricardo.martin@dominican.edu",
+    "siteUrl": "https://dominicanathletics.com/sports/mens-soccer"
   },
   {
     "id": "csudh-mens",
@@ -11075,7 +11306,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Cal+State+Dominguez+Hills+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Patryk Tenorio",
-    "assistantCoachEmail": "ptenorio@csudh.edu"
+    "assistantCoachEmail": "ptenorio@csudh.edu",
+    "siteUrl": "https://gotoros.com/sports/mens-soccer"
   },
   {
     "id": "csueastbay-mens",
@@ -11139,7 +11371,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Cal+State+San+Marcos+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Matt Aldama",
-    "assistantCoachEmail": "maldama@csusm.edu"
+    "assistantCoachEmail": "maldama@csusm.edu",
+    "siteUrl": "https://csusmcougars.com/sports/mens-soccer"
   },
   {
     "id": "sfstate-mens",
@@ -11230,7 +11463,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全35名 / 留学生0名 / MF 15名 (Sr・Gr 4名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Martin's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Martin's+University+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://smusaints.com/sports/mens-soccer"
   },
   {
     "id": "coloradomesa-mens",
@@ -11259,7 +11493,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全35名 / 留学生12名 / MF 15名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Soccer+ID+Camp",
+    "siteUrl": "https://cmumavericks.com/sports/mens-soccer"
   },
   {
     "id": "regis-mens",
@@ -11291,7 +11526,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Regis+University+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Steven Cahill",
-    "assistantCoachEmail": "msoccer@regis.edu"
+    "assistantCoachEmail": "msoccer@regis.edu",
+    "siteUrl": "https://regisrangers.com/sports/mens-soccer"
   },
   {
     "id": "metrostatedenver-mens",
@@ -11378,7 +11614,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "1名 (公式ロスター確認) Shunji Watanabe",
     "rosterStats": "公式ロスター全38名 / 留学生7名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Edward's+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=St.+Edward's+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=St.+Edward's+University+Soccer+ID+Camp",
+    "siteUrl": "https://gohilltoppers.com/sports/mens-soccer"
   },
   {
     "id": "stmarystx-mens",
@@ -11465,7 +11702,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=UT+Permian+Basin+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=UT+Permian+Basin+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=UT+Permian+Basin+Soccer+ID+Camp",
+    "siteUrl": "https://www.utpb.edu/sports/mens-soccer"
   },
   {
     "id": "lubbockchristian-mens",
@@ -11494,7 +11732,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全35名 / 留学生17名 / MF 12名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Soccer+ID+Camp",
+    "siteUrl": "https://lcuchaps.com/sports/mens-soccer"
   },
   {
     "id": "daytonastate-mens",
@@ -11524,7 +11763,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Daytona+State+College+Soccer+ID+Camp",
     "assistantCoach": "Jonathan Lopez",
     "assistantCoachEmail": "Jonathan.Lopez@DaytonaState.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://dscfalcons.com/sports/msoc"
   },
   {
     "id": "easternflorida-mens",
@@ -11554,7 +11794,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Eastern+Florida+State+College+Soccer+ID+Camp",
     "assistantCoach": "Adrian Moreno",
     "assistantCoachEmail": "morenoa@easternflorida.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://www.efsctitans.com/sports/msoc"
   },
   {
     "id": "arizonawestern-mens",
@@ -11584,7 +11825,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Arizona+Western+College+Soccer+ID+Camp",
     "assistantCoach": "Admir Balicevac",
     "assistantCoachEmail": "admir.balicevac@azwestern.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://awcmatadors.com/sports/msoc"
   },
   {
     "id": "lewisandclark-mens",
@@ -11614,7 +11856,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lewis+and+Clark+Community+College+Soccer+ID+Camp",
     "assistantCoach": "Parker Medina",
     "assistantCoachEmail": "",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://www.trailblazers.lc.edu/sports/msoc"
   },
   {
     "id": "cowley-mens",
@@ -11644,7 +11887,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Cowley+College+Soccer+ID+Camp",
     "assistantCoach": "Eusebio \"Chevi\" Plaza",
     "assistantCoachEmail": "eusebio.plaza@cowley.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://cowleytigers.com/sports/msoc"
   },
   {
     "id": "northidaho-mens",
@@ -11674,7 +11918,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=North+Idaho+College+Soccer+ID+Camp",
     "assistantCoach": "Gunnar Skindlov",
     "assistantCoachEmail": "gunnar.skindlov@nic.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://nicathletics.com/sports/msoc"
   },
   {
     "id": "gardencity-mens",
@@ -11704,7 +11949,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Garden+City+Community+College+Soccer+ID+Camp",
     "assistantCoach": "Yahir Camacho",
     "assistantCoachEmail": "yahir.camacho@gcccks.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://gobroncbusters.com/sports/msoc"
   },
   {
     "id": "northwest-mens",
@@ -11734,7 +11980,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Northwest+College+Soccer+ID+Camp",
     "assistantCoach": "David Gilliatt",
     "assistantCoachEmail": "",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://nwctrappers.com/sports/msoc"
   },
   {
     "id": "hill-mens",
@@ -11764,7 +12011,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Hill+College+Soccer+ID+Camp",
     "assistantCoach": "Derick Gonzalez",
     "assistantCoachEmail": "dgonzalez@hillcollege.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://hillcollegeathletics.com/sports/msoc"
   },
   {
     "id": "ccbcessex-mens",
@@ -11772,7 +12020,7 @@ const INITIAL_COLLEGES = [
     "location": "Essex, Maryland",
     "state": "MD",
     "region": "Northeast",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Knights",
@@ -11780,10 +12028,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認",
-    "notes": "NJCAA D1 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "notes": "NJCAA D2 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
     "tags": [
       "NJCAA全米大会出場",
       "MD"
@@ -11799,7 +12047,7 @@ const INITIAL_COLLEGES = [
     "location": "Phoenix, Arizona",
     "state": "AZ",
     "region": "West",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Bears",
@@ -11807,10 +12055,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認",
-    "notes": "NJCAA D1 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "notes": "NJCAA D2 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
     "tags": [
       "NJCAA全米大会出場",
       "AZ"
@@ -11818,7 +12066,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Phoenix+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Phoenix+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Phoenix+College+Soccer+ID+Camp",
+    "siteUrl": "https://athletics.phoenixcollege.edu/sports/msoc"
   },
   {
     "id": "northeastcc-mens",
@@ -11826,7 +12075,7 @@ const INITIAL_COLLEGES = [
     "location": "Norfolk, Nebraska",
     "state": "NE",
     "region": "Midwest",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Hornets",
@@ -11834,10 +12083,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認",
-    "notes": "NJCAA D1 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "notes": "NJCAA D2 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
     "tags": [
       "NJCAA全米大会出場",
       "NE"
@@ -11845,7 +12094,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Northeast+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Northeast+Community+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Northeast+Community+College+Soccer+ID+Camp",
+    "siteUrl": "https://northeast.edu"
   },
   {
     "id": "iowalakes-mens",
@@ -11853,7 +12103,7 @@ const INITIAL_COLLEGES = [
     "location": "Estherville, Iowa",
     "state": "IA",
     "region": "Midwest",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Lakers",
@@ -11861,10 +12111,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "55% (26/47名)",
-    "notes": "NJCAA D1 全米大会出場校 (シード4 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "NJCAA D2 全米大会出場校 (シード4 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "IA"
@@ -11875,7 +12125,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Iowa+Lakes+Community+College+Soccer+ID+Camp",
     "assistantCoach": "Bryan Marshall",
     "assistantCoachEmail": "",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://iowalakesathletics.com/sports/msoc"
   },
   {
     "id": "madisoncollege-mens",
@@ -11883,7 +12134,7 @@ const INITIAL_COLLEGES = [
     "location": "Madison, Wisconsin",
     "state": "WI",
     "region": "Midwest",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Wolfpack",
@@ -11891,10 +12142,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認",
-    "notes": "NJCAA D1 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "notes": "NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
     "tags": [
       "NJCAA全米大会出場",
       "WI"
@@ -11902,7 +12153,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Madison+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Madison+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Madison+College+Soccer+ID+Camp",
+    "siteUrl": "https://madisoncollegeathletics.com/sports/msoc"
   },
   {
     "id": "pearlriver-mens",
@@ -11910,7 +12162,7 @@ const INITIAL_COLLEGES = [
     "location": "Poplarville, Mississippi",
     "state": "MS",
     "region": "South",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Wildcats",
@@ -11918,10 +12170,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "dgallant@prcc.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "25% (6/24名)",
-    "notes": "NJCAA D1 全米大会出場校 (シード6 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "NJCAA D2 全米大会出場校 (シード6 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "MS"
@@ -11932,7 +12184,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Pearl+River+Community+College+Soccer+ID+Camp",
     "assistantCoach": "Joe Guinchard",
     "assistantCoachEmail": "jguinchard@prcc.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://prccathletics.com/sports/msoc"
   },
   {
     "id": "neosho-mens",
@@ -11940,7 +12193,7 @@ const INITIAL_COLLEGES = [
     "location": "Chanute, Kansas",
     "state": "KS",
     "region": "Midwest",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Panthers",
@@ -11948,10 +12201,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認",
-    "notes": "NJCAA D1 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "notes": "NJCAA D2 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
     "tags": [
       "NJCAA全米大会出場",
       "KS"
@@ -11959,7 +12212,8 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Soccer+ID+Camp",
+    "siteUrl": "https://neosho.edu/athletics/sports/mens-soccer"
   },
   {
     "id": "glendaleaz-mens",
@@ -11967,7 +12221,7 @@ const INITIAL_COLLEGES = [
     "location": "Glendale, Arizona",
     "state": "AZ",
     "region": "West",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Gauchos",
@@ -11975,10 +12229,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認",
-    "notes": "NJCAA D1 全米大会出場校 (シード8 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "notes": "NJCAA D2 全米大会出場校 (シード8 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
     "tags": [
       "NJCAA全米大会出場",
       "AZ"
@@ -11994,7 +12248,7 @@ const INITIAL_COLLEGES = [
     "location": "Tucson, Arizona",
     "state": "AZ",
     "region": "West",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Aztecs",
@@ -12002,10 +12256,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "dcosgrove@pima.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "25% (7/28名)",
-    "notes": "NJCAA D1 全米大会出場校 (シード9 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "NJCAA D2 全米大会出場校 (シード9 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "AZ"
@@ -12016,7 +12270,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Pima+Community+College+Soccer+ID+Camp",
     "assistantCoach": "Armand Bram",
     "assistantCoachEmail": "abrambayze@pima.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://pimaaztecs.com/sports/msoc"
   },
   {
     "id": "wallacestate-mens",
@@ -12024,7 +12279,7 @@ const INITIAL_COLLEGES = [
     "location": "Hanceville, Alabama",
     "state": "AL",
     "region": "South",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Lions",
@@ -12032,10 +12287,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "james.fee@wallacestate.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
     "intlRosterPct": "要確認 (ホームタウン一部非公開)",
-    "notes": "NJCAA D1 全米大会出場校 (シード10 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "NJCAA D2 全米大会出場校 (シード10 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "AL"
@@ -12044,7 +12299,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全31名 (詳細公開12名) / 留学生4名 / MF 5名 (2年生以上 5名) / 非公開19名",
     "questionnaireUrl": "https://www.google.com/search?q=Wallace+State+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wallace+State+Community+College+Soccer+ID+Camp",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://wallacestate.edu/athletics/sports/msoc"
   },
   {
     "id": "schoolcraft-mens",
@@ -12052,7 +12308,7 @@ const INITIAL_COLLEGES = [
     "location": "Livonia, Michigan",
     "state": "MI",
     "region": "Midwest",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Ocelots",
@@ -12060,10 +12316,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "rlarson@schoolcraft.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "17% (5/30名)",
-    "notes": "NJCAA D1 全米大会出場校 (シード11 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "NJCAA D2 全米大会出場校 (シード11 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "MI"
@@ -12074,7 +12330,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Schoolcraft+College+Soccer+ID+Camp",
     "assistantCoach": "Ben Davis",
     "assistantCoachEmail": "",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://schoolcraftocelots.com/sports/msoc"
   },
   {
     "id": "heartland-mens",
@@ -12082,7 +12339,7 @@ const INITIAL_COLLEGES = [
     "location": "Normal, Illinois",
     "state": "IL",
     "region": "Midwest",
-    "division": "NJCAA D1",
+    "division": "NJCAA D2",
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Hawks",
@@ -12090,10 +12347,10 @@ const INITIAL_COLLEGES = [
     "coachEmail": "Norman.Ramos@heartland.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "50% (11/22名)",
-    "notes": "NJCAA D1 全米大会出場校 (シード12 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "NJCAA D2 全米大会出場校 (シード12 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "IL"
@@ -12104,7 +12361,847 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Heartland+Community+College+Soccer+ID+Camp",
     "assistantCoach": "Marco Iniguez",
     "assistantCoachEmail": "",
-    "coachVerified": true
+    "coachVerified": true,
+    "siteUrl": "https://heartlandhawks.com/sports/mens-soccer"
+  },
+  {
+    "id": "bethelind-mens",
+    "name": "Bethel University (Indiana)",
+    "location": "Mishawaka, Indiana",
+    "state": "IN",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Crossroads League",
+    "gender": "Men",
+    "mascot": "Pilots",
+    "headCoach": "Thiago Pinto",
+    "coachEmail": "Thiago.Pinto@BethelUniversity.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "80% (24/30名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Crossroads League / Tournament Champion)。ポジション表記「MD」を中盤として集計(要確認)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Crossroads League",
+      "Indiana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生24名 / MF 13名 (Sr・Gr 3名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Bethel+University+(Indiana)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Bethel+University+(Indiana)+Soccer+ID+Camp",
+    "assistantCoach": "Raymundo Gonzalez",
+    "assistantCoachEmail": "raymundo.gonzalez@betheluniversity.edu",
+    "coachVerified": true,
+    "siteUrl": "https://bupilots.com/sports/mens-soccer"
+  },
+  {
+    "id": "bethelten-mens",
+    "name": "Bethel University (Tennessee)",
+    "location": "McKenzie, Tennessee",
+    "state": "TN",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Mid-South",
+    "gender": "Men",
+    "mascot": "Wildcats",
+    "headCoach": "Malang Jarju",
+    "coachEmail": "jarjum@bethelu.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "91% (30/33名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Mid-South Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Mid-South",
+      "Tennessee",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全33名 / 留学生30名 / MF 11名 (Sr・Gr 1名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Bethel+University+(Tennessee)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Bethel+University+(Tennessee)+Soccer+ID+Camp",
+    "assistantCoach": "Avery Flener",
+    "assistantCoachEmail": "flenera@bethelu.edu",
+    "coachVerified": true,
+    "siteUrl": "https://bethelathletics.com/sports/mens-soccer"
+  },
+  {
+    "id": "carrollmt-mens",
+    "name": "Carroll College (Montana)",
+    "location": "Helena, Montana",
+    "state": "MT",
+    "region": "West",
+    "division": "NAIA",
+    "conference": "Cascade Collegiate",
+    "gender": "Men",
+    "mascot": "Fighting Saints",
+    "headCoach": "Austin Shick",
+    "coachEmail": "ashick@carroll.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "50% (13/26名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Cascade Collegiate",
+      "Montana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生13名 / MF 7名 (Sr・Gr 3名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Carroll+College+(Montana)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Carroll+College+(Montana)+Soccer+ID+Camp",
+    "assistantCoach": "Wayne Gardella",
+    "assistantCoachEmail": "wgardella@carroll.edu",
+    "coachVerified": true,
+    "siteUrl": "https://carrollathletics.com/sports/mens-soccer"
+  },
+  {
+    "id": "concordianeb-mens",
+    "name": "Concordia University (Nebraska)",
+    "location": "Seward, Nebraska",
+    "state": "NE",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Great Plains Athletic",
+    "gender": "Men",
+    "mascot": "Bulldogs",
+    "headCoach": "Bernie Ochoa",
+    "coachEmail": "Bernie.Ochoa@cune.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "52% (14/27名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Great Plains Athletic Conference / Tournament Champion)。2025年は全米大会2回戦進出。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Great Plains Athletic",
+      "Nebraska",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生14名 / MF 3名 (Sr・Gr 2名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Concordia+University+(Nebraska)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Concordia+University+(Nebraska)+Soccer+ID+Camp",
+    "coachVerified": true,
+    "siteUrl": "https://www.cune.edu/athletics/teams/soccer"
+  },
+  {
+    "id": "daltonstate-mens",
+    "name": "Dalton State College",
+    "location": "Dalton, Georgia",
+    "state": "GA",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "SSAC",
+    "gender": "Men",
+    "mascot": "Roadrunners",
+    "headCoach": "Douglas Oliveira",
+    "coachEmail": "doliveira@daltonstate.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "66% (21/32名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Southern States Athletic Conference / At-Large)。2024年NAIA全米王者。ポジション表記W/Sは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "SSAC",
+      "Georgia",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生21名 / MF 11名 (Sr・Gr 1名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Dalton+State+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Dalton+State+College+Soccer+ID+Camp",
+    "assistantCoach": "Rury Alvarez",
+    "assistantCoachEmail": "ralvarez2@daltonstate.edu",
+    "coachVerified": true,
+    "siteUrl": "https://dsroadrunners.com/sports/mens-soccer"
+  },
+  {
+    "id": "easternoregon-mens",
+    "name": "Eastern Oregon University",
+    "location": "La Grande, Oregon",
+    "state": "OR",
+    "region": "West",
+    "division": "NAIA",
+    "conference": "Cascade Collegiate",
+    "gender": "Men",
+    "mascot": "Mountaineers",
+    "headCoach": "Jessy Watson",
+    "coachEmail": "watsonja@eou.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "6% (2/31名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Regular-Season Champion)。ポジション表記C/W/Sは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Cascade Collegiate",
+      "Oregon",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生2名 / MF 10名 (Sr・Gr 2名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Eastern+Oregon+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Eastern+Oregon+University+Soccer+ID+Camp",
+    "assistantCoach": "Oscar Alegria",
+    "assistantCoachEmail": "oalegria@eou.edu",
+    "coachVerified": true,
+    "siteUrl": "https://eousports.com/sports/mens-soccer"
+  },
+  {
+    "id": "grace-mens",
+    "name": "Grace College",
+    "location": "Winona Lake, Indiana",
+    "state": "IN",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Crossroads League",
+    "gender": "Men",
+    "mascot": "Lancers",
+    "headCoach": "Arron Patrick",
+    "coachEmail": "patricaf@grace.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "65% (17/26名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Crossroads League / At-Large)。ロスターにポジション記載なし。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Crossroads League",
+      "Indiana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生17名 / MF 不明(ポジション記載なし)",
+    "questionnaireUrl": "https://www.google.com/search?q=Grace+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Grace+College+Soccer+ID+Camp",
+    "assistantCoach": "Austin Altimus",
+    "assistantCoachEmail": "altimua@grace.edu",
+    "coachVerified": true,
+    "siteUrl": "https://gclancers.com/sports/mens-soccer"
+  },
+  {
+    "id": "harrisstowe-mens",
+    "name": "Harris-Stowe State University",
+    "location": "St. Louis, Missouri",
+    "state": "MO",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "American Midwest",
+    "gender": "Men",
+    "mascot": "Hornets",
+    "headCoach": "Nenad Todorovic",
+    "coachEmail": "todorovicn@hssu.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "93% (28/30名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (American Midwest Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "American Midwest",
+      "Missouri",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生28名 / MF 11名 (Sr・Gr 2名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Harris-Stowe+State+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Harris-Stowe+State+University+Soccer+ID+Camp",
+    "assistantCoach": "Bojan Andric",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "siteUrl": "https://hornetsathletics.com/sports/mens-soccer"
+  },
+  {
+    "id": "indianatech-mens",
+    "name": "Indiana Institute of Technology (Indiana Tech)",
+    "location": "Fort Wayne, Indiana",
+    "state": "IN",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Wolverine-Hoosier Athletic",
+    "gender": "Men",
+    "mascot": "Warriors",
+    "headCoach": "Jack Rose",
+    "coachEmail": "jsrose@indianatech.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "97% (34/35名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Wolverine-Hoosier Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Wolverine-Hoosier Athletic",
+      "Indiana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生34名 / MF 12名 (Sr・Gr 4名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Indiana+Institute+of+Technology+(Indiana+Tech)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Indiana+Institute+of+Technology+(Indiana+Tech)+Soccer+ID+Camp",
+    "assistantCoach": "Ethan Vigario",
+    "assistantCoachEmail": "ElVigario@indianatech.net",
+    "coachVerified": true,
+    "siteUrl": "https://indianatechwarriors.com/sports/mens-soccer"
+  },
+  {
+    "id": "johnbrown-mens",
+    "name": "John Brown University",
+    "location": "Siloam Springs, Arkansas",
+    "state": "AR",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Sooner Athletic",
+    "gender": "Men",
+    "mascot": "Golden Eagles",
+    "headCoach": "Ryan Williams",
+    "coachEmail": "rjwilliams@jbu.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "74% (20/27名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Sooner Athletic Conference / At-Large)。ロスターにポジション記載なし。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Sooner Athletic",
+      "Arkansas",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生20名 / MF 不明(ポジション記載なし)",
+    "questionnaireUrl": "https://www.google.com/search?q=John+Brown+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=John+Brown+University+Soccer+ID+Camp",
+    "coachVerified": true,
+    "siteUrl": "https://jbuathletics.com/sports/mens-soccer"
+  },
+  {
+    "id": "lasierra-mens",
+    "name": "La Sierra University",
+    "location": "Riverside, California",
+    "state": "CA",
+    "region": "West",
+    "division": "NAIA",
+    "conference": "Great Southwest Athletic",
+    "gender": "Men",
+    "mascot": "Golden Eagles",
+    "headCoach": "David Trevino",
+    "coachEmail": "dtrevino@lasierra.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "5% (1/21名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Great Southwest Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Great Southwest Athletic",
+      "California",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全21名 / 留学生1名 / MF 6名 (Sr・Gr 3名) / 出身地不明3名",
+    "questionnaireUrl": "https://www.google.com/search?q=La+Sierra+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=La+Sierra+University+Soccer+ID+Camp",
+    "assistantCoach": "Francisco Pons",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "siteUrl": "https://lsugoldeneagles.com/sports/mens-soccer"
+  },
+  {
+    "id": "life-mens",
+    "name": "Life University",
+    "location": "Marietta, Georgia",
+    "state": "GA",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "SSAC",
+    "gender": "Men",
+    "mascot": "Running Eagles",
+    "headCoach": "Alex Pama",
+    "coachEmail": "Alex.Pama@LIFE.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "88% (45/51名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Southern States Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "SSAC",
+      "Georgia",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "2名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全51名 / 留学生45名 / MF 18名 (Sr・Gr 2名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Life+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Life+University+Soccer+ID+Camp",
+    "assistantCoach": "Juan Cruz",
+    "assistantCoachEmail": "Juancruz.parisisitja@student.life.edu",
+    "coachVerified": true,
+    "siteUrl": "https://liferunningeagles.com/sports/mens-soccer"
+  },
+  {
+    "id": "lsualexandria-mens",
+    "name": "Louisiana State University at Alexandria",
+    "location": "Alexandria, Louisiana",
+    "state": "LA",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Red River Athletic",
+    "gender": "Men",
+    "mascot": "Generals",
+    "headCoach": "Mackenzie Young",
+    "coachEmail": "mackenziey@lsua.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "90% (28/31名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Red River Athletic",
+      "Louisiana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全31名 / 留学生28名 / MF 10名 (Sr・Gr 4名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Louisiana+State+University+at+Alexandria+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Louisiana+State+University+at+Alexandria+Soccer+ID+Camp",
+    "assistantCoach": "Martin Carter Torres",
+    "assistantCoachEmail": "mtorres@lsua.edu",
+    "coachVerified": true,
+    "siteUrl": "https://lsuagenerals.com/sports/mens-soccer"
+  },
+  {
+    "id": "lsushreveport-mens",
+    "name": "Louisiana State University Shreveport",
+    "location": "Shreveport, Louisiana",
+    "state": "LA",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Red River Athletic",
+    "gender": "Men",
+    "mascot": "Pilots",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "92% (23/25名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。ヘッドコーチ情報は公式サイトから取得できず未確認。",
+    "tags": [
+      "NAIA",
+      "Red River Athletic",
+      "Louisiana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "1名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全25名 / 留学生23名 / MF 9名 (Sr・Gr 2名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Louisiana+State+University+Shreveport+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Louisiana+State+University+Shreveport+Soccer+ID+Camp",
+    "siteUrl": "https://lsusathletics.com/sports/msoc/2026-27"
+  },
+  {
+    "id": "madonna-mens",
+    "name": "Madonna University",
+    "location": "Livonia, Michigan",
+    "state": "MI",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Wolverine-Hoosier Athletic",
+    "gender": "Men",
+    "mascot": "Crusaders",
+    "headCoach": "Mark Zathey",
+    "coachEmail": "mzathey@madonna.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "67% (40/60名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Wolverine-Hoosier Athletic Conference / Regular-Season Champion)。60名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Wolverine-Hoosier Athletic",
+      "Michigan",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "7名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全60名 / 留学生40名 / MF 26名 (Sr・Gr 4名) / 出身地不明2名",
+    "questionnaireUrl": "https://www.google.com/search?q=Madonna+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Madonna+University+Soccer+ID+Camp",
+    "assistantCoach": "Dan Diac",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "siteUrl": "https://madonnacrusaders.com/sports/mens-soccer"
+  },
+  {
+    "id": "milligan-mens",
+    "name": "Milligan University",
+    "location": "Milligan, Tennessee",
+    "state": "TN",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Appalachian Athletic",
+    "gender": "Men",
+    "mascot": "Buffaloes",
+    "headCoach": "Brad Camp",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "48% (24/50名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Appalachian Athletic Conference / Tournament Runner-Up)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Appalachian Athletic",
+      "Tennessee",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全50名 / 留学生24名 / MF 21名 (Sr・Gr 8名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Milligan+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Milligan+University+Soccer+ID+Camp",
+    "assistantCoach": "Tim Kolb",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "siteUrl": "https://milliganbuffs.com/sports/mens-soccer"
+  },
+  {
+    "id": "olivetnazarene-mens",
+    "name": "Olivet Nazarene University",
+    "location": "Bourbonnais, Illinois",
+    "state": "IL",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Chicagoland Collegiate Athletic",
+    "gender": "Men",
+    "mascot": "Tigers",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "81% (22/27名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Chicagoland Collegiate Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。ヘッドコーチ情報は公式サイトから取得できず未確認。",
+    "tags": [
+      "NAIA",
+      "Chicagoland Collegiate Athletic",
+      "Illinois",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生22名 / MF 8名 (Sr・Gr 7名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Olivet+Nazarene+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Olivet+Nazarene+University+Soccer+ID+Camp",
+    "siteUrl": "https://onutigers.com/sports/msoc/2026-27"
+  },
+  {
+    "id": "ottawa-mens",
+    "name": "Ottawa University (Kansas)",
+    "location": "Ottawa, Kansas",
+    "state": "KS",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "KCAC",
+    "gender": "Men",
+    "mascot": "Braves",
+    "headCoach": "James Cottage",
+    "coachEmail": "james.cottage@ottawa.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "42% (27/64名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Kansas Collegiate Athletic Conference / Regular Season Runner-Up)。64名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "KCAC",
+      "Kansas",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全64名 / 留学生27名 / MF 25名 (Sr・Gr 3名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Ottawa+University+(Kansas)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Ottawa+University+(Kansas)+Soccer+ID+Camp",
+    "assistantCoach": "Cain Scott",
+    "assistantCoachEmail": "cain.scott@ottawa.edu",
+    "coachVerified": true,
+    "siteUrl": "https://ottawabraves.com/sports/mens-soccer"
+  },
+  {
+    "id": "rockymountain-mens",
+    "name": "Rocky Mountain College",
+    "location": "Billings, Montana",
+    "state": "MT",
+    "region": "West",
+    "division": "NAIA",
+    "conference": "Cascade Collegiate",
+    "gender": "Men",
+    "mascot": "Battlin' Bears",
+    "headCoach": "Milo Downey",
+    "coachEmail": "milo.downey@rocky.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "55% (18/33名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Cascade Collegiate",
+      "Montana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全33名 / 留学生18名 / MF 9名 (Sr・Gr 1名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Rocky+Mountain+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Rocky+Mountain+College+Soccer+ID+Camp",
+    "assistantCoach": "Jared Dickerson",
+    "assistantCoachEmail": "jared.dickerson@rocky.edu",
+    "coachVerified": true,
+    "siteUrl": "https://gobattlinbears.com/sports/mens-soccer"
+  },
+  {
+    "id": "unioncommonwealth-mens",
+    "name": "Union Commonwealth University",
+    "location": "Barbourville, Kentucky",
+    "state": "KY",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Appalachian Athletic",
+    "gender": "Men",
+    "mascot": "Bulldogs",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "95% (42/44名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Appalachian Athletic Conference / Regular-Season Champion)。ロスターにポジション記載なし。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。ヘッドコーチ情報は公式サイトから取得できず未確認。",
+    "tags": [
+      "NAIA",
+      "Appalachian Athletic",
+      "Kentucky",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全44名 / 留学生42名 / MF 不明(ポジション記載なし)",
+    "questionnaireUrl": "https://www.google.com/search?q=Union+Commonwealth+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Union+Commonwealth+University+Soccer+ID+Camp",
+    "siteUrl": "https://gounionbulldogs.com/sports/msoc/2026-27"
+  },
+  {
+    "id": "warnerpacific-mens",
+    "name": "Warner Pacific University",
+    "location": "Portland, Oregon",
+    "state": "OR",
+    "region": "West",
+    "division": "NAIA",
+    "conference": "Cascade Collegiate",
+    "gender": "Men",
+    "mascot": "Knights",
+    "headCoach": "Troy Ready",
+    "coachEmail": "tready@warnerpacific.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "0% (0/53名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Tournament Champion)。53名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Cascade Collegiate",
+      "Oregon",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全53名 / 留学生0名 / MF 16名 (Sr・Gr 1名) / 出身地不明3名",
+    "questionnaireUrl": "https://www.google.com/search?q=Warner+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Warner+Pacific+University+Soccer+ID+Camp",
+    "assistantCoach": "Cameron Marvin",
+    "assistantCoachEmail": "cmarvin@warnerpacific.edu",
+    "coachVerified": true,
+    "siteUrl": "https://wpuknights.com/sports/mens-soccer"
+  },
+  {
+    "id": "westcliff-mens",
+    "name": "Westcliff University",
+    "location": "Irvine, California",
+    "state": "CA",
+    "region": "West",
+    "division": "NAIA",
+    "conference": "California Pacific",
+    "gender": "Men",
+    "mascot": "Warriors",
+    "headCoach": "Randy Dodge",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "77% (27/35名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (California Pacific Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "California Pacific",
+      "California",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全35名 / 留学生27名 / MF 13名 (Sr・Gr 4名) / 出身地不明3名",
+    "questionnaireUrl": "https://www.google.com/search?q=Westcliff+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Westcliff+University+Soccer+ID+Camp",
+    "assistantCoach": "Tom Lancaster",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "siteUrl": "https://westcliffathletics.com/sports/msoc/2026-27"
+  },
+  {
+    "id": "wiley-mens",
+    "name": "Wiley University",
+    "location": "Marshall, Texas",
+    "state": "TX",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "HBCU Athletic",
+    "gender": "Men",
+    "mascot": "Wildcats",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "48% (20/42名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (HBCU Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。ヘッドコーチ情報は公式サイトから取得できず未確認。",
+    "tags": [
+      "NAIA",
+      "HBCU Athletic",
+      "Texas",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "3名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全42名 / 留学生20名 / MF 14名 (Sr・Gr 3名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Wiley+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Wiley+University+Soccer+ID+Camp",
+    "siteUrl": "https://wileyathletics.com/sports/msoc/2026-27"
+  },
+  {
+    "id": "williampenn-mens",
+    "name": "William Penn University",
+    "location": "Oskaloosa, Iowa",
+    "state": "IA",
+    "region": "Midwest",
+    "division": "NAIA",
+    "conference": "Heart of America",
+    "gender": "Men",
+    "mascot": "Statesmen",
+    "headCoach": "",
+    "coachEmail": "",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "94% (34/36名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Heart of America Athletic Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。ヘッドコーチ情報は公式サイトから取得できず未確認。",
+    "tags": [
+      "NAIA",
+      "Heart of America",
+      "Iowa",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "3名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全36名 / 留学生34名 / MF 13名 (Sr・Gr 4名)",
+    "questionnaireUrl": "https://www.google.com/search?q=William+Penn+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=William+Penn+University+Soccer+ID+Camp",
+    "siteUrl": "https://statesmenathletics.com/sports/msoc/2026-27"
+  },
+  {
+    "id": "wvutech-mens",
+    "name": "West Virginia University Institute of Technology (WVU Tech)",
+    "location": "Beckley, West Virginia",
+    "state": "WV",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "River States",
+    "gender": "Men",
+    "mascot": "Golden Bears",
+    "headCoach": "Nick Semnani",
+    "coachEmail": "nick.semnani@mail.wvu.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "88% (51/58名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (River States Conference / Tournament Champion)。2025年は全米準優勝。ロスターに学年記載なし。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "River States",
+      "West Virginia",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全58名 / 留学生51名 / MF 22名 (学年記載なしのためSr/Gr不明)",
+    "questionnaireUrl": "https://www.google.com/search?q=West+Virginia+University+Institute+of+Technology+(WVU+Tech)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=West+Virginia+University+Institute+of+Technology+(WVU+Tech)+Soccer+ID+Camp",
+    "assistantCoach": "Alejandro Jaramillo",
+    "assistantCoachEmail": "diego.jaramillovilla@wvu.edu",
+    "coachVerified": true,
+    "siteUrl": "https://goldenbearathletics.com/sports/mens-soccer"
+  },
+  {
+    "id": "xavierla-mens",
+    "name": "Xavier University of Louisiana",
+    "location": "New Orleans, Louisiana",
+    "state": "LA",
+    "region": "South",
+    "division": "NAIA",
+    "conference": "Red River Athletic",
+    "gender": "Men",
+    "mascot": "Gold Rush",
+    "headCoach": "Lucas Cordeiro",
+    "coachEmail": "lcordeir@xula.edu",
+    "annualTuitionUSD": 0,
+    "roomAndBoardUSD": 0,
+    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "64% (18/28名)",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / Regular-Season Champion)。ポジション表記Wは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "tags": [
+      "NAIA",
+      "Red River Athletic",
+      "Louisiana",
+      "NAIA 2025 全米大会出場"
+    ],
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生18名 / MF 11名 (Sr・Gr 5名)",
+    "questionnaireUrl": "https://www.google.com/search?q=Xavier+University+of+Louisiana+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Xavier+University+of+Louisiana+Soccer+ID+Camp",
+    "assistantCoach": "Will Rodrigues",
+    "assistantCoachEmail": "",
+    "coachVerified": true,
+    "siteUrl": "https://xulagold.com/sports/mens-soccer"
   }
 ];
 

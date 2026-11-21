@@ -67,6 +67,18 @@ function safeUrl(url) {
   return /^https?:\/\//i.test(s) ? s : "";
 }
 
+// Link target for a college name: official men's soccer page when known, otherwise a Google search (same convention as the Excel sheet)
+function collegeSiteHref(col) {
+  return safeUrl(col.siteUrl) ||
+    "https://www.google.com/search?q=" + encodeURIComponent(`${col.name} ${col.gender === "Women" ? "Women's" : "Men's"} Soccer`);
+}
+
+// College name rendered as a link to the soccer program's homepage
+function collegeNameLink(col) {
+  const official = !!safeUrl(col.siteUrl);
+  return `<a href="${esc(collegeSiteHref(col))}" target="_blank" rel="noopener noreferrer" class="hover:underline decoration-sky-400 underline-offset-2" title="${official ? "サッカー部の公式ページを開く" : "サッカー部のページをGoogleで検索"}">${esc(col.name)}</a>`;
+}
+
 function cloneData(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
@@ -104,8 +116,9 @@ function loadState() {
       const existing = savedColleges.find(c => c.id === initCol.id);
       if (!existing) {
         savedColleges.push(cloneData(initCol));
-      } else if (!existing.stadium && initCol.stadium) {
-        existing.stadium = initCol.stadium;
+      } else {
+        if (!existing.stadium && initCol.stadium) existing.stadium = initCol.stadium;
+        if (!existing.siteUrl && initCol.siteUrl) existing.siteUrl = initCol.siteUrl;
       }
     });
     migrateCollegeData(savedColleges);
@@ -456,7 +469,7 @@ function renderDashboard() {
               </div>
               <div>
                 <div class="flex items-center gap-2">
-                  <span class="font-bold text-white">${esc(college.name)}</span>
+                  <span class="font-bold text-white">${collegeNameLink(college)}</span>
                   <span class="px-2 py-0.5 text-xs rounded bg-sky-950 text-sky-300 border border-sky-800">${esc(college.division)}</span>
                   <span class="px-2 py-0.5 text-xs rounded bg-amber-950 text-amber-300 border border-amber-800 font-medium">${esc(p.status)}</span>
                 </div>
@@ -505,7 +518,7 @@ function renderDashboard() {
               </div>
               <div>
                 <div class="flex items-center gap-2">
-                  <h4 class="font-bold text-white text-base">${esc(college.name)}</h4>
+                  <h4 class="font-bold text-white text-base">${collegeNameLink(college)}</h4>
                   <span class="px-2 py-0.5 text-xs font-semibold rounded bg-amber-500 text-slate-950">${esc(o.status)}</span>
                 </div>
                 <p class="text-xs text-slate-400">${esc(college.location)} | ${esc(college.division)} | ${esc(college.conference || '')}</p>
@@ -880,7 +893,7 @@ function renderExplorer() {
 
           <!-- College Name & Conference -->
           <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">
-            ${esc(col.name)}
+            ${collegeNameLink(col)}
           </h3>
           <p class="text-xs text-slate-400 mt-0.5 font-medium">${esc(col.location)} | ${esc(col.conference || 'Independent')}</p>
 
@@ -990,7 +1003,7 @@ function openCollegeDetailModal(collegeId) {
             <span class="text-xs text-slate-400">${esc(col.gender)} Soccer</span>
             ${inPipeline ? `<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-emerald-950 text-emerald-300 border border-emerald-700">★ パイプライン管理中 (${esc(inPipeline.status)})</span>` : ''}
           </div>
-          <h2 class="text-2xl font-bold text-white mt-1">${esc(col.name)}</h2>
+          <h2 class="text-2xl font-bold text-white mt-1">${collegeNameLink(col)}</h2>
           <p class="text-sm text-slate-300">${esc(col.location)} | ${esc(col.conference || 'Independent')}</p>
         </div>
         <div class="text-right">
@@ -1101,6 +1114,10 @@ function openCollegeDetailModal(collegeId) {
           <label class="font-bold text-slate-300 block mb-1">カンファレンス</label>
           <input type="text" id="editcol-conference" value="${esc(col.conference || '')}" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white">
         </div>
+        <div class="col-span-2">
+          <label class="font-bold text-slate-300 block mb-1">サッカー部ホームページURL (大学名クリックで開く)</label>
+          <input type="url" id="editcol-siteUrl" value="${esc(col.siteUrl || '')}" placeholder="https://..." class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white">
+        </div>
         <div>
           <label class="font-bold text-slate-300 block mb-1">ホームスタジアム名</label>
           <input type="text" id="editcol-stadium" value="${esc(col.stadium || '')}" placeholder="例: Laird Q. Cagan Stadium" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white">
@@ -1207,6 +1224,7 @@ function saveCollegeEdit(collegeId) {
   const location = getVal("editcol-location") || state.colleges[colIndex].location;
   const conference = getVal("editcol-conference");
   const stadium = getVal("editcol-stadium");
+  const siteUrl = safeUrl(getVal("editcol-siteUrl"));
   const headCoach = getVal("editcol-headCoach");
   const coachEmail = getVal("editcol-coachEmail");
   const annualTuitionUSD = Number(getVal("editcol-tuition")) || state.colleges[colIndex].annualTuitionUSD;
@@ -1226,6 +1244,7 @@ function saveCollegeEdit(collegeId) {
     location,
     conference,
     stadium,
+    siteUrl,
     headCoach,
     coachEmail,
     annualTuitionUSD,
@@ -1348,7 +1367,7 @@ function renderPipeline() {
                   </div>
                 </div>
 
-                <h4 class="font-bold text-white text-sm line-clamp-1">${esc(college.name)}</h4>
+                <h4 class="font-bold text-white text-sm line-clamp-1">${collegeNameLink(college)}</h4>
                 <p class="text-[11px] text-slate-400">${esc(college.location)}</p>
 
                 ${p.offerType && p.offerType !== "None" && p.offerType !== "Under Review" ? `
