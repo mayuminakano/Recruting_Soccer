@@ -34,6 +34,8 @@ let state = {
   },
   selectedCollegeForEmail: null,
   selectedTemplateId: "intro-video",
+  // true = "browse without profile" for this session: the saved profile stays untouched in localStorage but is not applied
+  profileBypassed: false,
   compareIds: []
 };
 
@@ -131,9 +133,87 @@ document.addEventListener("DOMContentLoaded", () => {
   setupNavigation();
   setupEventListeners();
   renderAll();
-  // First visit on this device: guide the user to create their profile
-  if (!hasProfile()) switchTab("profile");
+  openProfileCheck();
 });
+
+// Launch-time profile check: confirm the profile stored on this device, or offer to create one.
+// Not dismissible by Escape/backdrop, so the user always makes an explicit choice.
+function openProfileCheck() {
+  const modal = document.getElementById("profile-check-modal");
+  const content = document.getElementById("profile-check-content");
+  if (!modal || !content) return;
+
+  if (hasProfile()) {
+    const p = state.profile;
+    const name = p.fullNameEng || p.fullNameJp;
+    const sub = [p.fullNameJp && p.fullNameEng ? p.fullNameJp : "", p.transferTerm ? `Transfer ${p.transferTerm}` : "", p.primaryPosition].filter(Boolean).join(" | ");
+    content.innerHTML = `
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-11 h-11 rounded-full bg-sky-500/20 text-sky-300 flex items-center justify-center shrink-0 border border-sky-500/30">
+          <i data-lucide="user-check" class="w-5 h-5"></i>
+        </div>
+        <div class="min-w-0">
+          <p class="text-[11px] text-slate-400">この端末に保存されているプロフィール</p>
+          <h3 id="profile-check-title" class="text-lg font-bold text-white truncate">${esc(name)} さん</h3>
+          ${sub ? `<p class="text-xs text-slate-400 truncate">${esc(sub)}</p>` : ""}
+        </div>
+      </div>
+      <p class="text-xs text-slate-400 mb-4">このプロフィールで続けますか？ データはこの端末のブラウザ内にのみ保存され、サーバーには送信されません。</p>
+      <div class="flex flex-col gap-2">
+        <button onclick="closeProfileCheck('dashboard')" class="w-full py-2.5 text-sm font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-xl shadow transition">${esc(name)} さんとして続ける</button>
+        <button onclick="closeProfileCheck('profile')" class="w-full py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl border border-slate-700 transition">プロフィールを編集する</button>
+        <button onclick="browseWithoutProfile()" class="w-full py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 text-amber-200 rounded-xl border border-amber-800/60 transition">プロフィールを適用せずに大学を検索する</button>
+      </div>
+      <p class="text-[11px] text-slate-500 mt-3">「適用せずに検索」を選んでも、保存済みのプロフィールは削除されません。</p>`;
+  } else {
+    content.innerHTML = `
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-11 h-11 rounded-full bg-amber-500/20 text-amber-300 flex items-center justify-center shrink-0 border border-amber-500/30">
+          <i data-lucide="user-plus" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h3 id="profile-check-title" class="text-lg font-bold text-white">プロフィールを作成しますか？</h3>
+          <p class="text-xs text-slate-400">この端末にはまだプロフィールがありません</p>
+        </div>
+      </div>
+      <p class="text-xs text-slate-400 mb-4">プロフィールはこの端末のブラウザ内にのみ保存され、サーバー・GitHubには送信されません。作成しなくても大学の検索・比較はできます（メール文面やレジュメには氏名などが入りません）。</p>
+      <div class="flex flex-col gap-2">
+        <button onclick="closeProfileCheck('profile')" class="w-full py-2.5 text-sm font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-xl shadow transition">プロフィールを作成する</button>
+        <button onclick="closeProfileCheck('explorer')" class="w-full py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl border border-slate-700 transition">作成せずに大学を探す</button>
+        <button onclick="document.getElementById('file-import-profile').click()" class="w-full py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 text-sky-300 rounded-xl border border-slate-700 transition">プロフィールファイルを読み込む（キャッシュ削除後・別端末）</button>
+        <button onclick="closeProfileCheck(null); document.getElementById('btn-import-json').click()" class="w-full py-2 text-xs font-medium text-slate-400 hover:text-slate-200 transition">全体バックアップ(JSON)を復元する</button>
+      </div>`;
+  }
+  modal.classList.remove("hidden");
+  lucide.createIcons();
+}
+
+// Close the launch-time check and move to the chosen tab (null = stay where we are)
+function closeProfileCheck(tabId) {
+  const modal = document.getElementById("profile-check-modal");
+  if (modal) modal.classList.add("hidden");
+  if (tabId) switchTab(tabId);
+}
+
+// Browse colleges without applying the saved profile. The saved profile stays in localStorage untouched;
+// this session just uses a blank placeholder (see the saveState / syncProfileFromForm guards).
+function browseWithoutProfile() {
+  state.profileBypassed = true;
+  state.profile = cloneData(DEFAULT_ATHLETE_PROFILE);
+  renderAll();
+  closeProfileCheck("explorer");
+}
+
+// Leave browse-without-profile mode and load the saved profile again
+function applySavedProfile() {
+  const saved = readStored(STORAGE_KEYS.PROFILE);
+  state.profileBypassed = false;
+  state.profile = saved && typeof saved === "object" && !Array.isArray(saved)
+    ? { ...cloneData(DEFAULT_ATHLETE_PROFILE), ...saved }
+    : cloneData(DEFAULT_ATHLETE_PROFILE);
+  renderAll();
+  showToast("保存済みのプロフィールを適用しました");
+}
 
 // Read and parse a localStorage key; returns null if missing or corrupt
 function readStored(key) {
@@ -241,7 +321,8 @@ function remapPipelineCollegeIds(pipeline) {
 // Save state to localStorage
 function saveState(key) {
   try {
-    if (key === "profile" || !key) localStorage.setItem(STORAGE_KEYS.PROFILE, JSON.stringify(state.profile));
+    // While browsing without the profile, state.profile is a blank placeholder: never overwrite the saved profile with it
+    if ((key === "profile" || !key) && !state.profileBypassed) localStorage.setItem(STORAGE_KEYS.PROFILE, JSON.stringify(state.profile));
     if (key === "colleges" || !key) localStorage.setItem(STORAGE_KEYS.COLLEGES, JSON.stringify(state.colleges));
     if (key === "pipeline" || !key) localStorage.setItem(STORAGE_KEYS.PIPELINE, JSON.stringify(state.pipeline));
     if (key === "roadmap" || !key) localStorage.setItem(STORAGE_KEYS.ROADMAP, JSON.stringify(state.roadmap));
@@ -254,6 +335,7 @@ function saveState(key) {
 // Reset to factory demo data
 function resetToDemoData() {
   if (confirm("全てのデータを初期デモデータに戻しますか？現在の入力内容は上書きされます。")) {
+    state.profileBypassed = false;
     state.profile = JSON.parse(JSON.stringify(DEFAULT_ATHLETE_PROFILE));
     state.colleges = JSON.parse(JSON.stringify(INITIAL_COLLEGES));
     state.pipeline = JSON.parse(JSON.stringify(INITIAL_PIPELINE));
@@ -452,6 +534,11 @@ function renderProfileHeader() {
   const p = state.profile;
   const nameEl = document.getElementById("header-player-name");
   const subEl = document.getElementById("header-player-sub");
+  if (state.profileBypassed) {
+    if (nameEl) nameEl.textContent = "プロフィール未適用（大学検索モード）";
+    if (subEl) subEl.innerHTML = `保存済みのプロフィールは使わず閲覧中です。 <button onclick="applySavedProfile()" class="underline text-sky-400 hover:text-sky-300">プロフィールを適用する</button>`;
+    return;
+  }
   if (!hasProfile()) {
     if (nameEl) nameEl.textContent = "プロフィール未作成";
     if (subEl) subEl.textContent = "「選手プロフィール & レジュメ」から作成してください（この端末にのみ保存されます）";
@@ -466,17 +553,26 @@ function renderProfileHeader() {
 function renderProfileNotice() {
   const el = document.getElementById("profile-notice");
   if (!el) return;
+  if (state.profileBypassed) {
+    el.className = "no-print bg-amber-950/40 border border-amber-700/60 rounded-xl px-4 py-3 text-xs text-amber-100 flex items-start gap-2";
+    el.innerHTML = `<i data-lucide="eye-off" class="w-4 h-4 text-amber-300 shrink-0 mt-0.5"></i>
+      <div class="space-y-1.5">
+        <p>現在は<strong>プロフィールを適用せずに</strong>大学を検索中です。保存済みのプロフィールは削除されておらず、この端末に残っています。</p>
+        <button onclick="applySavedProfile()" class="px-3 py-1 text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-lg transition">保存済みのプロフィールを適用する</button>
+      </div>`;
+    return;
+  }
   if (hasProfile()) {
     el.className = "no-print bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-xs text-slate-400 flex items-start gap-2";
     el.innerHTML = `<i data-lucide="lock" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
-      <span>このプロフィールは<strong class="text-slate-200">この端末のブラウザ内にのみ</strong>保存されています。サーバー・GitHubには送信されません。別の端末で使うには、サイドバーの「保存」でJSONを書き出し、「復元」で読み込んでください。</span>`;
+      <span>このプロフィールは<strong class="text-slate-200">この端末のブラウザ内にのみ</strong>保存されています。サーバー・GitHubには送信されません。ブラウザのキャッシュ・サイトデータを削除すると消えるため、<strong class="text-sky-300">「ファイルに保存」</strong>でプロフィールをファイルに書き出しておくと安心です（別端末では「ファイルから読み込む」）。ファイルはGitHubに上げないでください。</span>`;
   } else {
     el.className = "no-print bg-sky-950/60 border border-sky-700 rounded-xl px-4 py-3 text-sm text-sky-100 flex items-start gap-2";
     el.innerHTML = `<i data-lucide="user-plus" class="w-5 h-5 text-sky-300 shrink-0 mt-0.5"></i>
       <div class="space-y-1">
         <p class="font-bold">はじめに、選手プロフィールを作成してください</p>
         <p class="text-xs text-sky-200">氏名などを入力して「プロフィールを保存」を押すと、この端末（PC / スマホ）のブラウザにのみ保存されます。サーバー・GitHubには送信されません。</p>
-        <p class="text-xs text-sky-300">他の端末で作成済みの場合は、サイドバーの「復元」からバックアップJSONを読み込めます。</p>
+        <p class="text-xs text-sky-300">作成済みのプロフィールファイルがある場合は、上の「ファイルから読み込む」で復元できます（キャッシュ削除後・別端末）。</p>
       </div>`;
   }
 }
@@ -740,7 +836,62 @@ function renderProfileTab() {
   renderResumePreview();
 }
 
+// Profile-only file backup: survives clearing the browser cache and can be loaded on another device.
+function exportProfileFile() {
+  if (!state.profileBypassed) syncProfileFromForm(true, false);
+  if (state.profileBypassed || !hasProfile()) {
+    showToast("保存できるプロフィールがありません。先にプロフィールを作成・適用してください", "error");
+    return;
+  }
+  const payload = { type: "us-soccer-profile", version: 1, exportedAt: new Date().toISOString(), profile: state.profile };
+  const safeName = String(state.profile.fullNameEng || state.profile.fullNameJp || "player").replace(/[^\w\-]+/g, "_");
+  const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `US_Soccer_Profile_${safeName}_${new Date().toISOString().split("T")[0]}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  showToast("プロフィールをファイルに保存しました。このファイルは安全な場所に保管してください");
+}
+
+// Load a profile file (profile-only file or a full backup JSON) and make it the saved profile on this device
+function importProfileFile(event) {
+  const input = event.target;
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      const isObj = (v) => v !== null && typeof v === "object" && !Array.isArray(v);
+      const named = (p) => isObj(p) && !!(String(p.fullNameEng || "").trim() || String(p.fullNameJp || "").trim());
+      const prof = isObj(data) && named(data.profile) ? data.profile : null;
+      if (!prof) throw new Error("No profile in file");
+      if (named(readStored(STORAGE_KEYS.PROFILE)) && !confirm("この端末に保存されているプロフィールを、ファイルの内容で上書きします。よろしいですか？")) return;
+      state.profileBypassed = false;
+      state.profile = { ...cloneData(DEFAULT_ATHLETE_PROFILE), ...prof };
+      saveState("profile");
+      renderAll();
+      closeProfileCheck(null);
+      showToast("プロフィールをファイルから読み込みました");
+    } catch (err) {
+      console.error("Profile import failed:", err);
+      showToast("プロフィールを読み込めませんでした。プロフィール用ファイル、またはバックアップJSONを選んでください", "error");
+    } finally {
+      input.value = "";
+    }
+  };
+  reader.readAsText(file);
+}
+
 function syncProfileFromForm(shouldSave = true, showNotification = false) {
+  // Browsing without the profile: the form must not touch the saved profile
+  if (state.profileBypassed) {
+    if (showNotification) showToast("「プロフィール未適用」モードのため保存されません。先に保存済みプロフィールを適用してください", "error");
+    return;
+  }
   const getVal = (id) => {
     const el = document.getElementById(id);
     return el ? el.value.trim() : "";
@@ -2209,7 +2360,8 @@ function exportDataJSON() {
   const fullBackup = {
     version: "1.0",
     exportedAt: new Date().toISOString(),
-    profile: state.profile,
+    // No personal profile in the backup while browsing without it (the saved one is not loaded)
+    profile: state.profileBypassed ? null : state.profile,
     colleges: state.colleges,
     pipeline: state.pipeline,
     roadmap: state.roadmap,
@@ -2365,7 +2517,10 @@ function importDataJSON(event) {
 
       if (!confirm("現在のデータをバックアップの内容で上書きします。よろしいですか？")) return;
 
-      if (isPlainObject(data.profile)) state.profile = { ...cloneData(DEFAULT_ATHLETE_PROFILE), ...data.profile };
+      if (isPlainObject(data.profile)) {
+        state.profileBypassed = false;
+        state.profile = { ...cloneData(DEFAULT_ATHLETE_PROFILE), ...data.profile };
+      }
       if (Array.isArray(data.colleges)) {
         state.colleges = data.colleges;
         migrateCollegeData(state.colleges);
