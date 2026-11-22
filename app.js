@@ -118,12 +118,21 @@ function isActivePipeline(p) {
   return p.status !== "Closed" && p.status !== "Committed";
 }
 
+// A profile counts as "created" once the user has entered a name (English or Japanese).
+// The profile lives only in this device's localStorage; nothing is ever sent to the server.
+function hasProfile() {
+  const p = state.profile;
+  return !!(p && (String(p.fullNameEng || "").trim() || String(p.fullNameJp || "").trim()));
+}
+
 // Initialize Application
 document.addEventListener("DOMContentLoaded", () => {
   loadState();
   setupNavigation();
   setupEventListeners();
   renderAll();
+  // First visit on this device: guide the user to create their profile
+  if (!hasProfile()) switchTab("profile");
 });
 
 // Read and parse a localStorage key; returns null if missing or corrupt
@@ -443,8 +452,33 @@ function renderProfileHeader() {
   const p = state.profile;
   const nameEl = document.getElementById("header-player-name");
   const subEl = document.getElementById("header-player-sub");
-  if (nameEl) nameEl.textContent = `${p.fullNameEng} (${p.fullNameJp})`;
-  if (subEl) subEl.textContent = `Transfer ${p.transferTerm || '-'} (Rising Junior) | ${p.primaryPosition} | College GPA ${p.gpa} | NCAA #${p.ncaaEligibilityId || '未登録'}`;
+  if (!hasProfile()) {
+    if (nameEl) nameEl.textContent = "プロフィール未作成";
+    if (subEl) subEl.textContent = "「選手プロフィール & レジュメ」から作成してください（この端末にのみ保存されます）";
+    return;
+  }
+  const name = [p.fullNameEng, p.fullNameJp ? `(${p.fullNameJp})` : ""].filter(Boolean).join(" ");
+  if (nameEl) nameEl.textContent = name;
+  if (subEl) subEl.textContent = `Transfer ${p.transferTerm || '-'} (Rising Junior) | ${p.primaryPosition || '-'} | College GPA ${p.gpa || '-'} | NCAA #${p.ncaaEligibilityId || '未登録'}`;
+}
+
+// Banner at the top of the profile tab: explains where the profile is stored and prompts creation when empty
+function renderProfileNotice() {
+  const el = document.getElementById("profile-notice");
+  if (!el) return;
+  if (hasProfile()) {
+    el.className = "no-print bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-xs text-slate-400 flex items-start gap-2";
+    el.innerHTML = `<i data-lucide="lock" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+      <span>このプロフィールは<strong class="text-slate-200">この端末のブラウザ内にのみ</strong>保存されています。サーバー・GitHubには送信されません。別の端末で使うには、サイドバーの「保存」でJSONを書き出し、「復元」で読み込んでください。</span>`;
+  } else {
+    el.className = "no-print bg-sky-950/60 border border-sky-700 rounded-xl px-4 py-3 text-sm text-sky-100 flex items-start gap-2";
+    el.innerHTML = `<i data-lucide="user-plus" class="w-5 h-5 text-sky-300 shrink-0 mt-0.5"></i>
+      <div class="space-y-1">
+        <p class="font-bold">はじめに、選手プロフィールを作成してください</p>
+        <p class="text-xs text-sky-200">氏名などを入力して「プロフィールを保存」を押すと、この端末（PC / スマホ）のブラウザにのみ保存されます。サーバー・GitHubには送信されません。</p>
+        <p class="text-xs text-sky-300">他の端末で作成済みの場合は、サイドバーの「復元」からバックアップJSONを読み込めます。</p>
+      </div>`;
+  }
 }
 
 // ==========================================
@@ -663,6 +697,7 @@ function renderDashboardFunnel() {
 // ==========================================
 function renderProfileTab() {
   const p = state.profile;
+  renderProfileNotice();
 
   // Fill in form inputs
   const setVal = (id, val) => {
@@ -711,6 +746,7 @@ function syncProfileFromForm(shouldSave = true, showNotification = false) {
     return el ? el.value.trim() : "";
   };
 
+  const wasCreated = hasProfile();
   state.profile = {
     fullNameEng: getVal("prof-fullNameEng"),
     fullNameJp: getVal("prof-fullNameJp") || "",
@@ -749,6 +785,11 @@ function syncProfileFromForm(shouldSave = true, showNotification = false) {
   }
   renderProfileHeader();
   renderResumePreview();
+  // Refresh the notice only when the created/empty state flips, so typing never re-renders the banner
+  if (wasCreated !== hasProfile()) {
+    renderProfileNotice();
+    lucide.createIcons();
+  }
 
   if (showNotification) {
     showToast("プロフィールを保存しました！");
@@ -770,8 +811,8 @@ function renderResumePreview() {
       <div class="border-b-4 border-sky-900 pb-4 flex items-start justify-between">
         <div>
           <div class="flex items-center gap-3">
-            <h1 class="text-3xl font-extrabold text-sky-950 uppercase tracking-tight">${esc(p.fullNameEng)}</h1>
-            <span class="text-lg text-slate-500 font-medium">(${esc(p.fullNameJp)})</span>
+            <h1 class="text-3xl font-extrabold text-sky-950 uppercase tracking-tight">${esc(p.fullNameEng || "Your Name")}</h1>
+            ${p.fullNameJp ? `<span class="text-lg text-slate-500 font-medium">(${esc(p.fullNameJp)})</span>` : ""}
           </div>
           <p class="text-sky-700 font-bold text-lg mt-0.5">
             Transfer Candidate (Rising Junior) - ${esc(p.transferTerm || '-')} | #${esc(p.jerseyNumber || '--')} | ${esc(p.primaryPosition)}

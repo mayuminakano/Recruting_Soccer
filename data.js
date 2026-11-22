@@ -21930,8 +21930,8 @@ const DUPLICATE_COLLEGE_ID_MAP = {
 // Default Athlete Profile for Demo / Initial State
 // (Transfer track: 大学2年次終了後 -> 3年次編入)
 const DEFAULT_ATHLETE_PROFILE = {
-  fullNameEng: "Taro Yamada",
-  fullNameJp: "山田 太郎",
+  fullNameEng: "",
+  fullNameJp: "",
   gender: "Men",
   transferTerm: "Fall 2027",
   gradYear: "2029",
@@ -21942,7 +21942,7 @@ const DEFAULT_ATHLETE_PROFILE = {
   nationality: "Japan",
   currentTeam: "",
   jerseyNumber: "",
-  primaryPosition: "CM / CDM (Central Midfielder)",
+  primaryPosition: "",
   secondaryPosition: "",
   dominantFoot: "",
   heightCm: "",
