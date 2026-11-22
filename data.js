@@ -7781,31 +7781,32 @@ const INITIAL_COLLEGES = [
   },
   {
     "id": "monroe-mens",
-    "name": "Monroe College (New York)",
+    "name": "Monroe University (New York)",
     "location": "New Rochelle, New York",
     "state": "NY",
     "region": "Northeast",
-    "division": "NJCAA D1",
-    "conference": "Region 15",
+    "division": "NCAA D2",
+    "conference": "要確認 (2026-27〜 NCAA D2 移行)",
     "gender": "Men",
     "mascot": "Mustangs",
     "headCoach": "Marcus DiBernardo",
     "coachEmail": "mdibernardo@monroeu.edu",
     "annualTuitionUSD": 16500,
     "roomAndBoardUSD": 11000,
-    "scholarshipMax": "Max 18.0 scholarships",
+    "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "65% (39/60名)",
-    "notes": "2x NJCAA D1 National Champions (2019, 2022). Located just outside Manhattan NYC with world-renowned tactical coaching.",
+    "notes": "2026-27シーズンからNJCAA D1よりNCAA Division IIへ移行（旧称 Monroe College → 現 Monroe University）。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2のため奨学金枠・編入規定は要確認。",
     "tags": [
       "NYC Metro",
       "NJCAA Champion",
-      "High Pro Output"
+      "High Pro Output",
+      "D2移行(2026-27)"
     ],
     "japanesePlayers": "3名 (公式ロスター確認 / 出身地不明5名)",
     "rosterStats": "公式ロスター全60名 / 留学生39名 / MF 23名 (Sr・Gr 2名) / 出身地不明5名",
-    "questionnaireUrl": "https://www.google.com/search?q=Monroe+College+(New+York)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Monroe+College+(New+York)+Soccer+ID+Camp",
+    "questionnaireUrl": "https://www.google.com/search?q=Monroe+University+(New+York)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Monroe+University+(New+York)+Soccer+ID+Camp",
     "coachVerified": true,
     "assistantCoach": "Jay Myers",
     "assistantCoachEmail": "jmyers@monroeu.edu",
@@ -9402,21 +9403,21 @@ const INITIAL_COLLEGES = [
     "location": "Portsmouth, Ohio",
     "state": "OH",
     "region": "Midwest",
-    "division": "NAIA",
-    "conference": "River States",
+    "division": "NCAA D2",
+    "conference": "要確認 (旧NAIA River States → NCAA D2 移行)",
     "gender": "Men",
     "mascot": "Bears",
     "headCoach": "",
     "coachEmail": "",
     "annualTuitionUSD": 10000,
     "roomAndBoardUSD": 9500,
-    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / River States。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA(River States)からNCAA D2へ移行。移行時期・所属カンファレンス・D2加盟状況(暫定会員の期間など)は公式サイトで要確認。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)も要確認。",
     "tags": [
-      "NAIA",
-      "River States",
+      "NCAA D2",
+      "D2移行",
       "Ohio",
       "Needs Verification"
     ],
@@ -19414,6 +19415,34 @@ const COLLEGE_DATA_FIXES = {
     "fwStats": [
       null,
       "FW 15名 / 全60名 (25%) ※位置未掲載4名"
+    ],
+    "name": [
+      "Monroe College (New York)",
+      "Monroe University (New York)"
+    ],
+    "division": [
+      "NJCAA D1",
+      "NCAA D2"
+    ],
+    "conference": [
+      "Region 15",
+      "要確認 (2026-27〜 NCAA D2 移行)"
+    ],
+    "scholarshipMax": [
+      "Max 18.0 scholarships",
+      "Max 9.0 scholarships (D2)"
+    ],
+    "notes": [
+      "2x NJCAA D1 National Champions (2019, 2022). Located just outside Manhattan NYC with world-renowned tactical coaching.",
+      "2026-27シーズンからNJCAA D1よりNCAA Division IIへ移行（旧称 Monroe College → 現 Monroe University）。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2のため奨学金枠・編入規定は要確認。"
+    ],
+    "questionnaireUrl": [
+      "https://www.google.com/search?q=Monroe+College+(New+York)+Men's+Soccer+Recruiting+Questionnaire",
+      "https://www.google.com/search?q=Monroe+University+(New+York)+Men's+Soccer+Recruiting+Questionnaire"
+    ],
+    "campUrl": [
+      "https://www.google.com/search?q=Monroe+College+(New+York)+Soccer+ID+Camp",
+      "https://www.google.com/search?q=Monroe+University+(New+York)+Soccer+ID+Camp"
     ]
   },
   "saltlake-mens": {
@@ -19767,6 +19796,36 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "division": [
+      "NAIA",
+      "NCAA D2"
+    ],
+    "conference": [
+      "River States",
+      "要確認 (旧NAIA River States → NCAA D2 移行)"
+    ],
+    "scholarshipMax": [
+      "Max 12.0 scholarships (NAIA)",
+      "Max 9.0 scholarships (D2)"
+    ],
+    "notes": [
+      "NAIA / River States。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA(River States)からNCAA D2へ移行。移行時期・所属カンファレンス・D2加盟状況(暫定会員の期間など)は公式サイトで要確認。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)も要確認。"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "River States",
+        "Ohio",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "D2移行",
+        "Ohio",
+        "Needs Verification"
+      ]
     ]
   },
   "westmont-mens": {

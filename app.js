@@ -28,6 +28,7 @@ let state = {
   filters: {
     division: "ALL",
     region: "ALL",
+    strength: "ALL",
     gender: "ALL",
     search: ""
   },
@@ -366,6 +367,14 @@ function setupEventListeners() {
   if (regionFilter) {
     regionFilter.addEventListener("change", (e) => {
       state.filters.region = e.target.value;
+      renderExplorer();
+    });
+  }
+
+  const strengthFilter = document.getElementById("filter-strength");
+  if (strengthFilter) {
+    strengthFilter.addEventListener("change", (e) => {
+      state.filters.strength = e.target.value;
       renderExplorer();
     });
   }
@@ -897,11 +906,22 @@ function renderExplorer() {
   if (!container) return;
 
   renderCompareBar();
-  const { division, region, gender, search } = state.filters;
+  const { division, region, strength, gender, search } = state.filters;
 
   const filtered = state.colleges.filter(col => {
     if (division !== "ALL" && col.division !== division) return false;
     if (region !== "ALL" && col.region !== region) return false;
+    if (strength === "NONE") {
+      if (Number.isFinite(col.strengthLevel)) return false;
+    } else if (strength !== "ALL") {
+      // "N" = N以上, "maxN" = N以下. Colleges without a strength rating are excluded.
+      if (!Number.isFinite(col.strengthLevel)) return false;
+      if (strength.startsWith("max")) {
+        if (col.strengthLevel > Number(strength.slice(3))) return false;
+      } else if (col.strengthLevel < Number(strength)) {
+        return false;
+      }
+    }
     if (gender !== "ALL" && col.gender !== gender) return false;
     if (search) {
       const q = search.toLowerCase();
@@ -1023,6 +1043,12 @@ function renderExplorer() {
             <div>
               <span class="text-slate-500 block">留学生比率 / 受入度</span>
               <span class="font-semibold text-sky-400">${esc(col.intlFriendlyRating)} (${esc(col.intlRosterPct || '-')})</span>
+            </div>
+            <div class="col-span-2">
+              <span class="text-slate-500 block">強度 (強豪度)</span>
+              <span class="font-semibold text-amber-300" ${col.strengthNote ? `title="${esc(col.strengthNote)}"` : ""}>${Number.isFinite(col.strengthLevel)
+                ? `${"★".repeat(col.strengthLevel)}${"☆".repeat(Math.max(0, 5 - col.strengthLevel))} <span class="text-slate-400 font-normal">${esc(col.strengthNote || "")}</span>`
+                : `<span class="text-slate-500 font-normal">未評価</span>`}</span>
             </div>
             <div class="col-span-2">
               <span class="text-slate-500 block">MF選手数 / 比率 (公式ロスター)</span>

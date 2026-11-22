@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -547,7 +547,7 @@
             </div>
 
             <!-- Filters Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
               <!-- Search text -->
               <div>
                 <label class="text-[11px] font-bold text-slate-400 block mb-1">大学名・地域・コーチ名 検索</label>
@@ -580,6 +580,20 @@
                   <option value="South">South (フロリダ, ノースカロライナ等)</option>
                   <option value="Midwest">Midwest (インディアナ, オハイオ等)</option>
                   <option value="Northeast">Northeast (ニューヨーク, ボストン等)</option>
+                </select>
+              </div>
+
+              <!-- Strength -->
+              <div>
+                <label class="text-[11px] font-bold text-slate-400 block mb-1">強度 (強豪度 ★1〜5)</label>
+                <select id="filter-strength" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+                  <option value="ALL">すべての強度</option>
+                  <option value="5">★5 のみ (最強クラス)</option>
+                  <option value="4">★4 以上</option>
+                  <option value="3">★3 以上</option>
+                  <option value="max2">★2 以下 (挑戦しやすい)</option>
+                  <option value="max1">★1 のみ</option>
+                  <option value="NONE">未評価のみ (D1以外など)</option>
                 </select>
               </div>
             </div>
@@ -1055,7 +1069,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=20261122a"></script>
-  <script src="app.js?v=20261122b"></script>
+  <script src="data.js?v=20261122b"></script>
+  <script src="app.js?v=20261122d"></script>
 </body>
 </html>
