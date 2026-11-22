@@ -32,8 +32,13 @@ let state = {
     search: ""
   },
   selectedCollegeForEmail: null,
-  selectedTemplateId: "intro-video"
+  selectedTemplateId: "intro-video",
+  compareIds: []
 };
+
+const COMPARE_MAX = 4;
+const STALE_CONTACT_DAYS = 14;
+const UPCOMING_DAYS = 7;
 
 // ==========================================
 // Helpers
@@ -54,6 +59,12 @@ function mfInfo(col) {
   if (!m) return null;
   const total = Number(m[1]), mf = Number(m[2]);
   return { total, mf, pct: total ? Math.round((mf / total) * 100) : 0 };
+}
+
+// True when japanesePlayers reports at least one Japanese player ("3名 (...)" / "在籍"); "0名 (... 出身地不明1名)" is false
+function hasJapanesePlayers(col) {
+  const t = col.japanesePlayers || "";
+  return /^\s*[1-9]\d*名/.test(t) || t.includes("在籍");
 }
 
 // Safe string literal for use inside a double-quoted inline handler attribute, e.g. onclick="fn(${jsArg(id)})"
@@ -81,6 +92,29 @@ function collegeNameLink(col) {
 
 function cloneData(obj) {
   return JSON.parse(JSON.stringify(obj));
+}
+
+// Whole days from today (local time) to a "YYYY-MM-DD" date; negative = past, null = missing/invalid
+function daysUntil(dateStr) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(dateStr || ""));
+  if (!m) return null;
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.round((new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3])) - today) / 86400000);
+}
+
+// Badge label + classes describing how close a due date is
+function dueBadge(days) {
+  if (days === null) return { label: "期日未定", cls: "bg-slate-700 text-slate-400" };
+  if (days < 0) return { label: `${-days}日超過`, cls: "bg-red-950 text-red-300 border border-red-700" };
+  if (days === 0) return { label: "今日が期日", cls: "bg-red-950 text-red-300 border border-red-700" };
+  if (days <= UPCOMING_DAYS) return { label: `あと${days}日`, cls: "bg-amber-950 text-amber-300 border border-amber-700" };
+  return { label: `あと${days}日`, cls: "bg-indigo-900/60 text-indigo-200 border border-indigo-700" };
+}
+
+// Pipeline entries that are still being worked on
+function isActivePipeline(p) {
+  return p.status !== "Closed" && p.status !== "Committed";
 }
 
 // Initialize Application
@@ -447,10 +481,22 @@ function renderDashboard() {
   if (elRoadmapProgress) elRoadmapProgress.textContent = `${roadmapPct}% (${doneTasks}/${totalTasks})`;
   if (elRoadmapBar) elRoadmapBar.style.width = `${roadmapPct}%`;
 
+  renderDashboardReminders();
+  renderDashboardFunnel();
+
   // Upcoming Actions List
   const upcomingContainer = document.getElementById("dash-upcoming-actions");
   if (upcomingContainer) {
-    const activeWithActions = pipeline.filter(p => p.nextAction && p.status !== "Closed" && p.status !== "Committed");
+    // Sort by due date (soonest first); entries without a date go last
+    const activeWithActions = pipeline
+      .filter(p => p.nextAction && isActivePipeline(p))
+      .sort((a, b) => {
+        const da = daysUntil(a.nextActionDate), db = daysUntil(b.nextActionDate);
+        if (da === null && db === null) return 0;
+        if (da === null) return 1;
+        if (db === null) return -1;
+        return da - db;
+      });
     if (activeWithActions.length === 0) {
       upcomingContainer.innerHTML = `
         <div class="p-6 text-center text-slate-400 bg-slate-800/50 rounded-xl border border-slate-700/60">
@@ -478,9 +524,7 @@ function renderDashboard() {
               </div>
             </div>
             <div class="text-right shrink-0">
-              <span class="text-xs px-2.5 py-1 rounded-full ${p.nextActionDate ? 'bg-indigo-900/60 text-indigo-200 border border-indigo-700' : 'bg-slate-700 text-slate-400'} font-medium">
-                期日: ${esc(p.nextActionDate || '未定')}
-              </span>
+              ${(() => { const b = dueBadge(daysUntil(p.nextActionDate)); return `<span class="text-xs px-2.5 py-1 rounded-full ${b.cls} font-medium" title="期日: ${esc(p.nextActionDate || '未定')}">${esc(p.nextActionDate || '期日未定')} (${esc(b.label)})</span>`; })()}
               <div class="mt-2 flex gap-1 justify-end">
                 <button onclick="prepareEmailForCollege(${jsArg(p.collegeId)})" class="text-xs px-2 py-1 bg-sky-600 hover:bg-sky-500 text-white rounded transition">
                   メール作成
@@ -539,6 +583,70 @@ function renderDashboard() {
   }
 
   lucide.createIcons();
+}
+
+// Reminder banner: overdue / due-soon actions and contacts that have gone quiet
+function renderDashboardReminders() {
+  const container = document.getElementById("dash-reminders");
+  if (!container) return;
+
+  const nameOf = p => (state.colleges.find(c => c.id === p.collegeId) || { name: "University" }).name;
+  const active = state.pipeline.filter(isActivePipeline);
+
+  const overdue = active.filter(p => p.nextAction && daysUntil(p.nextActionDate) !== null && daysUntil(p.nextActionDate) < 0);
+  const soon = active.filter(p => p.nextAction && daysUntil(p.nextActionDate) !== null && daysUntil(p.nextActionDate) >= 0 && daysUntil(p.nextActionDate) <= UPCOMING_DAYS);
+  // Contacted or later with no contact for STALE_CONTACT_DAYS+ days
+  const stale = active.filter(p => {
+    if (p.status === "Prospect" || !p.lastContactDate) return false;
+    const d = daysUntil(p.lastContactDate);
+    return d !== null && -d >= STALE_CONTACT_DAYS;
+  });
+
+  const rows = [];
+  const addRows = (items, icon, cls, text) => items.forEach(p => rows.push(`
+    <div class="flex items-center justify-between gap-3 px-3 py-2 rounded-lg border ${cls} text-xs">
+      <span class="flex items-center gap-2 min-w-0">
+        <i data-lucide="${icon}" class="w-3.5 h-3.5 shrink-0"></i>
+        <span class="font-bold truncate">${esc(nameOf(p))}</span>
+        <span class="truncate">${esc(text(p))}</span>
+      </span>
+      <button onclick="openPipelineEditModal(${jsArg(p.id)})" class="px-2 py-0.5 rounded bg-slate-700/80 hover:bg-slate-600 text-slate-100 shrink-0">編集</button>
+    </div>`));
+
+  addRows(overdue, "alert-triangle", "bg-red-950/50 border-red-800 text-red-200", p => `期日超過 ${-daysUntil(p.nextActionDate)}日: ${p.nextAction}`);
+  addRows(soon, "bell", "bg-amber-950/40 border-amber-800 text-amber-200", p => `${daysUntil(p.nextActionDate) === 0 ? "今日" : "あと" + daysUntil(p.nextActionDate) + "日"}: ${p.nextAction}`);
+  addRows(stale, "clock", "bg-slate-800 border-slate-600 text-slate-200", p => `最終連絡から${-daysUntil(p.lastContactDate)}日経過 - フォローを検討`);
+
+  if (rows.length === 0) {
+    container.classList.add("hidden");
+    container.innerHTML = "";
+    return;
+  }
+  container.classList.remove("hidden");
+  container.innerHTML = `
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <i data-lucide="bell-ring" class="w-4 h-4 text-amber-400"></i> リマインダー
+      <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-600/40">${rows.length}件</span>
+    </h3>
+    <div class="space-y-1.5">${rows.join("")}</div>`;
+}
+
+// Pipeline funnel: number of colleges at each stage
+function renderDashboardFunnel() {
+  const container = document.getElementById("dash-funnel");
+  if (!container) return;
+  const max = Math.max(1, ...PIPELINE_STATUSES.map(st => state.pipeline.filter(p => p.status === st.id).length));
+  container.innerHTML = PIPELINE_STATUSES.map(st => {
+    const n = state.pipeline.filter(p => p.status === st.id).length;
+    return `
+      <div class="flex items-center gap-3 text-xs">
+        <span class="w-40 shrink-0 text-slate-300 truncate">${esc(st.label)}</span>
+        <div class="flex-1 bg-slate-800 rounded-full h-2.5 overflow-hidden border border-slate-700">
+          <div class="bg-sky-500 h-full" style="width:${Math.round((n / max) * 100)}%"></div>
+        </div>
+        <span class="w-6 text-right font-bold text-sky-300">${n}</span>
+      </div>`;
+  }).join("");
 }
 
 // ==========================================
@@ -788,6 +896,7 @@ function renderExplorer() {
   const container = document.getElementById("colleges-grid");
   if (!container) return;
 
+  renderCompareBar();
   const { division, region, gender, search } = state.filters;
 
   const filtered = state.colleges.filter(col => {
@@ -919,11 +1028,20 @@ function renderExplorer() {
               <span class="text-slate-500 block">MF選手数 / 比率 (公式ロスター)</span>
               <span class="font-semibold text-violet-300">${(() => { const mi = mfInfo(col); return mi ? "MF " + mi.mf + "名 / 全" + mi.total + "名 (" + mi.pct + "%)" : "不明"; })()}</span>
             </div>
+            ${col.fwStats ? `
+            <div>
+              <span class="text-slate-500 block">日本人比率</span>
+              <span class="font-semibold text-rose-300">${esc(col.japanesePct || '-')}</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">FW選手数 / 比率</span>
+              <span class="font-semibold text-violet-300">${esc(col.fwStats)}</span>
+            </div>` : ""}
           </div>
 
           <!-- Japanese Players & Alumni Strip -->
-          <div class="my-2.5 px-3 py-1.5 ${(col.japanesePlayers && (col.japanesePlayers.includes('1名') || col.japanesePlayers.includes('2名') || col.japanesePlayers.includes('3名') || col.japanesePlayers.includes('4名') || col.japanesePlayers.includes('5名') || col.japanesePlayers.includes('在籍'))) ? 'bg-red-950/40 border-red-500/50' : 'bg-amber-950/30 border-amber-600/30'} border rounded-xl flex items-center justify-between text-xs">
-            <span class="${(col.japanesePlayers && (col.japanesePlayers.includes('1名') || col.japanesePlayers.includes('2名') || col.japanesePlayers.includes('3名') || col.japanesePlayers.includes('4名') || col.japanesePlayers.includes('5名') || col.japanesePlayers.includes('在籍'))) ? 'text-red-400' : 'text-amber-400'} font-bold flex items-center gap-1.5">
+          <div class="my-2.5 px-3 py-1.5 ${hasJapanesePlayers(col) ? 'bg-red-950/40 border-red-500/50' : 'bg-amber-950/30 border-amber-600/30'} border rounded-xl flex items-center justify-between text-xs">
+            <span class="${hasJapanesePlayers(col) ? 'text-red-400' : 'text-amber-400'} font-bold flex items-center gap-1.5">
               <span>🇯🇵</span> 日本人選手:
             </span>
             <span class="font-bold text-amber-100 truncate max-w-[210px] text-[11px]" title="${esc(col.japanesePlayers || col.japaneseRosterInfo || '')}">
@@ -949,6 +1067,9 @@ function renderExplorer() {
           <div class="flex items-center gap-1.5">
             <button onclick="openCollegeDetailModal(${jsArg(col.id)})" class="px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:text-white bg-slate-700/80 hover:bg-slate-700 rounded-lg transition flex items-center gap-1">
               <i data-lucide="info" class="w-3.5 h-3.5"></i> 詳細
+            </button>
+            <button onclick="toggleCompare(${jsArg(col.id)})" aria-pressed="${state.compareIds.includes(col.id)}" class="px-2 py-1.5 text-[11px] font-semibold rounded-lg border transition flex items-center gap-1 ${state.compareIds.includes(col.id) ? 'bg-violet-600 text-white border-violet-400' : 'text-violet-300 hover:text-white bg-violet-950/60 hover:bg-violet-800 border-violet-700/60'}" title="比較リストに追加/解除（最大${COMPARE_MAX}校）">
+              <i data-lucide="columns" class="w-3 h-3"></i> ${state.compareIds.includes(col.id) ? '比較中' : '比較'}
             </button>
             ${col.questionnaireUrl ? `
               <a href="${esc(col.questionnaireUrl)}" target="_blank" rel="noopener noreferrer" class="px-2 py-1.5 text-[11px] font-semibold text-amber-300 hover:text-white bg-amber-950/60 hover:bg-amber-800 border border-amber-600/50 rounded-lg transition flex items-center gap-1" title="オンライン質問票を開く">
@@ -981,6 +1102,124 @@ function renderExplorer() {
     `;
   }).join("");
 
+  lucide.createIcons();
+}
+
+// ==========================================
+// College comparison (up to COMPARE_MAX colleges side by side)
+// ==========================================
+function toggleCompare(collegeId) {
+  const idx = state.compareIds.indexOf(collegeId);
+  if (idx >= 0) {
+    state.compareIds.splice(idx, 1);
+  } else if (state.compareIds.length >= COMPARE_MAX) {
+    showToast(`比較できるのは最大${COMPARE_MAX}校までです`, "error");
+    return;
+  } else {
+    state.compareIds.push(collegeId);
+  }
+  renderExplorer();
+}
+
+function clearCompare() {
+  state.compareIds = [];
+  closeCompareModal();
+  renderExplorer();
+}
+
+// Floating bar shown while at least one college is selected for comparison
+function renderCompareBar() {
+  const bar = document.getElementById("compare-bar");
+  if (!bar) return;
+  // Drop ids of colleges that no longer exist
+  state.compareIds = state.compareIds.filter(id => state.colleges.some(c => c.id === id));
+  if (state.compareIds.length === 0) {
+    bar.classList.add("hidden");
+    return;
+  }
+  bar.classList.remove("hidden");
+  const names = state.compareIds.map(id => {
+    const c = state.colleges.find(x => x.id === id);
+    return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-violet-900/60 border border-violet-700 text-violet-100 text-xs">${esc(c.name)}
+      <button onclick="toggleCompare(${jsArg(id)})" aria-label="${esc(c.name)}を比較から外す" class="hover:text-white">×</button></span>`;
+  }).join("");
+  bar.innerHTML = `
+    <div class="flex flex-wrap items-center gap-2 min-w-0">
+      <span class="text-xs font-bold text-white">比較 (${state.compareIds.length}/${COMPARE_MAX})</span>${names}
+    </div>
+    <div class="flex items-center gap-2 shrink-0">
+      <button onclick="clearCompare()" class="px-3 py-1.5 text-xs bg-slate-700 hover:bg-slate-600 text-white rounded-lg">クリア</button>
+      <button onclick="openCompareModal()" ${state.compareIds.length < 2 ? "disabled" : ""} class="px-3 py-1.5 text-xs font-bold bg-violet-600 hover:bg-violet-500 text-white rounded-lg disabled:opacity-40 disabled:cursor-not-allowed">比較する</button>
+    </div>`;
+}
+
+function closeCompareModal() {
+  const modal = document.getElementById("compare-modal");
+  if (modal) modal.classList.add("hidden");
+}
+
+function openCompareModal() {
+  const cols = state.compareIds.map(id => state.colleges.find(c => c.id === id)).filter(Boolean);
+  const modal = document.getElementById("compare-modal");
+  const content = document.getElementById("compare-content");
+  if (!modal || !content || cols.length < 2) return;
+
+  const num = v => (typeof v === "number" && isFinite(v) ? v : null);
+  const totalCost = c => (num(c.annualTuitionUSD) !== null ? c.annualTuitionUSD + (num(c.roomAndBoardUSD) || 0) : null);
+  const money = v => (v === null ? "要確認" : "$" + v.toLocaleString());
+
+  // Each row: label, display text per college, optional numeric value per college and which direction is "better"
+  const rows = [
+    { label: "ディビジョン", text: c => c.division },
+    { label: "カンファレンス", text: c => c.conference || "Independent" },
+    { label: "所在地", text: c => `${c.location} (${c.region})` },
+    { label: "ヘッドコーチ", text: c => c.headCoach || "-" },
+    { label: "強豪度 (★5段階)", text: c => (num(c.strengthLevel) !== null ? "★".repeat(c.strengthLevel) + "☆".repeat(Math.max(0, 5 - c.strengthLevel)) : "-"), val: c => num(c.strengthLevel), best: "max" },
+    { label: "年間学費", text: c => money(num(c.annualTuitionUSD)), val: c => num(c.annualTuitionUSD), best: "min" },
+    { label: "寮費・食費", text: c => money(num(c.roomAndBoardUSD)), val: c => num(c.roomAndBoardUSD), best: "min" },
+    { label: "年間総額 (学費+寮費)", text: c => money(totalCost(c)), val: totalCost, best: "min" },
+    { label: "奨学金枠", text: c => c.scholarshipMax || "-" },
+    { label: "目安GPA", text: c => (c.targetGPA ?? "-"), val: c => num(c.targetGPA), best: "min" },
+    { label: "最低TOEFL", text: c => (c.minTOEFL ?? "-"), val: c => num(c.minTOEFL), best: "min" },
+    { label: "留学生受入度", text: c => `${c.intlFriendlyRating || "-"} (${c.intlRosterPct || "-"})` },
+    { label: "日本人選手", text: c => c.japanesePlayers || c.japaneseRosterInfo || "-" },
+    { label: "MF選手数 / 比率", text: c => { const mi = mfInfo(c); return mi ? `MF ${mi.mf}名 / 全${mi.total}名 (${mi.pct}%)` : "不明"; } },
+    { label: "管理ステータス", text: c => (state.pipeline.find(p => p.collegeId === c.id) || {}).status || "未登録" }
+  ];
+
+  const bestIdx = row => {
+    if (!row.val) return -1;
+    const vals = cols.map(row.val);
+    const valid = vals.filter(v => v !== null);
+    if (valid.length < 2 || new Set(valid).size === 1) return [];
+    const target = row.best === "max" ? Math.max(...valid) : Math.min(...valid);
+    return vals.map((v, i) => (v === target ? i : -1)).filter(i => i >= 0);
+  };
+
+  content.innerHTML = `
+    <h3 class="text-lg font-bold text-white mb-1 flex items-center gap-2"><i data-lucide="columns" class="w-5 h-5 text-violet-400"></i> 大学比較</h3>
+    <p class="text-xs text-slate-400 mb-3">緑ハイライトは各項目で最も有利な値（学費・GPA・TOEFLは低い方、強豪度は高い方）。</p>
+    <div class="overflow-x-auto custom-scrollbar">
+      <table class="w-full text-xs border-collapse">
+        <thead>
+          <tr>
+            <th class="text-left p-2 text-slate-400 font-semibold sticky left-0 bg-slate-900"></th>
+            ${cols.map(c => `<th class="text-left p-2 text-white font-bold min-w-[160px] align-top">${collegeNameLink(c)}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(row => {
+            const best = bestIdx(row);
+            return `<tr class="border-t border-slate-800">
+              <td class="p-2 text-slate-400 font-semibold sticky left-0 bg-slate-900 whitespace-nowrap">${esc(row.label)}</td>
+              ${cols.map((c, i) => `<td class="p-2 ${Array.isArray(best) && best.includes(i) ? "text-emerald-300 font-bold bg-emerald-950/30" : "text-slate-200"}">${esc(row.text(c))}</td>`).join("")}
+            </tr>`;
+          }).join("")}
+        </tbody>
+      </table>
+    </div>`;
+
+  modal.classList.remove("hidden");
   lucide.createIcons();
 }
 
@@ -1039,10 +1278,11 @@ function openCollegeDetailModal(collegeId) {
         <p class="text-xs text-slate-200">${esc(col.scholarshipMax || 'Max 28 (Roster Limit: 28 / 新ルール)')}</p>
         <p class="text-xs text-slate-400 mt-1">留学生比率: <strong class="text-slate-200">${esc(col.intlRosterPct || '35%')}</strong> | <span class="text-sky-300">${esc(col.rosterStats || col.intlFriendlyRating || 'High')}</span></p>
         <p class="text-xs text-slate-400 mt-1">MF比率: <strong class="text-violet-300">${(() => { const mi = mfInfo(col); return mi ? "MF " + mi.mf + "名 / 全" + mi.total + "名 (" + mi.pct + "%)" : "不明"; })()}</strong></p>
+        ${col.fwStats ? `<p class="text-xs text-slate-400 mt-1">FW比率: <strong class="text-violet-300">${esc(col.fwStats)}</strong> | 日本人比率: <strong class="text-rose-300">${esc(col.japanesePct || '-')}</strong></p>` : ""}
       </div>
 
       <!-- Japanese Player History & Recruiting Intel -->
-      <div class="p-3.5 bg-gradient-to-r ${(col.japanesePlayers && (col.japanesePlayers.includes('1名') || col.japanesePlayers.includes('2名') || col.japanesePlayers.includes('3名') || col.japanesePlayers.includes('4名') || col.japanesePlayers.includes('5名') || col.japanesePlayers.includes('在籍'))) ? 'from-red-950/40 via-amber-950/30 to-slate-900 border-red-500/60' : 'from-amber-950/40 to-slate-900 border-amber-500/50'} rounded-xl border text-xs space-y-1.5 shadow-md">
+      <div class="p-3.5 bg-gradient-to-r ${hasJapanesePlayers(col) ? 'from-red-950/40 via-amber-950/30 to-slate-900 border-red-500/60' : 'from-amber-950/40 to-slate-900 border-amber-500/50'} rounded-xl border text-xs space-y-1.5 shadow-md">
         <div class="flex items-center justify-between">
           <span class="font-extrabold text-amber-300 flex items-center gap-1.5 uppercase text-xs">
             <span class="text-base">🇯🇵</span> 日本人選手の在籍状況

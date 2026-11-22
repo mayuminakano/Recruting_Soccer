@@ -7729,19 +7729,22 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 8400,
     "scholarshipMax": "Max 18.0 full scholarships (NJCAA D1 Full Ride possible)",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "要確認",
-    "notes": "Multiple NJCAA National Champions (2013, 2021, 2022). #1 junior college transfer pipeline to NCAA D1 universities.",
+    "intlRosterPct": "77% (33/43名)",
+    "notes": "Multiple NJCAA National Champions (2013, 2021, 2022). #1 junior college transfer pipeline to NCAA D1 universities. 2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA D1 Powerhouse",
       "Full Scholarships",
       "Top D1 Transfer Route"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "13名 (公式ロスター確認 / 出身地不明2名)",
+    "rosterStats": "公式ロスター全43名 / 留学生33名 / MF 16名 (2年生以上 4名) / 出身地不明2名",
     "questionnaireUrl": "https://goreivers.com/sports/mens-soccer/recruiting",
     "campUrl": "https://reiversoccercamp.com/",
     "assistantCoach": "Juan Garcia",
-    "assistantCoachEmail": "jgarcia@iwcc.edu"
+    "assistantCoachEmail": "jgarcia@iwcc.edu",
+    "japanesePct": "30% (13/43名)",
+    "fwStats": "FW 8名 / 全43名 (19%)",
+    "siteUrl": "https://goreivers.com/sports/msoc"
   },
   {
     "id": "tylerjc-mens",
@@ -7771,7 +7774,10 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tyler+Junior+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Tyler+Junior+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Tyler+Junior+College+Soccer+ID+Camp",
+    "japanesePct": "要確認 (公式ロスター取得不可)",
+    "fwStats": "要確認 (公式ロスター取得不可)",
+    "siteUrl": "https://www.apacheathletics.com/sports/mens-soccer"
   },
   {
     "id": "monroe-mens",
@@ -7803,7 +7809,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Jay Myers",
     "assistantCoachEmail": "jmyers@monroeu.edu",
-    "siteUrl": "https://www.monroeumustangs.com/sports/mens-soccer"
+    "siteUrl": "https://www.monroeumustangs.com/sports/mens-soccer",
+    "japanesePct": "5% (3/60名)",
+    "fwStats": "FW 15名 / 全60名 (25%) ※位置未掲載4名"
   },
   {
     "id": "saltlake-mens",
@@ -7822,8 +7830,9 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "52% (15/29名)",
-    "notes": "2020 NJCAA D1 National Champions. High performance training facilities partnering with Real Salt Lake (MLS).",
+    "notes": "2026 NJCAA D1 全米準優勝。2020 NJCAA D1 National Champions. High performance training facilities partnering with Real Salt Lake (MLS).",
     "tags": [
+      "NJCAA 2026 全米準優勝",
       "Utah",
       "MLS Partnership",
       "NJCAA Champion",
@@ -7833,7 +7842,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全29名 / 留学生15名 / MF 8名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Salt+Lake+Community+College+Soccer+ID+Camp",
-    "siteUrl": "https://slccbruins.com/sports/mens-soccer"
+    "siteUrl": "https://slccbruins.com/sports/mens-soccer",
+    "japanesePct": "0% (0/29名)",
+    "fwStats": "FW 9名 / 全29名 (31%)"
   },
   {
     "id": "barton-mens",
@@ -7851,8 +7862,8 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 6900,
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "要確認",
-    "notes": "2023 NJCAA D1 National Runner-up. Jayhawk Conference powerhouse with heavy international recruitment.",
+    "intlRosterPct": "82% (32/39名)",
+    "notes": "2023 NJCAA D1 National Runner-up. Jayhawk Conference powerhouse with heavy international recruitment. 2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA Elite",
       "Kansas",
@@ -7860,10 +7871,13 @@ const INITIAL_COLLEGES = [
       "High Scholarships",
       "NJCAA全米大会出場"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "10名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全39名 / 留学生32名 / MF 14名 (2年生以上 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Barton+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Barton+Community+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Barton+Community+College+Soccer+ID+Camp",
+    "japanesePct": "26% (10/39名)",
+    "fwStats": "FW 11名 / 全39名 (28%)",
+    "siteUrl": "https://www.bartonsports.com/sports/msoc"
   },
   {
     "id": "calstatela-mens",
@@ -11764,7 +11778,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jonathan Lopez",
     "assistantCoachEmail": "Jonathan.Lopez@DaytonaState.edu",
     "coachVerified": true,
-    "siteUrl": "https://dscfalcons.com/sports/msoc"
+    "siteUrl": "https://dscfalcons.com/sports/msoc",
+    "japanesePct": "4% (1/28名)",
+    "fwStats": "FW 7名 / 全28名 (25%)"
   },
   {
     "id": "easternflorida-mens",
@@ -11795,7 +11811,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Adrian Moreno",
     "assistantCoachEmail": "morenoa@easternflorida.edu",
     "coachVerified": true,
-    "siteUrl": "https://www.efsctitans.com/sports/msoc"
+    "siteUrl": "https://www.efsctitans.com/sports/msoc",
+    "japanesePct": "12% (4/32名)",
+    "fwStats": "FW 8名 / 全32名 (25%)"
   },
   {
     "id": "arizonawestern-mens",
@@ -11814,8 +11832,9 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "82% (27/33名)",
-    "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+    "notes": "2026 NJCAA D1 全米優勝 (校史上初・延長戦の末)。NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
+      "NJCAA 2026 全米優勝",
       "NJCAA全米大会出場",
       "AZ"
     ],
@@ -11826,7 +11845,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Admir Balicevac",
     "assistantCoachEmail": "admir.balicevac@azwestern.edu",
     "coachVerified": true,
-    "siteUrl": "https://awcmatadors.com/sports/msoc"
+    "siteUrl": "https://awcmatadors.com/sports/msoc",
+    "japanesePct": "27% (9/33名)",
+    "fwStats": "FW 9名 / 全33名 (27%)"
   },
   {
     "id": "lewisandclark-mens",
@@ -11857,7 +11878,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Parker Medina",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://www.trailblazers.lc.edu/sports/msoc"
+    "siteUrl": "https://www.trailblazers.lc.edu/sports/msoc",
+    "japanesePct": "10% (3/29名)",
+    "fwStats": "FW 9名 / 全29名 (31%)"
   },
   {
     "id": "cowley-mens",
@@ -11875,20 +11898,22 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 18.0 scholarships",
     "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "68% (19/28名)",
+    "intlRosterPct": "70% (19/27名)",
     "notes": "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "KS"
     ],
-    "japanesePlayers": "9名 (公式ロスター確認 / 出身地不明1名)",
-    "rosterStats": "公式ロスター全28名 / 留学生19名 / MF 7名 (2年生以上 3名) / 出身地不明1名",
+    "japanesePlayers": "9名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全27名 / 留学生19名 / MF 7名 (2年生以上 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Cowley+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Cowley+College+Soccer+ID+Camp",
     "assistantCoach": "Eusebio \"Chevi\" Plaza",
     "assistantCoachEmail": "eusebio.plaza@cowley.edu",
     "coachVerified": true,
-    "siteUrl": "https://cowleytigers.com/sports/msoc"
+    "siteUrl": "https://cowleytigers.com/sports/msoc",
+    "japanesePct": "33% (9/27名)",
+    "fwStats": "FW 8名 / 全27名 (30%)"
   },
   {
     "id": "northidaho-mens",
@@ -11919,7 +11944,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Gunnar Skindlov",
     "assistantCoachEmail": "gunnar.skindlov@nic.edu",
     "coachVerified": true,
-    "siteUrl": "https://nicathletics.com/sports/msoc"
+    "siteUrl": "https://nicathletics.com/sports/msoc",
+    "japanesePct": "3% (1/32名)",
+    "fwStats": "FW 6名 / 全32名 (19%)"
   },
   {
     "id": "gardencity-mens",
@@ -11950,7 +11977,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Yahir Camacho",
     "assistantCoachEmail": "yahir.camacho@gcccks.edu",
     "coachVerified": true,
-    "siteUrl": "https://gobroncbusters.com/sports/msoc"
+    "siteUrl": "https://gobroncbusters.com/sports/msoc",
+    "japanesePct": "2% (1/40名)",
+    "fwStats": "FW表記なし (公式ロスターはMF/DF/GKのみ)"
   },
   {
     "id": "northwest-mens",
@@ -11981,7 +12010,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "David Gilliatt",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://nwctrappers.com/sports/msoc"
+    "siteUrl": "https://nwctrappers.com/sports/msoc",
+    "japanesePct": "21% (7/33名)",
+    "fwStats": "FW 8名 / 全33名 (24%)"
   },
   {
     "id": "hill-mens",
@@ -12012,7 +12043,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Derick Gonzalez",
     "assistantCoachEmail": "dgonzalez@hillcollege.edu",
     "coachVerified": true,
-    "siteUrl": "https://hillcollegeathletics.com/sports/msoc"
+    "siteUrl": "https://hillcollegeathletics.com/sports/msoc",
+    "japanesePct": "要確認 (ホームタウン非公開)",
+    "fwStats": "FW 8名 / 全28名 (29%)"
   },
   {
     "id": "ccbcessex-mens",
@@ -12029,17 +12062,20 @@ const INITIAL_COLLEGES = [
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
-    "intlFriendlyRating": "要確認",
-    "intlRosterPct": "要確認",
-    "notes": "NJCAA D2 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "intlFriendlyRating": "High",
+    "intlRosterPct": "27% (8/30名)",
+    "notes": "NJCAA D2 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "MD"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "5名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全30名 / 留学生8名 / MF 12名 (2年生以上 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=CCBC+Essex+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=CCBC+Essex+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=CCBC+Essex+Soccer+ID+Camp",
+    "japanesePct": "17% (5/30名)",
+    "fwStats": "FW 10名 / 全30名 (33%)",
+    "siteUrl": "https://ccbcessexknights.com/sports/msoc"
   },
   {
     "id": "phoenixcollege-mens",
@@ -12057,17 +12093,19 @@ const INITIAL_COLLEGES = [
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
     "intlFriendlyRating": "要確認",
-    "intlRosterPct": "要確認",
-    "notes": "NJCAA D2 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "intlRosterPct": "要確認 (ホームタウン非公開)",
+    "notes": "2025 NJCAA D2 全米優勝校 (公式サイト記載)。NJCAA D2 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "AZ"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "要確認 (ホームタウン非公開)",
+    "rosterStats": "公式ロスター全33名 / MF 12名 (2年生以上 2名) / 出身地は非公開",
     "questionnaireUrl": "https://www.google.com/search?q=Phoenix+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Phoenix+College+Soccer+ID+Camp",
-    "siteUrl": "https://athletics.phoenixcollege.edu/sports/msoc"
+    "siteUrl": "https://pcbearsathletics.com/sports/msoc",
+    "japanesePct": "要確認 (ホームタウン非公開)",
+    "fwStats": "FW 9名 / 全33名 (27%) ※位置未掲載1名"
   },
   {
     "id": "northeastcc-mens",
@@ -12084,18 +12122,21 @@ const INITIAL_COLLEGES = [
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
-    "intlFriendlyRating": "要確認",
-    "intlRosterPct": "要確認",
-    "notes": "NJCAA D2 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "89% (32/36名)",
+    "notes": "2026 NJCAA D2 全米優勝 (決勝でMadison Collegeに2-1)。NJCAA D2 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
+      "NJCAA 2026 全米優勝",
       "NJCAA全米大会出場",
       "NE"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "2名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全36名 / 留学生32名 / MF 13名 (2年生以上 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Northeast+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Northeast+Community+College+Soccer+ID+Camp",
-    "siteUrl": "https://northeast.edu"
+    "siteUrl": "https://northeasthawks.com/sports/msoc",
+    "japanesePct": "6% (2/36名)",
+    "fwStats": "FW 10名 / 全36名 (28%)"
   },
   {
     "id": "iowalakes-mens",
@@ -12126,7 +12167,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Bryan Marshall",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://iowalakesathletics.com/sports/msoc"
+    "siteUrl": "https://iowalakesathletics.com/sports/msoc",
+    "japanesePct": "6% (3/47名)",
+    "fwStats": "FW 16名 / 全47名 (34%)"
   },
   {
     "id": "madisoncollege-mens",
@@ -12143,18 +12186,21 @@ const INITIAL_COLLEGES = [
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
-    "intlFriendlyRating": "要確認",
-    "intlRosterPct": "要確認",
-    "notes": "NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "intlFriendlyRating": "Very High",
+    "intlRosterPct": "31% (8/26名)",
+    "notes": "2026 NJCAA D2 全米準優勝 (決勝でNortheast CCに1-2)。NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
+      "NJCAA 2026 全米準優勝",
       "NJCAA全米大会出場",
       "WI"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全26名 / 留学生8名 / MF 14名 (2年生以上 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Madison+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Madison+College+Soccer+ID+Camp",
-    "siteUrl": "https://madisoncollegeathletics.com/sports/msoc"
+    "siteUrl": "https://madisoncollegeathletics.com/sports/msoc",
+    "japanesePct": "0% (0/26名)",
+    "fwStats": "FW 5名 / 全26名 (19%)"
   },
   {
     "id": "pearlriver-mens",
@@ -12185,7 +12231,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Joe Guinchard",
     "assistantCoachEmail": "jguinchard@prcc.edu",
     "coachVerified": true,
-    "siteUrl": "https://prccathletics.com/sports/msoc"
+    "siteUrl": "https://prccathletics.com/sports/msoc",
+    "japanesePct": "0% (0/24名)",
+    "fwStats": "FW 8名 / 全24名 (33%)"
   },
   {
     "id": "neosho-mens",
@@ -12202,18 +12250,20 @@ const INITIAL_COLLEGES = [
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
-    "intlFriendlyRating": "要確認",
-    "intlRosterPct": "要確認",
-    "notes": "NJCAA D2 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+    "intlFriendlyRating": "Extremely High",
+    "intlRosterPct": "78% (25/32名)",
+    "notes": "NJCAA D2 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
     "tags": [
       "NJCAA全米大会出場",
       "KS"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "5名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全32名 / 留学生25名 / MF 14名 (2年生以上 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Soccer+ID+Camp",
-    "siteUrl": "https://neosho.edu/athletics/sports/mens-soccer"
+    "siteUrl": "https://goneosho.com/sports/mens-soccer",
+    "japanesePct": "16% (5/32名)",
+    "fwStats": "FW 6名 / 全32名 (19%) ※位置未掲載1名"
   },
   {
     "id": "glendaleaz-mens",
@@ -12240,7 +12290,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Glendale+Community+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Glendale+Community+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Glendale+Community+College+Soccer+ID+Camp",
+    "japanesePct": "要確認 (公式ロスター取得不可)",
+    "fwStats": "要確認 (公式ロスター取得不可)"
   },
   {
     "id": "pima-mens",
@@ -12271,7 +12323,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Armand Bram",
     "assistantCoachEmail": "abrambayze@pima.edu",
     "coachVerified": true,
-    "siteUrl": "https://pimaaztecs.com/sports/msoc"
+    "siteUrl": "https://pimaaztecs.com/sports/msoc",
+    "japanesePct": "0% (0/28名)",
+    "fwStats": "FW 2名 / 全28名 (7%)"
   },
   {
     "id": "wallacestate-mens",
@@ -12300,7 +12354,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Wallace+State+Community+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wallace+State+Community+College+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://wallacestate.edu/athletics/sports/msoc"
+    "siteUrl": "https://wallacestate.edu/athletics/sports/msoc",
+    "japanesePct": "0% (0/12名・公開分のみ)",
+    "fwStats": "FW 3名 / 公開12名 (25%・公開分のみ)"
   },
   {
     "id": "schoolcraft-mens",
@@ -12331,7 +12387,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ben Davis",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://schoolcraftocelots.com/sports/msoc"
+    "siteUrl": "https://schoolcraftocelots.com/sports/msoc",
+    "japanesePct": "0% (0/30名)",
+    "fwStats": "FW 8名 / 全30名 (27%)"
   },
   {
     "id": "heartland-mens",
@@ -12362,7 +12420,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Marco Iniguez",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://heartlandhawks.com/sports/mens-soccer"
+    "siteUrl": "https://heartlandhawks.com/sports/mens-soccer",
+    "japanesePct": "0% (0/22名)",
+    "fwStats": "FW 2名 / 全22名 (9%)"
   },
   {
     "id": "bethelind-mens",
@@ -19256,16 +19316,32 @@ const COLLEGE_DATA_FIXES = {
   },
   "iowawestern-mens": {
     "japanesePlayers": [
-      "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "未確認 (要問合せ)",
+      "13名 (公式ロスター確認 / 出身地不明2名)"
     ],
     "intlRosterPct": [
-      "80%",
-      "要確認"
+      "要確認",
+      "77% (33/43名)"
     ],
     "rosterStats": [
-      "留学生比率 約80%",
-      "要確認"
+      "要確認",
+      "公式ロスター全43名 / 留学生33名 / MF 16名 (2年生以上 4名) / 出身地不明2名"
+    ],
+    "japanesePct": [
+      null,
+      "30% (13/43名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全43名 (19%)"
+    ],
+    "notes": [
+      "Multiple NJCAA National Champions (2013, 2021, 2022). #1 junior college transfer pipeline to NCAA D1 universities.",
+      "Multiple NJCAA National Champions (2013, 2021, 2022). #1 junior college transfer pipeline to NCAA D1 universities. 2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "siteUrl": [
+      null,
+      "https://goreivers.com/sports/msoc"
     ]
   },
   "tylerjc-mens": {
@@ -19288,6 +19364,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約75%",
       "要確認"
+    ],
+    "japanesePct": [
+      null,
+      "要確認 (公式ロスター取得不可)"
+    ],
+    "fwStats": [
+      null,
+      "要確認 (公式ロスター取得不可)"
+    ],
+    "siteUrl": [
+      null,
+      "https://www.apacheathletics.com/sports/mens-soccer"
     ]
   },
   "monroe-mens": {
@@ -19318,6 +19406,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "japanesePct": [
+      null,
+      "5% (3/60名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 15名 / 全60名 (25%) ※位置未掲載4名"
     ]
   },
   "saltlake-mens": {
@@ -19340,6 +19436,33 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約70%",
       "公式ロスター全29名 / 留学生15名 / MF 8名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "japanesePct": [
+      null,
+      "0% (0/29名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 9名 / 全29名 (31%)"
+    ],
+    "tags": [
+      [
+        "Utah",
+        "MLS Partnership",
+        "NJCAA Champion",
+        "NJCAA全米大会出場"
+      ],
+      [
+        "NJCAA 2026 全米準優勝",
+        "Utah",
+        "MLS Partnership",
+        "NJCAA Champion",
+        "NJCAA全米大会出場"
+      ]
+    ],
+    "notes": [
+      "2020 NJCAA D1 National Champions. High performance training facilities partnering with Real Salt Lake (MLS).",
+      "2026 NJCAA D1 全米準優勝。2020 NJCAA D1 National Champions. High performance training facilities partnering with Real Salt Lake (MLS)."
     ]
   },
   "barton-mens": {
@@ -19352,16 +19475,32 @@ const COLLEGE_DATA_FIXES = {
       null
     ],
     "japanesePlayers": [
-      "0名 (要問合せ)",
-      "未確認 (要問合せ)"
+      "未確認 (要問合せ)",
+      "10名 (公式ロスター確認)"
     ],
     "intlRosterPct": [
-      "80%",
-      "要確認"
+      "要確認",
+      "82% (32/39名)"
     ],
     "rosterStats": [
-      "留学生比率 約80%",
-      "要確認"
+      "要確認",
+      "公式ロスター全39名 / 留学生32名 / MF 14名 (2年生以上 0名)"
+    ],
+    "japanesePct": [
+      null,
+      "26% (10/39名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 11名 / 全39名 (28%)"
+    ],
+    "notes": [
+      "2023 NJCAA D1 National Runner-up. Jayhawk Conference powerhouse with heavy international recruitment.",
+      "2023 NJCAA D1 National Runner-up. Jayhawk Conference powerhouse with heavy international recruitment. 2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "siteUrl": [
+      null,
+      "https://www.bartonsports.com/sports/msoc"
     ]
   },
   "southeastern-mens": {
@@ -21341,6 +21480,377 @@ const COLLEGE_DATA_FIXES = {
       "部員32名中 留学生25名 (78%) / 欧州, 南米",
       "要確認"
     ]
+  },
+  "madisoncollege-mens": {
+    "intlRosterPct": [
+      "要確認",
+      "31% (8/26名)"
+    ],
+    "japanesePlayers": [
+      "未確認 (要問合せ)",
+      "0名 (公式ロスター確認)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全26名 / 留学生8名 / MF 14名 (2年生以上 4名)"
+    ],
+    "intlFriendlyRating": [
+      "要確認",
+      "Very High"
+    ],
+    "japanesePct": [
+      null,
+      "0% (0/26名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 5名 / 全26名 (19%)"
+    ],
+    "tags": [
+      [
+        "NJCAA全米大会出場",
+        "WI"
+      ],
+      [
+        "NJCAA 2026 全米準優勝",
+        "NJCAA全米大会出場",
+        "WI"
+      ]
+    ],
+    "notes": [
+      "2026 NJCAA D2 全米準優勝 (決勝でNortheast CCに1-2)。NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+      "2026 NJCAA D2 全米準優勝 (決勝でNortheast CCに1-2)。NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ]
+  },
+  "neosho-mens": {
+    "intlRosterPct": [
+      "要確認",
+      "78% (25/32名)"
+    ],
+    "japanesePlayers": [
+      "未確認 (要問合せ)",
+      "5名 (公式ロスター確認)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全32名 / 留学生25名 / MF 14名 (2年生以上 4名)"
+    ],
+    "intlFriendlyRating": [
+      "要確認",
+      "Extremely High"
+    ],
+    "japanesePct": [
+      null,
+      "16% (5/32名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 6名 / 全32名 (19%) ※位置未掲載1名"
+    ],
+    "notes": [
+      "NJCAA D2 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+      "NJCAA D2 全米大会出場校 (シード7 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "siteUrl": [
+      "https://neosho.edu/athletics/sports/mens-soccer",
+      "https://goneosho.com/sports/mens-soccer"
+    ]
+  },
+  "northeastcc-mens": {
+    "intlRosterPct": [
+      "要確認",
+      "89% (32/36名)"
+    ],
+    "japanesePlayers": [
+      "未確認 (要問合せ)",
+      "2名 (公式ロスター確認)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全36名 / 留学生32名 / MF 13名 (2年生以上 5名)"
+    ],
+    "intlFriendlyRating": [
+      "要確認",
+      "Extremely High"
+    ],
+    "japanesePct": [
+      null,
+      "6% (2/36名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 10名 / 全36名 (28%)"
+    ],
+    "tags": [
+      [
+        "NJCAA全米大会出場",
+        "NE"
+      ],
+      [
+        "NJCAA 2026 全米優勝",
+        "NJCAA全米大会出場",
+        "NE"
+      ]
+    ],
+    "notes": [
+      "2026 NJCAA D2 全米優勝 (決勝でMadison Collegeに2-1)。NJCAA D2 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+      "2026 NJCAA D2 全米優勝 (決勝でMadison Collegeに2-1)。NJCAA D2 全米大会出場校 (シード3 / Pool C)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "siteUrl": [
+      "https://northeast.edu",
+      "https://northeasthawks.com/sports/msoc"
+    ]
+  },
+  "phoenixcollege-mens": {
+    "intlRosterPct": [
+      "要確認",
+      "要確認 (ホームタウン非公開)"
+    ],
+    "japanesePlayers": [
+      "未確認 (要問合せ)",
+      "要確認 (ホームタウン非公開)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全33名 / MF 12名 (2年生以上 2名) / 出身地は非公開"
+    ],
+    "japanesePct": [
+      null,
+      "要確認 (ホームタウン非公開)"
+    ],
+    "fwStats": [
+      null,
+      "FW 9名 / 全33名 (27%) ※位置未掲載1名"
+    ],
+    "notes": [
+      "2025 NJCAA D2 全米優勝校 (公式サイト記載)。NJCAA D2 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+      "2025 NJCAA D2 全米優勝校 (公式サイト記載)。NJCAA D2 全米大会出場校 (シード2 / Pool B)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "siteUrl": [
+      "https://athletics.phoenixcollege.edu/sports/msoc",
+      "https://pcbearsathletics.com/sports/msoc"
+    ]
+  },
+  "ccbcessex-mens": {
+    "intlRosterPct": [
+      "要確認",
+      "27% (8/30名)"
+    ],
+    "japanesePlayers": [
+      "未確認 (要問合せ)",
+      "5名 (公式ロスター確認)"
+    ],
+    "rosterStats": [
+      "要確認",
+      "公式ロスター全30名 / 留学生8名 / MF 12名 (2年生以上 6名)"
+    ],
+    "intlFriendlyRating": [
+      "要確認",
+      "High"
+    ],
+    "japanesePct": [
+      null,
+      "17% (5/30名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 10名 / 全30名 (33%)"
+    ],
+    "notes": [
+      "NJCAA D2 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
+      "NJCAA D2 全米大会出場校 (シード1 / Pool A)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "siteUrl": [
+      null,
+      "https://ccbcessexknights.com/sports/msoc"
+    ]
+  },
+  "cowley-mens": {
+    "intlRosterPct": [
+      "68% (19/28名)",
+      "70% (19/27名)"
+    ],
+    "japanesePlayers": [
+      "9名 (公式ロスター確認 / 出身地不明1名)",
+      "9名 (公式ロスター確認)"
+    ],
+    "rosterStats": [
+      "公式ロスター全28名 / 留学生19名 / MF 7名 (2年生以上 3名) / 出身地不明1名",
+      "公式ロスター全27名 / 留学生19名 / MF 7名 (2年生以上 3名)"
+    ],
+    "japanesePct": [
+      null,
+      "33% (9/27名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全27名 (30%)"
+    ]
+  },
+  "daytonastate-mens": {
+    "japanesePct": [
+      null,
+      "4% (1/28名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 7名 / 全28名 (25%)"
+    ]
+  },
+  "easternflorida-mens": {
+    "japanesePct": [
+      null,
+      "12% (4/32名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全32名 (25%)"
+    ]
+  },
+  "arizonawestern-mens": {
+    "japanesePct": [
+      null,
+      "27% (9/33名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 9名 / 全33名 (27%)"
+    ],
+    "tags": [
+      [
+        "NJCAA全米大会出場",
+        "AZ"
+      ],
+      [
+        "NJCAA 2026 全米優勝",
+        "NJCAA全米大会出場",
+        "AZ"
+      ]
+    ],
+    "notes": [
+      "NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。",
+      "2026 NJCAA D1 全米優勝 (校史上初・延長戦の末)。NJCAA D1 全米大会出場校。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ]
+  },
+  "lewisandclark-mens": {
+    "japanesePct": [
+      null,
+      "10% (3/29名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 9名 / 全29名 (31%)"
+    ]
+  },
+  "northidaho-mens": {
+    "japanesePct": [
+      null,
+      "3% (1/32名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 6名 / 全32名 (19%)"
+    ]
+  },
+  "gardencity-mens": {
+    "japanesePct": [
+      null,
+      "2% (1/40名)"
+    ],
+    "fwStats": [
+      null,
+      "FW表記なし (公式ロスターはMF/DF/GKのみ)"
+    ]
+  },
+  "northwest-mens": {
+    "japanesePct": [
+      null,
+      "21% (7/33名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全33名 (24%)"
+    ]
+  },
+  "hill-mens": {
+    "japanesePct": [
+      null,
+      "要確認 (ホームタウン非公開)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全28名 (29%)"
+    ]
+  },
+  "iowalakes-mens": {
+    "japanesePct": [
+      null,
+      "6% (3/47名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 16名 / 全47名 (34%)"
+    ]
+  },
+  "pearlriver-mens": {
+    "japanesePct": [
+      null,
+      "0% (0/24名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全24名 (33%)"
+    ]
+  },
+  "glendaleaz-mens": {
+    "japanesePct": [
+      null,
+      "要確認 (公式ロスター取得不可)"
+    ],
+    "fwStats": [
+      null,
+      "要確認 (公式ロスター取得不可)"
+    ]
+  },
+  "pima-mens": {
+    "japanesePct": [
+      null,
+      "0% (0/28名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 2名 / 全28名 (7%)"
+    ]
+  },
+  "wallacestate-mens": {
+    "japanesePct": [
+      null,
+      "0% (0/12名・公開分のみ)"
+    ],
+    "fwStats": [
+      null,
+      "FW 3名 / 公開12名 (25%・公開分のみ)"
+    ]
+  },
+  "schoolcraft-mens": {
+    "japanesePct": [
+      null,
+      "0% (0/30名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 8名 / 全30名 (27%)"
+    ]
+  },
+  "heartland-mens": {
+    "japanesePct": [
+      null,
+      "0% (0/22名)"
+    ],
+    "fwStats": [
+      null,
+      "FW 2名 / 全22名 (9%)"
+    ]
   }
 };
 
@@ -21393,74 +21903,9 @@ const DEFAULT_ATHLETE_PROFILE = {
   referenceCoach: ""
 };
 
-// Initial Pipeline Data (Transfer targets for the Fall 2027 junior-year transfer)
-const INITIAL_PIPELINE = [
-  {
-    id: "pipe-1",
-    collegeId: "grandview-mens",
-    status: "Prospect",
-    addedDate: "2026-11-17",
-    lastContactDate: "",
-    offerType: "None",
-    offerAmountUSD: 0,
-    coachContacted: "David Groves",
-    notes: "NAIA。日本人選手の在籍実績が多い拠点校。3年次編入枠・ポジションの空き・単位認定を確認する。",
-    nextAction: "編入(Rising Junior)向けの初回メールとハイライト映像を送付",
-    nextActionDate: "2026-12-15"
-  },
-  {
-    id: "pipe-2",
-    collegeId: "franklinpierce-mens",
-    status: "Prospect",
-    addedDate: "2026-11-17",
-    lastContactDate: "",
-    offerType: "None",
-    offerAmountUSD: 0,
-    coachContacted: "Diego Thielen",
-    notes: "NCAA D2強豪。留学生の受入実績が高く奨学金枠(最大9.0)あり。編入生のロスター枠と単位認定を確認する。",
-    nextAction: "現所属校の成績証明書(Transcript)の発行を依頼し、Zoom面談を打診",
-    nextActionDate: "2027-01-15"
-  },
-  {
-    id: "pipe-3",
-    collegeId: "marshalluniversity-mens",
-    status: "Prospect",
-    addedDate: "2026-11-17",
-    lastContactDate: "",
-    offerType: "None",
-    offerAmountUSD: 0,
-    coachContacted: "Chris Grassie",
-    notes: "NCAA D1(2020全米王者)。D1はTransfer Portal登録後に接触可。登録のタイミングと現コーチへの相談が前提。",
-    nextAction: "Transfer Portalの登録時期を確認し、現コーチへ編入意向を相談",
-    nextActionDate: "2027-01-31"
-  },
-  {
-    id: "pipe-4",
-    collegeId: "wakeforestuniversity-mens",
-    status: "Prospect",
-    addedDate: "2026-11-17",
-    lastContactDate: "",
-    offerType: "None",
-    offerAmountUSD: 0,
-    coachContacted: "Bobby Muuss",
-    notes: "ACC強豪(D1)。学業水準が高く、編入は大学GPAと単位認定が重要。ロースター28名上限のため空き枠を要確認。",
-    nextAction: "最新シーズンのハイライトを更新し、編入意向メールの下書きを作成",
-    nextActionDate: "2027-02-15"
-  },
-  {
-    id: "pipe-5",
-    collegeId: "clemsonuniversity-mens",
-    status: "Prospect",
-    addedDate: "2026-11-17",
-    lastContactDate: "",
-    offerType: "None",
-    offerAmountUSD: 0,
-    coachContacted: "Mike Noonan",
-    notes: "D1全米王者。ACCでのプレースタイルに合わせて準備。D1はPortal登録後に接触可。",
-    nextAction: "ハイプレッシングをアピールした編入向け英文メールを作成",
-    nextActionDate: "2027-02-28"
-  }
-];
+// Initial Pipeline: intentionally empty. Personal pipeline data (selected colleges, notes) lives only in the
+// user's browser (localStorage) / private JSON backup, never in this shared file.
+const INITIAL_PIPELINE = [];
 
 // Email Pitch Templates (Transfer / Rising Junior)
 const EMAIL_TEMPLATES = [
