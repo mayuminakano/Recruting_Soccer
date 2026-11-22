@@ -215,6 +215,15 @@ function applySavedProfile() {
   showToast("保存済みのプロフィールを適用しました");
 }
 
+// Display name of the profile saved on this device (works even while browsing without the profile)
+function getSavedProfileName() {
+  const saved = readStored(STORAGE_KEYS.PROFILE);
+  if (!saved || typeof saved !== "object" || Array.isArray(saved)) return "";
+  const eng = String(saved.fullNameEng || "").trim();
+  const jp = String(saved.fullNameJp || "").trim();
+  return [eng, jp && eng ? `(${jp})` : jp].filter(Boolean).join(" ");
+}
+
 // Read and parse a localStorage key; returns null if missing or corrupt
 function readStored(key) {
   try {
@@ -536,7 +545,10 @@ function renderProfileHeader() {
   const subEl = document.getElementById("header-player-sub");
   if (state.profileBypassed) {
     if (nameEl) nameEl.textContent = "プロフィール未適用（大学検索モード）";
-    if (subEl) subEl.innerHTML = `保存済みのプロフィールは使わず閲覧中です。 <button onclick="applySavedProfile()" class="underline text-sky-400 hover:text-sky-300">プロフィールを適用する</button>`;
+    const savedName = getSavedProfileName();
+    if (subEl) subEl.innerHTML = savedName
+      ? `保存済みプロフィール: <strong class="text-slate-200">${esc(savedName)}</strong>（未適用） <button onclick="applySavedProfile()" class="underline text-sky-400 hover:text-sky-300">適用する</button>`
+      : `保存済みのプロフィールはありません。`;
     return;
   }
   if (!hasProfile()) {
@@ -558,6 +570,7 @@ function renderProfileNotice() {
     el.innerHTML = `<i data-lucide="eye-off" class="w-4 h-4 text-amber-300 shrink-0 mt-0.5"></i>
       <div class="space-y-1.5">
         <p>現在は<strong>プロフィールを適用せずに</strong>大学を検索中です。保存済みのプロフィールは削除されておらず、この端末に残っています。</p>
+        ${getSavedProfileName() ? `<p>保存済みプロフィール: <strong class="text-white">${esc(getSavedProfileName())}</strong></p>` : ""}
         <button onclick="applySavedProfile()" class="px-3 py-1 text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-lg transition">保存済みのプロフィールを適用する</button>
       </div>`;
     return;
@@ -565,7 +578,7 @@ function renderProfileNotice() {
   if (hasProfile()) {
     el.className = "no-print bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-xs text-slate-400 flex items-start gap-2";
     el.innerHTML = `<i data-lucide="lock" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
-      <span>このプロフィールは<strong class="text-slate-200">この端末のブラウザ内にのみ</strong>保存されています。サーバー・GitHubには送信されません。ブラウザのキャッシュ・サイトデータを削除すると消えるため、<strong class="text-sky-300">「ファイルに保存」</strong>でプロフィールをファイルに書き出しておくと安心です（別端末では「ファイルから読み込む」）。ファイルはGitHubに上げないでください。</span>`;
+      <span>保存済みプロフィール: <strong class="text-white">${esc(getSavedProfileName())}</strong>。このプロフィールは<strong class="text-slate-200">この端末のブラウザ内にのみ</strong>保存されています。サーバー・GitHubには送信されません。ブラウザのキャッシュ・サイトデータを削除すると消えるため、<strong class="text-sky-300">「ファイルに保存」</strong>でプロフィールをファイルに書き出しておくと安心です（別端末では「ファイルから読み込む」）。ファイルはGitHubに上げないでください。</span>`;
   } else {
     el.className = "no-print bg-sky-950/60 border border-sky-700 rounded-xl px-4 py-3 text-sm text-sky-100 flex items-start gap-2";
     el.innerHTML = `<i data-lucide="user-plus" class="w-5 h-5 text-sky-300 shrink-0 mt-0.5"></i>
