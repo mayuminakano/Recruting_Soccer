@@ -129,12 +129,46 @@ function hasProfile() {
 
 // Initialize Application
 document.addEventListener("DOMContentLoaded", () => {
+  if (redirectOutOfLineBrowser()) return;
   loadState();
   setupNavigation();
   setupEventListeners();
   renderAll();
   openProfileCheck();
+  showLineBrowserNotice();
 });
+
+// LINE's in-app browser has its own localStorage (separate from the phone's default browser), so saved data would be
+// split between the two. LINE opens a link in the default browser when it carries ?openExternalBrowser=1.
+function isLineInAppBrowser() {
+  return /\bLine\//i.test(navigator.userAgent || "");
+}
+
+function externalBrowserUrl() {
+  const url = new URL(location.href);
+  url.searchParams.set("openExternalBrowser", "1");
+  return url.toString();
+}
+
+// Returns true when a redirect was started. Tries once; if LINE ignores it, showLineBrowserNotice() takes over.
+function redirectOutOfLineBrowser() {
+  if (!isLineInAppBrowser()) return false;
+  if (new URLSearchParams(location.search).get("openExternalBrowser") === "1") return false;
+  location.replace(externalBrowserUrl());
+  return true;
+}
+
+function showLineBrowserNotice() {
+  if (!isLineInAppBrowser() || document.getElementById("line-browser-notice")) return;
+  const bar = document.createElement("div");
+  bar.id = "line-browser-notice";
+  bar.className = "fixed top-0 inset-x-0 z-[60] bg-amber-900 text-amber-50 text-xs px-3 py-2 flex items-center gap-2 no-print";
+  bar.innerHTML = `
+    <span class="flex-1">LINE内のブラウザで開いています。保存データは通常のブラウザと共有されません。</span>
+    <a href="${esc(externalBrowserUrl())}" class="px-2 py-1 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded whitespace-nowrap">ブラウザで開く</a>
+    <button onclick="this.parentElement.remove()" class="px-1 text-amber-200" aria-label="閉じる">✕</button>`;
+  document.body.appendChild(bar);
+}
 
 // Launch-time profile check: confirm the profile stored on this device, or offer to create one.
 // Not dismissible by Escape/backdrop, so the user always makes an explicit choice.
