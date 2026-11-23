@@ -129,7 +129,6 @@ function hasProfile() {
 
 // Initialize Application
 document.addEventListener("DOMContentLoaded", () => {
-  if (redirectOutOfLineBrowser()) return;
   loadState();
   setupNavigation();
   setupEventListeners();
@@ -139,34 +138,60 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // LINE's in-app browser has its own localStorage (separate from the phone's default browser), so saved data would be
-// split between the two. LINE opens a link in the default browser when it carries ?openExternalBrowser=1.
+// split between the two. A page cannot make LINE switch browsers by itself (?openExternalBrowser=1 is only honoured
+// when the link is tapped inside a LINE message), so:
+//  - Android: hand the URL to the OS with an intent:// link (opens the default browser)
+//  - iOS: no web API exists; show how to open it from LINE's menu and offer a copy-URL button
 function isLineInAppBrowser() {
   return /\bLine\//i.test(navigator.userAgent || "");
 }
 
-function externalBrowserUrl() {
+function plainPageUrl() {
   const url = new URL(location.href);
-  url.searchParams.set("openExternalBrowser", "1");
+  url.searchParams.delete("openExternalBrowser");
   return url.toString();
 }
 
-// Returns true when a redirect was started. Tries once; if LINE ignores it, showLineBrowserNotice() takes over.
-function redirectOutOfLineBrowser() {
-  if (!isLineInAppBrowser()) return false;
-  if (new URLSearchParams(location.search).get("openExternalBrowser") === "1") return false;
-  location.replace(externalBrowserUrl());
-  return true;
+// intent:// URL without a package name => Android resolves it to the user's default browser
+function androidIntentUrl() {
+  const u = new URL(plainPageUrl());
+  return `intent://${u.host}${u.pathname}${u.search}#Intent;scheme=${u.protocol.replace(":", "")};action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;end`;
+}
+
+function openInDefaultBrowser() {
+  if (/Android/i.test(navigator.userAgent)) location.href = androidIntentUrl();
+}
+
+function copyPageUrl() {
+  const url = plainPageUrl();
+  const done = () => showToast("URLをコピーしました。SafariやChromeに貼り付けて開いてください");
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(done, () => window.prompt("このURLをコピーして、ブラウザで開いてください", url));
+  } else {
+    window.prompt("このURLをコピーして、ブラウザで開いてください", url);
+  }
 }
 
 function showLineBrowserNotice() {
   if (!isLineInAppBrowser() || document.getElementById("line-browser-notice")) return;
+  const isAndroid = /Android/i.test(navigator.userAgent);
   const bar = document.createElement("div");
   bar.id = "line-browser-notice";
-  bar.className = "fixed top-0 inset-x-0 z-[60] bg-amber-900 text-amber-50 text-xs px-3 py-2 flex items-center gap-2 no-print";
+  bar.className = "fixed top-0 inset-x-0 z-[60] bg-amber-900 text-amber-50 text-xs px-3 py-2 no-print shadow-lg";
   bar.innerHTML = `
-    <span class="flex-1">LINE内のブラウザで開いています。保存データは通常のブラウザと共有されません。</span>
-    <a href="${esc(externalBrowserUrl())}" class="px-2 py-1 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded whitespace-nowrap">ブラウザで開く</a>
-    <button onclick="this.parentElement.remove()" class="px-1 text-amber-200" aria-label="閉じる">✕</button>`;
+    <div class="flex items-start gap-2">
+      <div class="flex-1 space-y-1">
+        <p class="font-bold">LINE内のブラウザで開いています</p>
+        <p>ここに保存したデータは、スマホの通常のブラウザと共有されません。${isAndroid
+          ? "下のボタンで標準ブラウザに切り替えてください。"
+          : "画面右下の「…」または共有ボタン →「Safariで開く」（「デフォルトのブラウザで開く」）を選ぶか、URLをコピーして開いてください。"}</p>
+      </div>
+      <button onclick="document.getElementById('line-browser-notice').remove()" class="px-1 text-amber-200" aria-label="閉じる">✕</button>
+    </div>
+    <div class="flex gap-2 mt-1.5">
+      ${isAndroid ? `<button onclick="openInDefaultBrowser()" class="px-3 py-1 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded">標準ブラウザで開く</button>` : ""}
+      <button onclick="copyPageUrl()" class="px-3 py-1 bg-amber-800 hover:bg-amber-700 text-amber-50 font-bold rounded border border-amber-600">URLをコピー</button>
+    </div>`;
   document.body.appendChild(bar);
 }
 

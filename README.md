@@ -82,7 +82,7 @@
 - **端末間の移行（PC → スマホ等）**: プロフィールのみならファイル保存、全データ（選択校・メモ含む）ならサイドバーの「保存」(JSON)→別端末で「復元」。ファイルはクラウド(OneDrive等のプライベート領域)やAirDrop、メール等で渡し、**GitHubには上げない**でください。
 - **起動時の確認**: 起動時にプロフィールの有無を確認します。「作成せずに大学を探す」「プロフィールを適用せずに検索」を選ぶと、保存済みプロフィールを消さずに検索・比較だけ使えます（このモード中はプロフィールの保存・書き出しは行われません）。
 - `private/` フォルダ、`US_Soccer_Recruiting_Backup_*.json`、`US_Soccer_Profile_*.json` は `.gitignore` で除外済みです（`private/my-recruiting-data.json` は初期の選択校のコピー。インポートで復元できます）。
-- **LINEで共有するとき**: LINE内蔵ブラウザは通常のブラウザと保存領域が別なので、データが分かれてしまいます。共有するURLの末尾に `?openExternalBrowser=1` を付けると、スマホの標準ブラウザで開きます（例: `https://mayuminakano.github.io/Recruting_Soccer/?openExternalBrowser=1`）。付け忘れても、LINE内で開いた場合はアプリが自動で付け直します。それでも開けないときは、画面上部の「ブラウザで開く」ボタンを押してください。
+- **LINEから開くとき**: LINE内蔵ブラウザは通常のブラウザと保存領域が別なので、データが分かれてしまいます。ページ側から自動で切り替えることはできないため、LINE内で開くと画面上部に案内を出します。Androidは「標準ブラウザで開く」ボタンで切り替えられます。iPhoneは、LINE画面右下の「…」/共有ボタンから「Safariで開く」を選ぶか、「URLをコピー」でSafariに貼り付けてください。LINEのメッセージにURLを送るときは、末尾に `?openExternalBrowser=1` を付けると、そのリンクをタップした時点でデフォルトブラウザで開きます（例: `https://mayuminakano.github.io/Recruting_Soccer/?openExternalBrowser=1`）。
 - 注意: `localStorage` はブラウザ・端末ごとに別です。ブラウザのサイトデータを消すと失われるため、**定期的にJSONバックアップ**を取ってください。
 
 ---
