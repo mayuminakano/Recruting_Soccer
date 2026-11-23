@@ -29,6 +29,7 @@ let state = {
     division: "ALL",
     region: "ALL",
     strength: "ALL",
+    finRisk: "ALL",
     gender: "ALL",
     search: ""
   },
@@ -534,6 +535,14 @@ function setupEventListeners() {
   if (strengthFilter) {
     strengthFilter.addEventListener("change", (e) => {
       state.filters.strength = e.target.value;
+      renderExplorer();
+    });
+  }
+
+  const finRiskFilter = document.getElementById("filter-finrisk");
+  if (finRiskFilter) {
+    finRiskFilter.addEventListener("change", (e) => {
+      state.filters.finRisk = e.target.value;
       renderExplorer();
     });
   }
@@ -1162,6 +1171,27 @@ function printResumeSheet() {
   window.print();
 }
 
+// Financial risk (1 = no flag, 2 = caution, 3 = high caution). Derived from public IPEDS finance data (private non-profits only);
+// it is a screening aid, not a forecast of closure. Colleges without data (public, community colleges) have no rating.
+const FIN_RISK_LABEL = { 1: "財務:指標上は問題なし", 2: "⚠ 財務リスク:注意", 3: "⚠ 財務リスク:要注意" };
+
+function financialRiskBadge(col) {
+  const lv = col.financialRisk;
+  if (lv !== 2 && lv !== 3) return "";
+  const cls = lv === 3 ? "bg-red-950 text-red-300 border-red-500" : "bg-amber-950 text-amber-300 border-amber-600";
+  return `<span class="px-2 py-0.5 text-xs font-bold rounded border ${cls}" title="${esc(col.financialNote || "")}">${FIN_RISK_LABEL[lv]}</span>`;
+}
+
+function financialRiskDetail(col) {
+  const lv = col.financialRisk;
+  if (lv !== 2 && lv !== 3) return "";
+  const cls = lv === 3 ? "bg-red-950/40 border-red-500/60 text-red-200" : "bg-amber-950/30 border-amber-600/50 text-amber-200";
+  return `<div class="my-2.5 px-3 py-1.5 ${cls} border rounded-xl text-[11px] leading-relaxed">
+    <span class="font-bold">${FIN_RISK_LABEL[lv]}</span>
+    <span class="block opacity-90">${esc(col.financialNote || "")}</span>
+  </div>`;
+}
+
 // ==========================================
 // 3. UNIVERSITY EXPLORER & DATABASE
 // ==========================================
@@ -1170,7 +1200,7 @@ function renderExplorer() {
   if (!container) return;
 
   renderCompareBar();
-  const { division, region, strength, gender, search } = state.filters;
+  const { division, region, strength, finRisk, gender, search } = state.filters;
 
   const filtered = state.colleges.filter(col => {
     if (division !== "ALL" && col.division !== division) return false;
@@ -1185,6 +1215,12 @@ function renderExplorer() {
       } else if (col.strengthLevel < Number(strength)) {
         return false;
       }
+    }
+    if (finRisk !== "ALL") {
+      const lv = Number.isFinite(col.financialRisk) ? col.financialRisk : null;
+      if (finRisk === "NONE") { if (lv !== null) return false; }
+      else if (finRisk === "HIDE") { if (lv !== null && lv >= 2) return false; }
+      else if (lv === null || lv < Number(finRisk)) return false;
     }
     if (gender !== "ALL" && col.gender !== gender) return false;
     if (search) {
@@ -1279,6 +1315,7 @@ function renderExplorer() {
               ${pipeStatusBadge}
             </div>
             <div class="flex items-center gap-1.5">
+              ${financialRiskBadge(col)}
               <span class="text-xs text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-700">${esc(col.gender)}</span>
               <span class="text-xs text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-700">${esc(col.region)} (${esc(col.state)})</span>
             </div>
@@ -1329,6 +1366,7 @@ function renderExplorer() {
             </div>` : ""}
           </div>
 
+          ${financialRiskDetail(col)}
           <!-- Japanese Players & Alumni Strip -->
           <div class="my-2.5 px-3 py-1.5 ${hasJapanesePlayers(col) ? 'bg-red-950/40 border-red-500/50' : 'bg-amber-950/30 border-amber-600/30'} border rounded-xl flex items-center justify-between text-xs">
             <span class="${hasJapanesePlayers(col) ? 'text-red-400' : 'text-amber-400'} font-bold flex items-center gap-1.5">
@@ -1461,6 +1499,7 @@ function openCompareModal() {
   // Each row: label, display text per college, optional numeric value per college and which direction is "better"
   const rows = [
     { label: "ディビジョン", text: c => c.division },
+    { label: "財務リスク", text: c => (c.financialRisk === 3 ? "⚠ 要注意" : c.financialRisk === 2 ? "⚠ 注意" : c.financialRisk === 1 ? "指標上は問題なし" : "未評価") },
     { label: "カンファレンス", text: c => c.conference || "Independent" },
     { label: "所在地", text: c => `${c.location} (${c.region})` },
     { label: "ヘッドコーチ", text: c => c.headCoach || "-" },

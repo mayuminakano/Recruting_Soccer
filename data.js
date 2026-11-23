@@ -77,7 +77,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 5,
     "strengthNote": "平均29位 (2026年 29位 / 2025年 48位 / 2024年 9位)",
-    "siteUrl": "https://godeacs.com/sports/mens-soccer"
+    "siteUrl": "https://godeacs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofvirginia-mens",
@@ -150,7 +152,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "bnewby@stanford.edu",
     "strengthLevel": 5,
     "strengthNote": "平均16位 (2026年 20位 / 2025年 17位 / 2024年 11位)",
-    "siteUrl": "https://gostanford.com/sports/mens-soccer"
+    "siteUrl": "https://gostanford.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "syracuseuniversity-mens",
@@ -188,7 +192,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 4,
     "strengthNote": "平均44位 (2026年 34位 / 2025年 36位 / 2024年 61位)",
-    "siteUrl": "https://cuse.com/sports/mens-soccer"
+    "siteUrl": "https://cuse.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "southernmethodistuni-mens",
@@ -225,7 +231,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 5,
     "strengthNote": "平均8位 (2026年 3位 / 2025年 7位 / 2024年 15位)",
-    "siteUrl": "https://smumustangs.com/sports/mens-soccer"
+    "siteUrl": "https://smumustangs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uncchapelhill-mens",
@@ -296,7 +304,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Notre+Dame+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Notre+Dame+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均41位 (2026年 37位 / 2025年 39位 / 2024年 48位)"
+    "strengthNote": "平均41位 (2026年 37位 / 2025年 39位 / 2024年 48位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofpittsbur-mens",
@@ -372,7 +382,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 4,
     "strengthNote": "平均30位 (2026年 60位 / 2025年 21位 / 2024年 10位)",
-    "siteUrl": "https://goduke.com/sports/mens-soccer"
+    "siteUrl": "https://goduke.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "ucberkeleycal-mens",
@@ -546,7 +558,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 4,
     "strengthNote": "平均67位 (2026年 56位 / 2025年 86位 / 2024年 60位)",
-    "siteUrl": "https://bceagles.com/sports/mens-soccer"
+    "siteUrl": "https://bceagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "indianauniversityblo-mens",
@@ -941,7 +955,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 5,
     "strengthNote": "平均5位 (2026年 1位 / 2025年 11位 / 2024年 3位)",
-    "siteUrl": "https://thehoya.com/sports/mens-soccer"
+    "siteUrl": "https://thehoya.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofakron-mens",
@@ -1017,7 +1033,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 4,
     "strengthNote": "平均40位 (2026年 14位 / 2025年 50位 / 2024年 55位)",
-    "siteUrl": "https://gocreighton.com/sports/mens-soccer"
+    "siteUrl": "https://gocreighton.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "providencecollege-mens",
@@ -1052,7 +1070,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Providence+College+Soccer+ID+Camp",
     "strengthLevel": 4,
     "strengthNote": "平均54位 (2026年 70位 / 2025年 74位 / 2024年 18位)",
-    "siteUrl": "https://friars.com/sports/mens-soccer"
+    "siteUrl": "https://friars.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stjohnsuniversity-mens",
@@ -1085,7 +1105,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=St.+John's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+John's+University+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均65位 (2026年 77位 / 2025年 45位 / 2024年 73位)"
+    "strengthNote": "平均65位 (2026年 77位 / 2025年 45位 / 2024年 73位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uconnuniversityofcon-mens",
@@ -1153,7 +1175,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Butler+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均138位 (2026年 109位 / 2025年 159位 / 2024年 147位)",
-    "siteUrl": "https://butlersports.com/sports/mens-soccer"
+    "siteUrl": "https://butlersports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "xavieruniversity-mens",
@@ -1187,7 +1211,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Xavier+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均83位 (2026年 32位 / 2025年 116位 / 2024年 101位)",
-    "siteUrl": "https://goxavier.com/sports/mens-soccer"
+    "siteUrl": "https://goxavier.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "setonhalluniversity-mens",
@@ -1224,7 +1250,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jeffrey.matteo@shu.edu",
     "strengthLevel": 4,
     "strengthNote": "平均58位 (2026年 58位 / 2025年 26位 / 2024年 89位)",
-    "siteUrl": "https://shupirates.com/sports/mens-soccer"
+    "siteUrl": "https://shupirates.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "marquetteuniversity-mens",
@@ -1258,7 +1286,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Marquette+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均102位 (2026年 47位 / 2025年 131位 / 2024年 128位)",
-    "siteUrl": "https://gomarquette.com/sports/mens-soccer"
+    "siteUrl": "https://gomarquette.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "villanovauniversity-mens",
@@ -1295,7 +1325,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "abalog@villanova.edu",
     "strengthLevel": 2,
     "strengthNote": "平均126位 (2026年 119位 / 2025年 89位 / 2024年 171位)",
-    "siteUrl": "https://villanovan.com/3020/sports/mens-soccer-adds-transfers-and-freshmen-to-roster"
+    "siteUrl": "https://villanovan.com/3020/sports/mens-soccer-adds-transfers-and-freshmen-to-roster",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "depauluniversity-mens",
@@ -1331,7 +1363,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Scott Bratt",
     "assistantCoachEmail": "sbratt@depaul.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均126位 (2026年 95位 / 2025年 182位 / 2024年 100位)"
+    "strengthNote": "平均126位 (2026年 95位 / 2025年 182位 / 2024年 100位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "marshalluniversity-mens",
@@ -1790,7 +1824,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+Tulsa+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均94位 (2026年 40位 / 2025年 111位 / 2024年 130位)",
-    "siteUrl": "https://tulsahurricane.com/sports/mens-soccer"
+    "siteUrl": "https://tulsahurricane.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "usfunivofsouthflorid-mens",
@@ -1925,7 +1961,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Temple+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均161位 (2026年 190位 / 2025年 181位 / 2024年 111位)",
-    "siteUrl": "https://owlsports.com/sports/mens-soccer"
+    "siteUrl": "https://owlsports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uabunivofalabamabirm-mens",
@@ -1993,7 +2031,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Princeton+University+Soccer+ID+Camp",
     "strengthLevel": 5,
     "strengthNote": "平均18位 (2026年 36位 / 2025年 2位 / 2024年 17位)",
-    "siteUrl": "https://goprincetontigers.com/sports/mens-soccer"
+    "siteUrl": "https://goprincetontigers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "pennuniversityofpenn-mens",
@@ -2028,7 +2068,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Penn+(University+of+Pennsylvania)+Soccer+ID+Camp",
     "coachVerified": true,
     "strengthLevel": 4,
-    "strengthNote": "平均42位 (2026年 43位 / 2025年 75位 / 2024年 7位)"
+    "strengthNote": "平均42位 (2026年 43位 / 2025年 75位 / 2024年 7位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "cornelluniversity-mens",
@@ -2062,7 +2104,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Cornell+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Cornell+University+Soccer+ID+Camp",
     "strengthLevel": 5,
-    "strengthNote": "平均22位 (2026年 12位 / 2025年 28位 / 2024年 25位)"
+    "strengthNote": "平均22位 (2026年 12位 / 2025年 28位 / 2024年 25位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "harvarduniversity-mens",
@@ -2097,7 +2141,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Harvard+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均109位 (2026年 107位 / 2025年 65位 / 2024年 155位)",
-    "siteUrl": "https://news.harvard.edu/gazette/story/2002/09/mens-soccer-dominates-hartford"
+    "siteUrl": "https://news.harvard.edu/gazette/story/2002/09/mens-soccer-dominates-hartford",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "yaleuniversity-mens",
@@ -2131,7 +2177,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Yale+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Yale+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均136位 (2026年 105位 / 2025年 138位 / 2024年 165位)"
+    "strengthNote": "平均136位 (2026年 105位 / 2025年 138位 / 2024年 165位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "dartmouthcollege-mens",
@@ -2165,7 +2213,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Dartmouth+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Dartmouth+College+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均117位 (2026年 85位 / 2025年 130位 / 2024年 136位)"
+    "strengthNote": "平均117位 (2026年 85位 / 2025年 130位 / 2024年 136位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "brownuniversity-mens",
@@ -2199,7 +2249,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Brown+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Brown+University+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均81位 (2026年 89位 / 2025年 73位 / 2024年 80位)"
+    "strengthNote": "平均81位 (2026年 89位 / 2025年 73位 / 2024年 80位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "columbiauniversity-mens",
@@ -2234,7 +2286,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Columbia+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均147位 (2026年 117位 / 2025年 120位 / 2024年 204位)",
-    "siteUrl": "https://www.columbiaspectator.com/sports/mens-soccer"
+    "siteUrl": "https://www.columbiaspectator.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "ucsantabarbaraucsb-mens",
@@ -2637,7 +2691,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Portland+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Portland+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均39位 (2026年 26位 / 2025年 10位 / 2024年 81位)"
+    "strengthNote": "平均39位 (2026年 26位 / 2025年 10位 / 2024年 81位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofsandiego-mens",
@@ -2674,7 +2730,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 5,
     "strengthNote": "平均20位 (2026年 31位 / 2025年 9位 / 2024年 20位)",
-    "siteUrl": "https://usdtoreros.com/sports/mens-soccer"
+    "siteUrl": "https://usdtoreros.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "oregonstateuniversit-mens",
@@ -2744,7 +2802,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 2,
     "strengthNote": "平均131位 (2026年 142位 / 2025年 94位 / 2024年 156位)",
-    "siteUrl": "https://santaclarabroncos.com/sports/mens-soccer"
+    "siteUrl": "https://santaclarabroncos.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintmaryscollegeca-mens",
@@ -2781,7 +2841,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 1,
     "strengthNote": "平均159位 (2026年 180位 / 2025年 139位 / 2024年 159位)",
-    "siteUrl": "https://smcgaels.com/sports/mens-soccer"
+    "siteUrl": "https://smcgaels.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "sanfranciscousf-mens",
@@ -2818,7 +2880,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 4,
     "strengthNote": "平均70位 (2026年 98位 / 2025年 42位 / 2024年 70位)",
-    "siteUrl": "https://usfdons.com/sports/mens-soccer"
+    "siteUrl": "https://usfdons.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "gonzagauniversity-mens",
@@ -2855,7 +2919,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "michaelsonc@gonzaga.edu",
     "strengthLevel": 2,
     "strengthNote": "平均139位 (2026年 127位 / 2025年 126位 / 2024年 163位)",
-    "siteUrl": "https://gozags.com/sports/mens-soccer"
+    "siteUrl": "https://gozags.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofthepacif-mens",
@@ -2892,7 +2958,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 1,
     "strengthNote": "平均163位 (2026年 187位 / 2025年 177位 / 2024年 125位)",
-    "siteUrl": "https://pacifictigers.com/sports/mens-soccer"
+    "siteUrl": "https://pacifictigers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintlouisuniversity-mens",
@@ -2930,7 +2998,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 4,
     "strengthNote": "平均31位 (2026年 44位 / 2025年 12位 / 2024年 37位)",
-    "siteUrl": "https://slubillikens.com/sports/mens-soccer"
+    "siteUrl": "https://slubillikens.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofdayton-mens",
@@ -2963,7 +3033,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Dayton+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Dayton+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均56位 (2026年 79位 / 2025年 82位 / 2024年 6位)"
+    "strengthNote": "平均56位 (2026年 79位 / 2025年 82位 / 2024年 6位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "vcu-mens",
@@ -3035,7 +3107,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "pbannister@fordham.edu",
     "coachVerified": true,
     "strengthLevel": 3,
-    "strengthNote": "平均72位 (2026年 101位 / 2025年 87位 / 2024年 29位)"
+    "strengthNote": "平均72位 (2026年 101位 / 2025年 87位 / 2024年 29位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "umassamherst-mens",
@@ -3103,7 +3177,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Davidson+College+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均74位 (2026年 93位 / 2025年 52位 / 2024年 78位)",
-    "siteUrl": "https://davidsonwildcats.com/sports/mens-soccer"
+    "siteUrl": "https://davidsonwildcats.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "duquesneuniversity-mens",
@@ -3137,7 +3213,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Duquesne+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均84位 (2026年 76位 / 2025年 122位 / 2024年 53位)",
-    "siteUrl": "https://goduquesne.com/sports/mens-soccer"
+    "siteUrl": "https://goduquesne.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "georgemasonuniversit-mens",
@@ -3207,7 +3285,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Nick Conklu",
     "assistantCoachEmail": "nicholas.conklu@gwu.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均185位 (2026年 166位 / 2025年 205位 / 2024年 183位)"
+    "strengthNote": "平均185位 (2026年 166位 / 2025年 205位 / 2024年 183位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lasalleuniversity-mens",
@@ -3244,7 +3324,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "elgayar@lasalle.edu",
     "strengthLevel": 2,
     "strengthNote": "平均134位 (2026年 100位 / 2025年 164位 / 2024年 139位)",
-    "siteUrl": "https://goexplorers.com/sports/mens-soccer"
+    "siteUrl": "https://goexplorers.com/sports/mens-soccer",
+    "financialRisk": 3,
+    "financialNote": "運営収支がやや赤字(収入が支出の91%)、純資産が支出の0.9年分と薄い、純資産が3年で27%減、負債が総資産の62% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "rhodeislanduri-mens",
@@ -3311,7 +3393,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Saint+Joseph's+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均159位 (2026年 149位 / 2025年 142位 / 2024年 187位)",
-    "siteUrl": "https://sjuhawks.com/sports/mens-soccer"
+    "siteUrl": "https://sjuhawks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stbonaventureunivers-mens",
@@ -3345,7 +3429,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=St.+Bonaventure+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均159位 (2026年 150位 / 2025年 192位 / 2024年 135位)",
-    "siteUrl": "https://gobonnies.com/sports/mens-soccer"
+    "siteUrl": "https://gobonnies.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "hofstrauniversity-mens",
@@ -3379,7 +3465,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Hofstra+University+Soccer+ID+Camp",
     "strengthLevel": 5,
     "strengthNote": "平均20位 (2026年 42位 / 2025年 13位 / 2024年 5位)",
-    "siteUrl": "https://gohofstra.com/sports/mens-soccer"
+    "siteUrl": "https://gohofstra.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uncwilmingtonuncw-mens",
@@ -3447,7 +3535,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Elon+University+Soccer+ID+Camp",
     "strengthLevel": 4,
     "strengthNote": "平均58位 (2026年 61位 / 2025年 64位 / 2024年 50位)",
-    "siteUrl": "https://elonphoenix.com/sports/mens-soccer"
+    "siteUrl": "https://elonphoenix.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "drexeluniversity-mens",
@@ -3483,7 +3573,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ptah Myers",
     "assistantCoachEmail": "pm958@drexel.edu",
     "strengthLevel": 3,
-    "strengthNote": "平均102位 (2026年 104位 / 2025年 119位 / 2024年 84位)"
+    "strengthNote": "平均102位 (2026年 104位 / 2025年 119位 / 2024年 84位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "campbelluniversity-mens",
@@ -3518,7 +3610,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 2,
     "strengthNote": "平均127位 (2026年 165位 / 2025年 113位 / 2024年 104位)",
-    "siteUrl": "https://gocamels.com/sports/mens-soccer"
+    "siteUrl": "https://gocamels.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofdelaware-mens",
@@ -3551,7 +3645,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Delaware+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Delaware+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均79位 (2026年 90位 / 2025年 43位 / 2024年 105位)"
+    "strengthNote": "平均79位 (2026年 90位 / 2025年 43位 / 2024年 105位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "william&mary-mens",
@@ -3652,7 +3748,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Monmouth+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均111位 (2026年 164位 / 2025年 125位 / 2024年 43位)",
-    "siteUrl": "https://monmouthhawks.com/sports/mens-soccer"
+    "siteUrl": "https://monmouthhawks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stonybrookuniversity-mens",
@@ -3719,7 +3817,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Northeastern+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均143位 (2026年 139位 / 2025年 141位 / 2024年 148位)",
-    "siteUrl": "https://nuhuskies.com/sports/mens-soccer"
+    "siteUrl": "https://nuhuskies.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "newhampshireunh-mens",
@@ -3851,7 +3951,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Bryant+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bryant+University+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均32位 (2026年 23位 / 2025年 6位 / 2024年 68位)"
+    "strengthNote": "平均32位 (2026年 23位 / 2025年 6位 / 2024年 68位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "njit-mens",
@@ -4170,7 +4272,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Drake+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均84位 (2026年 136位 / 2025年 72位 / 2024年 45位)",
-    "siteUrl": "https://godrakebulldogs.com/sports/mens-soccer"
+    "siteUrl": "https://godrakebulldogs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofevansvil-mens",
@@ -4207,7 +4311,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mm1059@evansville.edu",
     "strengthLevel": 3,
     "strengthNote": "平均83位 (2026年 110位 / 2025年 90位 / 2024年 49位)",
-    "siteUrl": "https://gopurpleaces.com/sports/mens-soccer"
+    "siteUrl": "https://gopurpleaces.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "belmontuniversity-mens",
@@ -4243,7 +4349,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Cam Olson",
     "assistantCoachEmail": "cam.olson@belmont.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均141位 (2026年 163位 / 2025年 93位 / 2024年 167位)"
+    "strengthNote": "平均141位 (2026年 163位 / 2025年 93位 / 2024年 167位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "bradleyuniversity-mens",
@@ -4277,7 +4385,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Bradley+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均173位 (2026年 196位 / 2025年 185位 / 2024年 137位)",
-    "siteUrl": "https://bradleybraves.com/sports/mens-soccer"
+    "siteUrl": "https://bradleybraves.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "northernillinoisniu-mens",
@@ -4344,7 +4454,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Seattle+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均99位 (2026年 144位 / 2025年 102位 / 2024年 52位)",
-    "siteUrl": "https://goseattleu.com/sports/mens-soccer"
+    "siteUrl": "https://goseattleu.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "grandcanyongcu-mens",
@@ -4415,7 +4527,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "strengthLevel": 3,
     "strengthNote": "平均76位 (2026年 46位 / 2025年 54位 / 2024年 129位)",
-    "siteUrl": "https://cbulancers.com/sports/mens-soccer"
+    "siteUrl": "https://cbulancers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "sanjosestatesjsu-mens",
@@ -4623,7 +4737,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Marquis Muse",
     "assistantCoachEmail": "muse@uiwtx.edu",
     "strengthLevel": 1,
-    "strengthNote": "平均172位 (2026年 174位 / 2025年 173位 / 2024年 168位)"
+    "strengthNote": "平均172位 (2026年 174位 / 2025年 173位 / 2024年 168位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "houstonchristian-mens",
@@ -4656,7 +4772,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Houston+Christian+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Houston+Christian+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均143位 (2026年 169位 / 2025年 109位 / 2024年 150位)"
+    "strengthNote": "平均143位 (2026年 169位 / 2025年 109位 / 2024年 150位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "universityofdenver-mens",
@@ -4690,7 +4808,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Denver+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Denver+Soccer+ID+Camp",
     "strengthLevel": 4,
-    "strengthNote": "平均36位 (2026年 86位 / 2025年 20位 / 2024年 2位)"
+    "strengthNote": "平均36位 (2026年 86位 / 2025年 20位 / 2024年 2位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "oralrobertsoru-mens",
@@ -4723,7 +4843,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Oral+Roberts+(ORU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oral+Roberts+(ORU)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均117位 (2026年 158位 / 2025年 133位 / 2024年 59位)"
+    "strengthNote": "平均117位 (2026年 158位 / 2025年 133位 / 2024年 59位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "omahanebraskaomaha-mens",
@@ -4822,7 +4944,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=St.+Thomas+(Minnesota)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Thomas+(Minnesota)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均144位 (2026年 167位 / 2025年 121位 / 2024年 144位)"
+    "strengthNote": "平均144位 (2026年 167位 / 2025年 121位 / 2024年 144位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "westernillinoiswiu-mens",
@@ -4888,7 +5012,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Boston+University+(BU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Boston+University+(BU)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均114位 (2026年 102位 / 2025年 67位 / 2024年 172位)"
+    "strengthNote": "平均114位 (2026年 102位 / 2025年 67位 / 2024年 172位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "loyolauniversitymary-mens",
@@ -4922,7 +5048,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Loyola+University+Maryland+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均165位 (2026年 183位 / 2025年 157位 / 2024年 154位)",
-    "siteUrl": "https://loyolagreyhounds.com/sports/mens-soccer"
+    "siteUrl": "https://loyolagreyhounds.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "colgateuniversity-mens",
@@ -4958,7 +5086,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ricky Brown",
     "assistantCoachEmail": "colgatemenssoccer@colgate.edu",
     "strengthLevel": 2,
-    "strengthNote": "平均138位 (2026年 161位 / 2025年 134位 / 2024年 119位)"
+    "strengthNote": "平均138位 (2026年 161位 / 2025年 134位 / 2024年 119位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "americanuniversity-mens",
@@ -4994,7 +5124,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Patrick Mehlert",
     "assistantCoachEmail": "mehlertp@american.edu",
     "strengthLevel": 3,
-    "strengthNote": "平均103位 (2026年 120位 / 2025年 69位 / 2024年 121位)"
+    "strengthNote": "平均103位 (2026年 120位 / 2025年 69位 / 2024年 121位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lafayettecollege-mens",
@@ -5028,7 +5160,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lafayette+College+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均151位 (2026年 192位 / 2025年 107位 / 2024年 153位)",
-    "siteUrl": "https://goleopards.com/sports/mens-soccer"
+    "siteUrl": "https://goleopards.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lehighuniversity-mens",
@@ -5065,7 +5199,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "reh311@lehigh.edu",
     "strengthLevel": 2,
     "strengthNote": "平均125位 (2026年 136位 / 2025年 62位 / 2024年 176位)",
-    "siteUrl": "https://lehighsports.com/sports/mens-soccer"
+    "siteUrl": "https://lehighsports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "collegeoftheholycros-mens",
@@ -5099,7 +5235,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=College+of+the+Holy+Cross+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均182位 (2026年 191位 / 2025年 175位 / 2024年 181位)",
-    "siteUrl": "https://goholycross.com/sports/mens-soccer"
+    "siteUrl": "https://goholycross.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "bucknelluniversity-mens",
@@ -5133,7 +5271,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Bucknell+University+Soccer+ID+Camp",
     "strengthLevel": 3,
     "strengthNote": "平均93位 (2026年 108位 / 2025年 60位 / 2024年 112位)",
-    "siteUrl": "https://bucknellbison.com/sports/mens-soccer"
+    "siteUrl": "https://bucknellbison.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "armywestpoint-mens",
@@ -5341,7 +5481,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Detroit+Mercy+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均180位 (2026年 186位 / 2025年 183位 / 2024年 170位)",
-    "siteUrl": "https://detroittitans.com/sports/mens-soccer"
+    "siteUrl": "https://detroittitans.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uw-greenbay-mens",
@@ -5508,7 +5650,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Robert+Morris+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均132位 (2026年 147位 / 2025年 154位 / 2024年 96位)",
-    "siteUrl": "https://rmucolonials.com/sports/mens-soccer"
+    "siteUrl": "https://rmucolonials.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uncgreensborouncg-mens",
@@ -5575,7 +5719,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Furman+University+Soccer+ID+Camp",
     "strengthLevel": 4,
     "strengthNote": "平均48位 (2026年 67位 / 2025年 14位 / 2024年 63位)",
-    "siteUrl": "https://furmanpaladins.com/sports/mens-soccer"
+    "siteUrl": "https://furmanpaladins.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "merceruniversity-mens",
@@ -5608,7 +5754,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Mercer+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mercer+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均159位 (2026年 200位 / 2025年 169位 / 2024年 109位)"
+    "strengthNote": "平均159位 (2026年 200位 / 2025年 169位 / 2024年 109位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "easttennesseestateet-mens",
@@ -5679,7 +5827,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "thomallacf@wofford.edu",
     "strengthLevel": 2,
     "strengthNote": "平均120位 (2026年 92位 / 2025年 161位 / 2024年 107位)",
-    "siteUrl": "https://woffordterriers.com/sports/mens-soccer"
+    "siteUrl": "https://woffordterriers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "vmi-mens",
@@ -5752,7 +5902,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jmlucumivillegas@lipscomb.edu",
     "strengthLevel": 1,
     "strengthNote": "平均183位 (2026年 189位 / 2025年 174位 / 2024年 186位)",
-    "siteUrl": "https://lipscombsports.com/sports/mens-soccer"
+    "siteUrl": "https://lipscombsports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stetsonuniversity-mens",
@@ -5789,7 +5941,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "efjimenez@stetson.edu",
     "strengthLevel": 2,
     "strengthNote": "平均145位 (2026年 148位 / 2025年 123位 / 2024年 164位)",
-    "siteUrl": "https://gohatters.com/sports/mens-soccer"
+    "siteUrl": "https://gohatters.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "fgcufloridagulfcoast-mens",
@@ -5857,7 +6011,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Bellarmine+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均151位 (2026年 152位 / 2025年 114位 / 2024年 188位)",
-    "siteUrl": "https://athletics.bellarmine.edu/sports/mens-soccer"
+    "siteUrl": "https://athletics.bellarmine.edu/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支がやや赤字(収入が支出の90%)、純資産が3年で16%減、授業料収入への依存73% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "centralarkansasuca-mens",
@@ -5923,7 +6079,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Jacksonville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Jacksonville+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均155位 (2026年 159位 / 2025年 127位 / 2024年 178位)"
+    "strengthNote": "平均155位 (2026年 159位 / 2025年 127位 / 2024年 178位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "northfloridaunf-mens",
@@ -5990,7 +6148,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Queens+University+of+Charlotte+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均171位 (2026年 160位 / 2025年 163位 / 2024年 189位)",
-    "siteUrl": "https://queensathletics.com/sports/mens-soccer"
+    "siteUrl": "https://queensathletics.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の85%)、純資産が3年で12%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "ionauniversity-mens",
@@ -6023,7 +6183,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Iona+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Iona+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均123位 (2026年 168位 / 2025年 117位 / 2024年 85位)"
+    "strengthNote": "平均123位 (2026年 168位 / 2025年 117位 / 2024年 85位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "quinnipiacuniversity-mens",
@@ -6056,7 +6218,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Quinnipiac+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Quinnipiac+University+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均153位 (2026年 116位 / 2025年 149位 / 2024年 193位)"
+    "strengthNote": "平均153位 (2026年 116位 / 2025年 149位 / 2024年 193位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "rideruniversity-mens",
@@ -6093,7 +6257,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "rfuller@rider.edu",
     "strengthLevel": 2,
     "strengthNote": "平均129位 (2026年 103位 / 2025年 197位 / 2024年 87位)",
-    "siteUrl": "https://gobroncs.com/sports/mens-soccer"
+    "siteUrl": "https://gobroncs.com/sports/mens-soccer",
+    "financialRisk": 3,
+    "financialNote": "運営収支が赤字(収入が支出の82%)、純資産が支出の0.6年分しかない、純資産が3年で40%減、負債が総資産の65% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "maristcollege-mens",
@@ -6126,7 +6292,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Marist+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Marist+College+Soccer+ID+Camp",
     "strengthLevel": 3,
-    "strengthNote": "平均110位 (2026年 91位 / 2025年 76位 / 2024年 162位)"
+    "strengthNote": "平均110位 (2026年 91位 / 2025年 76位 / 2024年 162位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "sienacollege-mens",
@@ -6159,7 +6327,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Siena+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Siena+College+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均114位 (2026年 145位 / 2025年 58位 / 2024年 140位)"
+    "strengthNote": "平均114位 (2026年 145位 / 2025年 58位 / 2024年 140位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "fairfielduniversity-mens",
@@ -6192,7 +6362,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Fairfield+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fairfield+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均117位 (2026年 75位 / 2025年 81位 / 2024年 194位)"
+    "strengthNote": "平均117位 (2026年 75位 / 2025年 81位 / 2024年 194位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "manhattanuniversity-mens",
@@ -6226,7 +6398,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Manhattan+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均175位 (2026年 193位 / 2025年 172位 / 2024年 160位)",
-    "siteUrl": "https://gojaspers.com/sports/mens-soccer"
+    "siteUrl": "https://gojaspers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "mountstmarys-mens",
@@ -6259,7 +6433,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Mount+St.+Mary's+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mount+St.+Mary's+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均196位 (2026年 198位 / 2025年 191位 / 2024年 198位)"
+    "strengthNote": "平均196位 (2026年 198位 / 2025年 191位 / 2024年 198位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "niagarauniversity-mens",
@@ -6296,7 +6472,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "dhesch@niagara.edu",
     "strengthLevel": 1,
     "strengthNote": "平均171位 (2026年 156位 / 2025年 150位 / 2024年 208位)",
-    "siteUrl": "https://purpleeagles.com/sports/mens-soccer"
+    "siteUrl": "https://purpleeagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "canisiusuniversity-mens",
@@ -6330,7 +6508,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Canisius+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均201位 (2026年 208位 / 2025年 196位 / 2024年 199位)",
-    "siteUrl": "https://gogriffs.com/sports/mens-soccer"
+    "siteUrl": "https://gogriffs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintpetersuniversit-mens",
@@ -6367,7 +6547,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "tcoulson17@saintpeters.edu",
     "strengthLevel": 1,
     "strengthNote": "平均185位 (2026年 154位 / 2025年 193位 / 2024年 209位)",
-    "siteUrl": "https://saintpeterspeacocks.com/sports/mens-soccer"
+    "siteUrl": "https://saintpeterspeacocks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintfrancisuniversi-mens",
@@ -6404,7 +6586,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "coechslin@francis.edu",
     "strengthLevel": 2,
     "strengthNote": "平均142位 (2025年 160位 / 2024年 123位)",
-    "siteUrl": "https://sfuathletics.com/sports/mens-soccer"
+    "siteUrl": "https://sfuathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "liulongislandunivers-mens",
@@ -6437,7 +6621,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=LIU+(Long+Island+University)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=LIU+(Long+Island+University)+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均125位 (2026年 135位 / 2025年 129位 / 2024年 110位)"
+    "strengthNote": "平均125位 (2026年 135位 / 2025年 129位 / 2024年 110位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "fairleighdickinsonfd-mens",
@@ -6510,7 +6696,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "msoccer@sacredheart.edu",
     "strengthLevel": 3,
     "strengthNote": "平均100位 (2026年 62位 / 2025年 47位 / 2024年 191位)",
-    "siteUrl": "https://sacredheartpioneers.com/sports/mens-soccer"
+    "siteUrl": "https://sacredheartpioneers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "centralconnecticutst-mens",
@@ -6581,7 +6769,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "murphca@lemoyne.edu",
     "strengthLevel": 1,
     "strengthNote": "平均177位 (2026年 185位 / 2025年 184位 / 2024年 161位)",
-    "siteUrl": "https://lemoynedolphins.com/sports/mens-soccer"
+    "siteUrl": "https://lemoynedolphins.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stonehillcollege-mens",
@@ -6615,7 +6805,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Stonehill+College+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均196位 (2026年 199位 / 2025年 200位 / 2024年 190位)",
-    "siteUrl": "https://stonehillskyhawks.com/sports/mens-soccer"
+    "siteUrl": "https://stonehillskyhawks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "howarduniversity-mens",
@@ -6652,7 +6844,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jason.gross@howard.edu",
     "strengthLevel": 1,
     "strengthNote": "平均207位 (2026年 210位 / 2025年 208位 / 2024年 202位)",
-    "siteUrl": "https://hubison.com/sports/mens-soccer"
+    "siteUrl": "https://hubison.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "mercyhurstuniversity-mens",
@@ -6686,7 +6880,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Mercyhurst+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均167位 (2026年 176位 / 2025年 209位 / 2024年 116位)",
-    "siteUrl": "https://hurstathletics.com/sports/mens-soccer"
+    "siteUrl": "https://hurstathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "chicagostateuniversi-mens",
@@ -6787,7 +6983,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Liberty+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Liberty+University+Soccer+ID+Camp",
     "strengthLevel": 2,
-    "strengthNote": "平均137位 (2026年 94位 / 2025年 144位 / 2024年 174位)"
+    "strengthNote": "平均137位 (2026年 94位 / 2025年 144位 / 2024年 174位)",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lindenwooduniversity-mens",
@@ -6821,7 +7019,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lindenwood+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均132位 (2026年 171位 / 2025年 91位 / 2024年 134位)",
-    "siteUrl": "https://lindenwoodlions.com/sports/mens-soccer"
+    "siteUrl": "https://lindenwoodlions.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の79%)、純資産が3年で13%減、授業料収入への依存74% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "easternillinoisunive-mens",
@@ -6922,7 +7122,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=High+Point+University+Soccer+ID+Camp",
     "strengthLevel": 4,
     "strengthNote": "平均41位 (2026年 69位 / 2025年 15位 / 2024年 40位)",
-    "siteUrl": "https://highpointpanthers.com/sports/mens-soccer"
+    "siteUrl": "https://highpointpanthers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "winthropuniversity-mens",
@@ -6993,7 +7195,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "msoccer@gardner-webb.edu",
     "strengthLevel": 4,
     "strengthNote": "平均55位 (2026年 78位 / 2025年 37位 / 2024年 51位)",
-    "siteUrl": "https://gwusports.com/sports/mens-soccer"
+    "siteUrl": "https://gwusports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "longwooduniversity-mens",
@@ -7066,7 +7270,9 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "pjones@presby.edu",
     "strengthLevel": 1,
     "strengthNote": "平均181位 (2026年 213位 / 2025年 145位 / 2024年 185位)",
-    "siteUrl": "https://gobluehose.com/sports/mens-soccer"
+    "siteUrl": "https://gobluehose.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uncasheville-mens",
@@ -7239,7 +7445,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Scotty Murray",
     "assistantCoachEmail": "murrays@franklinpierce.edu",
     "coachVerified": true,
-    "siteUrl": "https://fpuravens.com/sports/mens-soccer"
+    "siteUrl": "https://fpuravens.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "charleston-mens",
@@ -7272,7 +7480,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Corbin Bowers",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://ucgoldeneagles.com/sports/mens-soccer"
+    "siteUrl": "https://ucgoldeneagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "calpolypomona-mens",
@@ -7337,7 +7547,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://lynnsoccercamps.com/",
     "assistantCoach": "Anthony Desperito",
     "assistantCoachEmail": "adesperito@lynn.edu",
-    "coachVerified": true
+    "coachVerified": true,
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "tampa-mens",
@@ -7369,7 +7581,9 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://tampaspartansoccercamps.com/",
     "assistantCoach": "Malcolm Stewart",
     "assistantCoachEmail": "mstewart@ut.edu",
-    "siteUrl": "https://tampaspartans.com/sports/mens-soccer"
+    "siteUrl": "https://tampaspartans.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "wingate-mens",
@@ -7402,7 +7616,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Joey Calandra",
     "assistantCoachEmail": "jcalandra@wingate.edu",
     "coachVerified": true,
-    "siteUrl": "https://wingatebulldogs.com/sports/mens-soccer"
+    "siteUrl": "https://wingatebulldogs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "tufts-mens",
@@ -7431,7 +7647,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全31名 / 留学生3名 / MF 10名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Tufts+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Tufts+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Tufts+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "chicago-mens",
@@ -7460,7 +7678,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全27名 / 留学生4名 / MF 6名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Chicago+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp",
-    "siteUrl": "https://athletics.uchicago.edu/sports/mens-soccer"
+    "siteUrl": "https://athletics.uchicago.edu/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "messiah-mens",
@@ -7489,7 +7709,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Messiah+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Messiah+University+Soccer+ID+Camp",
-    "siteUrl": "https://gomessiah.com/sports/mens-soccer"
+    "siteUrl": "https://gomessiah.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "williams-mens",
@@ -7517,7 +7739,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全28名 / 留学生0名 / MF 10名 (Sr・Gr 5名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Williams+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Williams+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Williams+College+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "grandview-mens",
@@ -7552,7 +7776,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jonathan Rivera",
     "assistantCoachEmail": "jrivera@grandview.edu",
     "coachVerified": true,
-    "siteUrl": "https://gvvikings.com/sports/mens-soccer"
+    "siteUrl": "https://gvvikings.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "keiser-mens",
@@ -7586,7 +7812,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Sam McNutt",
     "assistantCoachEmail": "smcnutt@keiseruniversity.edu",
     "coachVerified": true,
-    "siteUrl": "https://kuseahawks.com/sports/mens-soccer"
+    "siteUrl": "https://kuseahawks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lindseywilson-mens",
@@ -7619,7 +7847,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Jack Cousin",
     "assistantCoachEmail": "cousinj@lindsey.edu",
-    "siteUrl": "https://lindseyathletics.com/sports/mens-soccer"
+    "siteUrl": "https://lindseyathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "midamerica-mens",
@@ -7652,7 +7882,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Atanas Karagyaurov",
     "assistantCoachEmail": "apkaragyaurov@mnu.edu",
     "coachVerified": true,
-    "siteUrl": "https://mnusports.com/sports/mens-soccer"
+    "siteUrl": "https://mnusports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "oklahomawesleyan-mens",
@@ -7682,7 +7914,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Oklahoma+Wesleyan+University+Soccer+ID+Camp",
-    "siteUrl": "https://okwueagles.com/sports/mens-soccer"
+    "siteUrl": "https://okwueagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "riogrande-mens",
@@ -7711,7 +7945,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+Rio+Grande+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "iowawestern-mens",
@@ -7944,7 +8180,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://gobarrybucs.com/sports/mens-soccer/recruiting",
     "campUrl": "https://barrysoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://gobarrybucs.com/sports/mens-soccer"
+    "siteUrl": "https://gobarrybucs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "midwesternstate-mens",
@@ -8041,7 +8279,9 @@ const INITIAL_COLLEGES = [
       "Top 15"
     ],
     "questionnaireUrl": "https://golimestonesaints.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://limestonesoccercamps.com/"
+    "campUrl": "https://limestonesoccercamps.com/",
+    "financialRisk": 3,
+    "financialNote": "運営収支が赤字(収入が支出の89%)、純資産が支出の0.7年分しかない、純資産が3年で42%減、負債が総資産の56% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "gannon-mens",
@@ -8074,7 +8314,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://gannonsports.com/sports/mens-soccer/recruiting",
     "campUrl": "https://gannonsoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://gannonsports.com/sports/mens-soccer"
+    "siteUrl": "https://gannonsports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "simonfraser-mens",
@@ -8139,7 +8381,9 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://lrbears.com/sports/mens-soccer/recruiting",
     "campUrl": "https://lrbearssoccercamps.com/",
-    "siteUrl": "https://lrbears.com/sports/mens-soccer"
+    "siteUrl": "https://lrbears.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "rollins-mens",
@@ -8172,7 +8416,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://rollinssports.com/sports/mens-soccer/recruiting",
     "campUrl": "https://rollinssoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://rollinssports.com/sports/mens-soccer"
+    "siteUrl": "https://rollinssports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "fortlewis-mens",
@@ -8337,7 +8583,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://pbasailfish.com/sports/mens-soccer/recruiting",
     "campUrl": "https://pbasocceracademy.com/",
     "coachVerified": true,
-    "siteUrl": "https://pbasailfish.com/sports/mens-soccer"
+    "siteUrl": "https://pbasailfish.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "floridatech-mens",
@@ -8370,7 +8618,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://floridatechsports.com/sports/mens-soccer/recruiting",
     "campUrl": "https://floridatechsoccercamp.com/",
     "coachVerified": true,
-    "siteUrl": "https://floridatechsports.com/sports/mens-soccer"
+    "siteUrl": "https://floridatechsports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "pointloma-mens",
@@ -8403,7 +8653,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://plnusealions.com/sports/mens-soccer/recruiting",
     "campUrl": "https://pointlomasoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://plnusealions.com/sports/mens-soccer"
+    "siteUrl": "https://plnusealions.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saginawvalley-mens",
@@ -8469,7 +8721,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://athletics.uindy.edu/sports/mens-soccer/recruiting",
     "campUrl": "https://uindysoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://athletics.uindy.edu/sports/mens-soccer"
+    "siteUrl": "https://athletics.uindy.edu/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lander-mens",
@@ -8535,7 +8789,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://yhcathletics.com/sports/mens-soccer/recruiting",
     "campUrl": "https://yhcsoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://yhcathletics.com/sports/mens-soccer"
+    "siteUrl": "https://yhcathletics.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の79%)、純資産が3年で11%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "snhu-mens",
@@ -8568,7 +8824,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://snhupenmen.com/sports/mens-soccer/recruiting",
     "campUrl": "https://snhusoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://snhupenmen.com/sports/mens-soccer"
+    "siteUrl": "https://snhupenmen.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "maryville-mens",
@@ -8601,7 +8859,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://maryvillesaints.com/sports/mens-soccer/recruiting",
     "campUrl": "https://maryvillesoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://maryvillesaints.com/sports/mens-soccer"
+    "siteUrl": "https://maryvillesaints.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "tiffin-mens",
@@ -8633,7 +8893,9 @@ const INITIAL_COLLEGES = [
     ],
     "questionnaireUrl": "https://gotiffindragons.com/sports/mens-soccer/recruiting",
     "campUrl": "https://tiffinsoccercamps.com/",
-    "siteUrl": "https://gotiffindragons.com/sports/mens-soccer"
+    "siteUrl": "https://gotiffindragons.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "seattlepacific-mens",
@@ -8666,7 +8928,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://spufalcons.com/sports/mens-soccer/recruiting",
     "campUrl": "https://spusoccercamps.com/",
     "coachVerified": true,
-    "siteUrl": "https://spufalcons.com/sports/mens-soccer"
+    "siteUrl": "https://spufalcons.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の86%)、純資産が3年で10%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "southeastern-mens",
@@ -8696,7 +8960,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southeastern+University+Soccer+ID+Camp",
-    "siteUrl": "https://fire.seu.edu/sports/mens-soccer"
+    "siteUrl": "https://fire.seu.edu/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "warner-mens",
@@ -8726,7 +8992,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Warner+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Warner+University+Soccer+ID+Camp",
-    "siteUrl": "https://warnerroyals.com/sports/mens-soccer"
+    "siteUrl": "https://warnerroyals.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "avemaria-mens",
@@ -8755,7 +9023,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全33名 / 留学生8名 / MF 14名 (Sr・Gr 0名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Ave+Maria+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Ave+Maria+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Ave+Maria+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "floridamemorial-mens",
@@ -8785,7 +9055,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Memorial+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Memorial+University+Soccer+ID+Camp",
-    "siteUrl": "https://athletics.fmu.edu/sports/mens-soccer"
+    "siteUrl": "https://athletics.fmu.edu/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "georgiagwinnett-mens",
@@ -8846,7 +9118,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Thomas+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Thomas+University+Soccer+ID+Camp",
-    "siteUrl": "https://tunighthawks.com/sports/mens-soccer"
+    "siteUrl": "https://tunighthawks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "pointuniversity-mens",
@@ -8875,7 +9149,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Point+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Point+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Point+University+Soccer+ID+Camp",
+    "financialRisk": 2,
+    "financialNote": "純資産が支出の0.7年分しかない、純資産が3年で15%減、負債が総資産の62% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "cumberlands-mens",
@@ -8906,7 +9182,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Soccer+ID+Camp",
-    "siteUrl": "https://cumberlandspatriots.com/sports/mens-soccer"
+    "siteUrl": "https://cumberlandspatriots.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "cumberlanduniversity-mens",
@@ -8937,7 +9215,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Cumberland+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Cumberland+University+Soccer+ID+Camp",
-    "siteUrl": "https://gocumberlandathletics.com/sports/mens-soccer"
+    "siteUrl": "https://gocumberlandathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "campbellsville-mens",
@@ -8967,7 +9247,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全28名 / 留学生28名 / MF 12名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Campbellsville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Campbellsville+University+Soccer+ID+Camp",
-    "siteUrl": "https://campbellsvilletigers.com/sports/mens-soccer"
+    "siteUrl": "https://campbellsvilletigers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "georgetowncollege-mens",
@@ -8997,7 +9279,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Georgetown+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgetown+College+Soccer+ID+Camp",
-    "siteUrl": "https://www.georgetowncollegeathletics.com/sports/msoc/index"
+    "siteUrl": "https://www.georgetowncollegeathletics.com/sports/msoc/index",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "faulkner-mens",
@@ -9031,7 +9315,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Fahel Matos",
     "assistantCoachEmail": "fmatos@faulkner.edu",
-    "siteUrl": "https://faulknereagles.com/sports/mens-soccer"
+    "siteUrl": "https://faulknereagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "williamcarey-mens",
@@ -9063,7 +9349,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=William+Carey+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=William+Carey+University+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://careyathletics.com/sports/mens-soccer"
+    "siteUrl": "https://careyathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "tennesseewesleyan-mens",
@@ -9093,7 +9381,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Soccer+ID+Camp",
-    "siteUrl": "https://www.twbulldogs.com/sports/msoc/index"
+    "siteUrl": "https://www.twbulldogs.com/sports/msoc/index",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "reinhardt-mens",
@@ -9122,7 +9412,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Reinhardt+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Reinhardt+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Reinhardt+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "texaswesleyan-mens",
@@ -9152,7 +9444,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Soccer+ID+Camp",
-    "siteUrl": "https://ramsports.net/sports/mens-soccer"
+    "siteUrl": "https://ramsports.net/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "oklahomacity-mens",
@@ -9186,7 +9480,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Gui Grave",
     "assistantCoachEmail": "gfgrave@okcu.edu",
-    "siteUrl": "https://www.ocusports.com/sports/mens-soccer"
+    "siteUrl": "https://www.ocusports.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "bellevue-mens",
@@ -9215,7 +9511,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Bellevue+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Bellevue+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Bellevue+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "benedictine-mens",
@@ -9245,7 +9543,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Benedictine+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Benedictine+College+Soccer+ID+Camp",
-    "siteUrl": "https://ravenathletics.com/sports/mens-soccer"
+    "siteUrl": "https://ravenathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "baker-mens",
@@ -9276,7 +9576,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Baker+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Baker+University+Soccer+ID+Camp",
-    "siteUrl": "https://www.bakerwildcats.com/sports/msoc/index"
+    "siteUrl": "https://www.bakerwildcats.com/sports/msoc/index",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "avila-mens",
@@ -9306,7 +9608,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Avila+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Avila+University+Soccer+ID+Camp",
-    "siteUrl": "https://www.avila.edu/calendar_event/mens-soccer-avila-at-bethany-ks"
+    "siteUrl": "https://www.avila.edu/calendar_event/mens-soccer-avila-at-bethany-ks",
+    "financialRisk": 2,
+    "financialNote": "運営収支がやや赤字(収入が支出の94%)、純資産が支出の0.9年分と薄い、純資産が3年で19%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "columbiacollegemo-mens",
@@ -9335,7 +9639,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Columbia+College+(Missouri)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Columbia+College+(Missouri)+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Columbia+College+(Missouri)+Soccer+ID+Camp",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の82%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "indianawesleyan-mens",
@@ -9366,7 +9672,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全29名 / 留学生12名 / MF 10名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Soccer+ID+Camp",
-    "siteUrl": "https://iwuwildcats.com/sports/mens-soccer"
+    "siteUrl": "https://iwuwildcats.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "pikeville-mens",
@@ -9395,7 +9703,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全41名 / 留学生28名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Pikeville+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=University+of+Pikeville+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=University+of+Pikeville+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "shawneestate-mens",
@@ -9454,7 +9764,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Westmont+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Westmont+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Westmont+College+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "vanguard-mens",
@@ -9485,7 +9797,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Vanguard+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Vanguard+University+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://vanguardlions.com/sports/mens-soccer"
+    "siteUrl": "https://vanguardlions.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "corban-mens",
@@ -9516,7 +9830,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Corban+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Corban+University+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://corbanwarriors.com/sports/mens-soccer"
+    "siteUrl": "https://corbanwarriors.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintleo-mens",
@@ -9549,7 +9865,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Graham Brown",
     "assistantCoachEmail": "graham.brown@saintleo.edu",
-    "siteUrl": "https://saintleolions.com/sports/mens-soccer"
+    "siteUrl": "https://saintleolions.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "純資産が支出の1.2年分と薄い、純資産が3年で14%減、授業料収入への依存74% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "novasoutheastern-mens",
@@ -9579,7 +9897,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全22名 / 留学生12名 / MF 11名 (Sr・Gr 7名)",
     "questionnaireUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Soccer+ID+Camp",
-    "siteUrl": "https://nsusharks.com/sports/mens-soccer"
+    "siteUrl": "https://nsusharks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "floridasouthern-mens",
@@ -9609,7 +9929,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 11名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Florida+Southern+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Florida+Southern+College+Soccer+ID+Camp",
-    "siteUrl": "https://fscmocs.com/sports/mens-soccer"
+    "siteUrl": "https://fscmocs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "eckerd-mens",
@@ -9638,7 +9960,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全40名 / 留学生15名 / MF 14名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Eckerd+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Eckerd+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Eckerd+College+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "flagler-mens",
@@ -9668,7 +9992,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全31名 / 留学生15名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Flagler+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Flagler+College+Soccer+ID+Camp",
-    "siteUrl": "https://flaglerathletics.com/sports/mens-soccer"
+    "siteUrl": "https://flaglerathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "westflorida-mens",
@@ -9727,7 +10053,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Lee+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Lee+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Lee+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "unionuniversity-mens",
@@ -9757,7 +10085,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Union+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Union+University+Soccer+ID+Camp",
-    "siteUrl": "https://uuathletics.com/sports/mens-soccer"
+    "siteUrl": "https://uuathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "valdostastate-mens",
@@ -9971,7 +10301,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Soccer+ID+Camp",
-    "siteUrl": "https://abbeyathletics.com/sports/mens-soccer"
+    "siteUrl": "https://abbeyathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "mountolive-mens",
@@ -10001,7 +10333,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全41名 / 留学生8名 / MF 15名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Soccer+ID+Camp",
-    "siteUrl": "https://umotrojans.com/sports/mens-soccer"
+    "siteUrl": "https://umotrojans.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "catawba-mens",
@@ -10031,7 +10365,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Catawba+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Catawba+College+Soccer+ID+Camp",
-    "siteUrl": "https://catawbaathletics.com/sports/mens-soccer"
+    "siteUrl": "https://catawbaathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "carsonnewman-mens",
@@ -10061,7 +10397,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Carson-Newman+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Carson-Newman+University+Soccer+ID+Camp",
-    "siteUrl": "https://www.cn.edu/event/mens-soccer-at-anderson-s-c"
+    "siteUrl": "https://www.cn.edu/event/mens-soccer-at-anderson-s-c",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "marshill-mens",
@@ -10091,7 +10429,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Mars+Hill+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Mars+Hill+University+Soccer+ID+Camp",
-    "siteUrl": "https://www.mhu.edu/event/mens-soccer-alumni-weekend"
+    "siteUrl": "https://www.mhu.edu/event/mens-soccer-alumni-weekend",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "newberry-mens",
@@ -10121,7 +10461,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全39名 / 留学生13名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Newberry+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Newberry+College+Soccer+ID+Camp",
-    "siteUrl": "https://newberrywolves.com/sports/mens-soccer"
+    "siteUrl": "https://newberrywolves.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "tusculum-mens",
@@ -10150,7 +10492,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Tusculum+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Tusculum+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Tusculum+University+Soccer+ID+Camp",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の89%)、純資産が3年で10%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lincolnmemorial-mens",
@@ -10183,7 +10527,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "August Harp",
     "assistantCoachEmail": "august.harp@lmunet.edu",
-    "siteUrl": "https://lmurailsplitters.com/sports/mens-soccer"
+    "siteUrl": "https://lmurailsplitters.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lewisuniversity-mens",
@@ -10213,7 +10559,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全44名 / 留学生11名 / MF 17名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lewis+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lewis+University+Soccer+ID+Camp",
-    "siteUrl": "https://lewisflyers.com/sports/mens-soccer"
+    "siteUrl": "https://lewisflyers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "drury-mens",
@@ -10243,7 +10591,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全48名 / 留学生17名 / MF 17名 (Sr・Gr 1名) / 出身地不明1名 / 掲載情報欠落2名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=Drury+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Drury+University+Soccer+ID+Camp",
-    "siteUrl": "https://drurypanthers.com/sports/mens-soccer"
+    "siteUrl": "https://drurypanthers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "rockhurst-mens",
@@ -10273,7 +10623,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全33名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Rockhurst+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Rockhurst+University+Soccer+ID+Camp",
-    "siteUrl": "https://rockhursthawks.com/sports/mens-soccer"
+    "siteUrl": "https://rockhursthawks.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "quincy-mens",
@@ -10303,7 +10655,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Quincy+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Quincy+University+Soccer+ID+Camp",
-    "siteUrl": "https://quhawks.com/sports/mens-soccer"
+    "siteUrl": "https://quhawks.com/sports/mens-soccer",
+    "financialRisk": 3,
+    "financialNote": "運営収支がやや赤字(収入が支出の92%)、純資産が支出の0.5年分しかない、純資産が3年で24%減、負債が総資産の73% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "trumanstate-mens",
@@ -10393,7 +10747,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全35名 / 留学生20名 / MF 10名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Soccer+ID+Camp",
-    "siteUrl": "https://kwcpanthers.com/sports/mens-soccer"
+    "siteUrl": "https://kwcpanthers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uwparkside-mens",
@@ -10481,7 +10837,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Walsh+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Walsh+University+Soccer+ID+Camp",
-    "siteUrl": "https://athletics.walsh.edu/sports/mens-soccer"
+    "siteUrl": "https://athletics.walsh.edu/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "findlay-mens",
@@ -10511,7 +10869,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全45名 / 留学生9名 / MF 14名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+Findlay+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+Findlay+Soccer+ID+Camp",
-    "siteUrl": "https://findlayoilers.com/sports/mens-soccer"
+    "siteUrl": "https://findlayoilers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "malone-mens",
@@ -10541,7 +10901,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全41名 / 留学生6名 / MF 14名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=Malone+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Malone+University+Soccer+ID+Camp",
-    "siteUrl": "https://malonepioneers.com/sports/mens-soccer"
+    "siteUrl": "https://malonepioneers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "waynestate-mens",
@@ -10600,7 +10962,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Northwood+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Northwood+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Northwood+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "adelphi-mens",
@@ -10630,7 +10994,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全31名 / 留学生18名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Adelphi+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Adelphi+University+Soccer+ID+Camp",
-    "siteUrl": "https://aupanthers.com/sports/mens-soccer"
+    "siteUrl": "https://aupanthers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "bentley-mens",
@@ -10660,7 +11026,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全33名 / 留学生5名 / MF 13名 (Sr・Gr 8名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Bentley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Bentley+University+Soccer+ID+Camp",
-    "siteUrl": "https://bentleyvanguard.com/sports/mens-soccer"
+    "siteUrl": "https://bentleyvanguard.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintanselm-mens",
@@ -10689,7 +11057,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Anselm+College+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Saint+Anselm+College+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Saint+Anselm+College+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "southernct-mens",
@@ -10749,7 +11119,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全43名 / 留学生14名 / MF 13名 (Sr・Gr 3名) / 出身地不明2名 / 掲載情報欠落4名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+New+Haven+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+New+Haven+Soccer+ID+Camp",
-    "siteUrl": "https://newhavenchargers.com/sports/mens-soccer"
+    "siteUrl": "https://newhavenchargers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "assumption-mens",
@@ -10778,7 +11150,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全44名 / 留学生7名 / MF 13名 (Sr・Gr 2名) / 掲載情報欠落2名(MFは最小値)",
     "questionnaireUrl": "https://www.google.com/search?q=Assumption+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Assumption+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Assumption+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "pace-mens",
@@ -10809,7 +11183,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Pace+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Pace+University+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://paceuathletics.com/sports/mens-soccer"
+    "siteUrl": "https://paceuathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "saintmichaels-mens",
@@ -10839,7 +11215,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全35名 / 留学生1名 / MF 14名 (Sr・Gr 6名)",
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Michael's+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Michael's+College+Soccer+ID+Camp",
-    "siteUrl": "https://smcathletics.com/sports/mens-soccer"
+    "siteUrl": "https://smcathletics.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の89%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "nyit-mens",
@@ -10868,7 +11246,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=New+York+Institute+of+Technology+(NYIT)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=New+York+Institute+of+Technology+(NYIT)+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=New+York+Institute+of+Technology+(NYIT)+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "molloy-mens",
@@ -10898,7 +11278,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Molloy+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Molloy+University+Soccer+ID+Camp",
-    "siteUrl": "https://molloylions.com/sports/mens-soccer"
+    "siteUrl": "https://molloylions.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "westchester-mens",
@@ -11049,7 +11431,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Seton+Hill+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Seton+Hill+University+Soccer+ID+Camp",
-    "siteUrl": "https://athletics.setonhill.edu/sports/mens-soccer"
+    "siteUrl": "https://athletics.setonhill.edu/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "wvwesleyan-mens",
@@ -11079,7 +11463,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=West+Virginia+Wesleyan+College+Soccer+ID+Camp",
-    "siteUrl": "https://wesleyanbobcats.com/sports/mens-soccer"
+    "siteUrl": "https://wesleyanbobcats.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "wheeling-mens",
@@ -11108,7 +11494,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Wheeling+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Wheeling+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Wheeling+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "concordwv-mens",
@@ -11197,7 +11585,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Soccer+ID+Camp",
-    "siteUrl": "https://hpusharks.com/sports/mens-soccer"
+    "siteUrl": "https://hpusharks.com/sports/mens-soccer",
+    "financialRisk": 3,
+    "financialNote": "純資産が支出の0.7年分しかない、純資産が3年で19%減、授業料収入への依存74%、負債が総資産の72% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "chaminade-mens",
@@ -11226,7 +11616,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Chaminade+University+of+Honolulu+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Chaminade+University+of+Honolulu+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Chaminade+University+of+Honolulu+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "fresnopacific-mens",
@@ -11256,7 +11648,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全38名 / 留学生3名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Soccer+ID+Camp",
-    "siteUrl": "https://www.fpusunbirds.com/sports/mens-soccer"
+    "siteUrl": "https://www.fpusunbirds.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "dominicanca-mens",
@@ -11289,7 +11683,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Ricardo Martin",
     "assistantCoachEmail": "ricardo.martin@dominican.edu",
-    "siteUrl": "https://dominicanathletics.com/sports/mens-soccer"
+    "siteUrl": "https://dominicanathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "csudh-mens",
@@ -11479,7 +11875,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Saint+Martin's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Saint+Martin's+University+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://smusaints.com/sports/mens-soccer"
+    "siteUrl": "https://smusaints.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "coloradomesa-mens",
@@ -11542,7 +11940,9 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Steven Cahill",
     "assistantCoachEmail": "msoccer@regis.edu",
-    "siteUrl": "https://regisrangers.com/sports/mens-soccer"
+    "siteUrl": "https://regisrangers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "metrostatedenver-mens",
@@ -11600,7 +12000,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全32名 / 留学生5名 / MF 13名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=Colorado+Christian+University+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=Colorado+Christian+University+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stedwards-mens",
@@ -11630,7 +12032,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全38名 / 留学生7名 / MF 10名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Edward's+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=St.+Edward's+University+Soccer+ID+Camp",
-    "siteUrl": "https://gohilltoppers.com/sports/mens-soccer"
+    "siteUrl": "https://gohilltoppers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "stmarystx-mens",
@@ -11659,7 +12063,9 @@ const INITIAL_COLLEGES = [
     "japanesePlayers": "未確認 (要問合せ)",
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=St.+Mary's+University+(Texas)+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=St.+Mary's+University+(Texas)+Soccer+ID+Camp"
+    "campUrl": "https://www.google.com/search?q=St.+Mary's+University+(Texas)+Soccer+ID+Camp",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "uttyler-mens",
@@ -11748,7 +12154,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全35名 / 留学生17名 / MF 12名 (Sr・Gr 1名)",
     "questionnaireUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Soccer+ID+Camp",
-    "siteUrl": "https://lcuchaps.com/sports/mens-soccer"
+    "siteUrl": "https://lcuchaps.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "daytonastate-mens",
@@ -12456,7 +12864,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Raymundo Gonzalez",
     "assistantCoachEmail": "raymundo.gonzalez@betheluniversity.edu",
     "coachVerified": true,
-    "siteUrl": "https://bupilots.com/sports/mens-soccer"
+    "siteUrl": "https://bupilots.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "bethelten-mens",
@@ -12489,7 +12899,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Avery Flener",
     "assistantCoachEmail": "flenera@bethelu.edu",
     "coachVerified": true,
-    "siteUrl": "https://bethelathletics.com/sports/mens-soccer"
+    "siteUrl": "https://bethelathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "carrollmt-mens",
@@ -12522,7 +12934,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Wayne Gardella",
     "assistantCoachEmail": "wgardella@carroll.edu",
     "coachVerified": true,
-    "siteUrl": "https://carrollathletics.com/sports/mens-soccer"
+    "siteUrl": "https://carrollathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "concordianeb-mens",
@@ -12553,7 +12967,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Concordia+University+(Nebraska)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Concordia+University+(Nebraska)+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://www.cune.edu/athletics/teams/soccer"
+    "siteUrl": "https://www.cune.edu/athletics/teams/soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "daltonstate-mens",
@@ -12652,7 +13068,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Austin Altimus",
     "assistantCoachEmail": "altimua@grace.edu",
     "coachVerified": true,
-    "siteUrl": "https://gclancers.com/sports/mens-soccer"
+    "siteUrl": "https://gclancers.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "harrisstowe-mens",
@@ -12718,7 +13136,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Ethan Vigario",
     "assistantCoachEmail": "ElVigario@indianatech.net",
     "coachVerified": true,
-    "siteUrl": "https://indianatechwarriors.com/sports/mens-soccer"
+    "siteUrl": "https://indianatechwarriors.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "johnbrown-mens",
@@ -12749,7 +13169,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=John+Brown+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=John+Brown+University+Soccer+ID+Camp",
     "coachVerified": true,
-    "siteUrl": "https://jbuathletics.com/sports/mens-soccer"
+    "siteUrl": "https://jbuathletics.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lasierra-mens",
@@ -12782,7 +13204,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Francisco Pons",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://lsugoldeneagles.com/sports/mens-soccer"
+    "siteUrl": "https://lsugoldeneagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "life-mens",
@@ -12815,7 +13239,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Juan Cruz",
     "assistantCoachEmail": "Juancruz.parisisitja@student.life.edu",
     "coachVerified": true,
-    "siteUrl": "https://liferunningeagles.com/sports/mens-soccer"
+    "siteUrl": "https://liferunningeagles.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "lsualexandria-mens",
@@ -12911,7 +13337,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Dan Diac",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://madonnacrusaders.com/sports/mens-soccer"
+    "siteUrl": "https://madonnacrusaders.com/sports/mens-soccer",
+    "financialRisk": 2,
+    "financialNote": "運営収支が赤字(収入が支出の90%)、純資産が3年で15%減、授業料収入への依存72% / IPEDS 2020-21～2022-23"
   },
   {
     "id": "milligan-mens",
@@ -12944,7 +13372,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Tim Kolb",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://milliganbuffs.com/sports/mens-soccer"
+    "siteUrl": "https://milliganbuffs.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "olivetnazarene-mens",
@@ -12974,7 +13404,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全27名 / 留学生22名 / MF 8名 (Sr・Gr 7名)",
     "questionnaireUrl": "https://www.google.com/search?q=Olivet+Nazarene+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Olivet+Nazarene+University+Soccer+ID+Camp",
-    "siteUrl": "https://onutigers.com/sports/msoc/2026-27"
+    "siteUrl": "https://onutigers.com/sports/msoc/2026-27",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "ottawa-mens",
@@ -13007,7 +13439,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Cain Scott",
     "assistantCoachEmail": "cain.scott@ottawa.edu",
     "coachVerified": true,
-    "siteUrl": "https://ottawabraves.com/sports/mens-soccer"
+    "siteUrl": "https://ottawabraves.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "rockymountain-mens",
@@ -13040,7 +13474,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Jared Dickerson",
     "assistantCoachEmail": "jared.dickerson@rocky.edu",
     "coachVerified": true,
-    "siteUrl": "https://gobattlinbears.com/sports/mens-soccer"
+    "siteUrl": "https://gobattlinbears.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "unioncommonwealth-mens",
@@ -13103,7 +13539,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Cameron Marvin",
     "assistantCoachEmail": "cmarvin@warnerpacific.edu",
     "coachVerified": true,
-    "siteUrl": "https://wpuknights.com/sports/mens-soccer"
+    "siteUrl": "https://wpuknights.com/sports/mens-soccer",
+    "financialRisk": 3,
+    "financialNote": "運営収支が赤字(収入が支出の83%)、純資産が支出の0.7年分しかない、純資産が3年で27%減 / IPEDS 2020-21～2022-23"
   },
   {
     "id": "westcliff-mens",
@@ -13166,7 +13604,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全42名 / 留学生20名 / MF 14名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Wiley+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Wiley+University+Soccer+ID+Camp",
-    "siteUrl": "https://wileyathletics.com/sports/msoc/2026-27"
+    "siteUrl": "https://wileyathletics.com/sports/msoc/2026-27",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "williampenn-mens",
@@ -13196,7 +13636,9 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全36名 / 留学生34名 / MF 13名 (Sr・Gr 4名)",
     "questionnaireUrl": "https://www.google.com/search?q=William+Penn+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=William+Penn+University+Soccer+ID+Camp",
-    "siteUrl": "https://statesmenathletics.com/sports/msoc/2026-27"
+    "siteUrl": "https://statesmenathletics.com/sports/msoc/2026-27",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   },
   {
     "id": "wvutech-mens",
@@ -13262,7 +13704,9 @@ const INITIAL_COLLEGES = [
     "assistantCoach": "Will Rodrigues",
     "assistantCoachEmail": "",
     "coachVerified": true,
-    "siteUrl": "https://xulagold.com/sports/mens-soccer"
+    "siteUrl": "https://xulagold.com/sports/mens-soccer",
+    "financialRisk": 1,
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
   }
 ];
 
@@ -13307,6 +13751,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofvirginia-mens": {
@@ -13347,6 +13799,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "southernmethodistuni-mens": {
@@ -13381,6 +13841,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uncchapelhill-mens": {
@@ -13433,6 +13901,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofpittsbur-mens": {
@@ -13493,6 +13969,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "2名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "ucberkeleycal-mens": {
@@ -13635,6 +14119,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "indianauniversityblo-mens": {
@@ -13915,6 +14407,14 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "bwiese@georgetown.edu",
       "gumenssoccer@georgetown.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofakron-mens": {
@@ -13975,6 +14475,14 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "bluejaysoccer@creighton.edu",
       "creightonsocceracademy@creighton.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "providencecollege-mens": {
@@ -13997,6 +14505,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stjohnsuniversity-mens": {
@@ -14023,6 +14539,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uconnuniversityofcon-mens": {
@@ -14071,6 +14595,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認) Haato Efune"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "xavieruniversity-mens": {
@@ -14097,6 +14629,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "setonhalluniversity-mens": {
@@ -14127,6 +14667,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "marquetteuniversity-mens": {
@@ -14153,6 +14701,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "villanovauniversity-mens": {
@@ -14183,6 +14739,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "depauluniversity-mens": {
@@ -14217,6 +14781,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "marshalluniversity-mens": {
@@ -14583,6 +15155,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "usfunivofsouthflorid-mens": {
@@ -14699,6 +15279,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uabunivofalabamabirm-mens": {
@@ -14751,6 +15339,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "pennuniversityofpenn-mens": {
@@ -14781,6 +15377,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "cornelluniversity-mens": {
@@ -14803,6 +15407,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "harvarduniversity-mens": {
@@ -14825,6 +15437,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "yaleuniversity-mens": {
@@ -14847,6 +15467,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "dartmouthcollege-mens": {
@@ -14869,6 +15497,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "brownuniversity-mens": {
@@ -14891,6 +15527,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "columbiauniversity-mens": {
@@ -14913,6 +15557,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "ucsantabarbaraucsb-mens": {
@@ -15191,6 +15843,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofsandiego-mens": {
@@ -15217,6 +15877,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "oregonstateuniversit-mens": {
@@ -15269,6 +15937,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintmaryscollegeca-mens": {
@@ -15303,6 +15979,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "sanfranciscousf-mens": {
@@ -15329,6 +16013,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "gonzagauniversity-mens": {
@@ -15367,6 +16059,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofthepacif-mens": {
@@ -15397,6 +16097,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintlouisuniversity-mens": {
@@ -15427,6 +16135,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofdayton-mens": {
@@ -15453,6 +16169,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "vcu-mens": {
@@ -15521,6 +16245,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認 / 出身地不明1名) Arata Mizuno"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "umassamherst-mens": {
@@ -15577,6 +16309,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "duquesneuniversity-mens": {
@@ -15603,6 +16343,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "georgemasonuniversit-mens": {
@@ -15667,6 +16415,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lasalleuniversity-mens": {
@@ -15701,6 +16457,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      3
+    ],
+    "financialNote": [
+      null,
+      "運営収支がやや赤字(収入が支出の91%)、純資産が支出の0.9年分と薄い、純資産が3年で27%減、負債が総資産の62% / IPEDS 2020-21～2022-23"
     ]
   },
   "rhodeislanduri-mens": {
@@ -15753,6 +16517,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stbonaventureunivers-mens": {
@@ -15779,6 +16551,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "hofstrauniversity-mens": {
@@ -15805,6 +16585,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uncwilmingtonuncw-mens": {
@@ -15857,6 +16645,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認) Kosei Sasaki"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "drexeluniversity-mens": {
@@ -15895,6 +16691,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "campbelluniversity-mens": {
@@ -15929,6 +16733,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofdelaware-mens": {
@@ -15955,6 +16767,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "william&mary-mens": {
@@ -16033,6 +16853,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stonybrookuniversity-mens": {
@@ -16085,6 +16913,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "newhampshireunh-mens": {
@@ -16189,6 +17025,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "njit-mens": {
@@ -16475,6 +17319,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofevansvil-mens": {
@@ -16509,6 +17361,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "belmontuniversity-mens": {
@@ -16543,6 +17403,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "bradleyuniversity-mens": {
@@ -16569,6 +17437,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "northernillinoisniu-mens": {
@@ -16621,6 +17497,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "grandcanyongcu-mens": {
@@ -16669,6 +17553,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "sanjosestatesjsu-mens": {
@@ -16833,6 +17725,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "houstonchristian-mens": {
@@ -16859,6 +17759,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "universityofdenver-mens": {
@@ -16881,6 +17789,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "oralrobertsoru-mens": {
@@ -16907,6 +17823,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "omahanebraskaomaha-mens": {
@@ -16985,6 +17909,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "westernillinoiswiu-mens": {
@@ -17037,6 +17969,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "loyolauniversitymary-mens": {
@@ -17063,6 +18003,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "colgateuniversity-mens": {
@@ -17097,6 +18045,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "americanuniversity-mens": {
@@ -17131,6 +18087,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lafayettecollege-mens": {
@@ -17157,6 +18121,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lehighuniversity-mens": {
@@ -17191,6 +18163,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "collegeoftheholycros-mens": {
@@ -17217,6 +18197,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "bucknelluniversity-mens": {
@@ -17243,6 +18231,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "armywestpoint-mens": {
@@ -17423,6 +18419,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uw-greenbay-mens": {
@@ -17553,6 +18557,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uncgreensborouncg-mens": {
@@ -17605,6 +18617,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "merceruniversity-mens": {
@@ -17631,6 +18651,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "easttennesseestateet-mens": {
@@ -17695,6 +18723,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "vmi-mens": {
@@ -17763,6 +18799,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stetsonuniversity-mens": {
@@ -17797,6 +18841,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "fgcufloridagulfcoast-mens": {
@@ -17849,6 +18901,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支がやや赤字(収入が支出の90%)、純資産が3年で16%減、授業料収入への依存73% / IPEDS 2020-21～2022-23"
     ]
   },
   "centralarkansasuca-mens": {
@@ -17901,6 +18961,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "northfloridaunf-mens": {
@@ -17953,6 +19021,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の85%)、純資産が3年で12%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "ionauniversity-mens": {
@@ -17979,6 +19055,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "quinnipiacuniversity-mens": {
@@ -18005,6 +19089,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "rideruniversity-mens": {
@@ -18043,6 +19135,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      3
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の82%)、純資産が支出の0.6年分しかない、純資産が3年で40%減、負債が総資産の65% / IPEDS 2020-21～2022-23"
     ]
   },
   "maristcollege-mens": {
@@ -18069,6 +19169,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "sienacollege-mens": {
@@ -18095,6 +19203,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "fairfielduniversity-mens": {
@@ -18121,6 +19237,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "manhattanuniversity-mens": {
@@ -18147,6 +19271,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "mountstmarys-mens": {
@@ -18173,6 +19305,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "niagarauniversity-mens": {
@@ -18207,6 +19347,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "canisiusuniversity-mens": {
@@ -18233,6 +19381,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintpetersuniversit-mens": {
@@ -18267,6 +19423,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintfrancisuniversi-mens": {
@@ -18305,6 +19469,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "liulongislandunivers-mens": {
@@ -18331,6 +19503,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "fairleighdickinsonfd-mens": {
@@ -18407,6 +19587,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "centralconnecticutst-mens": {
@@ -18467,6 +19655,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stonehillcollege-mens": {
@@ -18493,6 +19689,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "howarduniversity-mens": {
@@ -18527,6 +19731,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "mercyhurstuniversity-mens": {
@@ -18553,6 +19765,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "chicagostateuniversi-mens": {
@@ -18631,6 +19851,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認) Kyohei Eguchi"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lindenwooduniversity-mens": {
@@ -18657,6 +19885,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の79%)、純資産が3年で13%減、授業料収入への依存74% / IPEDS 2020-21～2022-23"
     ]
   },
   "easternillinoisunive-mens": {
@@ -18735,6 +19971,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "winthropuniversity-mens": {
@@ -18799,6 +20043,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "longwooduniversity-mens": {
@@ -18867,6 +20119,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uncasheville-mens": {
@@ -19017,6 +20277,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "1〜2名在籍 (全国大会優勝・プロ輩出)",
       "0名 (公式ロスター確認 / 出身地不明2名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "charleston-mens": {
@@ -19051,6 +20319,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "1〜2名在籍 (日本人主力選手活躍)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lynn-mens": {
@@ -19069,6 +20345,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "受入実績あり (南フロリダ国際派)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "tufts-mens": {
@@ -19091,6 +20375,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約20%",
       "公式ロスター全31名 / 留学生3名 / MF 10名 (Sr・Gr 3名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "chicago-mens": {
@@ -19113,6 +20405,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約25%",
       "公式ロスター全27名 / 留学生4名 / MF 6名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "messiah-mens": {
@@ -19135,6 +20435,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約15%",
       "要確認"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "williams-mens": {
@@ -19157,6 +20465,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約20%",
       "公式ロスター全28名 / 留学生0名 / MF 10名 (Sr・Gr 5名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "grandview-mens": {
@@ -19187,6 +20503,14 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "全米最大の日本人拠点。All-American選出実績多数。手厚い奨学金。",
       "NAIAの強豪。ロスターに日本人選手4名(公式確認)、留学生比率62%。All-American選出実績多数。手厚い奨学金。"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "keiser-mens": {
@@ -19205,6 +20529,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "2〜3名在籍",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lindseywilson-mens": {
@@ -19239,6 +20571,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "midamerica-mens": {
@@ -19269,6 +20609,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "4〜6名在籍 (全米制覇メンバー)",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "oklahomawesleyan-mens": {
@@ -19291,6 +20639,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約80%",
       "要確認"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "riogrande-mens": {
@@ -19313,6 +20669,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "留学生比率 約85%",
       "要確認"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "iowawestern-mens": {
@@ -19536,6 +20900,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "warner-mens": {
@@ -19550,6 +20922,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全26名 / 留学生7名 / MF 9名 (Sr・Gr 2名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "avemaria-mens": {
@@ -19564,12 +20944,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全33名 / 留学生8名 / MF 14名 (Sr・Gr 0名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "floridamemorial-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "georgiagwinnett-mens": {
@@ -19582,24 +20978,56 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "pointuniversity-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "純資産が支出の0.7年分しかない、純資産が3年で15%減、負債が総資産の62% / IPEDS 2020-21～2022-23"
     ]
   },
   "cumberlands-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "cumberlanduniversity-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "campbellsville-mens": {
@@ -19614,12 +21042,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全28名 / 留学生28名 / MF 12名 (Sr・Gr 3名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "georgetowncollege-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "faulkner-mens": {
@@ -19654,6 +21098,14 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "fmatos@faulkner.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "williamcarey-mens": {
@@ -19680,24 +21132,56 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "tennesseewesleyan-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "reinhardt-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "texaswesleyan-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "oklahomacity-mens": {
@@ -19732,36 +21216,84 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "gfgrave@okcu.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "bellevue-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "benedictine-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "baker-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "avila-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支がやや赤字(収入が支出の94%)、純資産が支出の0.9年分と薄い、純資産が3年で19%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "columbiacollegemo-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の82%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "indianawesleyan-mens": {
@@ -19776,6 +21308,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全29名 / 留学生12名 / MF 10名 (Sr・Gr 5名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "pikeville-mens": {
@@ -19790,6 +21330,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全41名 / 留学生28名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "shawneestate-mens": {
@@ -19832,6 +21380,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "vanguard-mens": {
@@ -19858,6 +21414,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "corban-mens": {
@@ -19884,6 +21448,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintleo-mens": {
@@ -19918,6 +21490,14 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "graham.brown@saintleo.edu"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "純資産が支出の1.2年分と薄い、純資産が3年で14%減、授業料収入への依存74% / IPEDS 2020-21～2022-23"
     ]
   },
   "novasoutheastern-mens": {
@@ -19932,6 +21512,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全22名 / 留学生12名 / MF 11名 (Sr・Gr 7名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "floridasouthern-mens": {
@@ -19946,6 +21534,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全31名 / 留学生15名 / MF 11名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "eckerd-mens": {
@@ -19960,6 +21556,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全40名 / 留学生15名 / MF 14名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "flagler-mens": {
@@ -19974,6 +21578,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全31名 / 留学生15名 / MF 9名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "westflorida-mens": {
@@ -19994,12 +21606,28 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "unionuniversity-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "valdostastate-mens": {
@@ -20126,6 +21754,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "mountolive-mens": {
@@ -20140,24 +21776,56 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全41名 / 留学生8名 / MF 15名 (Sr・Gr 2名) / 出身地不明2名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "catawba-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "carsonnewman-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "marshill-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "newberry-mens": {
@@ -20172,12 +21840,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全39名 / 留学生13名 / MF 15名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "tusculum-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の89%)、純資産が3年で10%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "lincolnmemorial-mens": {
@@ -20212,6 +21896,14 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "august.harp@lmunet.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lewisuniversity-mens": {
@@ -20226,6 +21918,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全44名 / 留学生11名 / MF 17名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "drury-mens": {
@@ -20240,6 +21940,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全48名 / 留学生17名 / MF 17名 (Sr・Gr 1名) / 出身地不明1名 / 掲載情報欠落2名(MFは最小値)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "rockhurst-mens": {
@@ -20254,12 +21962,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全33名 / 留学生4名 / MF 9名 (Sr・Gr 4名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "quincy-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      3
+    ],
+    "financialNote": [
+      null,
+      "運営収支がやや赤字(収入が支出の92%)、純資産が支出の0.5年分しかない、純資産が3年で24%減、負債が総資産の73% / IPEDS 2020-21～2022-23"
     ]
   },
   "trumanstate-mens": {
@@ -20314,6 +22038,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全35名 / 留学生20名 / MF 10名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uwparkside-mens": {
@@ -20348,6 +22080,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "findlay-mens": {
@@ -20362,6 +22102,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全45名 / 留学生9名 / MF 14名 (Sr・Gr 3名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "malone-mens": {
@@ -20376,6 +22124,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全41名 / 留学生6名 / MF 14名 (Sr・Gr 0名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "waynestate-mens": {
@@ -20388,6 +22144,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "adelphi-mens": {
@@ -20402,6 +22166,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全31名 / 留学生18名 / MF 12名 (Sr・Gr 2名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "bentley-mens": {
@@ -20416,12 +22188,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全33名 / 留学生5名 / MF 13名 (Sr・Gr 8名) / 出身地不明1名"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintanselm-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "southernct-mens": {
@@ -20450,6 +22238,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全43名 / 留学生14名 / MF 13名 (Sr・Gr 3名) / 出身地不明2名 / 掲載情報欠落4名(MFは最小値)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "assumption-mens": {
@@ -20464,6 +22260,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全44名 / 留学生7名 / MF 13名 (Sr・Gr 2名) / 掲載情報欠落2名(MFは最小値)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "pace-mens": {
@@ -20490,6 +22294,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saintmichaels-mens": {
@@ -20504,12 +22316,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全35名 / 留学生1名 / MF 14名 (Sr・Gr 6名)"
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の89%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "nyit-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "molloy-mens": {
@@ -20524,6 +22352,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全29名 / 留学生7名 / MF 13名 (Sr・Gr 3名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "westchester-mens": {
@@ -20590,18 +22426,42 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "wvwesleyan-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "wheeling-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "concordwv-mens": {
@@ -20620,12 +22480,28 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      3
+    ],
+    "financialNote": [
+      null,
+      "純資産が支出の0.7年分しかない、純資産が3年で19%減、授業料収入への依存74%、負債が総資産の72% / IPEDS 2020-21～2022-23"
     ]
   },
   "chaminade-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "fresnopacific-mens": {
@@ -20640,6 +22516,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全38名 / 留学生3名 / MF 13名 (Sr・Gr 4名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "dominicanca-mens": {
@@ -20674,6 +22558,14 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "ricardo.martin@dominican.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "csudh-mens": {
@@ -20834,6 +22726,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "coloradomesa-mens": {
@@ -20882,6 +22782,14 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "msoccer@regis.edu"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "metrostatedenver-mens": {
@@ -20902,6 +22810,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全32名 / 留学生5名 / MF 13名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stedwards-mens": {
@@ -20916,12 +22832,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全38名 / 留学生7名 / MF 10名 (Sr・Gr 4名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "stmarystx-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uttyler-mens": {
@@ -20956,6 +22888,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全35名 / 留学生17名 / MF 12名 (Sr・Gr 1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "barry-mens": {
@@ -20982,6 +22922,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "calpolypomona-mens": {
@@ -21118,6 +23066,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "fortlewis-mens": {
@@ -21162,6 +23118,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "lander-mens": {
@@ -21202,6 +23166,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "受入実績あり",
       "0名 (公式ロスター確認)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "maryville-mens": {
@@ -21228,6 +23200,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "pba-mens": {
@@ -21254,6 +23234,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "rollins-mens": {
@@ -21272,6 +23260,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "saginawvalley-mens": {
@@ -21342,6 +23338,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "tiffin-mens": {
@@ -21356,6 +23360,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "1〜2名在籍 (日本人選手受入に好意的)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "uindy-mens": {
@@ -21378,6 +23390,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "wingate-mens": {
@@ -21400,6 +23420,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "youngharris-mens": {
@@ -21422,6 +23450,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の79%)、純資産が3年で11%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "midwesternstate-mens": {
@@ -21462,6 +23498,14 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の86%)、純資産が3年で10%減 / IPEDS 2020-21～2022-23"
     ]
   },
   "calstatela-mens": {
@@ -21494,6 +23538,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "部員28名中 留学生7名 (25%)",
       "要確認"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "ucla-mens": {
@@ -21518,6 +23570,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "部員27名中 留学生3名 (11.1%) / カナダ, 日本",
       "公式ロスター全27名 / 留学生2名 / MF 10名 (Sr・Gr 0名)"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "tampa-mens": {
@@ -21528,6 +23588,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "部員32名中 留学生19名 (60%) / 欧州, 南米",
       "要確認"
+    ],
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   },
   "limestone-mens": {
@@ -21538,6 +23606,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "部員32名中 留学生25名 (78%) / 欧州, 南米",
       "要確認"
+    ],
+    "financialRisk": [
+      null,
+      3
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の89%)、純資産が支出の0.7年分しかない、純資産が3年で42%減、負債が総資産の56% / IPEDS 2020-21～2022-23"
     ]
   },
   "madisoncollege-mens": {
@@ -21909,6 +23985,186 @@ const COLLEGE_DATA_FIXES = {
     "fwStats": [
       null,
       "FW 2名 / 全22名 (9%)"
+    ]
+  },
+  "bethelind-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "bethelten-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "carrollmt-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "indianatech-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "johnbrown-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "lasierra-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "life-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "madonna-mens": {
+    "financialRisk": [
+      null,
+      2
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の90%)、純資産が3年で15%減、授業料収入への依存72% / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "milligan-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "olivetnazarene-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "rockymountain-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "warnerpacific-mens": {
+    "financialRisk": [
+      null,
+      3
+    ],
+    "financialNote": [
+      null,
+      "運営収支が赤字(収入が支出の83%)、純資産が支出の0.7年分しかない、純資産が3年で27%減 / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "wiley-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "williampenn-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "xavierla-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "concordianeb-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "grace-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "ottawa-mens": {
+    "financialRisk": [
+      null,
+      1
+    ],
+    "financialNote": [
+      null,
+      "指標上は問題なし / IPEDS 2020-21～2022-23"
     ]
   }
 };
