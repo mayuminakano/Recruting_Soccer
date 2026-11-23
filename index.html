@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>US College Soccer Recruiting App | アメリカ大学サッカー留学リクルート管理</title>
+  <title>US College Soccer Recruiting App | 繧｢繝｡繝ｪ繧ｫ螟ｧ蟄ｦ繧ｵ繝・き繝ｼ逡吝ｭｦ繝ｪ繧ｯ繝ｫ繝ｼ繝育ｮ｡逅・/title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -64,37 +64,37 @@
         <nav class="p-3 space-y-1">
           <button data-nav-target="dashboard" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-semibold bg-sky-600 text-white transition-all shadow-sm">
             <i data-lucide="layout-dashboard" class="w-4 h-4"></i>
-            <span>ダッシュボード</span>
+            <span>繝繝・す繝･繝懊・繝・/span>
           </button>
 
           <button data-nav-target="profile" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="user-check" class="w-4 h-4"></i>
-            <span>選手プロフィール & レジュメ</span>
+            <span>驕ｸ謇九・繝ｭ繝輔ぅ繝ｼ繝ｫ & 繝ｬ繧ｸ繝･繝｡</span>
           </button>
 
           <button data-nav-target="explorer" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="school" class="w-4 h-4"></i>
-            <span>大学データベース検索</span>
+            <span>螟ｧ蟄ｦ繝・・繧ｿ繝吶・繧ｹ讀懃ｴ｢</span>
           </button>
 
           <button data-nav-target="pipeline" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="kanban" class="w-4 h-4"></i>
-            <span>リクルート選考管理 (CRM)</span>
+            <span>繝ｪ繧ｯ繝ｫ繝ｼ繝磯∈閠・ｮ｡逅・(CRM)</span>
           </button>
 
           <button data-nav-target="email" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="mail-plus" class="w-4 h-4"></i>
-            <span>英文スカウトメール作成</span>
+            <span>闍ｱ譁・せ繧ｫ繧ｦ繝医Γ繝ｼ繝ｫ菴懈・</span>
           </button>
 
           <button data-nav-target="roadmap" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="map-pin" class="w-4 h-4"></i>
-            <span>ロードマップ & 規定ガイド</span>
+            <span>繝ｭ繝ｼ繝峨・繝・・ & 隕丞ｮ壹ぎ繧､繝・/span>
           </button>
 
           <button data-nav-target="calculator" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="calculator" class="w-4 h-4"></i>
-            <span>奨学金・学費計算機</span>
+            <span>螂ｨ蟄ｦ驥代・蟄ｦ雋ｻ險育ｮ玲ｩ・/span>
           </button>
         </nav>
       </div>
@@ -103,27 +103,24 @@
       <div class="p-3 border-t border-slate-800 space-y-2">
         <div class="p-2.5 bg-slate-850 rounded-xl border border-slate-800 text-[11px] text-slate-400">
           <div class="flex items-center justify-between mb-1.5">
-            <span class="font-bold text-slate-300">データ保存</span>
-            <span class="text-[10px] text-emerald-400 font-medium">LocalStorage同期中</span>
+            <span class="font-bold text-slate-300">繝・・繧ｿ菫晏ｭ・/span>
+            <span class="text-[10px] text-emerald-400 font-medium">LocalStorage蜷梧悄荳ｭ</span>
           </div>
           <div class="flex gap-1.5">
             <button id="btn-export-json" class="flex-1 py-1 px-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded font-medium text-[10px] transition flex items-center justify-center gap-1">
-              <i data-lucide="download" class="w-3 h-3"></i> 保存
-            </button>
+              <i data-lucide="download" class="w-3 h-3"></i> 菫晏ｭ・            </button>
             <button id="btn-import-json" class="flex-1 py-1 px-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded font-medium text-[10px] transition flex items-center justify-center gap-1">
-              <i data-lucide="upload" class="w-3 h-3"></i> 復元
-            </button>
+              <i data-lucide="upload" class="w-3 h-3"></i> 蠕ｩ蜈・            </button>
             <input type="file" id="file-import-json" accept=".json" class="hidden">
             <input type="file" id="file-import-profile" accept=".json" class="hidden" onchange="importProfileFile(event)">
           </div>
           <button onclick="exportToExcel()" class="w-full mt-2 py-1 px-2 bg-emerald-950 hover:bg-emerald-800 text-emerald-300 border border-emerald-700 rounded font-bold text-[10px] transition flex items-center justify-center gap-1">
-            <i data-lucide="file-spreadsheet" class="w-3 h-3"></i> Excel出力 (.xlsx)
+            <i data-lucide="file-spreadsheet" class="w-3 h-3"></i> Excel蜃ｺ蜉・(.xlsx)
           </button>
         </div>
 
         <button id="btn-reset-demo" class="w-full py-1.5 text-[11px] text-slate-500 hover:text-slate-300 hover:bg-slate-800 rounded transition flex items-center justify-center gap-1">
-          <i data-lucide="rotate-ccw" class="w-3 h-3"></i> 初期デモデータに戻す
-        </button>
+          <i data-lucide="rotate-ccw" class="w-3 h-3"></i> 蛻晄悄繝・Δ繝・・繧ｿ縺ｫ謌ｻ縺・        </button>
       </div>
     </aside>
 
@@ -134,7 +131,7 @@
       <header class="h-16 bg-slate-900/90 backdrop-blur border-b border-slate-800 px-4 sm:px-6 flex items-center justify-between gap-3 shrink-0 no-print z-10">
         <!-- Athlete Summary Header -->
         <div class="flex items-center gap-3 min-w-0">
-          <button id="btn-sidebar-toggle" type="button" aria-label="メニューを開く" aria-controls="sidebar" aria-expanded="false" class="lg:hidden p-2 -ml-2 rounded-lg text-slate-300 hover:bg-slate-800 shrink-0">
+          <button id="btn-sidebar-toggle" type="button" aria-label="繝｡繝九Η繝ｼ繧帝幕縺・ aria-controls="sidebar" aria-expanded="false" class="lg:hidden p-2 -ml-2 rounded-lg text-slate-300 hover:bg-slate-800 shrink-0">
             <i data-lucide="menu" class="w-5 h-5"></i>
           </button>
           <div class="w-9 h-9 rounded-full bg-sky-950 border border-sky-600/40 text-sky-400 flex items-center justify-center font-bold text-sm shrink-0">
@@ -142,24 +139,24 @@
           </div>
           <div class="min-w-0">
             <h2 id="header-player-name" class="text-sm font-bold text-white flex items-center gap-2 truncate">
-              Taro Yamada (山田 太郎)
+              Taro Yamada (螻ｱ逕ｰ 螟ｪ驛・
             </h2>
             <p id="header-player-sub" class="text-xs text-slate-400 truncate">
-              Transfer Fall 2027 (Rising Junior) | CM / CDM | College GPA - | NCAA #未登録
+              Transfer Fall 2027 (Rising Junior) | CM / CDM | College GPA - | NCAA #譛ｪ逋ｻ骭ｲ
             </p>
           </div>
         </div>
 
         <!-- Quick Top Actions (hidden on small screens; available from sidebar tabs) -->
         <div class="hidden md:flex items-center gap-2 shrink-0">
-          <button onclick="exportToExcel()" class="px-3 py-1.5 text-xs font-bold bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg shadow transition flex items-center gap-1.5" title="全データをExcelファイルとしてエクスポート">
-            <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i> Excel出力 (.xlsx)
+          <button onclick="exportToExcel()" class="px-3 py-1.5 text-xs font-bold bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg shadow transition flex items-center gap-1.5" title="蜈ｨ繝・・繧ｿ繧脱xcel繝輔ぃ繧､繝ｫ縺ｨ縺励※繧ｨ繧ｯ繧ｹ繝昴・繝・>
+            <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i> Excel蜃ｺ蜉・(.xlsx)
           </button>
           <button onclick="switchTab('email')" class="px-3 py-1.5 text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-lg shadow transition flex items-center gap-1.5">
-            <i data-lucide="send" class="w-3.5 h-3.5"></i> スカウトメール送信準備
+            <i data-lucide="send" class="w-3.5 h-3.5"></i> 繧ｹ繧ｫ繧ｦ繝医Γ繝ｼ繝ｫ騾∽ｿ｡貅門ｙ
           </button>
           <button onclick="switchTab('profile'); setTimeout(printResumeSheet, 200);" class="px-3 py-1.5 text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-lg transition flex items-center gap-1.5">
-            <i data-lucide="printer" class="w-3.5 h-3.5"></i> レジュメ印刷・PDF
+            <i data-lucide="printer" class="w-3.5 h-3.5"></i> 繝ｬ繧ｸ繝･繝｡蜊ｰ蛻ｷ繝ｻPDF
           </button>
         </div>
       </header>
@@ -178,11 +175,9 @@
                 Recruitment Hub
               </span>
               <h2 class="text-2xl font-black text-white mt-2">
-                アメリカ大学サッカー部 リクルートダッシュボード
-              </h2>
+                繧｢繝｡繝ｪ繧ｫ螟ｧ蟄ｦ繧ｵ繝・き繝ｼ驛ｨ 繝ｪ繧ｯ繝ｫ繝ｼ繝医ム繝・す繝･繝懊・繝・              </h2>
               <p class="text-xs text-slate-300 mt-1 leading-relaxed">
-                全米NCAA D1/D2/D3、NAIA、NJCAAのサッカー部へ向けたスカウト活動、コーチとの連絡履歴、奨学金オファー、やることリストを一元管理できます。
-              </p>
+                蜈ｨ邀ｳNCAA D1/D2/D3縲¨AIA縲¨JCAA縺ｮ繧ｵ繝・き繝ｼ驛ｨ縺ｸ蜷代￠縺溘せ繧ｫ繧ｦ繝域ｴｻ蜍輔√さ繝ｼ繝√→縺ｮ騾｣邨｡螻･豁ｴ縲∝･ｨ蟄ｦ驥代が繝輔ぃ繝ｼ縲√ｄ繧九％縺ｨ繝ｪ繧ｹ繝医ｒ荳蜈・ｮ｡逅・〒縺阪∪縺吶・              </p>
             </div>
             <div class="absolute -right-6 -bottom-6 opacity-10 pointer-events-none">
               <i data-lucide="trophy" class="w-64 h-64 text-white"></i>
@@ -197,7 +192,7 @@
                 <i data-lucide="school" class="w-6 h-6"></i>
               </div>
               <div>
-                <span class="text-xs font-bold text-slate-400 uppercase">管理中の大学数</span>
+                <span class="text-xs font-bold text-slate-400 uppercase">邂｡逅・ｸｭ縺ｮ螟ｧ蟄ｦ謨ｰ</span>
                 <h3 id="dash-stat-tracked" class="text-2xl font-black text-white mt-0.5">5</h3>
               </div>
             </div>
@@ -208,7 +203,7 @@
                 <i data-lucide="message-square" class="w-6 h-6"></i>
               </div>
               <div>
-                <span class="text-xs font-bold text-slate-400 uppercase">コーチと交渉中</span>
+                <span class="text-xs font-bold text-slate-400 uppercase">繧ｳ繝ｼ繝√→莠､貂我ｸｭ</span>
                 <h3 id="dash-stat-discussions" class="text-2xl font-black text-amber-400 mt-0.5">1</h3>
               </div>
             </div>
@@ -219,7 +214,7 @@
                 <i data-lucide="award" class="w-6 h-6"></i>
               </div>
               <div>
-                <span class="text-xs font-bold text-slate-400 uppercase">獲得オファー数</span>
+                <span class="text-xs font-bold text-slate-400 uppercase">迯ｲ蠕励が繝輔ぃ繝ｼ謨ｰ</span>
                 <h3 id="dash-stat-offers" class="text-2xl font-black text-emerald-400 mt-0.5">2</h3>
               </div>
             </div>
@@ -230,7 +225,7 @@
                 <i data-lucide="dollar-sign" class="w-6 h-6"></i>
               </div>
               <div>
-                <span class="text-xs font-bold text-slate-400 uppercase">提示奨学金 総額</span>
+                <span class="text-xs font-bold text-slate-400 uppercase">謠千､ｺ螂ｨ蟄ｦ驥・邱城｡・/span>
                 <h3 id="dash-stat-scholarship" class="text-2xl font-black text-indigo-300 mt-0.5">$53,600</h3>
               </div>
             </div>
@@ -244,7 +239,7 @@
             <div class="flex items-center justify-between mb-2">
               <div class="flex items-center gap-2">
                 <i data-lucide="check-circle" class="w-4 h-4 text-sky-400"></i>
-                <h3 class="text-sm font-bold text-white">編入ロードマップ進行状況</h3>
+                <h3 class="text-sm font-bold text-white">邱ｨ蜈･繝ｭ繝ｼ繝峨・繝・・騾ｲ陦檎憾豕・/h3>
               </div>
               <span id="dash-roadmap-pct" class="text-xs font-bold text-sky-400">40% (6/15)</span>
             </div>
@@ -257,7 +252,7 @@
           <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow space-y-3">
             <div class="flex items-center gap-2">
               <i data-lucide="bar-chart-3" class="w-4 h-4 text-sky-400"></i>
-              <h3 class="text-sm font-bold text-white">選考ステージ別 大学数</h3>
+              <h3 class="text-sm font-bold text-white">驕ｸ閠・せ繝・・繧ｸ蛻･ 螟ｧ蟄ｦ謨ｰ</h3>
             </div>
             <div id="dash-funnel" class="space-y-2"></div>
           </div>
@@ -268,11 +263,9 @@
             <div class="space-y-3">
               <div class="flex items-center justify-between">
                 <h3 class="text-sm font-bold text-white flex items-center gap-2">
-                  <i data-lucide="clock" class="w-4 h-4 text-sky-400"></i> 次のToDo & フォロー予定
-                </h3>
+                  <i data-lucide="clock" class="w-4 h-4 text-sky-400"></i> 谺｡縺ｮToDo & 繝輔か繝ｭ繝ｼ莠亥ｮ・                </h3>
                 <button onclick="switchTab('pipeline')" class="text-xs text-sky-400 hover:underline">
-                  パイプラインへ →
-                </button>
+                  繝代う繝励Λ繧､繝ｳ縺ｸ 竊・                </button>
               </div>
               <div id="dash-upcoming-actions" class="space-y-3">
                 <!-- Dynamically populated -->
@@ -283,11 +276,10 @@
             <div class="space-y-3">
               <div class="flex items-center justify-between">
                 <h3 class="text-sm font-bold text-white flex items-center gap-2">
-                  <i data-lucide="trophy" class="w-4 h-4 text-amber-400"></i> 獲得オファー & スカラシップ
+                  <i data-lucide="trophy" class="w-4 h-4 text-amber-400"></i> 迯ｲ蠕励が繝輔ぃ繝ｼ & 繧ｹ繧ｫ繝ｩ繧ｷ繝・・
                 </h3>
                 <button onclick="switchTab('calculator')" class="text-xs text-amber-400 hover:underline">
-                  学費シミュレーターへ →
-                </button>
+                  蟄ｦ雋ｻ繧ｷ繝溘Η繝ｬ繝ｼ繧ｿ繝ｼ縺ｸ 竊・                </button>
               </div>
               <div id="dash-offers-showcase" class="space-y-3">
                 <!-- Dynamically populated -->
@@ -304,24 +296,21 @@
           <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4">
             <div>
               <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                <i data-lucide="user-check" class="w-5 h-5 text-sky-400"></i> 選手プロフィール & 公式レジュメ作成
+                <i data-lucide="user-check" class="w-5 h-5 text-sky-400"></i> 驕ｸ謇九・繝ｭ繝輔ぅ繝ｼ繝ｫ & 蜈ｬ蠑上Ξ繧ｸ繝･繝｡菴懈・
               </h2>
               <p class="text-xs text-slate-400 mt-0.5">
-                米国の大学コーチやスカウトに提示する公式アスリートシートの情報を入力・編集できます。
-              </p>
+                邀ｳ蝗ｽ縺ｮ螟ｧ蟄ｦ繧ｳ繝ｼ繝√ｄ繧ｹ繧ｫ繧ｦ繝医↓謠千､ｺ縺吶ｋ蜈ｬ蠑上い繧ｹ繝ｪ繝ｼ繝医す繝ｼ繝医・諠・ｱ繧貞・蜉帙・邱ｨ髮・〒縺阪∪縺吶・              </p>
             </div>
             <div class="flex items-center gap-2 no-print">
               <button onclick="saveProfileFromForm()" class="px-4 py-2 text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-xl shadow transition flex items-center gap-1.5">
-                <i data-lucide="save" class="w-4 h-4"></i> プロフィールを保存
-              </button>
-              <button onclick="exportProfileFile()" title="キャッシュ削除に備えて、プロフィールだけをファイルに書き出します" class="px-3 py-2 text-xs font-bold bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 rounded-xl transition flex items-center gap-1.5">
-                <i data-lucide="download" class="w-4 h-4"></i> ファイルに保存
-              </button>
-              <button onclick="document.getElementById('file-import-profile').click()" title="保存したプロフィールファイルを読み込みます" class="px-3 py-2 text-xs font-bold bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 rounded-xl transition flex items-center gap-1.5">
-                <i data-lucide="upload" class="w-4 h-4"></i> ファイルから読み込む
+                <i data-lucide="save" class="w-4 h-4"></i> 繝励Ο繝輔ぅ繝ｼ繝ｫ繧剃ｿ晏ｭ・              </button>
+              <button onclick="exportProfileFile()" title="繧ｭ繝｣繝・す繝･蜑企勁縺ｫ蛯吶∴縺ｦ縲√・繝ｭ繝輔ぅ繝ｼ繝ｫ縺縺代ｒ繝輔ぃ繧､繝ｫ縺ｫ譖ｸ縺榊・縺励∪縺・ class="px-3 py-2 text-xs font-bold bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 rounded-xl transition flex items-center gap-1.5">
+                <i data-lucide="download" class="w-4 h-4"></i> 繝輔ぃ繧､繝ｫ縺ｫ菫晏ｭ・              </button>
+              <button onclick="document.getElementById('file-import-profile').click()" title="菫晏ｭ倥＠縺溘・繝ｭ繝輔ぅ繝ｼ繝ｫ繝輔ぃ繧､繝ｫ繧定ｪｭ縺ｿ霎ｼ縺ｿ縺ｾ縺・ class="px-3 py-2 text-xs font-bold bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 rounded-xl transition flex items-center gap-1.5">
+                <i data-lucide="upload" class="w-4 h-4"></i> 繝輔ぃ繧､繝ｫ縺九ｉ隱ｭ縺ｿ霎ｼ繧
               </button>
               <button onclick="printResumeSheet()" class="px-4 py-2 text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl shadow transition flex items-center gap-1.5">
-                <i data-lucide="printer" class="w-4 h-4"></i> レジュメをPDF出力 / 印刷
+                <i data-lucide="printer" class="w-4 h-4"></i> 繝ｬ繧ｸ繝･繝｡繧単DF蜃ｺ蜉・/ 蜊ｰ蛻ｷ
               </button>
             </div>
           </div>
@@ -331,33 +320,33 @@
             <!-- Left: Edit Form (5 cols) -->
             <div id="profile-form-container" class="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4 no-print h-fit">
               <h3 class="text-sm font-bold text-sky-400 border-b border-slate-800 pb-2 flex items-center gap-1.5">
-                <i data-lucide="edit" class="w-4 h-4"></i> プロフィール編集フォーム
+                <i data-lucide="edit" class="w-4 h-4"></i> 繝励Ο繝輔ぅ繝ｼ繝ｫ邱ｨ髮・ヵ繧ｩ繝ｼ繝
               </h3>
 
               <!-- Name & Gender -->
               <div class="grid grid-cols-2 gap-3">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">氏名 (英語ローマ字)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">豌丞錐 (闍ｱ隱槭Ο繝ｼ繝槫ｭ・</label>
                   <input type="text" id="prof-fullNameEng" placeholder="Daiki Tanaka" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">氏名 (漢字/カナ)</label>
-                  <input type="text" id="prof-fullNameJp" placeholder="田中 大貴" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">豌丞錐 (貍｢蟄・繧ｫ繝・</label>
+                  <input type="text" id="prof-fullNameJp" placeholder="逕ｰ荳ｭ 螟ｧ雋ｴ" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
 
               <!-- Transfer Term & Graduation & Eligibility -->
               <div class="grid grid-cols-3 gap-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">編入希望時期 (Transfer Term)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">邱ｨ蜈･蟶梧悍譎よ悄 (Transfer Term)</label>
                   <input type="text" id="prof-transferTerm" placeholder="Fall 2027" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">卒業予定年</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">蜊呈･ｭ莠亥ｮ壼ｹｴ</label>
                   <input type="text" id="prof-gradYear" placeholder="2029" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">残り競技年数</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">谿九ｊ遶ｶ謚蟷ｴ謨ｰ</label>
                   <input type="text" id="prof-seasonsRemaining" placeholder="2" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
@@ -365,24 +354,24 @@
               <!-- Current Level & Credits & Gender & DOB -->
               <div class="grid grid-cols-2 gap-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">現在のカテゴリー (NJCAA / NAIA / NCAA D2 等)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">迴ｾ蝨ｨ縺ｮ繧ｫ繝・ざ繝ｪ繝ｼ (NJCAA / NAIA / NCAA D2 遲・</label>
                   <input type="text" id="prof-currentLevel" placeholder="NAIA" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">取得済み単位数 (Credits Earned)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">蜿門ｾ玲ｸ医∩蜊倅ｽ肴焚 (Credits Earned)</label>
                   <input type="text" id="prof-creditsEarned" placeholder="60" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
               <div class="grid grid-cols-2 gap-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">性別</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">諤ｧ蛻･</label>
                   <select id="prof-gender" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
-                    <option value="Men">Men (男子)</option>
-                    <option value="Women">Women (女子)</option>
+                    <option value="Men">Men (逕ｷ蟄・</option>
+                    <option value="Women">Women (螂ｳ蟄・</option>
                   </select>
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">生年月日</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">逕溷ｹｴ譛域律</label>
                   <input type="date" id="prof-dateOfBirth" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
@@ -390,11 +379,11 @@
               <!-- Current Team & Jersey -->
               <div class="grid grid-cols-3 gap-2">
                 <div class="col-span-2">
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">現在の所属大学 / 経歴</label>
-                  <input type="text" id="prof-currentTeam" placeholder="〇〇高校 -> 〇〇College -> 〇〇University" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">迴ｾ蝨ｨ縺ｮ謇螻槫､ｧ蟄ｦ / 邨梧ｭｴ</label>
+                  <input type="text" id="prof-currentTeam" placeholder="縲・・ｫ俶｡ -> 縲・④ollege -> 縲・Ⅱniversity" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">背番号 (#)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">閭檎分蜿ｷ (#)</label>
                   <input type="text" id="prof-jerseyNumber" placeholder="10" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
@@ -402,15 +391,15 @@
               <!-- Positions & Dominant Foot -->
               <div class="grid grid-cols-3 gap-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">第1ポジション</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">隨ｬ1繝昴ず繧ｷ繝ｧ繝ｳ</label>
                   <input type="text" id="prof-primaryPosition" placeholder="CAM / Attacking Mid" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">第2ポジション</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">隨ｬ2繝昴ず繧ｷ繝ｧ繝ｳ</label>
                   <input type="text" id="prof-secondaryPosition" placeholder="LW / CM" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">利き足</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">蛻ｩ縺崎ｶｳ</label>
                   <input type="text" id="prof-dominantFoot" placeholder="Right / Both" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
@@ -418,25 +407,25 @@
               <!-- Height & Weight & Nationality -->
               <div class="grid grid-cols-3 gap-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">身長 (cm)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">霄ｫ髟ｷ (cm)</label>
                   <input type="number" id="prof-heightCm" placeholder="178" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">体重 (kg)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">菴馴㍾ (kg)</label>
                   <input type="number" id="prof-weightKg" placeholder="72" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">国籍</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">蝗ｽ邀・/label>
                   <input type="text" id="prof-nationality" placeholder="Japan" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
               </div>
 
               <!-- Academic Section -->
               <div class="border-t border-slate-800 pt-3">
-                <span class="text-xs font-bold text-amber-400 block mb-2">学業・テストスコア・NCAA ID</span>
+                <span class="text-xs font-bold text-amber-400 block mb-2">蟄ｦ讌ｭ繝ｻ繝・せ繝医せ繧ｳ繧｢繝ｻNCAA ID</span>
                 <div class="grid grid-cols-3 gap-2">
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">大学GPA (4.0換算)</label>
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">螟ｧ蟄ｦGPA (4.0謠帷ｮ・</label>
                     <input type="text" id="prof-gpa" placeholder="3.65" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                   <div>
@@ -451,11 +440,11 @@
 
                 <div class="grid grid-cols-2 gap-2 mt-2">
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">SAT スコア</label>
-                    <input type="text" id="prof-satScore" placeholder="1220 (任意)" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">SAT 繧ｹ繧ｳ繧｢</label>
+                    <input type="text" id="prof-satScore" placeholder="1220 (莉ｻ諢・" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">希望専攻 (Major)</label>
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">蟶梧悍蟆よ判 (Major)</label>
                     <input type="text" id="prof-intendedMajor" placeholder="Business / Sports Management" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                 </div>
@@ -474,14 +463,14 @@
 
               <!-- Video URLs -->
               <div class="border-t border-slate-800 pt-3">
-                <span class="text-xs font-bold text-sky-400 block mb-2">動画リンク (YouTube / Hudl / Vimeo)</span>
+                <span class="text-xs font-bold text-sky-400 block mb-2">蜍慕判繝ｪ繝ｳ繧ｯ (YouTube / Hudl / Vimeo)</span>
                 <div class="space-y-2">
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">ハイライト動画 URL (3〜5分)</label>
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">繝上う繝ｩ繧､繝亥虚逕ｻ URL (3縲・蛻・</label>
                     <input type="url" id="prof-highlightVideoUrl" placeholder="https://youtu.be/..." class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">フルマッチ動画 URL (公式戦90分)</label>
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">繝輔Ν繝槭ャ繝∝虚逕ｻ URL (蜈ｬ蠑乗姶90蛻・</label>
                     <input type="url" id="prof-fullGameVideoUrl" placeholder="https://youtu.be/..." class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                 </div>
@@ -490,19 +479,19 @@
               <!-- Stats & Bio & References -->
               <div class="border-t border-slate-800 pt-3 space-y-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">フィジカル数値 (50m, Yo-Yoテスト等)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">繝輔ぅ繧ｸ繧ｫ繝ｫ謨ｰ蛟､ (50m, Yo-Yo繝・せ繝育ｭ・</label>
                   <input type="text" id="prof-athleticStats" placeholder="50m: 6.2s | Yo-Yo IR1: 2,160m" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">主な受賞歴・全国大会出場歴 (Honors)</label>
-                  <textarea id="prof-honors" rows="2" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white" placeholder="インターハイ出場、県ベストイレブン、U-16選抜など"></textarea>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">荳ｻ縺ｪ蜿苓ｳ樊ｭｴ繝ｻ蜈ｨ蝗ｽ螟ｧ莨壼・蝣ｴ豁ｴ (Honors)</label>
+                  <textarea id="prof-honors" rows="2" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white" placeholder="繧､繝ｳ繧ｿ繝ｼ繝上う蜃ｺ蝣ｴ縲∫恁繝吶せ繝医う繝ｬ繝悶Φ縲ゞ-16驕ｸ謚懊↑縺ｩ"></textarea>
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">自己PR・プレースタイル特徴 (Bio in English)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">閾ｪ蟾ｱPR繝ｻ繝励Ξ繝ｼ繧ｹ繧ｿ繧､繝ｫ迚ｹ蠕ｴ (Bio in English)</label>
                   <textarea id="prof-personalBio" rows="3" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white" placeholder="Dynamic playmaker with high football IQ and vision..."></textarea>
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">指導者推薦・連絡先 (References)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">謖・ｰ手・耳阮ｦ繝ｻ騾｣邨｡蜈・(References)</label>
                   <textarea id="prof-referenceCoach" rows="2" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white" placeholder="Coach Kenji Sato (Head Coach, email@domain.com, +81-...)"></textarea>
                 </div>
               </div>
@@ -513,10 +502,10 @@
               <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow">
                 <div class="flex items-center justify-between pb-3 mb-4 border-b border-slate-800 no-print">
                   <span class="text-xs font-bold text-slate-400 flex items-center gap-1.5">
-                    <i data-lucide="eye" class="w-4 h-4 text-emerald-400"></i> スカウトシート プレビュー (印刷用)
+                    <i data-lucide="eye" class="w-4 h-4 text-emerald-400"></i> 繧ｹ繧ｫ繧ｦ繝医す繝ｼ繝・繝励Ξ繝薙Η繝ｼ (蜊ｰ蛻ｷ逕ｨ)
                   </span>
                   <button onclick="saveProfileFromForm()" class="text-xs text-sky-400 hover:underline">
-                    プレビューを更新
+                    繝励Ξ繝薙Η繝ｼ繧呈峩譁ｰ
                   </button>
                 </div>
 
@@ -538,18 +527,17 @@
             <div class="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-3">
               <div>
                 <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                  <i data-lucide="school" class="w-5 h-5 text-sky-400"></i> 全米大学サッカー部データベース
+                  <i data-lucide="school" class="w-5 h-5 text-sky-400"></i> 蜈ｨ邀ｳ螟ｧ蟄ｦ繧ｵ繝・き繝ｼ驛ｨ繝・・繧ｿ繝吶・繧ｹ
                 </h2>
                 <p class="text-xs text-slate-400 mt-0.5">
-                  NCAA D1/D2/D3、NAIA、NJCAA(短大)の強豪校・日本人受け入れ実績校を検索・分析できます。
-                </p>
+                  NCAA D1/D2/D3縲¨AIA縲¨JCAA(遏ｭ螟ｧ)縺ｮ蠑ｷ雎ｪ譬｡繝ｻ譌･譛ｬ莠ｺ蜿励￠蜈･繧悟ｮ溽ｸｾ譬｡繧呈､懃ｴ｢繝ｻ蛻・梵縺ｧ縺阪∪縺吶・                </p>
               </div>
               <div class="flex items-center gap-2">
                 <span id="explorer-match-count" class="text-xs px-3 py-1.5 bg-slate-800 text-sky-300 font-bold rounded-lg border border-slate-700">
-                  -- 校
+                  -- 譬｡
                 </span>
                 <button onclick="openAddCollegeModal()" class="px-3.5 py-1.5 text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-lg shadow transition flex items-center gap-1.5">
-                  <i data-lucide="plus" class="w-4 h-4"></i> 大学を新規登録
+                  <i data-lucide="plus" class="w-4 h-4"></i> 螟ｧ蟄ｦ繧呈眠隕冗匳骭ｲ
                 </button>
               </div>
             </div>
@@ -558,62 +546,62 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
               <!-- Search text -->
               <div>
-                <label class="text-[11px] font-bold text-slate-400 block mb-1">大学名・地域・コーチ名 検索</label>
+                <label class="text-[11px] font-bold text-slate-400 block mb-1">螟ｧ蟄ｦ蜷阪・蝨ｰ蝓溘・繧ｳ繝ｼ繝∝錐 讀懃ｴ｢</label>
                 <div class="relative">
-                  <input type="text" id="search-college" placeholder="例: Indiana, Clemson, ACC..." class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-8 pr-3 py-2 text-xs text-white">
+                  <input type="text" id="search-college" placeholder="萓・ Indiana, Clemson, ACC..." class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-8 pr-3 py-2 text-xs text-white">
                   <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5"></i>
                 </div>
               </div>
 
               <!-- Division -->
               <div>
-                <label class="text-[11px] font-bold text-slate-400 block mb-1">所属ディビジョン (Division)</label>
+                <label class="text-[11px] font-bold text-slate-400 block mb-1">謇螻槭ョ繧｣繝薙ず繝ｧ繝ｳ (Division)</label>
                 <select id="filter-division" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
-                  <option value="ALL">すべてのディビジョン (全表示)</option>
-                  <option value="NCAA D1">NCAA Division 1 (最高峰・特待生)</option>
-                  <option value="NCAA D2">NCAA Division 2 (留学生多数・強豪)</option>
-                  <option value="NCAA D3">NCAA Division 3 (学業最優先・給付奨学金)</option>
-                  <option value="NAIA">NAIA (手厚い奨学金・柔軟規定)</option>
-                  <option value="NJCAA D1">NJCAA D1 / JUCO (2年制・D1編入ルート)</option>
-                  <option value="NJCAA D2">NJCAA D2 / JUCO (2年制・学費のみ奨学金)</option>
+                  <option value="ALL">縺吶∋縺ｦ縺ｮ繝・ぅ繝薙ず繝ｧ繝ｳ (蜈ｨ陦ｨ遉ｺ)</option>
+                  <option value="NCAA D1">NCAA Division 1 (譛鬮伜ｳｰ繝ｻ迚ｹ蠕・函)</option>
+                  <option value="NCAA D2">NCAA Division 2 (逡吝ｭｦ逕溷､壽焚繝ｻ蠑ｷ雎ｪ)</option>
+                  <option value="NCAA D3">NCAA Division 3 (蟄ｦ讌ｭ譛蜆ｪ蜈医・邨ｦ莉伜･ｨ蟄ｦ驥・</option>
+                  <option value="NAIA">NAIA (謇句字縺・･ｨ蟄ｦ驥代・譟碑ｻ溯ｦ丞ｮ・</option>
+                  <option value="NJCAA D1">NJCAA D1 / JUCO (2蟷ｴ蛻ｶ繝ｻD1邱ｨ蜈･繝ｫ繝ｼ繝・</option>
+                  <option value="NJCAA D2">NJCAA D2 / JUCO (2蟷ｴ蛻ｶ繝ｻ蟄ｦ雋ｻ縺ｮ縺ｿ螂ｨ蟄ｦ驥・</option>
                 </select>
               </div>
 
               <!-- Region -->
               <div>
-                <label class="text-[11px] font-bold text-slate-400 block mb-1">地域 (Region)</label>
+                <label class="text-[11px] font-bold text-slate-400 block mb-1">蝨ｰ蝓・(Region)</label>
                 <select id="filter-region" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
-                  <option value="ALL">全地域 (West, South, Midwest...)</option>
-                  <option value="West">West (カリフォルニア, ワシントン等)</option>
-                  <option value="South">South (フロリダ, ノースカロライナ等)</option>
-                  <option value="Midwest">Midwest (インディアナ, オハイオ等)</option>
-                  <option value="Northeast">Northeast (ニューヨーク, ボストン等)</option>
+                  <option value="ALL">蜈ｨ蝨ｰ蝓・(West, South, Midwest...)</option>
+                  <option value="West">West (繧ｫ繝ｪ繝輔か繝ｫ繝九い, 繝ｯ繧ｷ繝ｳ繝医Φ遲・</option>
+                  <option value="South">South (繝輔Ο繝ｪ繝, 繝弱・繧ｹ繧ｫ繝ｭ繝ｩ繧､繝顔ｭ・</option>
+                  <option value="Midwest">Midwest (繧､繝ｳ繝・ぅ繧｢繝・ 繧ｪ繝上う繧ｪ遲・</option>
+                  <option value="Northeast">Northeast (繝九Η繝ｼ繝ｨ繝ｼ繧ｯ, 繝懊せ繝医Φ遲・</option>
                 </select>
               </div>
 
               <!-- Strength -->
               <div>
-                <label class="text-[11px] font-bold text-slate-400 block mb-1">強度 (強豪度 ★1〜5)</label>
+                <label class="text-[11px] font-bold text-slate-400 block mb-1">蠑ｷ蠎ｦ (蠑ｷ雎ｪ蠎ｦ 笘・縲・)</label>
                 <select id="filter-strength" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
-                  <option value="ALL">すべての強度</option>
-                  <option value="5">★5 のみ (最強クラス)</option>
-                  <option value="4">★4 以上</option>
-                  <option value="3">★3 以上</option>
-                  <option value="max2">★2 以下 (挑戦しやすい)</option>
-                  <option value="max1">★1 のみ</option>
-                  <option value="NONE">未評価のみ (D1以外など)</option>
+                  <option value="ALL">縺吶∋縺ｦ縺ｮ蠑ｷ蠎ｦ</option>
+                  <option value="5">笘・ 縺ｮ縺ｿ (譛蠑ｷ繧ｯ繝ｩ繧ｹ)</option>
+                  <option value="4">笘・ 莉･荳・/option>
+                  <option value="3">笘・ 莉･荳・/option>
+                  <option value="max2">笘・ 莉･荳・(謖第姶縺励ｄ縺吶＞)</option>
+                  <option value="max1">笘・ 縺ｮ縺ｿ</option>
+                  <option value="NONE">譛ｪ隧穂ｾ｡縺ｮ縺ｿ (D1莉･螟悶↑縺ｩ)</option>
                 </select>
               </div>
 
               <!-- Financial risk -->
               <div>
-                <label class="text-[11px] font-bold text-slate-400 block mb-1">財務リスク (破綻の可能性)</label>
+                <label class="text-[11px] font-bold text-slate-400 block mb-1">雋｡蜍吶Μ繧ｹ繧ｯ (遐ｴ邯ｻ縺ｮ蜿ｯ閭ｽ諤ｧ)</label>
                 <select id="filter-finrisk" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
-                  <option value="ALL">すべて</option>
-                  <option value="2">注意・要注意のみ</option>
-                  <option value="3">要注意のみ</option>
-                  <option value="HIDE">注意・要注意を除く</option>
-                  <option value="NONE">未評価のみ (公立・短大など)</option>
+                  <option value="ALL">縺吶∋縺ｦ</option>
+                  <option value="2">豕ｨ諢上・隕∵ｳｨ諢上・縺ｿ</option>
+                  <option value="3">隕∵ｳｨ諢上・縺ｿ</option>
+                  <option value="HIDE">豕ｨ諢上・隕∵ｳｨ諢上ｒ髯､縺・/option>
+                  <option value="NONE">譛ｪ隧穂ｾ｡縺ｮ縺ｿ (蜈ｬ遶九・遏ｭ螟ｧ縺ｪ縺ｩ)</option>
                 </select>
               </div>
             </div>
@@ -635,14 +623,13 @@
           <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-3">
             <div>
               <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                <i data-lucide="kanban" class="w-5 h-5 text-sky-400"></i> リクルート選考・進捗管理カンバン (CRM)
+                <i data-lucide="kanban" class="w-5 h-5 text-sky-400"></i> 繝ｪ繧ｯ繝ｫ繝ｼ繝磯∈閠・・騾ｲ謐礼ｮ｡逅・き繝ｳ繝舌Φ (CRM)
               </h2>
               <p class="text-xs text-slate-400 mt-0.5">
-                アプローチ中の大学のステータス、コーチとの最新コンタクト、奨学金オファー額をカンバンボードで一覧管理。
-              </p>
+                繧｢繝励Ο繝ｼ繝∽ｸｭ縺ｮ螟ｧ蟄ｦ縺ｮ繧ｹ繝・・繧ｿ繧ｹ縲√さ繝ｼ繝√→縺ｮ譛譁ｰ繧ｳ繝ｳ繧ｿ繧ｯ繝医∝･ｨ蟄ｦ驥代が繝輔ぃ繝ｼ鬘阪ｒ繧ｫ繝ｳ繝舌Φ繝懊・繝峨〒荳隕ｧ邂｡逅・・              </p>
             </div>
             <button onclick="switchTab('explorer')" class="px-3.5 py-1.5 text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-lg shadow transition flex items-center gap-1.5">
-              <i data-lucide="plus" class="w-4 h-4"></i> 大学を探して追加する
+              <i data-lucide="plus" class="w-4 h-4"></i> 螟ｧ蟄ｦ繧呈爾縺励※霑ｽ蜉縺吶ｋ
             </button>
           </div>
 
@@ -660,21 +647,19 @@
         <div id="tab-email" class="tab-pane hidden space-y-6">
           <div class="border-b border-slate-800 pb-3">
             <h2 class="text-xl font-bold text-white flex items-center gap-2">
-              <i data-lucide="mail-plus" class="w-5 h-5 text-sky-400"></i> 英語スカウティングメール自動生成
-            </h2>
+              <i data-lucide="mail-plus" class="w-5 h-5 text-sky-400"></i> 闍ｱ隱槭せ繧ｫ繧ｦ繝・ぅ繝ｳ繧ｰ繝｡繝ｼ繝ｫ閾ｪ蜍慕函謌・            </h2>
             <p class="text-xs text-slate-400 mt-0.5">
-              アメリカ大学のヘッドコーチ・リクルート担当へ送る英文メールを、登録プロフィールと大学データから自動作成します。
-            </p>
+              繧｢繝｡繝ｪ繧ｫ螟ｧ蟄ｦ縺ｮ繝倥ャ繝峨さ繝ｼ繝√・繝ｪ繧ｯ繝ｫ繝ｼ繝域球蠖薙∈騾√ｋ闍ｱ譁・Γ繝ｼ繝ｫ繧偵∫匳骭ｲ繝励Ο繝輔ぅ繝ｼ繝ｫ縺ｨ螟ｧ蟄ｦ繝・・繧ｿ縺九ｉ閾ｪ蜍穂ｽ懈・縺励∪縺吶・            </p>
           </div>
 
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <!-- Left: Settings & Token Controls (4 cols) -->
             <div class="lg:col-span-4 bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4 h-fit">
-              <h3 class="text-sm font-bold text-sky-400 border-b border-slate-800 pb-2">メール設定</h3>
+              <h3 class="text-sm font-bold text-sky-400 border-b border-slate-800 pb-2">繝｡繝ｼ繝ｫ險ｭ螳・/h3>
 
               <!-- Template selector -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">メール用途・テンプレート</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">繝｡繝ｼ繝ｫ逕ｨ騾斐・繝・Φ繝励Ξ繝ｼ繝・/label>
                 <select id="email-template-select" onchange="updateEmailPreview()" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-white">
                   <!-- Populated dynamically -->
                 </select>
@@ -683,7 +668,7 @@
 
               <!-- Target college selector -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">送信対象の大学</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">騾∽ｿ｡蟇ｾ雎｡縺ｮ螟ｧ蟄ｦ</label>
                 <select id="email-target-college" onchange="updateEmailPreview()" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-white">
                   <!-- Populated dynamically -->
                 </select>
@@ -692,11 +677,11 @@
               <!-- Coach Email address (To & CC) -->
               <div class="space-y-2">
                 <div>
-                  <label class="text-xs font-semibold text-slate-300 block mb-1">宛先 (To: ヘッドコーチ)</label>
+                  <label class="text-xs font-semibold text-slate-300 block mb-1">螳帛・ (To: 繝倥ャ繝峨さ繝ｼ繝・</label>
                   <input type="email" id="email-coach-address" placeholder="coach@university.edu" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-indigo-300 block mb-1">CC (アシスタントコーチ / リクルート担当)</label>
+                  <label class="text-xs font-semibold text-indigo-300 block mb-1">CC (繧｢繧ｷ繧ｹ繧ｿ繝ｳ繝医さ繝ｼ繝・/ 繝ｪ繧ｯ繝ｫ繝ｼ繝域球蠖・</label>
                   <input type="email" id="email-coach-cc" placeholder="asstcoach@university.edu" class="w-full bg-slate-800 border border-indigo-700/60 rounded-lg p-2 text-xs text-indigo-100">
                 </div>
               </div>
@@ -704,13 +689,13 @@
               <!-- Coaching Etiquette Tips Box -->
               <div class="p-3 bg-sky-950/40 border border-sky-800/60 rounded-xl text-xs space-y-2">
                 <span class="font-bold text-sky-300 flex items-center gap-1">
-                  <i data-lucide="lightbulb" class="w-3.5 h-3.5"></i> コーチ連絡の成功Tips:
+                  <i data-lucide="lightbulb" class="w-3.5 h-3.5"></i> 繧ｳ繝ｼ繝・｣邨｡縺ｮ謌仙粥Tips:
                 </span>
                 <ul class="text-[11px] text-slate-300 space-y-1 list-disc list-inside">
-                  <li>件名に <strong>Transfer (Fall 202X) / ポジション / 氏名 / 映像リンク</strong> を明記</li>
-                  <li>NCAA D1はTransfer Portal登録後に他校コーチと接触するのが原則。現在のコーチへの相談を先に</li>
-                  <li>米国の火曜〜木曜の朝（日本時間の深夜〜早朝）に送信すると開封率UP</li>
-                  <li>ヘッドコーチだけでなく、リクルート担当のアシスタントコーチにもCC</li>
+                  <li>莉ｶ蜷阪↓ <strong>Transfer (Fall 202X) / 繝昴ず繧ｷ繝ｧ繝ｳ / 豌丞錐 / 譏蜒上Μ繝ｳ繧ｯ</strong> 繧呈・險・/li>
+                  <li>NCAA D1縺ｯTransfer Portal逋ｻ骭ｲ蠕後↓莉匁｡繧ｳ繝ｼ繝√→謗･隗ｦ縺吶ｋ縺ｮ縺悟次蜑・ら樟蝨ｨ縺ｮ繧ｳ繝ｼ繝√∈縺ｮ逶ｸ隲・ｒ蜈医↓</li>
+                  <li>邀ｳ蝗ｽ縺ｮ轣ｫ譖懊懈惠譖懊・譛晢ｼ域律譛ｬ譎る俣縺ｮ豺ｱ螟懊懈掠譛晢ｼ峨↓騾∽ｿ｡縺吶ｋ縺ｨ髢句ｰ∫紫UP</li>
+                  <li>繝倥ャ繝峨さ繝ｼ繝√□縺代〒縺ｪ縺上√Μ繧ｯ繝ｫ繝ｼ繝域球蠖薙・繧｢繧ｷ繧ｹ繧ｿ繝ｳ繝医さ繝ｼ繝√↓繧・C</li>
                 </ul>
               </div>
             </div>
@@ -719,27 +704,27 @@
             <div class="lg:col-span-8 bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
               <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                 <span class="text-xs font-bold text-emerald-400 flex items-center gap-1.5">
-                  <i data-lucide="file-check" class="w-4 h-4"></i> 生成された英文メール
+                  <i data-lucide="file-check" class="w-4 h-4"></i> 逕滓・縺輔ｌ縺溯恭譁・Γ繝ｼ繝ｫ
                 </span>
                 <div class="flex items-center gap-2">
                   <button onclick="copyEmailToClipboard()" class="px-3.5 py-1.5 text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white rounded-lg shadow transition flex items-center gap-1">
-                    <i data-lucide="copy" class="w-3.5 h-3.5"></i> コピーする
+                    <i data-lucide="copy" class="w-3.5 h-3.5"></i> 繧ｳ繝斐・縺吶ｋ
                   </button>
                   <button onclick="openMailClient()" class="px-3.5 py-1.5 text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg shadow transition flex items-center gap-1">
-                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i> メーラーで開く
+                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i> 繝｡繝ｼ繝ｩ繝ｼ縺ｧ髢九￥
                   </button>
                 </div>
               </div>
 
               <!-- Subject Line -->
               <div>
-                <label class="text-xs font-semibold text-slate-400 block mb-1">Subject (件名):</label>
+                <label class="text-xs font-semibold text-slate-400 block mb-1">Subject (莉ｶ蜷・:</label>
                 <input type="text" id="email-preview-subject" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-white font-mono">
               </div>
 
               <!-- Body Textarea -->
               <div>
-                <label class="text-xs font-semibold text-slate-400 block mb-1">Body (本文):</label>
+                <label class="text-xs font-semibold text-slate-400 block mb-1">Body (譛ｬ譁・:</label>
                 <textarea id="email-preview-body" rows="18" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-xs text-white font-mono leading-relaxed custom-scrollbar"></textarea>
               </div>
             </div>
@@ -752,18 +737,15 @@
         <div id="tab-roadmap" class="tab-pane hidden space-y-8">
           <div class="border-b border-slate-800 pb-3">
             <h2 class="text-xl font-bold text-white flex items-center gap-2">
-              <i data-lucide="map-pin" class="w-5 h-5 text-sky-400"></i> 編入(3年次)ロードマップ & 規定ガイド
-            </h2>
+              <i data-lucide="map-pin" class="w-5 h-5 text-sky-400"></i> 邱ｨ蜈･(3蟷ｴ谺｡)繝ｭ繝ｼ繝峨・繝・・ & 隕丞ｮ壹ぎ繧､繝・            </h2>
             <p class="text-xs text-slate-400 mt-0.5">
-              大学2年次の終了後に3年次編入するまでのスケジュール(リサーチ→コーチ接触→オファー→編入出願→SEVIS Transfer)と、各ディビジョン（NCAA D1/D2/D3、NAIA）の奨学金・編入ルール。
-            </p>
+              螟ｧ蟄ｦ2蟷ｴ谺｡縺ｮ邨ゆｺ・ｾ後↓3蟷ｴ谺｡邱ｨ蜈･縺吶ｋ縺ｾ縺ｧ縺ｮ繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ(繝ｪ繧ｵ繝ｼ繝≫・繧ｳ繝ｼ繝∵磁隗ｦ竊偵が繝輔ぃ繝ｼ竊堤ｷｨ蜈･蜃ｺ鬘倪・SEVIS Transfer)縺ｨ縲∝推繝・ぅ繝薙ず繝ｧ繝ｳ・・CAA D1/D2/D3縲¨AIA・峨・螂ｨ蟄ｦ驥代・邱ｨ蜈･繝ｫ繝ｼ繝ｫ縲・            </p>
           </div>
 
           <!-- Transfer Interactive Milestones Checklist -->
           <div>
             <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
-              <i data-lucide="list-checks" class="w-4 h-4 text-sky-400"></i> 編入までのステップ・ToDoリスト
-            </h3>
+              <i data-lucide="list-checks" class="w-4 h-4 text-sky-400"></i> 邱ｨ蜈･縺ｾ縺ｧ縺ｮ繧ｹ繝・ャ繝励・ToDo繝ｪ繧ｹ繝・            </h3>
             <div id="roadmap-container">
               <!-- Dynamically populated -->
             </div>
@@ -772,17 +754,16 @@
           <!-- NCAA / NAIA / NJCAA Divisions Comparison Table -->
           <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow">
             <h3 class="text-base font-bold text-white mb-3 flex items-center gap-2">
-              <i data-lucide="award" class="w-4 h-4 text-amber-400"></i> ディビジョン別 奨学金枠・特徴比較
-            </h3>
+              <i data-lucide="award" class="w-4 h-4 text-amber-400"></i> 繝・ぅ繝薙ず繝ｧ繝ｳ蛻･ 螂ｨ蟄ｦ驥第棧繝ｻ迚ｹ蠕ｴ豈碑ｼ・            </h3>
             <div class="overflow-x-auto">
               <table class="w-full text-left border-collapse">
                 <thead>
                   <tr class="border-b border-slate-700 text-xs font-bold text-slate-400 uppercase">
-                    <th class="p-3">ディビジョン</th>
-                    <th class="p-3">男子奨学金枠 (1チーム)</th>
-                    <th class="p-3">サッカー水準</th>
-                    <th class="p-3">学業・成績要件</th>
-                    <th class="p-3">主な特徴</th>
+                    <th class="p-3">繝・ぅ繝薙ず繝ｧ繝ｳ</th>
+                    <th class="p-3">逕ｷ蟄仙･ｨ蟄ｦ驥第棧 (1繝√・繝)</th>
+                    <th class="p-3">繧ｵ繝・き繝ｼ豌ｴ貅・/th>
+                    <th class="p-3">蟄ｦ讌ｭ繝ｻ謌千ｸｾ隕∽ｻｶ</th>
+                    <th class="p-3">荳ｻ縺ｪ迚ｹ蠕ｴ</th>
                   </tr>
                 </thead>
                 <tbody id="rules-divisions-table">
@@ -795,7 +776,7 @@
           <!-- Dos and Don'ts Best Practices -->
           <div>
             <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
-              <i data-lucide="compass" class="w-4 h-4 text-emerald-400"></i> スカウト成功の鉄則 (Do's & Don'ts)
+              <i data-lucide="compass" class="w-4 h-4 text-emerald-400"></i> 繧ｹ繧ｫ繧ｦ繝域・蜉溘・驩・援 (Do's & Don'ts)
             </h3>
             <div id="advice-dos-donts" class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <!-- Dynamically populated -->
@@ -809,21 +790,20 @@
         <div id="tab-calculator" class="tab-pane hidden space-y-6">
           <div class="border-b border-slate-800 pb-3">
             <h2 class="text-xl font-bold text-white flex items-center gap-2">
-              <i data-lucide="calculator" class="w-5 h-5 text-sky-400"></i> 奨学金・自己負担学費シミュレーター
+              <i data-lucide="calculator" class="w-5 h-5 text-sky-400"></i> 螂ｨ蟄ｦ驥代・閾ｪ蟾ｱ雋諡・ｭｦ雋ｻ繧ｷ繝溘Η繝ｬ繝ｼ繧ｿ繝ｼ
             </h2>
             <p class="text-xs text-slate-400 mt-0.5">
-              大学の学費・寮費に対して、スポーツ特待（Athletic Scholarship）や学業奨学金（Merit Aid）を適用した自己負担額を試算します。
-            </p>
+              螟ｧ蟄ｦ縺ｮ蟄ｦ雋ｻ繝ｻ蟇ｮ雋ｻ縺ｫ蟇ｾ縺励※縲√せ繝昴・繝・音蠕・ｼ・thletic Scholarship・峨ｄ蟄ｦ讌ｭ螂ｨ蟄ｦ驥托ｼ・erit Aid・峨ｒ驕ｩ逕ｨ縺励◆閾ｪ蟾ｱ雋諡・｡阪ｒ隧ｦ邂励＠縺ｾ縺吶・            </p>
           </div>
 
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <!-- Left: Inputs (5 cols) -->
             <div class="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
-              <h3 class="text-sm font-bold text-sky-400 border-b border-slate-800 pb-2">学費・奨学金入力</h3>
+              <h3 class="text-sm font-bold text-sky-400 border-b border-slate-800 pb-2">蟄ｦ雋ｻ繝ｻ螂ｨ蟄ｦ驥大・蜉・/h3>
 
               <!-- Tuition -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">年間学費 (Tuition & Fees in USD)</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">蟷ｴ髢灘ｭｦ雋ｻ (Tuition & Fees in USD)</label>
                 <div class="relative">
                   <span class="absolute left-3 top-2 text-slate-400 text-xs">$</span>
                   <input type="number" id="calc-tuition" oninput="updateCalculatorInputs()" value="35000" class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-xs text-white">
@@ -832,7 +812,7 @@
 
               <!-- Room & Board -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">寮費・食費 (Room & Board in USD)</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">蟇ｮ雋ｻ繝ｻ鬟溯ｲｻ (Room & Board in USD)</label>
                 <div class="relative">
                   <span class="absolute left-3 top-2 text-slate-400 text-xs">$</span>
                   <input type="number" id="calc-room" oninput="updateCalculatorInputs()" value="13000" class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-xs text-white">
@@ -841,7 +821,7 @@
 
               <!-- Books & Insurance -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">保険・教科書・諸費 (USD)</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">菫晞匱繝ｻ謨咏ｧ第嶌繝ｻ隲ｸ雋ｻ (USD)</label>
                 <div class="relative">
                   <span class="absolute left-3 top-2 text-slate-400 text-xs">$</span>
                   <input type="number" id="calc-books" oninput="updateCalculatorInputs()" value="3000" class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-xs text-white">
@@ -851,7 +831,7 @@
               <!-- Athletic Scholarship % -->
               <div class="border-t border-slate-800 pt-3">
                 <div class="flex items-center justify-between mb-1">
-                  <label class="text-xs font-bold text-emerald-400">スポーツ特待 奨学金カバー率 (%)</label>
+                  <label class="text-xs font-bold text-emerald-400">繧ｹ繝昴・繝・音蠕・螂ｨ蟄ｦ驥代き繝舌・邇・(%)</label>
                   <div class="flex items-center gap-1">
                     <input type="number" id="calc-athletic-pct" oninput="updateCalculatorInputs()" value="50" min="0" max="100" class="w-16 bg-slate-800 border border-slate-700 rounded p-1 text-xs text-white text-right">
                     <span class="text-xs text-slate-400">%</span>
@@ -859,16 +839,16 @@
                 </div>
                 <input type="range" id="calc-athletic-pct-slider" oninput="syncAthleticSlider(this.value)" min="0" max="100" value="50" class="w-full accent-emerald-500 cursor-pointer">
                 <div class="flex justify-between text-[10px] text-slate-500 mt-0.5">
-                  <span>0% (実費)</span>
-                  <span>50% (ハーフ)</span>
-                  <span>75% (好待遇)</span>
-                  <span>100% (フルスカラシップ)</span>
+                  <span>0% (螳溯ｲｻ)</span>
+                  <span>50% (繝上・繝・</span>
+                  <span>75% (螂ｽ蠕・∞)</span>
+                  <span>100% (繝輔Ν繧ｹ繧ｫ繝ｩ繧ｷ繝・・)</span>
                 </div>
               </div>
 
               <!-- Academic Merit Aid -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">学業特待・返済不要奨学金 (USD/年)</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">蟄ｦ讌ｭ迚ｹ蠕・・霑疲ｸ井ｸ崎ｦ∝･ｨ蟄ｦ驥・(USD/蟷ｴ)</label>
                 <div class="relative">
                   <span class="absolute left-3 top-2 text-slate-400 text-xs">$</span>
                   <input type="number" id="calc-academic" oninput="updateCalculatorInputs()" value="5000" class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-xs text-white">
@@ -877,9 +857,9 @@
 
               <!-- Exchange Rate -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">為替レート (1 USD = 円)</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">轤ｺ譖ｿ繝ｬ繝ｼ繝・(1 USD = 蜀・</label>
                 <div class="relative">
-                  <span class="absolute left-3 top-2 text-slate-400 text-xs">¥</span>
+                  <span class="absolute left-3 top-2 text-slate-400 text-xs">ﾂ･</span>
                   <input type="number" id="calc-exchange-rate" oninput="updateCalculatorInputs()" value="155" class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-xs text-white">
                 </div>
               </div>
@@ -891,46 +871,44 @@
               <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                 <!-- Gross Total -->
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
-                  <span class="text-xs font-bold text-slate-400 uppercase">定価 合計学費</span>
+                  <span class="text-xs font-bold text-slate-400 uppercase">螳壻ｾ｡ 蜷郁ｨ亥ｭｦ雋ｻ</span>
                   <p id="calc-out-gross-usd" class="text-xl font-black text-white mt-1">$51,000</p>
-                  <p id="calc-out-gross-jpy" class="text-xs text-slate-400">¥790.5 万円</p>
+                  <p id="calc-out-gross-jpy" class="text-xs text-slate-400">ﾂ･790.5 荳・・</p>
                 </div>
 
                 <!-- Total Aid -->
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
-                  <span class="text-xs font-bold text-emerald-400 uppercase">奨学金 控除総額</span>
+                  <span class="text-xs font-bold text-emerald-400 uppercase">螂ｨ蟄ｦ驥・謗ｧ髯､邱城｡・/span>
                   <p id="calc-out-aid-usd" class="text-xl font-black text-emerald-400 mt-1">-$29,000</p>
-                  <p id="calc-out-aid-jpy" class="text-xs text-emerald-500">-¥449.5 万円</p>
+                  <p id="calc-out-aid-jpy" class="text-xs text-emerald-500">-ﾂ･449.5 荳・・</p>
                 </div>
 
                 <!-- Net Out of Pocket -->
                 <div class="bg-gradient-to-br from-sky-950 to-slate-900 border border-sky-600/50 rounded-xl p-4">
-                  <span class="text-xs font-black text-sky-400 uppercase">年間 実質自己負担額</span>
+                  <span class="text-xs font-black text-sky-400 uppercase">蟷ｴ髢・螳溯ｳｪ閾ｪ蟾ｱ雋諡・｡・/span>
                   <p id="calc-out-net-usd" class="text-2xl font-black text-white mt-1">$22,000</p>
-                  <p id="calc-out-net-jpy" class="text-xs font-bold text-sky-300">¥341.0 万円 / 年</p>
+                  <p id="calc-out-net-jpy" class="text-xs font-bold text-sky-300">ﾂ･341.0 荳・・ / 蟷ｴ</p>
                 </div>
               </div>
 
               <!-- Visual Proportion Bar -->
               <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-3">
-                <span class="text-xs font-bold text-slate-300 block">費用内訳 & 奨学金カバー比率</span>
+                <span class="text-xs font-bold text-slate-300 block">雋ｻ逕ｨ蜀・ｨｳ & 螂ｨ蟄ｦ驥代き繝舌・豈皮紫</span>
                 <div class="w-full bg-slate-800 h-5 rounded-full overflow-hidden flex border border-slate-700">
                   <div id="calc-bar-aid" class="bg-emerald-500 h-full transition-all duration-300 flex items-center justify-center text-[10px] font-black text-slate-950" style="width: 57%">
-                    奨学金
-                  </div>
+                    螂ｨ蟄ｦ驥・                  </div>
                   <div id="calc-bar-net" class="bg-sky-600 h-full transition-all duration-300 flex items-center justify-center text-[10px] font-black text-white" style="width: 43%">
-                    自己負担
-                  </div>
+                    閾ｪ蟾ｱ雋諡・                  </div>
                 </div>
 
                 <div class="grid grid-cols-2 gap-3 pt-2 text-xs">
                   <div class="p-3 bg-slate-800/60 rounded-lg">
-                    <span class="text-slate-400 block text-[11px]">⚽ スポーツ特待支給額</span>
-                    <span id="calc-out-athletic-val" class="font-bold text-emerald-400 text-sm">$24,000 / 年</span>
+                    <span class="text-slate-400 block text-[11px]">笞ｽ 繧ｹ繝昴・繝・音蠕・髪邨ｦ鬘・/span>
+                    <span id="calc-out-athletic-val" class="font-bold text-emerald-400 text-sm">$24,000 / 蟷ｴ</span>
                   </div>
                   <div class="p-3 bg-slate-800/60 rounded-lg">
-                    <span class="text-slate-400 block text-[11px]">🎓 学業特待・その他</span>
-                    <span id="calc-out-academic-val" class="font-bold text-emerald-400 text-sm">$5,000 / 年</span>
+                    <span class="text-slate-400 block text-[11px]">雌 蟄ｦ讌ｭ迚ｹ蠕・・縺昴・莉・/span>
+                    <span id="calc-out-academic-val" class="font-bold text-emerald-400 text-sm">$5,000 / 蟷ｴ</span>
                   </div>
                 </div>
               </div>
@@ -939,19 +917,16 @@
               <div class="p-4 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-300 space-y-2.5">
                 <div class="flex items-center justify-between">
                   <h4 class="font-bold text-amber-400 flex items-center gap-1.5 text-xs">
-                    <i data-lucide="info" class="w-4 h-4"></i> アメリカ大学サッカーの奨学金制度 & 【2025/2026年〜新ルール解説】
-                  </h4>
-                  <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-bold">2025/2026 最新規定対応</span>
+                    <i data-lucide="info" class="w-4 h-4"></i> 繧｢繝｡繝ｪ繧ｫ螟ｧ蟄ｦ繧ｵ繝・き繝ｼ縺ｮ螂ｨ蟄ｦ驥大宛蠎ｦ & 縲・025/2026蟷ｴ縲懈眠繝ｫ繝ｼ繝ｫ隗｣隱ｬ縲・                  </h4>
+                  <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-bold">2025/2026 譛譁ｰ隕丞ｮ壼ｯｾ蠢・/span>
                 </div>
                 <p class="leading-relaxed text-[11px] text-slate-300">
-                  <strong class="text-white">【NCAA Division 1 の新ルール (House v. NCAA 和解)】</strong><br>
-                  従来の競技別上限（男子9.9枠 / 女子14.0枠）が撤廃され、<span class="text-emerald-400 font-semibold">「ロスター上限28名」かつ「最大28名全員へ奨学金支給可能」</span>へと大幅に枠が拡大されました。強豪校・予算のある大学ではフルスカラシップや高額支給のチャンスが飛躍的に増加しています。<br>
-                  <em>※注意点：</em> チーム総人数が28名に厳格上限化されたため、従来の「ウォークオン（練習生・枠外生）」が削減され、ロスター（部員枠）を勝ち取る競争自体はより高まっています。
-                </p>
+                  <strong class="text-white">縲侵CAA Division 1 縺ｮ譁ｰ繝ｫ繝ｼ繝ｫ (House v. NCAA 蜥瑚ｧ｣)縲・/strong><br>
+                  蠕捺擂縺ｮ遶ｶ謚蛻･荳企剞・育塙蟄・.9譫 / 螂ｳ蟄・4.0譫・峨′謦､蟒・＆繧後・span class="text-emerald-400 font-semibold">縲後Ο繧ｹ繧ｿ繝ｼ荳企剞28蜷阪阪°縺､縲梧怙螟ｧ28蜷榊・蜩｡縺ｸ螂ｨ蟄ｦ驥第髪邨ｦ蜿ｯ閭ｽ縲・/span>縺ｸ縺ｨ螟ｧ蟷・↓譫縺梧僑螟ｧ縺輔ｌ縺ｾ縺励◆縲ょｼｷ雎ｪ譬｡繝ｻ莠育ｮ励・縺ゅｋ螟ｧ蟄ｦ縺ｧ縺ｯ繝輔Ν繧ｹ繧ｫ繝ｩ繧ｷ繝・・繧・ｫ倬｡肴髪邨ｦ縺ｮ繝√Ε繝ｳ繧ｹ縺碁｣幄ｺ咲噪縺ｫ蠅怜刈縺励※縺・∪縺吶・br>
+                  <em>窶ｻ豕ｨ諢冗せ・・/em> 繝√・繝邱丈ｺｺ謨ｰ縺・8蜷阪↓蜴ｳ譬ｼ荳企剞蛹悶＆繧後◆縺溘ａ縲∝ｾ捺擂縺ｮ縲後え繧ｩ繝ｼ繧ｯ繧ｪ繝ｳ・育ｷｴ鄙堤函繝ｻ譫螟也函・峨阪′蜑頑ｸ帙＆繧後√Ο繧ｹ繧ｿ繝ｼ・磯Κ蜩｡譫・峨ｒ蜍昴■蜿悶ｋ遶ｶ莠芽・菴薙・繧医ｊ鬮倥∪縺｣縺ｦ縺・∪縺吶・                </p>
                 <p class="leading-relaxed text-[11px] text-slate-400 border-t border-slate-800 pt-2">
-                  <strong class="text-slate-200">【D2・NAIA・NJCAA の規定 & 学業特待の併給】</strong><br>
-                  NCAA D2（最大9.0枠）やNAIA（最大12.0枠）は従来の分割支給（Equivalency）を継続中。編入では、現在の大学での成績（大学GPA 3.40以上等）を高く保つことで、スポーツ奨学金に加えて<strong class="text-sky-300">「学業特待（Academic Merit Aid）」を合算（併給）</strong>し、自己負担を0〜格安に抑えられる可能性があります（編入生への学業特待の有無・条件は大学ごとに要確認）。
-                </p>
+                  <strong class="text-slate-200">縲織2繝ｻNAIA繝ｻNJCAA 縺ｮ隕丞ｮ・& 蟄ｦ讌ｭ迚ｹ蠕・・菴ｵ邨ｦ縲・/strong><br>
+                  NCAA D2・域怙螟ｧ9.0譫・峨ｄNAIA・域怙螟ｧ12.0譫・峨・蠕捺擂縺ｮ蛻・牡謾ｯ邨ｦ・・quivalency・峨ｒ邯咏ｶ壻ｸｭ縲らｷｨ蜈･縺ｧ縺ｯ縲∫樟蝨ｨ縺ｮ螟ｧ蟄ｦ縺ｧ縺ｮ謌千ｸｾ・亥､ｧ蟄ｦGPA 3.40莉･荳顔ｭ会ｼ峨ｒ鬮倥￥菫昴▽縺薙→縺ｧ縲√せ繝昴・繝・･ｨ蟄ｦ驥代↓蜉縺医※<strong class="text-sky-300">縲悟ｭｦ讌ｭ迚ｹ蠕・ｼ・cademic Merit Aid・峨阪ｒ蜷育ｮ暦ｼ井ｽｵ邨ｦ・・/strong>縺励∬・蟾ｱ雋諡・ｒ0縲懈ｼ螳峨↓謚代∴繧峨ｌ繧句庄閭ｽ諤ｧ縺後≠繧翫∪縺呻ｼ育ｷｨ蜈･逕溘∈縺ｮ蟄ｦ讌ｭ迚ｹ蠕・・譛臥┌繝ｻ譚｡莉ｶ縺ｯ螟ｧ蟄ｦ縺斐→縺ｫ隕∫｢ｺ隱搾ｼ峨・                </p>
               </div>
             </div>
           </div>
@@ -966,7 +941,7 @@
   <!-- ============================================================== -->
   <div id="college-detail-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closeCollegeDetailModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closeCollegeDetailModal()" aria-label="髢峨§繧・ class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <div id="college-detail-content">
@@ -980,30 +955,30 @@
   <!-- ============================================================== -->
   <div id="add-college-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closeAddCollegeModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closeAddCollegeModal()" aria-label="髢峨§繧・ class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
-        <i data-lucide="plus-circle" class="w-5 h-5 text-sky-400"></i> 大学を新規追加
+        <i data-lucide="plus-circle" class="w-5 h-5 text-sky-400"></i> 螟ｧ蟄ｦ繧呈眠隕剰ｿｽ蜉
       </h3>
       <div class="space-y-3">
         <div>
-          <label class="text-xs font-semibold text-slate-300 block mb-1">大学名 *</label>
-          <input type="text" id="newcol-name" placeholder="例: University of Washington" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+          <label class="text-xs font-semibold text-slate-300 block mb-1">螟ｧ蟄ｦ蜷・*</label>
+          <input type="text" id="newcol-name" placeholder="萓・ University of Washington" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
         </div>
         <div class="grid grid-cols-2 gap-2">
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">所在地 (City, State)</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">謇蝨ｨ蝨ｰ (City, State)</label>
             <input type="text" id="newcol-location" placeholder="Seattle, Washington" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">州コード (State)</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">蟾槭さ繝ｼ繝・(State)</label>
             <input type="text" id="newcol-state" placeholder="WA" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
         </div>
         <div class="grid grid-cols-3 gap-2">
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">ディビジョン</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">繝・ぅ繝薙ず繝ｧ繝ｳ</label>
             <select id="newcol-division" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
               <option value="NCAA D1">NCAA D1</option>
               <option value="NCAA D2">NCAA D2</option>
@@ -1014,7 +989,7 @@
             </select>
           </div>
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">地域</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">蝨ｰ蝓・/label>
             <select id="newcol-region" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
               <option value="West">West</option>
               <option value="South">South</option>
@@ -1023,7 +998,7 @@
             </select>
           </div>
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">性別</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">諤ｧ蛻･</label>
             <select id="newcol-gender" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
               <option value="Men">Men</option>
               <option value="Women">Women</option>
@@ -1032,31 +1007,31 @@
         </div>
         <div class="grid grid-cols-2 gap-2">
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">カンファレンス</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">繧ｫ繝ｳ繝輔ぃ繝ｬ繝ｳ繧ｹ</label>
             <input type="text" id="newcol-conference" placeholder="Big Ten, ACC etc." class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">推定年間学費 (USD)</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">謗ｨ螳壼ｹｴ髢灘ｭｦ雋ｻ (USD)</label>
             <input type="number" id="newcol-tuition" placeholder="35000" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
         </div>
         <div class="grid grid-cols-2 gap-2">
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">ヘッドコーチ名</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">繝倥ャ繝峨さ繝ｼ繝∝錐</label>
             <input type="text" id="newcol-coach" placeholder="Coach Name" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">コーチ連絡先メール</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">繧ｳ繝ｼ繝・｣邨｡蜈医Γ繝ｼ繝ｫ</label>
             <input type="email" id="newcol-email" placeholder="coach@univ.edu" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
         </div>
         <div>
-          <label class="text-xs font-semibold text-slate-300 block mb-1">メモ・特徴</label>
-          <textarea id="newcol-notes" rows="2" placeholder="プレースタイル、ロスター状況など" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white"></textarea>
+          <label class="text-xs font-semibold text-slate-300 block mb-1">繝｡繝｢繝ｻ迚ｹ蠕ｴ</label>
+          <textarea id="newcol-notes" rows="2" placeholder="繝励Ξ繝ｼ繧ｹ繧ｿ繧､繝ｫ縲√Ο繧ｹ繧ｿ繝ｼ迥ｶ豕√↑縺ｩ" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white"></textarea>
         </div>
         <div class="pt-3 border-t border-slate-700 flex justify-end gap-2">
-          <button onclick="closeAddCollegeModal()" class="px-4 py-2 text-xs bg-slate-800 hover:bg-slate-700 text-white rounded-lg">キャンセル</button>
-          <button onclick="saveNewCollege()" class="px-4 py-2 text-xs bg-sky-600 hover:bg-sky-500 font-bold text-white rounded-lg shadow">登録する</button>
+          <button onclick="closeAddCollegeModal()" class="px-4 py-2 text-xs bg-slate-800 hover:bg-slate-700 text-white rounded-lg">繧ｭ繝｣繝ｳ繧ｻ繝ｫ</button>
+          <button onclick="saveNewCollege()" class="px-4 py-2 text-xs bg-sky-600 hover:bg-sky-500 font-bold text-white rounded-lg shadow">逋ｻ骭ｲ縺吶ｋ</button>
         </div>
       </div>
     </div>
@@ -1067,7 +1042,7 @@
   <!-- ============================================================== -->
   <div id="pipeline-edit-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closePipelineEditModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closePipelineEditModal()" aria-label="髢峨§繧・ class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <div id="pipeline-edit-content">
@@ -1081,7 +1056,7 @@
   <!-- ============================================================== -->
   <div id="compare-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-5xl w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closeCompareModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closeCompareModal()" aria-label="髢峨§繧・ class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <div id="compare-content"></div>
@@ -1098,7 +1073,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=20261123a"></script>
+  <script src="data.js?v=20261123b"></script>
   <script src="app.js?v=20261123a"></script>
 </body>
 </html>
