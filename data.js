@@ -6557,25 +6557,25 @@ const INITIAL_COLLEGES = [
     "location": "Loretto, Pennsylvania",
     "state": "PA",
     "region": "Northeast",
-    "division": "NCAA D1",
-    "conference": "NEC",
+    "division": "NCAA D3",
+    "conference": "PAC (Presidents' Athletic Conference)",
     "gender": "Men",
-    "mascot": "Red Flash",
+    "mascot": "Red Wolves",
     "headCoach": "Shelby Edwards",
     "coachEmail": "sedwards@francis.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 41200,
     "roomAndBoardUSD": 13900,
-    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "scholarshipMax": "Division III: 運動奨学金なし (学業・ニーズベースのみ) ※2025年入学生は2026-27年度まで運動奨学金が継続",
     "intlFriendlyRating": "High",
     "intlRosterPct": "19% (3/16名)",
-    "notes": "Stokes Soccerplex. Multiple NEC titles with high European pipeline.",
+    "notes": "2026-27年度からNCAA D1(NEC)よりNCAA D3(PAC)へ移行 (2026-27は移行初年度で、D3の全米選手権には出場不可)。2026年にニックネームをRed FlashからRed Wolvesに変更。Stokes Soccerplex。ペンシルベニア州ロレット。",
     "tags": [
-      "NEC",
+      "PAC",
       "Northeast",
-      "Red Flash",
-      "D1 Men's Soccer"
+      "Red Wolves",
+      "D3移行(2026-27)"
     ],
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明1名)",
     "rosterStats": "公式ロスター全16名 / 留学生3名 / MF 5名 (Sr・Gr 1名) / 出身地不明1名",
@@ -6584,8 +6584,6 @@ const INITIAL_COLLEGES = [
     "coachVerified": true,
     "assistantCoach": "Connor Oechslin",
     "assistantCoachEmail": "coechslin@francis.edu",
-    "strengthLevel": 2,
-    "strengthNote": "平均142位 (2025年 160位 / 2024年 123位)",
     "siteUrl": "https://sfuathletics.com/sports/mens-soccer",
     "financialRisk": 1,
     "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
@@ -19515,6 +19513,48 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "division": [
+      "NCAA D1",
+      "NCAA D3"
+    ],
+    "conference": [
+      "NEC",
+      "PAC (Presidents' Athletic Conference)"
+    ],
+    "mascot": [
+      "Red Flash",
+      "Red Wolves"
+    ],
+    "scholarshipMax": [
+      "Max 28 (Roster Limit: 28 / 新ルール)",
+      "Division III: 運動奨学金なし (学業・ニーズベースのみ) ※2025年入学生は2026-27年度まで運動奨学金が継続"
+    ],
+    "notes": [
+      "Stokes Soccerplex. Multiple NEC titles with high European pipeline.",
+      "2026-27年度からNCAA D1(NEC)よりNCAA D3(PAC)へ移行 (2026-27は移行初年度で、D3の全米選手権には出場不可)。2026年にニックネームをRed FlashからRed Wolvesに変更。Stokes Soccerplex。ペンシルベニア州ロレット。"
+    ],
+    "tags": [
+      [
+        "NEC",
+        "Northeast",
+        "Red Flash",
+        "D1 Men's Soccer"
+      ],
+      [
+        "PAC",
+        "Northeast",
+        "Red Wolves",
+        "D3移行(2026-27)"
+      ]
+    ],
+    "strengthLevel": [
+      2,
+      null
+    ],
+    "strengthNote": [
+      "平均142位 (2025年 160位 / 2024年 123位)",
+      null
     ]
   },
   "liulongislandunivers-mens": {

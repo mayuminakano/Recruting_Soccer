@@ -31,7 +31,8 @@ let state = {
     strength: "ALL",
     finRisk: "ALL",
     gender: "ALL",
-    search: ""
+    search: "",
+    sort: "DEFAULT"
   },
   selectedCollegeForEmail: null,
   selectedTemplateId: "intro-video",
@@ -551,6 +552,14 @@ function setupEventListeners() {
   if (genderFilter) {
     genderFilter.addEventListener("change", (e) => {
       state.filters.gender = e.target.value;
+      renderExplorer();
+    });
+  }
+
+  const sortSelect = document.getElementById("sort-college");
+  if (sortSelect) {
+    sortSelect.addEventListener("change", (e) => {
+      state.filters.sort = e.target.value;
       renderExplorer();
     });
   }
@@ -1200,7 +1209,7 @@ function renderExplorer() {
   if (!container) return;
 
   renderCompareBar();
-  const { division, region, strength, finRisk, gender, search } = state.filters;
+  const { division, region, strength, finRisk, gender, search, sort } = state.filters;
 
   const filtered = state.colleges.filter(col => {
     if (division !== "ALL" && col.division !== division) return false;
@@ -1235,8 +1244,27 @@ function renderExplorer() {
     return true;
   });
 
-  // Sort colleges: Pipeline colleges come first (prioritized by recruiting stage), then alphabetical
-  filtered.sort((a, b) => {
+  // Cost sort: the chosen cost ascending/descending; colleges with no tuition on file (0 / missing) always go last
+  const costSort = {
+    TUITION_ASC: { cost: c => c.annualTuitionUSD, dir: 1 },
+    TUITION_DESC: { cost: c => c.annualTuitionUSD, dir: -1 },
+    TOTAL_ASC: { cost: c => c.annualTuitionUSD + (c.roomAndBoardUSD || 0), dir: 1 },
+    TOTAL_DESC: { cost: c => c.annualTuitionUSD + (c.roomAndBoardUSD || 0), dir: -1 }
+  }[sort];
+  if (costSort) {
+    const known = c => Number.isFinite(c.annualTuitionUSD) && c.annualTuitionUSD > 0;
+    filtered.sort((a, b) => {
+      if (known(a) !== known(b)) return known(a) ? -1 : 1;
+      if (known(a)) {
+        const diff = (costSort.cost(a) - costSort.cost(b)) * costSort.dir;
+        if (diff !== 0) return diff;
+      }
+      return a.name.localeCompare(b.name);
+    });
+  }
+
+  // Default sort: Pipeline colleges come first (prioritized by recruiting stage), then alphabetical
+  if (!costSort) filtered.sort((a, b) => {
     const aPipe = state.pipeline.find(p => p.collegeId === a.id);
     const bPipe = state.pipeline.find(p => p.collegeId === b.id);
 
@@ -1268,7 +1296,7 @@ function renderExplorer() {
   if (countEl) {
     countEl.innerHTML = `${filtered.length} 校がヒット ${
       pipelineCountInFiltered > 0
-        ? `<span class="ml-1.5 px-2 py-0.5 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30 font-bold text-[10px]">⭐ パイプライン中 ${pipelineCountInFiltered} 校を先頭表示</span>`
+        ? `<span class="ml-1.5 px-2 py-0.5 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30 font-bold text-[10px]">⭐ パイプライン中 ${pipelineCountInFiltered} 校${costSort ? "" : "を先頭表示"}</span>`
         : ''
     }`;
   }
@@ -1336,6 +1364,14 @@ function renderExplorer() {
             <div>
               <span class="text-slate-500 block">Estimated Tuition</span>
               <span class="font-semibold text-emerald-400">${col.annualTuitionUSD ? "$" + col.annualTuitionUSD.toLocaleString() + "/yr" : "要確認"}</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Room &amp; Board (寮費・食費)</span>
+              <span class="font-semibold text-emerald-400">${col.roomAndBoardUSD ? "$" + col.roomAndBoardUSD.toLocaleString() + "/yr" : "要確認"}</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">学費＋寮費 合計</span>
+              <span class="font-semibold text-emerald-300">${col.annualTuitionUSD ? "$" + (col.annualTuitionUSD + (col.roomAndBoardUSD || 0)).toLocaleString() + "/yr" + (col.roomAndBoardUSD ? "" : " <span class=\"text-slate-500 font-normal\">(寮費除く)</span>") : "要確認"}</span>
             </div>
             <div>
               <span class="text-slate-500 block">Target GPA / TOEFL</span>
