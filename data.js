@@ -1153,8 +1153,8 @@ const INITIAL_COLLEGES = [
     "conference": "Big East",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "Paul Snape",
-    "coachEmail": "butlersoccer@butler.edu",
+    "headCoach": "Ian Sarachan",
+    "coachEmail": "isarachan@butler.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 46280,
@@ -1177,7 +1177,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均138位 (2026年 109位 / 2025年 159位 / 2024年 147位)",
     "siteUrl": "https://butlersports.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "xavieruniversity-mens",
@@ -1264,7 +1265,7 @@ const INITIAL_COLLEGES = [
     "conference": "Big East",
     "gender": "Men",
     "mascot": "Golden Eagles",
-    "headCoach": "Louis Bennett",
+    "headCoach": "David Korn",
     "coachEmail": "marquettesoccer@marquette.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -1288,7 +1289,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均102位 (2026年 47位 / 2025年 131位 / 2024年 128位)",
     "siteUrl": "https://gomarquette.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "villanovauniversity-mens",
@@ -1591,8 +1593,8 @@ const INITIAL_COLLEGES = [
     "conference": "Sun Belt",
     "gender": "Men",
     "mascot": "Chanticleers",
-    "headCoach": "Shaun Docking",
-    "coachEmail": "ccusoccer@coastal.edu",
+    "headCoach": "Adam Perron",
+    "coachEmail": "aperron@coastal.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 29870,
@@ -1613,7 +1615,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Coastal+Carolina+University+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均117位 (2026年 66位 / 2025年 153位 / 2024年 133位)",
-    "siteUrl": "https://goccusports.com/sports/mens-soccer"
+    "siteUrl": "https://goccusports.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "olddominionuniversit-mens",
@@ -1939,7 +1942,7 @@ const INITIAL_COLLEGES = [
     "conference": "American Athletic",
     "gender": "Men",
     "mascot": "Owls",
-    "headCoach": "Brian Rowland",
+    "headCoach": "Bryan Green",
     "coachEmail": "templesoccer@temple.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -1963,7 +1966,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均161位 (2026年 190位 / 2025年 181位 / 2024年 111位)",
     "siteUrl": "https://owlsports.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "uabunivofalabamabirm-mens",
@@ -2119,7 +2123,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Crimson",
     "headCoach": "Josh Shapiro",
-    "coachEmail": "harvardsoccer@fas.harvard.edu",
+    "coachEmail": "msoccer@fas.harvard.edu",
     "stadium": "Jordan Field",
     "targetGPA": 3.85,
     "minTOEFL": 100,
@@ -2143,7 +2147,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均109位 (2026年 107位 / 2025年 65位 / 2024年 155位)",
     "siteUrl": "https://news.harvard.edu/gazette/story/2002/09/mens-soccer-dominates-hartford",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "yaleuniversity-mens",
@@ -2264,7 +2269,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Lions",
     "headCoach": "Michael Casper",
-    "coachEmail": "columbiasoccer@columbia.edu",
+    "coachEmail": "columbiamsoccer@gmail.com",
     "stadium": "Rocco B. Commisso Stadium",
     "targetGPA": 3.7,
     "minTOEFL": 100,
@@ -2288,7 +2293,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均147位 (2026年 117位 / 2025年 120位 / 2024年 204位)",
     "siteUrl": "https://www.columbiaspectator.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "ucsantabarbaraucsb-mens",
@@ -2597,8 +2603,8 @@ const INITIAL_COLLEGES = [
     "conference": "Big West",
     "gender": "Men",
     "mascot": "Hornets",
-    "headCoach": "Michael Linenberger",
-    "coachEmail": "hornetssoccer@csus.edu",
+    "headCoach": "Matt McDougall (暫定)",
+    "coachEmail": "mmcdougall@csus.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 19800,
@@ -2621,7 +2627,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "mcdougall@csus.edu",
     "strengthLevel": 1,
     "strengthNote": "平均169位 (2026年 175位 / 2025年 195位 / 2024年 138位)",
-    "siteUrl": "https://hornetsports.com/sports/mens-soccer"
+    "siteUrl": "https://hornetsports.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "calstatebakersfield-mens",
@@ -2633,7 +2640,7 @@ const INITIAL_COLLEGES = [
     "conference": "Big West",
     "gender": "Men",
     "mascot": "Roadrunners",
-    "headCoach": "Adam Buseck",
+    "headCoach": "Adam Grant",
     "coachEmail": "runnersoccer@csub.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
@@ -2657,7 +2664,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "cdeluna@csub.edu",
     "strengthLevel": 2,
     "strengthNote": "平均115位 (2026年 65位 / 2025年 178位 / 2024年 103位)",
-    "siteUrl": "https://gorunners.com/sports/mens-soccer"
+    "siteUrl": "https://gorunners.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "universityofportland-mens",
@@ -3156,7 +3164,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Wildcats",
     "headCoach": "Mike Babst",
-    "coachEmail": "davidsonsoccer@davidson.edu",
+    "coachEmail": "mibabst@davidson.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 58900,
@@ -3179,7 +3187,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均74位 (2026年 93位 / 2025年 52位 / 2024年 78位)",
     "siteUrl": "https://davidsonwildcats.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "duquesneuniversity-mens",
@@ -3228,7 +3237,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Patriots",
     "headCoach": "Rich Costanzo",
-    "coachEmail": "masonsoccer@gmu.edu",
+    "coachEmail": "rcostanz@gmu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 37900,
@@ -3249,7 +3258,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=George+Mason+University+Soccer+ID+Camp",
     "strengthLevel": 4,
     "strengthNote": "平均67位 (2026年 83位 / 2025年 78位 / 2024年 41位)",
-    "siteUrl": "https://gomason.com/sports/mens-soccer"
+    "siteUrl": "https://gomason.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "georgewashingtongw-mens",
@@ -3371,8 +3381,8 @@ const INITIAL_COLLEGES = [
     "conference": "Atlantic 10",
     "gender": "Men",
     "mascot": "Hawks",
-    "headCoach": "Don D'Ambra",
-    "coachEmail": "hawkssoccer@sju.edu",
+    "headCoach": "Tim Mulqueen",
+    "coachEmail": "tmulqueen@sju.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 51200,
@@ -3395,7 +3405,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均159位 (2026年 149位 / 2025年 142位 / 2024年 187位)",
     "siteUrl": "https://sjuhawks.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "stbonaventureunivers-mens",
@@ -3407,7 +3418,7 @@ const INITIAL_COLLEGES = [
     "conference": "Atlantic 10",
     "gender": "Men",
     "mascot": "Bonnies",
-    "headCoach": "Kwame Oduro",
+    "headCoach": "Mick Giordano",
     "coachEmail": "bonniessoccer@sbu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -3431,7 +3442,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均159位 (2026年 150位 / 2025年 192位 / 2024年 135位)",
     "siteUrl": "https://gobonnies.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "hofstrauniversity-mens",
@@ -3443,8 +3455,8 @@ const INITIAL_COLLEGES = [
     "conference": "CAA",
     "gender": "Men",
     "mascot": "Pride",
-    "headCoach": "Richard Nuttall",
-    "coachEmail": "hofstrasoccer@hofstra.edu",
+    "headCoach": "Stephen Roche",
+    "coachEmail": "stephen.roche@hofstra.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 54200,
@@ -3467,7 +3479,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均20位 (2026年 42位 / 2025年 13位 / 2024年 5位)",
     "siteUrl": "https://gohofstra.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "uncwilmingtonuncw-mens",
@@ -3795,8 +3808,8 @@ const INITIAL_COLLEGES = [
     "conference": "CAA",
     "gender": "Men",
     "mascot": "Huskies",
-    "headCoach": "Rich Weinrebe",
-    "coachEmail": "northeasternsoccer@northeastern.edu",
+    "headCoach": "Jeremy Bonomo",
+    "coachEmail": "j.bonomo@northeastern.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 60500,
@@ -3819,7 +3832,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均143位 (2026年 139位 / 2025年 141位 / 2024年 148位)",
     "siteUrl": "https://nuhuskies.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "newhampshireunh-mens",
@@ -4363,8 +4377,8 @@ const INITIAL_COLLEGES = [
     "conference": "Missouri Valley",
     "gender": "Men",
     "mascot": "Braves",
-    "headCoach": "Jim DeRose",
-    "coachEmail": "bravessoccer@bradley.edu",
+    "headCoach": "Tim Regan",
+    "coachEmail": "tregan@fsmail.bradley.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 38900,
@@ -4387,7 +4401,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均173位 (2026年 196位 / 2025年 185位 / 2024年 137位)",
     "siteUrl": "https://bradleybraves.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "northernillinoisniu-mens",
@@ -4541,7 +4556,7 @@ const INITIAL_COLLEGES = [
     "conference": "WAC",
     "gender": "Men",
     "mascot": "Spartans",
-    "headCoach": "Simon Tobin",
+    "headCoach": "Jesus Sanchez (暫定)",
     "coachEmail": "sjsusoccer@sjsu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
@@ -4565,7 +4580,8 @@ const INITIAL_COLLEGES = [
     "assistantCoachEmail": "jesus.sanchez@sjsu.edu",
     "strengthLevel": 2,
     "strengthNote": "平均123位 (2026年 170位 / 2025年 51位 / 2024年 149位)",
-    "siteUrl": "https://sjsuspartans.com/sports/mens-soccer"
+    "siteUrl": "https://sjsuspartans.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "unlv-mens",
@@ -4958,8 +4974,8 @@ const INITIAL_COLLEGES = [
     "conference": "Summit League",
     "gender": "Men",
     "mascot": "Leathernecks",
-    "headCoach": "Eric Johnson",
-    "coachEmail": "wiusoccer@wiu.edu",
+    "headCoach": "Kooten Johnson",
+    "coachEmail": "kl-johnson5@wiu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 14900,
@@ -4979,7 +4995,9 @@ const INITIAL_COLLEGES = [
     "questionnaireUrl": "https://www.google.com/search?q=Western+Illinois+(WIU)+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Western+Illinois+(WIU)+Soccer+ID+Camp",
     "strengthLevel": 1,
-    "strengthNote": "平均199位 (2026年 207位 / 2025年 189位 / 2024年 200位)"
+    "strengthNote": "平均199位 (2026年 207位 / 2025年 189位 / 2024年 200位)",
+    "coachVerified": true,
+    "assistantCoach": "Josh Reddy (Graduate Assistant)"
   },
   {
     "id": "bostonuniversitybu-mens",
@@ -5460,7 +5478,7 @@ const INITIAL_COLLEGES = [
     "gender": "Men",
     "mascot": "Titans",
     "headCoach": "Nate Kopunek",
-    "coachEmail": "titanssoccer@udmercy.edu",
+    "coachEmail": "kopunent@udmercy.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 32800,
@@ -5483,7 +5501,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均180位 (2026年 186位 / 2025年 183位 / 2024年 170位)",
     "siteUrl": "https://detroittitans.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "uw-greenbay-mens",
@@ -5697,8 +5716,8 @@ const INITIAL_COLLEGES = [
     "conference": "SoCon",
     "gender": "Men",
     "mascot": "Paladins",
-    "headCoach": "Doug Allison",
-    "coachEmail": "paladinsoccer@furman.edu",
+    "headCoach": "Brandon Tucker",
+    "coachEmail": "Brandon.Tucker@Furman.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 55800,
@@ -5721,7 +5740,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均48位 (2026年 67位 / 2025年 14位 / 2024年 63位)",
     "siteUrl": "https://furmanpaladins.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "merceruniversity-mens",
@@ -5768,8 +5788,8 @@ const INITIAL_COLLEGES = [
     "conference": "SoCon",
     "gender": "Men",
     "mascot": "Buccaneers",
-    "headCoach": "David Simonsen",
-    "coachEmail": "etsusoccer@etsu.edu",
+    "headCoach": "Allen Vital",
+    "coachEmail": "vitala1@etsu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 28900,
@@ -5790,7 +5810,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=East+Tennessee+State+(ETSU)+Soccer+ID+Camp",
     "strengthLevel": 2,
     "strengthNote": "平均144位 (2026年 123位 / 2025年 203位 / 2024年 106位)",
-    "siteUrl": "https://etsubucs.com/sports/mens-soccer"
+    "siteUrl": "https://etsubucs.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "woffordcollege-mens",
@@ -5989,8 +6010,8 @@ const INITIAL_COLLEGES = [
     "conference": "ASUN",
     "gender": "Men",
     "mascot": "Knights",
-    "headCoach": "Tim Chastonay",
-    "coachEmail": "knightsoccer@bellarmine.edu",
+    "headCoach": "Matt Cannady",
+    "coachEmail": "mcannady@bellarmine.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 45800,
@@ -6013,7 +6034,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均151位 (2026年 152位 / 2025年 114位 / 2024年 188位)",
     "siteUrl": "https://athletics.bellarmine.edu/sports/mens-soccer",
     "financialRisk": 2,
-    "financialNote": "運営収支がやや赤字(収入が支出の90%)、純資産が3年で16%減、授業料収入への依存73% / IPEDS 2020-21～2022-23"
+    "financialNote": "運営収支がやや赤字(収入が支出の90%)、純資産が3年で16%減、授業料収入への依存73% / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "centralarkansasuca-mens",
@@ -6376,8 +6398,8 @@ const INITIAL_COLLEGES = [
     "conference": "MAAC",
     "gender": "Men",
     "mascot": "Jaspers",
-    "headCoach": "Jorden Scott",
-    "coachEmail": "jaspersoccer@manhattan.edu",
+    "headCoach": "Tom Giovatto",
+    "coachEmail": "tgiovatto01@manhattan.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 48900,
@@ -6400,7 +6422,8 @@ const INITIAL_COLLEGES = [
     "strengthNote": "平均175位 (2026年 193位 / 2025年 172位 / 2024年 160位)",
     "siteUrl": "https://gojaspers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "mountstmarys-mens",
@@ -6730,7 +6753,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Central+Connecticut+State+(CCSU)+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均199位 (2026年 178位 / 2025年 213位 / 2024年 207位)",
-    "siteUrl": "https://www.ccsubluedevils.com/sports/msoc/index"
+    "siteUrl": "https://www.ccsubluedevils.com/sports/msoc/index",
+    "coachVerified": true
   },
   {
     "id": "lemoynecollege-mens",
@@ -7031,8 +7055,8 @@ const INITIAL_COLLEGES = [
     "conference": "OVC",
     "gender": "Men",
     "mascot": "Panthers",
-    "headCoach": "Josh Oakley",
-    "coachEmail": "eiusoccer@eiu.edu",
+    "headCoach": "Ruy Vaz",
+    "coachEmail": "rrvazfilho@eiu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 15800,
@@ -7053,7 +7077,10 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Eastern+Illinois+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均193位 (2026年 201位 / 2025年 167位 / 2024年 210位)",
-    "siteUrl": "https://eiupanthers.com/sports/mens-soccer"
+    "siteUrl": "https://eiupanthers.com/sports/mens-soccer",
+    "coachVerified": true,
+    "assistantCoach": "Andre Cavichione",
+    "assistantCoachEmail": "acavichione@eiu.edu"
   },
   {
     "id": "southernindianausi-mens",
@@ -7134,8 +7161,8 @@ const INITIAL_COLLEGES = [
     "conference": "Big South",
     "gender": "Men",
     "mascot": "Eagles",
-    "headCoach": "Daniel Ridenhour",
-    "coachEmail": "eaglessoccer@winthrop.edu",
+    "headCoach": "Dale Parker",
+    "coachEmail": "parkerdg@winthrop.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
     "annualTuitionUSD": 30500,
@@ -7156,7 +7183,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Winthrop+University+Soccer+ID+Camp",
     "strengthLevel": 1,
     "strengthNote": "平均181位 (2026年 151位 / 2025年 210位 / 2024年 182位)",
-    "siteUrl": "https://winthropeagles.com/sports/mens-soccer"
+    "siteUrl": "https://winthropeagles.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "gardner-webbuniversi-mens",
@@ -7659,8 +7687,8 @@ const INITIAL_COLLEGES = [
     "conference": "UAA",
     "gender": "Men",
     "mascot": "Maroons",
-    "headCoach": "Pat Flinn",
-    "coachEmail": "pflinn@uchicago.edu",
+    "headCoach": "Phillip Kroft",
+    "coachEmail": "menssoccer@uchicago.edu",
     "annualTuitionUSD": 65619,
     "roomAndBoardUSD": 18700,
     "scholarshipMax": "Need-based Aid Only (100% need met)",
@@ -7678,7 +7706,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+Chicago+Soccer+ID+Camp",
     "siteUrl": "https://athletics.uchicago.edu/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "messiah-mens",
@@ -8397,8 +8426,8 @@ const INITIAL_COLLEGES = [
     "conference": "SAC",
     "gender": "Men",
     "mascot": "Bears",
-    "headCoach": "Carlos Rubio",
-    "coachEmail": "carlos.rubio@lr.edu",
+    "headCoach": "Jorge Morales (暫定)",
+    "coachEmail": "",
     "assistantCoach": "Albi Ndrenika",
     "assistantCoachEmail": "soccer@lr.edu",
     "annualTuitionUSD": 42500,
@@ -8419,7 +8448,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://lrbearssoccercamps.com/",
     "siteUrl": "https://lrbears.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "rollins-mens",
@@ -8978,8 +9008,8 @@ const INITIAL_COLLEGES = [
     "conference": "The Sun",
     "gender": "Men",
     "mascot": "Fire",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Gabriel Sitibaldi",
+    "coachEmail": "gpsitibaldi@seu.edu",
     "annualTuitionUSD": 28000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -8998,7 +9028,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Southeastern+University+Soccer+ID+Camp",
     "siteUrl": "https://fire.seu.edu/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "warner-mens",
@@ -9010,8 +9041,8 @@ const INITIAL_COLLEGES = [
     "conference": "The Sun",
     "gender": "Men",
     "mascot": "Royals",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Drew Stacey",
+    "coachEmail": "drew.stacey@warner.edu",
     "annualTuitionUSD": 24000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9030,7 +9061,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Warner+University+Soccer+ID+Camp",
     "siteUrl": "https://warnerroyals.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "avemaria-mens",
@@ -9073,7 +9105,7 @@ const INITIAL_COLLEGES = [
     "conference": "The Sun",
     "gender": "Men",
     "mascot": "Lions",
-    "headCoach": "",
+    "headCoach": "David Martinez",
     "coachEmail": "",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 10000,
@@ -9093,7 +9125,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Florida+Memorial+University+Soccer+ID+Camp",
     "siteUrl": "https://athletics.fmu.edu/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "georgiagwinnett-mens",
@@ -9105,8 +9138,8 @@ const INITIAL_COLLEGES = [
     "conference": "The Sun",
     "gender": "Men",
     "mascot": "Grizzlies",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Steve DeCou",
+    "coachEmail": "sdecou@ggc.edu",
     "annualTuitionUSD": 10000,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9124,7 +9157,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Georgia+Gwinnett+College+Soccer+ID+Camp",
-    "siteUrl": "https://ggcathletics.com/sports/mens-soccer"
+    "siteUrl": "https://ggcathletics.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "thomasuniversity-mens",
@@ -9136,8 +9170,8 @@ const INITIAL_COLLEGES = [
     "conference": "The Sun",
     "gender": "Men",
     "mascot": "Night Hawks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Billy Jeffery",
+    "coachEmail": "wjeffery@thomasu.edu",
     "annualTuitionUSD": 21000,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9156,7 +9190,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Thomas+University+Soccer+ID+Camp",
     "siteUrl": "https://tunighthawks.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "pointuniversity-mens",
@@ -9199,8 +9234,8 @@ const INITIAL_COLLEGES = [
     "conference": "Mid-South",
     "gender": "Men",
     "mascot": "Patriots",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Paulo Neto",
+    "coachEmail": "paulo.neto@ucumberlands.edu",
     "annualTuitionUSD": 12500,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9220,7 +9255,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+the+Cumberlands+Soccer+ID+Camp",
     "siteUrl": "https://cumberlandspatriots.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "cumberlanduniversity-mens",
@@ -9232,8 +9268,8 @@ const INITIAL_COLLEGES = [
     "conference": "Mid-South",
     "gender": "Men",
     "mascot": "Phoenix",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Brian Davies",
+    "coachEmail": "bdavies@cumberland.edu",
     "annualTuitionUSD": 28000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9253,7 +9289,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Cumberland+University+Soccer+ID+Camp",
     "siteUrl": "https://gocumberlandathletics.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "campbellsville-mens",
@@ -9265,8 +9302,8 @@ const INITIAL_COLLEGES = [
     "conference": "Mid-South",
     "gender": "Men",
     "mascot": "Tigers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Drew Sin",
+    "coachEmail": "dwsin@campbellsville.edu",
     "annualTuitionUSD": 27000,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9285,7 +9322,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Campbellsville+University+Soccer+ID+Camp",
     "siteUrl": "https://campbellsvilletigers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "georgetowncollege-mens",
@@ -9297,8 +9335,8 @@ const INITIAL_COLLEGES = [
     "conference": "Mid-South",
     "gender": "Men",
     "mascot": "Tigers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Louis Jones",
+    "coachEmail": "louis_jones@georgetowncollege.edu",
     "annualTuitionUSD": 32000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9317,7 +9355,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Georgetown+College+Soccer+ID+Camp",
     "siteUrl": "https://www.georgetowncollegeathletics.com/sports/msoc/index",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "faulkner-mens",
@@ -9399,8 +9438,8 @@ const INITIAL_COLLEGES = [
     "conference": "Appalachian Athletic",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Dave Baisden",
+    "coachEmail": "dbaisden@tnwesleyan.edu",
     "annualTuitionUSD": 27000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9419,7 +9458,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Tennessee+Wesleyan+University+Soccer+ID+Camp",
     "siteUrl": "https://www.twbulldogs.com/sports/msoc/index",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "reinhardt-mens",
@@ -9462,8 +9502,8 @@ const INITIAL_COLLEGES = [
     "conference": "Sooner Athletic",
     "gender": "Men",
     "mascot": "Rams",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Matt Pitcock",
+    "coachEmail": "pitcock@txwes.edu",
     "annualTuitionUSD": 30000,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9482,7 +9522,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Texas+Wesleyan+University+Soccer+ID+Camp",
     "siteUrl": "https://ramsports.net/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "oklahomacity-mens",
@@ -9561,8 +9602,8 @@ const INITIAL_COLLEGES = [
     "conference": "Heart of America",
     "gender": "Men",
     "mascot": "Ravens",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Rob Herringer",
+    "coachEmail": "rherringer@benedictine.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9581,7 +9622,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Benedictine+College+Soccer+ID+Camp",
     "siteUrl": "https://ravenathletics.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "baker-mens",
@@ -9593,8 +9635,8 @@ const INITIAL_COLLEGES = [
     "conference": "Heart of America",
     "gender": "Men",
     "mascot": "Wildcats",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Nick Aguilar",
+    "coachEmail": "nick.aguilar@bakeru.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9614,7 +9656,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Baker+University+Soccer+ID+Camp",
     "siteUrl": "https://www.bakerwildcats.com/sports/msoc/index",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "avila-mens",
@@ -9689,8 +9732,8 @@ const INITIAL_COLLEGES = [
     "conference": "Crossroads League",
     "gender": "Men",
     "mascot": "Wildcats",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Matt Reeb",
+    "coachEmail": "matt.reeb@indwes.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -9710,7 +9753,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Indiana+Wesleyan+University+Soccer+ID+Camp",
     "siteUrl": "https://iwuwildcats.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "pikeville-mens",
@@ -9753,8 +9797,8 @@ const INITIAL_COLLEGES = [
     "conference": "要確認 (旧NAIA River States → NCAA D2 移行)",
     "gender": "Men",
     "mascot": "Bears",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Stan Rodrigues",
+    "coachEmail": "srodrigues@shawnee.edu",
     "annualTuitionUSD": 10000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -9771,7 +9815,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Shawnee+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Shawnee+State+University+Soccer+ID+Camp",
-    "siteUrl": "https://ssubears.com/sports/mens-soccer"
+    "siteUrl": "https://ssubears.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "westmont-mens",
@@ -9915,8 +9960,8 @@ const INITIAL_COLLEGES = [
     "conference": "Sunshine State",
     "gender": "Men",
     "mascot": "Sharks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Matt McArthur",
+    "coachEmail": "mmcarthu@nova.edu",
     "annualTuitionUSD": 32000,
     "roomAndBoardUSD": 15000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -9935,7 +9980,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Nova+Southeastern+University+Soccer+ID+Camp",
     "siteUrl": "https://nsusharks.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "floridasouthern-mens",
@@ -9947,7 +9993,7 @@ const INITIAL_COLLEGES = [
     "conference": "Sunshine State",
     "gender": "Men",
     "mascot": "Moccasins",
-    "headCoach": "",
+    "headCoach": "Ashley Holmes",
     "coachEmail": "",
     "annualTuitionUSD": 40000,
     "roomAndBoardUSD": 14000,
@@ -9967,7 +10013,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Florida+Southern+College+Soccer+ID+Camp",
     "siteUrl": "https://fscmocs.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "eckerd-mens",
@@ -10010,8 +10057,8 @@ const INITIAL_COLLEGES = [
     "conference": "Sunshine State",
     "gender": "Men",
     "mascot": "Saints",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Thomas Coombes",
+    "coachEmail": "tcoombes@flagler.edu",
     "annualTuitionUSD": 22000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10030,7 +10077,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Flagler+College+Soccer+ID+Camp",
     "siteUrl": "https://flaglerathletics.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "westflorida-mens",
@@ -10042,8 +10090,8 @@ const INITIAL_COLLEGES = [
     "conference": "Gulf South",
     "gender": "Men",
     "mascot": "Argonauts",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Bill Elliott",
+    "coachEmail": "belliot@uwf.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 10500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10060,7 +10108,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全30名 / 留学生9名 / MF 6名 (Sr・Gr 2名) / 出身地不明2名",
     "questionnaireUrl": "https://www.google.com/search?q=University+of+West+Florida+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=University+of+West+Florida+Soccer+ID+Camp",
-    "siteUrl": "https://goargos.com/sports/mens-soccer"
+    "siteUrl": "https://goargos.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "leeuniversity-mens",
@@ -10103,8 +10152,8 @@ const INITIAL_COLLEGES = [
     "conference": "Gulf South",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Steven Cox",
+    "coachEmail": "scox@uu.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10123,7 +10172,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Union+University+Soccer+ID+Camp",
     "siteUrl": "https://uuathletics.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "valdostastate-mens",
@@ -10319,8 +10369,8 @@ const INITIAL_COLLEGES = [
     "conference": "Conference Carolinas",
     "gender": "Men",
     "mascot": "Crusaders",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Pat Kibler",
+    "coachEmail": "patrickkibler@bac.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10339,7 +10389,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Belmont+Abbey+College+Soccer+ID+Camp",
     "siteUrl": "https://abbeyathletics.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "mountolive-mens",
@@ -10351,8 +10402,8 @@ const INITIAL_COLLEGES = [
     "conference": "Conference Carolinas",
     "gender": "Men",
     "mascot": "Trojans",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Ian Spooner",
+    "coachEmail": "ispooner@umo.edu",
     "annualTuitionUSD": 22000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10371,7 +10422,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+Mount+Olive+Soccer+ID+Camp",
     "siteUrl": "https://umotrojans.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "catawba-mens",
@@ -10383,8 +10435,8 @@ const INITIAL_COLLEGES = [
     "conference": "South Atlantic",
     "gender": "Men",
     "mascot": "Indians",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Alex Morais",
+    "coachEmail": "amorais@catawba.edu",
     "annualTuitionUSD": 38000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10403,7 +10455,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Catawba+College+Soccer+ID+Camp",
     "siteUrl": "https://catawbaathletics.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "carsonnewman-mens",
@@ -10577,8 +10630,8 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Flyers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Evan Fiffles",
+    "coachEmail": "fiffleev@lewisu.edu",
     "annualTuitionUSD": 38000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10597,7 +10650,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lewis+University+Soccer+ID+Camp",
     "siteUrl": "https://lewisflyers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "drury-mens",
@@ -10609,8 +10663,8 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Panthers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Ben Taylor",
+    "coachEmail": "btaylor03@drury.edu",
     "annualTuitionUSD": 30000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10629,7 +10683,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Drury+University+Soccer+ID+Camp",
     "siteUrl": "https://drurypanthers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "rockhurst-mens",
@@ -10641,8 +10696,8 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Hawks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Tony Tocco",
+    "coachEmail": "anthony.tocco@rockhurst.edu",
     "annualTuitionUSD": 40000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10661,7 +10716,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Rockhurst+University+Soccer+ID+Camp",
     "siteUrl": "https://rockhursthawks.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "quincy-mens",
@@ -10673,8 +10729,8 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Hawks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Mike Carpenter",
+    "coachEmail": "carpemi@quincy.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10693,7 +10749,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Quincy+University+Soccer+ID+Camp",
     "siteUrl": "https://quhawks.com/sports/mens-soccer",
     "financialRisk": 3,
-    "financialNote": "運営収支がやや赤字(収入が支出の92%)、純資産が支出の0.5年分しかない、純資産が3年で24%減、負債が総資産の73% / IPEDS 2020-21～2022-23"
+    "financialNote": "運営収支がやや赤字(収入が支出の92%)、純資産が支出の0.5年分しかない、純資産が3年で24%減、負債が総資産の73% / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "trumanstate-mens",
@@ -10705,8 +10762,8 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Duke Cochran",
+    "coachEmail": "dcochran@truman.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10723,7 +10780,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全38名 / 留学生0名 / MF 16名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Truman+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Truman+State+University+Soccer+ID+Camp",
-    "siteUrl": "https://trumanbulldogs.com/sports/mens-soccer"
+    "siteUrl": "https://trumanbulldogs.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "missouriST-mens",
@@ -10765,8 +10823,8 @@ const INITIAL_COLLEGES = [
     "conference": "GLVC",
     "gender": "Men",
     "mascot": "Panthers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "John Fusco",
+    "coachEmail": "jfusco@kwc.edu",
     "annualTuitionUSD": 28000,
     "roomAndBoardUSD": 9500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10785,7 +10843,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Kentucky+Wesleyan+College+Soccer+ID+Camp",
     "siteUrl": "https://kwcpanthers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "uwparkside-mens",
@@ -10855,8 +10914,8 @@ const INITIAL_COLLEGES = [
     "conference": "G-MAC",
     "gender": "Men",
     "mascot": "Cavaliers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Andy Hoggarth",
+    "coachEmail": "ahoggarth@walsh.edu",
     "annualTuitionUSD": 32000,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10875,7 +10934,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Walsh+University+Soccer+ID+Camp",
     "siteUrl": "https://athletics.walsh.edu/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "findlay-mens",
@@ -10887,8 +10947,8 @@ const INITIAL_COLLEGES = [
     "conference": "G-MAC",
     "gender": "Men",
     "mascot": "Oilers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Andy Smyth",
+    "coachEmail": "smyth@findlay.edu",
     "annualTuitionUSD": 38000,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10907,7 +10967,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+Findlay+Soccer+ID+Camp",
     "siteUrl": "https://findlayoilers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "malone-mens",
@@ -10919,8 +10980,8 @@ const INITIAL_COLLEGES = [
     "conference": "G-MAC",
     "gender": "Men",
     "mascot": "Pioneers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Bill Lawrence",
+    "coachEmail": "blawrence@malone.edu",
     "annualTuitionUSD": 35000,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -10939,7 +11000,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Malone+University+Soccer+ID+Camp",
     "siteUrl": "https://malonepioneers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "waynestate-mens",
@@ -11012,8 +11074,8 @@ const INITIAL_COLLEGES = [
     "conference": "NE-10",
     "gender": "Men",
     "mascot": "Panthers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Chris Megaloudis",
+    "coachEmail": "cmegaloudis@adelphi.edu",
     "annualTuitionUSD": 48000,
     "roomAndBoardUSD": 17000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11032,7 +11094,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Adelphi+University+Soccer+ID+Camp",
     "siteUrl": "https://aupanthers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "bentley-mens",
@@ -11044,8 +11107,8 @@ const INITIAL_COLLEGES = [
     "conference": "NE-10",
     "gender": "Men",
     "mascot": "Falcons",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Gary Crompton",
+    "coachEmail": "gcrompton@bentley.edu",
     "annualTuitionUSD": 58000,
     "roomAndBoardUSD": 18000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11064,7 +11127,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Bentley+University+Soccer+ID+Camp",
     "siteUrl": "https://bentleyvanguard.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "saintanselm-mens",
@@ -11107,8 +11171,8 @@ const INITIAL_COLLEGES = [
     "conference": "NE-10",
     "gender": "Men",
     "mascot": "Owls",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Reuben Ayarna (暫定)",
+    "coachEmail": "ayarnar1@southernct.edu",
     "annualTuitionUSD": 25000,
     "roomAndBoardUSD": 13000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11125,7 +11189,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全27名 / 留学生13名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名",
     "questionnaireUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Southern+Connecticut+State+University+Soccer+ID+Camp",
-    "siteUrl": "https://scsuowls.com/sports/mens-soccer"
+    "siteUrl": "https://scsuowls.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "newhaven-mens",
@@ -11137,8 +11202,8 @@ const INITIAL_COLLEGES = [
     "conference": "NE-10",
     "gender": "Men",
     "mascot": "Chargers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Tom Mattera",
+    "coachEmail": "tmattera@newhaven.edu",
     "annualTuitionUSD": 46000,
     "roomAndBoardUSD": 17000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11157,7 +11222,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=University+of+New+Haven+Soccer+ID+Camp",
     "siteUrl": "https://newhavenchargers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "assumption-mens",
@@ -11233,8 +11299,8 @@ const INITIAL_COLLEGES = [
     "conference": "NE-10",
     "gender": "Men",
     "mascot": "Purple Knights",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Wade Jean",
+    "coachEmail": "wjean@smcvt.edu",
     "annualTuitionUSD": 52000,
     "roomAndBoardUSD": 16000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11253,7 +11319,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Saint+Michael's+College+Soccer+ID+Camp",
     "siteUrl": "https://smcathletics.com/sports/mens-soccer",
     "financialRisk": 2,
-    "financialNote": "運営収支が赤字(収入が支出の89%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23"
+    "financialNote": "運営収支が赤字(収入が支出の89%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "nyit-mens",
@@ -11296,8 +11363,8 @@ const INITIAL_COLLEGES = [
     "conference": "East Coast Conference",
     "gender": "Men",
     "mascot": "Lions",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "John Fitzgerald",
+    "coachEmail": "jfitzgerald1@molloy.edu",
     "annualTuitionUSD": 33000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11316,7 +11383,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Molloy+University+Soccer+ID+Camp",
     "siteUrl": "https://molloylions.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "westchester-mens",
@@ -11389,8 +11457,8 @@ const INITIAL_COLLEGES = [
     "conference": "PSAC",
     "gender": "Men",
     "mascot": "Warriors",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Tom Mustac",
+    "coachEmail": "tmustac@esu.edu",
     "annualTuitionUSD": 22000,
     "roomAndBoardUSD": 11000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11407,7 +11475,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全39名 / 留学生12名 / MF 10名 (Sr・Gr 0名)",
     "questionnaireUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=East+Stroudsburg+University+Soccer+ID+Camp",
-    "siteUrl": "https://esuwarriors.com/sports/mens-soccer"
+    "siteUrl": "https://esuwarriors.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "millersville-mens",
@@ -11419,8 +11488,8 @@ const INITIAL_COLLEGES = [
     "conference": "PSAC",
     "gender": "Men",
     "mascot": "Marauders",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Steve Widdowson",
+    "coachEmail": "steven.widdowson@millersville.edu",
     "annualTuitionUSD": 22000,
     "roomAndBoardUSD": 11500,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11437,7 +11506,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全24名 / 留学生4名 / MF 7名 (Sr・Gr 3名)",
     "questionnaireUrl": "https://www.google.com/search?q=Millersville+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Millersville+University+Soccer+ID+Camp",
-    "siteUrl": "https://millersvilleathletics.com/sports/mens-soccer"
+    "siteUrl": "https://millersvilleathletics.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "setonhill-mens",
@@ -11449,8 +11519,8 @@ const INITIAL_COLLEGES = [
     "conference": "PSAC",
     "gender": "Men",
     "mascot": "Griffins",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Dilveer Chaggar",
+    "coachEmail": "dchaggar@setonhill.edu",
     "annualTuitionUSD": 38000,
     "roomAndBoardUSD": 13000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11469,7 +11539,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Seton+Hill+University+Soccer+ID+Camp",
     "siteUrl": "https://athletics.setonhill.edu/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "wvwesleyan-mens",
@@ -11544,8 +11615,8 @@ const INITIAL_COLLEGES = [
     "conference": "Mountain East",
     "gender": "Men",
     "mascot": "Mountain Lions",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Alex Smith",
+    "coachEmail": "aasmith@concord.edu",
     "annualTuitionUSD": 18000,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11562,7 +11633,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "要確認",
     "questionnaireUrl": "https://www.google.com/search?q=Concord+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Concord+University+Soccer+ID+Camp",
-    "siteUrl": "https://cumountainlions.com/sports/mens-soccer"
+    "siteUrl": "https://cumountainlions.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "byuhawaii-mens",
@@ -11603,8 +11675,8 @@ const INITIAL_COLLEGES = [
     "conference": "PacWest",
     "gender": "Men",
     "mascot": "Sharks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Chris Fisher",
+    "coachEmail": "cfisher@hpu.edu",
     "annualTuitionUSD": 30000,
     "roomAndBoardUSD": 17000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11623,7 +11695,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Hawaii+Pacific+University+Soccer+ID+Camp",
     "siteUrl": "https://hpusharks.com/sports/mens-soccer",
     "financialRisk": 3,
-    "financialNote": "純資産が支出の0.7年分しかない、純資産が3年で19%減、授業料収入への依存74%、負債が総資産の72% / IPEDS 2020-21～2022-23"
+    "financialNote": "純資産が支出の0.7年分しかない、純資産が3年で19%減、授業料収入への依存74%、負債が総資産の72% / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "chaminade-mens",
@@ -11666,8 +11739,8 @@ const INITIAL_COLLEGES = [
     "conference": "PacWest",
     "gender": "Men",
     "mascot": "Sunbirds",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Cameron Shahrokhi",
+    "coachEmail": "cameron.shahrokhi@fresno.edu",
     "annualTuitionUSD": 30000,
     "roomAndBoardUSD": 10000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11686,7 +11759,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Fresno+Pacific+University+Soccer+ID+Camp",
     "siteUrl": "https://www.fpusunbirds.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "dominicanca-mens",
@@ -11925,8 +11999,8 @@ const INITIAL_COLLEGES = [
     "conference": "RMAC",
     "gender": "Men",
     "mascot": "Mavericks",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Jon Fridal",
+    "coachEmail": "jfridal@coloradomesa.edu",
     "annualTuitionUSD": 22000,
     "roomAndBoardUSD": 12000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -11943,7 +12017,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全35名 / 留学生12名 / MF 15名 (Sr・Gr 5名)",
     "questionnaireUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Colorado+Mesa+University+Soccer+ID+Camp",
-    "siteUrl": "https://cmumavericks.com/sports/mens-soccer"
+    "siteUrl": "https://cmumavericks.com/sports/mens-soccer",
+    "coachVerified": true
   },
   {
     "id": "regis-mens",
@@ -12050,8 +12125,8 @@ const INITIAL_COLLEGES = [
     "conference": "Lone Star",
     "gender": "Men",
     "mascot": "Hilltoppers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Brian Young",
+    "coachEmail": "briany@stedwards.edu",
     "annualTuitionUSD": 47000,
     "roomAndBoardUSD": 14000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -12070,7 +12145,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=St.+Edward's+University+Soccer+ID+Camp",
     "siteUrl": "https://gohilltoppers.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "stmarystx-mens",
@@ -12172,8 +12248,8 @@ const INITIAL_COLLEGES = [
     "conference": "Lone Star",
     "gender": "Men",
     "mascot": "Chaparrals",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Collin Cone",
+    "coachEmail": "Collin.Cone@lcu.edu",
     "annualTuitionUSD": 30000,
     "roomAndBoardUSD": 9000,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
@@ -12192,7 +12268,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Lubbock+Christian+University+Soccer+ID+Camp",
     "siteUrl": "https://lcuchaps.com/sports/mens-soccer",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "daytonastate-mens",
@@ -12502,8 +12579,8 @@ const INITIAL_COLLEGES = [
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Knights",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Joe Fiedler",
+    "coachEmail": "jfiedler@ccbcmd.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
@@ -12520,7 +12597,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=CCBC+Essex+Soccer+ID+Camp",
     "japanesePct": "17% (5/30名)",
     "fwStats": "FW 10名 / 全30名 (33%)",
-    "siteUrl": "https://ccbcessexknights.com/sports/msoc"
+    "siteUrl": "https://ccbcessexknights.com/sports/msoc",
+    "coachVerified": true
   },
   {
     "id": "phoenixcollege-mens",
@@ -12532,7 +12610,7 @@ const INITIAL_COLLEGES = [
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Bears",
-    "headCoach": "",
+    "headCoach": "David Cameron",
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
@@ -12550,7 +12628,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Phoenix+College+Soccer+ID+Camp",
     "siteUrl": "https://pcbearsathletics.com/sports/msoc",
     "japanesePct": "要確認 (ホームタウン非公開)",
-    "fwStats": "FW 9名 / 全33名 (27%) ※位置未掲載1名"
+    "fwStats": "FW 9名 / 全33名 (27%) ※位置未掲載1名",
+    "coachVerified": true
   },
   {
     "id": "northeastcc-mens",
@@ -12562,7 +12641,7 @@ const INITIAL_COLLEGES = [
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Hornets",
-    "headCoach": "",
+    "headCoach": "Adam Potter",
     "coachEmail": "",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
@@ -12581,7 +12660,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Northeast+Community+College+Soccer+ID+Camp",
     "siteUrl": "https://northeasthawks.com/sports/msoc",
     "japanesePct": "6% (2/36名)",
-    "fwStats": "FW 10名 / 全36名 (28%)"
+    "fwStats": "FW 10名 / 全36名 (28%)",
+    "coachVerified": true
   },
   {
     "id": "iowalakes-mens",
@@ -12626,8 +12706,8 @@ const INITIAL_COLLEGES = [
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Wolfpack",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Logan Fye",
+    "coachEmail": "lfye@madisoncollege.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
@@ -12645,7 +12725,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Madison+College+Soccer+ID+Camp",
     "siteUrl": "https://madisoncollegeathletics.com/sports/msoc",
     "japanesePct": "0% (0/26名)",
-    "fwStats": "FW 5名 / 全26名 (19%)"
+    "fwStats": "FW 5名 / 全26名 (19%)",
+    "coachVerified": true
   },
   {
     "id": "pearlriver-mens",
@@ -12690,8 +12771,8 @@ const INITIAL_COLLEGES = [
     "conference": "要確認",
     "gender": "Men",
     "mascot": "Panthers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Sam Hall",
+    "coachEmail": "shall@neosho.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "要確認 (NJCAA D2: 学費・諸費用・教科書まで。寮費・食費は対象外)",
@@ -12708,7 +12789,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Neosho+County+Community+College+Soccer+ID+Camp",
     "siteUrl": "https://goneosho.com/sports/mens-soccer",
     "japanesePct": "16% (5/32名)",
-    "fwStats": "FW 6名 / 全32名 (19%) ※位置未掲載1名"
+    "fwStats": "FW 6名 / 全32名 (19%) ※位置未掲載1名",
+    "coachVerified": true
   },
   {
     "id": "glendaleaz-mens",
@@ -13322,8 +13404,8 @@ const INITIAL_COLLEGES = [
     "conference": "Red River Athletic",
     "gender": "Men",
     "mascot": "Pilots",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Adam Kay",
+    "coachEmail": "adam.kay@lsus.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -13340,7 +13422,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全25名 / 留学生23名 / MF 9名 (Sr・Gr 2名)",
     "questionnaireUrl": "https://www.google.com/search?q=Louisiana+State+University+Shreveport+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Louisiana+State+University+Shreveport+Soccer+ID+Camp",
-    "siteUrl": "https://lsusathletics.com/sports/msoc/2026-27"
+    "siteUrl": "https://lsusathletics.com/sports/msoc/2026-27",
+    "coachVerified": true
   },
   {
     "id": "madonna-mens",
@@ -13422,8 +13505,8 @@ const INITIAL_COLLEGES = [
     "conference": "Chicagoland Collegiate Athletic",
     "gender": "Men",
     "mascot": "Tigers",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Jon Forsythe",
+    "coachEmail": "jmforsythe@olivet.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -13442,7 +13525,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=Olivet+Nazarene+University+Soccer+ID+Camp",
     "siteUrl": "https://onutigers.com/sports/msoc/2026-27",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "ottawa-mens",
@@ -13524,8 +13608,8 @@ const INITIAL_COLLEGES = [
     "conference": "Appalachian Athletic",
     "gender": "Men",
     "mascot": "Bulldogs",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Jonathan Shaw",
+    "coachEmail": "jonathan.shaw@unionky.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -13542,7 +13626,8 @@ const INITIAL_COLLEGES = [
     "rosterStats": "公式ロスター全44名 / 留学生42名 / MF 不明(ポジション記載なし)",
     "questionnaireUrl": "https://www.google.com/search?q=Union+Commonwealth+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Union+Commonwealth+University+Soccer+ID+Camp",
-    "siteUrl": "https://gounionbulldogs.com/sports/msoc/2026-27"
+    "siteUrl": "https://gounionbulldogs.com/sports/msoc/2026-27",
+    "coachVerified": true
   },
   {
     "id": "warnerpacific-mens",
@@ -13654,8 +13739,8 @@ const INITIAL_COLLEGES = [
     "conference": "Heart of America",
     "gender": "Men",
     "mascot": "Statesmen",
-    "headCoach": "",
-    "coachEmail": "",
+    "headCoach": "Joe Minton",
+    "coachEmail": "josephminton@wmpenn.edu",
     "annualTuitionUSD": 0,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
@@ -13674,7 +13759,8 @@ const INITIAL_COLLEGES = [
     "campUrl": "https://www.google.com/search?q=William+Penn+University+Soccer+ID+Camp",
     "siteUrl": "https://statesmenathletics.com/sports/msoc/2026-27",
     "financialRisk": 1,
-    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+    "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23",
+    "coachVerified": true
   },
   {
     "id": "wvutech-mens",
@@ -14639,6 +14725,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Paul Snape",
+      "Ian Sarachan"
+    ],
+    "coachEmail": [
+      "butlersoccer@butler.edu",
+      "isarachan@butler.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "xavieruniversity-mens": {
@@ -14745,6 +14843,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Louis Bennett",
+      "David Korn"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "villanovauniversity-mens": {
@@ -15003,6 +15109,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Shaun Docking",
+      "Adam Perron"
+    ],
+    "coachEmail": [
+      "ccusoccer@coastal.edu",
+      "aperron@coastal.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "olddominionuniversit-mens": {
@@ -15323,6 +15441,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Brian Rowland",
+      "Bryan Green"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "uabunivofalabamabirm-mens": {
@@ -15481,6 +15607,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "coachEmail": [
+      "harvardsoccer@fas.harvard.edu",
+      "msoccer@fas.harvard.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "yaleuniversity-mens": {
@@ -15601,6 +15735,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "coachEmail": [
+      "columbiasoccer@columbia.edu",
+      "columbiamsoccer@gmail.com"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "ucsantabarbaraucsb-mens": {
@@ -15839,6 +15981,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名",
       "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Michael Linenberger",
+      "Matt McDougall (暫定)"
+    ],
+    "coachEmail": [
+      "hornetssoccer@csus.edu",
+      "mmcdougall@csus.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "calstatebakersfield-mens": {
@@ -15857,6 +16011,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名",
       "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "Adam Buseck",
+      "Adam Grant"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "universityofportland-mens": {
@@ -16353,6 +16515,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "coachEmail": [
+      "davidsonsoccer@davidson.edu",
+      "mibabst@davidson.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "duquesneuniversity-mens": {
@@ -16413,6 +16583,14 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "coachEmail": [
+      "masonsoccer@gmu.edu",
+      "rcostanz@gmu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "georgewashingtongw-mens": {
@@ -16561,6 +16739,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Don D'Ambra",
+      "Tim Mulqueen"
+    ],
+    "coachEmail": [
+      "hawkssoccer@sju.edu",
+      "tmulqueen@sju.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "stbonaventureunivers-mens": {
@@ -16595,6 +16785,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Kwame Oduro",
+      "Mick Giordano"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "hofstrauniversity-mens": {
@@ -16629,6 +16827,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Richard Nuttall",
+      "Stephen Roche"
+    ],
+    "coachEmail": [
+      "hofstrasoccer@hofstra.edu",
+      "stephen.roche@hofstra.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "uncwilmingtonuncw-mens": {
@@ -16957,6 +17167,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Rich Weinrebe",
+      "Jeremy Bonomo"
+    ],
+    "coachEmail": [
+      "northeasternsoccer@northeastern.edu",
+      "j.bonomo@northeastern.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "newhampshireunh-mens": {
@@ -17481,6 +17703,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Jim DeRose",
+      "Tim Regan"
+    ],
+    "coachEmail": [
+      "bravessoccer@bradley.edu",
+      "tregan@fsmail.bradley.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "northernillinoisniu-mens": {
@@ -17611,6 +17845,14 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "部員29名中 留学生3名 (10.3%) / 日本, イギリス, メキシコ",
       "公式ロスター全29名 / 留学生3名 / MF 10名 (Sr・Gr 2名)"
+    ],
+    "headCoach": [
+      "Simon Tobin",
+      "Jesus Sanchez (暫定)"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "unlv-mens": {
@@ -17958,7 +18200,7 @@ const COLLEGE_DATA_FIXES = {
   "westernillinoiswiu-mens": {
     "assistantCoach": [
       "Scotty Murray (Assistant Coach)",
-      null
+      "Josh Reddy (Graduate Assistant)"
     ],
     "assistantCoachEmail": [
       "soccer-recruiting@wiu.edu",
@@ -17979,6 +18221,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "headCoach": [
+      "Eric Johnson",
+      "Kooten Johnson"
+    ],
+    "coachEmail": [
+      "wiusoccer@wiu.edu",
+      "kl-johnson5@wiu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "bostonuniversitybu-mens": {
@@ -18463,6 +18717,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "coachEmail": [
+      "titanssoccer@udmercy.edu",
+      "kopunent@udmercy.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "uw-greenbay-mens": {
@@ -18661,6 +18923,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Doug Allison",
+      "Brandon Tucker"
+    ],
+    "coachEmail": [
+      "paladinsoccer@furman.edu",
+      "Brandon.Tucker@Furman.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "merceruniversity-mens": {
@@ -18721,6 +18995,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "headCoach": [
+      "David Simonsen",
+      "Allen Vital"
+    ],
+    "coachEmail": [
+      "etsusoccer@etsu.edu",
+      "vitala1@etsu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "woffordcollege-mens": {
@@ -18945,6 +19231,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支がやや赤字(収入が支出の90%)、純資産が3年で16%減、授業料収入への依存73% / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Tim Chastonay",
+      "Matt Cannady"
+    ],
+    "coachEmail": [
+      "knightsoccer@bellarmine.edu",
+      "mcannady@bellarmine.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "centralarkansasuca-mens": {
@@ -19315,6 +19613,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Jorden Scott",
+      "Tom Giovatto"
+    ],
+    "coachEmail": [
+      "jaspersoccer@manhattan.edu",
+      "tgiovatto01@manhattan.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "mountstmarys-mens": {
@@ -19699,6 +20009,10 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "lemoynecollege-mens": {
@@ -19976,11 +20290,11 @@ const COLLEGE_DATA_FIXES = {
   "easternillinoisunive-mens": {
     "assistantCoach": [
       "Scotty Murray (Assistant Coach)",
-      null
+      "Andre Cavichione"
     ],
     "assistantCoachEmail": [
       "soccer-recruiting@eiu.edu",
-      null
+      "acavichione@eiu.edu"
     ],
     "stadium": [
       "Panthers Stadium / Field",
@@ -19997,6 +20311,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "4名 (公式ロスター確認) Kai Odagiri, Shuto Ishikawa, Sein Hatamoto, Keidin Green"
+    ],
+    "headCoach": [
+      "Josh Oakley",
+      "Ruy Vaz"
+    ],
+    "coachEmail": [
+      "eiusoccer@eiu.edu",
+      "rrvazfilho@eiu.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "southernindianausi-mens": {
@@ -20083,6 +20409,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "2名 (公式ロスター確認) Shion Hayashi, Shota Kawagoe"
+    ],
+    "headCoach": [
+      "Daniel Ridenhour",
+      "Dale Parker"
+    ],
+    "coachEmail": [
+      "eaglessoccer@winthrop.edu",
+      "parkerdg@winthrop.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "gardner-webbuniversi-mens": {
@@ -20491,6 +20829,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Pat Flinn",
+      "Phillip Kroft"
+    ],
+    "coachEmail": [
+      "pflinn@uchicago.edu",
+      "menssoccer@uchicago.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "messiah-mens": {
@@ -20986,6 +21336,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Gabriel Sitibaldi"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "gpsitibaldi@seu.edu"
     ]
   },
   "warner-mens": {
@@ -21008,6 +21370,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Drew Stacey"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "drew.stacey@warner.edu"
     ]
   },
   "avemaria-mens": {
@@ -21044,12 +21418,32 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "David Martinez"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "georgiagwinnett-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "headCoach": [
+      "",
+      "Steve DeCou"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "sdecou@ggc.edu"
     ]
   },
   "thomasuniversity-mens": {
@@ -21064,6 +21458,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Billy Jeffery"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "wjeffery@thomasu.edu"
     ]
   },
   "pointuniversity-mens": {
@@ -21092,6 +21498,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Paulo Neto"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "paulo.neto@ucumberlands.edu"
     ]
   },
   "cumberlanduniversity-mens": {
@@ -21106,6 +21524,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Brian Davies"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "bdavies@cumberland.edu"
     ]
   },
   "campbellsville-mens": {
@@ -21128,6 +21558,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Drew Sin"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "dwsin@campbellsville.edu"
     ]
   },
   "georgetowncollege-mens": {
@@ -21142,6 +21584,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Louis Jones"
+    ],
+    "coachEmail": [
+      "",
+      "louis_jones@georgetowncollege.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "faulkner-mens": {
@@ -21232,6 +21686,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Dave Baisden"
+    ],
+    "coachEmail": [
+      "",
+      "dbaisden@tnwesleyan.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "reinhardt-mens": {
@@ -21260,6 +21726,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Matt Pitcock"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "pitcock@txwes.edu"
     ]
   },
   "oklahomacity-mens": {
@@ -21330,6 +21808,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Rob Herringer"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "rherringer@benedictine.edu"
     ]
   },
   "baker-mens": {
@@ -21344,6 +21834,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Nick Aguilar"
+    ],
+    "coachEmail": [
+      "",
+      "nick.aguilar@bakeru.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "avila-mens": {
@@ -21394,6 +21896,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Matt Reeb"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "matt.reeb@indwes.edu"
     ]
   },
   "pikeville-mens": {
@@ -21452,6 +21966,18 @@ const COLLEGE_DATA_FIXES = {
         "Ohio",
         "Needs Verification"
       ]
+    ],
+    "headCoach": [
+      "",
+      "Stan Rodrigues"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "srodrigues@shawnee.edu"
     ]
   },
   "westmont-mens": {
@@ -21598,6 +22124,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Matt McArthur"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "mmcarthu@nova.edu"
     ]
   },
   "floridasouthern-mens": {
@@ -21620,6 +22158,14 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Ashley Holmes"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "eckerd-mens": {
@@ -21664,6 +22210,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Thomas Coombes"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "tcoombes@flagler.edu"
     ]
   },
   "westflorida-mens": {
@@ -21678,6 +22236,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全30名 / 留学生9名 / MF 6名 (Sr・Gr 2名) / 出身地不明2名"
+    ],
+    "headCoach": [
+      "",
+      "Bill Elliott"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "belliot@uwf.edu"
     ]
   },
   "leeuniversity-mens": {
@@ -21706,6 +22276,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Steven Cox"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "scox@uu.edu"
     ]
   },
   "valdostastate-mens": {
@@ -21840,6 +22422,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Pat Kibler"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "patrickkibler@bac.edu"
     ]
   },
   "mountolive-mens": {
@@ -21862,6 +22456,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Ian Spooner"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "ispooner@umo.edu"
     ]
   },
   "catawba-mens": {
@@ -21876,6 +22482,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Alex Morais"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "amorais@catawba.edu"
     ]
   },
   "carsonnewman-mens": {
@@ -22004,6 +22622,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Evan Fiffles"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "fiffleev@lewisu.edu"
     ]
   },
   "drury-mens": {
@@ -22026,6 +22656,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Ben Taylor"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "btaylor03@drury.edu"
     ]
   },
   "rockhurst-mens": {
@@ -22048,6 +22690,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Tony Tocco"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "anthony.tocco@rockhurst.edu"
     ]
   },
   "quincy-mens": {
@@ -22062,6 +22716,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支がやや赤字(収入が支出の92%)、純資産が支出の0.5年分しかない、純資産が3年で24%減、負債が総資産の73% / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Mike Carpenter"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "carpemi@quincy.edu"
     ]
   },
   "trumanstate-mens": {
@@ -22076,6 +22742,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全38名 / 留学生0名 / MF 16名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "headCoach": [
+      "",
+      "Duke Cochran"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "dcochran@truman.edu"
     ]
   },
   "missouriST-mens": {
@@ -22124,6 +22802,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "John Fusco"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "jfusco@kwc.edu"
     ]
   },
   "uwparkside-mens": {
@@ -22166,6 +22856,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Andy Hoggarth"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "ahoggarth@walsh.edu"
     ]
   },
   "findlay-mens": {
@@ -22188,6 +22890,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Andy Smyth"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "smyth@findlay.edu"
     ]
   },
   "malone-mens": {
@@ -22210,6 +22924,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Bill Lawrence"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "blawrence@malone.edu"
     ]
   },
   "waynestate-mens": {
@@ -22252,6 +22978,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Chris Megaloudis"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "cmegaloudis@adelphi.edu"
     ]
   },
   "bentley-mens": {
@@ -22274,6 +23012,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Gary Crompton"
+    ],
+    "coachEmail": [
+      "",
+      "gcrompton@bentley.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "saintanselm-mens": {
@@ -22302,6 +23052,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全27名 / 留学生13名 / MF 9名 (Sr・Gr 3名) / 出身地不明1名"
+    ],
+    "headCoach": [
+      "",
+      "Reuben Ayarna (暫定)"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "ayarnar1@southernct.edu"
     ]
   },
   "newhaven-mens": {
@@ -22324,6 +23086,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Tom Mattera"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "tmattera@newhaven.edu"
     ]
   },
   "assumption-mens": {
@@ -22402,6 +23176,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支が赤字(収入が支出の89%)、純資産が3年で14%減 / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Wade Jean"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "wjean@smcvt.edu"
     ]
   },
   "nyit-mens": {
@@ -22438,6 +23224,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "John Fitzgerald"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "jfitzgerald1@molloy.edu"
     ]
   },
   "westchester-mens": {
@@ -22484,6 +23282,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全39名 / 留学生12名 / MF 10名 (Sr・Gr 0名)"
+    ],
+    "headCoach": [
+      "",
+      "Tom Mustac"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "tmustac@esu.edu"
     ]
   },
   "millersville-mens": {
@@ -22498,6 +23308,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全24名 / 留学生4名 / MF 7名 (Sr・Gr 3名)"
+    ],
+    "headCoach": [
+      "",
+      "Steve Widdowson"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "steven.widdowson@millersville.edu"
     ]
   },
   "setonhill-mens": {
@@ -22512,6 +23334,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Dilveer Chaggar"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "dchaggar@setonhill.edu"
     ]
   },
   "wvwesleyan-mens": {
@@ -22546,6 +23380,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "未確認 (要問合せ)"
+    ],
+    "headCoach": [
+      "",
+      "Alex Smith"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "aasmith@concord.edu"
     ]
   },
   "byuhawaii-mens": {
@@ -22566,6 +23412,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "純資産が支出の0.7年分しかない、純資産が3年で19%減、授業料収入への依存74%、負債が総資産の72% / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Chris Fisher"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "cfisher@hpu.edu"
     ]
   },
   "chaminade-mens": {
@@ -22602,6 +23460,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Cameron Shahrokhi"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "cameron.shahrokhi@fresno.edu"
     ]
   },
   "dominicanca-mens": {
@@ -22826,6 +23696,18 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全35名 / 留学生12名 / MF 15名 (Sr・Gr 5名)"
+    ],
+    "headCoach": [
+      "",
+      "Jon Fridal"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "jfridal@coloradomesa.edu"
     ]
   },
   "regis-mens": {
@@ -22918,6 +23800,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Brian Young"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "briany@stedwards.edu"
     ]
   },
   "stmarystx-mens": {
@@ -22974,6 +23868,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Collin Cone"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "Collin.Cone@lcu.edu"
     ]
   },
   "barry-mens": {
@@ -23252,6 +24158,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "Carlos Rubio",
+      "Jorge Morales (暫定)"
+    ],
+    "coachEmail": [
+      "carlos.rubio@lr.edu",
+      ""
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "maryville-mens": {
@@ -23733,6 +24651,18 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "2026 NJCAA D2 全米準優勝 (決勝でNortheast CCに1-2)。NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。ロスター・コーチ情報は公式サイトから取得できず未確認 (要確認)。",
       "2026 NJCAA D2 全米準優勝 (決勝でNortheast CCに1-2)。NJCAA D2 全米大会出場校 (シード5 / Pool D)。学費・寮費・カンファレンスは未確認 (公式サイトで要確認)。コーチ情報は未確認 (要確認)。2年制のため「2年生以上」を卒業見込みとして集計。"
+    ],
+    "headCoach": [
+      "",
+      "Logan Fye"
+    ],
+    "coachEmail": [
+      "",
+      "lfye@madisoncollege.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "neosho-mens": {
@@ -23767,6 +24697,18 @@ const COLLEGE_DATA_FIXES = {
     "siteUrl": [
       "https://neosho.edu/athletics/sports/mens-soccer",
       "https://goneosho.com/sports/mens-soccer"
+    ],
+    "headCoach": [
+      "",
+      "Sam Hall"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "shall@neosho.edu"
     ]
   },
   "northeastcc-mens": {
@@ -23812,6 +24754,14 @@ const COLLEGE_DATA_FIXES = {
     "siteUrl": [
       "https://northeast.edu",
       "https://northeasthawks.com/sports/msoc"
+    ],
+    "headCoach": [
+      "",
+      "Adam Potter"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "phoenixcollege-mens": {
@@ -23842,6 +24792,14 @@ const COLLEGE_DATA_FIXES = {
     "siteUrl": [
       "https://athletics.phoenixcollege.edu/sports/msoc",
       "https://pcbearsathletics.com/sports/msoc"
+    ],
+    "headCoach": [
+      "",
+      "David Cameron"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "ccbcessex-mens": {
@@ -23876,6 +24834,18 @@ const COLLEGE_DATA_FIXES = {
     "siteUrl": [
       null,
       "https://ccbcessexknights.com/sports/msoc"
+    ],
+    "headCoach": [
+      "",
+      "Joe Fiedler"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ],
+    "coachEmail": [
+      "",
+      "jfiedler@ccbcmd.edu"
     ]
   },
   "cowley-mens": {
@@ -24163,6 +25133,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Jon Forsythe"
+    ],
+    "coachEmail": [
+      "",
+      "jmforsythe@olivet.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "rockymountain-mens": {
@@ -24203,6 +25185,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "headCoach": [
+      "",
+      "Joe Minton"
+    ],
+    "coachEmail": [
+      "",
+      "josephminton@wmpenn.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   },
   "xavierla-mens": {
@@ -24243,6 +25237,34 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ]
+  },
+  "lsushreveport-mens": {
+    "headCoach": [
+      "",
+      "Adam Kay"
+    ],
+    "coachEmail": [
+      "",
+      "adam.kay@lsus.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
+    ]
+  },
+  "unioncommonwealth-mens": {
+    "headCoach": [
+      "",
+      "Jonathan Shaw"
+    ],
+    "coachEmail": [
+      "",
+      "jonathan.shaw@unionky.edu"
+    ],
+    "coachVerified": [
+      null,
+      true
     ]
   }
 };

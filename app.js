@@ -504,6 +504,7 @@ function switchTab(tabId) {
   if (tabId === "dashboard") renderDashboard();
   if (tabId === "explorer") renderExplorer();
   if (tabId === "pipeline") renderPipeline();
+  if (tabId === "closed") renderClosed();
   if (tabId === "email") renderEmailGenerator();
   if (tabId === "roadmap") renderRoadmap();
   if (tabId === "calculator") renderCalculator();
@@ -1211,7 +1212,12 @@ function renderExplorer() {
   renderCompareBar();
   const { division, region, strength, finRisk, gender, search, sort } = state.filters;
 
+  // Colleges closed in the pipeline (見送り・不合格) live in their own tab, not in the search results
+  const closedIds = closedCollegeIds();
+  const closedHidden = state.colleges.filter(c => closedIds.has(c.id)).length;
+
   const filtered = state.colleges.filter(col => {
+    if (closedIds.has(col.id)) return false;
     if (division !== "ALL" && col.division !== division) return false;
     if (region !== "ALL" && col.region !== region) return false;
     if (strength === "NONE") {
@@ -1299,6 +1305,9 @@ function renderExplorer() {
         ? `<span class="ml-1.5 px-2 py-0.5 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30 font-bold text-[10px]">⭐ パイプライン中 ${pipelineCountInFiltered} 校${costSort ? "" : "を先頭表示"}</span>`
         : ''
     }`;
+    if (closedHidden > 0) {
+      countEl.innerHTML += ` <span class="ml-1.5 px-2 py-0.5 rounded bg-red-500/10 text-red-300 border border-red-500/30 font-bold text-[10px]">見送り ${closedHidden} 校は別タブ</span>`;
+    }
   }
 
   if (filtered.length === 0) {
@@ -2004,7 +2013,86 @@ function renderPipeline() {
     `;
   }).join("");
 
+  renderClosed();
   lucide.createIcons();
+}
+
+// Colleges whose pipeline status is "Closed" (見送り・不合格): hidden from the explorer, listed in the Closed tab
+function closedCollegeIds() {
+  return new Set(state.pipeline.filter(p => p.status === "Closed").map(p => p.collegeId));
+}
+
+function renderClosed() {
+  const closed = state.pipeline.filter(p => p.status === "Closed");
+  const badge = document.getElementById("nav-closed-count");
+  if (badge) badge.textContent = closed.length;
+
+  const container = document.getElementById("closed-colleges-grid");
+  if (!container) return;
+
+  if (closed.length === 0) {
+    container.innerHTML = `
+      <div class="col-span-full p-12 text-center text-slate-400 bg-slate-800/40 rounded-2xl border border-slate-700/60">
+        <h4 class="text-lg font-bold text-slate-200">見送り・不合格の大学はありません</h4>
+        <p class="text-sm mt-1">リクルート選考管理でステータスを「Closed」にした大学がここに表示されます。</p>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = closed.map(p => {
+    const col = state.colleges.find(c => c.id === p.collegeId);
+    if (!col) return "";
+    return `
+      <div class="bg-slate-800/90 border border-slate-700 rounded-2xl p-5 flex flex-col justify-between shadow-lg">
+        <div>
+          <div class="flex flex-wrap items-center gap-1.5 mb-2">
+            <span class="px-2.5 py-0.5 text-xs font-bold rounded-full border bg-slate-900 text-slate-300 border-slate-600">${esc(col.division)}</span>
+            <span class="px-2.5 py-0.5 text-[11px] font-bold rounded-full border bg-red-950 text-red-300 border-red-800">Closed</span>
+            <span class="text-xs text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-700">${esc(col.gender)}</span>
+          </div>
+          <h3 class="text-lg font-bold text-white">${collegeNameLink(col)}</h3>
+          <p class="text-xs text-slate-400 mt-0.5 font-medium">${esc(col.location)} | ${esc(col.conference || 'Independent')}</p>
+          <div class="mt-3 text-xs text-slate-300 space-y-1">
+            <p><span class="text-slate-500">Head Coach:</span> ${esc(p.coachContacted || col.headCoach || '-')}</p>
+            ${p.lastContactDate ? `<p><span class="text-slate-500">最終連絡日:</span> ${esc(p.lastContactDate)}</p>` : ''}
+          </div>
+          ${p.notes ? `
+            <div class="mt-3 text-xs text-slate-300 leading-relaxed bg-slate-900/60 border border-slate-700/60 rounded-lg p-2.5">
+              <span class="block text-[10px] font-bold text-slate-500 mb-0.5">見送り理由・メモ</span>
+              ${esc(p.notes)}
+            </div>
+          ` : ''}
+        </div>
+        <div class="pt-3 mt-3 border-t border-slate-700/80 flex items-center justify-between gap-2">
+          <button onclick="openCollegeDetailModal(${jsArg(col.id)})" class="px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:text-white bg-slate-700/80 hover:bg-slate-700 rounded-lg transition flex items-center gap-1">
+            <i data-lucide="info" class="w-3.5 h-3.5"></i> 詳細
+          </button>
+          <div class="flex items-center gap-1.5">
+            <button onclick="openPipelineEditModal(${jsArg(p.id)})" class="px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:text-white bg-slate-700/80 hover:bg-slate-700 rounded-lg transition flex items-center gap-1">
+              <i data-lucide="edit-3" class="w-3.5 h-3.5"></i> メモ編集
+            </button>
+            <button onclick="reopenClosedCollege(${jsArg(p.id)})" class="px-2.5 py-1.5 text-xs font-semibold text-white bg-sky-600 hover:bg-sky-500 rounded-lg transition shadow flex items-center gap-1">
+              <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i> 候補に戻す
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  lucide.createIcons();
+}
+
+function reopenClosedCollege(pipeId) {
+  const item = state.pipeline.find(p => p.id === pipeId);
+  if (!item) return;
+  item.status = "Prospect";
+  saveState("pipeline");
+  renderPipeline();
+  renderDashboard();
+  renderExplorer();
+  showToast("「候補・リサーチ中」に戻しました。大学データベース検索にも表示されます");
 }
 
 function addToPipelinePrompt(collegeId) {

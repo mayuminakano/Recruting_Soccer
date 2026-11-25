@@ -82,6 +82,12 @@
             <span>リクルート選考管理 (CRM)</span>
           </button>
 
+          <button data-nav-target="closed" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
+            <i data-lucide="archive" class="w-4 h-4"></i>
+            <span>見送り・不合格 (Closed)</span>
+            <span id="nav-closed-count" class="ml-auto px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 text-[10px] font-bold border border-slate-700">0</span>
+          </button>
+
           <button data-nav-target="email" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium text-slate-300 hover:bg-slate-800 transition-all">
             <i data-lucide="mail-plus" class="w-4 h-4"></i>
             <span>英文スカウトメール作成</span>
@@ -668,6 +674,21 @@
         </div>
 
         <!-- ============================================================== -->
+        <!-- TAB 4b: CLOSED (見送り・不合格) -->
+        <!-- ============================================================== -->
+        <div id="tab-closed" class="tab-pane hidden space-y-5">
+          <div class="border-b border-slate-800 pb-3">
+            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+              <i data-lucide="archive" class="w-5 h-5 text-red-400"></i> 見送り・不合格 (Closed) の大学
+            </h2>
+            <p class="text-xs text-slate-400 mt-0.5">
+              ステータスが「Closed」の大学です。「大学データベース検索」には表示されません。再検討する場合は「候補に戻す」を押すと、検索一覧にも戻ります。
+            </p>
+          </div>
+          <div id="closed-colleges-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+        </div>
+
+        <!-- ============================================================== -->
         <!-- TAB 5: EMAIL PITCH GENERATOR -->
         <!-- ============================================================== -->
         <div id="tab-email" class="tab-pane hidden space-y-6">
@@ -1111,7 +1132,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=20261124a"></script>
-  <script src="app.js?v=20261124b"></script>
+  <script src="data.js?v=20261125a"></script>
+  <script src="app.js?v=20261125a"></script>
 </body>
 </html>
