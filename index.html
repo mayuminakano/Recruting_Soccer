@@ -127,6 +127,10 @@
           </button>
         </div>
 
+        <p class="px-2 py-1.5 text-[10px] leading-relaxed text-amber-300/80 bg-amber-950/30 border border-amber-800/40 rounded-lg">
+          ⚠️ 掲載している大学情報（コーチ・学費・ロスター・財務など）には誤りや古い情報が含まれる可能性があります。必ず公式サイトでご確認のうえ、ご自身の責任でご利用ください。
+        </p>
+
         <button id="btn-reset-demo" class="w-full py-1.5 text-[11px] text-slate-500 hover:text-slate-300 hover:bg-slate-800 rounded transition flex items-center justify-center gap-1">
           <i data-lucide="rotate-ccw" class="w-3 h-3"></i> 初期デモデータに戻す
         </button>
@@ -539,6 +543,15 @@
         <!-- TAB 3: UNIVERSITY EXPLORER & DATABASE -->
         <!-- ============================================================== -->
         <div id="tab-explorer" class="tab-pane hidden space-y-5">
+          <!-- Disclaimer -->
+          <div role="note" class="px-4 py-3 bg-amber-950/30 border border-amber-700/50 rounded-xl text-xs leading-relaxed text-amber-200">
+            <span class="font-bold text-amber-300">⚠️ ご利用にあたって（免責事項）</span><br>
+            本アプリの大学情報（コーチ名・連絡先・学費・奨学金・ロスター・日本人選手・財務リスク・強度評価など）は公開情報をもとに作成していますが、<b>誤りや最新でない情報が含まれている可能性があります</b>。
+            コーチの交代、ディビジョン変更、学費改定、大学の統廃合などにより、実際の状況と異なる場合があります。
+            出願・連絡・進路の判断を行う前に、必ず各大学の公式サイトや NCAA / NAIA / NJCAA の公式情報で最新の内容をご確認ください。
+            本アプリの情報を利用したことによる結果について、作成者は責任を負いません。<b>ご自身の責任でご利用ください。</b>
+          </div>
+
           <!-- Explorer Header & Filter Toolbar -->
           <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow space-y-4">
             <div class="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-3">
