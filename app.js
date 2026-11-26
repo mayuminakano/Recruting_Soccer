@@ -1250,19 +1250,26 @@ function renderExplorer() {
     return true;
   });
 
-  // Cost sort: the chosen cost ascending/descending; colleges with no tuition on file (0 / missing) always go last
+  // Value sort (cost / international share): the chosen value ascending/descending; colleges with no value on file always go last
+  const intlOf = c => {
+    const m = /(\d+(?:\.\d+)?)%\s*\((\d+)\/(\d+)/.exec(c.intlRosterPct || "");
+    return m ? { pct: Number(m[1]), num: Number(m[2]) } : null;
+  };
   const costSort = {
-    TUITION_ASC: { cost: c => c.annualTuitionUSD, dir: 1 },
-    TUITION_DESC: { cost: c => c.annualTuitionUSD, dir: -1 },
-    TOTAL_ASC: { cost: c => c.annualTuitionUSD + (c.roomAndBoardUSD || 0), dir: 1 },
-    TOTAL_DESC: { cost: c => c.annualTuitionUSD + (c.roomAndBoardUSD || 0), dir: -1 }
+    TUITION_ASC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD : null), dir: 1 },
+    TUITION_DESC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD : null), dir: -1 },
+    TOTAL_ASC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD + (c.roomAndBoardUSD || 0) : null), dir: 1 },
+    TOTAL_DESC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD + (c.roomAndBoardUSD || 0) : null), dir: -1 },
+    INTL_PCT_DESC: { val: c => (intlOf(c) ? intlOf(c).pct : null), dir: -1 },
+    INTL_PCT_ASC: { val: c => (intlOf(c) ? intlOf(c).pct : null), dir: 1 },
+    INTL_NUM_DESC: { val: c => (intlOf(c) ? intlOf(c).num : null), dir: -1 }
   }[sort];
   if (costSort) {
-    const known = c => Number.isFinite(c.annualTuitionUSD) && c.annualTuitionUSD > 0;
     filtered.sort((a, b) => {
-      if (known(a) !== known(b)) return known(a) ? -1 : 1;
-      if (known(a)) {
-        const diff = (costSort.cost(a) - costSort.cost(b)) * costSort.dir;
+      const va = costSort.val(a), vb = costSort.val(b);
+      if ((va === null) !== (vb === null)) return va === null ? 1 : -1;
+      if (va !== null) {
+        const diff = (va - vb) * costSort.dir;
         if (diff !== 0) return diff;
       }
       return a.name.localeCompare(b.name);
