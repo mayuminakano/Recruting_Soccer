@@ -123,7 +123,7 @@
             <input type="file" id="file-import-profile" accept=".json" class="hidden" onchange="importProfileFile(event)">
           </div>
           <button onclick="exportToExcel()" class="w-full mt-2 py-1 px-2 bg-emerald-950 hover:bg-emerald-800 text-emerald-300 border border-emerald-700 rounded font-bold text-[10px] transition flex items-center justify-center gap-1">
-            <i data-lucide="file-spreadsheet" class="w-3 h-3"></i> Excel出劁E(.xlsx)
+            <i data-lucide="file-spreadsheet" class="w-3 h-3"></i> Excel出力 (.xlsx)
           </button>
         </div>
 
@@ -152,7 +152,7 @@
           </div>
           <div class="min-w-0">
             <h2 id="header-player-name" class="text-sm font-bold text-white flex items-center gap-2 truncate">
-              Taro Yamada (山田 太郁E
+              Taro Yamada (山田 太郎)
             </h2>
             <p id="header-player-sub" class="text-xs text-slate-400 truncate">
               Transfer Fall 2027 (Rising Junior) | CM / CDM | College GPA - | NCAA #未登録
@@ -163,7 +163,7 @@
         <!-- Quick Top Actions (hidden on small screens; available from sidebar tabs) -->
         <div class="hidden md:flex items-center gap-2 shrink-0">
           <button onclick="exportToExcel()" class="px-3 py-1.5 text-xs font-bold bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg shadow transition flex items-center gap-1.5" title="全データをExcelファイルとしてエクスポート">
-            <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i> Excel出劁E(.xlsx)
+            <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i> Excel出力 (.xlsx)
           </button>
           <button onclick="switchTab('email')" class="px-3 py-1.5 text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-lg shadow transition flex items-center gap-1.5">
             <i data-lucide="send" class="w-3.5 h-3.5"></i> スカウトメール送信準備
@@ -331,7 +331,7 @@
                 <i data-lucide="upload" class="w-4 h-4"></i> ファイルから読み込む
               </button>
               <button onclick="printResumeSheet()" class="px-4 py-2 text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl shadow transition flex items-center gap-1.5">
-                <i data-lucide="printer" class="w-4 h-4"></i> レジュメをPDF出劁E/ 印刷
+                <i data-lucide="printer" class="w-4 h-4"></i> レジュメをPDF出力 / 印刷
               </button>
             </div>
           </div>
@@ -401,7 +401,7 @@
               <div class="grid grid-cols-3 gap-2">
                 <div class="col-span-2">
                   <label class="text-xs font-semibold text-slate-300 block mb-1">現在の所属大学 / 経歴</label>
-                  <input type="text" id="prof-currentTeam" placeholder="高校 -> 〇〇College -> 〇〇University" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+                  <input type="text" id="prof-currentTeam" placeholder="高校 -> 短大/College -> 大学/University" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
                   <label class="text-xs font-semibold text-slate-300 block mb-1">背番号 (#)</label>
@@ -446,7 +446,7 @@
                 <span class="text-xs font-bold text-amber-400 block mb-2">学業・テストスコア・NCAA ID</span>
                 <div class="grid grid-cols-3 gap-2">
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">大学GPA (4.0換箁E</label>
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">大学GPA (4.0換算)</label>
                     <input type="text" id="prof-gpa" placeholder="3.65" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                   <div>
@@ -487,7 +487,7 @@
                 <span class="text-xs font-bold text-sky-400 block mb-2">動画リンク (YouTube / Hudl / Vimeo)</span>
                 <div class="space-y-2">
                   <div>
-                    <label class="text-xs font-semibold text-slate-300 block mb-1">ハイライト動画 URL (3、5分)</label>
+                    <label class="text-xs font-semibold text-slate-300 block mb-1">ハイライト動画 URL (3〜5分)</label>
                     <input type="url" id="prof-highlightVideoUrl" placeholder="https://youtu.be/..." class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                   </div>
                   <div>
@@ -523,7 +523,7 @@
               <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow">
                 <div class="flex items-center justify-between pb-3 mb-4 border-b border-slate-800 no-print">
                   <span class="text-xs font-bold text-slate-400 flex items-center gap-1.5">
-                    <i data-lucide="eye" class="w-4 h-4 text-emerald-400"></i> スカウトシーチEプレビュー (印刷用)
+                    <i data-lucide="eye" class="w-4 h-4 text-emerald-400"></i> スカウトシート プレビュー (印刷用)
                   </span>
                   <button onclick="saveProfileFromForm()" class="text-xs text-sky-400 hover:underline">
                     プレビューを更新
@@ -561,7 +561,7 @@
                 </h2>
                 <p class="text-xs text-slate-400 mt-0.5">
                   NCAA D1/D2/D3、NAIA、NJCAA(短大)の強豪校・日本人受け入れ実績校を検索・分析できます。
-                </p>
+              </p>
               </div>
               <div class="flex items-center gap-2">
                 <span id="explorer-match-count" class="text-xs px-3 py-1.5 bg-slate-800 text-sky-300 font-bold rounded-lg border border-slate-700">
@@ -579,7 +579,7 @@
               <div>
                 <label class="text-[11px] font-bold text-slate-400 block mb-1">大学名・地域・コーチ名 検索</label>
                 <div class="relative">
-                  <input type="text" id="search-college" placeholder="侁E Indiana, Clemson, ACC..." class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-8 pr-3 py-2 text-xs text-white">
+                  <input type="text" id="search-college" placeholder="例: Indiana, Clemson, ACC..." class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-8 pr-3 py-2 text-xs text-white">
                   <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5"></i>
                 </div>
               </div>
@@ -593,7 +593,7 @@
                   <option value="NCAA D2">NCAA Division 2 (留学生多数・強豪)</option>
                   <option value="NCAA D3">NCAA Division 3 (学業最優先・給付奨学金)</option>
                   <option value="NAIA">NAIA (手厚い奨学金・柔軟規定)</option>
-                  <option value="NJCAA D1">NJCAA D1 / JUCO (2年制・D1編入ルーチE</option>
+                  <option value="NJCAA D1">NJCAA D1 / JUCO (2年制・D1編入ルート)</option>
                   <option value="NJCAA D2">NJCAA D2 / JUCO (2年制・学費のみ奨学金)</option>
                 </select>
               </div>
@@ -746,7 +746,7 @@
                   <input type="email" id="email-coach-address" placeholder="coach@university.edu" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
                 </div>
                 <div>
-                  <label class="text-xs font-semibold text-indigo-300 block mb-1">CC (アシスタントコーチE/ リクルート担彁E</label>
+                  <label class="text-xs font-semibold text-indigo-300 block mb-1">CC (アシスタントコーチ / リクルート担当)</label>
                   <input type="email" id="email-coach-cc" placeholder="asstcoach@university.edu" class="w-full bg-slate-800 border border-indigo-700/60 rounded-lg p-2 text-xs text-indigo-100">
                 </div>
               </div>
@@ -760,7 +760,7 @@
                   <li>件名に <strong>Transfer (Fall 202X) / ポジション / 氏名 / 映像リンク</strong> を明記</li>
                   <li>NCAA D1はTransfer Portal登録後に他校コーチと接触するのが原則。現在のコーチへの相談を先に</li>
                   <li>米国の火曜〜木曜の朝（日本時間の深夜〜早朝）に送信すると開封率UP</li>
-                  <li>ヘッドコーチだけでなく、リクルート担当のアシスタントコーチにもCC</li>
+                  <li>ヘッドコーチだけでなく、リクルート担当・アシスタントコーチにもCC</li>
                 </ul>
               </div>
             </div>
@@ -927,7 +927,7 @@
 
               <!-- Exchange Rate -->
               <div>
-                <label class="text-xs font-semibold text-slate-300 block mb-1">為替レーチE(1 USD = 冁E</label>
+                <label class="text-xs font-semibold text-slate-300 block mb-1">為替レート (1 USD = 円)</label>
                 <div class="relative">
                   <span class="absolute left-3 top-2 text-slate-400 text-xs">¥</span>
                   <input type="number" id="calc-exchange-rate" oninput="updateCalculatorInputs()" value="155" class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-xs text-white">
@@ -989,7 +989,7 @@
               <div class="p-4 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-300 space-y-2.5">
                 <div class="flex items-center justify-between">
                   <h4 class="font-bold text-amber-400 flex items-center gap-1.5 text-xs">
-                    <i data-lucide="info" class="w-4 h-4"></i> アメリカ大学サッカーの奨学金制度 & 【2025/2026年〜新ルール解説】
+                    <i data-lucide="info" class="w-4 h-4"></i> アメリカ大学サッカーの奨学金制度 & 「2025/2026年〜新ルール解説」
                   </h4>
                   <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-bold">2025/2026 最新規定対応</span>
                 </div>
@@ -1016,7 +1016,7 @@
   <!-- ============================================================== -->
   <div id="college-detail-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closeCollegeDetailModal()" aria-label="閉じめE class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closeCollegeDetailModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <div id="college-detail-content">
@@ -1030,7 +1030,7 @@
   <!-- ============================================================== -->
   <div id="add-college-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closeAddCollegeModal()" aria-label="閉じめE class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closeAddCollegeModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
@@ -1039,7 +1039,7 @@
       <div class="space-y-3">
         <div>
           <label class="text-xs font-semibold text-slate-300 block mb-1">大学名 *</label>
-          <input type="text" id="newcol-name" placeholder="侁E University of Washington" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
+          <input type="text" id="newcol-name" placeholder="例: University of Washington" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
         </div>
         <div class="grid grid-cols-2 gap-2">
           <div>
@@ -1047,7 +1047,7 @@
             <input type="text" id="newcol-location" placeholder="Seattle, Washington" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
           <div>
-            <label class="text-xs font-semibold text-slate-300 block mb-1">州コーチE(State)</label>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">州コード (State)</label>
             <input type="text" id="newcol-state" placeholder="WA" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-xs text-white">
           </div>
         </div>
@@ -1117,7 +1117,7 @@
   <!-- ============================================================== -->
   <div id="pipeline-edit-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closePipelineEditModal()" aria-label="閉じめE class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closePipelineEditModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <div id="pipeline-edit-content">
@@ -1131,7 +1131,7 @@
   <!-- ============================================================== -->
   <div id="compare-modal" data-modal role="dialog" aria-modal="true" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-5xl w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-      <button onclick="closeCompareModal()" aria-label="閉じめE class="absolute top-5 right-5 text-slate-400 hover:text-white">
+      <button onclick="closeCompareModal()" aria-label="閉じる" class="absolute top-5 right-5 text-slate-400 hover:text-white">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
       <div id="compare-content"></div>
@@ -1148,7 +1148,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=20261125a"></script>
-  <script src="app.js?v=20261126a"></script>
+  <script src="data.js?v=20261127c"></script>
+  <script src="app.js?v=20261126c"></script>
 </body>
 </html>

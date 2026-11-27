@@ -132,12 +132,12 @@ const INITIAL_COLLEGES = [
     "stadium": "Laird Q. Cagan Stadium",
     "targetGPA": 3.85,
     "minTOEFL": 100,
-    "annualTuitionUSD": 65127,
-    "roomAndBoardUSD": 21315,
+    "annualTuitionUSD": 70341,
+    "roomAndBoardUSD": 22944,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール) + 100% Need-based Aid",
     "intlFriendlyRating": "High",
     "intlRosterPct": "7% (2/27名)",
-    "notes": "全米3連覇王者 (2015-17)。文武両道最高峰。2024年秋よりACC所属。日本人選手(Yujin Kikuchi)在籍。",
+    "notes": "全米3連覇王者 (2015-17)。文武両道最高峰。2024年秋よりACC所属。日本人選手(Yujin Kikuchi)在籍。 【費用】公式2026-27年度 Student Budget。学費=授業料$67,731+学生諸費の目安$2,610。寮費=Housing and Food $22,944。留学生は公式上Cardinal Care保険が自動で予算に含まれるが、金額は未確認のため含まず(別途かかる)。新入生は一時金(オリエンテーション$525+書類$250)も別途。出典 financialaid.stanford.edu/undergrad/budget",
     "tags": [
       "ACC",
       "West",
@@ -400,12 +400,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "calsoccer@berkeley.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
-    "annualTuitionUSD": 48465,
-    "roomAndBoardUSD": 22500,
+    "annualTuitionUSD": 62550,
+    "roomAndBoardUSD": 23640,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "17% (5/30名)",
-    "notes": "全米屈指の州立名門。2024年秋よりACC所属。サンフランシスコ・ベイエリア。",
+    "notes": "全米屈指の州立名門。2024年秋よりACC所属。サンフランシスコ・ベイエリア。 【費用】公式2026-27年度 新入生・非居住者(Campus Residence Hall)。学費=学費・諸費$18,214+非居住者追加$39,270+学生健康保険$5,066。寮費=住居$16,640+食費$7,000。出典 financialaid.berkeley.edu/cost-of-attendance",
     "tags": [
       "ACC",
       "West",
@@ -648,12 +648,12 @@ const INITIAL_COLLEGES = [
     "stadium": "Wallis Annenberg Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 85,
-    "annualTuitionUSD": 49326,
-    "roomAndBoardUSD": 19230,
+    "annualTuitionUSD": 59585,
+    "roomAndBoardUSD": 19867,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "53% (16/30名)",
-    "notes": "全米王者4回。2024年秋よりBig Ten所属。ロサンゼルス・ウェストウッドの最高峰環境。",
+    "notes": "全米王者4回。2024年秋よりBig Ten所属。ロサンゼルス・ウェストウッドの最高峰環境。 【費用】公式2026-27年度 新入生・非居住者(On-Campus)。学費=学費$15,588+キャンパス諸費$842+非居住者追加$39,270+健康保険$3,885。寮費=住居$12,299+食費$7,568。出典 financialaid.ucla.edu/how-aid-works/cost-of-attendance",
     "tags": [
       "Big Ten",
       "West",
@@ -684,12 +684,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "clarkj8@uw.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 41997,
-    "roomAndBoardUSD": 16800,
+    "annualTuitionUSD": 45789,
+    "roomAndBoardUSD": 18858,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/30名)",
-    "notes": "2021 National Runner-up. Top West Coast powerhouse.",
+    "notes": "2021 National Runner-up. Top West Coast powerhouse. 【費用】公式2026-27年度 Seattleキャンパス非居住者(公式に『留学生は非居住者授業料』と明記)。学費=非居住者授業料・諸費$45,789(U-Pass $210含む)。寮費=Housing & food $18,858(On/Off campus共通の公式額)。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 admit.washington.edu/costs/coa",
     "tags": [
       "Big Ten",
       "West",
@@ -2311,12 +2311,12 @@ const INITIAL_COLLEGES = [
     "stadium": "Harder Stadium",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 44196,
-    "roomAndBoardUSD": 18600,
+    "annualTuitionUSD": 60951,
+    "roomAndBoardUSD": 23985,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
     "intlRosterPct": "36% (10/28名)",
-    "notes": "2006年全米王者。観客動員1万人超のHarder Stadium。欧州留学生を積極採用。",
+    "notes": "2006年全米王者。観客動員1万人超のHarder Stadium。欧州留学生を積極採用。 【費用】公式2026-27年度 新入生・非居住者(Residence Halls)。学費=学費$15,588+キャンパス諸費$2,085+非居住者追加$39,270+健康保険$4,008。寮費=家賃$13,203+食費$10,782。出典 finaid.ucsb.edu 2026-2027 Undergraduate Budget",
     "tags": [
       "Big West",
       "West",
@@ -2348,12 +2348,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "mensoccer@calpoly.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
-    "annualTuitionUSD": 29800,
-    "roomAndBoardUSD": 17200,
+    "annualTuitionUSD": 40049,
+    "roomAndBoardUSD": 20338,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "6% (2/31名)",
-    "notes": "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans.",
+    "notes": "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans. 学費・寮費は公式2026-27年度 留学生(新入生/SLO)の金額: 学費・諸費$40,049(Science&Math/Business/Liberal Arts。Engineering/Architecture/Agricultureは$41,087)=州民分$14,682+非居住者$14,130+Opportunity Fee$8,804+留学生手数料$900+必須保険$1,533。寮費$20,338=On Campus住居$12,682+食費$7,656。",
     "tags": [
       "Big West",
       "West",
@@ -2385,12 +2385,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "yraz@uci.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 44100,
-    "roomAndBoardUSD": 18200,
+    "annualTuitionUSD": 59559,
+    "roomAndBoardUSD": 19376,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "24% (7/29名)",
-    "notes": "Anteater Stadium in Orange County California.",
+    "notes": "Anteater Stadium in Orange County California. 【費用】公式2026-27年度 新入生・非居住者(On Campus)。学費=システム諸費$15,588+キャンパス諸費$4,701+非居住者追加$39,270(健康保険は公式ページに記載なく含まず)。寮費=住居$12,053+食費$7,323。出典 ofas.uci.edu/cost/undergraduate-costs/new-students.php",
     "tags": [
       "Big West",
       "West",
@@ -2496,12 +2496,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "terry.davila@csun.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 16500,
+    "annualTuitionUSD": 22458,
+    "roomAndBoardUSD": 15320,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "16% (5/31名)",
-    "notes": "Matador Soccer Field in Los Angeles. Technical Latin style.",
+    "notes": "Matador Soccer Field in Los Angeles. Technical Latin style. 【費用】公式2026-27年度 Living On Campus。学費=授業料・諸費$8,328+非居住者追加$14,130(公式記載『$471/単位を追加』×30単位の概算)。寮費=住居$9,152+食費$6,168。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csun.edu/financialaid/.../2026-2027-fall-and-spring-cost-attendance",
     "tags": [
       "Big West",
       "West",
@@ -2533,12 +2533,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "tim.cupello@ucr.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 44200,
-    "roomAndBoardUSD": 17800,
+    "annualTuitionUSD": 58884,
+    "roomAndBoardUSD": 21075,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "16% (5/31名)",
-    "notes": "2022 Big West Champions. UC Soccer Stadium.",
+    "notes": "2022 Big West Champions. UC Soccer Stadium. 【費用】公式2026-27年度 新入生・非居住者(University Housing)。学費=学費$15,588+キャンパス・テック諸費$1,202+非居住者追加$39,270+健康保険$2,824。寮費=住居$13,793+食費$7,282。出典 financialaid.ucr.edu/cost",
     "tags": [
       "Big West",
       "West",
@@ -2570,12 +2570,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "jpascale@ucsd.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 44800,
-    "roomAndBoardUSD": 17500,
+    "annualTuitionUSD": 60789,
+    "roomAndBoardUSD": 20742,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Medium",
     "intlRosterPct": "3% (1/29名)",
-    "notes": "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。",
+    "notes": "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。 【費用】公式2026-27年度 2026 Cohort・非居住者(On Campus)。学費=学費$15,588+キャンパス諸費$2,511+Health Fee$3,195+入学手数料$225+非居住者追加$39,270。寮費=住居$13,761+食費$6,981。出典 fas.ucsd.edu/cost-of-attendance/undergraduates",
     "tags": [
       "Big West",
       "West",
@@ -2607,12 +2607,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "mmcdougall@csus.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 15900,
+    "annualTuitionUSD": 23786,
+    "roomAndBoardUSD": 20212,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Medium-High",
     "intlRosterPct": "7% (2/28名)",
-    "notes": "州都サクラメント。地元カリフォルニアと一部留学生で構成。",
+    "notes": "州都サクラメント。地元カリフォルニアと一部留学生で構成。 【費用】公式2026-27年度。学費=授業料$3,419×2学期+キャンパス諸費$1,409×2学期=$9,656+非居住者$471/単位×30単位=$14,130(年30単位は概算)。寮費=公式COA On-Campusの Living Expenses $20,212(住居・食費込み)。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csus.edu/administration-business-affairs/bursar/tuition-living-costs.html",
     "tags": [
       "Big West",
       "West",
@@ -2644,12 +2644,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "runnersoccer@csub.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 14800,
+    "annualTuitionUSD": 20247,
+    "roomAndBoardUSD": 17432,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
     "intlRosterPct": "43% (12/28名)",
-    "notes": "セントラルバレーの州立校。留学生比率が4割超と非常に高い。",
+    "notes": "セントラルバレーの州立校。留学生比率が4割超と非常に高い。 【費用】公式2026-27年度 非居住者(On-Campus)。学費=非居住者授業料$11,304+システム授業料$6,838+キャンパス諸費$2,105。寮費=住居$11,212+食費$6,220。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csub.edu/financial-aid/costs/budgets.shtml",
     "tags": [
       "Big West",
       "West",
@@ -2682,12 +2682,12 @@ const INITIAL_COLLEGES = [
     "stadium": "Merlo Field (Clive Charles Soccer Complex)",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 53890,
-    "roomAndBoardUSD": 16200,
+    "annualTuitionUSD": 64490,
+    "roomAndBoardUSD": 17430,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "15% (5/33名)",
-    "notes": "Historic Merlo Field. Unrivaled pro output & international recruiting.",
+    "notes": "Historic Merlo Field. Unrivaled pro output & international recruiting. 【費用】公式2027-28年度(最新公開分、2026-27は未掲載)。学費=授業料$31,700×2学期+Campus Access Fee$545×2学期。寮費=Traditional Hall共用室$5,975×2+Meal Plan 1 $2,740×2。ASUP学生活動費・健康保険は公式表でTBDのため含まず。私立のため留学生も同額。出典 up.edu/admissions-aid/office-of-financial-aid/costs/undergraduate-cost-of-attendance.html",
     "tags": [
       "WCC",
       "West",
@@ -2717,12 +2717,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "brianq@sandiego.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 54800,
-    "roomAndBoardUSD": 17100,
+    "annualTuitionUSD": 69357,
+    "roomAndBoardUSD": 19200,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "27% (8/30名)",
-    "notes": "サンディエゴの美しい私立名門。WCC連覇実績。ブラジルや欧州からの留学生多数。",
+    "notes": "サンディエゴの美しい私立名門。WCC連覇実績。ブラジルや欧州からの留学生多数。 【費用】公式2026-27年度 フルタイム。学費=授業料$64,100+諸費$1,099+健康保険$4,158(2026/8-2027/7の保険料。USD公式の『Educational Cost』表に含まれる)。寮費=住居(Maher Hall・ダブル)$13,450+ミールプラン$5,750。私立のため留学生も同額。出典 sandiego.edu/torero-hub/tuition-and-fees/undergraduate.php",
     "tags": [
       "WCC",
       "West",
@@ -2756,12 +2756,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "beaverssoccer@oregonstate.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 33900,
-    "roomAndBoardUSD": 14600,
+    "annualTuitionUSD": 42459,
+    "roomAndBoardUSD": 18066,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "24% (7/29名)",
-    "notes": "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks.",
+    "notes": "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks. 【費用】公式2026-27年度 Corvallis Campus 非居住者学部生(15単位×3学期)。学費=授業料・諸費$42,459。寮費=Living Expenses(食費・住居)$18,066。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 financialaid.oregonstate.edu/cost-attendance",
     "tags": [
       "WCC",
       "West",
@@ -2789,12 +2789,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "msoccer@scu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 58580,
-    "roomAndBoardUSD": 17800,
+    "annualTuitionUSD": 65736,
+    "roomAndBoardUSD": 20094,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "Very High",
     "intlRosterPct": "39% (11/28名)",
-    "notes": "1989年全米共同王者。シリコンバレー中心部。日本人選手(Yu Yokokawa)がディフェンスで活躍中。",
+    "notes": "1989年全米共同王者。シリコンバレー中心部。日本人選手(Yu Yokokawa)がディフェンスで活躍中。 【費用】公式2026-27年度 Undergraduate On-Campus の Direct Costs。学費=授業料$64,956+Student Engagement & Well-Being Fee$780。寮費=Housing and Food $20,094。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし(別途かかる可能性)。出典 scu.edu/financialaid/cost-of-attendance/",
     "tags": [
       "WCC",
       "West",
@@ -2828,12 +2828,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "acooper@stmarys-ca.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 53900,
-    "roomAndBoardUSD": 16900,
+    "annualTuitionUSD": 62052,
+    "roomAndBoardUSD": 18900,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "36% (12/33名)",
-    "notes": "Saint Mary's Stadium. Elite defense & multiple WCC titles.",
+    "notes": "Saint Mary's Stadium. Elite defense & multiple WCC titles. 【費用】公式2026-27年度 On Campus(非BSN)。学費=年間授業料$61,416+学生諸費$636(Student Body $216+Enhancement $320+Experience $100)。寮費=Food & Housing $18,900。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 stmarys-ca.edu/financial-aid/tuition-and-fees",
     "tags": [
       "WCC",
       "West",
@@ -2867,12 +2867,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "cbrown14@usfca.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 55800,
-    "roomAndBoardUSD": 18200,
+    "annualTuitionUSD": 64492,
+    "roomAndBoardUSD": 19150,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "17% (5/30名)",
-    "notes": "4x National Champions. Negoesco Stadium in heart of San Francisco.",
+    "notes": "4x National Champions. Negoesco Stadium in heart of San Francisco. 【費用】公式2026-27年度 Living on campus。学費=Hilltopキャンパスのフルタイム授業料$63,880+諸費$612。寮費=住居$12,930+食費$6,220。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 usfca.edu/financial-aid/undergraduate-student-costs",
     "tags": [
       "WCC",
       "West",
@@ -2945,12 +2945,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "pacificmsoccer@pacific.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 53500,
-    "roomAndBoardUSD": 15800,
+    "annualTuitionUSD": 60760,
+    "roomAndBoardUSD": 17776,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "19% (6/32名)",
-    "notes": "ストックトンの私立校。近年WCC上位へ急成長中。",
+    "notes": "ストックトンの私立校。近年WCC上位へ急成長中。 【費用】公式2026-27年度 フルタイム・On-Campus。学費=授業料$59,560+諸費$1,200。寮費=住居$9,876+食費$7,900。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 pacific.edu/financial-aid/cost-of-attendance/undergraduate-students",
     "tags": [
       "WCC",
       "West",
@@ -4451,12 +4451,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "seattlesoccer@seattleu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 52800,
-    "roomAndBoardUSD": 16900,
+    "annualTuitionUSD": 63148,
+    "roomAndBoardUSD": 17628,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "19% (5/27名)",
-    "notes": "Championship Field in downtown Seattle. Multiple WAC titles.",
+    "notes": "Championship Field in downtown Seattle. Multiple WAC titles. 【費用】公式2026-27年度 On Campus。学費=授業料$59,400+技術費$642+Wellness$516+Activity$198+留学生保険$2,392(waive可だが必須扱いで算入)。寮費=住居$11,202+食費$6,426。私立のため留学生も同額。出典 seattleu.edu/admissions-aid/tuition-and-fees/undergraduate-cost-of-attendance/",
     "tags": [
       "WAC",
       "West",
@@ -4521,12 +4521,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "msoccer@calbaptist.edu",
     "targetGPA": 3.2,
     "minTOEFL": 85,
-    "annualTuitionUSD": 38900,
-    "roomAndBoardUSD": 13900,
+    "annualTuitionUSD": 46116,
+    "roomAndBoardUSD": 13794,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "59% (17/29名)",
-    "notes": "CBU Soccer Stadium. 2022 WAC Champions in SoCal.",
+    "notes": "CBU Soccer Stadium. 2022 WAC Champions in SoCal. 【費用】公式2027-28年度(最新公開分)。学費=授業料(13-18単位)$43,966+諸費$2,150。寮費=共用部屋+新入生最低ミールプランの合計$13,794。私立のため留学生も同額、健康保険(任意加入、1学期約$1,300-1,500)は含まず。出典 calbaptist.edu/admissions-aid/tuition-aid/undergraduate/cost-of-attendance",
     "tags": [
       "WAC",
       "West",
@@ -4560,12 +4560,12 @@ const INITIAL_COLLEGES = [
     "coachEmail": "sjsusoccer@sjsu.edu",
     "targetGPA": 3.2,
     "minTOEFL": 75,
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 18200,
+    "annualTuitionUSD": 23928,
+    "roomAndBoardUSD": 22912,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "10% (3/29名)",
-    "notes": "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。",
+    "notes": "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。 【費用】公式2026-27年度 Campus Housing。学費=授業料$9,553+IRA$245+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$15,543+食費$7,369。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 sjsu.edu/faso/process/cost-of-attendance.php",
     "tags": [
       "WAC",
       "West",
@@ -7419,12 +7419,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Aztecs",
     "headCoach": "Ryan Hopkins",
     "coachEmail": "aztecssoccer@sdsu.edu",
-    "annualTuitionUSD": 20400,
-    "roomAndBoardUSD": 18900,
+    "annualTuitionUSD": 28502,
+    "roomAndBoardUSD": 21544,
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "19% (5/26名)",
-    "notes": "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse.",
+    "notes": "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse. 【費用】公式 2027年秋入学の非居住者・留学生(University Housing)。学費=基本授業料$7,248+キャンパス諸費$3,098+非居住者授業料$14,940+州外・留学生手数料$3,216。寮費=食事$6,250+住居$15,294。健康保険は公式表に記載なし(別途かかる可能性)。出典 sacd.sdsu.edu/financial-aid/.../cost-of-attendance-tables/undergraduate-non-resident",
     "tags": [
       "WAC",
       "San Diego",
@@ -7522,12 +7522,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Broncos",
     "headCoach": "Matt O'Sullivan",
     "coachEmail": "mjosullivan@cpp.edu",
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 16500,
+    "annualTuitionUSD": 23796,
+    "roomAndBoardUSD": 16910,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
     "intlRosterPct": "19% (6/32名)",
-    "notes": "西海岸トップD2。2015年全米準優勝。工学・ビジネス専攻に強く奨学金枠あり。",
+    "notes": "西海岸トップD2。2015年全米準優勝。工学・ビジネス専攻に強く奨学金枠あり。 【費用】公式2026-27年度 Cost of Attendance(Non California Residents, On-Campus)。学費=Systemwide Tuition Fee$7,938+キャンパス諸費$1,728+非居住者授業料$471/単位×30単位=$14,130(他CSUと同じ年30単位の概算。公式COA表は年20単位=$9,420で計算しており、その場合の学費は$19,086)。寮費=Housing$11,310+Food$5,600。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 cpp.edu/financial-aid/credentials/prospective/costs.shtml",
     "tags": [
       "CCAA",
       "California",
@@ -8195,14 +8195,14 @@ const INITIAL_COLLEGES = [
     "coachEmail": "merush@calstatela.edu",
     "assistantCoach": "Dallas Jaussi",
     "assistantCoachEmail": "djaussi@calstatela.edu",
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 16800,
+    "annualTuitionUSD": 22068,
+    "roomAndBoardUSD": 21654,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "Very High",
     "intlRosterPct": "32% (12/38名)",
     "japanesePlayers": "2名 (公式ロスター確認) Sho Toda, Taito Yoshihara",
     "rosterStats": "公式ロスター全38名 / 留学生12名 / MF 8名 (Sr・Gr 4名)",
-    "notes": "2021年 NCAA D2 全米王者！CCAA連覇。ロサンゼルス中心部に位置しプロスカウト注目度抜群。",
+    "notes": "2021年 NCAA D2 全米王者！CCAA連覇。ロサンゼルス中心部に位置しプロスカウト注目度抜群。 【費用】公式2026-27年度 On Campus。学費=授業料・必須諸費$7,938+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$13,682+食費$7,972。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 calstatela.edu/financialaid/cost-attendance",
     "tags": [
       "2021 D2 Champion",
       "CCAA",
@@ -8533,14 +8533,14 @@ const INITIAL_COLLEGES = [
     "coachEmail": "gjaap@csumb.edu",
     "assistantCoach": "Jack Clink",
     "assistantCoachEmail": "jclink@csumb.edu",
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 16200,
+    "annualTuitionUSD": 23317,
+    "roomAndBoardUSD": 17448,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
     "intlRosterPct": "10% (3/29名)",
     "japanesePlayers": "0名 (公式ロスター確認 / 出身地不明3名)",
     "rosterStats": "公式ロスター全29名 / 留学生3名 / MF 10名 (Sr・Gr 3名) / 出身地不明3名",
-    "notes": "2023年 CCAAトーナメント王者！西海岸で急成長を遂げるカリフォルニア州立大学。",
+    "notes": "2023年 CCAAトーナメント王者！西海岸で急成長を遂げるカリフォルニア州立大学。 【費用】公式2026-27年度 On Campus。学費=授業料$6,838+キャンパス諸費$2,349+非居住者追加$14,130(CSU共通$471/単位×30単位の概算。CSUMBの公式表には非居住者額の記載なし)。寮費=住居$11,169+食費$6,279。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csumb.edu/admissions-aid/costs-financial-aid/tuition-fees/",
     "tags": [
       "2023 CCAA Champion",
       "California D2",
@@ -8566,14 +8566,14 @@ const INITIAL_COLLEGES = [
     "coachEmail": "lrestrepo@csuchico.edu",
     "assistantCoach": "Ross Vartughian",
     "assistantCoachEmail": "rvartughian@csuchico.edu",
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 15400,
+    "annualTuitionUSD": 20648,
+    "roomAndBoardUSD": 15620,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/31名)",
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全31名 / 留学生0名 / MF 12名 (Sr・Gr 1名)",
-    "notes": "CCAAの伝統校。2003年全米準優勝。熱狂的な地元ファンとハイプレッシングスタイル。",
+    "notes": "CCAAの伝統校。2003年全米準優勝。熱狂的な地元ファンとハイプレッシングスタイル。 【費用】公式2026-27年度 非居住者・留学生(12単位×2学期)。学費=授業料$18,142(=$6,838+$471×24単位)+必須キャンパス諸費$2,506。寮費=On Campus住居$9,628+食費$5,992。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csuchico.edu/cost-aid/cost-of-attendance.shtml",
     "tags": [
       "CCAA",
       "Chico CA",
@@ -8599,14 +8599,14 @@ const INITIAL_COLLEGES = [
     "coachEmail": "joshua.hill@csusb.edu",
     "assistantCoach": "Mark Platter",
     "assistantCoachEmail": "soccer@csusb.edu",
-    "annualTuitionUSD": 19800,
-    "roomAndBoardUSD": 15200,
+    "annualTuitionUSD": 23478,
+    "roomAndBoardUSD": 16558,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/33名)",
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全33名 / 留学生0名 / MF 9名 (Sr・Gr 5名)",
-    "notes": "2019年 NCAA D2 全米ベスト4（Final Four）。南カリフォルニアの強豪校。",
+    "notes": "2019年 NCAA D2 全米ベスト4（Final Four）。南カリフォルニアの強豪校。 【費用】公式2026-27年度 University Housing。学費=授業料$6,838+キャンパス諸費$2,510+非居住者追加$14,130(CSU共通$471/単位×30単位の概算。公式表には非居住者額の記載なし)。寮費=住居$11,426+食費$5,132。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csusb.edu 26-27 Undergraduate COA PDF",
     "tags": [
       "CCAA",
       "Final Four 2019",
@@ -8702,14 +8702,14 @@ const INITIAL_COLLEGES = [
     "coachEmail": "philwolf@pointloma.edu",
     "assistantCoach": "Gage Rogers",
     "assistantCoachEmail": "gagerogers@pointloma.edu",
-    "annualTuitionUSD": 42800,
-    "roomAndBoardUSD": 13800,
+    "annualTuitionUSD": 50500,
+    "roomAndBoardUSD": 15510,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
     "japanesePlayers": "受入実績あり (太平洋を一望する絶景キャンパス)",
     "rosterStats": "要確認",
-    "notes": "2023年 NCAA D2 西部地区王者！全米一美しいと言われるサンディエゴの海岸沿いキャンパス。",
+    "notes": "2023年 NCAA D2 西部地区王者！全米一美しいと言われるサンディエゴの海岸沿いキャンパス。 【費用】公式2026-27年度 Living on Campus。学費=授業料$49,500(12-17単位)+General Fee$1,000。寮費=Housing$8,900+Dorm Fund$90+Meal Plan(標準240食)$6,520。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし(別途かかる可能性)。出典 pointloma.edu/offices/student-financial-services/undergraduate-student-financial-services/costs",
     "tags": [
       "PacWest",
       "2023 West Champ",
@@ -8977,14 +8977,14 @@ const INITIAL_COLLEGES = [
     "coachEmail": "sakudak1@spu.edu",
     "assistantCoach": "Erik Holland",
     "assistantCoachEmail": "soccer@spu.edu",
-    "annualTuitionUSD": 38900,
-    "roomAndBoardUSD": 13900,
+    "annualTuitionUSD": 46569,
+    "roomAndBoardUSD": 17313,
     "scholarshipMax": "Max 9.0 scholarships",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/34名)",
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全34名 / 留学生0名 / MF 13名 (Sr・Gr 3名)",
-    "notes": "5回全米制覇（1978, 83, 85, 86, 93）の超名門！シアトルの洗練された環境。",
+    "notes": "5回全米制覇（1978, 83, 85, 86, 93）の超名門！シアトルの洗練された環境。 【費用】公式2026-27年度 On Campus。学費=授業料$45,648+必須諸費$921(技術・学生活動・Wellness)。寮費=Double room $9,603+Quarterly Block 200ミールプラン$7,710。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 spu.edu/student-financial-services/costs/undergrad-tuition-fees",
     "tags": [
       "5x D2 Champion",
       "GNAC",
@@ -9830,12 +9830,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Warriors",
     "headCoach": "",
     "coachEmail": "",
-    "annualTuitionUSD": 55000,
-    "roomAndBoardUSD": 16000,
+    "annualTuitionUSD": 58226,
+    "roomAndBoardUSD": 18340,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services",
     "tags": [
       "NAIA",
       "Golden State Athletic",
@@ -9861,12 +9861,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Lions",
     "headCoach": "Jesus (Chuy) Miramontes",
     "coachEmail": "msoccer@vanguard.edu",
-    "annualTuitionUSD": 38000,
-    "roomAndBoardUSD": 12000,
+    "annualTuitionUSD": 44730,
+    "roomAndBoardUSD": 13790,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/34名)",
-    "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees",
     "tags": [
       "NAIA",
       "Golden State Athletic",
@@ -9894,12 +9894,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Warriors",
     "headCoach": "Jordan Keegan",
     "coachEmail": "jkeegan@corban.edu",
-    "annualTuitionUSD": 33000,
-    "roomAndBoardUSD": 10000,
+    "annualTuitionUSD": 40130,
+    "roomAndBoardUSD": 13960,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "21% (7/34名)",
-    "notes": "NAIA / Cascade Collegiate。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Cascade Collegiate。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料(12-18単位)$38,864+学生活動費$1,156+技術費$110。寮費=住居(平均)$7,860+食費(最大ミールプラン)$6,100。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 corban.edu/admissions-aid/tuition-fees",
     "tags": [
       "NAIA",
       "Cascade Collegiate",
@@ -11741,12 +11741,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Sunbirds",
     "headCoach": "Cameron Shahrokhi",
     "coachEmail": "cameron.shahrokhi@fresno.edu",
-    "annualTuitionUSD": 30000,
-    "roomAndBoardUSD": 10000,
+    "annualTuitionUSD": 38910,
+    "roomAndBoardUSD": 10757,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "8% (3/38名)",
-    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid",
     "tags": [
       "NCAA D2",
       "PacWest",
@@ -11774,12 +11774,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Penguins",
     "headCoach": "David Frank",
     "coachEmail": "david.frank@dominican.edu",
-    "annualTuitionUSD": 48000,
-    "roomAndBoardUSD": 17000,
+    "annualTuitionUSD": 55626,
+    "roomAndBoardUSD": 16619,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "6% (2/36名)",
-    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 On campus。学費=授業料$54,441+諸費$1,185。寮費=住居$9,142+食事$7,477。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし(別途かかる可能性)。出典 dominican.edu/matricula-costos-y-ayudas-para-estudios-profesionales",
     "tags": [
       "NCAA D2",
       "PacWest",
@@ -11809,12 +11809,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Toros",
     "headCoach": "Eddie Soto",
     "coachEmail": "esoto@csudh.edu",
-    "annualTuitionUSD": 20000,
-    "roomAndBoardUSD": 14000,
+    "annualTuitionUSD": 22831,
+    "roomAndBoardUSD": 19949,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 Campus Housing。学費=授業料$6,838+キャンパス諸費$1,863+非居住者追加$14,130(CSU共通$471/単位×30単位の概算。公式表には非居住者額の記載なし)。寮費=住居$13,090+食費$6,859。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csudh.edu 2026-27 COA PDF",
     "tags": [
       "NCAA D2",
       "CCAA",
@@ -11842,12 +11842,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Pioneers",
     "headCoach": "Michael Haswell",
     "coachEmail": "michael.haswell@csueastbay.edu",
-    "annualTuitionUSD": 20000,
-    "roomAndBoardUSD": 14000,
+    "annualTuitionUSD": 22584,
+    "roomAndBoardUSD": 20558,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "4% (1/27名)",
-    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 On-Campus。学費=授業料$6,838+諸費$1,616+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$13,462+食費$7,096。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csueastbay.edu/financialaid/prospective-students1/cost-of-attendance.html",
     "tags": [
       "NCAA D2",
       "CCAA",
@@ -11874,12 +11874,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Cougars",
     "headCoach": "Ron Pulvers",
     "coachEmail": "rpulvers@csusm.edu",
-    "annualTuitionUSD": 20000,
-    "roomAndBoardUSD": 13000,
+    "annualTuitionUSD": 21286,
+    "roomAndBoardUSD": 15388,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "3% (1/31名)",
-    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 Non-Resident・Living On-Campus。学費=非居住者授業料(12単位×2学期)$18,790+必須諸費$2,496。寮費=住居$12,020+食費$3,368。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csusm.edu/finaid/costofattendance",
     "tags": [
       "NCAA D2",
       "CCAA",
@@ -11936,12 +11936,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Vikings",
     "headCoach": "Greg Brisbon",
     "coachEmail": "wwumsoccer@wwu.edu",
-    "annualTuitionUSD": 25000,
-    "roomAndBoardUSD": 12000,
+    "annualTuitionUSD": 29616,
+    "roomAndBoardUSD": 16893,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "9% (2/23名)",
-    "notes": "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 州外学生(Out-of-State)。学費=授業料・諸費$27,717+必須追加諸費$1,449+新入生登録費$450。寮費=Housing and Meals $16,893。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 admissions.wwu.edu/cost",
     "tags": [
       "NCAA D2",
       "GNAC",
@@ -11968,12 +11968,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Saints",
     "headCoach": "Rob Walker",
     "coachEmail": "rwalker@stmartin.edu",
-    "annualTuitionUSD": 38000,
-    "roomAndBoardUSD": 12000,
+    "annualTuitionUSD": 48264,
+    "roomAndBoardUSD": 17151,
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/35名)",
-    "notes": "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 留学生(International undergraduate)。学費=授業料$48,264(12-18単位)。寮費=住居(中間額)$7,295+食事(中間額)$9,856。教科書レンタル$742.50・預り金は除く。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 stmartin.edu/admissions-financial-aid/tuition-and-fees",
     "tags": [
       "NCAA D2",
       "GNAC",
@@ -13134,12 +13134,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Mountaineers",
     "headCoach": "Jessy Watson",
     "coachEmail": "watsonja@eou.edu",
-    "annualTuitionUSD": 0,
-    "roomAndBoardUSD": 0,
+    "annualTuitionUSD": 26158,
+    "roomAndBoardUSD": 12503,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "6% (2/31名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Regular-Season Champion)。ポジション表記C/W/Sは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Regular-Season Champion)。ポジション表記C/W/Sは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式2026-27年度 On Campus 非居住者(F-1留学生を含む)・15単位×3学期($8,719.50×3)。寮費=North/Daugherty Double $7,343+Best Valueミールプラン$5,160。入学時に一回限りの登録費$350が別途。留学生保険は公式表に記載なし(別途かかる可能性)。出典 eou.edu/student-financial-services/tuition-and-fees, eou.edu/reslife/rates-billing",
     "tags": [
       "NAIA",
       "Cascade Collegiate",
@@ -13303,12 +13303,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Golden Eagles",
     "headCoach": "David Trevino",
     "coachEmail": "dtrevino@lasierra.edu",
-    "annualTuitionUSD": 0,
-    "roomAndBoardUSD": 0,
+    "annualTuitionUSD": 39990,
+    "roomAndBoardUSD": 10380,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "5% (1/21名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Great Southwest Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Great Southwest Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式2026-27年度(3クォーター制)。学費=授業料$39,000+一般諸費$990。寮費=Double Room $5,520+ミールプラン(100食/クォーター)$4,860。私立のため留学生も同額、留学生保険は金額未定(TBD)のため含まず。出典 lasierra.edu/tuition-and-costs",
     "tags": [
       "NAIA",
       "Great Southwest Athletic",
@@ -13641,12 +13641,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Knights",
     "headCoach": "Troy Ready",
     "coachEmail": "tready@warnerpacific.edu",
-    "annualTuitionUSD": 0,
-    "roomAndBoardUSD": 0,
+    "annualTuitionUSD": 24850,
+    "roomAndBoardUSD": 15668,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/53名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Tournament Champion)。53名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Tournament Champion)。53名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式2026-27年度 Standard Budget(扶養学生・伝統的プログラム)。学費・諸費=$24,850(授業料$23,890+諸費)。寮費=公式の生活費(Living Expenses)$15,668(住居・食事を含む標準予算)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 warnerpacific.edu/admissions-aid/financial-aid/cost-of-attendance",
     "tags": [
       "NAIA",
       "Cascade Collegiate",
@@ -13676,12 +13676,12 @@ const INITIAL_COLLEGES = [
     "mascot": "Warriors",
     "headCoach": "Randy Dodge",
     "coachEmail": "",
-    "annualTuitionUSD": 0,
+    "annualTuitionUSD": 19128,
     "roomAndBoardUSD": 0,
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "77% (27/35名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (California Pacific Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (California Pacific Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式F-1留学生(学士)の年間授業料。寮費は公式に住居・食費の内訳がなく(Housing, Living Expenses, Transportation 合計$20,616のみ)、算入せず0のまま。留学生手数料・保険は記載なし(別途かかる可能性)。出典 westcliff.edu/admissions/international-students/",
     "tags": [
       "NAIA",
       "California Pacific",
@@ -14117,6 +14117,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (過去受け入れ実績あり)",
       "0名 (公式ロスター確認)"
+    ],
+    "annualTuitionUSD": [
+      48465,
+      62550
+    ],
+    "roomAndBoardUSD": [
+      22500,
+      23640
+    ],
+    "notes": [
+      "全米屈指の州立名門。2024年秋よりACC所属。サンフランシスコ・ベイエリア。",
+      "全米屈指の州立名門。2024年秋よりACC所属。サンフランシスコ・ベイエリア。 【費用】公式2026-27年度 新入生・非居住者(Campus Residence Hall)。学費=学費・諸費$18,214+非居住者追加$39,270+学生健康保険$5,066。寮費=住居$16,640+食費$7,000。出典 financialaid.berkeley.edu/cost-of-attendance"
     ]
   },
   "universityoflouisvil-mens": {
@@ -14327,6 +14339,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "annualTuitionUSD": [
+      41997,
+      45789
+    ],
+    "roomAndBoardUSD": [
+      16800,
+      18858
+    ],
+    "notes": [
+      "2021 National Runner-up. Top West Coast powerhouse.",
+      "2021 National Runner-up. Top West Coast powerhouse. 【費用】公式2026-27年度 Seattleキャンパス非居住者(公式に『留学生は非居住者授業料』と明記)。学費=非居住者授業料・諸費$45,789(U-Pass $210含む)。寮費=Housing & food $18,858(On/Off campus共通の公式額)。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 admit.washington.edu/costs/coa"
     ]
   },
   "ohiostateuniversity-mens": {
@@ -15773,6 +15797,18 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "gauchossoccer@ucsb.edu",
       "menssoccer@athletics.ucsb.edu"
+    ],
+    "annualTuitionUSD": [
+      44196,
+      60951
+    ],
+    "roomAndBoardUSD": [
+      18600,
+      23985
+    ],
+    "notes": [
+      "2006年全米王者。観客動員1万人超のHarder Stadium。欧州留学生を積極採用。",
+      "2006年全米王者。観客動員1万人超のHarder Stadium。欧州留学生を積極採用。 【費用】公式2026-27年度 新入生・非居住者(Residence Halls)。学費=学費$15,588+キャンパス諸費$2,085+非居住者追加$39,270+健康保険$4,008。寮費=家賃$13,203+食費$10,782。出典 finaid.ucsb.edu 2026-2027 Undergraduate Budget"
     ]
   },
   "calpolysanluisobispo-mens": {
@@ -15807,6 +15843,18 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "mustangssoccer@calpoly.edu",
       "mensoccer@calpoly.edu"
+    ],
+    "annualTuitionUSD": [
+      29800,
+      40049
+    ],
+    "roomAndBoardUSD": [
+      17200,
+      20338
+    ],
+    "notes": [
+      "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans.",
+      "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans. 学費・寮費は公式2026-27年度 留学生(新入生/SLO)の金額: 学費・諸費$40,049(Science&Math/Business/Liberal Arts。Engineering/Architecture/Agricultureは$41,087)=州民分$14,682+非居住者$14,130+Opportunity Fee$8,804+留学生手数料$900+必須保険$1,533。寮費$20,338=On Campus住居$12,682+食費$7,656。"
     ]
   },
   "ucirvine-mens": {
@@ -15833,6 +15881,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      44100,
+      59559
+    ],
+    "roomAndBoardUSD": [
+      18200,
+      19376
+    ],
+    "notes": [
+      "Anteater Stadium in Orange County California.",
+      "Anteater Stadium in Orange County California. 【費用】公式2026-27年度 新入生・非居住者(On Campus)。学費=システム諸費$15,588+キャンパス諸費$4,701+非居住者追加$39,270(健康保険は公式ページに記載なく含まず)。寮費=住居$12,053+食費$7,323。出典 ofas.uci.edu/cost/undergraduate-costs/new-students.php"
     ]
   },
   "calstatefullerton-mens": {
@@ -15911,6 +15971,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      22458
+    ],
+    "roomAndBoardUSD": [
+      16500,
+      15320
+    ],
+    "notes": [
+      "Matador Soccer Field in Los Angeles. Technical Latin style.",
+      "Matador Soccer Field in Los Angeles. Technical Latin style. 【費用】公式2026-27年度 Living On Campus。学費=授業料・諸費$8,328+非居住者追加$14,130(公式記載『$471/単位を追加』×30単位の概算)。寮費=住居$9,152+食費$6,168。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csun.edu/financialaid/.../2026-2027-fall-and-spring-cost-attendance"
     ]
   },
   "ucriverside-mens": {
@@ -15937,6 +16009,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      44200,
+      58884
+    ],
+    "roomAndBoardUSD": [
+      17800,
+      21075
+    ],
+    "notes": [
+      "2022 Big West Champions. UC Soccer Stadium.",
+      "2022 Big West Champions. UC Soccer Stadium. 【費用】公式2026-27年度 新入生・非居住者(University Housing)。学費=学費$15,588+キャンパス・テック諸費$1,202+非居住者追加$39,270+健康保険$2,824。寮費=住居$13,793+食費$7,282。出典 financialaid.ucr.edu/cost"
     ]
   },
   "ucsandiegoucsd-mens": {
@@ -15963,6 +16047,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      44800,
+      60789
+    ],
+    "roomAndBoardUSD": [
+      17500,
+      20742
+    ],
+    "notes": [
+      "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。",
+      "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。 【費用】公式2026-27年度 2026 Cohort・非居住者(On Campus)。学費=学費$15,588+キャンパス諸費$2,511+Health Fee$3,195+入学手数料$225+非居住者追加$39,270。寮費=住居$13,761+食費$6,981。出典 fas.ucsd.edu/cost-of-attendance/undergraduates"
     ]
   },
   "sacramentostate-mens": {
@@ -15993,6 +16089,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      23786
+    ],
+    "roomAndBoardUSD": [
+      15900,
+      20212
+    ],
+    "notes": [
+      "州都サクラメント。地元カリフォルニアと一部留学生で構成。",
+      "州都サクラメント。地元カリフォルニアと一部留学生で構成。 【費用】公式2026-27年度。学費=授業料$3,419×2学期+キャンパス諸費$1,409×2学期=$9,656+非居住者$471/単位×30単位=$14,130(年30単位は概算)。寮費=公式COA On-Campusの Living Expenses $20,212(住居・食費込み)。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csus.edu/administration-business-affairs/bursar/tuition-living-costs.html"
     ]
   },
   "calstatebakersfield-mens": {
@@ -16019,6 +16127,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      20247
+    ],
+    "roomAndBoardUSD": [
+      14800,
+      17432
+    ],
+    "notes": [
+      "セントラルバレーの州立校。留学生比率が4割超と非常に高い。",
+      "セントラルバレーの州立校。留学生比率が4割超と非常に高い。 【費用】公式2026-27年度 非居住者(On-Campus)。学費=非居住者授業料$11,304+システム授業料$6,838+キャンパス諸費$2,105。寮費=住居$11,212+食費$6,220。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csub.edu/financial-aid/costs/budgets.shtml"
     ]
   },
   "universityofportland-mens": {
@@ -16049,6 +16169,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      53890,
+      64490
+    ],
+    "roomAndBoardUSD": [
+      16200,
+      17430
+    ],
+    "notes": [
+      "Historic Merlo Field. Unrivaled pro output & international recruiting.",
+      "Historic Merlo Field. Unrivaled pro output & international recruiting. 【費用】公式2027-28年度(最新公開分、2026-27は未掲載)。学費=授業料$31,700×2学期+Campus Access Fee$545×2学期。寮費=Traditional Hall共用室$5,975×2+Meal Plan 1 $2,740×2。ASUP学生活動費・健康保険は公式表でTBDのため含まず。私立のため留学生も同額。出典 up.edu/admissions-aid/office-of-financial-aid/costs/undergraduate-cost-of-attendance.html"
     ]
   },
   "universityofsandiego-mens": {
@@ -16083,6 +16215,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      54800,
+      69357
+    ],
+    "roomAndBoardUSD": [
+      17100,
+      19200
+    ],
+    "notes": [
+      "サンディエゴの美しい私立名門。WCC連覇実績。ブラジルや欧州からの留学生多数。",
+      "サンディエゴの美しい私立名門。WCC連覇実績。ブラジルや欧州からの留学生多数。 【費用】公式2026-27年度 フルタイム。学費=授業料$64,100+諸費$1,099+健康保険$4,158(2026/8-2027/7の保険料。USD公式の『Educational Cost』表に含まれる)。寮費=住居(Maher Hall・ダブル)$13,450+ミールプラン$5,750。私立のため留学生も同額。出典 sandiego.edu/torero-hub/tuition-and-fees/undergraduate.php"
     ]
   },
   "oregonstateuniversit-mens": {
@@ -16109,6 +16253,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "annualTuitionUSD": [
+      33900,
+      42459
+    ],
+    "roomAndBoardUSD": [
+      14600,
+      18066
+    ],
+    "notes": [
+      "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks.",
+      "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks. 【費用】公式2026-27年度 Corvallis Campus 非居住者学部生(15単位×3学期)。学費=授業料・諸費$42,459。寮費=Living Expenses(食費・住居)$18,066。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 financialaid.oregonstate.edu/cost-attendance"
     ]
   },
   "santaclarauniversity-mens": {
@@ -16143,6 +16299,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      58580,
+      65736
+    ],
+    "roomAndBoardUSD": [
+      17800,
+      20094
+    ],
+    "notes": [
+      "1989年全米共同王者。シリコンバレー中心部。日本人選手(Yu Yokokawa)がディフェンスで活躍中。",
+      "1989年全米共同王者。シリコンバレー中心部。日本人選手(Yu Yokokawa)がディフェンスで活躍中。 【費用】公式2026-27年度 Undergraduate On-Campus の Direct Costs。学費=授業料$64,956+Student Engagement & Well-Being Fee$780。寮費=Housing and Food $20,094。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし(別途かかる可能性)。出典 scu.edu/financialaid/cost-of-attendance/"
     ]
   },
   "saintmaryscollegeca-mens": {
@@ -16185,6 +16353,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      53900,
+      62052
+    ],
+    "roomAndBoardUSD": [
+      16900,
+      18900
+    ],
+    "notes": [
+      "Saint Mary's Stadium. Elite defense & multiple WCC titles.",
+      "Saint Mary's Stadium. Elite defense & multiple WCC titles. 【費用】公式2026-27年度 On Campus(非BSN)。学費=年間授業料$61,416+学生諸費$636(Student Body $216+Enhancement $320+Experience $100)。寮費=Food & Housing $18,900。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 stmarys-ca.edu/financial-aid/tuition-and-fees"
     ]
   },
   "sanfranciscousf-mens": {
@@ -16219,6 +16399,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      55800,
+      64492
+    ],
+    "roomAndBoardUSD": [
+      18200,
+      19150
+    ],
+    "notes": [
+      "4x National Champions. Negoesco Stadium in heart of San Francisco.",
+      "4x National Champions. Negoesco Stadium in heart of San Francisco. 【費用】公式2026-27年度 Living on campus。学費=Hilltopキャンパスのフルタイム授業料$63,880+諸費$612。寮費=住居$12,930+食費$6,220。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 usfca.edu/financial-aid/undergraduate-student-costs"
     ]
   },
   "gonzagauniversity-mens": {
@@ -16303,6 +16495,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      53500,
+      60760
+    ],
+    "roomAndBoardUSD": [
+      15800,
+      17776
+    ],
+    "notes": [
+      "ストックトンの私立校。近年WCC上位へ急成長中。",
+      "ストックトンの私立校。近年WCC上位へ急成長中。 【費用】公式2026-27年度 フルタイム・On-Campus。学費=授業料$59,560+諸費$1,200。寮費=住居$9,876+食費$7,900。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 pacific.edu/financial-aid/cost-of-attendance/undergraduate-students"
     ]
   },
   "saintlouisuniversity-mens": {
@@ -17775,6 +17979,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      52800,
+      63148
+    ],
+    "roomAndBoardUSD": [
+      16900,
+      17628
+    ],
+    "notes": [
+      "Championship Field in downtown Seattle. Multiple WAC titles.",
+      "Championship Field in downtown Seattle. Multiple WAC titles. 【費用】公式2026-27年度 On Campus。学費=授業料$59,400+技術費$642+Wellness$516+Activity$198+留学生保険$2,392(waive可だが必須扱いで算入)。寮費=住居$11,202+食費$6,426。私立のため留学生も同額。出典 seattleu.edu/admissions-aid/tuition-and-fees/undergraduate-cost-of-attendance/"
     ]
   },
   "grandcanyongcu-mens": {
@@ -17831,6 +18047,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      38900,
+      46116
+    ],
+    "roomAndBoardUSD": [
+      13900,
+      13794
+    ],
+    "notes": [
+      "CBU Soccer Stadium. 2022 WAC Champions in SoCal.",
+      "CBU Soccer Stadium. 2022 WAC Champions in SoCal. 【費用】公式2027-28年度(最新公開分)。学費=授業料(13-18単位)$43,966+諸費$2,150。寮費=共用部屋+新入生最低ミールプランの合計$13,794。私立のため留学生も同額、健康保険(任意加入、1学期約$1,300-1,500)は含まず。出典 calbaptist.edu/admissions-aid/tuition-aid/undergraduate/cost-of-attendance"
     ]
   },
   "sanjosestatesjsu-mens": {
@@ -17853,6 +18081,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      23928
+    ],
+    "roomAndBoardUSD": [
+      18200,
+      22912
+    ],
+    "notes": [
+      "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。",
+      "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。 【費用】公式2026-27年度 Campus Housing。学費=授業料$9,553+IRA$245+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$15,543+食費$7,369。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 sjsu.edu/faso/process/cost-of-attendance.php"
     ]
   },
   "unlv-mens": {
@@ -20659,6 +20899,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "annualTuitionUSD": [
+      20400,
+      28502
+    ],
+    "roomAndBoardUSD": [
+      18900,
+      21544
+    ],
+    "notes": [
+      "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse.",
+      "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse. 【費用】公式 2027年秋入学の非居住者・留学生(University Housing)。学費=基本授業料$7,248+キャンパス諸費$3,098+非居住者授業料$14,940+州外・留学生手数料$3,216。寮費=食事$6,250+住居$15,294。健康保険は公式表に記載なし(別途かかる可能性)。出典 sacd.sdsu.edu/financial-aid/.../cost-of-attendance-tables/undergraduate-non-resident"
     ]
   },
   "franklinpierce-mens": {
@@ -21992,6 +22244,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      55000,
+      58226
+    ],
+    "roomAndBoardUSD": [
+      16000,
+      18340
+    ],
+    "notes": [
+      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services"
     ]
   },
   "vanguard-mens": {
@@ -22026,6 +22290,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      38000,
+      44730
+    ],
+    "roomAndBoardUSD": [
+      12000,
+      13790
+    ],
+    "notes": [
+      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees"
     ]
   },
   "corban-mens": {
@@ -22060,6 +22336,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      33000,
+      40130
+    ],
+    "roomAndBoardUSD": [
+      10000,
+      13960
+    ],
+    "notes": [
+      "NAIA / Cascade Collegiate。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Cascade Collegiate。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料(12-18単位)$38,864+学生活動費$1,156+技術費$110。寮費=住居(平均)$7,860+食費(最大ミールプラン)$6,100。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 corban.edu/admissions-aid/tuition-fees"
     ]
   },
   "saintleo-mens": {
@@ -23472,6 +23760,18 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "cameron.shahrokhi@fresno.edu"
+    ],
+    "annualTuitionUSD": [
+      30000,
+      38910
+    ],
+    "roomAndBoardUSD": [
+      10000,
+      10757
+    ],
+    "notes": [
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid"
     ]
   },
   "dominicanca-mens": {
@@ -23514,6 +23814,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      48000,
+      55626
+    ],
+    "roomAndBoardUSD": [
+      17000,
+      16619
+    ],
+    "notes": [
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 On campus。学費=授業料$54,441+諸費$1,185。寮費=住居$9,142+食事$7,477。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし(別途かかる可能性)。出典 dominican.edu/matricula-costos-y-ayudas-para-estudios-profesionales"
     ]
   },
   "csudh-mens": {
@@ -23540,6 +23852,18 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "ptenorio@csudh.edu"
+    ],
+    "annualTuitionUSD": [
+      20000,
+      22831
+    ],
+    "roomAndBoardUSD": [
+      14000,
+      19949
+    ],
+    "notes": [
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 Campus Housing。学費=授業料$6,838+キャンパス諸費$1,863+非居住者追加$14,130(CSU共通$471/単位×30単位の概算。公式表には非居住者額の記載なし)。寮費=住居$13,090+食費$6,859。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csudh.edu 2026-27 COA PDF"
     ]
   },
   "csueastbay-mens": {
@@ -23574,6 +23898,18 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "dannylo.ayllon@csueastbay.edu"
+    ],
+    "annualTuitionUSD": [
+      20000,
+      22584
+    ],
+    "roomAndBoardUSD": [
+      14000,
+      20558
+    ],
+    "notes": [
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 On-Campus。学費=授業料$6,838+諸費$1,616+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$13,462+食費$7,096。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csueastbay.edu/financialaid/prospective-students1/cost-of-attendance.html"
     ]
   },
   "csusanmarcos-mens": {
@@ -23608,6 +23944,18 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "maldama@csusm.edu"
+    ],
+    "annualTuitionUSD": [
+      20000,
+      21286
+    ],
+    "roomAndBoardUSD": [
+      13000,
+      15388
+    ],
+    "notes": [
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 Non-Resident・Living On-Campus。学費=非居住者授業料(12単位×2学期)$18,790+必須諸費$2,496。寮費=住居$12,020+食費$3,368。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csusm.edu/finaid/costofattendance"
     ]
   },
   "sfstate-mens": {
@@ -23648,6 +23996,18 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "wwumsoccer@wwu.edu"
+    ],
+    "annualTuitionUSD": [
+      25000,
+      29616
+    ],
+    "roomAndBoardUSD": [
+      12000,
+      16893
+    ],
+    "notes": [
+      "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 州外学生(Out-of-State)。学費=授業料・諸費$27,717+必須追加諸費$1,449+新入生登録費$450。寮費=Housing and Meals $16,893。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 admissions.wwu.edu/cost"
     ]
   },
   "saintmartins-mens": {
@@ -23682,6 +24042,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      38000,
+      48264
+    ],
+    "roomAndBoardUSD": [
+      12000,
+      17151
+    ],
+    "notes": [
+      "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / GNAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度 留学生(International undergraduate)。学費=授業料$48,264(12-18単位)。寮費=住居(中間額)$7,295+食事(中間額)$9,856。教科書レンタル$742.50・預り金は除く。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 stmartin.edu/admissions-financial-aid/tuition-and-fees"
     ]
   },
   "coloradomesa-mens": {
@@ -23936,6 +24308,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      23796
+    ],
+    "roomAndBoardUSD": [
+      16500,
+      16910
+    ],
+    "notes": [
+      "西海岸トップD2。2015年全米準優勝。工学・ビジネス専攻に強く奨学金枠あり。",
+      "西海岸トップD2。2015年全米準優勝。工学・ビジネス専攻に強く奨学金枠あり。 【費用】公式2026-27年度 Cost of Attendance(Non California Residents, On-Campus)。学費=Systemwide Tuition Fee$7,938+キャンパス諸費$1,728+非居住者授業料$471/単位×30単位=$14,130(他CSUと同じ年30単位の概算。公式COA表は年20単位=$9,420で計算しており、その場合の学費は$19,086)。寮費=Housing$11,310+Food$5,600。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 cpp.edu/financial-aid/credentials/prospective/costs.shtml"
     ]
   },
   "chicostate-mens": {
@@ -23958,6 +24342,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      20648
+    ],
+    "roomAndBoardUSD": [
+      15400,
+      15620
+    ],
+    "notes": [
+      "CCAAの伝統校。2003年全米準優勝。熱狂的な地元ファンとハイプレッシングスタイル。",
+      "CCAAの伝統校。2003年全米準優勝。熱狂的な地元ファンとハイプレッシングスタイル。 【費用】公式2026-27年度 非居住者・留学生(12単位×2学期)。学費=授業料$18,142(=$6,838+$471×24単位)+必須キャンパス諸費$2,506。寮費=On Campus住居$9,628+食費$5,992。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csuchico.edu/cost-aid/cost-of-attendance.shtml"
     ]
   },
   "csumontereybay-mens": {
@@ -23976,6 +24372,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      23317
+    ],
+    "roomAndBoardUSD": [
+      16200,
+      17448
+    ],
+    "notes": [
+      "2023年 CCAAトーナメント王者！西海岸で急成長を遂げるカリフォルニア州立大学。",
+      "2023年 CCAAトーナメント王者！西海岸で急成長を遂げるカリフォルニア州立大学。 【費用】公式2026-27年度 On Campus。学費=授業料$6,838+キャンパス諸費$2,349+非居住者追加$14,130(CSU共通$471/単位×30単位の概算。CSUMBの公式表には非居住者額の記載なし)。寮費=住居$11,169+食費$6,279。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csumb.edu/admissions-aid/costs-financial-aid/tuition-fees/"
     ]
   },
   "csupueblo-mens": {
@@ -24024,6 +24432,18 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "annualTuitionUSD": [
+      19800,
+      23478
+    ],
+    "roomAndBoardUSD": [
+      15200,
+      16558
+    ],
+    "notes": [
+      "2019年 NCAA D2 全米ベスト4（Final Four）。南カリフォルニアの強豪校。",
+      "2019年 NCAA D2 全米ベスト4（Final Four）。南カリフォルニアの強豪校。 【費用】公式2026-27年度 University Housing。学費=授業料$6,838+キャンパス諸費$2,510+非居住者追加$14,130(CSU共通$471/単位×30単位の概算。公式表には非居住者額の記載なし)。寮費=住居$11,426+食費$5,132。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 csusb.edu 26-27 Undergraduate COA PDF"
     ]
   },
   "floridatech-mens": {
@@ -24502,6 +24922,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支が赤字(収入が支出の86%)、純資産が3年で10%減 / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      38900,
+      46569
+    ],
+    "roomAndBoardUSD": [
+      13900,
+      17313
+    ],
+    "notes": [
+      "5回全米制覇（1978, 83, 85, 86, 93）の超名門！シアトルの洗練された環境。",
+      "5回全米制覇（1978, 83, 85, 86, 93）の超名門！シアトルの洗練された環境。 【費用】公式2026-27年度 On Campus。学費=授業料$45,648+必須諸費$921(技術・学生活動・Wellness)。寮費=Double room $9,603+Quarterly Block 200ミールプラン$7,710。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 spu.edu/student-financial-services/costs/undergrad-tuition-fees"
     ]
   },
   "calstatela-mens": {
@@ -24520,6 +24952,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "受入実績あり (ロサンゼルス好立地)",
       "2名 (公式ロスター確認) Sho Toda, Taito Yoshihara"
+    ],
+    "annualTuitionUSD": [
+      19800,
+      22068
+    ],
+    "roomAndBoardUSD": [
+      16800,
+      21654
+    ],
+    "notes": [
+      "2021年 NCAA D2 全米王者！CCAA連覇。ロサンゼルス中心部に位置しプロスカウト注目度抜群。",
+      "2021年 NCAA D2 全米王者！CCAA連覇。ロサンゼルス中心部に位置しプロスカウト注目度抜群。 【費用】公式2026-27年度 On Campus。学費=授業料・必須諸費$7,938+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$13,682+食費$7,972。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 calstatela.edu/financialaid/cost-attendance"
     ]
   },
   "pointloma-mens": {
@@ -24542,6 +24986,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      42800,
+      50500
+    ],
+    "roomAndBoardUSD": [
+      13800,
+      15510
+    ],
+    "notes": [
+      "2023年 NCAA D2 西部地区王者！全米一美しいと言われるサンディエゴの海岸沿いキャンパス。",
+      "2023年 NCAA D2 西部地区王者！全米一美しいと言われるサンディエゴの海岸沿いキャンパス。 【費用】公式2026-27年度 Living on Campus。学費=授業料$49,500(12-17単位)+General Fee$1,000。寮費=Housing$8,900+Dorm Fund$90+Meal Plan(標準240食)$6,520。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし(別途かかる可能性)。出典 pointloma.edu/offices/student-financial-services/undergraduate-student-financial-services/costs"
     ]
   },
   "ucla-mens": {
@@ -24556,6 +25012,18 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (過去受け入れ実績あり)",
       "0名 (公式ロスター確認)"
+    ],
+    "annualTuitionUSD": [
+      49326,
+      59585
+    ],
+    "roomAndBoardUSD": [
+      19230,
+      19867
+    ],
+    "notes": [
+      "全米王者4回。2024年秋よりBig Ten所属。ロサンゼルス・ウェストウッドの最高峰環境。",
+      "全米王者4回。2024年秋よりBig Ten所属。ロサンゼルス・ウェストウッドの最高峰環境。 【費用】公式2026-27年度 新入生・非居住者(On-Campus)。学費=学費$15,588+キャンパス諸費$842+非居住者追加$39,270+健康保険$3,885。寮費=住居$12,299+食費$7,568。出典 financialaid.ucla.edu/how-aid-works/cost-of-attendance"
     ]
   },
   "stanforduniversity-mens": {
@@ -24574,6 +25042,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      65127,
+      70341
+    ],
+    "roomAndBoardUSD": [
+      21315,
+      22944
+    ],
+    "notes": [
+      "全米3連覇王者 (2015-17)。文武両道最高峰。2024年秋よりACC所属。日本人選手(Yujin Kikuchi)在籍。",
+      "全米3連覇王者 (2015-17)。文武両道最高峰。2024年秋よりACC所属。日本人選手(Yujin Kikuchi)在籍。 【費用】公式2026-27年度 Student Budget。学費=授業料$67,731+学生諸費の目安$2,610。寮費=Housing and Food $22,944。留学生は公式上Cardinal Care保険が自動で予算に含まれるが、金額は未確認のため含まず(別途かかる)。新入生は一時金(オリエンテーション$525+書類$250)も別途。出典 financialaid.stanford.edu/undergrad/budget"
     ]
   },
   "tampa-mens": {
@@ -25093,6 +25573,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      0,
+      39990
+    ],
+    "roomAndBoardUSD": [
+      0,
+      10380
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (Great Southwest Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (Great Southwest Athletic Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式2026-27年度(3クォーター制)。学費=授業料$39,000+一般諸費$990。寮費=Double Room $5,520+ミールプラン(100食/クォーター)$4,860。私立のため留学生も同額、留学生保険は金額未定(TBD)のため含まず。出典 lasierra.edu/tuition-and-costs"
     ]
   },
   "life-mens": {
@@ -25165,6 +25657,18 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支が赤字(収入が支出の83%)、純資産が支出の0.7年分しかない、純資産が3年で27%減 / IPEDS 2020-21～2022-23"
+    ],
+    "annualTuitionUSD": [
+      0,
+      24850
+    ],
+    "roomAndBoardUSD": [
+      0,
+      15668
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Tournament Champion)。53名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Tournament Champion)。53名の大所帯ロスター(JV含む可能性)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式2026-27年度 Standard Budget(扶養学生・伝統的プログラム)。学費・諸費=$24,850(授業料$23,890+諸費)。寮費=公式の生活費(Living Expenses)$15,668(住居・食事を含む標準予算)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 warnerpacific.edu/admissions-aid/financial-aid/cost-of-attendance"
     ]
   },
   "wiley-mens": {
@@ -25265,6 +25769,30 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ]
+  },
+  "easternoregon-mens": {
+    "annualTuitionUSD": [
+      0,
+      26158
+    ],
+    "roomAndBoardUSD": [
+      0,
+      12503
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Regular-Season Champion)。ポジション表記C/W/Sは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / Regular-Season Champion)。ポジション表記C/W/Sは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式2026-27年度 On Campus 非居住者(F-1留学生を含む)・15単位×3学期($8,719.50×3)。寮費=North/Daugherty Double $7,343+Best Valueミールプラン$5,160。入学時に一回限りの登録費$350が別途。留学生保険は公式表に記載なし(別途かかる可能性)。出典 eou.edu/student-financial-services/tuition-and-fees, eou.edu/reslife/rates-billing"
+    ]
+  },
+  "westcliff-mens": {
+    "annualTuitionUSD": [
+      0,
+      19128
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (California Pacific Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (California Pacific Conference / Tournament Champion)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【費用】公式F-1留学生(学士)の年間授業料。寮費は公式に住居・食費の内訳がなく(Housing, Living Expenses, Transportation 合計$20,616のみ)、算入せず0のまま。留学生手数料・保険は記載なし(別途かかる可能性)。出典 westcliff.edu/admissions/international-students/"
     ]
   }
 };
