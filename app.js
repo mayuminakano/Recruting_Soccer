@@ -30,6 +30,8 @@ let state = {
     region: "ALL",
     strength: "ALL",
     finRisk: "ALL",
+    maxTuition: "ALL",
+    minIntl: "ALL",
     gender: "ALL",
     search: "",
     sort: "DEFAULT"
@@ -545,6 +547,22 @@ function setupEventListeners() {
   if (finRiskFilter) {
     finRiskFilter.addEventListener("change", (e) => {
       state.filters.finRisk = e.target.value;
+      renderExplorer();
+    });
+  }
+
+  const maxTuitionFilter = document.getElementById("filter-maxtuition");
+  if (maxTuitionFilter) {
+    maxTuitionFilter.addEventListener("change", (e) => {
+      state.filters.maxTuition = e.target.value;
+      renderExplorer();
+    });
+  }
+
+  const minIntlFilter = document.getElementById("filter-minintl");
+  if (minIntlFilter) {
+    minIntlFilter.addEventListener("change", (e) => {
+      state.filters.minIntl = e.target.value;
       renderExplorer();
     });
   }
@@ -1210,7 +1228,7 @@ function renderExplorer() {
   if (!container) return;
 
   renderCompareBar();
-  const { division, region, strength, finRisk, gender, search, sort } = state.filters;
+  const { division, region, strength, finRisk, maxTuition, minIntl, gender, search, sort } = state.filters;
 
   // Colleges closed in the pipeline (見送り・不合格) live in their own tab, not in the search results
   const closedIds = closedCollegeIds();
@@ -1237,6 +1255,12 @@ function renderExplorer() {
       else if (finRisk === "HIDE") { if (lv !== null && lv >= 2) return false; }
       else if (lv === null || lv < Number(finRisk)) return false;
     }
+    // Tuition cap / international-share floor: colleges with no value on file are excluded while the filter is active
+    if (maxTuition !== "ALL" && !(col.annualTuitionUSD > 0 && col.annualTuitionUSD <= Number(maxTuition))) return false;
+    if (minIntl !== "ALL") {
+      const m = /(\d+(?:\.\d+)?)%\s*\((\d+)\/(\d+)/.exec(col.intlRosterPct || "");
+      if (!m || Number(m[1]) < Number(minIntl)) return false;
+    }
     if (gender !== "ALL" && col.gender !== gender) return false;
     if (search) {
       const q = search.toLowerCase();
@@ -1255,7 +1279,21 @@ function renderExplorer() {
     const m = /(\d+(?:\.\d+)?)%\s*\((\d+)\/(\d+)/.exec(c.intlRosterPct || "");
     return m ? { pct: Number(m[1]), num: Number(m[2]) } : null;
   };
+  // Combined score: rank by tuition (cheap = good) + rank by international share (high = good) within the current results; lower sum = better.
+  // Colleges missing either value get no score and go last.
+  const comboScore = new Map();
+  {
+    const both = filtered.filter(c => c.annualTuitionUSD > 0 && intlOf(c));
+    const rankOf = (arr, key, dir) => {
+      const sorted = arr.map(key).sort((x, y) => (x - y) * dir);
+      return c => sorted.indexOf(key(c));
+    };
+    const tuitionRank = rankOf(both, c => c.annualTuitionUSD, 1);
+    const intlRank = rankOf(both, c => intlOf(c).pct, -1);
+    both.forEach(c => comboScore.set(c.id, tuitionRank(c) + intlRank(c)));
+  }
   const costSort = {
+    VALUE_COMBO: { val: c => (comboScore.has(c.id) ? comboScore.get(c.id) : null), dir: 1 },
     TUITION_ASC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD : null), dir: 1 },
     TUITION_DESC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD : null), dir: -1 },
     TOTAL_ASC: { val: c => (c.annualTuitionUSD > 0 ? c.annualTuitionUSD + (c.roomAndBoardUSD || 0) : null), dir: 1 },

@@ -13909,24 +13909,25 @@ const INITIAL_COLLEGES = [
     "headCoach": "Jonny Broadhead",
     "coachEmail": "jonny.broadhead@utahtech.edu",
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
-    "intlRosterPct": "要確認",
-    "notes": "NCAA D1 / Mountain West。州立。男子サッカーは2026-27からMountain West。 【費用】IPEDS 2023-24年度の公式値(州立・州外学生)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "intlRosterPct": "21% (6/28名)",
+    "notes": "NCAA D1 / Mountain West。州立。男子サッカーは2026-27からMountain West。 【費用】公式2026-27年度 非居住者・留学生(9か月)。学費=授業料$18,576($9,288.12×2学期)+学生諸費$852($426×2学期)+留学生手数料$200=$19,628。寮費=住居(共用室 Campus View Suites I)$4,450($2,225×2学期)+食費(Meal Plan C)$3,300($1,650×2学期)=$7,750。別途 健康保険の目安$500・教科書$1,000・生活費$3,500(公式の概算。個人差あり)。州内学生はこれより安い。出典 admissions.utahtech.edu/tuition-costs、international.utahtech.edu/prospective-estimated-cost-of-attendance、housing.utahtech.edu/rent-rates 【入学条件】公式FAQによると、オープンエンロールメントで最低GPAの要件はなく、英語力の証明のみ必須。TOEFLは2025年12月まで総合68以上(Reading22以上・Writing24以上)、2026年1月以降は新スケールで総合4.0以上(Reading4.0以上・Writing4.5以上)。IELTS 6.0以上、Duolingo 95以上、または他の米国大学で取得した24単位以上(ESL単位は除く)でも可。受験日は過去2年以内。基準を満たさない場合はESLプログラムのI-20のみ発給。",
     "tags": [
       "Mountain West",
       "West",
       "Trailblazers",
       "D1 Men's Soccer"
     ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
+    "japanesePlayers": "0名 (公式ロスター確認)",
+    "rosterStats": "公式ロスター全28名 / 留学生6名 (カナダ5・ベネズエラ1) / GK 3名・DF 8名・MF 7名・FW 8名・DF/FW 1名・MF/FW 1名 / Sr 2名",
     "questionnaireUrl": "https://www.google.com/search?q=Utah+Tech+University+Men's+Soccer+Recruiting+Questionnaire",
     "campUrl": "https://www.google.com/search?q=Utah+Tech+University+Soccer+ID+Camp",
     "siteUrl": "https://utahtechtrailblazers.com/sports/mens-soccer",
     "coachVerified": true,
     "strengthLevel": 1,
     "strengthNote": "平均178位 (2026年 205位 / 2025年 152位 / 2024年 177位)",
-    "annualTuitionUSD": 17644,
-    "roomAndBoardUSD": 9308
+    "annualTuitionUSD": 19628,
+    "roomAndBoardUSD": 7750,
+    "intlFriendlyRating": "High"
   },
   {
     "id": "loyolamarymountunive-mens",
