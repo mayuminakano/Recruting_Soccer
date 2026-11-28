@@ -1,6 +1,6 @@
 // ==========================================
 // US College Soccer Database & Knowledge Base
-// (Complete Dataset: 400 Men's Colleges across NCAA D1, D2, D3, NAIA, NJCAA)
+// (Complete Dataset: 405 Men's Colleges across NCAA D1, D2, D3, NAIA, NJCAA)
 // ==========================================
 
 const INITIAL_COLLEGES = [
@@ -2341,7 +2341,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "Big West",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Mustangs",
     "headCoach": "Oige Kennedy",
@@ -2355,7 +2355,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "6% (2/31名)",
     "notes": "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans. 学費・寮費は公式2026-27年度 留学生(新入生/SLO)の金額: 学費・諸費$40,049(Science&Math/Business/Liberal Arts。Engineering/Architecture/Agricultureは$41,087)=州民分$14,682+非居住者$14,130+Opportunity Fee$8,804+留学生手数料$900+必須保険$1,533。寮費$20,338=On Campus住居$12,682+食費$7,656。",
     "tags": [
-      "Big West",
+      "Pac-12",
       "West",
       "Mustangs",
       "D1 Men's Soccer"
@@ -2452,7 +2452,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "Big West",
+    "conference": "Mountain West",
     "gender": "Men",
     "mascot": "Aggies",
     "headCoach": "Dwayne Shaffer",
@@ -2466,7 +2466,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "4% (1/28名)",
     "notes": "北カリフォルニアの名門州立大学。アカデミック水準が高く国内選手中心の編成。",
     "tags": [
-      "Big West",
+      "Mountain West",
       "West",
       "Aggies",
       "D1 Men's Soccer"
@@ -2526,7 +2526,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "Big West",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Highlanders",
     "headCoach": "Tim Cupello",
@@ -2540,7 +2540,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "16% (5/31名)",
     "notes": "2022 Big West Champions. UC Soccer Stadium. 【費用】公式2026-27年度 新入生・非居住者(University Housing)。学費=学費$15,588+キャンパス・テック諸費$1,202+非居住者追加$39,270+健康保険$2,824。寮費=住居$13,793+食費$7,282。出典 financialaid.ucr.edu/cost",
     "tags": [
-      "Big West",
+      "Pac-12",
       "West",
       "Highlanders",
       "D1 Men's Soccer"
@@ -2563,7 +2563,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "Big West",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Tritons",
     "headCoach": "Jon Pascale",
@@ -2577,7 +2577,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "3% (1/29名)",
     "notes": "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。 【費用】公式2026-27年度 2026 Cohort・非居住者(On Campus)。学費=学費$15,588+キャンパス諸費$2,511+Health Fee$3,195+入学手数料$225+非居住者追加$39,270。寮費=住居$13,761+食費$6,981。出典 fas.ucsd.edu/cost-of-attendance/undergraduates",
     "tags": [
-      "Big West",
+      "Pac-12",
       "West",
       "Tritons",
       "D1 Men's Soccer"
@@ -2749,7 +2749,7 @@ const INITIAL_COLLEGES = [
     "state": "OR",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WCC",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Beavers",
     "headCoach": "Greg Dalby",
@@ -2763,7 +2763,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "24% (7/29名)",
     "notes": "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks. 【費用】公式2026-27年度 Corvallis Campus 非居住者学部生(15単位×3学期)。学費=授業料・諸費$42,459。寮費=Living Expenses(食費・住居)$18,066。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 financialaid.oregonstate.edu/cost-attendance",
     "tags": [
-      "WCC",
+      "Pac-12",
       "West",
       "Beavers",
       "D1 Men's Soccer"
@@ -2899,7 +2899,7 @@ const INITIAL_COLLEGES = [
     "state": "WA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WCC",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Bulldogs",
     "headCoach": "Chris McGaughey",
@@ -2913,7 +2913,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "11% (3/28名)",
     "notes": "Luger Field. Gonzaga national athletic brand.",
     "tags": [
-      "WCC",
+      "Pac-12",
       "West",
       "Bulldogs",
       "D1 Men's Soccer"
@@ -3126,7 +3126,7 @@ const INITIAL_COLLEGES = [
     "state": "MA",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "Atlantic 10",
+    "conference": "Summit League",
     "gender": "Men",
     "mascot": "Minutemen",
     "headCoach": "Fran O'Leary",
@@ -3140,7 +3140,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "22% (5/23名)",
     "notes": "Rudd Field. Consistent A-10 tournament contenders.",
     "tags": [
-      "Atlantic 10",
+      "Summit League",
       "Northeast",
       "Minutemen",
       "D1 Men's Soccer"
@@ -3634,7 +3634,7 @@ const INITIAL_COLLEGES = [
     "state": "DE",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "CAA",
+    "conference": "Summit League",
     "gender": "Men",
     "mascot": "Blue Hens",
     "headCoach": "Tommy McMenemy",
@@ -3648,7 +3648,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "15% (4/27名)",
     "notes": "Grant Stadium. Mid-Atlantic flagship university.",
     "tags": [
-      "CAA",
+      "Summit League",
       "Northeast",
       "Blue Hens",
       "D1 Men's Soccer"
@@ -4155,7 +4155,7 @@ const INITIAL_COLLEGES = [
     "state": "MO",
     "region": "Midwest",
     "division": "NCAA D1",
-    "conference": "Missouri Valley",
+    "conference": "American Athletic",
     "gender": "Men",
     "mascot": "Bears",
     "headCoach": "Michael Seabolt",
@@ -4169,7 +4169,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "96% (25/26名)",
     "notes": "Allison South Stadium. Consistent Top-20 ranking & NCAA team.",
     "tags": [
-      "Missouri Valley",
+      "American Athletic",
       "Midwest",
       "Bears",
       "D1 Men's Soccer"
@@ -4411,7 +4411,7 @@ const INITIAL_COLLEGES = [
     "state": "IL",
     "region": "Midwest",
     "division": "NCAA D1",
-    "conference": "Missouri Valley",
+    "conference": "Horizon League",
     "gender": "Men",
     "mascot": "Huskies",
     "headCoach": "Ryan Swan",
@@ -4425,7 +4425,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "24% (6/25名)",
     "notes": "NIU Soccer Complex. Very affordable D1 tuition.",
     "tags": [
-      "Missouri Valley",
+      "Horizon League",
       "Midwest",
       "Huskies",
       "D1 Men's Soccer"
@@ -4444,7 +4444,7 @@ const INITIAL_COLLEGES = [
     "state": "WA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "WCC",
     "gender": "Men",
     "mascot": "Redhawks",
     "headCoach": "Nate Daligcon",
@@ -4458,7 +4458,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "19% (5/27名)",
     "notes": "Championship Field in downtown Seattle. Multiple WAC titles. 【費用】公式2026-27年度 On Campus。学費=授業料$59,400+技術費$642+Wellness$516+Activity$198+留学生保険$2,392(waive可だが必須扱いで算入)。寮費=住居$11,202+食費$6,426。私立のため留学生も同額。出典 seattleu.edu/admissions-aid/tuition-and-fees/undergraduate-cost-of-attendance/",
     "tags": [
-      "WAC",
+      "WCC",
       "West",
       "Redhawks",
       "D1 Men's Soccer"
@@ -4480,7 +4480,7 @@ const INITIAL_COLLEGES = [
     "state": "AZ",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Mountain West",
     "gender": "Men",
     "mascot": "Antelopes",
     "headCoach": "Mike Kraus",
@@ -4495,7 +4495,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "63% (19/30名)",
     "notes": "GCU Stadium (top soccer stadium in US with 6,000+ fans).",
     "tags": [
-      "WAC",
+      "Mountain West",
       "West",
       "Antelopes",
       "D1 Men's Soccer"
@@ -4514,7 +4514,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Lancers",
     "headCoach": "Coe Michaelson",
@@ -4528,7 +4528,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "59% (17/29名)",
     "notes": "CBU Soccer Stadium. 2022 WAC Champions in SoCal. 【費用】公式2027-28年度(最新公開分)。学費=授業料(13-18単位)$43,966+諸費$2,150。寮費=共用部屋+新入生最低ミールプランの合計$13,794。私立のため留学生も同額、健康保険(任意加入、1学期約$1,300-1,500)は含まず。出典 calbaptist.edu/admissions-aid/tuition-aid/undergraduate/cost-of-attendance",
     "tags": [
-      "WAC",
+      "Pac-12",
       "West",
       "Lancers",
       "D1 Men's Soccer"
@@ -4553,7 +4553,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Mountain West",
     "gender": "Men",
     "mascot": "Spartans",
     "headCoach": "Jesus Sanchez (暫定)",
@@ -4567,7 +4567,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "10% (3/29名)",
     "notes": "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。 【費用】公式2026-27年度 Campus Housing。学費=授業料$9,553+IRA$245+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$15,543+食費$7,369。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 sjsu.edu/faso/process/cost-of-attendance.php",
     "tags": [
-      "WAC",
+      "Mountain West",
       "West",
       "Spartans",
       "D1 Men's Soccer"
@@ -4590,7 +4590,7 @@ const INITIAL_COLLEGES = [
     "state": "NV",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Mountain West",
     "gender": "Men",
     "mascot": "Rebels",
     "headCoach": "BJ Craig",
@@ -4604,7 +4604,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "44% (12/27名)",
     "notes": "Peter Johann Memorial Field in Las Vegas Nevada.",
     "tags": [
-      "WAC",
+      "Mountain West",
       "West",
       "Rebels",
       "D1 Men's Soccer"
@@ -4623,7 +4623,7 @@ const INITIAL_COLLEGES = [
     "state": "CO",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Mountain West",
     "gender": "Men",
     "mascot": "Falcons",
     "headCoach": "Doug Hill",
@@ -4637,7 +4637,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "0% (0/34名)",
     "notes": "Cadet Soccer Stadium in Colorado Springs at 7,000 ft altitude.",
     "tags": [
-      "WAC",
+      "Mountain West",
       "West",
       "Falcons",
       "D1 Men's Soccer"
@@ -4656,7 +4656,7 @@ const INITIAL_COLLEGES = [
     "state": "UT",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Big West",
     "gender": "Men",
     "mascot": "Wolverines",
     "headCoach": "Michael Chesler",
@@ -4670,7 +4670,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "47% (14/30名)",
     "notes": "Clyde Field. Head coach is former World Cup star Kyle Beckerman.",
     "tags": [
-      "WAC",
+      "Big West",
       "West",
       "Wolverines",
       "D1 Men's Soccer"
@@ -4692,7 +4692,7 @@ const INITIAL_COLLEGES = [
     "state": "TX",
     "region": "South",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "OVC",
     "gender": "Men",
     "mascot": "Vaqueros",
     "headCoach": "Bryheem Hancock",
@@ -4706,7 +4706,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "64% (16/25名)",
     "notes": "UTRGV Soccer Complex in South Texas with rich Latin talent.",
     "tags": [
-      "WAC",
+      "OVC",
       "South",
       "Vaqueros",
       "D1 Men's Soccer"
@@ -4726,7 +4726,7 @@ const INITIAL_COLLEGES = [
     "state": "TX",
     "region": "South",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "OVC",
     "gender": "Men",
     "mascot": "Cardinals",
     "headCoach": "Kiki Lara",
@@ -4740,7 +4740,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "24% (7/29名)",
     "notes": "Benson Stadium in historic San Antonio Texas.",
     "tags": [
-      "WAC",
+      "OVC",
       "South",
       "Cardinals",
       "D1 Men's Soccer"
@@ -4764,7 +4764,7 @@ const INITIAL_COLLEGES = [
     "state": "TX",
     "region": "South",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "OVC",
     "gender": "Men",
     "mascot": "Huskies",
     "headCoach": "Ryan Pratt",
@@ -4778,7 +4778,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "52% (15/29名)",
     "notes": "Sorrels Field in major Houston metropolitan area.",
     "tags": [
-      "WAC",
+      "OVC",
       "South",
       "Huskies",
       "D1 Men's Soccer"
@@ -4799,7 +4799,7 @@ const INITIAL_COLLEGES = [
     "state": "CO",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "Summit League",
+    "conference": "WCC",
     "gender": "Men",
     "mascot": "Pioneers",
     "headCoach": "Jamie Franks",
@@ -4814,7 +4814,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "11% (3/28名)",
     "notes": "Consistently Top 10 nationally. Elite tactical defense.",
     "tags": [
-      "Summit League",
+      "WCC",
       "West",
       "Pioneers",
       "D1 Men's Soccer"
@@ -4971,7 +4971,7 @@ const INITIAL_COLLEGES = [
     "state": "IL",
     "region": "Midwest",
     "division": "NCAA D1",
-    "conference": "Summit League",
+    "conference": "OVC",
     "gender": "Men",
     "mascot": "Leathernecks",
     "headCoach": "Kooten Johnson",
@@ -4985,7 +4985,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "38% (11/29名)",
     "notes": "MacKenzie Stadium. Highly affordable D1 program.",
     "tags": [
-      "Summit League",
+      "OVC",
       "Midwest",
       "Leathernecks",
       "D1 Men's Soccer"
@@ -6181,7 +6181,7 @@ const INITIAL_COLLEGES = [
     "state": "NY",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Gaels",
     "headCoach": "James Hamilton",
@@ -6195,7 +6195,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "42% (13/31名)",
     "notes": "Mazzella Field. 2019 & 2023 MAAC Champions. NYC suburbs.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Gaels",
       "D1 Men's Soccer"
@@ -6216,7 +6216,7 @@ const INITIAL_COLLEGES = [
     "state": "CT",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Bobcats",
     "headCoach": "Eric Da Costa",
@@ -6230,7 +6230,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "要確認",
     "notes": "Quinnipiac Soccer Stadium. 2022 MAAC Champions.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Bobcats",
       "D1 Men's Soccer"
@@ -6251,7 +6251,7 @@ const INITIAL_COLLEGES = [
     "state": "NJ",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Broncs",
     "headCoach": "Chad Duernberger",
@@ -6265,7 +6265,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "30% (8/27名)",
     "notes": "Ben Cohen Field. 2023 MAAC Champions in NJ.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Broncs",
       "D1 Men's Soccer"
@@ -6290,7 +6290,7 @@ const INITIAL_COLLEGES = [
     "state": "NY",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Red Foxes",
     "headCoach": "Matt Viggiano",
@@ -6304,7 +6304,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "44% (12/27名)",
     "notes": "Tenney Stadium along the Hudson River in NY.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Red Foxes",
       "D1 Men's Soccer"
@@ -6325,7 +6325,7 @@ const INITIAL_COLLEGES = [
     "state": "NY",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Saints",
     "headCoach": "Graciano Brito",
@@ -6339,7 +6339,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "62% (16/26名)",
     "notes": "Hickey Field in Capital District New York.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Saints",
       "D1 Men's Soccer"
@@ -6360,7 +6360,7 @@ const INITIAL_COLLEGES = [
     "state": "CT",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Stags",
     "headCoach": "Carl Rees",
@@ -6374,7 +6374,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "7% (2/30名)",
     "notes": "Lessing Field. Top Jesuit university in coastal Connecticut.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Stags",
       "D1 Men's Soccer"
@@ -6395,7 +6395,7 @@ const INITIAL_COLLEGES = [
     "state": "NY",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Jaspers",
     "headCoach": "Tom Giovatto",
@@ -6409,7 +6409,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "42% (14/33名)",
     "notes": "Gaelic Park in New York City. Heavy international roster.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Jaspers",
       "D1 Men's Soccer"
@@ -6432,7 +6432,7 @@ const INITIAL_COLLEGES = [
     "state": "MD",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Mountaineers",
     "headCoach": "Brett Teach",
@@ -6446,7 +6446,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "要確認",
     "notes": "Waldron Family Stadium in Maryland.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Mountaineers",
       "D1 Men's Soccer"
@@ -6467,7 +6467,7 @@ const INITIAL_COLLEGES = [
     "state": "NY",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Purple Eagles",
     "headCoach": "Bill Boyle",
@@ -6481,7 +6481,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "56% (15/27名)",
     "notes": "Niagara Field near Niagara Falls and Canadian border.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Purple Eagles",
       "D1 Men's Soccer"
@@ -6506,7 +6506,7 @@ const INITIAL_COLLEGES = [
     "state": "NY",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Golden Griffins",
     "headCoach": "Michael Tanke",
@@ -6520,7 +6520,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "21% (6/29名)",
     "notes": "Demske Sports Complex in Buffalo NY.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Golden Griffins",
       "D1 Men's Soccer"
@@ -6542,7 +6542,7 @@ const INITIAL_COLLEGES = [
     "state": "NJ",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "MAAC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Peacocks",
     "headCoach": "Julian Richens",
@@ -6556,7 +6556,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "59% (16/27名)",
     "notes": "Jaroschak Field in Jersey City, 5 mins from Manhattan.",
     "tags": [
-      "MAAC",
+      "Metro",
       "Northeast",
       "Peacocks",
       "D1 Men's Soccer"
@@ -6689,7 +6689,7 @@ const INITIAL_COLLEGES = [
     "state": "CT",
     "region": "Northeast",
     "division": "NCAA D1",
-    "conference": "NEC",
+    "conference": "Metro",
     "gender": "Men",
     "mascot": "Pioneers",
     "headCoach": "Anthony Anzevui",
@@ -6703,7 +6703,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "41% (12/29名)",
     "notes": "Park Avenue Field in coastal Connecticut.",
     "tags": [
-      "NEC",
+      "Metro",
       "Northeast",
       "Pioneers",
       "D1 Men's Soccer"
@@ -6889,7 +6889,7 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "Saxon Stadium in Erie PA.",
+    "notes": "Saxon Stadium in Erie PA. 【参考】2024-25からNCAA D1へ移行中（正式なD1会員は2027-28の見込み）。",
     "tags": [
       "NEC",
       "Northeast",
@@ -6981,7 +6981,7 @@ const INITIAL_COLLEGES = [
     "state": "VA",
     "region": "South",
     "division": "NCAA D1",
-    "conference": "OVC",
+    "conference": "SoCon",
     "gender": "Men",
     "mascot": "Flames",
     "headCoach": "Kelly Findley",
@@ -6995,7 +6995,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "60% (15/25名)",
     "notes": "Osborne Stadium. Multi-million dollar campus facilities.",
     "tags": [
-      "OVC",
+      "SoCon",
       "South",
       "Flames",
       "D1 Men's Soccer"
@@ -7414,7 +7414,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D1",
-    "conference": "WAC",
+    "conference": "Pac-12",
     "gender": "Men",
     "mascot": "Aztecs",
     "headCoach": "Ryan Hopkins",
@@ -7426,7 +7426,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "19% (5/26名)",
     "notes": "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse. 【費用】公式 2027年秋入学の非居住者・留学生(University Housing)。学費=基本授業料$7,248+キャンパス諸費$3,098+非居住者授業料$14,940+州外・留学生手数料$3,216。寮費=食事$6,250+住居$15,294。健康保険は公式表に記載なし(別途かかる可能性)。出典 sacd.sdsu.edu/financial-aid/.../cost-of-attendance-tables/undergraduate-non-resident",
     "tags": [
-      "WAC",
+      "Pac-12",
       "San Diego",
       "Aztecs"
     ],
@@ -8048,23 +8048,23 @@ const INITIAL_COLLEGES = [
     "location": "New Rochelle, New York",
     "state": "NY",
     "region": "Northeast",
-    "division": "NCAA D2",
-    "conference": "要確認 (2026-27〜 NCAA D2 移行)",
+    "division": "NJCAA D1",
+    "conference": "Independent (2027-28〜 CACC予定)",
     "gender": "Men",
     "mascot": "Mustangs",
     "headCoach": "Marcus DiBernardo",
     "coachEmail": "mdibernardo@monroeu.edu",
     "annualTuitionUSD": 16500,
     "roomAndBoardUSD": 11000,
-    "scholarshipMax": "Max 9.0 scholarships (D2)",
+    "scholarshipMax": "Max 18.0 full scholarships (NJCAA D1 Full Ride possible)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "65% (39/60名)",
-    "notes": "2026-27シーズンからNJCAA D1よりNCAA Division IIへ移行（旧称 Monroe College → 現 Monroe University）。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2のため奨学金枠・編入規定は要確認。",
+    "notes": "現在はNJCAA D1。NCAA Division IIへは2026年に加盟申請中で、承認されれば2027-28からCACC(Central Atlantic Collegiate Conference)に加盟予定。旧称 Monroe College → 現 Monroe University。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2承認後の奨学金枠・編入規定は要確認。",
     "tags": [
       "NYC Metro",
       "NJCAA Champion",
       "High Pro Output",
-      "D2移行(2026-27)"
+      "D2申請中"
     ],
     "japanesePlayers": "3名 (公式ロスター確認 / 出身地不明5名)",
     "rosterStats": "公式ロスター全60名 / 留学生39名 / MF 23名 (Sr・Gr 2名) / 出身地不明5名",
@@ -8316,39 +8316,6 @@ const INITIAL_COLLEGES = [
     "siteUrl": "https://gothunderwolves.com/sports/mens-soccer"
   },
   {
-    "id": "limestone-mens",
-    "name": "Limestone University",
-    "location": "Gaffney, South Carolina",
-    "state": "SC",
-    "region": "South",
-    "division": "NCAA D2",
-    "conference": "SAC",
-    "gender": "Men",
-    "mascot": "Saints",
-    "headCoach": "Ali Pardakhti",
-    "coachEmail": "apardakhti@limestone.edu",
-    "assistantCoach": "Mark McKeever Staff",
-    "assistantCoachEmail": "soccer@limestone.edu",
-    "annualTuitionUSD": 27200,
-    "roomAndBoardUSD": 11200,
-    "scholarshipMax": "Max 9.0 scholarships",
-    "intlFriendlyRating": "Extremely High",
-    "intlRosterPct": "要確認",
-    "japanesePlayers": "受入実績あり",
-    "rosterStats": "要確認",
-    "notes": "SACカンファレンス強豪。常に全米Top 15にランクイン。留学生主体の攻撃的サッカー。",
-    "tags": [
-      "SAC",
-      "South Carolina",
-      "High International",
-      "Top 15"
-    ],
-    "questionnaireUrl": "https://golimestonesaints.com/sports/mens-soccer/recruiting",
-    "campUrl": "https://limestonesoccercamps.com/",
-    "financialRisk": 3,
-    "financialNote": "運営収支が赤字(収入が支出の89%)、純資産が支出の0.7年分しかない、純資産が3年で42%減、負債が総資産の56% / IPEDS 2020-21～2022-23"
-  },
-  {
     "id": "gannon-mens",
     "name": "Gannon University",
     "location": "Erie, Pennsylvania",
@@ -8404,7 +8371,7 @@ const INITIAL_COLLEGES = [
     "intlRosterPct": "100% (24/24名)",
     "japanesePlayers": "0名 (公式ロスター確認)",
     "rosterStats": "公式ロスター全24名 / 留学生24名 / MF 6名 (Sr・Gr 0名)",
-    "notes": "NCAA唯一のカナダ加盟校。全米Final Four進出2回。バンクーバー近郊の最高峰環境。",
+    "notes": "NCAA唯一のカナダ加盟校。全米Final Four進出2回。バンクーバー近郊の最高峰環境。 【注意】2025年11月にNCAA脱退を発表し、2027年からU Sports(カナダ)へ復帰予定。",
     "tags": [
       "GNAC",
       "NCAA Canada",
@@ -9135,7 +9102,7 @@ const INITIAL_COLLEGES = [
     "state": "GA",
     "region": "South",
     "division": "NAIA",
-    "conference": "The Sun",
+    "conference": "Continental Athletic",
     "gender": "Men",
     "mascot": "Grizzlies",
     "headCoach": "Steve DeCou",
@@ -9145,10 +9112,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Continental Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】The SunからContinental Athletic Conferenceへ（NAIA一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NAIA",
-      "The Sun",
+      "Continental Athletic",
       "Georgia",
       "Needs Verification",
       "NAIA 2025 全米大会出場"
@@ -9167,7 +9134,7 @@ const INITIAL_COLLEGES = [
     "state": "GA",
     "region": "South",
     "division": "NAIA",
-    "conference": "The Sun",
+    "conference": "SSAC",
     "gender": "Men",
     "mascot": "Night Hawks",
     "headCoach": "Billy Jeffery",
@@ -9177,10 +9144,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / SSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2023-24にThe SunからSSACへ移籍。",
     "tags": [
       "NAIA",
-      "The Sun",
+      "SSAC",
       "Georgia",
       "Needs Verification"
     ],
@@ -9200,7 +9167,7 @@ const INITIAL_COLLEGES = [
     "state": "GA",
     "region": "South",
     "division": "NAIA",
-    "conference": "The Sun",
+    "conference": "SSAC",
     "gender": "Men",
     "mascot": "Skyhawks",
     "headCoach": "",
@@ -9210,10 +9177,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / SSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2023-24にThe SunからSSACへ移籍。",
     "tags": [
       "NAIA",
-      "The Sun",
+      "SSAC",
       "Georgia",
       "Needs Verification"
     ],
@@ -9509,7 +9476,7 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / Sooner Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Sooner Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【予定】2028年7月までにNCAA D2(Lone Star Conference)への移行を開始予定。現在はNAIA(Sooner Athletic)。",
     "tags": [
       "NAIA",
       "Sooner Athletic",
@@ -9568,7 +9535,7 @@ const INITIAL_COLLEGES = [
     "state": "NE",
     "region": "Midwest",
     "division": "NAIA",
-    "conference": "Great Plains Athletic",
+    "conference": "Frontier",
     "gender": "Men",
     "mascot": "Bruins",
     "headCoach": "",
@@ -9578,10 +9545,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / Great Plains Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Frontier。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2025-26にGreat PlainsからFrontier Conferenceへ移籍。",
     "tags": [
       "NAIA",
-      "Great Plains Athletic",
+      "Frontier",
       "Nebraska",
       "Needs Verification"
     ],
@@ -9666,7 +9633,7 @@ const INITIAL_COLLEGES = [
     "state": "MO",
     "region": "Midwest",
     "division": "NAIA",
-    "conference": "Heart of America",
+    "conference": "KCAC",
     "gender": "Men",
     "mascot": "Eagles",
     "headCoach": "",
@@ -9676,10 +9643,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / Heart of America。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / KCAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】Heart of AmericaからKCACへ（NAIA一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NAIA",
-      "Heart of America",
+      "KCAC",
       "Missouri",
       "Needs Verification"
     ],
@@ -9763,7 +9730,7 @@ const INITIAL_COLLEGES = [
     "state": "KY",
     "region": "South",
     "division": "NAIA",
-    "conference": "River States",
+    "conference": "Appalachian Athletic",
     "gender": "Men",
     "mascot": "Bears",
     "headCoach": "",
@@ -9773,10 +9740,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "68% (28/41名)",
-    "notes": "NAIA / River States。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NAIA / Appalachian Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】River StatesからAppalachian Athleticへ移籍。",
     "tags": [
       "NAIA",
-      "River States",
+      "Appalachian Athletic",
       "Kentucky",
       "Needs Verification"
     ],
@@ -9794,7 +9761,7 @@ const INITIAL_COLLEGES = [
     "state": "OH",
     "region": "Midwest",
     "division": "NCAA D2",
-    "conference": "要確認 (旧NAIA River States → NCAA D2 移行)",
+    "conference": "Mountain East",
     "gender": "Men",
     "mascot": "Bears",
     "headCoach": "Stan Rodrigues",
@@ -9804,7 +9771,7 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA(River States)からNCAA D2へ移行。移行時期・所属カンファレンス・D2加盟状況(暫定会員の期間など)は公式サイトで要確認。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)も要確認。",
+    "notes": "2026-27からMountain East Conference(MEC)に加盟し、NAIA(River States)からNCAA D2へ移行中。NCAA D2の加盟は承認済みで、正式会員となるのは2028年の見込み(Wikipedia D2一覧)。移行期間中の扱い・学費・寮費・ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
     "tags": [
       "NCAA D2",
       "D2移行",
@@ -9824,21 +9791,21 @@ const INITIAL_COLLEGES = [
     "location": "Santa Barbara, California",
     "state": "CA",
     "region": "West",
-    "division": "NAIA",
-    "conference": "Golden State Athletic",
+    "division": "NCAA D2",
+    "conference": "PacWest",
     "gender": "Men",
     "mascot": "Warriors",
     "headCoach": "",
     "coachEmail": "",
     "annualTuitionUSD": 58226,
     "roomAndBoardUSD": 18340,
-    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services",
+    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services 【所属変更】2023-24にNAIA(Golden State Athletic)からNCAA D2(PacWest)へ移行。",
     "tags": [
-      "NAIA",
-      "Golden State Athletic",
+      "NCAA D2",
+      "PacWest",
       "California",
       "Needs Verification"
     ],
@@ -9855,21 +9822,21 @@ const INITIAL_COLLEGES = [
     "location": "Costa Mesa, California",
     "state": "CA",
     "region": "West",
-    "division": "NAIA",
-    "conference": "Golden State Athletic",
+    "division": "NCAA D2",
+    "conference": "PacWest",
     "gender": "Men",
     "mascot": "Lions",
     "headCoach": "Jesus (Chuy) Miramontes",
     "coachEmail": "msoccer@vanguard.edu",
     "annualTuitionUSD": 44730,
     "roomAndBoardUSD": 13790,
-    "scholarshipMax": "Max 12.0 scholarships (NAIA)",
+    "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "0% (0/34名)",
-    "notes": "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees",
+    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees 【所属変更】2024-25にNAIA(Golden State Athletic)からNCAA D2(PacWest)へ移行。",
     "tags": [
-      "NAIA",
-      "Golden State Athletic",
+      "NCAA D2",
+      "PacWest",
       "California",
       "Needs Verification"
     ],
@@ -10054,7 +10021,7 @@ const INITIAL_COLLEGES = [
     "state": "FL",
     "region": "South",
     "division": "NCAA D2",
-    "conference": "Sunshine State",
+    "conference": "Peach Belt",
     "gender": "Men",
     "mascot": "Saints",
     "headCoach": "Thomas Coombes",
@@ -10064,10 +10031,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "48% (15/31名)",
-    "notes": "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】現在はPeach Belt。2027-28からSunshine State Conferenceへ移る予定。",
     "tags": [
       "NCAA D2",
-      "Sunshine State",
+      "Peach Belt",
       "Florida",
       "Needs Verification"
     ],
@@ -10086,21 +10053,21 @@ const INITIAL_COLLEGES = [
     "location": "Pensacola, Florida",
     "state": "FL",
     "region": "South",
-    "division": "NCAA D2",
-    "conference": "Gulf South",
+    "division": "NCAA D1",
+    "conference": "ASUN",
     "gender": "Men",
     "mascot": "Argonauts",
     "headCoach": "Bill Elliott",
     "coachEmail": "belliot@uwf.edu",
     "annualTuitionUSD": 20000,
     "roomAndBoardUSD": 10500,
-    "scholarshipMax": "Max 9.0 scholarships (D2)",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "30% (9/30名)",
-    "notes": "NCAA D2 / Gulf South。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D1 / ASUN。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】男子サッカーは2026-27からASUNでNCAA D1へ移行中（正式なD1会員は2029-30の見込み）。移行期間中はNCAA選手権に出場できない可能性があり、奨学金枠・編入規定は要確認。",
     "tags": [
-      "NCAA D2",
-      "Gulf South",
+      "NCAA D1",
+      "ASUN",
       "Florida",
       "Needs Verification"
     ],
@@ -10304,7 +10271,7 @@ const INITIAL_COLLEGES = [
     "state": "SC",
     "region": "South",
     "division": "NCAA D2",
-    "conference": "Peach Belt",
+    "conference": "Conference Carolinas",
     "gender": "Men",
     "mascot": "Patriots",
     "headCoach": "Luis Rincon",
@@ -10314,10 +10281,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "64% (28/44名)",
-    "notes": "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / Conference Carolinas。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】Peach BeltからConference Carolinasへ（NCAA D2一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NCAA D2",
-      "Peach Belt",
+      "Conference Carolinas",
       "South Carolina",
       "Needs Verification"
     ],
@@ -10820,7 +10787,7 @@ const INITIAL_COLLEGES = [
     "state": "KY",
     "region": "South",
     "division": "NCAA D2",
-    "conference": "GLVC",
+    "conference": "G-MAC",
     "gender": "Men",
     "mascot": "Panthers",
     "headCoach": "John Fusco",
@@ -10830,10 +10797,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "57% (20/35名)",
-    "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / G-MAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】GLVCからG-MAC(Great Midwest Athletic Conference)へ（NCAA D2一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NCAA D2",
-      "GLVC",
+      "G-MAC",
       "Kentucky",
       "Needs Verification"
     ],
@@ -10853,7 +10820,7 @@ const INITIAL_COLLEGES = [
     "state": "WI",
     "region": "Midwest",
     "division": "NCAA D2",
-    "conference": "GLVC",
+    "conference": "GLIAC",
     "gender": "Men",
     "mascot": "Rangers",
     "headCoach": "",
@@ -10863,10 +10830,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "29% (10/34名)",
-    "notes": "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / GLIAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】GLVCからGLIACへ（NCAA D2一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NCAA D2",
-      "GLVC",
+      "GLIAC",
       "Wisconsin",
       "Needs Verification"
     ],
@@ -11040,7 +11007,7 @@ const INITIAL_COLLEGES = [
     "state": "MI",
     "region": "Midwest",
     "division": "NCAA D2",
-    "conference": "GLIAC",
+    "conference": "G-MAC",
     "gender": "Men",
     "mascot": "Timberwolves",
     "headCoach": "",
@@ -11050,10 +11017,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NCAA D2 / GLIAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / G-MAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】GLIACからG-MAC(Great Midwest Athletic Conference)へ（NCAA D2一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NCAA D2",
-      "GLIAC",
+      "G-MAC",
       "Michigan",
       "Needs Verification"
     ],
@@ -11147,7 +11114,7 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "要確認",
-    "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【予定】2026-27シーズン終了後にNCAA D3(NEWMAC)へ移行予定。",
     "tags": [
       "NCAA D2",
       "NE-10",
@@ -11198,21 +11165,21 @@ const INITIAL_COLLEGES = [
     "location": "West Haven, Connecticut",
     "state": "CT",
     "region": "Northeast",
-    "division": "NCAA D2",
-    "conference": "NE-10",
+    "division": "NCAA D1",
+    "conference": "NEC",
     "gender": "Men",
     "mascot": "Chargers",
     "headCoach": "Tom Mattera",
     "coachEmail": "tmattera@newhaven.edu",
     "annualTuitionUSD": 46000,
     "roomAndBoardUSD": 17000,
-    "scholarshipMax": "Max 9.0 scholarships (D2)",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "33% (14/43名)",
-    "notes": "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+    "notes": "NCAA D1 / NEC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2025-26にNCAA D2(NE-10)を離れNCAA D1(NEC)へ移行中（正式なD1会員は2028-29の見込み）。移行期間中はNCAA選手権に出場できない可能性があり、奨学金枠・編入規定は要確認。",
     "tags": [
-      "NCAA D2",
-      "NE-10",
+      "NCAA D1",
+      "NEC",
       "Connecticut",
       "Needs Verification"
     ],
@@ -11637,35 +11604,6 @@ const INITIAL_COLLEGES = [
     "coachVerified": true
   },
   {
-    "id": "byuhawaii-mens",
-    "name": "BYU-Hawaii",
-    "location": "Laie, Hawaii",
-    "state": "HI",
-    "region": "West",
-    "division": "NCAA D2",
-    "conference": "PacWest",
-    "gender": "Men",
-    "mascot": "Seasiders",
-    "headCoach": "",
-    "coachEmail": "",
-    "annualTuitionUSD": 11000,
-    "roomAndBoardUSD": 9000,
-    "scholarshipMax": "Max 9.0 scholarships (D2)",
-    "intlFriendlyRating": "High",
-    "intlRosterPct": "要確認",
-    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-    "tags": [
-      "NCAA D2",
-      "PacWest",
-      "Hawaii",
-      "Needs Verification"
-    ],
-    "japanesePlayers": "未確認 (要問合せ)",
-    "rosterStats": "要確認",
-    "questionnaireUrl": "https://www.google.com/search?q=BYU-Hawaii+Men's+Soccer+Recruiting+Questionnaire",
-    "campUrl": "https://www.google.com/search?q=BYU-Hawaii+Soccer+ID+Camp"
-  },
-  {
     "id": "hawaiipacific-mens",
     "name": "Hawaii Pacific University",
     "location": "Honolulu, Hawaii",
@@ -11736,7 +11674,7 @@ const INITIAL_COLLEGES = [
     "state": "CA",
     "region": "West",
     "division": "NCAA D2",
-    "conference": "PacWest",
+    "conference": "CCAA",
     "gender": "Men",
     "mascot": "Sunbirds",
     "headCoach": "Cameron Shahrokhi",
@@ -11746,10 +11684,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 9.0 scholarships (D2)",
     "intlFriendlyRating": "High",
     "intlRosterPct": "8% (3/38名)",
-    "notes": "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid",
+    "notes": "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid 【所属変更】2026-27にPacWestからCCAAへ移籍。",
     "tags": [
       "NCAA D2",
-      "PacWest",
+      "CCAA",
       "California",
       "Needs Verification"
     ],
@@ -13028,7 +12966,7 @@ const INITIAL_COLLEGES = [
     "state": "MT",
     "region": "West",
     "division": "NAIA",
-    "conference": "Cascade Collegiate",
+    "conference": "Frontier",
     "gender": "Men",
     "mascot": "Fighting Saints",
     "headCoach": "Austin Shick",
@@ -13038,10 +12976,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "50% (13/26名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【所属変更】Cascade CollegiateからFrontier Conferenceへ（NAIA一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NAIA",
-      "Cascade Collegiate",
+      "Frontier",
       "Montana",
       "NAIA 2025 全米大会出場"
     ],
@@ -13570,7 +13508,7 @@ const INITIAL_COLLEGES = [
     "state": "MT",
     "region": "West",
     "division": "NAIA",
-    "conference": "Cascade Collegiate",
+    "conference": "Frontier",
     "gender": "Men",
     "mascot": "Battlin' Bears",
     "headCoach": "Milo Downey",
@@ -13580,10 +13518,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "55% (18/33名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【所属変更】Cascade CollegiateからFrontier Conferenceへ（NAIA一覧に基づく。加盟時期は未確認）。",
     "tags": [
       "NAIA",
-      "Cascade Collegiate",
+      "Frontier",
       "Montana",
       "NAIA 2025 全米大会出場"
     ],
@@ -13802,7 +13740,7 @@ const INITIAL_COLLEGES = [
     "state": "LA",
     "region": "South",
     "division": "NAIA",
-    "conference": "Red River Athletic",
+    "conference": "SSAC",
     "gender": "Men",
     "mascot": "Gold Rush",
     "headCoach": "Lucas Cordeiro",
@@ -13812,10 +13750,10 @@ const INITIAL_COLLEGES = [
     "scholarshipMax": "Max 12.0 scholarships (NAIA)",
     "intlFriendlyRating": "Extremely High",
     "intlRosterPct": "64% (18/28名)",
-    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / Regular-Season Champion)。ポジション表記Wは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+    "notes": "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / Regular-Season Champion)。ポジション表記Wは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【所属変更】2026-27にRed River AthleticからSSACへ移籍。",
     "tags": [
       "NAIA",
-      "Red River Athletic",
+      "SSAC",
       "Louisiana",
       "NAIA 2025 全米大会出場"
     ],
@@ -13829,6 +13767,198 @@ const INITIAL_COLLEGES = [
     "siteUrl": "https://xulagold.com/sports/mens-soccer",
     "financialRisk": 1,
     "financialNote": "指標上は問題なし / IPEDS 2020-21～2022-23"
+  },
+  {
+    "id": "loyolauniversitychic-mens",
+    "name": "Loyola University Chicago",
+    "location": "Chicago, Illinois",
+    "state": "IL",
+    "region": "Midwest",
+    "division": "NCAA D1",
+    "conference": "Atlantic 10",
+    "gender": "Men",
+    "mascot": "Ramblers",
+    "headCoach": "Kevin Robson",
+    "coachEmail": "krobson@luc.edu",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "intlRosterPct": "要確認",
+    "notes": "NCAA D1 / Atlantic 10。私立(カトリック)。 【費用】IPEDS 2023-24年度の公式値(私立)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "tags": [
+      "Atlantic 10",
+      "Midwest",
+      "Ramblers",
+      "D1 Men's Soccer"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Loyola+University+Chicago+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Loyola+University+Chicago+Soccer+ID+Camp",
+    "siteUrl": "https://loyolaramblers.com/sports/mens-soccer",
+    "coachVerified": true,
+    "strengthLevel": 2,
+    "strengthNote": "平均127位 (2026年 106位 / 2025年 151位 / 2024年 124位)",
+    "annualTuitionUSD": 51716,
+    "roomAndBoardUSD": 16894
+  },
+  {
+    "id": "northwesternuniversi-mens",
+    "name": "Northwestern University",
+    "location": "Evanston, Illinois",
+    "state": "IL",
+    "region": "Midwest",
+    "division": "NCAA D1",
+    "conference": "Big Ten",
+    "gender": "Men",
+    "mascot": "Wildcats",
+    "headCoach": "Russell Payne",
+    "coachEmail": "msoccer@northwestern.edu",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "intlRosterPct": "要確認",
+    "notes": "NCAA D1 / Big Ten。私立(アカデミックの難度が高い)。 【費用】IPEDS 2023-24年度の公式値(私立)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "tags": [
+      "Big Ten",
+      "Midwest",
+      "Wildcats",
+      "D1 Men's Soccer"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Northwestern+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Northwestern+University+Soccer+ID+Camp",
+    "siteUrl": "https://nusports.com/sports/mens-soccer",
+    "coachVerified": true,
+    "strengthLevel": 4,
+    "strengthNote": "平均54位 (2026年 50位 / 2025年 66位 / 2024年 47位)",
+    "annualTuitionUSD": 65997,
+    "roomAndBoardUSD": 20334
+  },
+  {
+    "id": "merrimackcollege-mens",
+    "name": "Merrimack College",
+    "location": "North Andover, Massachusetts",
+    "state": "MA",
+    "region": "Northeast",
+    "division": "NCAA D1",
+    "conference": "Metro",
+    "gender": "Men",
+    "mascot": "Warriors",
+    "headCoach": "Tony Martone",
+    "coachEmail": "martonea@merrimack.edu",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "intlRosterPct": "要確認",
+    "notes": "NCAA D1 / Metro。私立(カトリック)。2024-25にNCAA D1(旧MAAC、現Metro)へ昇格。 【費用】IPEDS 2023-24年度の公式値(私立)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "tags": [
+      "Metro",
+      "Northeast",
+      "Warriors",
+      "D1 Men's Soccer"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Merrimack+College+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Merrimack+College+Soccer+ID+Camp",
+    "siteUrl": "https://merrimackathletics.com/sports/mens-soccer",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均183位 (2026年 146位 / 2025年 201位 / 2024年 203位)",
+    "annualTuitionUSD": 51786,
+    "roomAndBoardUSD": 19995
+  },
+  {
+    "id": "iuindy-mens",
+    "name": "IU Indy (Indiana University Indianapolis)",
+    "location": "Indianapolis, Indiana",
+    "state": "IN",
+    "region": "Midwest",
+    "division": "NCAA D1",
+    "conference": "Horizon League",
+    "gender": "Men",
+    "mascot": "Jaguars",
+    "headCoach": "Keegan Boom",
+    "coachEmail": "kboom@iu.edu",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "intlRosterPct": "要確認",
+    "notes": "NCAA D1 / Horizon League。州立。旧IUPUIの運動部を2024年7月に引き継いだ。 【費用】IPEDS 2023-24年度の公式値(州立・州外学生)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "tags": [
+      "Horizon League",
+      "Midwest",
+      "Jaguars",
+      "D1 Men's Soccer"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=IU+Indy+(Indiana+University+Indianapolis)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=IU+Indy+(Indiana+University+Indianapolis)+Soccer+ID+Camp",
+    "siteUrl": "https://iuindyjags.com/sports/mens-soccer",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均170位 (2026年 184位 / 2025年 168位 / 2024年 158位)",
+    "annualTuitionUSD": 33717,
+    "roomAndBoardUSD": 13010
+  },
+  {
+    "id": "utahtechuniversity-mens",
+    "name": "Utah Tech University",
+    "location": "St. George, Utah",
+    "state": "UT",
+    "region": "West",
+    "division": "NCAA D1",
+    "conference": "Mountain West",
+    "gender": "Men",
+    "mascot": "Trailblazers",
+    "headCoach": "Jonny Broadhead",
+    "coachEmail": "jonny.broadhead@utahtech.edu",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "intlRosterPct": "要確認",
+    "notes": "NCAA D1 / Mountain West。州立。男子サッカーは2026-27からMountain West。 【費用】IPEDS 2023-24年度の公式値(州立・州外学生)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "tags": [
+      "Mountain West",
+      "West",
+      "Trailblazers",
+      "D1 Men's Soccer"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Utah+Tech+University+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Utah+Tech+University+Soccer+ID+Camp",
+    "siteUrl": "https://utahtechtrailblazers.com/sports/mens-soccer",
+    "coachVerified": true,
+    "strengthLevel": 1,
+    "strengthNote": "平均178位 (2026年 205位 / 2025年 152位 / 2024年 177位)",
+    "annualTuitionUSD": 17644,
+    "roomAndBoardUSD": 9308
+  },
+  {
+    "id": "loyolamarymountunive-mens",
+    "name": "Loyola Marymount University (LMU)",
+    "location": "Los Angeles, California",
+    "state": "CA",
+    "region": "West",
+    "division": "NCAA D1",
+    "conference": "WCC",
+    "gender": "Men",
+    "mascot": "Lions",
+    "headCoach": "Kyle Schmid",
+    "coachEmail": "msoccer@lmu.edu",
+    "scholarshipMax": "Max 28 (Roster Limit: 28 / 新ルール)",
+    "intlRosterPct": "要確認",
+    "notes": "NCAA D1 / WCC。私立(カトリック)。 【費用】IPEDS 2023-24年度の公式値(私立)。学費=授業料+諸費、寮費=住居+食費。最新年度の金額・留学生追加費用・保険は公式サイトで要確認。留学生比率・ロースター(日本人在籍)も未確認のため要確認。",
+    "tags": [
+      "WCC",
+      "West",
+      "Lions",
+      "D1 Men's Soccer"
+    ],
+    "japanesePlayers": "未確認 (要問合せ)",
+    "rosterStats": "要確認",
+    "questionnaireUrl": "https://www.google.com/search?q=Loyola+Marymount+University+(LMU)+Men's+Soccer+Recruiting+Questionnaire",
+    "campUrl": "https://www.google.com/search?q=Loyola+Marymount+University+(LMU)+Soccer+ID+Camp",
+    "siteUrl": "https://lmulions.com/sports/mens-soccer",
+    "coachVerified": true,
+    "strengthLevel": 2,
+    "strengthNote": "平均125位 (2026年 153位 / 2025年 105位 / 2024年 118位)",
+    "annualTuitionUSD": 58489,
+    "roomAndBoardUSD": 20713
   }
 ];
 
@@ -15855,6 +15985,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans.",
       "Spanos Stadium. Famous Blue-Green rivalry draws 11,000+ fans. 学費・寮費は公式2026-27年度 留学生(新入生/SLO)の金額: 学費・諸費$40,049(Science&Math/Business/Liberal Arts。Engineering/Architecture/Agricultureは$41,087)=州民分$14,682+非居住者$14,130+Opportunity Fee$8,804+留学生手数料$900+必須保険$1,533。寮費$20,338=On Campus住居$12,682+食費$7,656。"
+    ],
+    "conference": [
+      "Big West",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "Big West",
+        "West",
+        "Mustangs",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Pac-12",
+        "West",
+        "Mustangs",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "ucirvine-mens": {
@@ -15945,6 +16093,24 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "conference": [
+      "Big West",
+      "Mountain West"
+    ],
+    "tags": [
+      [
+        "Big West",
+        "West",
+        "Aggies",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Mountain West",
+        "West",
+        "Aggies",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "calstatenorthridgecs-mens": {
@@ -16021,6 +16187,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "2022 Big West Champions. UC Soccer Stadium.",
       "2022 Big West Champions. UC Soccer Stadium. 【費用】公式2026-27年度 新入生・非居住者(University Housing)。学費=学費$15,588+キャンパス・テック諸費$1,202+非居住者追加$39,270+健康保険$2,824。寮費=住居$13,793+食費$7,282。出典 financialaid.ucr.edu/cost"
+    ],
+    "conference": [
+      "Big West",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "Big West",
+        "West",
+        "Highlanders",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Pac-12",
+        "West",
+        "Highlanders",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "ucsandiegoucsd-mens": {
@@ -16059,6 +16243,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。",
       "サンディエゴ・ラホヤのSTEM最高峰。国内アカデミー出身選手中心。 【費用】公式2026-27年度 2026 Cohort・非居住者(On Campus)。学費=学費$15,588+キャンパス諸費$2,511+Health Fee$3,195+入学手数料$225+非居住者追加$39,270。寮費=住居$13,761+食費$6,981。出典 fas.ucsd.edu/cost-of-attendance/undergraduates"
+    ],
+    "conference": [
+      "Big West",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "Big West",
+        "West",
+        "Tritons",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Pac-12",
+        "West",
+        "Tritons",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "sacramentostate-mens": {
@@ -16265,6 +16467,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks.",
       "Paul Lorenz Field. #1 Overall NCAA Seed in 2021 & elite MLS picks. 【費用】公式2026-27年度 Corvallis Campus 非居住者学部生(15単位×3学期)。学費=授業料・諸費$42,459。寮費=Living Expenses(食費・住居)$18,066。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 financialaid.oregonstate.edu/cost-attendance"
+    ],
+    "conference": [
+      "WCC",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "WCC",
+        "West",
+        "Beavers",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Pac-12",
+        "West",
+        "Beavers",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "santaclarauniversity-mens": {
@@ -16457,6 +16677,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "WCC",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "WCC",
+        "West",
+        "Bulldogs",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Pac-12",
+        "West",
+        "Bulldogs",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "universityofthepacif-mens": {
@@ -16685,6 +16923,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認) Shun Murasawa"
+    ],
+    "conference": [
+      "Atlantic 10",
+      "Summit League"
+    ],
+    "tags": [
+      [
+        "Atlantic 10",
+        "Northeast",
+        "Minutemen",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Summit League",
+        "Northeast",
+        "Minutemen",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "davidsoncollege-mens": {
@@ -17225,6 +17481,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "CAA",
+      "Summit League"
+    ],
+    "tags": [
+      [
+        "CAA",
+        "Northeast",
+        "Blue Hens",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Summit League",
+        "Northeast",
+        "Blue Hens",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "william&mary-mens": {
@@ -17695,6 +17969,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認)"
+    ],
+    "conference": [
+      "Missouri Valley",
+      "American Athletic"
+    ],
+    "tags": [
+      [
+        "Missouri Valley",
+        "Midwest",
+        "Bears",
+        "D1 Men's Soccer"
+      ],
+      [
+        "American Athletic",
+        "Midwest",
+        "Bears",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "uicunivofillinoischi-mens": {
@@ -17945,6 +18237,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "conference": [
+      "Missouri Valley",
+      "Horizon League"
+    ],
+    "tags": [
+      [
+        "Missouri Valley",
+        "Midwest",
+        "Huskies",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Horizon League",
+        "Midwest",
+        "Huskies",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "seattleuniversity-mens": {
@@ -17991,6 +18301,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "Championship Field in downtown Seattle. Multiple WAC titles.",
       "Championship Field in downtown Seattle. Multiple WAC titles. 【費用】公式2026-27年度 On Campus。学費=授業料$59,400+技術費$642+Wellness$516+Activity$198+留学生保険$2,392(waive可だが必須扱いで算入)。寮費=住居$11,202+食費$6,426。私立のため留学生も同額。出典 seattleu.edu/admissions-aid/tuition-and-fees/undergraduate-cost-of-attendance/"
+    ],
+    "conference": [
+      "WAC",
+      "WCC"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Redhawks",
+        "D1 Men's Soccer"
+      ],
+      [
+        "WCC",
+        "West",
+        "Redhawks",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "grandcanyongcu-mens": {
@@ -18013,6 +18341,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認 / 出身地不明1名)"
+    ],
+    "conference": [
+      "WAC",
+      "Mountain West"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Antelopes",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Mountain West",
+        "West",
+        "Antelopes",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "californiabaptistcbu-mens": {
@@ -18059,6 +18405,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "CBU Soccer Stadium. 2022 WAC Champions in SoCal.",
       "CBU Soccer Stadium. 2022 WAC Champions in SoCal. 【費用】公式2027-28年度(最新公開分)。学費=授業料(13-18単位)$43,966+諸費$2,150。寮費=共用部屋+新入生最低ミールプランの合計$13,794。私立のため留学生も同額、健康保険(任意加入、1学期約$1,300-1,500)は含まず。出典 calbaptist.edu/admissions-aid/tuition-aid/undergraduate/cost-of-attendance"
+    ],
+    "conference": [
+      "WAC",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Lancers",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Pac-12",
+        "West",
+        "Lancers",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "sanjosestatesjsu-mens": {
@@ -18093,6 +18457,24 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。",
       "シリコンバレーの州立名門。Simon Tobin名将（通算350勝超）。日本人選手(Kazushi Shimada)在籍。 【費用】公式2026-27年度 Campus Housing。学費=授業料$9,553+IRA$245+非居住者追加$14,130(公式は$471/単位×30単位の試算)。寮費=住居$15,543+食費$7,369。留学生手数料・保険は公式表に記載なし(別途かかる可能性)。出典 sjsu.edu/faso/process/cost-of-attendance.php"
+    ],
+    "conference": [
+      "WAC",
+      "Mountain West"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Spartans",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Mountain West",
+        "West",
+        "Spartans",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "unlv-mens": {
@@ -18119,6 +18501,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "1名 (公式ロスター確認) Yuto Oketani"
+    ],
+    "conference": [
+      "WAC",
+      "Mountain West"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Rebels",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Mountain West",
+        "West",
+        "Rebels",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "airforceacademy-mens": {
@@ -18145,6 +18545,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "conference": [
+      "WAC",
+      "Mountain West"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Falcons",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Mountain West",
+        "West",
+        "Falcons",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "utahvalleyuvu-mens": {
@@ -18183,6 +18601,24 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "conference": [
+      "WAC",
+      "Big West"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "West",
+        "Wolverines",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Big West",
+        "West",
+        "Wolverines",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "utrgv-mens": {
@@ -18209,6 +18645,24 @@ const COLLEGE_DATA_FIXES = {
     "japanesePlayers": [
       "0名 (要問合せ)",
       "0名 (公式ロスター確認)"
+    ],
+    "conference": [
+      "WAC",
+      "OVC"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "South",
+        "Vaqueros",
+        "D1 Men's Soccer"
+      ],
+      [
+        "OVC",
+        "South",
+        "Vaqueros",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "incarnateworduiw-mens": {
@@ -18251,6 +18705,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "WAC",
+      "OVC"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "South",
+        "Cardinals",
+        "D1 Men's Soccer"
+      ],
+      [
+        "OVC",
+        "South",
+        "Cardinals",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "houstonchristian-mens": {
@@ -18285,6 +18757,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "WAC",
+      "OVC"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "South",
+        "Huskies",
+        "D1 Men's Soccer"
+      ],
+      [
+        "OVC",
+        "South",
+        "Huskies",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "universityofdenver-mens": {
@@ -18315,6 +18805,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "Summit League",
+      "WCC"
+    ],
+    "tags": [
+      [
+        "Summit League",
+        "West",
+        "Pioneers",
+        "D1 Men's Soccer"
+      ],
+      [
+        "WCC",
+        "West",
+        "Pioneers",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "oralrobertsoru-mens": {
@@ -18473,6 +18981,24 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "conference": [
+      "Summit League",
+      "OVC"
+    ],
+    "tags": [
+      [
+        "Summit League",
+        "Midwest",
+        "Leathernecks",
+        "D1 Men's Soccer"
+      ],
+      [
+        "OVC",
+        "Midwest",
+        "Leathernecks",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "bostonuniversitybu-mens": {
@@ -19637,6 +20163,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Gaels",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Gaels",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "quinnipiacuniversity-mens": {
@@ -19671,6 +20215,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Bobcats",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Bobcats",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "rideruniversity-mens": {
@@ -19717,6 +20279,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支が赤字(収入が支出の82%)、純資産が支出の0.6年分しかない、純資産が3年で40%減、負債が総資産の65% / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Broncs",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Broncs",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "maristcollege-mens": {
@@ -19751,6 +20331,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Red Foxes",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Red Foxes",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "sienacollege-mens": {
@@ -19785,6 +20383,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Saints",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Saints",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "fairfielduniversity-mens": {
@@ -19819,6 +20435,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Stags",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Stags",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "manhattanuniversity-mens": {
@@ -19865,6 +20499,24 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Jaspers",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Jaspers",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "mountstmarys-mens": {
@@ -19899,6 +20551,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Mountaineers",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Mountaineers",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "niagarauniversity-mens": {
@@ -19941,6 +20611,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Purple Eagles",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Purple Eagles",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "canisiusuniversity-mens": {
@@ -19975,6 +20663,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Golden Griffins",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Golden Griffins",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "saintpetersuniversit-mens": {
@@ -20017,6 +20723,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "MAAC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "MAAC",
+        "Northeast",
+        "Peacocks",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Peacocks",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "saintfrancisuniversi-mens": {
@@ -20223,6 +20947,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "NEC",
+      "Metro"
+    ],
+    "tags": [
+      [
+        "NEC",
+        "Northeast",
+        "Pioneers",
+        "D1 Men's Soccer"
+      ],
+      [
+        "Metro",
+        "Northeast",
+        "Pioneers",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "centralconnecticutst-mens": {
@@ -20405,6 +21147,10 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "notes": [
+      "Saxon Stadium in Erie PA.",
+      "Saxon Stadium in Erie PA. 【参考】2024-25からNCAA D1へ移行中（正式なD1会員は2027-28の見込み）。"
     ]
   },
   "chicagostateuniversi-mens": {
@@ -20491,6 +21237,24 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "OVC",
+      "SoCon"
+    ],
+    "tags": [
+      [
+        "OVC",
+        "South",
+        "Flames",
+        "D1 Men's Soccer"
+      ],
+      [
+        "SoCon",
+        "South",
+        "Flames",
+        "D1 Men's Soccer"
+      ]
     ]
   },
   "lindenwooduniversity-mens": {
@@ -20911,6 +21675,22 @@ const COLLEGE_DATA_FIXES = {
     "notes": [
       "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse.",
       "SDSU Sports Deck overlooking San Diego. Top West Coast recruiting powerhouse. 【費用】公式 2027年秋入学の非居住者・留学生(University Housing)。学費=基本授業料$7,248+キャンパス諸費$3,098+非居住者授業料$14,940+州外・留学生手数料$3,216。寮費=食事$6,250+住居$15,294。健康保険は公式表に記載なし(別途かかる可能性)。出典 sacd.sdsu.edu/financial-aid/.../cost-of-attendance-tables/undergraduate-non-resident"
+    ],
+    "conference": [
+      "WAC",
+      "Pac-12"
+    ],
+    "tags": [
+      [
+        "WAC",
+        "San Diego",
+        "Aztecs"
+      ],
+      [
+        "Pac-12",
+        "San Diego",
+        "Aztecs"
+      ]
     ]
   },
   "franklinpierce-mens": {
@@ -21465,20 +22245,20 @@ const COLLEGE_DATA_FIXES = {
       "Monroe University (New York)"
     ],
     "division": [
-      "NJCAA D1",
-      "NCAA D2"
+      "NCAA D2",
+      "NJCAA D1"
     ],
     "conference": [
-      "Region 15",
-      "要確認 (2026-27〜 NCAA D2 移行)"
+      "要確認 (2026-27〜 NCAA D2 移行)",
+      "Independent (2027-28〜 CACC予定)"
     ],
     "scholarshipMax": [
-      "Max 18.0 scholarships",
-      "Max 9.0 scholarships (D2)"
+      "Max 9.0 scholarships (D2)",
+      "Max 18.0 full scholarships (NJCAA D1 Full Ride possible)"
     ],
     "notes": [
-      "2x NJCAA D1 National Champions (2019, 2022). Located just outside Manhattan NYC with world-renowned tactical coaching.",
-      "2026-27シーズンからNJCAA D1よりNCAA Division IIへ移行（旧称 Monroe College → 現 Monroe University）。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2のため奨学金枠・編入規定は要確認。"
+      "2026-27シーズンからNJCAA D1よりNCAA Division IIへ移行（旧称 Monroe College → 現 Monroe University）。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2のため奨学金枠・編入規定は要確認。",
+      "現在はNJCAA D1。NCAA Division IIへは2026年に加盟申請中で、承認されれば2027-28からCACC(Central Atlantic Collegiate Conference)に加盟予定。旧称 Monroe College → 現 Monroe University。NJCAA D1 全米王者2回(2019, 2022)の実績。NYC近郊。D2承認後の奨学金枠・編入規定は要確認。"
     ],
     "questionnaireUrl": [
       "https://www.google.com/search?q=Monroe+College+(New+York)+Men's+Soccer+Recruiting+Questionnaire",
@@ -21487,6 +22267,20 @@ const COLLEGE_DATA_FIXES = {
     "campUrl": [
       "https://www.google.com/search?q=Monroe+College+(New+York)+Soccer+ID+Camp",
       "https://www.google.com/search?q=Monroe+University+(New+York)+Soccer+ID+Camp"
+    ],
+    "tags": [
+      [
+        "NYC Metro",
+        "NJCAA Champion",
+        "High Pro Output",
+        "D2移行(2026-27)"
+      ],
+      [
+        "NYC Metro",
+        "NJCAA Champion",
+        "High Pro Output",
+        "D2申請中"
+      ]
     ]
   },
   "saltlake-mens": {
@@ -21696,6 +22490,30 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "sdecou@ggc.edu"
+    ],
+    "conference": [
+      "The Sun",
+      "Continental Athletic"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "The Sun",
+        "Georgia",
+        "Needs Verification",
+        "NAIA 2025 全米大会出場"
+      ],
+      [
+        "NAIA",
+        "Continental Athletic",
+        "Georgia",
+        "Needs Verification",
+        "NAIA 2025 全米大会出場"
+      ]
+    ],
+    "notes": [
+      "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Continental Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】The SunからContinental Athletic Conferenceへ（NAIA一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "thomasuniversity-mens": {
@@ -21722,6 +22540,28 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "wjeffery@thomasu.edu"
+    ],
+    "conference": [
+      "The Sun",
+      "SSAC"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "The Sun",
+        "Georgia",
+        "Needs Verification"
+      ],
+      [
+        "NAIA",
+        "SSAC",
+        "Georgia",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / SSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2023-24にThe SunからSSACへ移籍。"
     ]
   },
   "pointuniversity-mens": {
@@ -21736,6 +22576,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "純資産が支出の0.7年分しかない、純資産が3年で15%減、負債が総資産の62% / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "The Sun",
+      "SSAC"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "The Sun",
+        "Georgia",
+        "Needs Verification"
+      ],
+      [
+        "NAIA",
+        "SSAC",
+        "Georgia",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NAIA / The Sun。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / SSAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2023-24にThe SunからSSACへ移籍。"
     ]
   },
   "cumberlands-mens": {
@@ -21990,6 +22852,10 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "pitcock@txwes.edu"
+    ],
+    "notes": [
+      "NAIA / Sooner Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Sooner Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【予定】2028年7月までにNCAA D2(Lone Star Conference)への移行を開始予定。現在はNAIA(Sooner Athletic)。"
     ]
   },
   "oklahomacity-mens": {
@@ -22046,6 +22912,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "Great Plains Athletic",
+      "Frontier"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Great Plains Athletic",
+        "Nebraska",
+        "Needs Verification"
+      ],
+      [
+        "NAIA",
+        "Frontier",
+        "Nebraska",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NAIA / Great Plains Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Frontier。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2025-26にGreat PlainsからFrontier Conferenceへ移籍。"
     ]
   },
   "benedictine-mens": {
@@ -22112,6 +23000,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "運営収支がやや赤字(収入が支出の94%)、純資産が支出の0.9年分と薄い、純資産が3年で19%減 / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "Heart of America",
+      "KCAC"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Heart of America",
+        "Missouri",
+        "Needs Verification"
+      ],
+      [
+        "NAIA",
+        "KCAC",
+        "Missouri",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NAIA / Heart of America。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / KCAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】Heart of AmericaからKCACへ（NAIA一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "columbiacollegemo-mens": {
@@ -22182,6 +23092,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "River States",
+      "Appalachian Athletic"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "River States",
+        "Kentucky",
+        "Needs Verification"
+      ],
+      [
+        "NAIA",
+        "Appalachian Athletic",
+        "Kentucky",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NAIA / River States。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NAIA / Appalachian Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】River StatesからAppalachian Athleticへ移籍。"
     ]
   },
   "shawneestate-mens": {
@@ -22194,16 +23126,16 @@ const COLLEGE_DATA_FIXES = {
       "NCAA D2"
     ],
     "conference": [
-      "River States",
-      "要確認 (旧NAIA River States → NCAA D2 移行)"
+      "要確認 (旧NAIA River States → NCAA D2 移行)",
+      "Mountain East"
     ],
     "scholarshipMax": [
       "Max 12.0 scholarships (NAIA)",
       "Max 9.0 scholarships (D2)"
     ],
     "notes": [
-      "NAIA / River States。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-      "NAIA(River States)からNCAA D2へ移行。移行時期・所属カンファレンス・D2加盟状況(暫定会員の期間など)は公式サイトで要確認。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)も要確認。"
+      "NAIA(River States)からNCAA D2へ移行。移行時期・所属カンファレンス・D2加盟状況(暫定会員の期間など)は公式サイトで要確認。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)も要確認。",
+      "2026-27からMountain East Conference(MEC)に加盟し、NAIA(River States)からNCAA D2へ移行中。NCAA D2の加盟は承認済みで、正式会員となるのは2028年の見込み(Wikipedia D2一覧)。移行期間中の扱い・学費・寮費・ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。"
     ],
     "tags": [
       [
@@ -22254,8 +23186,34 @@ const COLLEGE_DATA_FIXES = {
       18340
     ],
     "notes": [
-      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services"
+      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services",
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$56,630+諸費$1,596。寮費=Room $10,830+Board $7,510。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 westmont.edu/admissions/student-financial-services 【所属変更】2023-24にNAIA(Golden State Athletic)からNCAA D2(PacWest)へ移行。"
+    ],
+    "division": [
+      "NAIA",
+      "NCAA D2"
+    ],
+    "conference": [
+      "Golden State Athletic",
+      "PacWest"
+    ],
+    "scholarshipMax": [
+      "Max 12.0 scholarships (NAIA)",
+      "Max 9.0 scholarships (D2)"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Golden State Athletic",
+        "California",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "PacWest",
+        "California",
+        "Needs Verification"
+      ]
     ]
   },
   "vanguard-mens": {
@@ -22300,8 +23258,34 @@ const COLLEGE_DATA_FIXES = {
       13790
     ],
     "notes": [
-      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees"
+      "NAIA / Golden State Athletic。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees",
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$21,890×2学期+学生サービス費$475×2学期。寮費=Newport/Balboa Hall Double $4,235×2学期+12食/週ミールプラン$2,660×2学期(寮・食事の種類で変動)。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 vanguard.edu/resources/accounting/tuition-and-fees 【所属変更】2024-25にNAIA(Golden State Athletic)からNCAA D2(PacWest)へ移行。"
+    ],
+    "division": [
+      "NAIA",
+      "NCAA D2"
+    ],
+    "conference": [
+      "Golden State Athletic",
+      "PacWest"
+    ],
+    "scholarshipMax": [
+      "Max 12.0 scholarships (NAIA)",
+      "Max 9.0 scholarships (D2)"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Golden State Athletic",
+        "California",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "PacWest",
+        "California",
+        "Needs Verification"
+      ]
     ]
   },
   "corban-mens": {
@@ -22510,6 +23494,28 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "tcoombes@flagler.edu"
+    ],
+    "conference": [
+      "Sunshine State",
+      "Peach Belt"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "Sunshine State",
+        "Florida",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "Peach Belt",
+        "Florida",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / Sunshine State。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】現在はPeach Belt。2027-28からSunshine State Conferenceへ移る予定。"
     ]
   },
   "westflorida-mens": {
@@ -22536,6 +23542,36 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "belliot@uwf.edu"
+    ],
+    "division": [
+      "NCAA D2",
+      "NCAA D1"
+    ],
+    "conference": [
+      "Gulf South",
+      "ASUN"
+    ],
+    "scholarshipMax": [
+      "Max 9.0 scholarships (D2)",
+      "Max 28 (Roster Limit: 28 / 新ルール)"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "Gulf South",
+        "Florida",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D1",
+        "ASUN",
+        "Florida",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / Gulf South。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D1 / ASUN。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】男子サッカーは2026-27からASUNでNCAA D1へ移行中（正式なD1会員は2029-30の見込み）。移行期間中はNCAA選手権に出場できない可能性があり、奨学金枠・編入規定は要確認。"
     ]
   },
   "leeuniversity-mens": {
@@ -22682,6 +23718,28 @@ const COLLEGE_DATA_FIXES = {
     "assistantCoachEmail": [
       null,
       "nicolas.rodriguez@fmarion.edu"
+    ],
+    "conference": [
+      "Peach Belt",
+      "Conference Carolinas"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "Peach Belt",
+        "South Carolina",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "Conference Carolinas",
+        "South Carolina",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / Peach Belt。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / Conference Carolinas。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】Peach BeltからConference Carolinasへ（NCAA D2一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "uncpembroke-mens": {
@@ -23102,6 +24160,28 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "jfusco@kwc.edu"
+    ],
+    "conference": [
+      "GLVC",
+      "G-MAC"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "GLVC",
+        "Kentucky",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "G-MAC",
+        "Kentucky",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / G-MAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】GLVCからG-MAC(Great Midwest Athletic Conference)へ（NCAA D2一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "uwparkside-mens": {
@@ -23116,6 +24196,28 @@ const COLLEGE_DATA_FIXES = {
     "rosterStats": [
       "要確認",
       "公式ロスター全34名 / 留学生10名 / MF 14名 (Sr・Gr 4名)"
+    ],
+    "conference": [
+      "GLVC",
+      "GLIAC"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "GLVC",
+        "Wisconsin",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "GLIAC",
+        "Wisconsin",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / GLVC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / GLIAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】GLVCからGLIACへ（NCAA D2一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "illinoisspringfield-mens": {
@@ -23244,6 +24346,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "GLIAC",
+      "G-MAC"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "GLIAC",
+        "Michigan",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "G-MAC",
+        "Michigan",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / GLIAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / G-MAC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】GLIACからG-MAC(Great Midwest Athletic Conference)へ（NCAA D2一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "adelphi-mens": {
@@ -23326,6 +24450,10 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "notes": [
+      "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【予定】2026-27シーズン終了後にNCAA D3(NEWMAC)へ移行予定。"
     ]
   },
   "southernct-mens": {
@@ -23386,6 +24514,36 @@ const COLLEGE_DATA_FIXES = {
     "coachEmail": [
       "",
       "tmattera@newhaven.edu"
+    ],
+    "division": [
+      "NCAA D2",
+      "NCAA D1"
+    ],
+    "conference": [
+      "NE-10",
+      "NEC"
+    ],
+    "scholarshipMax": [
+      "Max 9.0 scholarships (D2)",
+      "Max 28 (Roster Limit: 28 / 新ルール)"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "NE-10",
+        "Connecticut",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D1",
+        "NEC",
+        "Connecticut",
+        "Needs Verification"
+      ]
+    ],
+    "notes": [
+      "NCAA D2 / NE-10。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
+      "NCAA D1 / NEC。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【所属変更】2025-26にNCAA D2(NE-10)を離れNCAA D1(NEC)へ移行中（正式なD1会員は2028-29の見込み）。移行期間中はNCAA選手権に出場できない可能性があり、奨学金枠・編入規定は要確認。"
     ]
   },
   "assumption-mens": {
@@ -23682,12 +24840,6 @@ const COLLEGE_DATA_FIXES = {
       "aasmith@concord.edu"
     ]
   },
-  "byuhawaii-mens": {
-    "japanesePlayers": [
-      "0名 (要問合せ)",
-      "未確認 (要問合せ)"
-    ]
-  },
   "hawaiipacific-mens": {
     "japanesePlayers": [
       "0名 (要問合せ)",
@@ -23770,8 +24922,26 @@ const COLLEGE_DATA_FIXES = {
       10757
     ],
     "notes": [
-      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。",
-      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid"
+      "NCAA D2 / PacWest。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid",
+      "NCAA D2 / CCAA。学費・寮費は概算。ヘッドコーチ・コーチ連絡先・ロースター(日本人在籍)は公式サイトで要確認。 【費用】公式2026-27年度。学費=授業料$37,990+学生会費$920。寮費=住居$4,965+食事$5,792。私立のため留学生も同額、公式表に留学生手数料・保険の記載なし。出典 fresno.edu/undergraduate/tuition-financial-aid 【所属変更】2026-27にPacWestからCCAAへ移籍。"
+    ],
+    "conference": [
+      "PacWest",
+      "CCAA"
+    ],
+    "tags": [
+      [
+        "NCAA D2",
+        "PacWest",
+        "California",
+        "Needs Verification"
+      ],
+      [
+        "NCAA D2",
+        "CCAA",
+        "California",
+        "Needs Verification"
+      ]
     ]
   },
   "dominicanca-mens": {
@@ -24732,6 +25902,10 @@ const COLLEGE_DATA_FIXES = {
     "coachVerified": [
       null,
       true
+    ],
+    "notes": [
+      "NCAA唯一のカナダ加盟校。全米Final Four進出2回。バンクーバー近郊の最高峰環境。",
+      "NCAA唯一のカナダ加盟校。全米Final Four進出2回。バンクーバー近郊の最高峰環境。 【注意】2025年11月にNCAA脱退を発表し、2027年からU Sports(カナダ)へ復帰予定。"
     ]
   },
   "snhu-mens": {
@@ -25072,24 +26246,6 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
-    ]
-  },
-  "limestone-mens": {
-    "intlRosterPct": [
-      "80%",
-      "要確認"
-    ],
-    "rosterStats": [
-      "部員32名中 留学生25名 (78%) / 欧州, 南米",
-      "要確認"
-    ],
-    "financialRisk": [
-      null,
-      3
-    ],
-    "financialNote": [
-      null,
-      "運営収支が赤字(収入が支出の89%)、純資産が支出の0.7年分しかない、純資産が3年で42%減、負債が総資産の56% / IPEDS 2020-21～2022-23"
     ]
   },
   "madisoncollege-mens": {
@@ -25543,6 +26699,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "Cascade Collegiate",
+      "Frontier"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Cascade Collegiate",
+        "Montana",
+        "NAIA 2025 全米大会出場"
+      ],
+      [
+        "NAIA",
+        "Frontier",
+        "Montana",
+        "NAIA 2025 全米大会出場"
+      ]
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【所属変更】Cascade CollegiateからFrontier Conferenceへ（NAIA一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "indianatech-mens": {
@@ -25647,6 +26825,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "Cascade Collegiate",
+      "Frontier"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Cascade Collegiate",
+        "Montana",
+        "NAIA 2025 全米大会出場"
+      ],
+      [
+        "NAIA",
+        "Frontier",
+        "Montana",
+        "NAIA 2025 全米大会出場"
+      ]
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (Cascade Collegiate Conference / At-Large)。学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【所属変更】Cascade CollegiateからFrontier Conferenceへ（NAIA一覧に基づく。加盟時期は未確認）。"
     ]
   },
   "warnerpacific-mens": {
@@ -25711,6 +26911,28 @@ const COLLEGE_DATA_FIXES = {
     "financialNote": [
       null,
       "指標上は問題なし / IPEDS 2020-21～2022-23"
+    ],
+    "conference": [
+      "Red River Athletic",
+      "SSAC"
+    ],
+    "tags": [
+      [
+        "NAIA",
+        "Red River Athletic",
+        "Louisiana",
+        "NAIA 2025 全米大会出場"
+      ],
+      [
+        "NAIA",
+        "SSAC",
+        "Louisiana",
+        "NAIA 2025 全米大会出場"
+      ]
+    ],
+    "notes": [
+      "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / Regular-Season Champion)。ポジション表記Wは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。",
+      "NAIA 2025全米大会(男子サッカー)出場校 (Red River Athletic Conference / Regular-Season Champion)。ポジション表記Wは中盤として集計せず(MF表記のみ)。 学費・寮費は未確認 (公式サイトで要確認)。ロスターは公式サイトの現行(2026シーズン)ロスターから集計。 【所属変更】2026-27にRed River AthleticからSSACへ移籍。"
     ]
   },
   "concordianeb-mens": {

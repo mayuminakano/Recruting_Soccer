@@ -1394,8 +1394,18 @@ function renderExplorer() {
               <span class="font-semibold text-slate-200">GPA ${esc(col.targetGPA || '-')} | TOEFL ${esc(col.minTOEFL || '-')}</span>
             </div>
             <div>
-              <span class="text-slate-500 block">留学生比率 / 受入度</span>
-              <span class="font-semibold text-sky-400">${esc(col.intlFriendlyRating)} (${esc(col.intlRosterPct || '-')})</span>
+              <span class="text-slate-500 block">留学生受入度</span>
+              <span class="font-semibold text-sky-400">${esc(col.intlFriendlyRating || '-')}</span>
+            </div>
+            <div class="col-span-2">
+              <span class="text-slate-500 block">留学生の割合 (公式ロスター)</span>
+              ${(() => {
+                const m = /(\d+(?:\.\d+)?)%\s*\((\d+)\/(\d+)/.exec(col.intlRosterPct || "");
+                if (!m) return `<span class="font-semibold text-slate-400">${esc(col.intlRosterPct || '要確認')}</span>`;
+                const pct = Number(m[1]);
+                return `<span class="font-bold text-sky-300 text-sm">${pct}%</span> <span class="font-semibold text-sky-400">(留学生 ${m[2]}名 / 全${m[3]}名)</span>
+                  <span class="block h-1.5 mt-1 rounded bg-slate-700 overflow-hidden"><span class="block h-full bg-sky-500" style="width:${Math.min(100, pct)}%"></span></span>`;
+              })()}
             </div>
             <div class="col-span-2">
               <span class="text-slate-500 block">強度 (強豪度)</span>
@@ -1472,6 +1482,9 @@ function renderExplorer() {
                 <i data-lucide="check" class="w-3.5 h-3.5"></i> 管理中
               </button>
             ` : `
+              <button onclick="closeCollegeDirect(${jsArg(col.id)})" class="px-2.5 py-1.5 text-xs font-semibold text-red-300 hover:text-white bg-red-950/60 hover:bg-red-800 border border-red-800/70 rounded-lg transition flex items-center gap-1" title="この大学を見送りにして、検索一覧から外す（見送りタブに移動）">
+                <i data-lucide="x-circle" class="w-3.5 h-3.5"></i> 見送り
+              </button>
               <button onclick="addToPipelinePrompt(${jsArg(col.id)})" class="px-2.5 py-1.5 text-xs font-semibold text-white bg-sky-600 hover:bg-sky-500 rounded-lg transition shadow flex items-center gap-1">
                 <i data-lucide="plus" class="w-3.5 h-3.5"></i> 追加
               </button>
@@ -1701,6 +1714,9 @@ function openCollegeDetailModal(collegeId) {
             <i data-lucide="send" class="w-3.5 h-3.5"></i> メール作成
           </button>
           ${!inPipeline ? `
+            <button onclick="closeCollegeDirect(${jsArg(col.id)}, true)" class="px-3 py-1.5 text-xs bg-red-950/70 hover:bg-red-800 text-red-300 hover:text-white border border-red-800/70 font-medium rounded-lg flex items-center gap-1">
+              <i data-lucide="x-circle" class="w-3.5 h-3.5"></i> 見送り
+            </button>
             <button onclick="addToPipelinePrompt(${jsArg(col.id)}); closeCollegeDetailModal();" class="px-3 py-1.5 text-xs bg-emerald-600 hover:bg-emerald-500 text-white font-medium rounded-lg flex items-center gap-1">
               <i data-lucide="plus" class="w-3.5 h-3.5"></i> パイプラインに追加
             </button>
@@ -2100,6 +2116,40 @@ function reopenClosedCollege(pipeId) {
   renderDashboard();
   renderExplorer();
   showToast("「候補・リサーチ中」に戻しました。大学データベース検索にも表示されます");
+}
+
+// Mark a college as Closed (見送り・不合格) straight from the search list / detail modal.
+// Optional reason is stored as the pipeline note. It moves to the Closed tab; "候補に戻す" there undoes it.
+function closeCollegeDirect(collegeId, fromModal = false) {
+  const col = state.colleges.find(c => c.id === collegeId);
+  if (!col) return;
+  if (state.pipeline.some(p => p.collegeId === collegeId)) {
+    alert("この大学は既にパイプラインに追加されています。ステータスは「リクルート選考管理」から変更してください。");
+    return;
+  }
+
+  const reason = prompt(`${col.name} を「見送り」にして検索一覧から外します。\n見送りの理由（任意・空欄でもOK）:`, "");
+  if (reason === null) return; // cancelled
+
+  state.pipeline.push({
+    id: "pipe-" + Date.now(),
+    collegeId: collegeId,
+    status: "Closed",
+    addedDate: new Date().toISOString().split("T")[0],
+    lastContactDate: "",
+    offerType: "None",
+    offerAmountUSD: 0,
+    coachContacted: col.headCoach || "",
+    notes: reason.trim(),
+    nextAction: "",
+    nextActionDate: ""
+  });
+  saveState("pipeline");
+  if (fromModal) closeCollegeDetailModal();
+  renderPipeline();
+  renderDashboard();
+  renderExplorer();
+  showToast(`${col.name} を見送りにしました（「見送り・不合格」タブで確認・戻せます）`);
 }
 
 function addToPipelinePrompt(collegeId) {
